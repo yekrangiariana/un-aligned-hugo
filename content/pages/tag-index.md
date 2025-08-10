@@ -1,6 +1,6 @@
 ---
 title: "Tag Index"
-date: 2025-05-07T12:00:00+00:00
+date: 2025-06-07T12:00:00+00:00
 draft: false
 description: "Browse all tags of UN-aligned articles"
 layout: "tag-index"
