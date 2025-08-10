@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>New Series on UN-aligned</title>
+    <link>http://localhost:1313/tags/new-series/</link>
+    <description>Recent content in New Series on UN-aligned</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 15 Feb 2022 16:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/new-series/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Celebrity islands with the United Nations</title>
+      <link>http://localhost:1313/un-in-focus/celebrity-islands-with-the-united-nations/</link>
+      <pubDate>Tue, 15 Feb 2022 16:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/un-in-focus/celebrity-islands-with-the-united-nations/</guid>
+      <description>&lt;p&gt;Many may not know, but the United Nations is the creator of some of the worst “&lt;a href=&#34;https://media.un.org/en/webtv&#34;&gt;reality TV&lt;/a&gt;” of all time. Whether they are shows about a climate convention where the organisers forget to invite representatives from countries that are literally drowning, as was the case with COP26, or an ongoing show about five thugs who think they have a monopoly on truth, sit at a horseshoe-shaped table and maintain international peace by telling everyone not to go to war without their permission, even though that’s exactly what every single of them has done.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

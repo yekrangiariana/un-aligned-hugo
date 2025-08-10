@@ -1,222 +1,188 @@
-/* Reading features styling */
+/* Reading features styling - Category-aware design */
 
-/* Text size adjuster */
-.text-size-adjuster {
-  margin-top: 1.5rem;
+/* Reading features section */
+.reading-features-section {
+  margin-bottom: var(--spacing-md);
+  font-family: var(--font-family-sans);
 }
 
-.text-size-adjuster h4 {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
-  margin-bottom: 0.5rem;
-}
-
-.text-size-controls {
+.reading-features-controls {
   display: flex;
-  gap: 0.5rem;
+  align-items: center;
+  gap: var(--spacing-sm);
+  margin-bottom: var(--spacing-sm);
+  background-color: var(--color-bg-light);
+  border-radius: var(--border-radius-md);
+  padding: 0.75rem;
+  box-shadow: var(--box-shadow-sm);
 }
 
+/* Text size controls within reading features */
+.reading-features-controls .text-size-controls {
+  display: flex;
+  flex-direction: row;
+  gap: 0.25rem;
+  margin-right: auto;
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: var(--border-radius-sm);
+  padding: 0.3rem;
+}
+
+/* Individual size buttons */
 .size-option {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 30px;
-  height: 30px;
-  border: 1px solid var(--color-text-light);
+  width: 36px;
+  height: 36px;
+  border: var(--border-medium);
   background: transparent;
-  color: var(--color-text-light);
+  color: var(--color-text);
   border-radius: var(--border-radius-sm);
   cursor: pointer;
   transition: all 0.2s ease;
-}
-
-.size-option.size-small {
-  font-size: 0.8rem;
-}
-
-.size-option.size-medium {
-  font-size: 1rem;
-}
-
-.size-option.size-large {
-  font-size: 1.2rem;
+  font-weight: var(--font-weight-medium);
 }
 
 .size-option:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.1);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
 }
 
 .size-option.active {
-  border-color: var(--color-link);
-  color: var(--color-link);
-  font-weight: var(--font-weight-bold);
+  background: white;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  box-shadow: var(--box-shadow-sm);
+  transform: translateY(-1px);
 }
 
-/* For dark theme (gallery category) */
-.gallery-article .size-option {
-  border-color: rgba(255, 255, 255, 0.6);
-  color: rgba(255, 255, 255, 0.8);
-}
-
-.gallery-article .size-option.active {
-  border-color: white;
-  color: white;
-}
-
-/* Text size classes for article content */
-.post-content.markdown-body.text-size-small p,
-.post-content.markdown-body.text-size-small li,
-.post-content.markdown-body.text-size-small blockquote {
-  font-size: calc(var(--font-size-md) * 0.9);
-  line-height: 1.6;
-}
-
-.post-content.markdown-body.text-size-medium p,
-.post-content.markdown-body.text-size-medium li,
-.post-content.markdown-body.text-size-medium blockquote {
-  font-size: var(--font-size-md);
-  line-height: var(--line-height-paragraph);
-}
-
-.post-content.markdown-body.text-size-large p,
-.post-content.markdown-body.text-size-large li,
-.post-content.markdown-body.text-size-large blockquote {
-  font-size: calc(var(--font-size-md) * 1.2);
-  line-height: 1.9;
-}
-
-/* Bookmark article feature */
-.bookmark-article {
-  margin-top: 1rem;
-}
-
+/* Add styling for the bookmark button */
 .bookmark-button {
   display: flex;
   align-items: center;
+  justify-content: center;
+  height: 36px;
+  border: var(--border-medium);
   background: transparent;
-  border: 1px solid var(--color-text-light);
+  padding: 0 var(--spacing-sm);
+  color: var(--color-text);
   border-radius: var(--border-radius-sm);
-  padding: 0.5rem 0.75rem;
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
   cursor: pointer;
   transition: all 0.2s ease;
-  width: 100%;
+  font-weight: var(--font-weight-medium);
 }
 
 .bookmark-button:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  background: rgba(0, 0, 0, 0.03);
+  color: var(--color-primary);
+}
+
+.bookmark-button.active,
+.bookmark-button.is-bookmarked {
+  color: var(--color-primary);
+  background-color: rgba(var(--color-primary-rgb), 0.08);
+  border-color: var(--color-primary);
 }
 
 .bookmark-icon {
-  margin-right: 0.5rem;
-  font-size: 1.2rem;
-  line-height: 1;
-  transition: transform 0.3s ease;
+  margin-right: var(--spacing-xs);
+  transition: transform 0.2s ease;
 }
 
-.bookmark-button.is-bookmarked {
-  border-color: var(--color-link);
-  color: var(--color-link);
-}
-
+.bookmark-button:hover .bookmark-icon,
 .bookmark-button.is-bookmarked .bookmark-icon {
-  color: var(--color-link);
+  transform: scale(1.1);
+  color: var(--color-primary);
 }
 
-/* Bookmark info */
+/* Bookmark info with view all bookmarks link */
 .bookmark-info {
-  margin-top: 0.5rem;
-  font-size: var(--font-size-sm);
+  margin-top: 0.75rem;
+  animation: fadeIn 0.4s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 
 .view-bookmarks-link {
-  color: var(--color-link);
+  display: flex;
+  align-items: center;
+  color: var(--color-primary);
   text-decoration: none;
+  font-weight: var(--font-weight-medium);
+  font-size: 0.9rem;
+  transition: all 0.2s ease;
 }
 
 .view-bookmarks-link:hover {
+  color: var(--color-primary-dark);
   text-decoration: underline;
 }
 
-/* For dark theme (gallery category) */
-.gallery-article .bookmark-button {
-  border-color: rgba(255, 255, 255, 0.6);
-  color: rgba(255, 255, 255, 0.8);
+.view-bookmarks-link::before {
+  content: "→";
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease;
 }
 
-.gallery-article .bookmark-button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
+.view-bookmarks-link:hover::before {
+  transform: translateX(2px);
 }
 
-.gallery-article .bookmark-button.is-bookmarked {
-  border-color: white;
-  color: white;
+/* Responsive adjustments */
+@media (max-width: 600px) {
+  .reading-features-controls {
+    flex-wrap: wrap;
+  }
+
+  .reading-features-controls .text-size-controls {
+    margin-bottom: 0.5rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .bookmark-button {
+    flex: 1;
+  }
 }
 
-/* Favorites page styling */
-.favorites-page {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 0 1rem;
+/* Category-specific color variations */
+.culture-article .bookmark-button.active,
+.culture-article .size-option.active,
+.culture-article .view-bookmarks-link {
+  color: var(--color-culture);
 }
 
-.favorite-item {
-  border-bottom: var(--border-thin);
-  padding: 1.5rem 0;
+.gallery-article .bookmark-button.active,
+.gallery-article .size-option.active,
+.gallery-article .view-bookmarks-link {
+  color: var(--color-gallery);
 }
 
-.favorite-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 0.5rem;
+.interview-article .bookmark-button.active,
+.interview-article .size-option.active,
+.interview-article .view-bookmarks-link {
+  color: var(--color-interview);
 }
 
-.favorite-title {
-  margin: 0;
-  font-size: var(--font-size-lg);
+.technology-article .bookmark-button.active,
+.technology-article .size-option.active,
+.technology-article .view-bookmarks-link {
+  color: var(--color-technology);
 }
 
-.favorite-title a {
-  color: var(--color-heading);
-  text-decoration: none;
-}
-
-.favorite-title a:hover {
-  color: var(--color-link);
-  text-decoration: underline;
-}
-
-.favorite-categories {
-  display: flex;
-  gap: 0.5rem;
-  margin-bottom: 0.5rem;
-}
-
-.favorite-category {
-  font-size: var(--font-size-xs);
-  padding: 0.2rem 0.5rem;
-  background-color: var(--color-code-bg);
-  border-radius: var(--border-radius-sm);
-}
-
-.favorite-date {
-  font-size: var(--font-size-sm);
-  color: var(--color-text-light);
-}
-
-.remove-favorite {
-  background: transparent;
-  border: 1px solid var(--color-text-light);
-  border-radius: var(--border-radius-sm);
-  padding: 0.3rem 0.5rem;
-  font-size: var(--font-size-xs);
-  color: var(--color-text-light);
-  cursor: pointer;
-}
-
-.remove-favorite:hover {
-  background-color: rgba(0, 0, 0, 0.05);
-  color: var(--color-link-hover);
+.science-article .bookmark-button.active,
+.science-article .size-option.active,
+.science-article .view-bookmarks-link {
+  color: var(--color-science);
 }

@@ -1,0 +1,53 @@
+{{ define "main" }}
+          <main id="posts-list">
+            <!-- Headlines section - now using the same structure as other category sections -->
+            <section id="headlines" class="category-section" aria-labelledby="headlines-heading">
+              <header class="category-header">
+                <h2 id="headlines-heading" class="site-date-catalog">Recent</h2>
+              </header>
+              {{- /* Important: This removes whitespace */ -}}
+              <div class="article-grid category-grid">
+                
+                {{- /* Get only posts section, excluding gordian */ -}}
+                {{- $regularPages := where .Site.RegularPages "Section" "posts" -}}
+                {{- /* Display all featured posts first */ -}}
+                {{- $featuredPages := where $regularPages ".Params.feature" true -}}
+                {{- range $featuredPages -}}
+                  {{ partial "article-card.html" . }}
+                {{- end -}}
+                {{- /* Then fill remaining slots with non-featured posts */ -}}
+                {{- $nonFeaturedPages := where $regularPages ".Params.feature" "ne" true -}}
+                {{- $remainingSlots := sub 8 (len $featuredPages) -}}
+                {{- if gt $remainingSlots 0 -}}
+                  {{- range first $remainingSlots $nonFeaturedPages -}}
+                    {{ partial "article-card.html" . }}
+                  {{- end -}}
+                {{- end -}}
+                
+              </div>
+            </section>
+
+            <!-- Define priority categories - replace these with your 7 preferred categories -->
+            {{- $priorityCategories := slice "UN in Focus" "Culture" "Gallery"
+            "Human Rights" "Environment" "Interview" "Comments" -}}
+
+            <!-- First display the priority categories -->
+            {{- range $priorityCategories -}} {{- $category := . -}} {{- with
+            $.Site.Taxonomies.categories.Get $category -}}
+            <section id="{{ $category | urlize }}" class="category-section" aria-labelledby="{{ $category | urlize }}-heading">
+              <header class="category-header">
+                <h2 id="{{ $category | urlize }}-heading" class="site-date-catalog">{{ $category }}</h2>
+              </header>
+              {{- /* Important: This removes whitespace */ -}}
+              <div class="article-grid category-grid">
+                {{- range first 8 .Pages -}} {{ partial "article-card.html" . }}
+                {{- end -}}
+              </div>
+            </section>
+            {{- end -}} {{- end -}}
+
+            
+          </main>
+        </div>
+      </div>
+{{ end }}

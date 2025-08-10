@@ -1,0 +1,86 @@
+/* Text size adjustment classes */
+/* Apply to paragraph elements only */
+.text-size-small {
+  font-size: 0.875rem !important;
+}
+
+.text-size-small p,
+.text-size-small li,
+.text-size-small td,
+.text-size-small blockquote,
+.text-size-small .post-content p {
+  font-size: 0.875rem !important;
+  line-height: 1.5 !important;
+}
+
+.text-size-medium {
+  font-size: 1rem !important;
+}
+
+.text-size-medium p,
+.text-size-medium li,
+.text-size-medium td,
+.text-size-medium blockquote,
+.text-size-medium .post-content p {
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+}
+
+.text-size-large {
+  font-size: 1.25rem !important;
+}
+
+.text-size-large p,
+.text-size-large li,
+.text-size-large td,
+.text-size-large blockquote,
+.text-size-large .post-content p {
+  font-size: 1.25rem !important;
+  line-height: 1.6 !important;
+}
+
+/* Button styling */
+.text-size-controls {
+  display: flex;
+  gap: var(--spacing-sm);
+}
+
+.size-option {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  border: var(--border-medium);
+  background: transparent;
+  color: var(--color-text);
+  border-radius: var(--border-radius-sm);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-weight: var(--font-weight-medium);
+}
+
+.size-option.size-small {
+  font-size: 0.875rem;
+}
+
+.size-option.size-medium {
+  font-size: 1rem;
+}
+
+.size-option.size-large {
+  font-size: 1.25rem;
+}
+
+.size-option:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.size-option.active {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background: white;
+  box-shadow: var(--box-shadow-sm);
+}

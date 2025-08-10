@@ -1,0 +1,386 @@
+/* Style 2 specific styling for single pages - Immersive Design */
+
+/* Comment styling for Style 2 */
+.article-style-2.comments-article .post-title-overlay::before {
+  content: "";
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+  vertical-align: middle;
+  background-color: var(--color-comments);
+  /* Using shared quote-mark component styles with mask properties */
+  mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V216z'/%3E%3C/svg%3E");
+  mask-repeat: no-repeat;
+  mask-size: contain;
+  -webkit-mask-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 448 512'%3E%3Cpath d='M0 216C0 149.7 53.7 96 120 96h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V216zm256 0c0-66.3 53.7-120 120-120h8c17.7 0 32 14.3 32 32s-14.3 32-32 32h-8c-30.9 0-56 25.1-56 56v8h64c35.3 0 64 28.7 64 64v64c0 35.3-28.7 64-64 64H320c-35.3 0-64-28.7-64-64V216z'/%3E%3C/svg%3E");
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-size: contain;
+}
+
+/* Hide the regular title as we'll show it over the image */
+.article-style-2 .post-title-small {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  display: none; /* Hidden for design but available for SEO/accessibility */
+}
+
+/* Featured image styling for style 2 - Full screen immersive experience */
+.post-featured-image-style-2 {
+  position: relative;
+  width: 100vw; /* Full viewport width */
+  height: auto; /* Full viewport height */
+  left: 0;
+  right: 0;
+}
+
+.post-featured-image-style-2 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Cover the entire container */
+  object-position: center; /* Center the image */
+  max-width: none; /* Override default max-width constraints */
+}
+
+.image-overlay-title {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: var(--site-max-width);
+  color: white;
+  box-sizing: border-box;
+  z-index: 2; /* Ensure it's above the image */
+  display: block; /* Use flex for layout */
+  opacity: 0; /* Start invisible for fade-in effect */
+  animation: fadeIn 0.4s ease-out forwards;
+  animation-delay: 0.1s; /* Much faster start */
+  margin: 0 auto;
+}
+
+/* Animation for fade-in effect */
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Style for the title overlay */
+.post-title-overlay {
+  display: block; /* Always display the title - force it with !important */
+  font-size: clamp(
+    2rem,
+    4.5vw,
+    3.5rem
+  ); 
+  font-weight: 800; /* Extra bold for emphasis */
+  margin-bottom: 0;
+  color: white;
+  z-index: 3; /* Higher z-index than container */
+  position: relative; /* Ensure z-index applies */
+  width: 80%; /* Full width within the right column */
+  left: 20%;
+  border-top: var(--border-thin-light);
+  border-left: var(--border-thin-light);
+  border-right: var(--border-thin-light);
+  padding-left: 15px;
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px; /* Make the underline very thin */
+  text-decoration-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  text-underline-offset: 0.2em; /* Space between text and underline */
+}
+
+.interview-category-label,
+.category-label-style-2 {
+  position: relative;
+  width: auto;
+  left: 20%;
+  z-index: 4;
+}
+
+/* Make the category label style match the interview label */
+.category-label-style-2 {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  border: var(--border-thin);
+  border-bottom: none;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+/* The container for the full-width header in style 2 */
+.style-2-header-container {
+  width: 100vw; /* Full viewport width */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden; /* Ensure no overflow */
+  position: relative; /* For positioning child elements */
+  max-width: none; /* Override site max-width */
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw; /* Break out of container */
+  margin-right: -50vw; /* Break out of container */
+  display: flex; /* Add flex display for the 20/80 child layout */
+  justify-content: center; /* Center the child elements */
+}
+
+/* The style-2-header itself */
+.style-2-header {
+  width: 100%;
+  padding: 0;
+  position: relative;
+  display: block;
+  overflow: visible;
+  background: #000;
+}
+
+/* Adjusted description for the updated HTML structure with 20/80 layout */
+.post-description-style-2,
+.author-name-style-2 {
+  position: relative;
+  z-index: 2; /* Ensure it's above background but below title */
+  margin: 0;
+  color: rgba(255, 255, 255, 0.9);
+  font-style: italic;
+  font-size: clamp(1rem, 2vw, 1.2rem); /* Dynamic font size */
+  line-height: 1.6;
+  opacity: 0; /* Start invisible */
+  animation: fadeIn 0.6s ease-in-out forwards;
+  animation-delay: 0.5s; /* Much faster start */
+  width: 80%; /* Full width within the right column */
+  left: 20%;
+  border-left: var(--border-thin-light);
+  padding: 15px;
+}
+
+.post-description-style-2 p {
+  margin: 0;
+  max-width: 100%; /* Full width within the container */
+}
+
+.article-style-2 .post-content-container {
+  position: static;
+  flex: 0 0 calc(var(--column-right-width) - 10px);
+  width: calc(var(--column-right-width) - 10px);
+  max-width: calc(var(--column-right-width) - 10px);
+  box-sizing: border-box;
+  overflow: visible;
+  margin-top: 2rem; /* Add more space after the full-screen header */
+}
+
+/* Enhance the overall style but maintain the column layout */
+.article-style-2 .article-grid {
+  display: block;
+  position: static;
+  margin-top: 0; /* Add some space at the top */
+}
+
+/* Additional styling for enhanced immersive experience */
+
+/* Progressive reveal for content as user scrolls */
+.article-style-2 .category-section {
+  opacity: 0;
+  animation: fadeInContent 0.5s ease-out forwards;
+  animation-delay: 0.3s; /* Significantly reduced delay time */
+}
+
+@keyframes fadeInContent {
+  0% {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Improve scrolling behavior */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Add a subtle gradient overlay and blur effect to the image for better text visibility */
+.post-featured-image-style-2::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    to bottom,
+    transparent 30%,
+    rgba(0, 0, 0, 0.7) 80%
+  );
+  z-index: 1;
+}
+
+/* Add blur effect to the bottom of the image */
+.post-featured-image-style-2::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 30%; /* Cover only the bottom part */
+  backdrop-filter: blur(3px);
+  -webkit-backdrop-filter: blur(3px);
+  z-index: 1;
+  pointer-events: none; /* Ensure it doesn't interfere with clicks */
+  opacity: 0.6; /* Subtle effect */
+}
+
+/* Make the post sidebar fade in a bit later for a staggered effect */
+.article-style-2 .post-sidebar {
+  opacity: 0;
+  animation: fadeInSidebar 0.5s ease-out forwards;
+  animation-delay: 0.4s; /* Significantly reduced delay for faster appearance */
+}
+
+@keyframes fadeInSidebar {
+  0% {
+    opacity: 0;
+    transform: translateX(-15px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Comment specific styles for Style 2 (only keeping author name) */
+
+/* Author name style for style 2 comments */
+.author-name-style-2 {
+  font-style: italic;
+  color: var(--color-comments);
+  font-size: clamp(
+    1.5rem,
+    3vw,
+    2rem
+  ); /* Larger font size closer to the title size */
+  opacity: 0;
+  animation: fadeIn 0.6s ease-in-out forwards;
+  animation-delay: 0.3s;
+  text-transform: none;
+  font-weight: normal;
+}
+
+/* Comment description container for the right column (style 2) */
+.comment-description-container-right-column {
+  display: flex;
+  width: 100%;
+  margin: 0px 0 25px;
+  align-items: end;
+}
+
+.comment-description-container-right-column .comment-description {
+  flex: 0 0 75%;
+  font-style: italic;
+  font-size: clamp(1rem, 2vw, 1.2rem);
+}
+
+.comment-description-container-right-column .comment-author-space {
+  flex: 0 0 30%;
+  position: relative;
+  z-index: 2;
+}
+
+.comment-description-container-right-column .comment-author-image {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* Media queries for comment description container right column */
+@media screen and (max-width: 768px) {
+  .comment-description-container-right-column {
+    flex-direction: row;
+  }
+
+  .category-label-style-2 {
+    border: none;
+  }
+
+  .image-overlay-title {
+    padding-bottom: 5px;
+  }
+
+  /* .article-grid,
+  .category-grid,
+  .post-content-container {
+    max-width: 100% !important;
+  } */
+
+  .comment-description-container-right-column .comment-author-space {
+    flex: 0 0 30%;
+  }
+
+  .interview-category-label,
+  .category-label-style-2 {
+    box-decoration-break: clone;
+    -webkit-box-decoration-break: clone;
+    display: inline;
+    font-size: var(--font-size-ms);
+    font-weight: bold;
+    color: white;
+    padding-left: 20px;
+  }
+
+  .post-title-overlay,
+  .post-description-style-2,
+  .author-name-style-2,
+  .interview-category-label,
+  .category-label-style-2 {
+    width: 100%; /* Full width within the right column */
+    left: 0;
+    border: none !important;
+  }
+}
+
+/* Media queries for mobile adjustments */
+@media screen and (max-width: 768px) {
+  .image-overlay-left {
+    flex: 0 0 10%; /* Reduce left column size on medium screens */
+    height: 20px; /* Just a small spacer */
+  }
+
+  .image-overlay-right {
+    flex: 0 0 90%; /* Increase right column size on medium screens */
+  }
+
+  .post-featured-image-style-2 {
+    height: 80vh; /* Slightly shorter on smaller screens */
+  }
+
+  .author-name-style-2 {
+    margin-bottom: 4rem;
+    font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .post-featured-image-style-2 {
+    height: 70vh; /* Even shorter on mobile */
+  }
+
+  .image-overlay-left {
+    display: none; /* Remove left column on smallest screens */
+  }
+
+  .image-overlay-right {
+    flex: 0 0 100%; /* Full width right column on smallest screens */
+    padding: 0 1rem; /* Add some padding on both sides */
+  }
+}

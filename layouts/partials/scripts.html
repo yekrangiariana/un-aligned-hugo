@@ -1,0 +1,138 @@
+{{ if and .Site.Params.lazyImage (not .IsHome) -}}
+<script src="{{ .Site.Params.staticPrefix }}{{ "js/lazyload.min.js" | relURL }}"></script>
+<script>
+  var lazyImage = new LazyLoad({
+    container: document.getElementById('article')
+  });
+</script>
+{{ end }}
+
+<!-- Dark Mode Toggle Scripts -->
+<script src="{{ "js/simple-dark-mode.js" | absURL }}" type="text/javascript"></script>
+
+<!-- Sticky Table of Contents -->
+<script src="{{ "js/sticky-toc.js" | absURL }}" type="text/javascript"></script>
+
+<!-- Load Gordian dark mode CSS if we're on a Gordian page -->
+<script>
+  if (document.body.classList.contains('gordian-body') || 
+      window.location.pathname.includes('/gordian/')) {
+    const link = document.createElement('link');
+    link.rel = 'stylesheet';
+    link.href = '{{ "css/gordian-dark-mode.css" | absURL }}';
+    document.head.appendChild(link);
+    console.log('Loaded Gordian dark mode CSS');
+  }
+</script>
+
+<!-- Fallback Dark Mode Toggle Script (if the external script fails to load) -->
+<script>
+  if (typeof toggleDarkMode !== 'function') {
+    console.log("Defining fallback toggle function");
+    
+    // Define the fallback function
+    function toggleDarkMode() {
+      console.log("Toggle dark mode clicked (inline fallback)");
+      
+      // Toggle dark mode class on both body and documentElement
+      document.body.classList.toggle("dark-mode");
+      document.documentElement.classList.toggle("dark-mode");
+      
+      // Check if on gallery page
+      const isGalleryPage = document.body.classList.contains("gallery-body");
+      
+      // Determine new state
+      const isDarkMode = document.body.classList.contains("dark-mode");
+      
+      // Save preference based on context
+      if (isGalleryPage) {
+        localStorage.setItem("darkMode", isDarkMode ? "disabled" : "enabled");
+      } else {
+        localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
+      }
+      
+      // Update toggle button icons
+      const darkIcons = document.querySelectorAll('.dark-icon');
+      const lightIcons = document.querySelectorAll('.light-icon');
+      
+      darkIcons.forEach(icon => {
+        icon.style.display = isDarkMode ? 'none' : 'inline-block';
+      });
+      
+      lightIcons.forEach(icon => {
+        icon.style.display = isDarkMode ? 'inline-block' : 'none';
+      });
+      
+      console.log("Dark mode toggled through inline fallback");
+    }
+    }
+    
+    // Apply initial state if necessary
+    (function() {
+      const preference = localStorage.getItem('darkMode');
+      const isGalleryPage = document.body.classList.contains('gallery-body');
+      const systemPrefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+      
+      let shouldApplyDarkMode;
+      
+      if (preference === null) {
+        // No saved preference, use system preference
+        shouldApplyDarkMode = systemPrefersDark;
+        localStorage.setItem('darkMode', shouldApplyDarkMode ? 'enabled' : 'disabled');
+      } else if (isGalleryPage) {
+        // For gallery pages (dark by default)
+        shouldApplyDarkMode = preference === 'disabled';
+      } else {
+        // For regular pages (light by default)
+        shouldApplyDarkMode = preference === 'enabled';
+      }
+      
+      if (shouldApplyDarkMode) {
+        document.body.classList.add('dark-mode');
+        document.documentElement.classList.add('dark-mode');
+      } else {
+        document.body.classList.remove('dark-mode');
+        document.documentElement.classList.remove('dark-mode');
+      }
+      
+      // Update toggle button icons once DOM is loaded
+      document.addEventListener('DOMContentLoaded', function() {
+        const isDarkMode = document.body.classList.contains('dark-mode');
+        const darkIcons = document.querySelectorAll('.dark-icon');
+        const lightIcons = document.querySelectorAll('.light-icon');
+        
+        darkIcons.forEach(icon => {
+          icon.style.display = isDarkMode ? 'none' : 'inline-block';
+        });
+        
+        lightIcons.forEach(icon => {
+          icon.style.display = isDarkMode ? 'inline-block' : 'none';
+        });
+      });
+    })();
+  }
+</script>
+
+<!-- Smooth scrolling script (no flash effects) -->
+<script src="{{ "js/scroll-animation-clean.js" | absURL }}"></script>
+
+<!-- Page load script -->
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // Animation class removed
+    
+    // Check for hash in URL and scroll to it if needed
+    if (window.location.hash) {
+      setTimeout(function() {
+        const targetHash = window.location.hash.substring(1);
+        const targetElement = document.getElementById(targetHash);
+        if (targetElement) {
+          targetElement.scrollIntoView({ behavior: 'smooth' });
+        }
+      }, 300);
+    }
+  });
+</script>
+
+<!-- Article Card Carousel Script -->
+<script src="{{ "js/article-carousel.js" | absURL }}" type="text/javascript"></script>

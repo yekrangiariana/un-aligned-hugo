@@ -1,0 +1,38 @@
+---
+title: "Wealth at Whistle's Blow: The Importance of Financial Planning for Athletes"
+description: "With ink drying on contracts worth millions, young athletes step into a world of wealth and responsibility. How do they handle this sudden fortune, and what impact does it have on their futures?"
+date: 2024-01-11T10:00:00+02:00
+authors: ["Alexander Stoney"]
+url: "sports/the-importance-of-financial-planning-for-athletes"
+categories:
+  - "Sports"
+image: "/images/Wealth-at-Whistles-Blow-The-Importance-of-Financial-Planning-for-Athletes.jpg"
+---
+What would you do if you won a million dollars? How would you spend it? It is a hypothetical question often considered when dreaming of the luxuries that come with a large paycheck. Now, imagine being 21 and signing a $100 USD million contract. It is not a lottery prize, but a reality for some of the world’s top athletes.
+
+For a select few athletes, this hypothetical becomes a reality. In the last decade of sports, contracts in all the major sports leagues have risen exponentially. In 2008, baseball star Alex Rodriguez [signed](https://www.firmex.com/resources/uncategorized/when-did-athletes-start-getting-rich/.) a historic, 10-year, $275 million contract with the New York Yankees. His lucrative contract garnered attention as the largest contract ever to be signed in North American professional sports.
+
+Fast-forward thirteen years later, that contract is dwarfed by football quarterback Patrick Mahomes’ [10-year contract with the Kansas City Chiefs](https://www.spotrac.com/.), valued at $503 million. Even when accounting for inflation, Rodriguez’ contract would be worth approximately $150 million less than Mahomes’ in 2021. Besides money, there is another key difference between these two-star athletes and their contracts: their age. When Alex Rodriguez signed his contract in 2008, he was 33 years old and an established star in Major League Baseball. When Patrick Mahomes signed his contract, almost double the value of Rodriguez’s, he was 24.
+
+This is a consistent trend across all sports. Athletes are becoming stars much younger than ever before and are being paid like it. In the NHL, young forwards, Connor McDavid and Auston Matthews, are prime examples of this trend. In 2018, Connor McDavid signed an eight-year, $100 million contract with the Edmonton Oilers at the age of 21. Almost a year later, Toronto Maple Leafs’ star forward Auston Matthews signed a five-year deal worth approximately $60 million at the age of 22.
+
+This trend might not seem surprising to you, and it shouldn’t. Athletes have always earned lucrative contracts, especially generational talents such as Connor McDavid, Auston Matthews and Patrick Mahomes. However, becoming a millionaire overnight also has its challenges. There is a responsibility that comes with earning that much money, and it is one that few 21-year-olds can handle. This is often the case when the athlete is from a poorer background and the sudden influx of wealth is difficult to manage.
+
+Enter the importance of financial planning and financial guidance for athletes. In the National Basketball Association (NBA) and the National Football League (NFL), more teams are beginning to hire financial advising teams to help all players, but especially rookies, transition into managing the wealth of a professional athlete. The push for instituted financial advising teams has increased since the 1990s and early 2000s. In the late 1990s, [over 70 NFL](https://ccwmg.com/nfl-player-financial-advisor-the-importance-of-wealth-management-for-professional-athletes/.) and former NFL players were forced to declare bankruptcy during or quickly after their retirement from the league. The optics of former players struggling with debt and financial instability highlighted the importance of financial planning.
+
+In 2020, GQ Sports launched a series titled [_“My First Million.”_](https://youtu.be/RYmq72UCr6U.) The series highlighted athletes from sports such as basketball, football, baseball and mixed martial arts. Perhaps the most interesting interview was with Los Angeles Chargers running back Austin Ekeler who outlined how he spent his first million dollars. Ekeler describes himself as a balanced spender, someone who made a financial plan but also treated himself to the luxuries that he dreamed of, such as a luxury car, a new house and even a new wardrobe.
+
+![From GQ Sports' "My First Million" series, Austin Ekeler advises NFL rookies: "Plan from day one with a financial advisor, as careers in sports are short and uncertain." Photo: All-Pro Reels/Flickr © CC BY-SA 2.0](/images/Austin_Ekeler-financial-planing--1024x683.jpg)
+
+From GQ Sports' "My First Million" series, Austin Ekeler advises NFL rookies: "Plan from day one with a financial advisor, as careers in sports are short and uncertain." Photo: All-Pro Reels/Flickr © CC BY-SA 2.0
+
+
+As the interview progresses past his flashy purchases, he is asked what financial advice he would give to a rookie entering the NFL. “Make sure you have a plan and talk to a professional… The NFL doesn’t last forever — the average career length is three years so I would say be careful and definitely become friends with a financial advisor,” said Ekeler. Ekeler makes a crucial point since professional sports are far from stable, and one injury or mistake can end an athlete’s career abruptly. Therefore, as Ekeler explains, the “planning has to start on day one” to ensure that an athlete’s income will last throughout his or her career and afterwards.
+
+Another harsh reality of being a professional athlete is managing one’s personal relationships and trust in someone’s financial advice. Certified financial planner Derek Tharp, founder of Conscious Capital, explains that “unfortunately, one of the biggest challenges for professional athletes is managing relationships with friends and family”. Tharp continues to say that he recommends “quickly establishing boundaries with friends and family and involving third-party professionals to handle requests for money”. This highlights the importance of trust between an athlete and his advisor.
+
+Tharp explains that choosing a financial advisor is especially difficult for a young athlete “not only because of the complexities of their contracts, investments, insurance, estate planning, and tax planning but because they are bombarded by [slick-talking salespeople](https://www.investopedia.com/articles/managing-wealth/071816/financial-planning-professional-athletes-inside-look.asp.)”. Understanding the potential risks involved in spending and hiring a trustworthy financial planner “can go a long way toward helping pro athletes turn a huge but short-term paycheck into a lifetime of [financial stability](https://www.investopedia.com/articles/managing-wealth/071816/financial-planning-professional-athletes-inside-look.asp.)”.
+
+There is no question that professional sports teams and organisations have a responsibility to help young athletes find helpful and experienced financial planners. Professional organisations help athletes with many different aspects of their life and financial advising should be no exception. What is clear is that many young athletes fall victim to frivolous spending while they are at their peak, and it severely impacts their life after sports.
+
+Despite the recent calls for league-wide financial planning mandates and for team-run financial advisors in the NBA and NFL, there is still a lack of financial support provided to athletes around the world. Leagues and sporting organisations around the world should understand the importance of financial planning and work to better support their players.

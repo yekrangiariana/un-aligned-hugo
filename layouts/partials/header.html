@@ -1,0 +1,184 @@
+{{ $curLanguageName := .Site.Language.LanguageName }}
+<header class="site-header">
+  <div class="header-container">
+    <div class="header-two-columns">
+    <!-- Left Column (20%) - Logo -->
+    <div class="header-left-column">
+      <div class="header-title">
+        <a href="{{ .Site.LanguagePrefix }}/">
+          <img
+            src="/images/logo.png"
+            alt="{{ or .Site.Params.headTitle .Site.Params.logo.name }}"
+            class="header-logo"
+          />
+        </a>
+      </div>
+      <div class="header-subtitle">{{ .Site.Params.tagline }}</div>
+    </div>
+    
+    <!-- Right Column (80%) - Navigation and buttons -->
+    <div class="header-right-column">
+      <!-- Bottom section with buttons and categories -->
+      <div class="header-bottom-section">
+        <!-- Buttons row -->
+        <div class="header-top-buttons">
+          <div class="header-items">
+            <div class="header-item">
+              <button
+                id="menu-popup-toggle"
+                class="header-button"
+                title="Menu"
+                type="button"
+              >
+                Menu ☰
+              </button>
+            </div>
+            <div class="header-item">
+              <a href="/pages/bookmarks/" title="My Bookmarks" class="header-button"
+                >Bookmarks 📌</a
+              >
+            </div>
+            <div class="header-item">
+              <button
+                class="simple-dark-toggle header-button"
+                title="Toggle Dark/Light Mode"
+                type="button"
+                onclick="toggleDarkMode()"
+              >
+                <span class="dark-icon">Dark 🌙</span>
+                <span class="light-icon">Light ☀️</span>
+              </button>
+            </div>
+          
+          </div>
+        </div>
+        
+        <!-- Categories row -->
+        <div class="header-bottom-categories">
+          <div class="scroll-indicator-left"></div>
+          <div class="scroll-indicator-right"></div>
+          <div class="category-nav">
+          {{/* Debug: Check if data is loaded */}}
+          <!-- DEBUG: Categories count: {{ len .Site.Data.header_categories.categories }} -->
+          {{ range .Site.Data.header_categories.categories }}
+            <div class="category-nav-item">
+              {{ if .url }}
+                <a href="{{ $.Site.BaseURL | absURL }}{{ .url }}" class="category-link">{{ .name }}</a>
+              {{ else }}
+                <a href="{{ $.Site.BaseURL | absURL }}categories/{{ .name | urlize }}/" class="category-link">{{ .name }}</a>
+              {{ end }}
+            </div>
+          {{ end }}
+          {{ with .Site.Data.header_categories.all_categories }}
+            <div class="category-nav-item">
+              <a href="{{ $.Site.BaseURL | absURL }}{{ .url }}" class="category-link">{{ .name }}</a>
+            </div>
+          {{ end }}
+        </div>
+      </div>
+
+      <!-- Popup Menu - Positioned under categories -->
+      {{ partial "mega-menu.html" . }}
+    
+    </div>
+  </div>
+</header>
+
+<!-- Script to handle scroll indicators and menu popup -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Category navigation scroll indicators
+    const navContainer = document.querySelector('.category-nav');
+    const leftIndicator = document.querySelector('.scroll-indicator-left');
+    const rightIndicator = document.querySelector('.scroll-indicator-right');
+    
+    if (navContainer && leftIndicator && rightIndicator) {
+      // Check if scrolling is possible
+      function updateScrollIndicators() {
+        // Show left indicator if we're not at the start
+        if (navContainer.scrollLeft > 0) {
+          leftIndicator.style.opacity = '1';
+        } else {
+          leftIndicator.style.opacity = '0';
+        }
+        
+        // Show right indicator if we're not at the end
+        if (navContainer.scrollLeft < (navContainer.scrollWidth - navContainer.clientWidth - 2)) {
+          rightIndicator.style.opacity = '1';
+        } else {
+          rightIndicator.style.opacity = '0';
+        }
+      }
+      
+      // Run on load
+      updateScrollIndicators();
+      
+      // Run on scroll
+      navContainer.addEventListener('scroll', updateScrollIndicators);
+      
+      // Run on resize (in case content width changes)
+      window.addEventListener('resize', updateScrollIndicators);
+    }
+    
+    // Mega Menu Popup Functionality
+    const menuButton = document.getElementById('menu-popup-toggle');
+    const closeButton = document.getElementById('close-menu-popup');
+    const menuPopup = document.getElementById('mega-menu-popup');
+    
+    if (menuButton && menuPopup) {
+      // Toggle menu when clicking the menu button
+      menuButton.addEventListener('click', function() {
+        menuPopup.classList.toggle('active');
+        document.body.classList.toggle('menu-open');
+        
+        // Change button text/icon based on menu state
+        if (menuPopup.classList.contains('active')) {
+          menuButton.innerHTML = 'Close ×';
+          menuButton.setAttribute('title', 'Close menu');
+          menuButton.classList.add('active');
+        } else {
+          menuButton.innerHTML = 'Menu ☰';
+          menuButton.setAttribute('title', 'Open menu');
+          menuButton.classList.remove('active');
+        }
+      });
+      
+      // Close menu when clicking the dedicated close button (mostly for mobile)
+      if (closeButton) {
+        closeButton.addEventListener('click', function() {
+          menuPopup.classList.remove('active');
+          document.body.classList.remove('menu-open');
+          menuButton.innerHTML = 'Menu ☰';
+          menuButton.setAttribute('title', 'Open menu');
+          menuButton.classList.remove('active');
+        });
+      }
+      
+      // Close menu when clicking outside the menu content
+      document.addEventListener('click', function(e) {
+        if (
+          menuPopup.classList.contains('active') && 
+          !menuPopup.contains(e.target) && 
+          e.target !== menuButton
+        ) {
+          menuPopup.classList.remove('active');
+          document.body.classList.remove('menu-open');
+          menuButton.innerHTML = 'Menu ☰';
+          menuButton.setAttribute('title', 'Open menu');
+          menuButton.classList.remove('active');
+        }
+      });
+      
+      // Close menu when pressing Escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && menuPopup.classList.contains('active')) {
+          menuPopup.classList.remove('active');
+          document.body.classList.remove('menu-open');
+          menuButton.innerHTML = 'Menu ☰';
+          menuButton.setAttribute('title', 'Open menu');
+          menuButton.classList.remove('active');
+        }
+      });
+    }
+  });
+</script>

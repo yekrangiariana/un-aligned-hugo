@@ -1,0 +1,369 @@
+{{ define "main" }}
+  <!-- Check for specific categories anywhere in the categories list -->
+  {{ $hasGallery := false }}
+  {{ $hasCulture := false }}
+  {{ $hasInterview := false }}
+  {{ $hasComments := false }}
+  {{ $hasTechnology := false }}
+  {{ $hasScience := false }}
+  {{ $hasPolitics := false }}
+  {{ $hasEnvironment := false }}
+  {{ range .Params.categories }}
+    {{ $category := lower . }}
+    {{ if eq $category "gallery" }}{{ $hasGallery = true }}{{ end }}
+    {{ if eq $category "culture" }}{{ $hasCulture = true }}{{ end }}
+    {{ if eq $category "interview" }}{{ $hasInterview = true }}{{ end }}
+    {{ if eq $category "comments" }}{{ $hasComments = true }}{{ end }}
+    {{ if eq $category "technology" }}{{ $hasTechnology = true }}{{ end }}
+    {{ if eq $category "science" }}{{ $hasScience = true }}{{ end }}
+    {{ if eq $category "politics" }}{{ $hasPolitics = true }}{{ end }}
+    {{ if eq $category "environment" }}{{ $hasEnvironment = true }}{{ end }}
+  {{ end }}
+
+  <!-- Add inline CSS for comments category pages -->
+  {{ if $hasComments }}
+  <style>
+     body {
+      background-color: #FEF9F5;
+    }
+  </style>
+  {{ end }}
+  
+  
+  <!-- Main content section -->
+  <main class="post 
+    {{ if $hasGallery }}gallery-article{{ end }}
+    {{ if $hasCulture }}culture-article{{ end }}
+    {{ if $hasInterview }}interview-article{{ end }}
+    {{ if $hasComments }}comments-article{{ end }}
+    {{ if $hasTechnology }}technology-article{{ end }}
+    {{ if $hasScience }}science-article{{ end }}
+    {{ if $hasPolitics }}politics-article{{ end }}
+    {{ if $hasEnvironment }}environment-article{{ end }}
+    article-style-{{ .Params.style | default "1" }}" id="article">
+        
+    <!-- Article with proper semantic structure -->
+    <article itemscope itemtype="https://schema.org/Article">
+    
+      <!-- Style 2: Full width header with image before the columns -->
+      {{ if eq (.Params.style | default "1") "2" }}
+        <div class="style-2-header-container">
+          <h1 class="post-title-small" itemprop="headline">{{ .Title }}</h1>
+            
+          <!-- Featured Image with title overlay -->
+          {{ if or .Params.featuredImage .Params.image }}
+          <figure class="post-featured-image-style-2" itemprop="image">
+            <img src="{{ or .Params.featuredImage .Params.image }}" alt="{{ .Title }}">
+            <div class="image-overlay-title">
+              {{ if $hasInterview }}
+              <div><span class="interview-category-label interview-category-label-style-2"><a href="/categories/interview/" style="color:inherit; text-decoration:none;">Interview</a></span></div>
+              {{ else }}
+              <!-- Display category for non-interview style-2 posts -->
+              {{ with index .Params.categories 0 }}
+                {{ $categoryLower := lower . }}
+                {{ $bgClass := "bg-default" }}
+                {{ if eq $categoryLower "culture" }}
+                  {{ $bgClass = "bg-culture" }}
+                {{ else if eq $categoryLower "gallery" }}
+                  {{ $bgClass = "bg-gallery" }}
+                {{ else if eq $categoryLower "technology" }}
+                  {{ $bgClass = "bg-technology" }}
+                {{ else if eq $categoryLower "science" }}
+                  {{ $bgClass = "bg-science" }}
+                {{ else if eq $categoryLower "politics" }}
+                  {{ $bgClass = "bg-politics" }}
+                {{ else if eq $categoryLower "environment" }}
+                  {{ $bgClass = "bg-environment" }}
+                {{ else if eq $categoryLower "comments" }}
+                  {{ $bgClass = "bg-comments" }}
+                {{ end }}
+              <div><span class="category-label-style-2 {{ $bgClass }}"><a href="/categories/{{ $categoryLower | urlize }}/" style="color:inherit; text-decoration:none;">{{ . }}</a></span></div>
+              {{ end }}
+              {{ end }}
+              <h1 class="post-title-overlay" itemprop="headline">{{ .Title }}</h1>
+              
+              <!-- author name style 2 -->
+              {{ if $hasComments }}
+                {{ partial "author-info.html" (dict "context" . "class" "author-name-style-2") }}
+              {{ else if .Description }}
+                <figcaption class="post-description-style-2" itemprop="description">
+                  {{ .Description }}
+                </figcaption>
+              {{ end }}
+            </div>
+          </figure>
+          {{ end }}
+        </div>
+      {{ end }}
+          
+      <!-- Redefine the category variables within the section scope to ensure they're accessible -->
+      {{ $hasInterview := false }}
+      {{ range .Params.categories }}
+        {{ $category := lower . }}
+        {{ if eq $category "interview" }}{{ $hasInterview = true }}{{ end }}
+      {{ end }}
+      
+      <section class="category-section post-section">
+        <!-- Left column (20%) - empty in HTML but filled via positioning -->
+        <aside class="category-header post-sidebar">
+          <!-- Empty - content positioned here with CSS -->
+        </aside>
+
+        <!-- Right column (80%) for post content -->
+        <div class="article-grid category-grid post-content-container">
+          
+          <!-- 1. Category (positioned to left column on desktop) -->
+          {{ if .Params.categories }}
+          <div class="sidebar-item category-container">
+            {{ if $hasInterview }}
+              <!-- For interview articles, show first non-interview category -->
+              {{ $displayedCategory := false }}
+              {{ range .Params.categories }}
+                {{ if and (ne (lower .) "interview") (not $displayedCategory) }}
+                  <nav class="post-categories non-interview-category" aria-label="Categories">
+                    <a href="/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a>
+                  </nav>
+                  {{ $displayedCategory = true }}
+                {{ end }}
+              {{ end }}
+            {{ else if eq (.Params.style | default "1") "2" }}
+              <!-- For style-2 articles, show second category if available -->
+              {{ if ge (len .Params.categories) 2 }}
+                {{ with index .Params.categories 1 }}
+                <nav class="post-categories" aria-label="Categories">
+                  <a href="/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a>
+                </nav>
+                {{ end }}
+              {{ end }}
+            {{ else }}
+              <!-- Normal category display for non-interview articles -->
+              {{ with index .Params.categories 0 }}
+              <nav class="post-categories" aria-label="Categories">
+                <a href="/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a>
+              </nav>
+              {{ end }}
+            {{ end }}
+          </div>
+          {{ end }}
+          
+          <!-- 2. Tag (positioned to left column on desktop) -->
+          {{ if .Params.tags }}
+          <div class="sidebar-item tag-container">
+            {{ with index .Params.tags 0 }}
+            <nav class="post-tags" aria-label="Tags">
+              <a href="/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a>
+            </nav>
+            {{ end }}
+          </div>
+          {{ end }}
+          
+          <!-- For Style 2 comments, add description container here -->
+          {{ if and $hasComments .Description (eq (.Params.style | default "1") "2") }}
+            <div class="comment-description-container-right-column">              
+              <div class="comment-description">               
+                <div itemprop="description">{{ .Description }}</div>
+              </div>
+              <div class="comment-author-space">
+                {{ partial "author-info.html" (dict "context" . "showImage" true "showName" false) }}
+              </div>
+            </div>
+          {{ end }}
+          
+          <!-- Style 1: Default layout -->
+          {{ if ne (.Params.style | default "1") "2" }}
+            <div class="post-title-section">
+              {{ if $hasComments }}
+              <h1 class="post-title" itemprop="headline"><span class="quote-mark"></span>{{ .Title }}</h1>
+              {{ else if $hasInterview }}
+              <!-- Title section is empty for interview posts as it's handled separately -->
+              {{ else }}
+              <h1 class="post-title" itemprop="headline">{{ .Title }}</h1>
+              {{ end }}
+              
+              {{ if and .Description (not $hasComments) (not $hasInterview) }}
+              <div class="post-description">
+                <p itemprop="description">{{ .Description }}</p>
+              </div>
+              {{ end }}
+            </div>
+            
+            <!-- For Style 1 comments, add description container here -->
+            {{ if and $hasComments .Description (ne (.Params.style | default "1") "2") }}
+              <div class="comment-description-container">              
+                <div class="comment-description">                
+                  <div itemprop="description">{{ .Description }}</div>
+                </div>
+                <div class="comment-author-space">
+                  {{ partial "author-info.html" (dict "context" . "showImage" true "showName" false) }}
+                </div>
+              </div>
+              {{ if and $hasComments (ne (.Params.style | default "1") "2") }}
+                {{ if .Params.featuredImage }}
+                  <figure class="post-featured-image" itemprop="image">
+                    <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}">
+                  </figure>
+                {{ else if .Params.image }}
+                  <figure class="post-featured-image" itemprop="image">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                  </figure>
+                {{ end }}
+              {{ end }}
+            {{ end }}
+            
+            
+            <!-- Interview header group moved outside of header element -->
+            {{ if $hasInterview }}
+            <div class="interview-header-group">
+              <div class="interview-header-text-container">
+                <div><span class="interview-category-label interview-category-label-style-1"><a href="/categories/interview/" style="color:inherit; text-decoration:none;">Interview</a></span></div>
+                <div><h1 class="post-title" itemprop="headline">{{ .Title }}</h1></div>
+                <div>{{ partial "author-info.html" (dict "context" . "asToldTo" true "class" "interview-author-credit") }}</div>
+              </div>
+            </div>
+            {{ end }}
+
+            
+
+            <!-- Featured Image with semantic markup -->
+            {{ if and (not $hasComments) }}
+              {{ if .Params.featuredImage }}
+              <figure class="post-featured-image {{ if $hasInterview }}interview-featured-image{{ end }}" itemprop="image">
+                <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}">
+              </figure>
+              {{ else if .Params.image }}
+              <figure class="post-featured-image {{ if $hasInterview }}interview-featured-image{{ end }}" itemprop="image">
+                <img src="{{ .Params.image }}" alt="{{ .Title }}">
+              </figure>
+              {{ end }}
+            {{ end }}
+            
+          {{ end }}
+
+          
+          <!-- 5. Reading features (positioned to left column on desktop) -->
+          <div class="sidebar-item reading-features-container">
+            
+            {{ partial "text-size-adjuster.html" . }}
+            {{ partial "favorite-article.html" . }}
+            {{ partial "comment-separator.html" dict }}
+
+
+          </div>
+
+          <!-- Gordian Magazine Badge -->            
+          <div class="sidebar-item gordian-badge-container"> {{ partial "gordian-badge.html" . }}</div>
+
+          <!-- 3. Author info (positioned to left column on desktop) -->
+          <div class="sidebar-item author-container">
+            {{ if .Params.authors }}
+              <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                {{ range $index, $author := .Params.authors }}
+                  {{ if $index }}<span class="author-separator"></span>{{ end }}
+                  <a href="/authors/{{ $author | urlize }}/" itemprop="url">
+                    <span itemprop="name">@{{ $author }}</span>
+                  </a>
+                {{ end }}
+              </address>
+            {{ else if .Params.author }}
+              <!-- Handle both string and array formats for author field -->
+              {{ if reflect.IsSlice .Params.author }}
+                <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  {{ range $index, $author := .Params.author }}
+                    {{ if $index }}<span class="author-separator">, </span>{{ end }}
+                    <a href="/authors/{{ $author | urlize }}/" itemprop="url">
+                      <span itemprop="name">@{{ $author }}</span>
+                    </a>
+                  {{ end }}
+                </address>
+              {{ else }}
+                <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  <a href="/authors/{{ .Params.author | urlize }}/" itemprop="url">
+                    <span itemprop="name">@{{ .Params.author }}</span>
+                  </a>
+                </address>
+              {{ end }}
+            {{ else if .Site.Params.author }}
+              <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                <a target="_blank" href="{{ .Site.Params.authorHomepage }}" itemprop="url">
+                  <span itemprop="name">@{{ .Site.Author.name }}</span>
+                </a>
+              </address>
+            {{ end }}
+           
+            
+          </div>
+          
+          <!-- 4. Date -->
+           <div class="sidebar-item date-container post-date-container">
+            
+              {{ if .Date }}
+            
+              <time class="post-date" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}" itemprop="datePublished">
+                {{ .Date.Format "02 Jan 2006 15:04" }} (Helsinki time)
+              </time>
+            {{ end }}
+          </div>
+
+
+  
+          
+
+          <div class="post-content markdown-body" itemprop="articleBody">
+            {{ .Site.Params.postHeaderContent | safeHTML }}
+            <!-- Special layout for Comments category -->
+            {{ if $hasComments }}
+              <!-- Featured Image with semantic markup (for comments only - style 1) -->
+              {{ if and (ne (.Params.style | default "1") "2") }}
+                <!-- featured image block removed from here to avoid duplicate -->
+              {{ end }}
+              {{ .Content }}
+            {{ else }}
+              <!-- Regular content for non-comments categories -->
+              {{ .Content }}
+            {{ end }}
+          </div>
+
+          {{ if in .Site.Params.mainSections .Type }}
+            {{ .Site.Params.postFooterContent | safeHTML }}
+            <!-- Categories and Tags section -->
+            <div class="post-taxonomy-section">
+              {{ if or .Params.categories .Params.tags }}
+              <div class="taxonomy-heading">Explore more on these topics</div>
+              {{ end }}
+              <!-- All categories -->
+              {{ if .Params.categories }}
+              <div class="post-all-categories">
+                <nav aria-label="All Categories">
+                  {{ range .Params.categories }}
+                  <span class="post-categories"><a href="/categories/{{ lower . | urlize }}/" rel="category">{{ . }}</a></span>
+                  {{ end }}
+                </nav>
+              </div>
+              {{ end }}
+              <!-- All tags -->
+              {{ if .Params.tags }}
+              <div class="post-all-tags">
+                <nav aria-label="All Tags">
+                  {{ range .Params.tags }}
+                  <span class="post-tags"><a href="/tags/{{ lower . | urlize }}/" rel="tag">{{ . }}</a></span>
+                  {{ end }}
+                </nav>
+              </div>
+              {{ end }}
+            </div>
+            <div>
+              {{ partial "related.html" . }}
+              {{ if .Site.Params.postAds }}
+              <div class="post-ads">{{ .Site.Params.postAds | safeHTML }}</div>
+              {{ end }}
+            </div>
+          {{ end }}
+        </div>
+      </section>
+    </article>
+  </main>
+  
+  {{ if .Site.Params.extraBody }}
+  {{ .Site.Params.extraBody | safeHTML }}
+  {{ end }}
+{{ end }}

@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+          <h1 class="taxonomy-term">{{ .Title }}</h1>
+
+          <div id="posts-list">
+            {{ range .Pages.GroupByDate "2006" }}
+            <section class="category-section">
+              <div class="category-header">
+                <h1 class="site-date-catalog">{{ .Key }}</h1>
+              </div>
+
+              <div class="article-grid category-grid">
+                {{ range .Pages }} {{ partial "article-card.html" . }} {{ end }}
+              </div>
+            </section>
+            {{ end }}
+          </div>
+
+        </div>
+      </div>
+{{ end }}

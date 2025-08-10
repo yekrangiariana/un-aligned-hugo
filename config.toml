@@ -1,0 +1,50 @@
+ignoreLogs = ['warning-goldmark-raw-html']
+
+baseURL = "https://example.com"
+languageCode = "en-us"
+title = "UN-aligned"
+
+# Using clean URLs is generally good practice
+cleanURLs = true
+
+[params]
+extraHead = ''
+mainSections = ["posts", "gordian"]
+tagline = "Putting humanity before nationality and planet before greed"
+
+[params.logo]
+  name = "logo"
+  homepage = ""
+
+[[params.socials]]
+name = "RSS"
+link = "/index.xml"
+
+[[params.socials]]
+name = "Menu"
+link = "#"
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "authors"
+
+# preserveTaxonomyNames removed to default to false (urlize names)
+
+[security.funcs]
+  getenv = ['^HUGO_']
+
+[outputFormats]
+  [outputFormats.ArticlesIndex]
+    mediaType = "application/json"
+    baseName = "articles-index"
+    isPlainText = true
+    notAlternative = true
+
+[outputs]
+  home = ["HTML", "ArticlesIndex"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

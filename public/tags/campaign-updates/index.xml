@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Campaign Updates on UN-aligned</title>
+    <link>http://localhost:1313/tags/campaign-updates/</link>
+    <description>Recent content in Campaign Updates on UN-aligned</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Mar 2022 11:11:13 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/campaign-updates/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Update on UN-aligned’s open letter to the United Nations Human Rights Council</title>
+      <link>http://localhost:1313/campaigns/update-on-un-aligneds-open-letter-to-the-united-nations-human-rights-council/</link>
+      <pubDate>Thu, 10 Mar 2022 11:11:13 +0200</pubDate>
+      <guid>http://localhost:1313/campaigns/update-on-un-aligneds-open-letter-to-the-united-nations-human-rights-council/</guid>
+      <description>&lt;p&gt;In the second half of 2021, we launched an &lt;a href=&#34;https://un-aligned.org/letters/counties-who-criminalise-homosexuality-must-not-be-allowed-a-seat-on-the-unhrc/&#34;&gt;Open Letter&lt;/a&gt; to the United Nations Human Rights Commission requesting that countries that criminalise LGBTQ+ rights be barred from forming part of the commission. &lt;/p&gt;&#xA;&lt;p&gt;So far, the letter has been signed by over a dozen LGBT+ organisations from around the globe, as well as individual activists. We originally planned to send the letter on 22 February 2022. However, owing to the latest developments in the United Nations and the ongoing war in Ukraine, we have decided to postpone the open letter as otherwise it would be sounded out by these tragic events. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

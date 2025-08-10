@@ -1,0 +1,16 @@
+{{- $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
+[
+{{- range $i, $p := $pages }}
+  {{- if $i }},{{ end }}
+  {
+    "id": {{ $p.RelPermalink | jsonify }},
+    "title": {{ $p.Title | jsonify }},
+    "date": {{ $p.Date | time.Format "2006-01-02" | jsonify }},
+    "author": {{ with $p.Params.authors }}{{ index . 0 | jsonify }}{{ else }}""{{ end }},
+    "categories": {{ $p.Params.categories | jsonify }},
+    "description": {{ $p.Description | default "" | jsonify }},
+    "featuredImage": {{ $p.Params.image | default "" | jsonify }},
+    "url": {{ $p.RelPermalink | jsonify }}
+  }
+{{- end }}
+]

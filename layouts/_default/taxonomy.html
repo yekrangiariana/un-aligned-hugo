@@ -1,0 +1,35 @@
+{{ define "main" }}
+<!-- Main section with 20/80 layout for the title -->
+<header class="category-section">
+  <!-- Left column (20%) for the title -->
+  <div class="category-header">
+    <h1 class="taxonomy-term">
+      {{if eq .Type "authors"}}Posts by {{end}}{{ .Title }}
+    </h1>
+  </div>
+
+  <!-- Right column (80%) for any content -->
+  <div class="category-grid">
+    {{ with .Content }}
+    <div class="section-content markdown-body">{{ . }}</div>
+    {{ end }}
+  </div>
+</header>
+
+<!-- Posts list as separate sections with their own 20/80 layouts per year -->
+<main id="posts-list">
+  {{ range .Pages.GroupByDate "2006" }}
+  <section class="category-section" aria-labelledby="year-{{ .Key }}">
+    <header class="category-header">
+      <h2 id="year-{{ .Key }}" class="site-date-catalog">{{ .Key }}</h2>
+    </header>
+
+    <div class="category-grid">
+      <div class="article-grid">
+        {{ range .Pages }} {{ partial "article-card.html" . }} {{ end }}
+      </div>
+    </div>
+  </section>
+  {{ end }}
+</main>
+{{ end }}

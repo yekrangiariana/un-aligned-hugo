@@ -1,0 +1,71 @@
+<!-- Reading Features Section - Combines size control and bookmarking functionality -->
+<div class="reading-features-section">
+  <div class="reading-features-controls">
+    <!-- Text Size Controls -->
+    <div class="text-size-controls">
+      <button
+        class="size-option size-small"
+        data-size="small"
+        title="Small text"
+      >
+        A
+      </button>
+      <button
+        class="size-option size-medium active"
+        data-size="medium"
+        title="Medium text"
+      >
+        A
+      </button>
+      <button
+        class="size-option size-large"
+        data-size="large"
+        title="Large text"
+      >
+        A
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // TEXT SIZE FUNCTIONALITY
+    // Get all size option buttons
+    const sizeOptions = document.querySelectorAll(".size-option");
+
+    // Try different possible content selectors (for different page types)
+    let articleContent =
+      document.querySelector(".post-content.markdown-body") ||
+      document.querySelector(".post-content") ||
+      document.querySelector(".markdown-body") ||
+      document.querySelector("article");
+
+    // If no content area is found, don't try to apply text size changes
+    if (!articleContent) {
+      console.log("No article content found for text size adjustment");
+    }
+
+    // Check for saved text size preference
+    const savedSize = localStorage.getItem("preferredTextSize");
+    if (savedSize && articleContent) {
+      // Remove any existing size classes
+      articleContent.classList.remove(
+        "text-size-small",
+        "text-size-medium",
+        "text-size-large"
+      );
+      // Add the saved size class
+      articleContent.classList.add(`text-size-${savedSize}`);
+
+      // Update active button
+      sizeOptions.forEach((button) => {
+        button.classList.remove("active");
+        if (button.dataset.size === savedSize) {
+          button.classList.add("active");
+        }
+      });
+    }
+
+  });
+</script>

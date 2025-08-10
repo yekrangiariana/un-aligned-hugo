@@ -1,0 +1,110 @@
+{{/* Shared article card partial that ensures consistent card layout across the
+site Can be used on homepage, category pages, tag pages, etc. */}} {{/* Check if
+article has any of our special categories */}} {{ $hasGallery := false }} {{
+$hasCulture := false }} {{ $hasInterview := false }} {{ $hasComments := false }} {{ range .Params.categories
+}} {{ $category := lower . }} {{ if eq $category "gallery" }}{{ $hasGallery =
+true }}{{ end }} {{ if eq $category "culture" }}{{ $hasCulture = true }}{{ end
+}} {{ if eq $category "interview" }}{{ $hasInterview = true }}{{ end }} {{ if eq $category "comments" }}{{ $hasComments =
+true }}{{ end }} {{ end
+}}
+
+<article
+  class="article-card
+  {{ if $hasGallery }}has-gallery{{ end }}
+  {{ if $hasCulture }}has-culture{{ end }}
+  {{ if $hasInterview }}has-interview{{ end }}
+  {{ if $hasComments }}has-comments{{ end }}
+  {{ if eq (.Params.style | default "1") "2" }}style-2{{ end }}"
+  itemscope itemtype="https://schema.org/Article"
+>
+  <a href="{{ .RelPermalink }}" class="article-card-link" itemprop="url">
+    <div class="article-card-content">
+      <div class="article-card-tags">
+        {{ if $hasComments }}
+          {{ with .Params.authors }}
+          <span class="article-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+            <span itemprop="name">{{ index . 0 }}</span>
+          </span>
+          {{ end }} {{ if .Params.feature }}
+          <span class="featured-post-badge" aria-label="Featured post">★</span>
+          {{ end }}
+        {{ else }}
+          {{ with .Params.tags }}
+          <span class="article-card-tag" itemprop="keywords">{{ index . 0 }}</span>
+          {{ end }} {{ if .Params.feature }}
+          <span class="featured-post-badge" aria-label="Featured post">★</span>
+          {{ end }}
+        {{ end }}
+      </div>
+      {{ if $hasComments }}
+      <h3 class="article-card-title" itemprop="headline"><span class="quote-mark"></span>{{ .Title }}</h3>
+      {{ else }}
+      <h3 class="article-card-title" itemprop="headline">{{ .Title }}</h3>
+      {{ end }}
+      <div class="article-card-description" itemprop="description">
+        {{ with .Description }} {{ . }} {{ else }} {{ $plainText := .Content |
+        plainify | replaceRE "[\n\r]+" " " }} {{ $firstSentences := index (split
+        $plainText ". ") 0 }} {{ if gt (len (split $plainText ". ")) 1 }} {{
+        print $firstSentences ". " }}{{ index (split $plainText ". ") 1 }}{{
+        print ". " }} {{ else }} {{ $firstSentences }} {{ end }} {{ end }}
+      </div>
+    </div>
+    {{ if $hasComments }}
+      {{ with .Params.authors }}
+        {{ $authorKey := index . 0 | urlize }}
+        {{ $author := index site.Data.authors $authorKey }}
+        {{ if and $author $author.image }}
+          <div class="author-profile-container">
+            <img src="{{ $author.image }}" alt="{{ $author.name }}" class="author-profile-image" itemprop="image" />
+          </div>
+        {{ end }}
+      {{ end }}
+      
+      {{ if and (not (and .Params.authors (index site.Data.authors (index .Params.authors 0 | urlize)) (index site.Data.authors (index .Params.authors 0 | urlize)).image)) (.Params.image) }}
+        {{ if and .Params.carousel .Params.images }}
+          {{ $images := .Params.images }}
+          {{ if ge (len $images) 2 }}
+            <div class="article-card-carousel" data-images='{{ $images | jsonify }}'>
+              {{ range $index, $image := $images }}
+                <img src="{{ $image }}" alt="{{ $.Title }}" class="article-card-image carousel-image{{ if eq $index 0 }} active{{ end }}" itemprop="image" />
+              {{ end }}
+            </div>
+          {{ else }}
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-card-image" itemprop="image" />
+          {{ end }}
+        {{ else }}
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-card-image" itemprop="image" />
+        {{ end }}
+      {{ end }}
+    {{ else }}
+    {{ if .Params.image }}
+      {{ if and .Params.carousel .Params.images }}
+        {{ $images := .Params.images }}
+        {{ if ge (len $images) 2 }}
+          <div class="article-card-carousel" data-images='{{ $images | jsonify }}'>
+            {{ range $index, $image := $images }}
+              <img src="{{ $image }}" alt="{{ $.Title }}" class="article-card-image carousel-image{{ if eq $index 0 }} active{{ end }}" itemprop="image" />
+            {{ end }}
+          </div>
+        {{ else }}
+          <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-card-image" itemprop="image" />
+        {{ end }}
+      {{ else }}
+        <img
+          src="{{ .Params.image }}"
+          alt="{{ .Title }}"
+          class="article-card-image"
+          itemprop="image"
+        />
+      {{ end }}
+    {{ end }}
+    {{ end }}
+    
+    {{ if .Date }}
+    <meta itemprop="datePublished" content="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" />
+    {{ end }}
+    {{ if .Lastmod }}
+    <meta itemprop="dateModified" content="{{ .Lastmod.Format "2006-01-02T15:04:05Z07:00" }}" />
+    {{ end }}
+  </a>
+</article>

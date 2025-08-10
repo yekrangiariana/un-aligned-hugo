@@ -1,0 +1,357 @@
+/* Header specific styles - MAIN SOURCE OF HEADER STYLING */
+/* Any changes to header layout should be made here to ensure consistency */
+
+/* Header layout */
+.site-header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  position: relative;
+  z-index: 1000; /* Ensure header is above other elements */
+  border-bottom: 3px solid var(--color-header-border);
+  background-color: #d42b63;
+  width: 100%; /* Full width background */
+  padding-bottom: 0;
+}
+
+/**
+ * Site Header Typography
+ * Typography for the site header
+ */
+.header-title {
+  font-size: var(--font-size-title);
+  font-weight: var(--font-weight-bold);
+  font-family: var(--font-family-special);
+}
+
+.header-title a {
+  text-decoration: none;
+  color: var(--color-primary);
+  transition: color 0.2s ease;
+}
+
+.header-title a:hover {
+  color: var(--color-link-hover);
+}
+
+.header-subtitle {
+  color: var(--color-text-subtitle);
+  font-size: var(--font-size-sm);
+}
+
+/* Site title and header typography */
+.site-date-catalog {
+  font-size: var(--font-size-lg);
+}
+
+/* Header content container - controls the actual content width */
+.header-container {
+  max-width: var(--site-max-width);
+  width: var(--site-content-width);
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+/* Two-column layout - matches the site's 20/80 content layout system */
+.header-two-columns {
+  display: flex;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.header-left-column {
+  padding-right: 30px;
+  padding-bottom: 5px;
+  width: var(--column-left-width);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Right column - using variable for consistent width */
+.header-right-column {
+  width: var(--column-right-width);
+  display: flex;
+  flex-direction: column;
+  position: relative; /* Make it a positioning context */
+}
+/* Title and subtitle in left column */
+.header-title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+}
+
+.header-title a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.header-logo {
+  max-height: 80px;
+  width: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.header-subtitle {
+  color: white;
+  font-size: 0.875rem;
+  text-align: left;
+  width: 100%;
+}
+
+/* Bottom section grouping buttons and categories */
+.header-bottom-section {
+  margin-top: auto; /* Push to the bottom */
+}
+
+/* Top buttons area in right column */
+.header-top-buttons {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-items {
+  display: flex;
+  align-items: end;
+  flex-direction: row-reverse;
+  padding-bottom: 5px;
+}
+
+.header-item {
+  margin: 0 0 0 10px;
+  white-space: nowrap;
+}
+
+/* Header button styling for all buttons (bookmarks, dark mode, twitter) */
+.header-button,
+.simple-dark-toggle,
+.header-item a {
+  display: inline-flex;
+  align-items: center;
+  padding: var(--spacing-xs) var(--spacing-xs);
+  border: 1px solid var(--light-border);
+  background-color: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  color: var(--color-primary);
+  transition: all 0.2s ease;
+  text-decoration: none;
+  border-radius: 3px; /* Sharp corners for boxy design */
+  cursor: pointer;
+  font-size: 14px; /* Consistent font size for all buttons */
+}
+
+/* Dark mode toggle specific styling */
+.simple-dark-toggle .light-icon {
+  display: none;
+}
+
+.simple-dark-toggle .dark-icon {
+  display: inline-block;
+}
+
+/* Header border line */
+.header-line {
+  width: 100%;
+  border-width: 0;
+  margin-bottom: 15px;
+}
+
+#menu-popup-toggle.active {
+  background-color: gold;
+  border-color: var(--dark-bg);
+}
+
+/* Bottom categories area in right column */
+.header-bottom-categories {
+  width: 100%;
+  overflow: hidden; /* Ensure no horizontal scrollbar appears outside the .category-nav */
+  position: relative;
+  background-color: var(
+    --menu-dark-color
+  ); /* Match the category-nav background color */
+}
+
+/* Left fade out removed as per request */
+
+/* Category navigation styling - scrollable horizontal list */
+.category-nav {
+  /* Text fade out effect on right side using mask (85% solid, then fade to transparent) */
+  -webkit-mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  mask-image: linear-gradient(to right, black 85%, transparent 100%);
+  display: flex;
+  flex-wrap: nowrap; /* prevent wrapping to keep items in a single row */
+  justify-content: flex-start;
+  position: relative;
+  gap: 0; /* Remove gap as we'll handle spacing with paddings */
+  background-color: var(--menu-dark-color);
+  overflow-x: auto; /* Enable horizontal scrolling */
+  scrollbar-width: none; /* Hide scrollbar in Firefox */
+  -ms-overflow-style: none; /* Hide scrollbar in IE/Edge */
+  white-space: nowrap; /* Prevent text wrapping */
+  padding: 3px;
+  scroll-behavior: smooth; /* Smooth scrolling */
+  -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
+}
+
+/* Hide scrollbar in WebKit/Chrome browsers */
+.category-nav::-webkit-scrollbar {
+  display: none;
+}
+
+.category-nav-item {
+  margin: 0;
+  font-size: 0.95rem; /* Slightly smaller font */
+  text-align: right;
+  position: relative;
+  flex-shrink: 0; /* Prevent items from shrinking */
+  padding: 0 5px; /* Add horizontal padding for spacing */
+}
+
+/* Add extra padding to the last item to keep it out of the fade zone */
+.category-nav-item:last-child {
+  padding-right: 60px; /* Add enough padding to keep the last item out of the fade zone */
+}
+
+/* Add small dot separators between items */
+/* .category-nav-item:not(:last-child):after {
+  content: "|";
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: var(--light-border);
+  font-size: 0.8rem;
+} */
+
+.category-nav-item a {
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease;
+  position: relative;
+  z-index: 1002;
+  padding: 3px 6px; /* Smaller padding for compactness */
+  display: inline-block;
+  border: 1px solid transparent; /* Transparent border initially */
+  font-weight: 500; /* Make text slightly more visible */
+}
+
+/* Add hover effect for category links */
+.category-nav-item a:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 3px;
+}
+
+/* Active category indication */
+.category-nav-item a.active {
+  background-color: rgba(255, 255, 255, 0.15);
+  border-radius: 3px;
+}
+
+/* ===================================================================
+   ANIMATION SETTINGS
+   =================================================================== */
+
+/* Flash effect removed */
+
+/* Scroll indicator animations removed as we're using fade effect instead */
+
+/* Section appearance animation */
+@keyframes section-appear {
+  0% {
+    transform: scale(0.95);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.category-section {
+  animation: section-appear 0.3s ease-out forwards; /* Section appearance speed (0.3s = fast) */
+}
+
+@media screen and (max-width: 768px) {
+  /* Mobile adjustments */
+  .header-two-columns {
+    flex-direction: column; /* Stack columns vertically on mobile */
+  }
+
+  .category-nav-item {
+    font-size: 0.85rem; /* Slightly smaller font */
+    padding: 0 0px; /* Add horizontal padding for spacing */
+  }
+
+  .header-left-column,
+  .header-right-column {
+    width: 100%; /* Full width on mobile */
+    padding-right: 0; /* Remove right padding */
+    padding-bottom: 0;
+  }
+
+  .header-top-buttons {
+    justify-content: stretch; /* Allow items to spread across full width */
+  }
+
+  /* Make buttons spread across full width */
+  .header-items {
+    gap: 0; /* Remove gap */
+    flex-direction: row-reverse; /* Reverse order - rightmost button goes to far left */
+    width: 100%; /* Take full width */
+    justify-content: space-between; /* Distribute buttons evenly across width */
+    padding: 0; /* Remove padding */
+  }
+
+  .header-item {
+    margin: 0;
+    flex: 1;
+    text-align: center;
+  }
+
+  /* Make buttons fill their container, center text, and make them taller */
+  .header-button,
+  .simple-dark-toggle,
+  .header-item a {
+    width: 100%; /* Fill the available space */
+    justify-content: center; /* Center the button text */
+    text-align: center; /* Center text */
+    min-height: 40px; /* Ensure minimum touch-friendly height */
+    border-radius: 0;
+    border: none;
+    background-color: var(--menu-dark-color);
+    color: white;
+    border-bottom: 1px solid var(--dark-border);
+    border-right: 1px solid var(--dark-border);
+  }
+
+  .header-subtitle {
+    display: block;
+    text-align: left;
+    width: 40%;
+    align-self: center;
+  }
+
+  .header-title {
+    text-align: right;
+    width: auto; /* Don't take full width */
+  }
+
+  .header-title a {
+    display: inline-block;
+    text-align: right;
+    width: auto;
+  }
+
+  .header-logo {
+    margin: 0; /* Remove auto centering */
+    display: block;
+  }
+  .header-left-column {
+    align-items: flex-end;
+    flex-direction: row;
+    gap: 10px;
+  }
+}

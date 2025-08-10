@@ -1,0 +1,116 @@
+{{ $related := (where site.RegularPages "Type" "in" site.Params.mainSections).Related . | first 6 }}
+{{ with $related }}
+<div class="related-content">
+  <div class="related-content-header">
+    <ul class="related-content-title">Related Posts</ul>
+    <div class="carousel-controls">
+      <button class="carousel-control carousel-control-prev" aria-label="Previous articles">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M15 18l-6-6 6-6"/>
+        </svg>
+      </button>
+      <button class="carousel-control carousel-control-next" aria-label="Next articles">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M9 18l6-6-6-6"/>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="related-content-grid">
+    {{ range . }}
+      {{/* Check if article has any of our special categories */}} 
+      {{ $hasGallery := false }}
+      {{ $hasCulture := false }} 
+      {{ $hasInterview := false }} 
+      {{ $hasComments := false }} 
+      {{ range .Params.categories }}
+        {{ $category := lower . }} 
+        {{ if eq $category "gallery" }}{{ $hasGallery = true }}{{ end }} 
+        {{ if eq $category "culture" }}{{ $hasCulture = true }}{{ end }}
+        {{ if eq $category "interview" }}{{ $hasInterview = true }}{{ end }} 
+        {{ if eq $category "comments" }}{{ $hasComments = true }}{{ end }} 
+      {{ end }}
+      
+      <article class="article-card related-article-card
+        {{ if $hasGallery }}has-gallery{{ end }}
+        {{ if $hasCulture }}has-culture{{ end }}
+        {{ if $hasInterview }}has-interview{{ end }}
+        {{ if $hasComments }}has-comments{{ end }}"
+        itemscope itemtype="https://schema.org/Article">
+        <a href="{{ .RelPermalink }}" class="article-card-link" itemprop="url">
+          <div class="article-card-content">
+            <div class="article-card-tags">
+              {{ if $hasComments }}
+                {{ with .Params.authors }}
+                <span class="article-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                  <span itemprop="name">{{ index . 0 }}</span>
+                </span>
+                {{ end }}
+              {{ else }}
+                {{ with .Params.tags }}
+                <span class="article-card-tag" itemprop="keywords">{{ index . 0 }}</span>
+                {{ end }}
+              {{ end }}
+            </div>
+            {{ if $hasComments }}
+            <h3 class="article-card-title" itemprop="headline"><span class="quote-mark"></span>{{ .Title }}</h3>
+            {{ else }}
+            <h3 class="article-card-title" itemprop="headline">{{ .Title }}</h3>
+            {{ end }}
+            <div class="article-card-description" itemprop="description">
+              {{ with .Description }} 
+                {{ . }} 
+              {{ else }} 
+                {{ $plainText := .Content | plainify | replaceRE "[\n\r]+" " " }} 
+                {{ $firstSentence := index (split $plainText ". ") 0 }} 
+                {{ if gt (len (split $plainText ". ")) 1 }} 
+                  {{ print $firstSentence ". " }}
+                {{ else }} 
+                  {{ $firstSentence }} 
+                {{ end }} 
+              {{ end }}
+            </div>
+          </div>
+          {{ if $hasComments }}
+            {{ with .Params.authors }}
+              {{ $authorKey := index . 0 | urlize }}
+              {{ $author := index site.Data.authors $authorKey }}
+              {{ if and $author $author.image }}
+                <div class="author-profile-container">
+                  <img src="{{ $author.image }}" alt="{{ $author.name }}" class="author-profile-image" itemprop="image" />
+                </div>
+              {{ end }}
+            {{ end }}
+            
+            {{ if and (not (and .Params.authors (index site.Data.authors (index .Params.authors 0 | urlize)) (index site.Data.authors (index .Params.authors 0 | urlize)).image)) (.Params.image) }}
+              <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-card-image" itemprop="image" />
+            {{ end }}
+          {{ else }}
+            {{ if .Params.image }}
+              <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-card-image" itemprop="image" />
+            {{ end }}
+          {{ end }}
+        </a>
+      </article>
+    {{ end }}
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const carousel = document.querySelector('.related-content-grid');
+  const prevButton = document.querySelector('.carousel-control-prev');
+  const nextButton = document.querySelector('.carousel-control-next');
+  const cardWidth = carousel.querySelector('.article-card').offsetWidth + 20; // Card width + gap
+  
+  // Scroll by one card width
+  prevButton.addEventListener('click', function() {
+    carousel.scrollBy({ left: -cardWidth, behavior: 'smooth' });
+  });
+  
+  nextButton.addEventListener('click', function() {
+    carousel.scrollBy({ left: cardWidth, behavior: 'smooth' });
+  });
+});
+</script>
+{{ end }}

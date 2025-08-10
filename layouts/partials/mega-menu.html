@@ -1,0 +1,46 @@
+<!-- Mega Menu Partial -->
+<div id="mega-menu-popup" class="mega-menu-popup">
+  <div class="mega-menu-content">
+    <div class="mega-menu-header">
+      <ul class="mega-menu-title">
+        <li>Menu</li>
+      </ul>
+      <button id="close-menu-popup" class="close-menu-button" aria-label="Close menu">×</button>
+    </div>
+    <div class="mega-menu-columns">
+      {{ range .Site.Data.megamenu.sections }}
+      <div class="mega-menu-column">
+        <ul class="mega-menu-links">
+          <li class="mega-menu-section-title">{{ .title }}</li>
+          {{ range .links }}
+          <li>
+            {{ if .external }}
+              <a href="{{ .url }}" target="_blank" rel="noopener noreferrer">{{ .name }}</a>
+            {{ else }}
+              <a href="{{ $.Site.BaseURL | absURL }}{{ .url }}">{{ .name }}</a>
+            {{ end }}
+          </li>
+          {{ end }}
+        </ul>
+      </div>
+      {{ end }}
+      
+      <!-- Dynamic Gordian Magazine Section -->
+      <div class="mega-menu-column gordian-feature">
+        <ul class="mega-menu-links">
+          <li class="mega-menu-section-title">Latest Gordian Issue</li>
+          {{ $latestIssue := index (where (where .Site.Pages "Section" "gordian") "Params.issueNumber" "ne" nil) 0 }}
+          {{ range first 1 (sort (where (where .Site.Pages "Section" "gordian") "Params.issueNumber" "ne" nil) "Params.issueNumber" "desc") }}
+            <li class="gordian-cover">
+              <img src="{{ .Params.image }}" alt="Gordian Issue {{ .Params.issueNumber }} Cover">
+            </li>
+            <li class="gordian-buttons">
+              <a href="{{ .Permalink }}" class="gordian-button current-issue">Read Issue {{ .Params.issueNumber }}</a>
+              <a href="{{ $.Site.BaseURL | absURL }}gordian/" class="gordian-button past-issues">Past Issues</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

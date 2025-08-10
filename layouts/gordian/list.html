@@ -1,0 +1,543 @@
+{{ define "main" }}
+
+<!-- Override the page title for this specific page -->
+<script>
+  document.title = "The Gordian Magazine";
+</script>
+
+<!-- Load CSS file from assets/css/gordian.css -->
+{{ $gordianCSS := resources.Get "css/gordian.css" }}
+<link rel="stylesheet" href="{{ $gordianCSS.RelPermalink }}" />
+
+<!-- Hero section with full-width green background -->
+<section class="gordian-hero">
+  <div class="hero-container">
+    <div class="hero-content">
+      <h1> <img src="/images/The-Gordian-Logo.png.webp" alt="The Gordian Magazine Logo" class="inline-logo">
+        <div class="title-line">The Gordian Magazine</div>
+      </h1>
+      <p class="tagline">Citizen journalism meets activism: your go-to source for in-depth, community-driven reporting on human rights, animal welfare, environmental preservation and world peace.</p>
+      <div class="hero-cta-container">
+        <a href="/opportunities/write-for-un-aligned/" class="hero-cta primary">
+          Share Your Voice
+        </a>
+        <a href="#subscribe" class="hero-cta secondary">
+          Subscribe
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Latest Issue Section -->
+<main id="posts-list">
+  {{ $latestIssue := index .Pages.ByDate.Reverse 0 }}
+  <section class="category-section latest-issue" aria-labelledby="year-latest">
+    <header class="category-header">
+      <h2 id="year-latest" class="site-date-catalog">Latest Issue</h2>
+    </header>
+
+    <div class="article-grid category-grid">
+      <article class="article-card gordian-issue-card" itemscope itemtype="https://schema.org/CreativeWork">
+        <a href="{{ $latestIssue.RelPermalink }}" class="article-card-link" itemprop="url">
+          <div class="article-card-content">
+            <div class="article-card-tags">
+              <span class="article-card-tag"
+                >Issue #{{ $latestIssue.Params.issueNumber | default "1" }}</span
+              >
+              {{ if $latestIssue.Date }}
+              <span class="article-card-tag"
+                ><time datetime="{{ $latestIssue.Date.Format "2006-01-02" }}" itemprop="datePublished">{{ $latestIssue.Date.Format "Jan" }}</time></span
+              >
+              {{ end }}
+              {{ with $latestIssue.Params.tags }}
+              <span class="article-card-tag" itemprop="keywords">{{ index . 0 }}</span>
+              {{ end }} {{ with $latestIssue.Params.categories }}
+              <span class="article-card-tag category-tag" itemprop="genre"
+                >{{ index . 0 }}</span
+              >
+              {{ end }} {{ with $latestIssue.Params.authors }}
+              <span class="article-card-tag author-tag" itemprop="author"
+                >{{ index . 0 }}</span
+              >
+              {{ end }}
+            </div>
+            <h2 class="article-card-title" itemprop="headline">{{ $latestIssue.Title }}</h2>
+            <div class="article-card-description" itemprop="description">
+              {{ $latestIssue.Description }}
+              <p class="gordian-article-count">
+                {{ len $latestIssue.Params.articleList }} articles
+              </p>
+              
+              {{ if $latestIssue.Params.articleList }}
+              <!-- Featured Articles Section -->
+              <div class="section-separator"></div>
+              <div class="featured-articles">
+                <h4 class="section-label">Featured articles in this issue</h4>
+                <ul class="article-list">
+                  {{ range first 3 $latestIssue.Params.articleList }}
+                    {{ $articleSlug := . }}
+                    {{ range $.Site.RegularPages }}
+                      {{ if or (eq .Params.slug $articleSlug) (eq .RelPermalink (printf "/%s/" $articleSlug)) (strings.HasSuffix .RelPermalink (printf "/%s/" $articleSlug)) }}
+                        <li><em>{{ .Title }}</em></li>
+                      {{ end }}
+                    {{ end }}
+                  {{ end }}
+                </ul>
+              </div>
+              
+              {{ $allAuthors := slice }}
+              {{ range $latestIssue.Params.articleList }}
+                {{ $articleSlug := . }}
+                {{ range $.Site.RegularPages }}
+                  {{ if or (eq .Params.slug $articleSlug) (eq .RelPermalink (printf "/%s/" $articleSlug)) (strings.HasSuffix .RelPermalink (printf "/%s/" $articleSlug)) }}
+                    {{ range .Params.authors }}
+                      {{ $allAuthors = $allAuthors | append . }}
+                    {{ end }}
+                  {{ end }}
+                {{ end }}
+              {{ end }}
+              {{ $uniqueAuthors := $allAuthors | uniq }}
+              {{ if $uniqueAuthors }}
+              <div class="section-separator"></div>
+              <div class="gordian-authors">
+                <h4 class="section-label">Contributing authors</h4>
+                <p class="author-list">
+                  {{ $authorNames := slice }}
+                  {{ range $uniqueAuthors }}
+                    {{ $authorKey := . }}
+                    {{ $authorData := index $.Site.Data.authors $authorKey }}
+                    {{ if $authorData }}
+                      {{ $authorNames = $authorNames | append $authorData.name }}
+                    {{ else }}
+                      {{ $authorNames = $authorNames | append (title (replace . "-" " ")) }}
+                    {{ end }}
+                  {{ end }}
+                  {{ delimit $authorNames ", " }}
+                </p>
+              </div>
+              {{ end }}
+              {{ end }}
+            </div>
+          </div>
+          {{ if $latestIssue.Params.image }}
+          <img
+            src="{{ $latestIssue.Params.image }}"
+            alt="{{ $latestIssue.Title }}"
+            class="article-card-image"
+            itemprop="image"
+          />
+          {{ else }}
+          <div class="article-card-placeholder">{{ $latestIssue.Title }}</div>
+          {{ end }}
+        </a>
+      </article>
+    </div>
+  </section>
+  
+  <!-- Why Read The Gordian Section with 20/80 layout -->
+  <section class="category-section reasons-section">
+    <header class="category-header">
+      <h2 class="site-date-catalog">Why Read The Gordian?</h2>
+    </header>
+    
+    <div class="category-grid">
+      <div class="reasons-grid">
+        <article class="reason-card">
+          <div class="reason-card-content">
+            <div class="reason-card-number">
+              <span class="reason-number-tag">01</span>
+            </div>
+            <h3 class="reason-card-title">Voices from the Margins</h3>
+            <div class="reason-card-description">
+              We're not just another news outlet. The Gordian Magazine amplifies voices that are often sidelined, bringing you perspectives from grassroots activists, independent thinkers and local communities. Why follow the crowd when you can lead the conversation?
+            </div>
+          </div>
+        </article>
+        
+        <article class="reason-card">
+          <div class="reason-card-content">
+            <div class="reason-card-number">
+              <span class="reason-number-tag">02</span>
+            </div>
+            <h3 class="reason-card-title">Dive Deeper Into Issues That Matter</h3>
+            <div class="reason-card-description">
+              We go beyond headlines and soundbites to bring you nuanced, in-depth analysis on human rights, animal welfare, and environmental protection. Our writers explore the issues from multiple angles, giving you a fuller understanding of the world around you.
+            </div>
+          </div>
+        </article>
+        
+        <article class="reason-card">
+          <div class="reason-card-content">
+            <div class="reason-card-number">
+              <span class="reason-number-tag">03</span>
+            </div>
+            <h3 class="reason-card-title">Ethical Journalism for a Better World</h3>
+            <div class="reason-card-description">
+              Powered by UN-aligned, our journalism is grounded in ethical values, aiming to shape a better future for everyone. By subscribing, you're not just staying informed; you're supporting a cause. Ready to make an impact? Subscribe and be part of the change.
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Older Gordian Magazine Issues from the-gordian-magazine category -->
+  <section class="category-section older-issues" aria-labelledby="older-issues">
+    <header class="category-header">
+      <h2 id="older-issues" class="site-date-catalog">Older Issues</h2>
+    </header>
+  
+    <div class="older-issues-grid">
+      <!-- Filter for older issues -->
+      <div class="filter-container">
+      
+      {{ $latestIssue := index .Pages.ByDate.Reverse 0 }}
+      {{ $gordianIssues := where .Pages.ByDate.Reverse "Permalink" "ne" $latestIssue.Permalink }}
+      {{ $categoryIssues := where (where .Site.RegularPages "Section" "posts") "Params.categories" "intersect" (slice "The Gordian Magazine") }}
+      {{ $pdfIssues := $.Site.Data.gordian_pdf_issues }}
+      {{ $oldIssues := $gordianIssues | append $categoryIssues }}
+      {{ $years := slice }}
+      {{ $months := slice }}
+      
+      {{ range $oldIssues }}
+        {{ $year := .Date.Format "2006" }}
+        {{ $month := .Date.Format "01" }}
+        {{ $years = $years | append $year }}
+        {{ $months = $months | append $month }}
+      {{ end }}
+      
+      <!-- Also get years and months from PDF issues -->
+      {{ range $pdfIssues }}
+        {{ if .date }}
+          {{ $pdfDate := time .date }}
+          {{ $pdfYear := $pdfDate.Format "2006" }}
+          {{ $pdfMonth := $pdfDate.Format "01" }}
+          {{ $years = $years | append $pdfYear }}
+          {{ $months = $months | append $pdfMonth }}
+        {{ end }}
+      {{ end }}
+      
+      <select id="year-filter" aria-label="Filter by year">
+        <option value="all">All Years</option>
+        {{ range sort ($years | uniq) "value" "desc" }}
+          <option value="{{ . }}">{{ . }}</option>
+        {{ end }}
+      </select>
+      
+      <select id="month-filter" aria-label="Filter by month">
+        <option value="all">All Months</option>
+        <option value="01">January</option>
+        <option value="02">February</option>
+        <option value="03">March</option>
+        <option value="04">April</option>
+        <option value="05">May</option>
+        <option value="06">June</option>
+        <option value="07">July</option>
+        <option value="08">August</option>
+        <option value="09">September</option>
+        <option value="10">October</option>
+        <option value="11">November</option>
+        <option value="12">December</option>
+      </select>
+      
+      <select id="type-filter" aria-label="Filter by type">
+        <option value="all">All Types</option>
+        <option value="web">Web Issues</option>
+        <option value="pdf">PDF Issues</option>
+      </select>
+      
+      <button class="filter-button" id="reset-filter">Reset</button>
+    </div>
+  
+    <div class="no-issues-message" id="no-issues-message" role="alert" aria-live="polite">
+      No issues found for the selected month and year.
+    </div>
+  
+  
+  
+      <div class="article-grid category-grid" id="older-issues-grid">
+        <!-- Regular Content Issues -->
+        {{ range $oldIssues }}
+        <article class="article-card gordian-issue-card" itemscope itemtype="https://schema.org/CreativeWork" data-date="{{ .Date.Format "2006-01-02" }}">
+          <a href="{{ .RelPermalink }}" class="article-card-link" itemprop="url">
+            <div class="article-card-content">
+              <div class="article-card-tags">
+                {{ if eq .Section "gordian" }}
+                  <span class="article-card-tag">Issue #{{ .Params.issueNumber | default "1" }}</span>
+                {{ else }}
+                  <span class="article-card-tag">Archive</span>
+                {{ end }}
+                {{ if .Date }}
+                <span class="article-card-tag"><time datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">{{ .Date.Format "Jan 2006" }}</time></span>
+                {{ end }}
+                {{ with .Params.tags }}
+                <span class="article-card-tag" itemprop="keywords">{{ index . 0 }}</span>
+                {{ end }}
+              </div>
+              <h2 class="article-card-title" itemprop="headline">{{ .Title }}</h2>
+              <div class="article-card-description" itemprop="description">
+                {{ .Description }}
+                {{ if eq .Section "gordian" }}
+                  <div class="gordian-article-count">
+                    {{ len .Params.articleList }} articles
+                  </div>
+                {{ end }}
+              </div>
+            </div>
+            {{ if .Params.image }}
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="article-card-image" itemprop="image" />
+            {{ else }}
+            <div class="article-card-placeholder">{{ .Title }}</div>
+            {{ end }}
+          </a>
+        </article>
+        {{ end }}
+        
+        <!-- PDF Issues from data file -->
+        {{ range $pdfIssues }}
+        <article class="article-card gordian-issue-card" itemscope itemtype="https://schema.org/CreativeWork" data-date="{{ .date }}">
+          <a href="{{ .pdf_url }}" class="article-card-link" itemprop="url" target="_blank">
+            <div class="article-card-content">
+              <div class="article-card-tags">
+                <span class="article-card-tag">Archive</span>
+                <span class="article-card-tag"><time datetime="{{ dateFormat "2006-01-02" .date }}" itemprop="datePublished">{{ dateFormat "Jan 2006" .date }}</time></span>
+                <span class="article-card-tag pdf-tag">{{ .download_label }}</span>
+              </div>
+              <h2 class="article-card-title" itemprop="headline">{{ .title }}</h2>
+              <div class="article-card-description" itemprop="description">
+                {{ .description }}
+              </div>
+            </div>
+            {{ if .cover_image }}
+            <img src="{{ .cover_image }}" alt="{{ .title }}" class="article-card-image" itemprop="image" />
+            {{ else }}
+            <div class="article-card-placeholder">{{ .title }}</div>
+            {{ end }}
+          </a>
+        </article>
+        {{ end }}
+      </div>
+    </div>
+  </section>
+</main>
+
+
+<!-- Consolidated JavaScript -->
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const yearFilter = document.getElementById('year-filter');
+    const monthFilter = document.getElementById('month-filter');
+    const typeFilter = document.getElementById('type-filter');
+    const resetButton = document.getElementById('reset-filter');
+    const noIssuesMessage = document.getElementById('no-issues-message');
+    const articles = document.querySelectorAll('.older-issues .article-card');
+    
+    // Pre-process PDF articles to ensure they have valid datetime attributes
+    articles.forEach(article => {
+      // Check if this is a PDF article by its link
+      const link = article.querySelector('.article-card-link');
+      if (link && link.getAttribute('href').endsWith('.pdf')) {
+        const timeEl = article.querySelector('time');
+        if (timeEl) {
+          // Make sure the datetime attribute has the correct format YYYY-MM-DD
+          const dateString = timeEl.getAttribute('datetime');
+          if (dateString && dateString.indexOf('-') === -1) {
+            // If date is not properly formatted, it's likely just "YYYY-MM-DD"
+            // Get the displayed date text and convert it
+            const dateText = timeEl.textContent.trim();
+            const [monthStr, yearStr] = dateText.split(' ');
+            
+            // Map month name to number
+            const monthMap = {
+              'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04', 'May': '05', 'Jun': '06', 
+              'Jul': '07', 'Aug': '08', 'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+            };
+            
+            if (monthMap[monthStr] && yearStr) {
+              const formattedDate = `${yearStr}-${monthMap[monthStr]}-01`;
+              timeEl.setAttribute('datetime', formattedDate);
+              // Also set data-date on the article
+              article.setAttribute('data-date', formattedDate);
+            }
+          }
+        }
+      }
+    });
+    
+    // Add PDF-specific styling
+    const style = document.createElement('style');
+    style.textContent = `
+      .pdf-tag {
+        background-color: #e74c3c !important;
+        color: white !important;
+      }
+      .article-card-link[href$=".pdf"] {
+        cursor: pointer;
+      }
+    `;
+    document.head.appendChild(style);
+    
+    // Create the Show More button directly in HTML instead of trying to insert it via JS
+    const showMoreContainer = document.createElement('div');
+    showMoreContainer.className = 'show-more-container';
+    showMoreContainer.style.textAlign = 'left';  // Left-align the button
+    showMoreContainer.style.marginTop = '2rem';
+    
+    const showMoreButton = document.createElement('button');
+    showMoreButton.textContent = 'Show More';    // Initial text will be updated later
+    showMoreButton.className = 'filter-button show-more-button';
+    showMoreButton.id = 'show-more';
+    showMoreButton.setAttribute('aria-controls', 'older-issues-grid');
+    showMoreButton.setAttribute('aria-expanded', 'false');
+    
+    showMoreContainer.appendChild(showMoreButton);
+    
+    // Initial number of items to show and increment amount
+    const initialItems = 4;
+    const loadMoreItems = 6;
+    let currentlyShowing = initialItems; // Initialize to show initial items
+    
+    // Keep track of filtered articles globally
+    let filteredArticles = [];
+    
+    // Function to filter articles and limit display
+    function filterArticles() {
+      const selectedYear = yearFilter.value;
+      const selectedMonth = monthFilter.value;
+      const selectedType = typeFilter.value;
+      
+      // Reset the tracking variables
+      filteredArticles = [];
+      
+      // Reset display of all articles and first-visible class
+      articles.forEach(article => {
+        article.style.display = 'none';
+        article.classList.remove('first-visible');
+      });
+      
+      // First pass: collect all articles that match the filter
+      articles.forEach(article => {
+        const dateTag = article.querySelector('time');
+        if (dateTag) {
+          const dateAttr = dateTag.getAttribute('datetime');
+          
+          // Ensure we have a valid date string
+          if (dateAttr && dateAttr.includes('-')) {
+            const articleYear = dateAttr.substring(0, 4);
+            const articleMonth = dateAttr.substring(5, 7);
+            
+            // Check PDF or web type
+            const link = article.querySelector('.article-card-link');
+            const isPDF = link && link.getAttribute('href').endsWith('.pdf');
+            const typeMatch = selectedType === 'all' || 
+                            (selectedType === 'pdf' && isPDF) || 
+                            (selectedType === 'web' && !isPDF);
+            
+            const yearMatch = selectedYear === 'all' || selectedYear === articleYear;
+            const monthMatch = selectedMonth === 'all' || selectedMonth === articleMonth;
+            
+            if (yearMatch && monthMatch && typeMatch) {
+              filteredArticles.push(article);
+            }
+          } else {
+            console.warn('Invalid date format found:', dateAttr);
+          }
+        }
+      });
+      
+      // Sort filtered articles by date (newest first)
+      filteredArticles.sort((a, b) => {
+        const dateA = a.querySelector('time').getAttribute('datetime');
+        const dateB = b.querySelector('time').getAttribute('datetime');
+        return dateB.localeCompare(dateA); // Newest first
+      });
+      
+      // Reset to show only initial items when filters change
+      currentlyShowing = initialItems;
+      
+      // Apply display to articles
+      updateArticleDisplay();
+    }
+    
+    // Function to update which articles are displayed based on currentlyShowing
+    function updateArticleDisplay() {
+      // Display only the first N articles from the filtered list
+      filteredArticles.forEach((article, index) => {
+        if (index < currentlyShowing) {
+          article.style.display = '';
+        } else {
+          article.style.display = 'none';
+        }
+      });
+      
+      // Update first visible article styling
+      if (filteredArticles.length > 0) {
+        filteredArticles[0].classList.add('first-visible');
+      }
+      
+      // Show/hide no issues message
+      if (filteredArticles.length === 0) {
+        noIssuesMessage.style.display = 'block';
+        showMoreContainer.style.display = 'none';
+      } else {
+        noIssuesMessage.style.display = 'none';
+        
+        // Show/hide the Show More button based on if there are more to display
+        const remainingItems = filteredArticles.length - currentlyShowing;
+        
+        if (remainingItems <= 0) {
+          showMoreContainer.style.display = 'none';
+          showMoreButton.setAttribute('aria-expanded', 'true');
+        } else {
+          // Update the button text to show remaining items count
+          showMoreButton.textContent = `Show More (${remainingItems} remaining)`;
+          showMoreButton.setAttribute('aria-expanded', 'false');
+          showMoreContainer.style.display = 'block';
+        }
+      }
+    }
+    
+    // Function to load more items
+    function showMore(e) {
+      e.preventDefault(); // Prevent any default button behavior
+      
+      // Calculate how many items to load next
+      const remainingItems = filteredArticles.length - currentlyShowing;
+      const itemsToLoad = Math.min(loadMoreItems, remainingItems);
+      
+      currentlyShowing += itemsToLoad;
+      updateArticleDisplay();
+    }
+    
+    // Function to reset filters
+    function resetFilters() {
+      yearFilter.value = 'all';
+      monthFilter.value = 'all';
+      typeFilter.value = 'all';
+      currentlyShowing = initialItems;
+      
+      // Reapply filter with reset values
+      filterArticles();
+    }
+    
+    // Add the Show More button after the article grid
+    const articleGrid = document.querySelector('.older-issues .article-grid');
+    articleGrid.parentNode.insertBefore(showMoreContainer, articleGrid.nextSibling);
+    
+    // Set default view to show initial items
+    filterArticles();
+    
+    // Apply filter automatically when an option is selected
+    yearFilter.addEventListener('change', filterArticles);
+    monthFilter.addEventListener('change', filterArticles);
+    typeFilter.addEventListener('change', filterArticles);
+    
+    // Show more items when the button is clicked
+    showMoreButton.addEventListener('click', showMore);
+    
+    // Reset filters when reset button is clicked
+    resetButton.addEventListener('click', resetFilters);
+  });
+</script>
+{{ end }}

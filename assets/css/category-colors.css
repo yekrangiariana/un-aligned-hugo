@@ -1,0 +1,86 @@
+/* Category-specific utility classes for consistent styling across the site */
+
+/* Text color utilities */
+.text-culture {
+  color: var(--color-culture) !important;
+}
+.text-gallery {
+  color: var(--color-gallery) !important;
+}
+.text-interview {
+  color: var(--color-interview) !important;
+}
+.text-technology {
+  color: var(--color-technology) !important;
+}
+.text-science {
+  color: var(--color-science) !important;
+}
+.text-politics {
+  color: var(--color-politics) !important;
+}
+.text-environment {
+  color: var(--color-environment) !important;
+}
+.text-comments {
+  color: var(--color-comments) !important;
+}
+
+/* Background color utilities */
+.bg-culture {
+  background-color: var(--color-culture) !important;
+}
+.bg-gallery {
+  background-color: var(--color-gallery) !important;
+}
+.bg-interview {
+  background-color: var(--color-interview) !important;
+}
+.bg-technology {
+  background-color: var(--color-technology) !important;
+}
+.bg-science {
+  background-color: var(--color-science) !important;
+}
+.bg-politics {
+  background-color: var(--color-politics) !important;
+}
+.bg-environment {
+  background-color: var(--color-environment) !important;
+}
+.bg-comments {
+  background-color: var(--color-comments) !important;
+}
+
+/* Border color utilities */
+.border-culture {
+  border-color: var(--color-culture) !important;
+}
+.border-gallery {
+  border-color: var(--color-gallery) !important;
+}
+.border-interview {
+  border-color: var(--color-interview) !important;
+}
+.border-technology {
+  border-color: var(--color-technology) !important;
+}
+.border-science {
+  border-color: var(--color-science) !important;
+}
+.border-politics {
+  border-color: var(--color-politics) !important;
+}
+.border-environment {
+  border-color: var(--color-environment) !important;
+}
+
+/* How to add a new category:
+1. Define the new category color in variables.css
+   Example: --color-new-category: #hexcode;
+2. Add new utility classes here following the pattern:
+   .text-new-category { color: var(--color-new-category) !important; }
+   .bg-new-category { background-color: var(--color-new-category) !important; }
+   .border-new-category { border-color: var(--color-new-category) !important; }
+3. Optional: Add category-specific styling to article-cards.css and single.css
+*/

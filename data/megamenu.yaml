@@ -1,0 +1,37 @@
+# Mega Menu Structure
+# This file defines the structure of the mega menu
+# Each section has a title and a list of links
+
+sections:
+  - title: Get to know us
+    links:
+      - name: Home
+        url: /
+      - name: Get Involved
+        url: get-involved
+      - name: What is UN-aligned? Read our FAQ
+        url: frequently-asked-questions
+      - name: Mission statement
+        url: our-essence-and-foundation
+      - name: Manifesto
+        url: manifesto
+      - name: As an Alternative UN
+        url: the-alternative-un
+
+  - title: Special Sections
+    links:
+      - name: Write for UN-aligned
+        url: opportunities/write-for-un-aligned
+      - name: Become a Member
+        url: register
+      - name: Donate
+        url: 
+      - name: Authors
+        url: authors
+      - name: All Categories
+        url: categories
+      - name: All tags
+        url: tags
+      - name: Report bug
+        url: https://forms.gle/EpgdZ3Czt7MDbQty5
+        external: true

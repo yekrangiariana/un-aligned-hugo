@@ -1,0 +1,38 @@
+# Author information
+# This file contains biographical and contact information for authors
+# Each author is identified by their urlized name (same as used in content front matter)
+
+# Example author
+admin-man:
+  name: "Admin Man"
+  bio: "Site administrator and primary content creator."
+  image: ""
+  twitter: "adminuser"
+  website: "https://example.com"
+
+# Add more authors here following the same format
+# The key should match the urlized version of the author name used in front matter
+
+adrian-liberto:
+  name: "Adrian Liberto"
+  bio: "Adrian is a writer and activist focused on human rights and international affairs."
+  image: "/images/authors/Adrian-Liberto-300x300.png.webp"
+  email: "adrian.liberto@un-aligned.org"
+  twitter: "adminuser"
+  website: "https://example.com"
+
+ariana-yekrangi:
+  name: "Ariana Yekrangi"
+  bio: "Ariana Yekrangi is a writer and activist focused on human rights and international affairs."
+  image: "/images/authors/Ariana-Yekrangi-Profile-Photo-300x300.png.webp"
+  email: "ariana.yekrangi@un-aligned.org"
+  twitter: "adminuser"
+  website: "https://example.com"
+
+  
+# john-doe:
+#   name: "John Doe"
+#   bio: "John is a writer specializing in international politics and human rights issues."
+#   image: "/images/authors/john-doe.jpg"
+#   twitter: "johndoe"
+#   website: "https://johndoe.com"

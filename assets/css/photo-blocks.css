@@ -1,0 +1,245 @@
+/* Photo Block Styles */
+
+/* Base styles for all photo blocks */
+.photo-block {
+  margin: 2rem 0;
+  position: relative;
+}
+
+.photo-block img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.photo-block figcaption {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-subtitle);
+  padding: 0.5rem 0;
+  line-height: var(--line-height-relaxed);
+  display: flex;
+  align-items: baseline;
+}
+
+/* Adding an upward arrow character at the beginning of all photo block captions */
+.photo-block figcaption::before {
+  content: "⬆";
+  display: inline;
+  margin-right: 4px;
+  color: #d42b63;
+  float: left;
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+.photo-block .caption {
+  display: inline-block;
+}
+
+.photo-block .credit {
+  display: block;
+  font-style: italic;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-light);
+}
+
+/* Normal photo - fits inside the 80% column */
+.photo-normal {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Large photo - stretches to 100% of the columns */
+.photo-large-wrapper {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.photo-large-container {
+  position: relative;
+  clear: both;
+}
+
+.photo-large {
+  position: relative;
+  left: -28%;
+  width: 128%;
+}
+
+/* Caption styling for large photos - positioned absolutely to avoid affecting layout flow */
+.photo-large-caption {
+  position: absolute;
+  width: 25%; /* Fixed width */
+  left: -28%;
+  top: 100%;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-subtitle);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Adding an upward arrow character at the beginning of large photo captions */
+.photo-large-caption::before {
+  content: "⬆";
+  display: inline;
+  margin-right: 4px;
+  color: #d42b63;
+  float: left;
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+/* Clear the float after photo-large to ensure proper layout */
+.photo-large::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Make sure paragraphs that follow photo-large have no top margin */
+.photo-large + p {
+  margin-top: 0;
+}
+
+/* Extra Large photo - stretches to site max width */
+.photo-xlarge {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  max-width: var(--site-max-width);
+}
+
+.photo-xlarge figcaption {
+  position: absolute;
+  width: 65%;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem 0;
+  box-sizing: border-box;
+  color: white;
+  font-size: var(--font-size-sm);
+}
+
+/* Custom width photo with text wrap */
+.photo-custom-container {
+  position: relative;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  clear: both;
+}
+
+.photo-custom {
+  float: left;
+  margin-top: 0;
+  margin-right: 1rem;
+  margin-left: -28%;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  max-width: 100%;
+}
+
+/* Caption styling that's independent of photo width */
+.photo-custom-caption {
+  position: absolute;
+  width: 25%; /* Fixed width */
+  left: -28%;
+  bottom: 0%;
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-subtitle);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Adding a bottom arrow character at the end of the caption */
+.photo-custom-caption::after {
+  content: "⬇";
+  display: inline;
+  margin-left: 4px;
+  color: #d42b63;
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+/* Make sure images within photo blocks don't exceed their container */
+.photo-block img {
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  /* Reset large photo to fit in mobile viewport */
+  .photo-large-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .photo-large {
+    width: 100%;
+    left: 0;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Change the caption positioning for mobile */
+  .photo-large-caption {
+    position: relative; /* Reset to normal flow on mobile */
+    width: 100%;
+    left: auto; /* Reset positioning */
+    top: auto; /* Reset positioning */
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .photo-xlarge {
+    width: 100%;
+    left: 0;
+    max-width: 100%;
+    margin-left: 0;
+    transform: none;
+  }
+
+  /* Hide xlarge photo captions on mobile */
+  .photo-xlarge figcaption {
+    position: relative;
+    width: 100%;
+    bottom: auto;
+    left: auto;
+    color: black;
+    text-shadow: none;
+    font-size: 0.9rem;
+    color: #666;
+    line-height: 1.4;
+  }
+
+  .photo-custom-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .photo-custom {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+  }
+
+  .photo-custom-caption {
+    position: relative;
+    width: 100%;
+    left: auto; /* Reset positioning */
+    bottom: auto; /* Reset positioning */
+    box-sizing: border-box;
+    margin-top: 0.5rem; /* Spacing only for mobile */
+  }
+
+  /* Adding a bottom arrow character at the end of the caption */
+  .photo-custom-caption::after {
+    content: "⬆";
+  }
+}

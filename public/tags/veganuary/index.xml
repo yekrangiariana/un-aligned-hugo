@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Veganuary on UN-aligned</title>
+    <link>http://localhost:1313/tags/veganuary/</link>
+    <description>Recent content in Veganuary on UN-aligned</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 12 Jan 2021 10:00:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/veganuary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How cultivated meat can save the planet</title>
+      <link>http://localhost:1313/animal-rights/how-cultivated-meat-can-save-the-planet/</link>
+      <pubDate>Tue, 12 Jan 2021 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/animal-rights/how-cultivated-meat-can-save-the-planet/</guid>
+      <description>&lt;p&gt;Animal agriculture is a major contributor to greenhouse gas emissions; it is driving up climate change, antibiotic resistance, deforestation and the resulting biodiversity loss. It is also an incredibly inefficient, as well as immoral, way to feed the planet. For example, in the United States alone, 56 million acres of land are used to grow feed for animals, while only 4 million acres are cultivated to produce plants for humans to eat.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Accidentally Vegan Feature?</title>
+      <link>http://localhost:1313/animal-rights/accidentally-vegan-feature/</link>
+      <pubDate>Wed, 06 Jan 2021 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/animal-rights/accidentally-vegan-feature/</guid>
+      <description>&lt;p&gt;If you’ve pondered veganism but haven’t yet followed through, it may be that you are put off by the myth of the diet being restricted. As with any lifestyle change, slow and steady tends to lead to longevity. It is much better to gradually cut animal products from your diet permanently than trying to be a strict vegan for a month, falling off the wagon, and being put off enough to never try it again.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giving voice to the the voiceless: Animal Equality’s Global Fight for Farmed Animals</title>
+      <link>http://localhost:1313/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</link>
+      <pubDate>Tue, 05 Jan 2021 10:00:00 +0200</pubDate>
+      <guid>http://localhost:1313/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</guid>
+      <description>&lt;p&gt;Animal Equality is an international organisation that was founded in Spain in 2006 by Sharon Nuñez, Jose Valle and Javier Moreno; their one objective: to protect animals. From that moment on, a growing enthusiasm and commitment ensured the organisation’s global reach. It has expanded to such an extent, that it is now one of the most successful forces for the defence of farmed animals.  &lt;/p&gt;&#xA;&lt;p&gt;Animal Equality’s vision is that of a world where all animals are respected and protected. Our core values are compassion, determination, and effectiveness; these guide us in our daily operations, which are designed to end cruelty to farmed animals. &lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

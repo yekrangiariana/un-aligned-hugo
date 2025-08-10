@@ -1,0 +1,834 @@
+{{ define "main" }}
+
+          <!-- Add Font Awesome for icons -->
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+          
+          
+          
+          <header>
+            <h1 class="taxonomy-term">
+              <svg class="bookmark-icon" width="20" height="24" viewBox="0 0 16 20" aria-hidden="true" focusable="false">
+                <path d="M0 0v20l8-6 8 6V0H0z" fill="currentColor"/>
+              </svg> 
+              My Bookmarks
+            </h1>
+          </header>
+
+          <div class="bookmark-actions">
+            <div class="bookmarks-sorting">
+              <label for="sort-bookmarks" class="btn btn-secondary" aria-label="Sort bookmarks by">
+                <i class="fas fa-sort" aria-hidden="true"></i> Sort by
+              </label>
+              <select id="sort-bookmarks" class="btn btn-secondary sort-select" aria-label="Sort bookmarks by">
+                <option value="added-month">Date Added</option>
+                <option value="tag">Category</option>
+                <option value="author">Author</option>
+                <option value="original-date">Date Written</option>
+              </select>
+            </div>
+
+            <div class="bookmark-utils">
+              <button id="exportBookmarks" class="btn btn-secondary" aria-label="Export your bookmarks to a file">
+                <i class="fas fa-download" aria-hidden="true"></i> Export
+              </button>
+              <input type="file" id="importBookmarks" accept=".json" aria-label="Import bookmarks from a file" style="display: none">
+              <label for="importBookmarks" class="btn btn-secondary" tabindex="0" role="button">
+                <i class="fas fa-upload" aria-hidden="true"></i> Import
+              </label>
+            </div>
+          </div>
+
+          <div id="no-bookmarks" style="display: none">
+            <p>You haven't bookmarked any articles yet.</p>
+            <p>
+              Browse our articles and click the bookmark icon in the sidebar to add
+              them to your bookmarks.
+            </p>
+          </div>
+
+          <main id="bookmarks-list" aria-live="polite">
+            <!-- Bookmarks will be populated here by JavaScript -->
+          </main>
+        </div>
+      </div>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        /**
+         * BookmarksManager - Class to handle bookmarks page functionality
+         */
+        class BookmarksManager {
+          constructor() {
+            // Cache DOM elements
+            this.bookmarksList = document.getElementById("bookmarks-list");
+            this.noBookmarks = document.getElementById("no-bookmarks");
+            this.sortSelect = document.getElementById("sort-bookmarks");
+            this.exportBtn = document.getElementById("exportBookmarks");
+            this.importInput = document.getElementById("importBookmarks");
+            
+            // Author image cache - avoid multiple requests for same author
+            this.authorImageCache = new Map();
+            
+            // Categories with custom styling
+            this.categoryClasses = {
+              "gallery": "has-gallery",
+              "culture": "has-culture",
+              "interview": "has-interview",
+              "technology": "has-technology",
+              "science": "has-science",
+              "politics": "has-politics",
+              "environment": "has-environment",
+              "comments": "has-comments"
+            };
+            
+            // Initialize bookmarks
+            this.bookmarks = this.getBookmarks();
+            
+            // Bind methods
+            this.renderBookmarks = this.renderBookmarks.bind(this);
+            this.exportBookmarks = this.exportBookmarks.bind(this);
+            this.importBookmarks = this.importBookmarks.bind(this);
+            
+            // Initialize event listeners and UI
+            this.init();
+          }
+          
+          /**
+           * Initialize the bookmarks UI and event listeners
+           */
+          init() {
+            // Normalize bookmark IDs for consistency
+            this.normalizeBookmarkIds();
+            
+            // Add event listeners
+            if (this.sortSelect) {
+              this.sortSelect.addEventListener("change", () => {
+                this.renderBookmarks(this.sortSelect.value);
+              });
+            }
+            
+            if (this.exportBtn) {
+              this.exportBtn.addEventListener("click", this.exportBookmarks);
+            }
+            
+            if (this.importInput) {
+              this.importInput.addEventListener("change", this.importBookmarks);
+            }
+            
+            // Fix for category links navigation
+            document.querySelectorAll(".category-link").forEach(link => {
+              link.addEventListener("click", e => {
+                const href = link.getAttribute("href");
+                if (window.location.pathname !== "/" && href.includes("#")) {
+                  e.preventDefault();
+                  window.location.href = href;
+                }
+              });
+            });
+            
+            // Display no bookmarks message if needed
+            if (this.bookmarks.length === 0) {
+              this.noBookmarks.style.display = "block";
+              return;
+            }
+            
+            // Initial render with default sort criteria
+            this.renderBookmarks(this.sortSelect.value);
+          }
+          
+          /**
+           * Get bookmarks from localStorage
+           * @return {Array} Array of bookmarked articles
+           */
+          getBookmarks() {
+            return JSON.parse(localStorage.getItem("bookmarkedArticles") || "[]");
+          }
+          
+          /**
+           * Save bookmarks to localStorage
+           * @param {Array} bookmarks - Array of bookmarks to save
+           */
+          saveBookmarks(bookmarks) {
+            localStorage.setItem("bookmarkedArticles", JSON.stringify(bookmarks));
+            this.bookmarks = bookmarks;
+          }
+          
+          /**
+           * Helper function to normalize paths for consistent comparison
+           * @param {string} path - The path to normalize
+           * @return {string} Normalized path with trailing slash
+           */
+          normalizePath(path) {
+            return path.endsWith("/") ? path : path + "/";
+          }
+          
+          /**
+           * Normalize all bookmark IDs for consistency
+           */
+          normalizeBookmarkIds() {
+            const normalized = this.bookmarks.map(article => {
+              article.id = this.normalizePath(article.id);
+              return article;
+            });
+            
+            this.saveBookmarks(normalized);
+          }
+          
+          /**
+           * Format a date for display
+           * @param {string} dateString - ISO date string
+           * @return {string} Formatted date string
+           */
+          formatDate(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+              day: "numeric",
+            });
+          }
+          
+          /**
+           * Get month and year from date
+           * @param {string} dateString - ISO date string
+           * @return {string} Month and year string
+           */
+          getMonthYear(dateString) {
+            const date = new Date(dateString);
+            return date.toLocaleDateString("en-US", {
+              year: "numeric",
+              month: "long",
+            });
+          }
+          
+          /**
+           * Get year from date
+           * @param {string} dateString - ISO date string
+           * @return {string} Year string
+           */
+          getYear(dateString) {
+            const date = new Date(dateString);
+            return date.getFullYear().toString();
+          }
+          
+          /**
+           * Convert author name to URL-friendly format
+           * @param {string} authorName - Author name
+           * @return {string} URL-friendly author name
+           */
+          urlizeAuthor(authorName) {
+            if (!authorName) return 'anonymous';
+            return authorName.toLowerCase()
+              .replace(/\s+/g, '-')
+              .replace(/[^\w-]/g, '');
+          }
+          
+          /**
+           * Render bookmarks based on sort criteria
+           * @param {string} sortCriteria - Criteria to sort by
+           */
+          renderBookmarks(sortCriteria) {
+            // Clear the current list
+            this.bookmarksList.innerHTML = "";
+            
+            // Different grouping based on sort criteria
+            switch (sortCriteria) {
+              case "added-year":
+                this.renderByAddedYear();
+                break;
+              case "added-month":
+                this.renderByAddedMonth();
+                break;
+              case "original-date":
+                this.renderByOriginalDate();
+                break;
+              case "author":
+                this.renderByAuthor();
+                break;
+              case "tag":
+                this.renderByTag();
+                break;
+              default:
+                this.renderByAddedMonth(); // Default
+            }
+          }
+          
+          /**
+           * Group and render bookmarks by year added
+           */
+          renderByAddedYear() {
+            const groupedBookmarks = this.groupBookmarksByFunction(article => {
+              const addedDate = new Date(article.addedAt);
+              return addedDate.getFullYear().toString();
+            });
+            
+            // Sort years in descending order
+            const sortedYears = Object.keys(groupedBookmarks).sort().reverse();
+            
+            // Render each year group
+            sortedYears.forEach(year => {
+              // Sort articles within year by date added, newest first
+              const articlesForYear = groupedBookmarks[year].sort(
+                (a, b) => new Date(b.addedAt) - new Date(a.addedAt)
+              );
+              
+              this.renderGroup(year, articlesForYear, "year");
+            });
+          }
+          
+          /**
+           * Group and render bookmarks by month added
+           */
+          renderByAddedMonth() {
+            const groupedBookmarks = this.groupBookmarksByFunction(article => 
+              this.getMonthYear(article.addedAt)
+            );
+            
+            // Sort month-years by date (newest first)
+            const sortedMonthYears = Object.keys(groupedBookmarks).sort(
+              (a, b) => new Date(b) - new Date(a)
+            );
+            
+            // Render each month group
+            sortedMonthYears.forEach(monthYear => {
+              // Sort articles within month by date added, newest first
+              const articlesForMonth = groupedBookmarks[monthYear].sort(
+                (a, b) => new Date(b.addedAt) - new Date(a.addedAt)
+              );
+              
+              this.renderGroup(monthYear, articlesForMonth, "month");
+            });
+          }
+          
+          /**
+           * Group and render bookmarks by original publication date
+           */
+          renderByOriginalDate() {
+            const groupedBookmarks = this.groupBookmarksByFunction(article => {
+              if (!article.date) return null; // Skip if no date
+              return this.getYear(article.date);
+            });
+            
+            // Sort years in descending order
+            const sortedYears = Object.keys(groupedBookmarks).sort().reverse();
+            
+            // Render each year group
+            sortedYears.forEach(year => {
+              // Sort articles within year by original date, newest first
+              const articlesForYear = groupedBookmarks[year].sort(
+                (a, b) => new Date(b.date) - new Date(a.date)
+              );
+              
+              this.renderGroup(year, articlesForYear, "written in");
+            });
+          }
+          
+          /**
+           * Group and render bookmarks by author
+           */
+          renderByAuthor() {
+            const groupedBookmarks = this.groupBookmarksByFunction(article => {
+              // Normalize author name
+              let author = (article.author || "").trim();
+              return author || "Unknown Author";
+            });
+            
+            // Sort authors alphabetically with special cases at the end
+            const sortedAuthors = Object.keys(groupedBookmarks).sort((a, b) => {
+              if (a === "Unknown Author") return 1;
+              if (b === "Unknown Author") return -1;
+              if (a === "Loading...") return 1;
+              if (b === "Loading...") return -1;
+              return a.localeCompare(b);
+            });
+            
+            // Render each author group
+            sortedAuthors.forEach(author => {
+              // Sort articles within author by date added, newest first
+              const articlesForAuthor = groupedBookmarks[author].sort(
+                (a, b) => new Date(b.addedAt) - new Date(a.addedAt)
+              );
+              
+              this.renderGroup(author, articlesForAuthor, "author");
+            });
+          }
+          
+          /**
+           * Group and render bookmarks by category/tag
+           */
+          renderByTag() {
+            const groupedBookmarks = this.groupBookmarksByFunction(article => {
+              // Use first category or "Uncategorized"
+              return (article.categories && article.categories.length > 0)
+                ? article.categories[0]
+                : "Uncategorized";
+            });
+            
+            // Sort categories alphabetically
+            const sortedCategories = Object.keys(groupedBookmarks).sort();
+            
+            // Render each category group
+            sortedCategories.forEach(category => {
+              // Sort articles within category by date added, newest first
+              const articlesForCategory = groupedBookmarks[category].sort(
+                (a, b) => new Date(b.addedAt) - new Date(a.addedAt)
+              );
+              
+              this.renderGroup(category, articlesForCategory, "category");
+            });
+          }
+          
+          /**
+           * Group bookmarks by a key function
+           * @param {Function} keyFn - Function to generate group key from article
+           * @return {Object} Object with groups as keys and article arrays as values
+           */
+          groupBookmarksByFunction(keyFn) {
+            const grouped = {};
+            
+            this.bookmarks.forEach(article => {
+              const key = keyFn(article);
+              if (!key) return; // Skip if keyFn returns null/undefined
+              
+              if (!grouped[key]) {
+                grouped[key] = [];
+              }
+              
+              grouped[key].push(article);
+            });
+            
+            return grouped;
+          }
+          
+          /**
+           * Render a group of bookmarks
+           * @param {string} groupName - Name of the group
+           * @param {Array} articles - Articles in the group
+           * @param {string} groupType - Type of grouping (year, month, author, category)
+           */
+          renderGroup(groupName, articles, groupType) {
+            // Create section for this group
+            const section = document.createElement("section");
+            section.className = "category-section";
+            
+            // Add proper attributes for accessibility and styling
+            if (groupType === "category") {
+              const categoryLower = groupName.toLowerCase();
+              section.dataset.category = categoryLower;
+              section.id = categoryLower;
+              section.setAttribute("aria-labelledby", `heading-${categoryLower}`);
+            } else {
+              const groupId = `${groupType}-${groupName.replace(/\s+/g, "-").toLowerCase()}`;
+              section.setAttribute("aria-labelledby", `heading-${groupId}`);
+            }
+            
+            // Create section header and grid container
+            const headingId = `heading-${groupType}-${groupName.replace(/\s+/g, "-").toLowerCase()}`;
+            section.innerHTML = `
+              <div class="category-header">
+                <h2 class="site-date-catalog" id="${headingId}">${groupName}</h2>
+              </div>
+              <div class="article-grid category-grid" id="${groupType}-${groupName
+                .replace(/\s+/g, "-")
+                .toLowerCase()}"></div>
+            `;
+            
+            // Handle special anchor for categories
+            if (groupType === "category") {
+              const categoryLower = groupName.toLowerCase();
+              const anchorId = categoryLower.replace(/\s+/g, "-");
+              
+              if (!document.getElementById(anchorId) && anchorId !== categoryLower) {
+                const anchorDiv = document.createElement("div");
+                anchorDiv.id = anchorId;
+                section.insertBefore(anchorDiv, section.firstChild);
+              }
+            }
+            
+            // Add section to DOM
+            this.bookmarksList.appendChild(section);
+            
+            // Get grid container for articles
+            const grid = document.getElementById(
+              `${groupType}-${groupName.replace(/\s+/g, "-").toLowerCase()}`
+            );
+            
+            // Create article cards for each bookmark
+            articles.forEach(article => {
+              this.renderArticleCard(article, grid);
+            });
+          }
+          
+          /**
+           * Render a single article card
+           * @param {Object} article - Article data
+           * @param {HTMLElement} container - Container to append card to
+           */
+          renderArticleCard(article, container) {
+            // Create card element with basic classes
+            const articleCard = document.createElement("div");
+            articleCard.className = "article-card is-bookmarked";
+            articleCard.dataset.id = article.id;
+            
+            // Add proper ARIA attributes for accessibility
+            articleCard.setAttribute("role", "article");
+            
+            // Add style variation if needed
+            if (article.style === "2" || article.style === 2) {
+              articleCard.classList.add("style-2");
+            }
+            
+            // Add category class for styling
+            const categoryClass = this.getCategoryClass(article);
+            if (categoryClass) {
+              articleCard.classList.add(categoryClass);
+            }
+            
+            // Format date added only
+            const addedDate = article.addedAt ? `Added: ${this.formatDate(article.addedAt)}` : "";
+            
+            // Build card content
+            const cardContent = this.buildCardContent(article, categoryClass, "", addedDate);
+            
+            // Set card HTML
+            articleCard.innerHTML = `
+              <a href="${article.url}" class="article-card-link" aria-label="Read article: ${article.title}">
+                <div class="article-card-content">
+                  ${cardContent}
+                </div>
+              </a>
+            `;
+            
+            // Add to container
+            container.appendChild(articleCard);
+            
+            // Add event listener for remove button
+            const removeBtn = articleCard.querySelector(".remove-bookmark");
+            if (removeBtn) {
+              removeBtn.addEventListener("click", e => this.removeBookmark(e, article.id));
+            }
+          }
+          
+          /**
+           * Get category class for an article
+           * @param {Object} article - Article data
+           * @return {string|null} Category class or null
+           */
+          getCategoryClass(article) {
+            if (!article.categories || article.categories.length === 0) {
+              return null;
+            }
+            
+            const firstCategory = article.categories[0].toLowerCase();
+            return this.categoryClasses[firstCategory] || null;
+          }
+          
+          /**
+           * Build card content HTML
+           * @param {Object} article - Article data
+           * @param {string} categoryClass - Category class name
+           * @param {string} displayDate - Formatted display date (not used)
+           * @param {string} addedDate - Formatted added date
+           * @return {string} Card content HTML
+           */
+          buildCardContent(article, categoryClass, displayDate, addedDate) {
+            // Generate various card components
+            const cardTagsHTML = this.buildCardTags(article, categoryClass);
+            const cardTitleHTML = this.buildCardTitle(article, categoryClass);
+            const cardDescriptionHTML = this.buildCardDescription(article, categoryClass);
+            const cardAddedDateHTML = addedDate ? `<div class="article-card-added-date"><i class="far fa-calendar-alt" aria-hidden="true"></i> ${addedDate}</div>` : "";
+            const cardImageHTML = this.buildCardImage(article, categoryClass);
+            
+            // Combine components
+            return `
+              <div class="article-card-tags">${cardTagsHTML}</div>
+              ${cardTitleHTML}
+              ${cardDescriptionHTML}
+              ${cardAddedDateHTML}
+              ${cardImageHTML}
+            `;
+          }
+          
+          /**
+           * Build card tags section
+           * @param {Object} article - Article data
+           * @param {string} categoryClass - Category class name
+           * @return {string} Tags HTML
+           */
+          buildCardTags(article, categoryClass) {
+            // Show category tag if available
+            let tagSpan = "";
+            if (article.categories && article.categories.length) {
+              tagSpan = `<span class="article-card-tag">${article.categories[0]}</span>`;
+            }
+            
+            // Add remove button (now positioned absolutely with CSS)
+            const removeButton = `<button class="remove-bookmark" title="Remove bookmark" aria-label="Remove bookmark">
+              <i class="fas fa-trash-alt" aria-hidden="true"></i>
+            </button>`;
+            
+            return tagSpan + removeButton;
+          }
+          
+          /**
+           * Build card author section
+           * @param {Object} article - Article data
+           * @param {string} categoryClass - Category class name
+           * @return {string} Author HTML
+           */
+          buildCardAuthor(article, categoryClass) {
+            if (categoryClass === "has-comments") {
+              return ""; // Already shown in tags
+            } else {
+              return article.author
+                ? `<div class="article-card-author">By ${article.author}</div>`
+                : `<div class="article-card-author">By Anonymous</div>`;
+            }
+          }
+          
+          /**
+           * Build card title section
+           * @param {Object} article - Article data
+           * @param {string} categoryClass - Category class name
+           * @return {string} Title HTML
+           */
+          buildCardTitle(article, categoryClass) {
+            if (categoryClass === "has-comments") {
+              return `<h3 class="article-card-title"><span class="quote-mark"></span>${article.title}</h3>`;
+            } else {
+              return `<h3 class="article-card-title">${article.title}</h3>`;
+            }
+          }
+          
+          /**
+           * Build card description section
+           * @param {Object} article - Article data
+           * @param {string} categoryClass - Category class name
+           * @return {string} Description HTML
+           */
+          buildCardDescription(article, categoryClass) {
+            if (article.description) {
+              return `<div class="article-card-description">${article.description}</div>`;
+            } else if (categoryClass === "has-comments") {
+              return ""; // Hide for comments if not present
+            }
+            return "";
+          }
+          
+          /**
+           * Build card image section
+           * @param {Object} article - Article data
+           * @param {string} categoryClass - Category class name
+           * @return {string} Image HTML
+           */
+          buildCardImage(article, categoryClass) {
+            // For comment articles, show author image
+            if (categoryClass === "has-comments") {
+              const featuredImagePath = article.featuredImage || article.image || '/images/authors/default.jpg';
+              return `
+                <div class="author-profile-container">
+                  <img class="author-profile-image" 
+                       src="${featuredImagePath}" 
+                       alt="${article.author || 'Anonymous'}" 
+                       loading="lazy">
+                </div>
+              `;
+            } else {
+              // For other categories, only show article image for gallery posts
+              let showGalleryImage = false;
+              if (article.categories && article.categories.length > 0) {
+                showGalleryImage = article.categories[0].toLowerCase() === 'gallery';
+              }
+              const featuredImagePath = article.featuredImage || article.image;
+              if (showGalleryImage && featuredImagePath) {
+                return `<img class="article-card-image" src="${featuredImagePath}" alt="${article.title}" loading="lazy">`;
+              }
+            }
+            return "";
+          }
+          
+          /**
+           * Remove a bookmark
+           * @param {Event} e - Click event
+           * @param {string} articleId - ID of article to remove
+           */
+          removeBookmark(e, articleId) {
+            e.preventDefault(); // Prevent navigating to the article
+            e.stopPropagation(); // Prevent event bubbling
+            
+            // Confirm before removing
+            if (!confirm("Are you sure you want to remove this bookmark?")) {
+              return;
+            }
+            
+            // Normalize the article ID
+            const normalizedArticleId = this.normalizePath(articleId);
+            
+            // Find bookmark index
+            const bookmarkIndex = this.bookmarks.findIndex(
+              item => this.normalizePath(item.id) === normalizedArticleId
+            );
+            
+            if (bookmarkIndex !== -1) {
+              // Remove from array
+              this.bookmarks.splice(bookmarkIndex, 1);
+              
+              // Save updated bookmarks
+              this.saveBookmarks(this.bookmarks);
+              
+              // Re-render with current sort criteria
+              this.renderBookmarks(this.sortSelect.value);
+              
+              // Show no bookmarks message if all are removed
+              if (this.bookmarks.length === 0) {
+                this.noBookmarks.style.display = "block";
+              }
+            }
+          }
+          
+          /**
+           * Export bookmarks to JSON file
+           */
+          exportBookmarks() {
+            if (this.bookmarks.length === 0) {
+              alert("You don't have any bookmarks to export.");
+              return;
+            }
+            
+            try {
+              const today = new Date().toISOString().split('T')[0];
+              const filename = `my-bookmarks-${today}.json`;
+              
+              // Create Blob and download link
+              const bookmarksJson = JSON.stringify(this.bookmarks, null, 2);
+              const blob = new Blob([bookmarksJson], { type: 'application/json' });
+              const url = URL.createObjectURL(blob);
+              
+              // Create and trigger download
+              const a = document.createElement('a');
+              a.href = url;
+              a.download = filename;
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+              URL.revokeObjectURL(url);
+              
+              alert(`${this.bookmarks.length} bookmarks exported successfully!`);
+            } catch (error) {
+              console.error("Error exporting bookmarks:", error);
+              alert("Failed to export bookmarks. Please try again.");
+            }
+          }
+          
+          /**
+           * Import bookmarks from JSON file
+           * @param {Event} e - File input change event
+           */
+          importBookmarks(e) {
+            const fileInput = e.target;
+            const file = fileInput.files[0];
+            
+            if (!file) {
+              return;
+            }
+            
+            // Create file reader
+            const reader = new FileReader();
+            reader.onload = event => {
+              try {
+                // Parse imported bookmarks
+                const importedBookmarks = JSON.parse(event.target.result);
+                
+                // Validate format
+                if (!Array.isArray(importedBookmarks)) {
+                  throw new Error("Invalid bookmarks file format");
+                }
+                
+                // Normalize imported IDs
+                const normalizedImported = importedBookmarks.map(b => {
+                  b.id = this.normalizePath(b.id);
+                  return b;
+                });
+                
+                // Get existing IDs for deduplication
+                const existingIds = new Set(this.bookmarks.map(b => this.normalizePath(b.id)));
+                
+                // Count new bookmarks
+                let newCount = 0;
+                
+                // Merge with existing, avoiding duplicates
+                normalizedImported.forEach(bookmark => {
+                  if (!existingIds.has(bookmark.id)) {
+                    this.bookmarks.push(bookmark);
+                    existingIds.add(bookmark.id);
+                    newCount++;
+                  }
+                });
+                
+                // Save and update UI
+                this.saveBookmarks(this.bookmarks);
+                this.renderBookmarks(this.sortSelect.value);
+                
+                // Update no bookmarks message if needed
+                if (this.bookmarks.length > 0) {
+                  this.noBookmarks.style.display = "none";
+                }
+                
+                // Reset file input
+                fileInput.value = '';
+                
+                // Show result
+                alert(`Import complete: Added ${newCount} new bookmarks.`);
+                
+              } catch (error) {
+                console.error("Error importing bookmarks:", error);
+                alert(`Failed to import bookmarks: ${error.message}`);
+              }
+            };
+            
+            reader.readAsText(file);
+          }
+        }
+        
+        // Initialize bookmarks manager
+        const bookmarksManager = new BookmarksManager();
+      });
+    </script>
+
+    <!-- Add Hugo template integration for article metadata -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function() {
+        // Hugo Template Integration
+        // The following is a client-side cache for article metadata
+        // that replaces the multiple fetch requests to articles-index.json
+        window.articleMetadataCache = null;
+        
+        /**
+         * Fetch article metadata with caching
+         * This ensures we only fetch the metadata once and reuse it across the site
+         */
+        window.getArticleMetadata = async function() {
+          if (window.articleMetadataCache) {
+            return window.articleMetadataCache;
+          }
+          
+          try {
+            const response = await fetch('/articles-index.json');
+            if (!response.ok) {
+              console.error('Failed to fetch article metadata');
+              return null;
+            }
+            
+            window.articleMetadataCache = await response.json();
+            return window.articleMetadataCache;
+          } catch (error) {
+            console.error('Error fetching article metadata:', error);
+            return null;
+          }
+        };
+        
+        // Pre-fetch and cache metadata for faster bookmarking
+        getArticleMetadata();
+      });
+    </script>
+{{ end }}

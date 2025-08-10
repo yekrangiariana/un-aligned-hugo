@@ -1,0 +1,7 @@
+{{- $extraClass := "" -}}
+{{- $authorAlign := false -}}
+{{- if (reflect.IsMap .) -}}
+  {{- $extraClass = .extraClass | default "" -}}
+  {{- $authorAlign = .authorAlign | default false -}}
+{{- end -}}
+<div class="comment-separator{{- if $authorAlign -}} author-photo-separator{{- end -}}{{- if $extraClass -}} {{ $extraClass }}{{- end -}}"></div>

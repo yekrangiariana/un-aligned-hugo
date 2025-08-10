@@ -1,0 +1,168 @@
+<!-- Text Size Adjuster -->
+<div class="sidebar-section text-size-adjuster">
+  <div>Text size</div>
+  <div class="text-size-controls">
+    <button class="size-option size-small" data-size="small" title="Small text">
+      A
+    </button>
+    <button
+      class="size-option size-medium active"
+      data-size="medium"
+      title="Medium text"
+    >
+      A
+    </button>
+    <button class="size-option size-large" data-size="large" title="Large text">
+      A
+    </button>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Debug mode - set to true to enable console logging
+    window.debugTextSize = true;
+
+    // Debug helper function
+    function debug(message, obj = null) {
+      if (window.debugTextSize) {
+        if (obj) {
+          // console.log(`[TextSize] ${message}`, obj);
+        } else {
+          // console.log(`[TextSize] ${message}`);
+        }
+      }
+    }
+
+    // Tell us what page we're working with
+    debug(`Current page URL: ${window.location.href}`);
+    debug(`Current page structure:`, {
+      bodyClasses: document.body.className,
+      hasPostContent: !!document.querySelector(".post-content"),
+      hasMarkdownBody: !!document.querySelector(".markdown-body"),
+      hasArticleContent: !!document.querySelector(".article-content"),
+    });
+
+    // Get all size option buttons
+    const sizeOptions = document.querySelectorAll(".size-option");
+    debug(`Found ${sizeOptions.length} size options`);
+
+    // Try multiple selectors to find the article content
+    const contentSelectors = [
+      ".post-content.markdown-body",
+      ".markdown-body", // This is in your single.html template
+      ".post-content",
+      ".post-content-container .post-content",
+      ".article-grid .post-content",
+      ".article-content",
+      ".content-main",
+      "article",
+    ];
+
+    let articleContent = null;
+
+    // Try each selector until we find content
+    for (const selector of contentSelectors) {
+      const element = document.querySelector(selector);
+      if (element) {
+        articleContent = element;
+        debug(`Found article content with selector: ${selector}`, element);
+        break;
+      } else {
+        debug(`No content found with selector: ${selector}`);
+      }
+    }
+
+    // Check if article content exists (important to prevent errors)
+    if (!articleContent) {
+      debug(
+        "Article content not found with any selector, trying broader selectors"
+      );
+
+      // Try broader approaches
+      const mainContent =
+        document.querySelector("main") ||
+        document.querySelector(".main-content") ||
+        document.querySelector(".content") ||
+        document.querySelector(".article-grid");
+
+      if (mainContent) {
+        debug("Found content with broader selector", mainContent);
+        articleContent = mainContent;
+      } else {
+        debug(
+          "No content found with broader selectors, using body as fallback"
+        );
+        // Fallback to body
+        articleContent = document.body;
+      }
+    }
+
+    // Check for saved text size preference
+    const savedSize = localStorage.getItem("preferredTextSize") || "medium";
+    debug(`Applying saved or default size: ${savedSize}`);
+
+    // Apply the size class right away
+    applyTextSize(savedSize);
+
+    // Update active button
+    updateActiveButton(savedSize);
+
+    // Add click event listeners to the buttons
+    sizeOptions.forEach((button) => {
+      button.addEventListener("click", function () {
+        const size = this.dataset.size;
+        debug(`Size button clicked: ${size}`);
+
+        // Update active button
+        updateActiveButton(size);
+
+        // Apply the text size
+        applyTextSize(size);
+
+        // Save preference to localStorage
+        localStorage.setItem("preferredTextSize", size);
+      });
+    });
+
+    // Function to update the active button
+    function updateActiveButton(size) {
+      // Remove active class from all buttons
+      sizeOptions.forEach((btn) => btn.classList.remove("active"));
+
+      // Add active class to the button matching the size
+      const activeButton = document.querySelector(
+        `.size-option[data-size="${size}"]`
+      );
+      if (activeButton) {
+        activeButton.classList.add("active");
+      }
+    }
+
+    // Function to apply text size
+    function applyTextSize(size) {
+      if (!articleContent) return;
+
+      debug(`Applying size: ${size} to element`, articleContent);
+      debug(`Element classList before: ${articleContent.classList}`);
+
+      // Remove any existing size classes
+      articleContent.classList.remove(
+        "text-size-small",
+        "text-size-medium",
+        "text-size-large"
+      );
+
+      // Add the new size class
+      articleContent.classList.add(`text-size-${size}`);
+      debug(`Element classList after: ${articleContent.classList}`);
+
+      // Force a re-layout to ensure styles are applied
+      articleContent.style.display = "none";
+      setTimeout(() => {
+        articleContent.style.display = "";
+        debug("Forced re-layout complete");
+      }, 10);
+    }
+  });
+</script>

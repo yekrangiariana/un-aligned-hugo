@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Obituary on UN-aligned</title>
+    <link>http://localhost:1313/categories/obituary/</link>
+    <description>Recent content in Obituary on UN-aligned</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 20 Dec 2022 09:30:00 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/obituary/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Obituary: Ayten Aydın</title>
+      <link>http://localhost:1313/obituary/obituary-ayten-aydin/</link>
+      <pubDate>Tue, 20 Dec 2022 09:30:00 +0200</pubDate>
+      <guid>http://localhost:1313/obituary/obituary-ayten-aydin/</guid>
+      <description>&lt;p&gt;Ayten was born in Turkey and started her career in Istanbul where she had graduated as a civil engineer in 1951. She worked as a hydraulic engineer, mainly with the State Hydraulic Works, improving the infrastructure relating to land and water development throughout the country. In 1966 she joined the United Nations and worked at the Food and Agriculture Organisation (FAO) in Rome on global projects relating to urban development.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

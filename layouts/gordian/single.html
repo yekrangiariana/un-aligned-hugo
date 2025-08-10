@@ -1,0 +1,217 @@
+{{ define "main" }}
+    <div class="post gordian-magazine-issue">
+          <div class="container" style="max-width: 1200px;">
+            <section class="category-section post-section" style="width: 100%;">
+              <div class="category-header post-sidebar">
+                <!-- Categories section -->
+                <div class="sidebar-section">
+                  <div class="post-categories">
+                    <a href="/gordian/">The Gordian Magazine</a>
+                  </div>
+                </div>
+                
+                <!-- Tags section if available -->
+                {{ if .Params.tags }}
+                <div class="sidebar-section">
+                  {{ with index .Params.tags 0 }}
+                  <div class="post-tags">
+                    <a href="/tags/{{ lower . | urlize }}/">{{ . }}</a>
+                  </div>
+                  {{ end }}
+                </div>
+                {{ end }}
+                
+                <!-- Issue details in sidebar -->
+                <div class="sidebar-section">
+                  <div class="post-date-container">
+                    <time class="post-date" datetime="{{ .Date.Format "2006-01-02 15:04:05 MST" }}">
+                      {{ .Date.Format "January 2006" }}
+                    </time>
+                  </div>
+                </div>
+                
+                <!-- Reading features -->
+                {{ partial "favorite-article.html" . }}
+              </div>
+              
+              <div class="article-grid category-grid post-content-container">
+                <header class="post-header">
+                  <h1 class="post-title"><img src="/images/The-Gordian-Logo.png.webp" alt="The Gordian Magazine Logo" class="gordian-logo" style="border-radius: 50%; height: 50px; width: 50px; margin-right: 8px; vertical-align: middle;">{{ .Title }}</h1>
+                  {{ if .Description }}
+                  <div class="post-description">
+                    <p itemprop="description">{{ .Description }}</p>
+                  </div>
+                  {{ end }}
+                </header>
+                
+                <div class="post-content markdown-body" itemprop="articleBody">
+                  {{ .Content }}
+                </div>
+              </div>
+            </section>
+
+            <!-- Articles Section in a new 20/80 layout -->
+            {{ if .Params.articleList }}
+            <!-- Process articles first -->
+            {{ $articlesByCategory := dict }}
+            {{ $uncategorized := slice }}
+            
+            {{ range .Params.articleList }} 
+              {{ $slug := . }} 
+              {{ $found := false }} 
+              {{ range (where $.Site.RegularPages "Section" "posts") }} 
+                {{ if eq .Params.slug $slug }} 
+                  {{ $found = true }}
+                  
+                  {{ if .Params.categories }}
+                    {{ $category := index .Params.categories 0 }}
+                    {{ $articles := index $articlesByCategory $category | default slice }}
+                    {{ $articlesUpdated := $articles | append . }}
+                    {{ $articlesByCategory = merge $articlesByCategory (dict $category $articlesUpdated)  }}
+                  {{ else }}
+                    {{ $uncategorized = $uncategorized | append . }}
+                  {{ end }}
+                  
+                {{ end }} 
+              {{ end }}
+            {{ end }}
+            
+            <section class="category-section post-section" style="width: 100%;">
+              <div class="category-header post-sidebar">
+                <div class="sidebar-section">
+                  <h2 class="articles-section-title">Articles in this Issue</h2>
+                </div>
+                <!-- We'll move category headings next to the articles -->
+              </div>
+              
+              <div class="article-grid category-grid post-content-container">
+                <div class="gordian-articles-section">
+                  <!-- Display error cards for any articles not found -->
+                  {{ range .Params.articleList }} 
+                    {{ $slug := . }} 
+                    {{ $found := false }} 
+                    {{ range (where $.Site.RegularPages "Section" "posts") }} 
+                      {{ if eq .Params.slug $slug }} 
+                        {{ $found = true }}
+                      {{ end }} 
+                    {{ end }}
+                    
+                    {{ if not $found }}
+                      <!-- Error card for article not found -->
+                      <div class="article-card error-card">
+                        <div class="article-card-content">
+                          <h3 class="article-card-title">Article not found</h3>
+                          <div class="article-card-description">
+                            The article with slug "{{ $slug }}" could not be found.
+                          </div>
+                        </div>
+                      </div>
+                    {{ end }} 
+                  {{ end }}
+                  
+                  <style>
+                    /* Custom styles for gordian issue articles */
+                    .gordian-articles-section .article-category-section {
+                      margin-bottom: 3rem;
+                    }
+                    .gordian-articles-section h3.category-heading {
+                      margin-bottom: 1.2rem;
+                      padding-bottom: 0.5rem;
+                      border-bottom: 1px solid rgba(0,0,0,0.1);
+                    }
+                    
+                    /* Uniform article styling - all in row layout */
+                    .gordian-articles-section .article-item {
+                      margin-bottom: 1.5rem;
+                      padding-bottom: 1.5rem;
+                      border-bottom: 1px solid rgba(0,0,0,0.05);
+                    }
+                    .gordian-articles-section .article-item:last-child {
+                      border-bottom: none;
+                    }
+                    .gordian-articles-section .article-card-link {
+                      display: flex;
+                      flex-direction: row;
+                      gap: 1.5rem;
+                      align-items: center;
+                    }
+                    .gordian-articles-section .article-card-image {
+                      width: 40%;
+                      height: 180px;
+                      object-fit: cover;
+                    }
+                    .gordian-articles-section .article-card-content {
+                      width: 60%;
+                      padding: 0;
+                    }
+                    .gordian-articles-section .article-card-title {
+                      font-size: 1.2rem;
+                      margin-bottom: 0.75rem;
+                    }
+                    
+                    /* General article card styling */
+                    .gordian-articles-section .article-card {
+                      border: none;
+                      box-shadow: none;
+                      margin: 0;
+                    }
+                    
+                    /* Dark mode styling */
+                    .dark-mode .gordian-articles-section h3.category-heading {
+                      border-bottom: 1px solid rgba(255,255,255,0.1);
+                    }
+                    .dark-mode .gordian-articles-section .article-item {
+                      border-bottom: 1px solid rgba(255,255,255,0.05);
+                    }
+                    
+                    /* Responsive styling */
+                    @media (max-width: 768px) {
+                      .gordian-articles-section .article-card-link {
+                        flex-direction: column;
+                      }
+                      .gordian-articles-section .article-card-image,
+                      .gordian-articles-section .article-card-content {
+                        width: 100%;
+                      }
+                      .gordian-articles-section .article-card-image {
+                        margin-bottom: 0.75rem;
+                      }
+                    }
+                  </style>
+                  
+                  <!-- Display articles grouped by category -->
+                  {{ range $category, $articles := $articlesByCategory }}
+                    <div class="article-category-section">
+                      <h3 class="category-heading">{{ $category }}</h3>
+                      
+                      <!-- Display all articles in this category -->
+                      {{ range $articles }}
+                      <div class="article-item">
+                        {{ partial "article-card.html" . }}
+                      </div>
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                  
+                  <!-- Display uncategorized articles if any -->
+                  {{ if gt (len $uncategorized) 0 }}
+                    <div class="article-category-section">
+                      <h3 class="category-heading">Other Articles</h3>
+                      
+                      <!-- Display all uncategorized articles -->
+                      {{ range $uncategorized }}
+                      <div class="article-item">
+                        {{ partial "article-card.html" . }}
+                      </div>
+                      {{ end }}
+                    </div>
+                  {{ end }}
+                </div>
+              </div>
+            </section>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+{{ end }}

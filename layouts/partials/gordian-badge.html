@@ -1,0 +1,15 @@
+{{ if .Params.slug }} {{ $articleSlug := .Params.slug }} {{ range where
+.Site.RegularPages "Section" "gordian" }} {{ $issue := . }} {{ range
+.Params.articleList }} {{ if eq . $articleSlug }}
+<div class="gordian-badge">
+  <a href="{{ $issue.RelPermalink }}" class="gordian-badge-link">
+    <div class="gordian-badge-content">
+      <span class="badge-prefix">📖 Featured in</span></br>
+      <span class="badge-info"
+        >Issue {{ $issue.Params.issueNumber | default "1" }}, Vol {{
+        $issue.Params.volume | default "1" }}</span
+      >
+    </div>
+  </a>
+</div>
+{{ end }} {{ end }} {{ end }} {{ end }}

@@ -1,0 +1,31 @@
+{{ $src := .Get "src" }}
+{{ $captionParam := .Get "caption" | default "" }}
+
+{{ $imagePath := $src | strings.TrimPrefix "/images-2/" | lower }}
+{{ $imageData := index $.Site.Data.images $imagePath | default dict }}
+{{ $jsonCaption := $imageData.caption | default "" }}
+{{ $jsonAlt := $imageData.alt | default "" }}
+{{ $jsonCopyright := $imageData.copyright | default "" }}
+{{ $jsonCopyrightLink := $imageData.copyrightLink | default "" }}
+
+{{ $finalCaption := cond (ne $jsonCaption "") $jsonCaption $captionParam }}
+{{ $finalAlt := cond (ne $jsonAlt "") $jsonAlt $finalCaption }}
+
+<figure class="photo-block photo-xlarge">
+  <img src="{{ $src }}" alt="{{ $finalAlt }}" />
+  {{ if or (ne $finalCaption "") (ne $jsonCopyright "") }}
+  <figcaption>
+    <span class="caption">
+      {{ $finalCaption }}
+      {{ if and (ne $finalCaption "") (ne $jsonCopyright "") }} | {{ end }}
+      {{ if ne $jsonCopyright "" }}
+        {{ if ne $jsonCopyrightLink "" }}
+          <a href="{{ $jsonCopyrightLink }}" target="_blank">{{ $jsonCopyright }}</a>
+        {{ else }}
+          {{ $jsonCopyright }}
+        {{ end }}
+      {{ end }}
+    </span>
+  </figcaption>
+  {{ end }}
+</figure>

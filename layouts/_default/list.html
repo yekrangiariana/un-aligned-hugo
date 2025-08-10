@@ -1,0 +1,24 @@
+{{ define "main" }}
+<header>
+  <h1 class="taxonomy-term">{{ .Title }}</h1>
+
+  <!-- Content from _index.md if present -->
+  {{ with .Content }}
+  <div class="section-content markdown-body">{{ . }}</div>
+  {{ end }}
+</header>
+
+<main id="posts-list">
+  {{ range .Pages.GroupByDate "2006" }}
+  <section class="category-section" aria-labelledby="year-{{ .Key }}">
+    <header class="category-header">
+      <h1 id="year-{{ .Key }}" class="site-date-catalog">{{ .Key }}</h1>
+    </header>
+
+    <div class="article-grid category-grid">
+      {{ range .Pages }} {{ partial "article-card.html" . }} {{ end }}
+    </div>
+  </section>
+  {{ end }}
+</main>
+{{ end }}

@@ -1,0 +1,121 @@
+/* Interview Category Specific Styling */
+
+/* Enhanced text highlight styling for all interview elements */
+.interview-category-label,
+.interview-article .post-title,
+.interview-author-credit {
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0.2em 0.5em;
+  line-height: 1.3;
+  padding: 0 3px 3px 3px;
+  margin-right: var(--margin-text);
+  display: inline;
+  padding: var(--spacing-xs) var(--spacing-sm);
+}
+
+/* Interview category label above headline */
+.interview-category-label {
+  font-size: var(--font-size-ms);
+  font-weight: bold;
+  background-color: var(--color-interview);
+  color: white;
+}
+
+/* Custom styling for interview headlines */
+.interview-article .post-title {
+  color: white !important;
+  background-color: black;
+  font-size: var(--font-size-xxl);
+}
+
+/* Author "As told to" styling */
+.interview-author-credit {
+  background-color: #ffff00; /* Bright yellow */
+  color: black;
+  font-style: italic;
+  font-size: var(--font-size-bg);
+}
+
+/* Override the default category display in the right column for interview articles */
+.interview-article
+  .category-header
+  .post-categories:not(.non-interview-category) {
+  display: none; /* Hide the default first category (which would be "Interview") */
+}
+
+/* Show the non-interview category in sidebar */
+.interview-article .category-header .non-interview-category {
+  display: block;
+  background-color: transparent; /* Remove any background */
+}
+
+/* Fix spacing between elements for the interview style */
+.interview-header-group {
+  position: relative;
+  margin-top: 0px;
+  z-index: 10;
+}
+
+.interview-article .interview-featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.interview-article .interview-featured-image {
+  margin-top: -3em;
+}
+
+/* Increase header group text container spacing */
+.interview-header-text-container {
+  position: relative;
+  z-index: 15;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Make the elements display properly as blocks while maintaining the highlight effect */
+.interview-header-text-container > div {
+  margin-top: 0.3rem;
+}
+
+/* Make sure other elements have proper spacing */
+.interview-article .post-content {
+  margin-top: 0;
+  position: relative;
+  z-index: 20;
+}
+
+/* Responsive adjustments */
+@media screen and (max-width: 768px) {
+  .interview-category-label,
+  .interview-article .post-title,
+  .interview-author-credit {
+    line-height: 1.3;
+  }
+
+  .interview-article .interview-featured-image {
+    margin-top: -3em;
+    min-height: auto;
+  }
+
+  .interview-category-label-style-2 {
+    font-size: var(--font-size-ms);
+    padding-left: 20px;
+  }
+
+  .interview-category-label-style-1,
+  .interview-author-credit {
+    font-size: var(--font-size-ms);
+    padding-left: 10px;
+  }
+
+  .non-interview-category {
+    display: none;
+  }
+
+  .interview-article .post-title {
+    font-size: var(--font-size-xl);
+  }
+}

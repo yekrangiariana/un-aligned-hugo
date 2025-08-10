@@ -1,0 +1,206 @@
+<head>
+  <meta charset="utf-8" />
+  {{ hugo.Generator }}
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="author" content="{{ .Site.Params.author }}" />
+  <meta property="og:url" content="{{ .Permalink }}" />
+  <link rel="canonical" href="{{ .Permalink }}" />
+
+  {{- if .Site.Params.staticPrefix -}}
+  <link rel="dns-prefetch" href="{{ .Site.Params.staticPrefix }}" />
+  {{- end -}} {{- if .Site.Params.favicon -}}
+  <link rel="apple-touch-icon" href="{{ .Site.Params.favicon }}" />
+  <link rel="icon" href="{{ .Site.Params.favicon }}" />
+  <link rel="shortcut icon" href="{{ .Site.Params.favicon }}" />
+  {{- end -}}
+
+  <link
+    rel="alternate"
+    type="application/atom+xml"
+    href="{{.Site.BaseURL}}index.xml"
+    title="{{ .Site.Title }}"
+  />
+
+  {{ partial "seo" . }} {{- if .IsHome -}}
+  <title>{{ .Site.Title }}</title>
+  <meta property="og:title" content="{{ .Site.Title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="{{ .Site.Params.description }}" />
+  <meta name="description" content="{{ .Site.Params.description }}" />
+  {{- else -}}
+  <title>{{ .Title }}</title>
+  <meta property="og:title" content="{{ .Title }}" />
+  <meta property="og:type" content="article" />
+  <meta
+    property="og:description"
+    content="{{ default .Summary .Description | plainify }}"
+  />
+  <meta
+    name="description"
+    content="{{ default .Summary .Description | plainify }}"
+  />
+  {{- end }}
+
+  <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
+  <meta property="og:site_name" content="{{ .Site.Title }}" />
+  {{- if .Params.album -}}
+  <meta property="og:image" content="{{ .Params.album }}" />
+  <meta property="og:image:alt" content="{{ .Title }}" />
+  {{- else -}}
+  <meta property="og:image" content="{{ .Site.Params.favicon }}" />
+  <meta property="og:image:alt" content="{{ .Title }}" />
+  {{ end }}
+  
+  <!-- Twitter Card meta tags -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{{ .Title }}" />
+  <meta name="twitter:description" content="{{ default .Summary .Description | plainify }}" />
+  {{- if .Params.album -}}
+  <meta name="twitter:image" content="{{ .Params.album }}" />
+  {{- else -}}
+  <meta name="twitter:image" content="{{ .Site.Params.favicon }}" />
+  {{ end }}
+
+  <!-- Common CSS file for all pages -->
+  {{ $cssResources := slice }} {{ with resources.Get "css/variables.css" }}{{
+  $cssResources = $cssResources | append . }}{{ end }} {{ with resources.Get
+  "css/vendor/flexboxgrid-6.3.1.min.css" }}{{ $cssResources = $cssResources |
+  append . }}{{ end }} {{ with resources.Get "css/base.css" }}{{ $cssResources =
+  $cssResources | append . }}{{ end }} {{ with resources.Get "css/layout.css"
+  }}{{ $cssResources = $cssResources | append . }}{{ end }} {{ with
+  resources.Get "css/category-colors.css" }}{{ $cssResources = $cssResources |
+  append . }}{{ end }} {{ with resources.Get "css/components.css" }}{{
+  $cssResources = $cssResources | append . }}{{ end }} {{ with resources.Get
+  "css/header.css" }}{{ $cssResources = $cssResources | append . }}{{ end }} {{
+  with resources.Get "css/article-cards.css" }}{{ $cssResources = $cssResources
+  | append . }}{{ end }} {{ with resources.Get "css/photo-blocks.css" }}{{
+  $cssResources = $cssResources | append . }}{{ end }} {{ with resources.Get
+  "css/utilities.css" }}{{ $cssResources = $cssResources | append . }}{{ end }}
+  {{ with resources.Get "css/reading-features.css" }}{{ $cssResources =
+  $cssResources | append . }}{{ end }} {{ with resources.Get
+  "css/author-list.css" }}{{ $cssResources = $cssResources | append . }}{{ end
+  }} {{ with resources.Get "css/related-articles.css" }}{{ $cssResources =
+  $cssResources | append . }}{{ end }} {{ with resources.Get
+  "css/components/quote-mark.css" }}{{ $cssResources =
+  $cssResources | append . }}{{ end }}
+  <!-- Bookmark indicator CSS removed -->
+  {{ if gt (len $cssResources) 0 }} {{ $allCSS := $cssResources |
+  resources.Concat "css/styles.css" }}
+  <link rel="stylesheet" href="{{ $allCSS.RelPermalink }}" />
+  {{ else }}
+  <!-- Fallback if no CSS resources found -->
+  <style>
+    body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+  </style>
+  {{ end }}
+
+  <!-- Page-specific CSS files -->
+  {{- if .IsPage -}} {{ with resources.Get "css/single.css" }} {{ $singlecss :=
+  . }}
+  <link rel="stylesheet" href="{{ $singlecss.RelPermalink }}" />
+  {{ end }}
+  
+  <!-- Sticky Table of Contents CSS -->
+  {{ with resources.Get "css/sticky-toc.css" }} {{ $stickyTocCSS := . }}
+  <link rel="stylesheet" href="{{ $stickyTocCSS.RelPermalink }}" />
+  {{ end }}
+  
+  <!-- Comment separator styles -->
+  {{ with resources.Get "css/comment-separator.css" }} {{ $commentSeparatorcss :=
+  . }}
+  <link rel="stylesheet" href="{{ $commentSeparatorcss.RelPermalink }}" />
+  {{ end }}
+
+  <!-- Load style-2 CSS if specified in frontmatter -->
+  {{ if eq (.Params.style | default "1") "2" }} 
+    {{ with resources.Get "css/single-style-2.css" }} 
+      {{ $singleStyle2 := . }}
+      <link rel="stylesheet" href="{{ $singleStyle2.RelPermalink }}" />
+    {{ end }} 
+  {{ end }}
+  
+  <!-- Load drop-cap CSS for all single pages -->
+  {{ with resources.Get "css/drop-cap.css" }} 
+    {{ $dropCapCSS := . }}
+    <link rel="stylesheet" href="{{ $dropCapCSS.RelPermalink }}" />
+  {{ end }}
+  
+  <!-- Load interview-style CSS for interview category -->
+  {{ $hasInterview := false }}
+  {{ range .Params.categories }}
+    {{ $category := lower . }}
+    {{ if eq $category "interview" }}{{ $hasInterview = true }}{{ end }}
+  {{ end }}
+  {{ if $hasInterview }} 
+    {{ with resources.Get "css/interview-style.css" }} 
+      {{ $interviewCSS := . }}
+      <link rel="stylesheet" href="{{ $interviewCSS.RelPermalink }}" />
+    {{ end }}
+  {{ end }}
+
+  <!-- Load Gordian Magazine CSS -->
+  {{ if or (eq .Section "gordian") (eq .Type "posts") }} 
+    {{ with resources.Get "css/gordian-consolidated.css" }} 
+      {{ $gordianCSS := . }}
+      <link rel="stylesheet" href="{{ $gordianCSS.RelPermalink }}" />
+    {{ end }}
+  {{ end }}
+  {{- end -}}
+
+  <!-- Additional CSS files from site params -->
+  {{ range .Site.Params.extraCSSFiles -}}
+  <link
+    rel="stylesheet"
+    href="{{ $.Site.Params.staticPrefix }}{{ . | relURL }}"
+  />
+  {{- end }}
+
+  <!-- Dark Mode CSS -->
+  {{ with resources.Get "css/dark-mode.css" }} {{ $darkModeCSS := . }}
+  <link rel="stylesheet" href="{{ $darkModeCSS.RelPermalink }}" />
+  {{ end }}
+
+  <!-- Mega Menu CSS -->
+  {{ with resources.Get "css/mega-menu.css" }} {{ $megaMenuCSS := . }}
+  <link rel="stylesheet" href="{{ $megaMenuCSS.RelPermalink }}" />
+  {{ end }}
+
+  <!-- Text Size Adjuster CSS -->
+  {{ with resources.Get "css/text-size-adjuster.css" }} {{ $textSizeCSS := . }}
+  <link rel="stylesheet" href="{{ $textSizeCSS.RelPermalink }}" />
+  {{ end }}
+  <!-- Bookmarks CSS for the bookmarks page -->
+  {{ if eq .Layout "bookmarks" }}
+    {{ with resources.Get "css/bookmarks.css" }} {{ $bookmarksCSS := . }}
+    <link rel="stylesheet" href="{{ $bookmarksCSS.RelPermalink }}" />
+    {{ end }}
+  {{ end }}
+
+  <!-- Immediate dark mode initialization -->
+  <script src="{{ .Site.Params.staticPrefix }}/js/dark-mode.js"></script>
+
+  <!-- RSS feed -->
+  <link href="{{ .Site.Params.staticPrefix }}{{ "index.xml" | relURL }}"
+  rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
+
+  <!-- fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css?family=Bree+Serif|Bungee+Shade|Open+Sans:300,400,500,600,700&display=swap"
+    rel="stylesheet"
+  />
+
+  {{ if .Site.Params.TwitterCards }}{{ template "_internal/twitter_cards.html" .
+  }}{{ end }} {{ .Site.Params.extraHead | safeHTML }}
+
+  <!-- Comic book scroll animation script -->
+  {{ with resources.Get "js/scroll-animation.js" }} {{ $scrollJs := . }}
+  <script defer src="{{ $scrollJs.RelPermalink }}"></script>
+  {{ end }}
+</head>

@@ -1,0 +1,35 @@
+# Header Categories Configuration
+# This file defines which categories appear in the header navigation bar
+# Categories will appear in the order listed below
+#
+# For regular categories: only 'name' is required, URL will be auto-generated as 'categories/name-slug/'
+# For special pages: specify both 'name' and 'url'
+
+categories:
+  - name: "Magazine"
+    url: "/gordian/"
+
+  - name: "UN in Focus"
+
+  - name: "Comments"
+
+  - name: "Culture"
+
+  - name: "Gallery"
+
+  - name: "Human Rights"
+
+  - name: "Climate Emergency"
+
+  - name: "Interview"
+
+  - name: "Science"
+
+  - name: "News"
+
+  - name: "Global Issues"
+
+# Special link to show all categories
+all_categories:
+  name: "All Categories"
+  url: "categories/"

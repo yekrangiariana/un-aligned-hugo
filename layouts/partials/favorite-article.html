@@ -1,0 +1,210 @@
+<!-- Bookmark Article Feature -->
+<div class="sidebar-section bookmark-article">
+  <button id="bookmarkToggle" class="bookmark-button" title="Add to bookmarks" aria-label="Toggle bookmark status">
+    <svg class="bookmark-icon" width="16" height="20" viewBox="0 0 16 20" aria-hidden="true" focusable="false">
+      <path d="M0 0v20l8-6 8 6V0H0z" fill="currentColor"/>
+    </svg>
+    <span class="bookmark-text">Add to bookmarks</span>
+  </button>
+  <div class="bookmark-info" style="display: none">
+    <a href="/pages/bookmarks/" class="view-bookmarks-link" id="view-bookmarks-btn" aria-label="View all your bookmarked articles">All bookmarks</a>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    /**
+     * BookmarkManager - Class to handle bookmark functionality
+     */
+    class BookmarkManager {
+      constructor() {
+        // Cache DOM elements
+        this.bookmarkButton = document.getElementById("bookmarkToggle");
+        this.bookmarkText = this.bookmarkButton.querySelector(".bookmark-text");
+        this.bookmarkInfo = document.querySelector(".bookmark-info");
+
+        // Current article information
+        this.articleId = window.location.pathname;
+        this.normalizedArticleId = this.normalizePath(this.articleId);
+        
+        // Cache for article metadata
+        this.metadataCache = null;
+
+        // Bind methods to this context
+        this.updateBookmarkStatus = this.updateBookmarkStatus.bind(this);
+        this.toggleBookmark = this.toggleBookmark.bind(this);
+        this.getArticleMetadata = this.getArticleMetadata.bind(this);
+
+        // Initialize event listeners
+        this.initEventListeners();
+        
+        // Initialize on page load
+        this.updateBookmarkStatus();
+      }
+
+      /**
+       * Initialize event listeners
+       */
+      initEventListeners() {
+        // Bookmark toggle button
+        this.bookmarkButton.addEventListener("click", this.toggleBookmark);
+        
+        // Navigation
+        const viewBookmarksBtn = document.getElementById("view-bookmarks-btn");
+        if (viewBookmarksBtn) {
+          viewBookmarksBtn.addEventListener("click", (e) => {
+            e.preventDefault();
+            window.location.href = viewBookmarksBtn.getAttribute("href");
+          });
+        }
+      }
+
+      /**
+       * Helper function to normalize paths for consistent comparison
+       * @param {string} path - The path to normalize
+       * @return {string} Normalized path with trailing slash
+       */
+      normalizePath(path) {
+        return path.endsWith("/") ? path : path + "/";
+      }
+
+      /**
+       * Get all bookmarked articles from localStorage
+       * @return {Array} Array of bookmarked articles
+       */
+      getBookmarks() {
+        return JSON.parse(localStorage.getItem("bookmarkedArticles") || "[]");
+      }
+
+      /**
+       * Save bookmarks to localStorage
+       * @param {Array} bookmarks - Array of bookmarks to save
+       */
+      saveBookmarks(bookmarks) {
+        localStorage.setItem("bookmarkedArticles", JSON.stringify(bookmarks));
+      }
+
+      /**
+       * Update UI elements based on bookmark status
+       */
+      updateBookmarkStatus() {
+        const bookmarks = this.getBookmarks();
+        const isBookmarked = bookmarks.some(article => 
+          this.normalizePath(article.id) === this.normalizedArticleId
+        );
+
+        // Update button state
+        this.bookmarkButton.classList.toggle("is-bookmarked", isBookmarked);
+        this.bookmarkButton.setAttribute("aria-pressed", isBookmarked);
+        this.bookmarkText.textContent = isBookmarked ? "Remove bookmark" : "Bookmark article";
+        this.bookmarkInfo.style.display = isBookmarked ? "block" : "none";
+
+        // Update article displays
+        this.updateArticleDisplay(isBookmarked);
+      }
+
+      /**
+       * Update article display elements
+       * @param {boolean} isBookmarked - Whether article is bookmarked
+       */
+      updateArticleDisplay(isBookmarked) {
+        const articleElements = [
+          document.querySelector(".article-card"),
+          document.querySelector("article.post")
+        ];
+
+        articleElements.forEach(element => {
+          if (element) {
+            if (isBookmarked) {
+              element.classList.add("is-bookmarked");
+              element.setAttribute("data-bookmarked", "true");
+            } else {
+              element.classList.remove("is-bookmarked");
+              element.removeAttribute("data-bookmarked");
+            }
+          }
+        });
+      }
+
+      /**
+       * Fetch article metadata from JSON index with caching
+       * @param {string} articleId - The ID of the article
+       * @return {Object|null} Article metadata or null if not found
+       */
+      async getArticleMetadata(articleId) {
+        try {
+          // Use cached metadata if available
+          if (!this.metadataCache) {
+            const response = await fetch('/articles-index.json');
+            if (!response.ok) return null;
+            this.metadataCache = await response.json();
+          }
+
+          // Find article in cached data
+          const normalizedId = this.normalizePath(articleId);
+          return this.metadataCache.find(a => this.normalizePath(a.id) === normalizedId) || null;
+        } catch (e) {
+          console.error('Error fetching article metadata:', e);
+          return null;
+        }
+      }
+
+      /**
+       * Toggle bookmark status for current article
+       */
+      async toggleBookmark() {
+        let bookmarks = this.getBookmarks();
+        const isBookmarked = bookmarks.some(
+          article => this.normalizePath(article.id) === this.normalizedArticleId
+        );
+
+        // Add loading state
+        this.bookmarkButton.classList.add("is-loading");
+        this.bookmarkText.textContent = isBookmarked ? "Removing..." : "Adding...";
+
+        try {
+          if (isBookmarked) {
+            // Remove from bookmarks
+            bookmarks = bookmarks.filter(
+              article => this.normalizePath(article.id) !== this.normalizedArticleId
+            );
+          } else {
+            // Fetch metadata and add to bookmarks
+            const meta = await this.getArticleMetadata(this.articleId);
+            if (!meta) {
+              throw new Error('Could not find article metadata');
+            }
+            
+            const article = {
+              id: this.normalizePath(meta.id),
+              title: meta.title,
+              date: meta.date,
+              author: meta.author,
+              categories: meta.categories,
+              description: meta.description,
+              featuredImage: meta.featuredImage,
+              addedAt: new Date().toISOString(),
+              url: window.location.origin + meta.url,
+            };
+            bookmarks.push(article);
+          }
+          
+          // Save updated bookmarks
+          this.saveBookmarks(bookmarks);
+        } catch (error) {
+          console.error('Error toggling bookmark:', error);
+          alert('An error occurred: ' + error.message);
+        } finally {
+          // Remove loading state
+          this.bookmarkButton.classList.remove("is-loading");
+          this.updateBookmarkStatus();
+        }
+      }
+
+      // Export and import functionality removed - now only available in bookmarks.html
+    }
+
+    // Initialize bookmark manager
+    const bookmarkManager = new BookmarkManager();
+  });
+</script>

@@ -1,0 +1,9 @@
+{{/* This partial adds category badge and formatting to article cards */}} {{ if
+.Params.categories }}
+<div class="article-categories">
+  {{ $firstCategory := index .Params.categories 0 }}
+  <span class="category-badge category-{{ lower $firstCategory | urlize }}"
+    >{{ $firstCategory }}</span
+  >
+</div>
+{{ end }}

@@ -1,0 +1,56 @@
+{{/*
+  Usage:
+  {{ partial "author-info.html" (dict "context" . "showImage" true "asToldTo" false "class" "author-name-style-2") }}
+*/}}
+
+{{ $ctx := .context }}
+{{ $showImage := .showImage | default false }}
+{{ $asToldTo := .asToldTo | default false }}
+{{ $class := .class | default "" }}
+{{ $showName := .showName | default true }}
+
+{{ $authorSlug := "" }}
+{{ $authorName := "" }}
+
+{{ if $ctx.Params.authors }}
+  {{ $authorSlug = index $ctx.Params.authors 0 }}
+  {{ $authorName = index $ctx.Params.authors 0 }}
+{{ else if $ctx.Params.author }}
+  {{ if reflect.IsSlice $ctx.Params.author }}
+    {{ $authorSlug = index $ctx.Params.author 0 }}
+    {{ $authorName = index $ctx.Params.author 0 }}
+  {{ else }}
+    {{ $authorSlug = $ctx.Params.author }}
+    {{ $authorName = $ctx.Params.author }}
+  {{ end }}
+{{ end }}
+
+{{ $authorSlug = $authorSlug | urlize }}
+{{ $authorData := index $ctx.Site.Data.authors $authorSlug }}
+
+{{ if $asToldTo }}
+  {{ if $authorData }}
+    {{ if $authorData.name }}
+      <span class="{{ $class }}">As told to <a href="/authors/{{ $authorSlug }}/" style="color:inherit; text-decoration:none;">{{ $authorData.name }}</a></span>
+    {{ else }}
+      <span class="{{ $class }}">As told to <a href="/authors/{{ $authorSlug }}/" style="color:inherit; text-decoration:none;">{{ $authorName }}</a></span>
+    {{ end }}
+  {{ else }}
+    <span class="{{ $class }}">As told to <a href="/authors/{{ $authorName | urlize }}/" style="color:inherit; text-decoration:none;">{{ $authorName }}</a></span>
+  {{ end }}
+{{ else }}
+  {{ if $authorData }}
+    {{ if and $showName $authorData.name }}
+      <span class="{{ $class }}">by {{ $authorData.name }}</span>
+    {{ else if $showName }}
+      <span class="{{ $class }}">by {{ $authorName }}</span>
+    {{ end }}
+    {{ if and $showImage $authorData.image }}
+      <img class="comment-author-image" src="{{ $authorData.image }}" alt="{{ $authorData.name }}">
+    {{ end }}
+  {{ else }}
+    {{ if $showName }}
+      <span class="{{ $class }}">by {{ $authorName }}</span>
+    {{ end }}
+  {{ end }}
+{{ end }}

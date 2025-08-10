@@ -1,0 +1,725 @@
+/**
+ * Dark Mode Styling
+ * Last updated: July 25, 2025
+ */
+
+:root {
+  /* Light mode reference colors */
+  --light-bg: #ffffff;
+  --light-text: #333333;
+  --light-link: #121212;
+  --light-border: #e0e0e0;
+
+  /* Dark mode core colors */
+  --dark-bg: #1a1a1a;
+  --dark-surface: #242424;
+  --dark-surface-elevated: #2d2d2d;
+
+  /* Text colors */
+  --dark-text-primary: #ffffff;
+  --dark-text-secondary: #e0e0e0;
+  --dark-text-tertiary: #cccccc;
+  --dark-text-muted: #b0b0b0;
+
+  /* Interactive elements */
+  --dark-link: #ffffff;
+  --dark-link-hover: #88c5ff;
+  --dark-border: #404040;
+  --dark-border-subtle: #333333;
+
+  /* Category colors */
+  --dark-color-culture: #c2a888;
+  --dark-color-gallery: #d42b63;
+  --dark-color-interview: #b96fa9;
+  --dark-color-comments: #f97736;
+  --dark-color-environment: #5ec45e;
+  --dark-color-technology: #5a9bd5;
+  --dark-color-science: #b279c8;
+  --dark-color-politics: #e67e22;
+}
+
+/* Dark Mode Toggle Button */
+.simple-dark-toggle .light-icon {
+  display: none;
+}
+
+.simple-dark-toggle .dark-icon {
+  display: inline-block;
+}
+
+body.dark-mode .simple-dark-toggle .light-icon {
+  display: inline-block;
+}
+
+body.dark-mode .simple-dark-toggle .dark-icon {
+  display: none;
+}
+
+.simple-dark-toggle.header-button {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Core Dark Mode & Typography */
+body.dark-mode {
+  background-color: var(--dark-bg);
+  color: var(--dark-text-secondary);
+}
+
+html.dark-mode {
+  background-color: var(--dark-bg);
+}
+
+/* Primary headings */
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode .article-card-title,
+body.dark-mode .header-title {
+  color: var(--dark-text-primary);
+}
+
+/* Secondary headings */
+body.dark-mode h4,
+body.dark-mode h5,
+body.dark-mode h6 {
+  color: var(--dark-text-secondary);
+}
+
+/* Body text */
+body.dark-mode p,
+body.dark-mode div,
+body.dark-mode li,
+body.dark-mode span {
+  color: var(--dark-text-secondary);
+}
+
+/* Metadata */
+body.dark-mode .article-card-date,
+body.dark-mode .article-card-author,
+body.dark-mode .header-subtitle,
+body.dark-mode .tag-type,
+body.dark-mode .text-muted {
+  color: var(--dark-text-tertiary);
+}
+
+/* Very subtle text */
+body.dark-mode .article-card-description,
+body.dark-mode footer,
+body.dark-mode .footer-text {
+  color: var(--dark-text-muted);
+}
+
+/* Links in Dark Mode */
+body.dark-mode a {
+  color: var(--dark-link);
+}
+
+body.dark-mode a:hover {
+  color: var(--dark-link-hover);
+}
+
+body.dark-mode .header-title a {
+  color: inherit;
+}
+
+body.dark-mode .category-link {
+  color: var(--dark-link);
+}
+
+body.dark-mode .category-link:hover {
+  color: var(--dark-link-hover);
+}
+
+/* Header text - white for contrast */
+body.dark-mode .header-title,
+body.dark-mode .header-title a,
+body.dark-mode .header-subtitle {
+  color: #ffffff;
+}
+
+/* Article Cards and Layout Elements */
+body.dark-mode .article-card {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+
+/* Border color for various elements */
+body.dark-mode .post-title-overlay,
+body.dark-mode .author-name-style-2,
+body.dark-mode .post-date,
+body.dark-mode .category-label-style-2,
+body.dark-mode .comment-description-container-right-column,
+body.dark-mode .comment-description-container,
+body.dark-mode .post-taxonomy-section,
+body.dark-mode .site-footer,
+body.dark-mode .post-categories a,
+body.dark-mode .post-description-style-2,
+body.dark-mode .mega-menu-content,
+body.dark-mode .gordian-badge,
+body.dark-mode .article-card-image,
+body.dark-mode .article-card-placeholder {
+  border-color: var(--dark-border);
+}
+
+body.dark-mode .post-date {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .article-card-content {
+  background-color: var(--dark-surface);
+}
+
+body.dark-mode .site-container {
+  border-right: 1px solid var(--dark-border);
+  border-left: 1px solid var(--dark-border);
+}
+
+body.dark-mode .article-grid {
+  border-left: 1px solid var(--dark-border);
+}
+
+/* Category-Specific Styling */
+body.dark-mode {
+  /* Category text colors */
+  --categories: culture, gallery, interview, comments, environment, technology,
+    science, politics;
+}
+
+/* Category text colors */
+body.dark-mode .text-culture,
+body.dark-mode .single-post.culture .post-title,
+body.dark-mode .culture-article .post-title,
+body.dark-mode .article-card.has-culture .article-card-title {
+  color: var(--dark-color-culture) !important;
+}
+
+body.dark-mode .text-gallery,
+body.dark-mode .single-post.gallery .post-title,
+body.dark-mode .article-card.has-gallery .article-card-title {
+  color: var(--dark-color-gallery) !important;
+}
+
+body.dark-mode .text-interview,
+body.dark-mode .single-post.interview .post-title,
+body.dark-mode .article-card.has-interview .article-card-title {
+  color: var(--dark-color-interview) !important;
+}
+
+body.dark-mode .text-comments,
+body.dark-mode .single-post.comments .post-title {
+  color: var(--dark-color-comments) !important;
+}
+
+body.dark-mode .text-environment,
+body.dark-mode .single-post.environment .post-title {
+  color: var(--dark-color-environment) !important;
+}
+
+body.dark-mode .text-technology,
+body.dark-mode .single-post.technology .post-title {
+  color: var(--dark-color-technology) !important;
+}
+
+body.dark-mode .text-science,
+body.dark-mode .single-post.science .post-title {
+  color: var(--dark-color-science) !important;
+}
+
+body.dark-mode .text-politics,
+body.dark-mode .single-post.politics .post-title {
+  color: var(--dark-color-politics) !important;
+}
+
+/* Category background colors */
+body.dark-mode .bg-culture,
+body.dark-mode .article-card.has-culture .article-card-category {
+  background-color: var(--dark-color-culture) !important;
+}
+
+body.dark-mode .bg-gallery,
+body.dark-mode .article-card.has-gallery .article-card-category {
+  background-color: var(--dark-color-gallery) !important;
+}
+
+body.dark-mode .bg-interview,
+body.dark-mode .article-card.has-interview .article-card-category {
+  background-color: var(--dark-color-interview) !important;
+}
+
+body.dark-mode .bg-comments,
+body.dark-mode .comments-article .post-categories a,
+body.dark-mode .comments-article .quote-mark,
+body.dark-mode .article-card.has-comments .quote-mark,
+body.dark-mode .article-style-2.comments-article .post-title-overlay::before,
+body.dark-mode .author-profile-container {
+  background-color: var(--dark-color-comments) !important;
+}
+
+body.dark-mode .bg-environment {
+  background-color: var(--dark-color-environment);
+}
+body.dark-mode .bg-technology {
+  background-color: var(--dark-color-technology);
+}
+body.dark-mode .bg-science {
+  background-color: var(--dark-color-science);
+}
+body.dark-mode .bg-politics {
+  background-color: var(--dark-color-politics);
+}
+
+/* Category border colors */
+body.dark-mode .border-culture {
+  border-color: var(--dark-color-culture);
+}
+body.dark-mode .border-gallery {
+  border-color: var(--dark-color-gallery);
+}
+body.dark-mode .border-interview {
+  border-color: var(--dark-color-interview);
+}
+body.dark-mode .border-comments {
+  border-color: var(--dark-color-comments);
+}
+body.dark-mode .border-environment {
+  border-color: var(--dark-color-environment);
+}
+body.dark-mode .border-technology {
+  border-color: var(--dark-color-technology);
+}
+body.dark-mode .border-science {
+  border-color: var(--dark-color-science);
+}
+body.dark-mode .border-politics {
+  border-color: var(--dark-color-politics);
+}
+
+/* Special cases */
+body.dark-mode .interview-author-credit {
+  color: var(--light-text);
+}
+body.dark-mode .comments-article .post-title {
+  color: var(--dark-text-primary);
+}
+
+/* Tags, Categories, and Navigation */
+body.dark-mode .author-item,
+body.dark-mode .tag-item,
+body.dark-mode .category-label-style-2,
+body.dark-mode .gordian-badge {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .tag-item.category {
+  background-color: var(--dark-surface-elevated);
+}
+
+body.dark-mode .post-tags a {
+  color: var(--light-text);
+}
+
+body.dark-mode .article-card-tag,
+body.dark-mode .post-categories a {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-secondary);
+  border-color: var(--dark-border);
+}
+
+/* Form Elements and Interactive Components */
+body.dark-mode input,
+body.dark-mode textarea,
+body.dark-mode select {
+  background-color: var(--dark-surface);
+  color: var(--dark-text-secondary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode input:focus,
+body.dark-mode textarea:focus,
+body.dark-mode select:focus {
+  border-color: var(--dark-link);
+  box-shadow: 0 0 0 2px rgba(102, 179, 255, 0.2);
+}
+
+body.dark-mode button {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-primary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode button:hover {
+  background-color: var(--dark-border);
+}
+
+body.dark-mode .bookmark-button.is-bookmarked {
+  border-color: var(--dark-border);
+}
+
+body.dark-mode .bookmark-button:hover .bookmark-icon,
+body.dark-mode .bookmark-button.is-bookmarked .bookmark-icon {
+  color: var(--light-bg);
+}
+
+/* Code and UI Elements */
+/* Code blocks */
+body.dark-mode pre,
+body.dark-mode code {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-secondary);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode pre {
+  border: 1px solid var(--dark-border);
+}
+
+/* Layout elements */
+body.dark-mode .category-nav {
+  border-color: var(--dark-border);
+}
+
+body.dark-mode hr {
+  border-color: var(--dark-border-subtle);
+}
+
+body.dark-mode blockquote p {
+  background-color: var(--dark-bg);
+  border-color: var(--dark-border);
+}
+
+/* Tables */
+body.dark-mode table {
+  border-color: var(--dark-border);
+}
+
+body.dark-mode th,
+body.dark-mode td {
+  border-color: var(--dark-border-subtle);
+}
+
+body.dark-mode th {
+  background-color: var(--dark-surface);
+}
+
+/* Dropdown menus and overlays */
+body.dark-mode .dropdown-menu,
+body.dark-mode .menu-overlay {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Additional UI Components */
+/* Search and filters */
+body.dark-mode .search-box,
+body.dark-mode .filter-box {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+}
+
+/* Pagination */
+body.dark-mode .pagination a,
+body.dark-mode .pagination span {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .pagination a:hover,
+body.dark-mode .pagination .current {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-primary);
+}
+
+/* Images and featured content */
+body.dark-mode .image-caption,
+body.dark-mode .image-overlay {
+  background-color: rgba(26, 26, 26, 0.9);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .featured-content {
+  background-color: var(--dark-surface-elevated);
+  border-color: var(--dark-border);
+}
+
+/* Drop Cap Styling */
+body.dark-mode .post-content > p:first-of-type::first-letter {
+  color: var(--dark-text-primary);
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.1);
+}
+
+/* Category-specific drop caps */
+body.dark-mode
+  .culture-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--dark-color-culture);
+}
+
+body.dark-mode .culture-article .post-content > p:first-of-type::first-letter {
+  color: var(--dark-color-culture) !important;
+}
+
+body.dark-mode
+  .gallery-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+body.dark-mode
+  .interview-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--dark-color-interview);
+}
+
+body.dark-mode
+  .technology-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--dark-color-technology);
+}
+
+body.dark-mode
+  .science-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--dark-color-science);
+}
+
+body.dark-mode
+  .politics-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--dark-color-politics);
+}
+
+body.dark-mode
+  .environment-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--dark-color-environment);
+}
+
+/* Drop cap classes */
+body.dark-mode .drop-cap.culture {
+  color: var(--dark-color-culture);
+}
+body.dark-mode .drop-cap.gallery {
+  color: var(--dark-color-gallery);
+}
+body.dark-mode .drop-cap.interview {
+  color: var(--dark-color-interview);
+}
+body.dark-mode .drop-cap.comments {
+  color: var(--dark-color-comments);
+}
+
+body.dark-mode
+  .environment-article
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--dark-color-environment);
+}
+
+body.dark-mode
+  .interview-article
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--dark-color-interview) !important;
+}
+
+body.dark-mode .politics-article .post-content > p:first-of-type::first-letter {
+  color: var(--dark-color-politics) !important;
+}
+
+/* Links category styling */
+body.dark-mode .culture-article .markdown-body a {
+  color: var(--dark-color-culture);
+  text-decoration-color: var(--light-border);
+}
+body.dark-mode .interview-article .markdown-body a {
+  color: var(--dark-color-interview) !important;
+  text-decoration-color: var(--light-border);
+}
+body.dark-mode .comments-article .markdown-body a {
+  color: var(--dark-color-comments);
+  text-decoration-color: var(--light-border);
+}
+body.dark-mode .environment-article .markdown-body a {
+  color: var(--dark-color-environment);
+  text-decoration-color: var(--light-border);
+}
+
+/* Article-related components */
+body.dark-mode .related-articles,
+body.dark-mode .comment,
+body.dark-mode .comment-box {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+}
+
+/* Visual elements */
+body.dark-mode .separator,
+body.dark-mode .divider {
+  border-color: var(--dark-border-subtle);
+}
+
+/* Loading states */
+body.dark-mode .skeleton,
+body.dark-mode .loading {
+  background-color: var(--dark-surface);
+  animation: pulse-dark 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes pulse-dark {
+  0% {
+    background-color: var(--dark-surface);
+  }
+  100% {
+    background-color: var(--dark-surface-elevated);
+  }
+}
+
+/* Media Queries for Accessibility */
+@media print {
+  body.dark-mode {
+    background-color: white !important;
+    color: black !important;
+  }
+
+  body.dark-mode * {
+    background-color: white !important;
+    color: black !important;
+    box-shadow: none !important;
+  }
+}
+
+@media (prefers-contrast: high) {
+  body.dark-mode {
+    --dark-text-primary: #ffffff;
+    --dark-text-secondary: #ffffff;
+    --dark-border: #666666;
+    --dark-link: #66b3ff;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  body.dark-mode *,
+  body.dark-mode {
+    transition: none !important;
+    animation: none !important;
+  }
+}
+
+/* Mega Menu Styling */
+body.dark-mode .mega-menu-popup {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+}
+
+body.dark-mode .mega-menu-content {
+  background-color: var(--dark-surface);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .mega-menu-header {
+  border-bottom-color: var(--dark-border);
+}
+
+body.dark-mode .close-menu-button {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .mega-menu-title,
+body.dark-mode .mega-menu-title li,
+body.dark-mode .mega-menu-section-title {
+  color: var(--dark-text-primary);
+  margin: 0;
+}
+
+body.dark-mode .mega-menu-section-title {
+  border-bottom-color: var(--dark-border);
+}
+
+/* Menu links */
+body.dark-mode .mega-menu-links a {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .mega-menu-links a:hover {
+  color: var(--dark-link);
+  background-color: var(--dark-surface-elevated);
+}
+
+/* Category-specific menu links */
+body.dark-mode .mega-menu-links .culture a {
+  color: var(--dark-color-culture);
+}
+body.dark-mode .mega-menu-links .gallery a {
+  color: var(--dark-color-gallery);
+}
+body.dark-mode .mega-menu-links .interview a {
+  color: var(--dark-color-interview);
+}
+body.dark-mode .mega-menu-links .comments a {
+  color: var(--dark-color-comments);
+}
+body.dark-mode .mega-menu-links .environment a {
+  color: var(--dark-color-environment);
+}
+body.dark-mode .mega-menu-links .technology a {
+  color: var(--dark-color-technology);
+}
+body.dark-mode .mega-menu-links .science a {
+  color: var(--dark-color-science);
+}
+body.dark-mode .mega-menu-links .politics a {
+  color: var(--dark-color-politics);
+}
+
+/* Gordian buttons */
+body.dark-mode .gordian-button {
+  background-color: #3498db;
+}
+
+body.dark-mode .gordian-button:hover {
+  background-color: #2980b9;
+}
+
+body.dark-mode .gordian-button.past-issues {
+  background-color: #7f8c8d;
+}
+
+body.dark-mode .gordian-button.past-issues:hover {
+  background-color: #6c7a7d;
+}
+
+/* Menu toggle */
+body.dark-mode #menu-popup-toggle.active {
+  background-color: gold;
+  color: var(--dark-bg);
+}
+
+/* Header elements */
+body.dark-mode .header-button,
+body.dark-mode .simple-dark-toggle,
+body.dark-mode .header-item a {
+  background: var(--menu-dark-color);
+  border-color: var(--dark-border);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .header-button:hover,
+body.dark-mode .simple-dark-toggle:hover,
+body.dark-mode .header-item a:hover {
+  background-color: var(--dark-surface-elevated);
+}

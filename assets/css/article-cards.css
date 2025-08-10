@@ -1,0 +1,417 @@
+/* Article Cards - Clean, Minimal Design */
+
+/* Main card container */
+.article-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--color-background);
+  height: 100%;
+  border: var(--border-thin);
+  position: relative;
+}
+
+/* Style 2 specific article card title styling */
+.article-card.style-2 .article-card-title {
+  text-decoration: underline;
+  text-decoration-thickness: 0.5px; /* Make the underline very thin */
+  text-decoration-color: rgba(
+    0,
+    0,
+    0,
+    0.7
+  ); /* Semi-transparent black for light mode */
+  text-underline-offset: 0.2em; /* Space between text and underline */
+}
+
+/* Dark mode version of Style 2 article card underline */
+.dark-mode .article-card.style-2 .article-card-title {
+  text-decoration-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Semi-transparent white for dark mode */
+}
+
+/* Category-specific Style 2 underline styles */
+.article-card.style-2.has-gallery .article-card-title {
+  text-decoration-color: rgba(
+    255,
+    255,
+    255,
+    0.7
+  ); /* Light underline on dark background */
+}
+
+.article-card.style-2.has-culture .article-card-title {
+  text-decoration-color: rgba(var(--color-culture-rgb), 0.7);
+}
+
+.article-card.style-2.has-interview .article-card-title {
+  text-decoration-color: rgba(var(--color-interview-rgb), 0.7);
+}
+
+.article-card.style-2.has-comments .article-card-title {
+  text-decoration-color: rgba(var(--color-comments-rgb), 0.7);
+}
+
+/* Responsive adjustments for Style 2 article cards */
+@media screen and (max-width: 768px) {
+  .article-card.style-2 .article-card-title {
+    text-decoration-thickness: 0.4px; /* Slightly thinner on smaller screens */
+    text-underline-offset: 0.2em;
+  }
+}
+
+/* Card link styles */
+.article-card a,
+.article-card a:hover,
+.article-card a:focus,
+.article-card a:active {
+  font-weight: inherit;
+}
+
+.article-card a:hover {
+  opacity: 0.9;
+}
+
+/* Full card link area */
+.article-card-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Card image */
+.article-card-image {
+  width: 100%;
+  height: fit-content;
+  object-fit: cover;
+  margin-top: auto;
+}
+
+/* Specific styling for comments cards with images */
+.article-card.has-comments .article-card-image {
+  width: 100%;
+}
+
+/* Content area */
+.article-card-content {
+  padding: var(--spacing-md);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background);
+  position: relative;
+}
+
+/* Title styling - reduced spacing */
+.article-card-title {
+  font-size: 1.1rem;
+  margin: var(--spacing-xs) 0;
+  line-height: 1.2;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+  font-family: var(--font-family-secondary);
+}
+
+/* Description styling */
+.article-card-description {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-xs);
+  font-family: var(--font-family-primary);
+}
+
+/* Tags container */
+.article-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Tag styling */
+.article-card-tag {
+  font-size: var(--font-size-xs);
+  padding: var(--spacing-xs) var(--spacing-xs);
+  /* color: var(--color-text); */
+  color: #c33c64;
+  font-weight: bold;
+  border: var(--border-thin);
+  display: inline-block;
+}
+
+/* Featured Badge */
+.featured-post-badge {
+  display: none;
+}
+
+/* Category-specific card styling */
+
+/* Culture category cards */
+.article-card.has-culture .article-card-title {
+  color: var(--color-culture) !important;
+}
+
+.article-card.has-culture .article-card-tag {
+  background-color: var(--color-culture) !important;
+  color: white !important;
+}
+
+/* Gallery category cards */
+.article-card.has-gallery .article-card-title {
+  color: var(--light-text);
+}
+
+.article-card.has-gallery .article-card-tag {
+  background-color: black !important;
+  color: white !important;
+}
+
+/* Interview category cards */
+.article-card.has-interview .article-card-title {
+  color: var(--color-interview) !important;
+}
+
+.article-card.has-interview .article-card-tag {
+  background-color: var(--color-interview) !important;
+  color: white !important;
+}
+
+/* Comments category cards */
+
+/* only used in bookmarks */
+.article-card.has-comments .article-card-tag {
+  background-color: var(--color-comments) !important;
+  color: white !important;
+}
+
+.article-card.has-comments .article-card-link {
+  position: relative;
+  height: 100%;
+}
+
+.article-card.has-comments .article-card-content {
+  position: relative;
+  padding-right: 110px;
+  min-height: 150px;
+  width: 100%;
+  padding-bottom: var(--spacing-md); /* Add space at bottom */
+}
+
+/* Comments quotation mark - using shared component */
+.article-card.has-comments .quote-mark {
+  /* Add .small class for specific sizing */
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: top;
+  background-color: var(--color-comments); /* Use the variable here */
+  opacity: 0.9;
+}
+
+/* Author name styling */
+.article-card.has-comments .article-card-author {
+  font-size: var(--font-size-xs);
+  /* padding: var(--spacing-xs) var(--spacing-xs); */
+  color: var(--color-comments); /* Pink color */
+  font-weight: bold;
+}
+
+/* Author profile image container */
+.author-profile-container {
+  position: absolute;
+  bottom: var(--spacing-md);
+  right: var(--spacing-md);
+  width: 90px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--color-comments);
+  border-radius: 50%;
+  overflow: hidden;
+  aspect-ratio: 1/1;
+}
+
+/* Author profile image */
+.author-profile-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 768px) {
+  .article-card-description {
+    display: none;
+  }
+  .article-card.has-comments .article-card-description {
+    display: block;
+  }
+}
+
+.bookmark-actions {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.bookmarks-sorting {
+  display: flex;
+  gap: 0.75rem;
+  align-items: center;
+}
+
+.sort-select {
+  border: 1px solid #ddd !important;
+  background-color: #f0f0f0 !important;
+  color: #333 !important;
+  min-width: 140px;
+  margin-left: -1px; /* Slight overlap to connect with label */
+  border-left: none !important; /* Remove left border for seamless connection */
+}
+
+.sort-select:hover {
+  background-color: #e0e0e0 !important;
+}
+
+.sort-select:focus {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+.bookmark-utils {
+  display: flex;
+  gap: 0.75rem;
+  padding-left: 15px;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-secondary {
+  background-color: #f0f0f0;
+  border: 1px solid #ddd;
+  color: #333;
+}
+
+.btn-secondary:hover {
+  background-color: #e0e0e0;
+}
+
+.remove-bookmark {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+  background: gold;
+  border: none;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  border: 1px solid #121212;
+}
+
+.remove-bookmark:hover {
+  background-color: rgba(255, 217, 0, 0.711);
+}
+
+/* Article card needs position relative for absolute positioning of buttons */
+.article-card {
+  position: relative;
+}
+
+/* Date added styling */
+.article-card-added-date {
+  margin-top: 0.5rem;
+  font-size: 0.9em;
+}
+
+/* Improved accessibility focus styles */
+.btn:focus-visible,
+select:focus-visible,
+.article-card:focus-within {
+  outline: 2px solid #0066cc;
+  outline-offset: 2px;
+}
+
+@media (max-width: 768px) {
+  .bookmark-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0;
+  }
+
+  .bookmarks-sorting {
+    width: 100%;
+  }
+
+  .sort-select {
+    flex: 1;
+    min-width: auto;
+  }
+}
+
+/* Carousel functionality for article cards */
+.article-card-carousel {
+  width: 100%;
+  margin-top: auto;
+  position: relative;
+  overflow: hidden;
+  height: 250px;
+}
+
+.carousel-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+.carousel-image.active {
+  opacity: 1;
+}
+
+/* Override heights for different card positions to match existing design */
+.article-grid .article-card:first-child .article-card-carousel,
+.article-grid .article-card:nth-child(4) .article-card-carousel {
+  height: 450px;
+}
+
+/* Responsive carousel heights */
+@media screen and (max-width: 768px) {
+  .article-card-carousel {
+    height: 250px !important;
+  }
+
+  .article-grid .article-card:first-child .article-card-carousel {
+    height: 250px; /* Adjust for smaller screens */
+  }
+}

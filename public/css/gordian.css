@@ -1,0 +1,393 @@
+/* Gordian Magazine Specific Styles */
+
+/* Hero section styling */
+.gordian-hero {
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+}
+
+.hero-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 0.5rem;
+  text-align: center;
+}
+
+.title-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero-cta-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.inline-logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+  margin: 0 0.5rem;
+}
+
+.hero-content .tagline {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.4;
+  font-weight: 500;
+  text-align: center !important;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 600px;
+}
+
+.hero-cta {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border-radius: 6px;
+  font-weight: 600;
+  border: var(--border-thin-light);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.hero-cta.primary {
+  background-color: #121212;
+  color: white;
+  border-color: #121212;
+}
+
+.hero-cta.secondary {
+  border-color: #121212;
+}
+
+body.dark-mode .hero-cta.secondary,
+body.dark-mode .hero-cta {
+  border-color: var(--dark-border);
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .inline-logo {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .hero-cta-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .hero-cta {
+    width: 100%;
+    max-width: 300px;
+    justify-content: center;
+  }
+}
+
+/* Horizontal layout for latest issue */
+.latest-issue .article-card .article-card-link {
+  flex-direction: row-reverse;
+}
+
+.latest-issue .article-card .article-card-image {
+  width: 40%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.latest-issue .article-card .article-card-content {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .latest-issue .article-card .article-card-link {
+    flex-direction: column;
+  }
+  
+  .latest-issue .article-card .article-card-image,
+  .latest-issue .article-card .article-card-content {
+    width: 100%;
+  }
+  
+  .latest-issue .article-card .article-card-image {
+    order: -1; /* Ensures the image appears first on mobile */
+  }
+  
+  .latest-issue .article-card-description,
+  .latest-issue .featured-articles,
+  .latest-issue .gordian-authors,
+  .latest-issue .article-list,
+  .latest-issue .section-separator,
+  .latest-issue .section-label,
+  .latest-issue .author-list {
+    display: block !important; /* Ensure nothing is hidden */
+  }
+  
+  .latest-issue .article-card-description {
+    margin-top: 1rem;
+    font-size: var(--font-size-sm);
+  }
+}
+
+/* Reasons section styling - using 20/80 layout */
+.reasons-section {
+  margin: 4rem 0;
+  padding: 2rem 0;
+  border-top: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.reasons-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+}
+
+/* Reason cards using article card styling */
+.reason-card {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  background-color: var(--color-background);
+  height: 100%;
+  border: var(--border-thin);
+  position: relative;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reason-card-content {
+  padding: var(--spacing-md);
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.reason-card-number {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: var(--spacing-xs);
+}
+
+.reason-number-tag {
+  font-size: var(--font-size-xs);
+  padding: var(--spacing-xs) var(--spacing-xs);
+  color: white;
+  font-weight: bold;
+  border: var(--border-thin);
+  background-color: #121212;
+  display: inline-block;
+}
+
+.reason-card-title {
+  font-size: 1.1rem;
+  margin: var(--spacing-xs) 0;
+  line-height: 1.2;
+  font-weight: var(--font-weight-bold);
+  color: var(--color-primary);
+}
+
+.reason-card-description {
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-normal);
+  font-weight: var(--font-weight-medium);
+  color: var(--color-text-light);
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Filter container styles */
+.filter-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.filter-container select {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  font-size: 1rem;
+}
+
+.filter-button {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  border: none;
+  background-color: #333;
+  color: white;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.filter-button:hover {
+  background-color: #555;
+}
+
+#reset-filter {
+  background-color: #666;
+}
+
+#reset-filter:hover {
+  background-color: #888;
+}
+
+.no-issues-message {
+  grid-column: 1 / -1;
+  text-align: center;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  margin-top: 1rem;
+  display: none;
+}
+
+.show-more-button {
+  display: inline-block;
+  margin: 0 1.2rem;
+  text-align: center;
+  padding: 0.75rem 1.5rem;
+  transition: background-color 0.2s;
+  background-color: #121212;
+}
+
+.show-more-button:hover {
+  background-color: #666;
+}
+
+/* Inline styles for the first item in older issues */
+.older-issues .article-grid .article-card:first-child .article-card-link,
+.older-issues .article-grid .article-card.first-visible .article-card-link {
+  flex-direction: row;
+}
+
+.older-issues .article-grid .article-card:first-child .article-card-image,
+.older-issues .article-grid .article-card.first-visible .article-card-image {
+  width: 40%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.older-issues .article-grid .article-card:first-child .article-card-content,
+.older-issues .article-grid .article-card.first-visible .article-card-content {
+  width: 60%;
+}
+
+/* Hide titles and descriptions for non-first items */
+.older-issues .article-grid .article-card:not(:first-child):not(.first-visible) .article-card-description,
+.older-issues .article-grid .article-card:not(:first-child):not(.first-visible) .article-card-title {
+  display: none;
+}
+
+/* Group items in threes with spacing */
+.older-issues .article-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .older-issues .article-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.older-issues .article-grid .article-card:first-child,
+.older-issues .article-grid .article-card.first-visible {
+  grid-column: 1 / -1;
+  margin-bottom: 2rem;
+}
+
+/* Reset the fourth child styling from article-cards.css */
+.older-issues .article-card:nth-child(4) {
+  grid-column: auto;
+  grid-row: auto;
+}
+
+/* Mobile styles for the older issues section */
+@media (max-width: 768px) {
+  .older-issues .article-grid .article-card.gordian-issue-card.first-visible {
+    width: 100%;
+  }
+  
+  .older-issues .article-grid .article-card.gordian-issue-card.first-visible .article-card-link {
+    flex-direction: column;
+  }
+  
+  .older-issues .article-grid .article-card.gordian-issue-card.first-visible .article-card-image,
+  .older-issues .article-grid .article-card.gordian-issue-card.first-visible .article-card-content {
+    width: 100%;
+  }
+}
+
+/* Styles for the magazine issue features */
+.section-separator {
+  border-top: 1px solid #e0e0e0;
+  margin-top: 1rem;
+  padding-top: 0.75rem;
+}
+
+.gordian-article-count {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.section-label {
+  font-size: 0.75em;
+  color: #888;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.article-list {
+  font-size: 0.85em;
+  color: #444;
+  margin: 0;
+  padding-left: 1rem;
+  list-style-type: disc;
+}
+
+.article-list li {
+  margin-bottom: 0.25rem;
+}
+
+.gordian-authors {
+  text-align: right;
+}
+
+.author-list {
+  font-size: 0.85em;
+  color: #666;
+  margin: 0;
+}

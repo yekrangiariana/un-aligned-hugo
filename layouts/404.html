@@ -1,0 +1,16 @@
+{{ define "main" }}
+<main class="not-found">
+  <header>
+    <h1 class="taxonomy-term">Page Not Found</h1>
+  </header>
+  <p>The page you're looking for doesn't exist. You can return to our <a href="{{ "/" | relURL }}">homepage</a> to explore more content.</p>
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <div id="search"></div>
+  <script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  }); 
+  </script>
+</main>
+{{ end }}

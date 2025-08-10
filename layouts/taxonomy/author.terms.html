@@ -1,0 +1,59 @@
+{{ define "main" }}
+<header>
+  <h1 class="taxonomy-term">All Authors</h1>
+
+  {{ with .Content }}
+  <div class="section-content markdown-body">{{ . }}</div>
+  {{ end }}
+</header>
+
+<!-- Use 20/80 layout for authors display -->
+<main class="category-section">
+  <header class="category-header">
+    <h2>Contributors</h2>
+    <p>Meet the writers who share their insights and expertise across our platform.</p>
+  </header>
+  
+  <div class="category-grid" itemscope itemtype="https://schema.org/ItemList">
+    <div class="authors-navigation">
+      <!-- prettier-ignore -->
+      {{ range $index, $term := .Data.Terms.Alphabetical }} 
+      {{ $authorName := .Page.Title | urlize }} 
+      {{ $authorInfo := index $.Site.Data.authors $authorName | default dict }}
+
+      <div class="author-card" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+        <meta itemprop="position" content="{{ add $index 1 }}" />
+        <a href="{{ .Page.RelPermalink }}" class="author-link" itemprop="url">
+          {{ if $authorInfo.image }}
+          <div class="author-image-small">
+            <img
+              src="{{ $authorInfo.image }}"
+              alt="{{ .Page.Title }}"
+              class="author-avatar"
+              itemprop="image"
+            />
+          </div>
+          {{ end }}
+          
+          <div class="author-name" itemprop="name">
+            <!-- Use name from data file if available -->
+            {{ if $authorInfo.name }}
+              <span class="author-fullname">{{ $authorInfo.name }}</span>
+            {{ else }}
+              <span class="author-fullname">{{ .Page.Title | title }}</span>
+            {{ end }}
+          </div>
+          
+          <div class="author-info">
+            {{ if $authorInfo.bio }}
+              <p class="author-bio" itemprop="description">{{ $authorInfo.bio | truncate 100 }}</p>
+            {{ end }}
+            <span class="count">{{ .Count }} Article{{ if ne .Count 1 }}s{{ end }}</span>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</main>
+{{ end }}

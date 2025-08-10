@@ -1,0 +1,148 @@
+/* Single page specific styles */
+
+/* Post tag adjustments specific to single pages */
+.post-tags {
+  padding: 0px;
+  margin: 0px;
+}
+
+/* Improved sidebar organization for single pages */
+.sidebar-section {
+  margin-bottom: 15px;
+  border-bottom: none;
+}
+
+.post-author {
+  width: 100%;
+  margin-bottom: 5px;
+  float: right;
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Date styling specific to single pages */
+.post-date {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  display: block;
+  padding-bottom: 10px;
+  border-bottom: var(--border-thin-light);
+}
+
+/* Category-specific styling for single pages */
+
+/* Culture category - using var(--color-culture) */
+.culture-article .post-title {
+  color: var(--color-culture);
+}
+
+.culture-article .post-categories a {
+  background-color: var(--color-culture);
+}
+
+.interview-article .post-categories a {
+  background-color: var(--color-interview);
+}
+
+.interview-article .post-title:not(.interview-header-group .post-title) {
+  color: var(--color-interview);
+}
+
+/* Comments category styling */
+.comments-article .post-categories a {
+  background-color: var(--color-comments);
+}
+
+.comments-article .post-title {
+  color: var(--color-primary);
+  position: relative;
+}
+
+/* Comments quote mark styling for single posts */
+.comments-article .quote-mark {
+  /* Using shared component with large variant */
+  width: 50px;
+  height: 50px;
+  margin-right: 10px;
+  background-color: var(--color-comments);
+}
+
+
+.gallery-article .post-content img {
+  display: block;
+  margin-top: 6px;
+  width: calc(100% - 0px);
+}
+
+.gordian-badge {
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  border: var(--border-thin);
+  display: inline-block;
+  padding: var(--spacing-xs) var(--spacing-sm);
+}
+
+/* Fix for indented text blocks that get converted to pre/code */
+.post-content pre {
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word; /* Internet Explorer 5.5+ */
+  max-width: 100%;
+  overflow: auto;
+}
+
+.post-content pre code {
+  display: block;
+  font-family: var(--font-family-primary);
+  font-weight:400;
+  font-style: italic;
+  background-color: transparent;
+  line-height: 1.6;
+  padding-right: var(--margin-text)
+}
+
+/* Styles for the categories and tags section */
+.post-taxonomy-section {
+  border-top: var(--border-thin);
+  border-bottom: var(--border-thin);
+}
+
+.post-all-categories,
+.post-all-tags {
+  margin-bottom: 5px;
+}
+
+.taxonomy-heading {
+  font-size: var(--font-size-base);
+  margin-bottom: 0.75rem;
+  color: var(--color-text-subtitle);
+}
+
+.post-taxonomy-section .post-categories,
+.post-taxonomy-section .post-tags {
+  display: inline-block;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+  .post-taxonomy-section {
+    margin: 2rem 0;
+  }
+
+  .comments-article .quote-mark {
+    width: 35px;
+    height: 35px;
+    margin-right: 10px;
+    background-color: var(--color-comments);
+  }
+
+  .tag-container {
+    display: none;
+  }
+
+  .post-content pre code {
+  padding-right: 0;
+}
+}

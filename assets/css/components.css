@@ -1,0 +1,158 @@
+/* Component styles */
+
+/* Posts Line Component */
+.posts-line {
+  font-size: var(--font-size-lg);
+  margin: 12px 0;
+}
+
+/* Posts list container */
+#posts-list {
+  min-height: 0px;
+}
+
+.posts-categories {
+  font-size: var(--font-size-sm);
+  margin: auto;
+  text-align: center;
+  margin-bottom: 8px;
+}
+
+.posts-category {
+  padding: 3px 0;
+  border: var(--border-medium);
+  border-radius: var(--border-radius-sm);
+}
+
+/* Post metadata components */
+.post-tags {
+  display: inline;
+  font-weight: 600;
+  padding: 2px 5px;
+  margin-right: 6px;
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+
+.post-categories a {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  border: var(--border-thin);
+  display: inline-block;
+}
+
+.post-tags a {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  padding: var(--spacing-xs) var(--spacing-sm);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  border: var(--border-thin);
+  margin-right: 5px;
+  display: inline-block;
+}
+
+.site-footer-item {
+  margin-right: 12px;
+}
+
+/* Advertisement components */
+.post-ads {
+  margin: var(--margin-component) 0;
+}
+
+/* Related content component styling moved to related-articles.css */
+
+/* Gallery components */
+.gallery-img {
+  text-align: center;
+}
+
+.gallery-img span {
+  text-align: center;
+}
+
+.gallery-img-desc {
+  font-size: 0.8em;
+  font-weight: 800;
+  background: white;
+}
+
+/* Header Category/Tag Component */
+.header-taxonomy {
+  display: inline-block;
+}
+
+.post-categories.header-taxonomy a {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  padding: 3px 8px;
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: var(--border-medium);
+  box-shadow: var(--box-shadow);
+  position: relative;
+}
+
+.post-tags.header-taxonomy a {
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  padding: 3px 8px;
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border: var(--border-medium);
+  box-shadow: var(--box-shadow);
+  position: relative;
+}
+
+/* Post Ads Component */
+.post-ads {
+  margin: var(--spacing-lg) 0;
+}
+
+/* Author List Styling */
+.author-index {
+  margin: var(--spacing-lg) 0;
+}
+
+.author-list-summary {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.author-list-summary li {
+  margin-bottom: var(--spacing-sm);
+}
+
+.author-list-summary a {
+  display: inline-block;
+  padding: 0.3rem 0.8rem;
+  background-color: var(--color-background);
+  color: var(--color-primary);
+  text-decoration: none;
+  font-size: var(--font-size-sm);
+  font-weight: bold;
+  border: var(--border-medium);
+  box-shadow: var(--box-shadow);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.author-list-summary a:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0 var(--color-primary);
+}

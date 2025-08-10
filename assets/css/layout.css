@@ -1,0 +1,648 @@
+/* Layout and structure styles */
+
+/* Main Layout Structure - 20/80 Split */
+body {
+  width: 100%;
+}
+
+/* Page-level container to constrain width consistently */
+.site-container {
+  max-width: var(--site-max-width);
+  width: var(--site-content-width);
+  border-right: var(--border-thin-light);
+  border-left: var(--border-thin-light);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+article {
+  /* Use the same width constraints as the site container */
+  width: 100%;
+}
+
+.page-content {
+  min-height: 60%;
+}
+
+/* Main content wrapper */
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 100vh;
+}
+
+/* Post content layout */
+.post-content {
+  margin-bottom: 50px;
+}
+
+.post-content p {
+  hyphens: auto;
+  line-height: 1.8;
+  text-justify: ideographic;
+  margin-bottom: 1em;
+}
+
+.post-content img {
+  max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-top: 6px;
+}
+
+.post-content .post-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.post-content img {
+  margin-right: auto;
+  margin-top: auto;
+  width: calc(100% - 3px);
+}
+
+/* 20/80 Layout Structure - Main definitions */
+.category-section {
+  display: flex;
+  margin-bottom: 40px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.category-header {
+  flex: 0 0 var(--column-left-width);
+  padding-right: 10px;
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  max-width: var(--column-left-width);
+  padding-left: var(--padding-left-column-left);
+}
+
+.category-grid {
+  flex: 0 0 var(--column-right-width);
+  margin-bottom: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+/* Post specific layout */
+.post-section {
+  display: flex;
+  flex-direction: row; /* Row for desktop layout */
+  width: 100%;
+  position: relative; /* Create positioning context */
+}
+
+.post-sidebar {
+  flex: 0 0 var(--column-left-width);
+  padding-right: 10px;
+  /* border-right: var(--border-thin-light); */
+  word-wrap: break-word;
+  -webkit-hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
+  overflow-wrap: break-word;
+  max-width: var(--column-left-width);
+  padding-top: 5px;
+  position: relative; /* For positioning reference */
+}
+
+.post-content-container {
+  flex: 0 0 var(--column-right-width);
+}
+
+.sidebar-section h4 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* Article grid layout */
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  border-left: var(--border-thin-light);
+  grid-auto-flow: dense;
+}
+
+/* Make the first article card in each grid take up space of two cards */
+.article-grid .article-card:first-child,
+.article-grid .article-card:nth-child(4) {
+  grid-column: span 2;
+  grid-row: span 1;
+}
+
+/* Media queries for responsive layout */
+@media screen and (max-width: 768px) {
+  /* Make all sections stack vertically */
+  .category-section,
+  .post-section {
+    flex-direction: column !important; /* Force column layout on mobile */
+    display: block;
+  }
+
+  .category-header {
+    flex: 0 0 100;
+    padding: 0;
+    min-width: 100%;
+    margin-top: 15px;
+  }
+
+  /* Full width for content containers with proper spacing */
+  .category-grid,
+  .post-content-container {
+    flex: 0 0 100%;
+    min-width: 100% !important;
+    padding-left: 0;
+    padding-right: 0;
+    display: block;
+  }
+
+  /* Page-level container to constrain width consistently */
+  .site-container {
+    padding: 10px;
+    border: none;
+    padding-top: 0;
+  }
+
+  .post-description p {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-normal);
+  }
+
+  .comment-description {
+    font-size: var(--font-size-lg);
+    line-height: var(--line-height-normal);
+  }
+
+  .article-grid {
+    grid-template-columns: 1fr;
+    border: none !important;
+  }
+
+  /* Reset grid styles for mobile */
+  .article-grid .article-card:first-child,
+  .article-grid .article-card:nth-child(4) {
+    grid-column: 1;
+    grid-row: span 1;
+  }
+
+  /* Reset card display styles for mobile */
+  .article-grid .article-card:first-child .article-card-link,
+  .article-grid .article-card:nth-child(4) .article-card-link {
+    display: block;
+  }
+
+  .article-grid .article-card-link {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* Make images full width in mobile */
+  .article-grid .article-card:first-child .article-card-image,
+  .article-grid .article-card:first-child .article-card-placeholder,
+  .article-grid .article-card:nth-child(4) .article-card-image,
+  .article-grid .article-card:nth-child(4) .article-card-placeholder {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  /* Keep post-sidebar as a positioning context */
+  .post-sidebar {
+    position: relative;
+  }
+
+  /* Keep absolute positioning for sidebar items to ensure they appear in the left column */
+  .sidebar-item {
+    position: absolute;
+    left: 15px;
+    width: calc(
+      var(--column-left-width) - 30px
+    ); /* Reduced width for better fit */
+    padding-top: 5px;
+    box-sizing: border-box;
+  }
+
+  /* Organized positioning for each sidebar element */
+  .category-container {
+    top: 0px;
+  }
+  .tag-container {
+    top: 40px;
+  }
+  .gordian-badge-container {
+    top: 70px;
+  }
+  .reading-features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+
+  .author-container {
+    top: 140px; /* Adjusted position to account for reading features height */
+  }
+
+  .post-date-container {
+    top: 230px; /* Adjusted position to account for reading features height */
+  }
+
+  /* Special case for style-2 layout */
+  .article-style-2 .reading-features-container {
+    top: 300px;
+  }
+}
+
+/* Layout styles for the site */
+
+/* Footer layout */
+.site-footer {
+  margin-top: 50px;
+}
+
+.site-footer-item {
+  margin-right: 12px;
+}
+
+/* Footer styling */
+.site-footer {
+  margin-top: 40px;
+  padding: 20px 0;
+  border-top: 1px solid var(--light-border);
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer-container {
+  max-width: var(--site-max-width);
+  width: var(--site-content-width);
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 15px; /* Add some padding on smaller screens */
+  box-sizing: border-box; /* Ensure padding is included in width calculations */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.site-footer-item a {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.site-footer-item a:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+
+/* Container width control */
+.container {
+  max-width: var(--site-max-width);
+  width: var(--site-content-width);
+  margin: 0 auto;
+}
+
+.post-description {
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.post-featured-image {
+  margin-bottom: 2rem;
+  overflow: hidden;
+}
+
+.post-featured-image img {
+  width: 100%;
+  height: auto;
+}
+
+.post-content {
+  margin-bottom: 50px;
+}
+
+.post-content img {
+  max-width: 100%;
+  display: block;
+  margin-right: auto;
+  margin-top: 6px;
+}
+
+.post-meta {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 1.5rem;
+}
+
+.post-content .post-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.post-content .post-gallery img {
+  margin-right: auto;
+  margin-top: auto;
+  width: calc(50% - 3px);
+}
+
+/* Grid layout for cards - grid for listings, block for single page */
+.article-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+/* Single page content container - display as block not grid */
+.post-content-container {
+  display: block;
+  width: 80%;
+}
+
+/* Single page left column - display as block */
+.single-page .article-grid {
+  display: block;
+}
+
+/* Related content section */
+.related-content {
+  padding: 0 10px;
+  margin-bottom: 50px;
+  margin-top: 100px;
+}
+
+.related-content li {
+  margin: 5px 0;
+}
+
+/* Taxonomy layout */
+.taxonomy-header {
+  display: flex;
+  margin-bottom: 1rem;
+  gap: 8px;
+}
+
+.taxonomy-section {
+  margin: 2rem 0;
+  padding: 1rem;
+  border: 2px solid #000;
+  background-color: #f9f9f9;
+  position: relative;
+}
+
+/* Media queries for responsive layouts */
+@media screen and (max-width: 600px) {
+  .post-content .post-gallery img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 48em) {
+  .posts-category {
+    display: none;
+  }
+}
+
+/* Grid overrides */
+.row {
+  margin: 0;
+  width: 100%;
+}
+
+/* Flexbox container styles */
+.flex-container {
+  display: flex;
+  width: 100%;
+  gap: 2rem;
+}
+
+.flex-sidebar {
+  flex: 0 0 var(--column-left-width);
+  max-width: var(--column-left-width);
+}
+
+.flex-main {
+  flex: 0 0 var(--column-right-width);
+  max-width: var(--column-right-width);
+}
+
+@media screen and (max-width: 768px) {
+  .flex-container {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .flex-sidebar,
+  .flex-main {
+    flex: 0 0 100%;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+/* Mobile layout for sidebar items */
+@media screen and (max-width: 768px) {
+  /* Reset positioned items to normal flow */
+  .sidebar-item {
+    position: static;
+    width: 100%;
+    border-right: none;
+    padding-right: 0;
+    margin-bottom: 15px;
+  }
+
+  .reading-features-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    justify-content: center; /* centres items horizontally */
+  }
+}
+
+/* Newsletter Call-to-Action Section Styles */
+
+/* Newsletter section specific styling */
+.newsletter-section {
+  border-bottom: var(--border-thin-light);
+  padding-bottom: 30px;
+  margin-bottom: 40px;
+}
+
+.newsletter-content {
+  border-left: var(--border-thin-light);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+}
+
+.newsletter-card {
+  background: var(--color-bg-light);
+  border: var(--border-thin-light);
+  border-radius: 8px;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 30px;
+  align-items: start;
+}
+
+.newsletter-main h3 {
+  color: var(--color-heading);
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.newsletter-main p {
+  color: var(--color-text);
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.cta-buttons {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  padding: 12px 24px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 2px solid transparent;
+  display: inline-block;
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  border-color: var(--color-primary);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-link-hover);
+  border-color: var(--color-link-hover);
+  transform: translateY(-2px);
+}
+
+.btn-secondary {
+  background-color: transparent;
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-primary);
+  color: var(--color-background);
+  transform: translateY(-2px);
+}
+
+.newsletter-benefits h4 {
+  color: var(--color-heading);
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.newsletter-benefits ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.newsletter-benefits li {
+  color: var(--color-text);
+  padding: 8px 0;
+  position: relative;
+  padding-left: 20px;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.newsletter-benefits li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+  .newsletter-card {
+    background: var(--dark-color-bg-light);
+    border-color: #333;
+  }
+  
+  .newsletter-main h3,
+  .newsletter-benefits h4 {
+    color: var(--dark-color-heading);
+  }
+  
+  .newsletter-main p,
+  .newsletter-benefits li {
+    color: var(--dark-color-text);
+  }
+}
+
+/* Mobile responsive design */
+@media screen and (max-width: 768px) {
+  .newsletter-section {
+    flex-direction: column;
+    display: block;
+  }
+  
+  .newsletter-content {
+    border-left: none;
+    padding-left: var(--padding-left-column-left);
+    padding-right: 15px;
+  }
+  
+  .newsletter-card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .cta-buttons {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .newsletter-main h3 {
+    font-size: 1.3rem;
+  }
+}
+
+/* Tablet responsive */
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .newsletter-card {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  .cta-buttons {
+    justify-content: center;
+  }
+}

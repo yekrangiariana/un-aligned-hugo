@@ -1,0 +1,58 @@
+/* 
+ * Common CSS File
+ * Main import file for the UN-aligned website
+ * Last updated: May 11, 2025
+ */
+/**
+ * CSS Variables - must be first so they are available for all other files
+ */
+@import "variables.css";
+/**
+ * Third-party CSS - External dependencies
+ */
+@import "vendor/flexboxgrid-6.3.1.min.css";
+/**
+ * Core Styles
+ * Fundamental styling that establishes the base design
+ */
+@import "base.css";
+@import "typography.css";
+@import "layout.css";
+/**
+ * Category and Content Utilities
+ * Styling for categories and reading features
+ */
+@import "category-colors.css";
+@import "reading-features.css";
+/**
+ * UI Components
+ * Reusable interface components built on the core styles
+ */
+@import "reusable-components.css";
+@import "components.css";
+@import "header.css";
+@import "article-cards.css";
+@import "featured-article.css";
+@import "photo-blocks.css";
+/**
+ * Gordian Magazine
+ * All styling related to the Gordian magazine section
+ */
+@import "gordian.css";
+@import "gordian-magazine.css";
+@import "gordian-consolidated.css";
+@import "gordian-issue-images.css";
+@import "gordian-fixed.css";
+/**
+ * Feature-specific styles
+ * Isolated styling for specific features
+ */
+@import "text-size-adjuster.css";
+@import "pdf-download.css";
+@import "bookmarks.css";
+@import "dark-mode.css";
+/**
+ * Utilities
+ * Helper classes and overrides - must be last
+ */
+@import "utilities.css";

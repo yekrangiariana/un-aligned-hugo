@@ -1,0 +1,87 @@
+/* 
+ * Drop Cap Styling for Articles
+ * Creates elegant newspaper-style drop caps for article paragraphs
+ * Last updated: May 27, 2025
+ */
+
+/* Base drop cap styling for the first paragraph in post content - for both style 1 and 2 */
+.post-content > p:first-of-type::first-letter {
+  float: left;
+  font-family: "Bree Serif", Georgia, serif;
+  font-size: 5.5rem;
+  font-weight: 800;
+  line-height: 0.5;
+  padding: 0.1em 0.1em 0 0;
+  margin-right: 0.05em;
+  color: var(--color-primary); /* Default color if no specific category */
+}
+
+/* Add subtle decorative elements to enhance the drop cap */
+.post-content > p:first-of-type::after,
+.post-content > p:first-of-type::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* Category-specific drop cap styling - Light mode */
+/* Culture category */
+.culture-article .post-content > p:first-of-type::first-letter,
+.culture-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-culture);
+}
+
+/* Interview category - with increased specificity for both style 1 and style 2 */
+.interview-article .post-content > p:first-of-type::first-letter,
+.interview-article.article-style-1
+  .post-content
+  > p:first-of-type::first-letter,
+.interview-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter,
+.interview-article .post-content > p:first-of-type::first-letter,
+.interview-article.article-style-1
+  .post-content
+  > p:first-of-type::first-letter,
+.interview-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--color-interview) !important;
+}
+
+/* Comments category */
+.comments-article .post-content > p:first-of-type::first-letter,
+.comments-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-comments) !important;
+}
+
+/* Technology category */
+.technology-article .post-content > p:first-of-type::first-letter,
+.technology-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-technology);
+}
+
+/* Science category */
+.science-article .post-content > p:first-of-type::first-letter,
+.science-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-science);
+}
+
+/* Politics category */
+.politics-article .post-content > p:first-of-type::first-letter,
+.politics-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-politics);
+}
+
+/* Environment category */
+.environment-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter,
+.environment-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--color-environment);
+}
+.environment-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-environment);
+}

@@ -1,0 +1,29 @@
+{{ define "main" }}
+<!-- Main section with 20/80 layout -->
+<header class="category-section">
+  <!-- Left column (20%) for the title -->
+  <div class="category-header">
+    <h1 class="taxonomy-term">{{ .Title }}</h1>
+  </div>
+
+  <!-- Right column (80%) for content -->
+  <div class="category-grid">
+    {{ with .Content }}
+    <div class="section-content markdown-body">{{ . }}</div>
+    {{ end }}
+    
+    <nav aria-label="{{ .Title }} navigation" class="taxonomy-index">
+      <ul class="taxonomy-list" itemscope itemtype="https://schema.org/ItemList">
+        {{ range $index, $term := .Data.Terms.Alphabetical }}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <meta itemprop="position" content="{{ add $index 1 }}" />
+          <a href="{{ .Page.RelPermalink }}" itemprop="url">
+            <span itemprop="name">{{ .Page.Title }} ({{ .Count }})</span>
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    </nav>
+  </div>
+</header>
+{{ end }}
