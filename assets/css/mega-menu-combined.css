@@ -1,0 +1,143 @@
+/* Mega Menu Styles */
+
+/* Menu Button */
+#menu-popup-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  position: relative;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+#menu-popup-button .menu-icon {
+  display: block;
+  font-size: 1.5rem;
+}
+
+#menu-popup-button .close-icon {
+  display: none;
+  font-size: 1.3rem;
+}
+
+#menu-popup-button.active .menu-icon {
+  display: none;
+}
+
+#menu-popup-button.active .close-icon {
+  display: block;
+}
+
+/* Mega Menu Container */
+.mega-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 300px;
+  background-color: var(--color-background);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  padding: 20px;
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(-10px);
+  transition: all 0.3s ease;
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.mega-menu.active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}
+
+.mega-menu-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mega-menu-section h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 1.2rem;
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: 5px;
+}
+
+.mega-menu-links {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.mega-menu-link {
+  color: var(--color-text);
+  text-decoration: none;
+  padding: 5px 0;
+  transition: color 0.3s ease;
+}
+
+.mega-menu-link:hover {
+  color: var(--color-primary);
+}
+
+/* Dark mode adjustments */
+.dark-mode .mega-menu {
+  background-color: var(--color-background-dark);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .mega-menu-section h3 {
+  border-bottom-color: var(--color-border-dark);
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .mega-menu {
+    position: fixed;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 80vh;
+    transform: translateY(100%);
+    border-radius: 15px 15px 0 0;
+    z-index: 2000;
+  }
+
+  .mega-menu.active {
+    transform: translateY(0);
+  }
+
+  .mega-menu-content {
+    padding-top: 20px;
+    max-height: 75vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Additional mobile styling */
+  .mega-menu-section {
+    margin-bottom: 20px;
+  }
+
+  .mega-menu-links {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mega-menu-link {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 1.1rem;
+  }
+}
