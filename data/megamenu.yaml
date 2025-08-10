@@ -25,7 +25,8 @@ sections:
       - name: Become a Member
         url: register
       - name: Donate
-        url: 
+        url: https://donorbox.org/support-the-publication-of-the-gordian-magazine
+        external: true
       - name: Authors
         url: authors
       - name: All Categories
