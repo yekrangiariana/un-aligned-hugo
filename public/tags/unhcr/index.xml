@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unhcr on UN-aligned</title>
-    <link>http://localhost:1313/tags/unhcr/</link>
+    <link>//localhost:1313/tags/unhcr/</link>
     <description>Recent content in Unhcr on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Wed, 18 Jan 2023 09:30:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/unhcr/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/unhcr/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bye bye United Nations: A Jolly Good Move!</title>
-      <link>http://localhost:1313/news/__trashed/</link>
+      <link>//localhost:1313/news/__trashed/</link>
       <pubDate>Wed, 18 Jan 2023 09:30:00 +0200</pubDate>
-      <guid>http://localhost:1313/news/__trashed/</guid>
+      <guid>//localhost:1313/news/__trashed/</guid>
       <description>&lt;p&gt;American award-winning actress, film director, producer, and humanitarian, Angelina Jolie, has decided to quit her role as a Special Envoy to the United Nations refugee agency, the UNHCR, citing a desire to “work differently”. &lt;/p&gt;&#xA;&lt;p&gt;Ms. Jolie has worked with the UNHCR since 2001, and has been a Special Envoy for the organisation since 2012. Her role involved building awareness and support for refugees and highlighting the need for urgent action to be taken in order to tackle issues relating to the serious events that force people to flee their homes, such as conflict and climate change.&lt;/p&gt;</description>
     </item>
     <item>
       <title>“Pay no heed to the hippie”: Filippo Grandi, UNHCR chief, ignored once again</title>
-      <link>http://localhost:1313/news/pay-no-heed-to-the-hippie-filippo-grandi-unhcr-chief-ignored-once-again/</link>
+      <link>//localhost:1313/news/pay-no-heed-to-the-hippie-filippo-grandi-unhcr-chief-ignored-once-again/</link>
       <pubDate>Sun, 27 Jun 2021 11:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/news/pay-no-heed-to-the-hippie-filippo-grandi-unhcr-chief-ignored-once-again/</guid>
+      <guid>//localhost:1313/news/pay-no-heed-to-the-hippie-filippo-grandi-unhcr-chief-ignored-once-again/</guid>
       <description>&lt;p&gt;The globally displaced rose from 79.5 million in 2019 to 82.4 million by the end of 2020, a near 3 million increase. This is as the G7 decides to take no action whatsoever. &lt;/p&gt;&#xA;&lt;p&gt;The UNHCR says that the number of refugees around the world has hit &lt;a href=&#34;https://www.unhcr.org/refugee-statistics/&#34;&gt;a new high&lt;/a&gt;, this is in spite of the pandemic, a time in which over 160 countries closed their borders. More than a third of those who fled abroad came from just five countries: Syria (6.7 million); Venezuela (4 million); Afghanistan (2.6 million); South Sudan (2.2 million); Myanmar (1.1 million). Many more are expected to have been displaced within Africa due to conflicts in Mozambique, Ethiopia and the Central Sahel region. &lt;/p&gt;</description>
     </item>
   </channel>

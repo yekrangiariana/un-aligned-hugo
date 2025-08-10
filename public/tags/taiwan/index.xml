@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taiwan on UN-aligned</title>
-    <link>http://localhost:1313/tags/taiwan/</link>
+    <link>//localhost:1313/tags/taiwan/</link>
     <description>Recent content in Taiwan on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Sat, 08 Jun 2019 16:15:02 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/taiwan/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/taiwan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Taiwan gives the world a lesson in democracy</title>
-      <link>http://localhost:1313/global-issues/taiwan-gives-the-world-a-lesson-in-democracy/</link>
+      <link>//localhost:1313/global-issues/taiwan-gives-the-world-a-lesson-in-democracy/</link>
       <pubDate>Sat, 08 Jun 2019 16:15:02 +0300</pubDate>
-      <guid>http://localhost:1313/global-issues/taiwan-gives-the-world-a-lesson-in-democracy/</guid>
+      <guid>//localhost:1313/global-issues/taiwan-gives-the-world-a-lesson-in-democracy/</guid>
       <description>&lt;h2 id=&#34;learning-a-thing-or-two-from-taiwan&#34;&gt;&lt;strong&gt;Learning a thing or two from Taiwan…&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Taiwan gave the world a lesson in real democracy last month when same-sex marriage was legalised in the “country“. In a referendum last November, 72% of the population had voted against allowing same-sex marriage.&lt;/p&gt;&#xA;&lt;p&gt;Two years earlier, however, Taiwan’s supreme court had ruled that limiting the definition of marriage to couples of the opposite sex was unconstitutional. Legislators therefore backed the Government Bill, putting justice before numbers. This is real democracy.&lt;/p&gt;</description>
     </item>
   </channel>

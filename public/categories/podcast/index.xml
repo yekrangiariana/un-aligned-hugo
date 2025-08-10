@@ -2,59 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcast on UN-aligned</title>
-    <link>http://localhost:1313/categories/podcast/</link>
+    <link>//localhost:1313/categories/podcast/</link>
     <description>Recent content in Podcast on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Sun, 06 Feb 2022 10:37:26 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/podcast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kazakhstan calls on Russia to help quell its unrest, Rock star Meat Loaf dies and Prince Andrew gets stripped (out of his royal patronage)</title>
-      <link>http://localhost:1313/news/monthly-recap-feb-2022/</link>
+      <link>//localhost:1313/news/monthly-recap-feb-2022/</link>
       <pubDate>Sun, 06 Feb 2022 10:37:26 +0200</pubDate>
-      <guid>http://localhost:1313/news/monthly-recap-feb-2022/</guid>
+      <guid>//localhost:1313/news/monthly-recap-feb-2022/</guid>
       <description>&lt;p&gt;In this episode of the Gordian Monthly Recap Ruby Goldenberg, joins us from inside her messy closet, and Ariana Yekrangi from the freezing cold weather in Helsinki. If that isn’t commitment to this show, what is? Join them in catching up with everything that happened in January 2022.&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://www.un-aligned.org/register&#34;&gt;Become an UN-alignder&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.patreon.com/thegordian&#34;&gt;Please our non-profit’s mission&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;iframe src=&#34;https://anchor.fm/thegordian/embed/episodes/Honduras-elects-its-first-female-president--Kazakhstan-calls-on-Russia-to-help-quell-the-unrest-and-Boris-Johnson-continues-to-make-a-fool-of-himself-e1dv7kh&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>French and UK authorities are being sued, Merkel retires and Honduras gets its first female leader</title>
-      <link>http://localhost:1313/podcast/french-and-uk-authorities-are-being-sued-merkel-retires-and-honduras-gets-its-first-female-leader/</link>
+      <link>//localhost:1313/podcast/french-and-uk-authorities-are-being-sued-merkel-retires-and-honduras-gets-its-first-female-leader/</link>
       <pubDate>Wed, 05 Jan 2022 08:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/podcast/french-and-uk-authorities-are-being-sued-merkel-retires-and-honduras-gets-its-first-female-leader/</guid>
+      <guid>//localhost:1313/podcast/french-and-uk-authorities-are-being-sued-merkel-retires-and-honduras-gets-its-first-female-leader/</guid>
       <description>&lt;iframe src=&#34;https://anchor.fm/thegordian/embed/episodes/French-and-UK-authorities-are-being-sued--Merkel-retires-and-Honduras-gets-its-first-female-leader--Monthly-Recap-e1ceajd&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Here&#39;s everything you may have missed in November — The Gordian Monthly Recap</title>
-      <link>http://localhost:1313/news/heres-everything-you-may-have-missed-in-november-the-gordian-monthly-recap/</link>
+      <link>//localhost:1313/news/heres-everything-you-may-have-missed-in-november-the-gordian-monthly-recap/</link>
       <pubDate>Mon, 13 Dec 2021 09:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/news/heres-everything-you-may-have-missed-in-november-the-gordian-monthly-recap/</guid>
+      <guid>//localhost:1313/news/heres-everything-you-may-have-missed-in-november-the-gordian-monthly-recap/</guid>
       <description>&lt;iframe src=&#34;https://anchor.fm/thegordian/embed/episodes/The-Gordian-Monthly-Recap-Everything-you-may-have-missed-in-November-e1bk6ej&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>Here&#39;s everything you may have missed in October — The Gordian Monthly Recap</title>
-      <link>http://localhost:1313/news/october-the-gordian-monthly-recap/</link>
+      <link>//localhost:1313/news/october-the-gordian-monthly-recap/</link>
       <pubDate>Sun, 07 Nov 2021 12:28:16 +0200</pubDate>
-      <guid>http://localhost:1313/news/october-the-gordian-monthly-recap/</guid>
+      <guid>//localhost:1313/news/october-the-gordian-monthly-recap/</guid>
       <description>&lt;iframe src=&#34;https://anchor.fm/thegordian/embed/episodes/Heres-everything-you-may-have-missed-last-month-e19nade&#34; height=&#34;102px&#34; width=&#34;400px&#34; frameborder=&#34;0&#34; scrolling=&#34;no&#34;&gt;&lt;/iframe&gt;</description>
     </item>
     <item>
       <title>What does Antonio Guterres&#39; re-selection mean for the United Nations? — Podcast</title>
-      <link>http://localhost:1313/podcast/what-does-antonio-guterres-re-selection-mean-for-the-united-nations/</link>
+      <link>//localhost:1313/podcast/what-does-antonio-guterres-re-selection-mean-for-the-united-nations/</link>
       <pubDate>Thu, 15 Jul 2021 11:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/podcast/what-does-antonio-guterres-re-selection-mean-for-the-united-nations/</guid>
+      <guid>//localhost:1313/podcast/what-does-antonio-guterres-re-selection-mean-for-the-united-nations/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;&lt;a href=&#34;https://un-aligned.org/un-aligned-news/the-un-aligned-writing-course/&#34;&gt;Sign up to UN-aligned&amp;rsquo;s free writing course&lt;/a&gt;&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Plunging into the ocean of UN communiques is like drowning in an alphabet soup. Often, the words are noble, the causes honourable. Occasionally they even make a difference&amp;hellip; and yet the members of this mighty club behave like undisciplined children who delight in doing just as they please.&lt;/p&gt;&#xA;&lt;p&gt;In this month&amp;rsquo;s episode of the Gordian in Audio we&amp;rsquo;ll tell you about António Guterres&amp;rsquo; ambitions and limitations.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Are the ICJ and the ICC our answers to international justice? - Podcast</title>
-      <link>http://localhost:1313/global-issues/are-the-icj-and-the-icc-our-answers-to-international-justice-podcast/</link>
+      <link>//localhost:1313/global-issues/are-the-icj-and-the-icc-our-answers-to-international-justice-podcast/</link>
       <pubDate>Tue, 11 May 2021 11:00:00 +0300</pubDate>
-      <guid>http://localhost:1313/global-issues/are-the-icj-and-the-icc-our-answers-to-international-justice-podcast/</guid>
+      <guid>//localhost:1313/global-issues/are-the-icj-and-the-icc-our-answers-to-international-justice-podcast/</guid>
       <description>&lt;p&gt;Justice is not a relative term, but for much of our history we have manipulated it to such an extent that we have created a parallel sort of justice. More often than not, human justice is just a sinister doppelgänger of justice in its purest form. This is because human justice depends on laws, and as we all know, laws are biased.&lt;/p&gt;&#xA;&lt;p&gt;The justice of the Inquisition, a sharia court or the sham courts of dictatorial regimes are based on very different laws and therefore profess their own unique brands of justice. The one main thing that they do have in common, though, is that they are self-serving.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Seven Ways to Create a Healthy Economy with Kate Raworth - Podcast</title>
-      <link>http://localhost:1313/economy/seven-ways-to-create-a-healthy-economy-podcast/</link>
+      <link>//localhost:1313/economy/seven-ways-to-create-a-healthy-economy-podcast/</link>
       <pubDate>Sat, 10 Apr 2021 10:36:17 +0300</pubDate>
-      <guid>http://localhost:1313/economy/seven-ways-to-create-a-healthy-economy-podcast/</guid>
+      <guid>//localhost:1313/economy/seven-ways-to-create-a-healthy-economy-podcast/</guid>
       <description>&lt;p&gt;Kate Raworth first introduced her visual representation of what a healthy economy could look like in a 2012 OXFAM discussion paper titled: &amp;ldquo;A safe and just space for humanity: can we live within the doughnut?&amp;rdquo; The doughnut represented the safe space where humanity could thrive sandwiched between its inner and outer limits, namely our social and planetary boundaries.&lt;/p&gt;&#xA;&lt;p&gt;Raworth’s 2017 book develops the idea further. The seven “ways” she explores are simple, well researched, grounded and achievable. Click &lt;a href=&#34;https://un-aligned.org/climate-emergency/the-doughnut-economy/&#34;&gt;here&lt;/a&gt; to read this piece.&lt;/p&gt;</description>
     </item>
   </channel>

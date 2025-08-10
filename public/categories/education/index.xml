@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Education on UN-aligned</title>
-    <link>http://localhost:1313/categories/education/</link>
+    <link>//localhost:1313/categories/education/</link>
     <description>Recent content in Education on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Fri, 17 Nov 2023 10:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/education/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/education/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>‘No Girl Left Behind’: How Taliban&#39;s Ban on Girls&#39; Education Imperils Afghanistan&#39;s Future</title>
-      <link>http://localhost:1313/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</link>
+      <link>//localhost:1313/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</link>
       <pubDate>Fri, 17 Nov 2023 10:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</guid>
+      <guid>//localhost:1313/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</guid>
       <description>&lt;h2 id=&#34;the-historical-context-afghanistans-education-system&#34;&gt;&lt;strong&gt;The historical context: Afghanistan&amp;rsquo;s education system&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Afghanistan is currently the only country in the world where girls are forbidden to go to school. The decision to stop women being able to access school and university by the Taliban in August 2021, has consequently denied millions of girls their fundamental right to education.&lt;/p&gt;&#xA;&lt;p&gt;Afghanistan has a complex and turbulent history and this has had undeniable consequences on its education system. The department of education was established in Afghanistan in 1913, with the goal of a national education system.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Education of Syrian Refugees During the Coronavirus Pandemic</title>
-      <link>http://localhost:1313/education/education-of-syrian-refugees-during-the-corona-pandemic/</link>
+      <link>//localhost:1313/education/education-of-syrian-refugees-during-the-corona-pandemic/</link>
       <pubDate>Sat, 16 Apr 2022 09:59:29 +0300</pubDate>
-      <guid>http://localhost:1313/education/education-of-syrian-refugees-during-the-corona-pandemic/</guid>
+      <guid>//localhost:1313/education/education-of-syrian-refugees-during-the-corona-pandemic/</guid>
       <description>&lt;p&gt;Prior to the epidemic, the refugee child was twice as likely to leave school as a non-refugee child. In Lebanon, poverty-related changes have been driven largely by inflation and poverty has increased by about 33 percentage points among the Lebanese population; the increase among Syrian refugees here, however, has increased by 55 percent. &lt;/p&gt;&#xA;&lt;p&gt;Children have not been able to continue their studies because of closures, but they are also constrained by a lack of educational opportunities at home and the digital divide.  &lt;/p&gt;</description>
     </item>
     <item>
       <title>Education’s Paradigm Shift: “Another Brick in the Wall!”</title>
-      <link>http://localhost:1313/education/educations-paradigm-shift/</link>
+      <link>//localhost:1313/education/educations-paradigm-shift/</link>
       <pubDate>Mon, 11 Apr 2022 12:05:02 +0300</pubDate>
-      <guid>http://localhost:1313/education/educations-paradigm-shift/</guid>
+      <guid>//localhost:1313/education/educations-paradigm-shift/</guid>
       <description>&lt;p&gt;As a child, one gets fed a lot of crap from one’s elders. Fortunately, not all of it is swallowed. “You’ll see! As you grow older, you’ll look back at your school days and you’ll remember them as the best days of your life!” Whether the many grownups who preached this believed it or not (it may have been true for some of them), I wonder how they could have possibly thought that these words could have been considered reassuring in any way. It is like telling a prisoner in a torture chamber: “You think this is bad, wait until they put you on the rack!”&lt;/p&gt;</description>
     </item>
   </channel>

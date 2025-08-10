@@ -43,34 +43,40 @@
       }
     }
 
-    // This function is called by the onclick attribute in the header
-    window.toggleDarkMode = function () {
-      console.log("toggleDarkMode called");
+    // Make sure toggleDarkMode is available globally, regardless of when it's called
+  }
+})();
 
-      // Toggle the class on both body and documentElement for consistency
-      document.body.classList.toggle("dark-mode");
-      document.documentElement.classList.toggle("dark-mode");
+/**
+ * Toggle dark mode - called by the onclick attribute in the header
+ * Defined globally to ensure it's always available
+ */
+function toggleDarkMode() {
+  console.log("toggleDarkMode called");
 
-      // Save the preference
-      const isDarkMode = document.body.classList.contains("dark-mode");
-      const isGalleryPage = document.body.classList.contains("gallery-body");
+  // Toggle the class on both body and documentElement for consistency
+  document.body.classList.toggle("dark-mode");
+  document.documentElement.classList.toggle("dark-mode");
 
-      if (isGalleryPage) {
-        // For gallery pages (which are dark by default)
-        localStorage.setItem("darkMode", isDarkMode ? "disabled" : "enabled");
-      } else {
-        // For regular pages
-        localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
-      }
+  // Save the preference
+  const isDarkMode = document.body.classList.contains("dark-mode");
+  const isGalleryPage = document.body.classList.contains("gallery-body");
 
-      console.log(
-        "Dark mode preference saved:",
-        localStorage.getItem("darkMode")
-      );
+  if (isGalleryPage) {
+    // For gallery pages (which are dark by default)
+    localStorage.setItem("darkMode", isDarkMode ? "disabled" : "enabled");
+  } else {
+    // For regular pages
+    localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
+  }
 
-      // Update icon state
-      updateDarkModeIconState();
-    };
+  console.log(
+    "Dark mode preference saved:",
+    localStorage.getItem("darkMode")
+  );
+
+  // Update icon state
+  updateDarkModeIconState();
   }
 
   function applyDarkModePreference() {

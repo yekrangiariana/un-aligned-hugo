@@ -182,8 +182,8 @@
     {{ end }}
   {{ end }}
 
-  <!-- Immediate dark mode initialization -->
-  <script src="{{ .Site.Params.staticPrefix }}/js/dark-mode.js"></script>
+  <!-- Dark Mode functionality - moved to head to avoid flash and ensure toggle function is available -->
+  <script src="{{ "js/simple-dark-mode.js" | absURL }}" type="text/javascript"></script>
 
   <!-- RSS feed -->
   <link href="{{ .Site.Params.staticPrefix }}{{ "index.xml" | relURL }}"

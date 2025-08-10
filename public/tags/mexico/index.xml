@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mexico on UN-aligned</title>
-    <link>http://localhost:1313/tags/mexico/</link>
+    <link>//localhost:1313/tags/mexico/</link>
     <description>Recent content in Mexico on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Mon, 12 Sep 2022 10:30:00 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/mexico/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/mexico/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is Mexico suing the United Nations?</title>
-      <link>http://localhost:1313/news/is-mexico-suing-the-united-nations/</link>
+      <link>//localhost:1313/news/is-mexico-suing-the-united-nations/</link>
       <pubDate>Mon, 12 Sep 2022 10:30:00 +0300</pubDate>
-      <guid>http://localhost:1313/news/is-mexico-suing-the-united-nations/</guid>
+      <guid>//localhost:1313/news/is-mexico-suing-the-united-nations/</guid>
       <description>&lt;p&gt;Mexico has finally lost its patience with the United Nations and on August 22, President Andres Manuel Lopez Obrador announced that he would be filing a formal complaint with the organisation regarding its failure to honour its commitment to supply the country with 10 million COVID-19 vaccines.&lt;/p&gt;&#xA;&lt;p&gt;The frustration only increased as the week went on, even as the World Health Organisation offered to ship over some of the owed vaccines.&lt;/p&gt;</description>
     </item>
   </channel>

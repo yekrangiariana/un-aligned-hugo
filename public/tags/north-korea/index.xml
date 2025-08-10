@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>North Korea on UN-aligned</title>
-    <link>http://localhost:1313/tags/north-korea/</link>
+    <link>//localhost:1313/tags/north-korea/</link>
     <description>Recent content in North Korea on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Thu, 10 Sep 2020 10:55:48 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/north-korea/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/north-korea/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>North Korea: A convenient pawn</title>
-      <link>http://localhost:1313/global-issues/north-korea-a-convenient-pawn/</link>
+      <link>//localhost:1313/global-issues/north-korea-a-convenient-pawn/</link>
       <pubDate>Thu, 10 Sep 2020 10:55:48 +0300</pubDate>
-      <guid>http://localhost:1313/global-issues/north-korea-a-convenient-pawn/</guid>
+      <guid>//localhost:1313/global-issues/north-korea-a-convenient-pawn/</guid>
       <description>&lt;p&gt;North Korea is usually in the headlines for reasons ranging from the terrifying to the bizarre. This month, their leader Kim Jong-Un is once again subject to rumours that he is dead. This is the second time since April that the speculation has emerged and been dismissed by North Korea. &lt;/p&gt;&#xA;&lt;p&gt;Much time can be spent considering what would have to occur in order for the regime to collapse. Some speculate that the death of Kim Jong-Un could have a snowball effect on North Korea as we know it.&lt;/p&gt;</description>
     </item>
   </channel>

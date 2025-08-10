@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nobel Prize on UN-aligned</title>
-    <link>http://localhost:1313/tags/nobel-prize/</link>
+    <link>//localhost:1313/tags/nobel-prize/</link>
     <description>Recent content in Nobel Prize on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Mon, 12 Dec 2022 09:00:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/nobel-prize/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/nobel-prize/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who are the 2022 Nobel Prize Winners?</title>
-      <link>http://localhost:1313/global-issues/who-are-the-2022-nobel-prize-winners/</link>
+      <link>//localhost:1313/global-issues/who-are-the-2022-nobel-prize-winners/</link>
       <pubDate>Mon, 12 Dec 2022 09:00:00 +0200</pubDate>
-      <guid>http://localhost:1313/global-issues/who-are-the-2022-nobel-prize-winners/</guid>
+      <guid>//localhost:1313/global-issues/who-are-the-2022-nobel-prize-winners/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;mailto:elviraineza5@gmail.com&#34;&gt;&lt;/a&gt;The Nobel Prize is a prestigious international award that recognizes individuals who have made significant contributions to various fields, including physics, chemistry, physiology or medicine, literature, peace, and economics.&lt;/p&gt;&#xA;&lt;p&gt;Established by Swedish inventor Alfred Nobel in 1895, the award is presented annually to individuals who have demonstrated exceptional achievements in their respective fields. The Nobel Prize is considered one of the highest honours that can be awarded, and recipients are often recognized as leaders in their fields.&lt;/p&gt;</description>
     </item>
   </channel>

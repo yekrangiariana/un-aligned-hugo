@@ -1,145 +1,93 @@
 /**
- * Enhanced Dark Mode Toggle for UN-aligned website
- * Updated May 11, 2025
+ * Simple Dark Mode Toggle - The One File To Rule Them All
+ * Created to fix the missing toggleDarkMode() function
+ * Handles everything in one place to avoid conflicts
  */
 
-// Execute immediately
+// Apply dark mode immediately (before page rendering) to avoid flashing
 (function () {
-  // Wait for DOM to be ready
-  if (document.readyState === "loading") {
-    document.addEventListener("DOMContentLoaded", init);
-  } else {
-    init();
-  }
-
-  function init() {
-    console.log("Simple dark mode initialized");
-
-    // Apply preference before page rendering to avoid flickering
-    applyDarkModePreference();
-
-    // Listen for system preference changes
-    if (window.matchMedia) {
-      const darkModeMediaQuery = window.matchMedia(
-        "(prefers-color-scheme: dark)"
-      );
-
-      if (darkModeMediaQuery.addEventListener) {
-        darkModeMediaQuery.addEventListener("change", function (e) {
-          // Only change if user hasn't set a preference
-          if (localStorage.getItem("darkMode") === null) {
-            if (e.matches) {
-              document.body.classList.add("dark-mode");
-              document.documentElement.classList.add("dark-mode");
-              localStorage.setItem("darkMode", "enabled");
-            } else {
-              document.body.classList.remove("dark-mode");
-              document.documentElement.classList.remove("dark-mode");
-              localStorage.setItem("darkMode", "disabled");
-            }
-            updateDarkModeIconState();
-          }
-        });
-      }
-    }
-
-    // This function is called by the onclick attribute in the header
-    window.toggleDarkMode = function () {
-      console.log("toggleDarkMode called");
-
-      // Toggle the class on both body and documentElement for consistency
-      document.body.classList.toggle("dark-mode");
-      document.documentElement.classList.toggle("dark-mode");
-
-      // Save the preference
-      const isDarkMode = document.body.classList.contains("dark-mode");
-      const isGalleryPage = document.body.classList.contains("gallery-body");
-
-      if (isGalleryPage) {
-        // For gallery pages (which are dark by default)
-        localStorage.setItem("darkMode", isDarkMode ? "disabled" : "enabled");
-      } else {
-        // For regular pages
-        localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
-      }
-
-      console.log(
-        "Dark mode preference saved:",
-        localStorage.getItem("darkMode")
-      );
-
-      // Update icon state
-      updateDarkModeIconState();
-    };
-  }
-
-  function applyDarkModePreference() {
-    const preference = localStorage.getItem("darkMode");
-    const isGalleryPage = document.body.classList.contains("gallery-body");
-    const systemPrefersDark =
-      window.matchMedia &&
-      window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-    let shouldApplyDarkMode;
-
-    if (preference === null) {
-      // No saved preference, use system preference
-      shouldApplyDarkMode = systemPrefersDark;
-
-      // Save the system preference
-      localStorage.setItem(
-        "darkMode",
-        shouldApplyDarkMode ? "enabled" : "disabled"
-      );
-      console.log(
-        "No preference found, using system preference:",
-        shouldApplyDarkMode ? "dark" : "light"
-      );
-    } else if (isGalleryPage) {
-      // For gallery pages (dark by default)
-      shouldApplyDarkMode = preference === "disabled";
-    } else {
-      // For regular pages (light by default)
-      shouldApplyDarkMode = preference === "enabled";
-    }
-
-    console.log("Applying dark mode:", shouldApplyDarkMode);
-
-    if (shouldApplyDarkMode) {
-      document.body.classList.add("dark-mode");
+  // Check system preference for dark mode
+  const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+  
+  // Use a single localStorage key to avoid conflicts
+  if (localStorage.getItem("darkMode") === null) {
+    // Default to system preference on first visit
+    if (prefersDarkMode) {
+      localStorage.setItem("darkMode", "enabled");
       document.documentElement.classList.add("dark-mode");
     } else {
-      document.body.classList.remove("dark-mode");
-      document.documentElement.classList.remove("dark-mode");
+      localStorage.setItem("darkMode", "disabled");
     }
-
-    // Update icon state after DOM is ready
-    if (document.readyState === "complete") {
-      updateDarkModeIconState();
-    } else {
-      window.addEventListener("load", updateDarkModeIconState);
-    }
-  }
-
-  // Helper function to update icon state
-  function updateDarkModeIconState() {
-    try {
-      const isDarkMode = document.body.classList.contains("dark-mode");
-      const darkIcons = document.querySelectorAll(".dark-icon");
-      const lightIcons = document.querySelectorAll(".light-icon");
-
-      console.log("Updating icons - isDarkMode:", isDarkMode);
-
-      // Update all instances of dark/light icons if there are multiple toggles
-      darkIcons.forEach((icon) => {
-        icon.style.display = isDarkMode ? "none" : "inline-block";
-      });
-
-      lightIcons.forEach((icon) => {
-        icon.style.display = isDarkMode ? "inline-block" : "none";
-      });
-    } catch (e) {
-      console.error("Error updating icon state:", e);
-    }
+  } else if (localStorage.getItem("darkMode") === "enabled") {
+    // Apply saved preference
+    document.documentElement.classList.add("dark-mode");
   }
 })();
+
+// The main toggle function that the header button calls
+function toggleDarkMode() {
+  console.log("toggleDarkMode called");
+  
+  // Toggle dark mode class on both body and documentElement
+  document.body.classList.toggle("dark-mode");
+  document.documentElement.classList.toggle("dark-mode");
+  
+  // Save the preference
+  const isDarkMode = document.body.classList.contains("dark-mode");
+  localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
+  
+  // Update toggle button icons
+  updateDarkModeIcons();
+}
+
+// Function to update the icon state
+function updateDarkModeIcons() {
+  try {
+    const isDarkMode = document.body.classList.contains("dark-mode");
+    const darkIcons = document.querySelectorAll(".dark-icon");
+    const lightIcons = document.querySelectorAll(".light-icon");
+
+    darkIcons.forEach((icon) => {
+      icon.style.display = isDarkMode ? "none" : "inline-block";
+    });
+
+    lightIcons.forEach((icon) => {
+      icon.style.display = isDarkMode ? "inline-block" : "none";
+    });
+  } catch (e) {
+    console.error("Error updating toggle button state:", e);
+  }
+}
+
+// When DOM is ready, apply dark mode to body and update icons
+document.addEventListener("DOMContentLoaded", function () {
+  // Apply dark mode to body if it should be enabled
+  if (localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+  }
+  
+  // Update toggle button icons
+  updateDarkModeIcons();
+  
+  // Listen for system preference changes
+  if (window.matchMedia) {
+    const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    if (darkModeMediaQuery.addEventListener) {
+      darkModeMediaQuery.addEventListener("change", function (e) {
+        // Only change if user hasn't set a preference manually
+        if (localStorage.getItem("darkMode") === null) {
+          if (e.matches) {
+            document.body.classList.add("dark-mode");
+            document.documentElement.classList.add("dark-mode");
+            localStorage.setItem("darkMode", "enabled");
+          } else {
+            document.body.classList.remove("dark-mode");
+            document.documentElement.classList.remove("dark-mode");
+            localStorage.setItem("darkMode", "disabled");
+          }
+          updateDarkModeIcons();
+        }
+      });
+    }
+  }
+});

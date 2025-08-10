@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Australia on UN-aligned</title>
-    <link>http://localhost:1313/tags/australia/</link>
+    <link>//localhost:1313/tags/australia/</link>
     <description>Recent content in Australia on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Sat, 23 Jul 2022 12:00:24 +0300</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/australia/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/tags/australia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Australia Needs to Legalise Drugs</title>
-      <link>http://localhost:1313/global-issues/australia-needs-to-legalise-drugs/</link>
+      <link>//localhost:1313/global-issues/australia-needs-to-legalise-drugs/</link>
       <pubDate>Sat, 23 Jul 2022 12:00:24 +0300</pubDate>
-      <guid>http://localhost:1313/global-issues/australia-needs-to-legalise-drugs/</guid>
+      <guid>//localhost:1313/global-issues/australia-needs-to-legalise-drugs/</guid>
       <description>&lt;p&gt;Many drugs taken for pleasure in Australia are illegal. Examples include cannabis (cannabis can be grown and consumed legally, but not sold, in the Australian Capital Territory), heroin, ice (crystal meth) and many others. Some drugs taken for pleasure are legal, such as nicotine, with tobacco smoked by 2.5 million Australians, and alcohol, drunk at least once per week by 8 million. In addition, about 800 prescription drugs are subsidised under the pharmaceutical benefits scheme. Prescription drugs are reported to be misused by around &lt;a href=&#34;https://www.theguardian.com/australia-news/2017/dec/19/prescription-drugs-misused-by-one-million-australians-in-year-report-shows&#34;&gt;1 million Australians&lt;/a&gt;. Cannabis can be taken legally for medicinal purposes in all Australian states by people with certain limited classes of health problems. The obvious question is – why are some drugs legal and others illegal?&lt;/p&gt;</description>
     </item>
   </channel>

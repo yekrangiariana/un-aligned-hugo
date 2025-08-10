@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Investigation on UN-aligned</title>
-    <link>http://localhost:1313/categories/investigation/</link>
+    <link>//localhost:1313/categories/investigation/</link>
     <description>Recent content in Investigation on UN-aligned</description>
     <generator>Hugo</generator>
-    <language>en-us</language>
+    <language>en-uk</language>
     <lastBuildDate>Sun, 11 Dec 2022 07:20:00 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/investigation/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/categories/investigation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revealed: Leaked file uncovers how the Iranian Revolutionary Guards plan to quell protests</title>
-      <link>http://localhost:1313/human-rights/iranian-irgc-secret-meeting-leaked/</link>
+      <link>//localhost:1313/human-rights/iranian-irgc-secret-meeting-leaked/</link>
       <pubDate>Sun, 11 Dec 2022 07:20:00 +0200</pubDate>
-      <guid>http://localhost:1313/human-rights/iranian-irgc-secret-meeting-leaked/</guid>
+      <guid>//localhost:1313/human-rights/iranian-irgc-secret-meeting-leaked/</guid>
       <description>&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Basij commander warns media organisations against talking about the recent unrest in Iran and advising them to refer to the rising opposition &lt;strong&gt;using terms such as &amp;ldquo;conspiracies&amp;rdquo; and &amp;ldquo;collusions&amp;rdquo;&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Revolutionary Guards have &lt;strong&gt;received a list of Iranian football&lt;/strong&gt; fans who participated in World Cup from Qatari officials.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The IRGC has used the country&amp;rsquo;s participation in the 2022 World Cup as a &lt;strong&gt;distraction from the widespread protests.&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;A hacking group named Black Reward has published the audio file of a confidential meeting between Basij commander Qasem Qoreyshi and media managers close to the Iranian Revolutionary Guards Corps (IRGC) that took place on the 15th November 2022.&lt;/p&gt;</description>
     </item>
   </channel>

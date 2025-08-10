@@ -1,10 +1,9 @@
 ignoreLogs = ['warning-goldmark-raw-html']
 
-baseURL = "https://example.com"
-languageCode = "en-us"
+baseURL = "/"
+languageCode = "en-uk"
 title = "UN-aligned"
 
-# Using clean URLs is generally good practice
 cleanURLs = true
 
 [params]
