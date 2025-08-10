@@ -6,7 +6,7 @@ sections:
   - title: Get to know us
     links:
       - name: Home
-        url: /
+        url: ""
       - name: Get Involved
         url: get-involved
       - name: What is UN-aligned? Read our FAQ
