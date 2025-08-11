@@ -119,5 +119,3 @@ These men and women manage to transform and give tangibility to the inner creati
 I have my own personal list of works that in my opinion arouse a sense of boundless wonder, not as an art expert, but as one who allows emotions and sensations to be awakened by these exceptional masterpieces.
 
 These scuptures are certainly amongst the works that I would consider to be wrapped in a mysterious perfection.
-
-- _[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/09/Italiano_-Quando-larte-e-mistero.pdf)\_

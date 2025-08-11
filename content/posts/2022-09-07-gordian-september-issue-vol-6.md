@@ -533,8 +533,6 @@ Nevertheless, it is remarkable how much of Petronilla's life took place behind c
 
 Through her works, she has been able to teach us that no one should be crushed by their own destiny. Everyone can decide to write their own story with the same courage, the same conscious determination of Petronilla, a woman and a poet.
 
-[Read this article in Italian.](https://un-aligned.org/wp-content/uploads/2022/09/Petronilla-Paolini_-una-donna-e-una-poetessa.pdf)
-
 ## Emotional health: 4 ways you can improve it today
 
 _By Sonia Roopnarain_

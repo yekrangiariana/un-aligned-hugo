@@ -10,8 +10,6 @@ tags:
 image: "/images/Africa.jpg"
 ---
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/05/Italiano_-Notizie-Aprile-2021.pdf)\_
-
 ## **AFRICA**
 
 05.04.21: **Sudan**. An armed attack by militias in El Geneina, the capital of West Darfur State left at least 18 people dead and 54 others injured according to the Sudanese Doctors' Committee.

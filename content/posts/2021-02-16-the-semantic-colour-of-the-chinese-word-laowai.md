@@ -90,5 +90,3 @@ Is it the native speaker, whose evaluations when in-line with the majority of ot
 - [Chinese Poetry Congress, season 1 episode 1](https://youtu.be/c45kKclJNow?t=1526)
 
 - Liu Wei, Zhang Wenhua, A Study on the Semantic Colors of Addressing "Foreigners" \[J\], Journal of Hubei Second Normal University, 2010, 27(01): 25-28.Hubei
-
-- [Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Italian_-Il-colore-semantico-della-parola-cinese-22laowai22-e-affascinanti-considerazioni-al-riguardo.pdf)

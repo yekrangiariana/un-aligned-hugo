@@ -459,8 +459,6 @@ _By Carla Pietrobattista_
 
 Located in the gallery of Uffizi, Michelangelo’s Doni Tondo (Tondo Doni) portrays the holy family and represents a unicum in Michelangelo's artistic production.
 
-[Read this article in Italian →](https://un-aligned.org/wp-content/uploads/2022/06/Tondo-Doni-Analisi.pdf)
-
 In front of real people, I would never admit that I like to be right. In front of a keyboard, on the other hand, it is easier for me to admit that when I am right, my ego feels a subtle pleasure; one which is obviously disguised as false modesty. Perhaps it is precisely the search for this sensation that leads me to talk about a work, whose dynamics of realisation confirm my idea of ​​how we should approach art: the Doni Tondo.
 
 To achieve my goal, I will start from the stylistic and historical examination of the work, and then arrive at completely personal and subjective considerations.

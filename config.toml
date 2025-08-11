@@ -12,6 +12,7 @@ extraHead = ''
 mainSections = ["posts", "gordian"]
 tagline = "Putting humanity before nationality and planet before greed"
 favicon = "/favicon.ico"
+defaultSocialImage = "/images/un-aligned-default-social.jpg"
 
 [params.logo]
   name = "logo"

@@ -391,8 +391,6 @@ Gatsby believed in the green light, the orgastic future that year by year recede
 
 _By Carla Pietrobattista_
 
-_[](https://un-aligned.org/wp-content/uploads/2021/05/Italiano_-La-giustizia-di-chi.pdf)[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/06/Italiano_-IL-PESO-DELL-ANIMA.pdf)\_
-
 ### **Interpreting art’s whispers**
 
 The creative process that precedes the birth of a work of art arises from the need to convey a message. Obviously this way of communicating lends itself to an interpretative multiplicity that changes in accordance with the time in which the work is observed and the sensitivity of the observer. Each of us has different ways of "reading" the various creations, but I firmly believe that to those who can look at beauty with amazement, art is primarily the celebration of beauty. Every artwork transmits emotions and sometimes unexpected knowledge...

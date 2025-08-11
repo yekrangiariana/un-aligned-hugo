@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Conversion Therapy on UN-aligned</title><link>https://un-aligned.org/tags/conversion-therapy/</link><description>Recent content in Conversion Therapy on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Wed, 07 Sep 2022 08:10:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/conversion-therapy/index.xml" rel="self" type="application/rss+xml"/><item><title>Mridul Wadhwa on Conversion Therapy and Edinburgh Rape Crisis Centre</title><link>https://un-aligned.org/human-rights/mridul-wadhwa-conversion-therapy-and-edinburgh-rape-crisis-centre/</link><pubDate>Wed, 07 Sep 2022 08:10:00 +0300</pubDate><author>Victoria-Davila</author><guid>https://un-aligned.org/human-rights/mridul-wadhwa-conversion-therapy-and-edinburgh-rape-crisis-centre/</guid><description>Mridul Wadhwa, CEO of the Edinburgh Rape Crisis Centre, spoke with UN-aligned about her journey into the gender-based violence sector and ways to tackle conversion practices and promote LGBTQ+ rights worldwide.</description><enclosure url="https://un-aligned.org/images/Mridul-Wadhwa.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conversion Therapy on UN-aligned</title>
+    <link>http://localhost:1313/tags/conversion-therapy/</link>
+    <description>Recent content in Conversion Therapy on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Wed, 07 Sep 2022 08:10:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/conversion-therapy/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Mridul Wadhwa on Conversion Therapy and Edinburgh Rape Crisis Centre</title>
+      <link>http://localhost:1313/human-rights/mridul-wadhwa-conversion-therapy-and-edinburgh-rape-crisis-centre/</link>
+      <pubDate>Wed, 07 Sep 2022 08:10:00 +0300</pubDate>
+      <author>Victoria-Davila</author>
+      <guid>http://localhost:1313/human-rights/mridul-wadhwa-conversion-therapy-and-edinburgh-rape-crisis-centre/</guid>
+      <description>Mridul Wadhwa, CEO of the Edinburgh Rape Crisis Centre, spoke with UN-aligned about her journey into the gender-based violence sector and ways to tackle conversion practices and promote LGBTQ+ rights worldwide.</description>
+      <enclosure url="http://localhost:1313/images/Mridul-Wadhwa.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

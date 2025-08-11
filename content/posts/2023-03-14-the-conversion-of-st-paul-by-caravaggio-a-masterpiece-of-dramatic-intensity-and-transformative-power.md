@@ -87,5 +87,3 @@ Rather than being a detached observer, the viewer becomes fully immersed in the 
 The Conversion of St. Paul is a powerful representation of a transformative moment that changed the course of Christian history. The artwork's unique composition, dramatic style and intense use of light and shadow capture the paradoxical state of Paul's conversion.
 
 The painting exemplifies Caravaggio's break from the traditional aesthetic criteria of his time, making it a testament to his artistic vision and courage to follow it.
-
-- [**Read this article in Italian.**](https://un-aligned.org/wp-content/uploads/2023/03/Conversione-di-San-Paolo.pdf)

@@ -10,8 +10,6 @@ tags:
 image: "/images/Africa.jpg"
 ---
 
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Italian_-What-you-may-have-missed-in-Jan-2021.pdf)**
-
 ## **Africa**
 
 02.01.21: **Niger**. Scores of villagers were slaughtered by suspected Islamist terrorists in coordinated attacks on two villages near the border with Mali.

@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>700 Years of Dante on UN-aligned</title><link>https://un-aligned.org/tags/700-years-of-dante/</link><description>Recent content in 700 Years of Dante on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Sun, 11 Dec 2022 07:30:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/700-years-of-dante/index.xml" rel="self" type="application/rss+xml"/><item><title>Dante Alighieri's Vision for World Government: The Pathway to Abolishing War</title><link>https://un-aligned.org/culture/dante-alighieris-vision-for-world-government-the-pathway-to-abolishing-war/</link><pubDate>Sun, 11 Dec 2022 07:30:00 +0200</pubDate><author>Tad Daley</author><guid>https://un-aligned.org/culture/dante-alighieris-vision-for-world-government-the-pathway-to-abolishing-war/</guid><description>Dante's death 700 years ago marked the end of an era. But his lasting legacy may be his vision for a world government, outlined in his work De Monarchia.</description><enclosure url="https://un-aligned.org/images/Dante-Alighieris-Vision-for-World-Government-The-Pathway-to-Abolishing-War-.jpg" type="image/jpeg"/></item><item><title>The freedom to choose</title><link>https://un-aligned.org/culture/700-years-of-dante-the-freedom-to-choose/</link><pubDate>Sun, 09 May 2021 10:50:00 +0300</pubDate><author>carlapietrobattista</author><guid>https://un-aligned.org/culture/700-years-of-dante-the-freedom-to-choose/</guid><description>&lt;p>The following article is taken from a speech given by Carla Pietrobattista on Dante Day, March 25, which is traditionally held as the day the “divine poet” started his masterpiece, the &lt;em>Divine Comedy&lt;/em>. 2021 also marks the 700th anniversary of Dante’s death. The event was presided by the Mayor of Magliano dei Marsi, Pasqualino di Cristofano. Ms. Pietrobattista will also be collaborating on the new Art Section of &lt;em>The Gordian&lt;/em>, which will start next month.&lt;/p></description><enclosure url="https://un-aligned.org/images/700-years-of-dante.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>700 Years of Dante on UN-aligned</title>
+    <link>http://localhost:1313/tags/700-years-of-dante/</link>
+    <description>Recent content in 700 Years of Dante on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sun, 11 Dec 2022 07:30:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/700-years-of-dante/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dante Alighieri&#39;s Vision for World Government: The Pathway to Abolishing War</title>
+      <link>http://localhost:1313/culture/dante-alighieris-vision-for-world-government-the-pathway-to-abolishing-war/</link>
+      <pubDate>Sun, 11 Dec 2022 07:30:00 +0200</pubDate>
+      <author>Tad Daley</author>
+      <guid>http://localhost:1313/culture/dante-alighieris-vision-for-world-government-the-pathway-to-abolishing-war/</guid>
+      <description>Dante&#39;s death 700 years ago marked the end of an era. But his lasting legacy may be his vision for a world government, outlined in his work De Monarchia.</description>
+      <enclosure url="http://localhost:1313/images/Dante-Alighieris-Vision-for-World-Government-The-Pathway-to-Abolishing-War-.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>The freedom to choose</title>
+      <link>http://localhost:1313/culture/700-years-of-dante-the-freedom-to-choose/</link>
+      <pubDate>Sun, 09 May 2021 10:50:00 +0300</pubDate>
+      <author>carlapietrobattista</author>
+      <guid>http://localhost:1313/culture/700-years-of-dante-the-freedom-to-choose/</guid>
+      <description>&lt;p&gt;The following article is taken from a speech given by Carla Pietrobattista on Dante Day, March 25, which is traditionally held as the day the “divine poet” started his masterpiece, the &lt;em&gt;Divine Comedy&lt;/em&gt;. 2021 also marks the 700th anniversary of Dante’s death. The event was presided by the Mayor of Magliano dei Marsi, Pasqualino di Cristofano. Ms. Pietrobattista will also be collaborating on the new Art Section of &lt;em&gt;The Gordian&lt;/em&gt;, which will start next month.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/700-years-of-dante.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

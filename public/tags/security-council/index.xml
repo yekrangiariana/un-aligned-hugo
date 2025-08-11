@@ -1,3 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security Council on UN-aligned</title><link>https://un-aligned.org/tags/security-council/</link><description>Recent content in Security Council on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Mon, 10 Apr 2023 15:59:33 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/security-council/index.xml" rel="self" type="application/rss+xml"/><item><title>World Peace Now Secure: Fugitive War Criminal Assumes UN Peacekeeping Chief Role</title><link>https://un-aligned.org/un-in-focus/world-peace-now-secure-fugitive-war-criminal-assumes-un-peacekeeping-chief-role/</link><pubDate>Mon, 10 Apr 2023 15:59:33 +0300</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/un-in-focus/world-peace-now-secure-fugitive-war-criminal-assumes-un-peacekeeping-chief-role/</guid><description>As Russia takes over the UN Security Council presidency, the world confronts the baffling irony of a nation, embroiled in the Ukraine war and led by a convicted war criminal, guiding an organisation entrusted with the preservation of global peace and security.</description><enclosure url="https://un-aligned.org/images/Putin-standing-infront-of-russian-army.jpg" type="image/jpeg"/></item><item><title>Why doesn't the UN expel Russia like the League of Nations did in 1939?</title><link>https://un-aligned.org/un-in-focus/why-doesnt-the-un-expel-russia-like-the-league-of-nations-did-in-1939/</link><pubDate>Tue, 12 Jul 2022 10:32:50 +0300</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/un-in-focus/why-doesnt-the-un-expel-russia-like-the-league-of-nations-did-in-1939/</guid><description>After the Soviet Union invaded Finland, the League of Nations kicked the country from its council. Why doesn't the UN do that too? Well, for all sorts of reasons, but mainly because it is bound to the moral low ground.</description><enclosure url="https://un-aligned.org/images/Kick-Russia-out-of-the-UN-now-.jpg" type="image/jpeg"/></item><item><title>Putin's invasion of Ukraine is a death knell for the United Nations</title><link>https://un-aligned.org/global-issues/the-united-nations-death-knell/</link><pubDate>Mon, 07 Mar 2022 12:11:11 +0200</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/global-issues/the-united-nations-death-knell/</guid><description>Would you entrust a child you love to the care of a school or nursery if you knew that not only many of its teachers, but the school board itself, consisted of child abusers, rapists and murderers? Of course not! And yet that is exactly what we are doing when we entrust world peace and human rights to the United Nations.</description><enclosure url="https://un-aligned.org/images/The-United-Nations-Death-Knell.jpg" type="image/jpeg"/></item><item><title>Abstaining in the face of war</title><link>https://un-aligned.org/global-issues/abstaining-in-unsc/</link><pubDate>Mon, 07 Feb 2022 10:00:00 +0200</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/global-issues/abstaining-in-unsc/</guid><description>Apart from the hackneyed pleas to resolve the differences and a blunt reassertion of the facts there were no enlightened solutions aimed at finding ways of de-escalating the Ukraine crisis.</description><enclosure url="https://un-aligned.org/images/Meeting-on-Ukraine_-Discussion-is-just-a-euphemism-for-mudslinging-at-the-UN-Security-Council.jpg" type="image/jpeg"/></item><item><title>UN Security Council meeting on Ukraine Review: Abstaining Romance and Plenty of Hot Air</title><link>https://un-aligned.org/global-issues/unsc-meeting-on-ukraine-review/</link><pubDate>Sun, 06 Feb 2022 06:50:00 +0200</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/global-issues/unsc-meeting-on-ukraine-review/</guid><description>Participating members in this UN Security Council meeting on Ukraine attempt their best with this bland, shallow and awkwardly structured meeting, which can be characterised in 6 words: “Too late”, “nothing new” and “bad directing”.</description><enclosure url="https://un-aligned.org/images/UN-Security-Council-meeting-on-Ukraine-Review-copy.jpg" type="image/jpeg"/></item><item><title>Security Council Arria-Formula meeting on Myanmar</title><link>https://un-aligned.org/human-rights/security-council-arria-formula-meeting-on-myanmar/</link><pubDate>Sat, 07 Aug 2021 11:00:00 +0300</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/human-rights/security-council-arria-formula-meeting-on-myanmar/</guid><description>&lt;p>On July 29, the UN had a Security Council Arria-Formula meeting on the deteriorating situation in Myanmar. US ambassador and senior advisor for political affairs, Jeffrey DeLaurentis, summarised the dire situation, stating:&lt;/p>
-&lt;pre tabindex="0">&lt;code>“Humanitarian aid workers inside Burma are sounding the alarm. As a direct result of the military’s brutality and administrative failures since its coup six months ago, Burma is reeling from a surge in COVID-19 cases. This burgeoning health catastrophe comes at a time when hundreds of thousands of people remain internally displaced by the recent violence, with the World Food Program projecting between 1.5 and 2.8 million additional people in the country could now be at risk of food insecurity.”
-&lt;/code>&lt;/pre>&lt;p>Moreover, there are reports of scores of doctors being rounded up and imprisoned because of the medical profession’s reaction to the coup.&lt;/p></description><enclosure url="https://un-aligned.org/images/UNSC-Arria-Formula-meeting-on-Myanmar.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security Council on UN-aligned</title>
+    <link>http://localhost:1313/tags/security-council/</link>
+    <description>Recent content in Security Council on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 10 Apr 2023 15:59:33 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/security-council/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>World Peace Now Secure: Fugitive War Criminal Assumes UN Peacekeeping Chief Role</title>
+      <link>http://localhost:1313/un-in-focus/world-peace-now-secure-fugitive-war-criminal-assumes-un-peacekeeping-chief-role/</link>
+      <pubDate>Mon, 10 Apr 2023 15:59:33 +0300</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/un-in-focus/world-peace-now-secure-fugitive-war-criminal-assumes-un-peacekeeping-chief-role/</guid>
+      <description>As Russia takes over the UN Security Council presidency, the world confronts the baffling irony of a nation, embroiled in the Ukraine war and led by a convicted war criminal, guiding an organisation entrusted with the preservation of global peace and security.</description>
+      <enclosure url="http://localhost:1313/images/Putin-standing-infront-of-russian-army.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Why doesn&#39;t the UN expel Russia like the League of Nations did in 1939?</title>
+      <link>http://localhost:1313/un-in-focus/why-doesnt-the-un-expel-russia-like-the-league-of-nations-did-in-1939/</link>
+      <pubDate>Tue, 12 Jul 2022 10:32:50 +0300</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/un-in-focus/why-doesnt-the-un-expel-russia-like-the-league-of-nations-did-in-1939/</guid>
+      <description>After the Soviet Union invaded Finland, the League of Nations kicked the country from its council. Why doesn&#39;t the UN do that too? Well, for all sorts of reasons, but mainly because it is bound to the moral low ground.</description>
+      <enclosure url="http://localhost:1313/images/Kick-Russia-out-of-the-UN-now-.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Putin&#39;s invasion of Ukraine is a death knell for the United Nations</title>
+      <link>http://localhost:1313/global-issues/the-united-nations-death-knell/</link>
+      <pubDate>Mon, 07 Mar 2022 12:11:11 +0200</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/global-issues/the-united-nations-death-knell/</guid>
+      <description>Would you entrust a child you love to the care of a school or nursery if you knew that not only many of its teachers, but the school board itself, consisted of child abusers, rapists and murderers? Of course not! And yet that is exactly what we are doing when we entrust world peace and human rights to the United Nations.</description>
+      <enclosure url="http://localhost:1313/images/The-United-Nations-Death-Knell.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Abstaining in the face of war</title>
+      <link>http://localhost:1313/global-issues/abstaining-in-unsc/</link>
+      <pubDate>Mon, 07 Feb 2022 10:00:00 +0200</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/global-issues/abstaining-in-unsc/</guid>
+      <description>Apart from the hackneyed pleas to resolve the differences and a blunt reassertion of the facts there were no enlightened solutions aimed at finding ways of de-escalating the Ukraine crisis.</description>
+      <enclosure url="http://localhost:1313/images/Meeting-on-Ukraine_-Discussion-is-just-a-euphemism-for-mudslinging-at-the-UN-Security-Council.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>UN Security Council meeting on Ukraine Review: Abstaining Romance and Plenty of Hot Air</title>
+      <link>http://localhost:1313/global-issues/unsc-meeting-on-ukraine-review/</link>
+      <pubDate>Sun, 06 Feb 2022 06:50:00 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/global-issues/unsc-meeting-on-ukraine-review/</guid>
+      <description>Participating members in this UN Security Council meeting on Ukraine attempt their best with this bland, shallow and awkwardly structured meeting, which can be characterised in 6 words: “Too late”, “nothing new” and “bad directing”.</description>
+      <enclosure url="http://localhost:1313/images/UN-Security-Council-meeting-on-Ukraine-Review-copy.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Security Council Arria-Formula meeting on Myanmar</title>
+      <link>http://localhost:1313/human-rights/security-council-arria-formula-meeting-on-myanmar/</link>
+      <pubDate>Sat, 07 Aug 2021 11:00:00 +0300</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/human-rights/security-council-arria-formula-meeting-on-myanmar/</guid>
+      <description>&lt;p&gt;On July 29, the UN had a Security Council Arria-Formula meeting on the deteriorating situation in Myanmar. US ambassador and senior advisor for political affairs, Jeffrey DeLaurentis, summarised the dire situation, stating:&lt;/p&gt;
+&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;“Humanitarian aid workers inside Burma are sounding the alarm. As a direct result of the military’s brutality and administrative failures since its coup six months ago, Burma is reeling from a surge in COVID-19 cases. This burgeoning health catastrophe comes at a time when hundreds of thousands of people remain internally displaced by the recent violence, with the World Food Program projecting between 1.5 and 2.8 million additional people in the country could now be at risk of food insecurity.”
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Moreover, there are reports of scores of doctors being rounded up and imprisoned because of the medical profession’s reaction to the coup.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/UNSC-Arria-Formula-meeting-on-Myanmar.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

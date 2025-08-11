@@ -13,8 +13,6 @@ tags:
 image: "/images/GDP-is-an-imposto-1.jpg"
 ---
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/04/Italiano_-Il-PIL-non-significa-nulla-di-concreto-quindi-perche-lo-utilizziamo-ancora-per-misurare-la-felicita.pdf)_
-
 GDP is not a suitable measurement for happiness or welfare. It sucks. Assessing the economy using GDP is destroying our planet. The global community and the United Nation’s sustainable development solutions network (SDSN) need to find other suitable alternatives.
 
 Since 2011, the SDSN, an initiative operating under the auspices of the United Nations, has been [publishing a yearly report](https://worldhappiness.report/ed/2021/happiness-trust-and-deaths-under-covid-19/) on how happy the world is. Embarking upon this fundamentally subjective and unquantifiable quest is no easy task and although the SDSN has significantly improved its methods to measure happiness throughout the years, it still has a long way to go before becoming perfect. This year the report used a host of different criteria to grade the happiness of a nation, these included: gross domestic product per capita (GDP), social support, healthy life expectancy, freedom to make your own life choices, generosity of the general population and perceptions of internal and external corruption levels. 

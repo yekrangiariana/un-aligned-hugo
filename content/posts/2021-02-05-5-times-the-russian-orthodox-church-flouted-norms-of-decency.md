@@ -71,5 +71,3 @@ Putin will leave sooner or, as it seems, much later, but a modern Russia, shaped
 ## **UN-aligned article 8: “Religion cannot be used to promote violence, bigotry and intolerance.”**
 
 All too often religious leaders are silent regarding the atrocities or prejudice committed in the name of their religion, but even more sinister is the fact that some actually advocate hatred and its ramifications. Promoting injustice towards people or animals is unacceptable and religious leaders of this mould should not be recognised as legitimate religious representatives. Religious leaders have a duty to promote harmony, if they do not, then they are fakes and should be dealt with according to hate laws, since religion cannot be above ethical conduct.
-
-**[_Read this article in Italian (Leggi questo articolo in italiano) →_](https://un-aligned.org/wp-content/uploads/2021/02/Italina_-Cinque-volte-la-Chiesa-ortodossa-russa-ha-infranto-le-norme-di-decenza.pdf)**

@@ -57,5 +57,3 @@ The steadfastness and resolve that Peter lacked in his youth now radiate from hi
 Just as Saul ceased being Saul to become Paul during his conversion, so too does Simon truly affirm himself as Peter [in the moment of his crucifixion.](https://www.wga.hu/html_m/c/caravagg/05/28ceras.html) It is in this ultimate act of sacrifice and acceptance that his transformation becomes unequivocal.
 
 Caravaggio’s portrayal of the Crucifixion of Saint Peter, therefore, captures not merely a historical event but a profoundly personal and transformative journey, articulated through the artist’s signature command of light, darkness and human detail.
-
-- [Read this article in Italian](https://un-aligned.org/wp-content/uploads/2023/05/La-Crocifissione-di-san-Pietro-di-Caravaggio.pdf)

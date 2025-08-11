@@ -12,8 +12,6 @@ image: "/images/IMG_0228-copy-2.jpg"
 
 On the 15th of February 2021, the 2020 UN-aligned photo competition winner, Anwar Sadat, tells us about the story behind his prize-winning photos and his love for photography.
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-22Se-ascolti-le-persone-sono-sempre-disponibili-a-parlare22-Una-conversazione-con-il-fotografo-Anwar-Sadat.pdf)\_
-
 ## **Could you tell us a bit about yourself and your love for photography?**
 
 Well, my name is Anwar Sadat and I am a photographer based in Nairobi Kenya. My focus in photography is documentary, photojournalism, street reportage and portraiture. I often tell stories of the buzzing streets of Nairobi and my community that often go unseen and unnoticed.

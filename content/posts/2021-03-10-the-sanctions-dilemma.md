@@ -13,8 +13,6 @@ tags:
 image: "/images/United-Nations-Security-Council-03.03.jpg"
 ---
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-Il-dilemma-delle-sanzioni.pdf)_
-
 _"Yesterday, upon the stair,  
 I met a man who wasn't there!  
 He wasn't there again today,  

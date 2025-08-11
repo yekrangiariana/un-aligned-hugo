@@ -1,3 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>John Donne on UN-aligned</title><link>https://un-aligned.org/tags/john-donne/</link><description>Recent content in John Donne on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Mon, 15 Mar 2021 08:38:21 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/john-donne/index.xml" rel="self" type="application/rss+xml"/><item><title>John Donne's No Man is an Island: Feeling a Oneness With Humanity</title><link>https://un-aligned.org/culture/donne-no-man-is-an-island-and-feeling-a-oneness-with-the-rest-of-humanity/</link><pubDate>Mon, 15 Mar 2021 08:38:21 +0200</pubDate><author>alex.liberto</author><guid>https://un-aligned.org/culture/donne-no-man-is-an-island-and-feeling-a-oneness-with-the-rest-of-humanity/</guid><description>&lt;p>In today’s world besieged by isolationism, America First, Britain First, white supremacy, cyber bullying, homophobia, racism, vaccine tug-of-war, colonialist withdrawal symptoms (… shall I go on?) and the like, never before have the words of John Donne been more relevant; “No man is an island…”. In the age of Brexit, the very notion that every man is part of a greater humanity is a powerful assertion. &lt;/p>
-&lt;p>However, the profound conviction that ‘every man is a piece of the continent, a part of the main’ has a far more universal metaphorical significance; a spiritual and existential significance.&lt;/p></description><enclosure url="https://un-aligned.org/images/John-Donne.jpg" type="image/jpeg"/></item><item><title>"The Greatest Metaphysical Poet": Your Full Guide to John Donne’s Life, Career &amp; Poems</title><link>https://un-aligned.org/culture/john-donne-life-career-and-poems/</link><pubDate>Thu, 11 Feb 2021 14:00:00 +0200</pubDate><author>alex.liberto</author><guid>https://un-aligned.org/culture/john-donne-life-career-and-poems/</guid><description>&lt;h2 id="family-background">&lt;strong>Family background&lt;/strong>&lt;/h2>
-&lt;p>John Donne was born in London in 1572 to a relatively wealthy family.  His father, who died when Donne was only four, was a successful tradesman and his mother, Elizabeth, was the daughter of the writer John Heywood.  Both parents were Roman Catholics and were in obvious difficulty to come to terms with the newly established Church of England.  Donne’s family, especially on his mother’s side, were persecuted for being Roman Catholics and for refusing to swear the Oath of Supremacy which acknowledged the English monarch as the Head of the Church of England.&lt;/p></description><enclosure url="https://un-aligned.org/images/8.jpg.webp" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>John Donne on UN-aligned</title>
+    <link>http://localhost:1313/tags/john-donne/</link>
+    <description>Recent content in John Donne on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 15 Mar 2021 08:38:21 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/john-donne/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>John Donne&#39;s No Man is an Island: Feeling a Oneness With Humanity</title>
+      <link>http://localhost:1313/culture/donne-no-man-is-an-island-and-feeling-a-oneness-with-the-rest-of-humanity/</link>
+      <pubDate>Mon, 15 Mar 2021 08:38:21 +0200</pubDate>
+      <author>alex.liberto</author>
+      <guid>http://localhost:1313/culture/donne-no-man-is-an-island-and-feeling-a-oneness-with-the-rest-of-humanity/</guid>
+      <description>&lt;p&gt;In today’s world besieged by isolationism, America First, Britain First, white supremacy, cyber bullying, homophobia, racism, vaccine tug-of-war, colonialist withdrawal symptoms (… shall I go on?) and the like, never before have the words of John Donne been more relevant; “No man is an island…”. In the age of Brexit, the very notion that every man is part of a greater humanity is a powerful assertion. &lt;/p&gt;
+&lt;p&gt;However, the profound conviction that ‘every man is a piece of the continent, a part of the main’ has a far more universal metaphorical significance; a spiritual and existential significance.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/John-Donne.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>&#34;The Greatest Metaphysical Poet&#34;: Your Full Guide to John Donne’s Life, Career &amp; Poems</title>
+      <link>http://localhost:1313/culture/john-donne-life-career-and-poems/</link>
+      <pubDate>Thu, 11 Feb 2021 14:00:00 +0200</pubDate>
+      <author>alex.liberto</author>
+      <guid>http://localhost:1313/culture/john-donne-life-career-and-poems/</guid>
+      <description>&lt;h2 id=&#34;family-background&#34;&gt;&lt;strong&gt;Family background&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;John Donne was born in London in 1572 to a relatively wealthy family.  His father, who died when Donne was only four, was a successful tradesman and his mother, Elizabeth, was the daughter of the writer John Heywood.  Both parents were Roman Catholics and were in obvious difficulty to come to terms with the newly established Church of England.  Donne’s family, especially on his mother’s side, were persecuted for being Roman Catholics and for refusing to swear the Oath of Supremacy which acknowledged the English monarch as the Head of the Church of England.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/8.jpg.webp" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

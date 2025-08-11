@@ -8,7 +8,7 @@ categories:
 image: "/images/6691281879_d67effd43f_c.jpg"
 ---
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/05/Italian_-La-trasmutazione-antropologica-umana.pdf)_
+
 
 In the Palaeozoic era, an order of molluscs with red shells, called ammonites, had spread through all the sea since they had the ability not just to live underwater, but also to expel water from their shell and thus rise and descend. Their success with respect to other forms of life led them to reproduce until they saturated their environment and became extinct. The reason is the uncontainable growth of the species.
 

@@ -70,5 +70,3 @@ Pain, fear and wonder, animate the head that is deprived of its body. It should 
 Now, paradoxically, the head is still full of life, generating a scream, a pain that escapes from the mouth of Medusa and continues to resonate at first in the eyes, and then in the ears of the observer. The serpents making up her monstrous hair are still alive just like the gorgon's head, and they perform sinuous movements that seem more real than realistic.
 
 That scream, that frightened and crazy look that those who closely observe death have, are the scream and the look of Caravaggio. He painted himself on the head of Medusa and signed himself in the blood that comes out of the severed head with "Michelangelo fecit". A latter formula that we will also find years later in the altarpiece of the "Slaughtered Baptist", when the name Michelangelo and the fecit were imprinted again in the blood as if to seal a consecration, a complete belonging to art.
-
-[Read this article in Italian →](https://un-aligned.org/wp-content/uploads/2022/10/LApparir-del-vero.pdf)

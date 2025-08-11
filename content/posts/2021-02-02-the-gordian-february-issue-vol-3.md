@@ -13,8 +13,6 @@ image: "/images/ISSUE-8-VOL.3.jpg"
 
 ![](/images/Africa-1024x538.jpg)
 
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Italian_-What-you-may-have-missed-in-Jan-2021.pdf)**
-
 02.01.21: **Niger**. Scores of villagers were slaughtered by suspected Islamist terrorists in coordinated attacks on two villages near the border with Mali.
 
 04.01.21: **Central African Republic**. Incumbent President Faustin-Archange Touadera was declared the winner of the presidential election that was held last month against a backdrop of unrest.
@@ -115,8 +113,6 @@ There were many fantastic entries with some awesome inspiring photography. As pe
 
 ![](/images/John-Chrysostom-with-Basil-of-Caesarea-and-Gregory-of-Nazianzus-on-a-late-15th-century-icon-of-the-Three-Holy-Hierarchs-from-the-Cathedral-of-St-Sophia2C-Novgorod-2-1024x614.jpg)
 
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Il-mese-prossimo.pdf)**
-
 As the Human Right Series of the Gordian comes to its eighth issue, we sincerely thank all of our readers and authors for their generous support and contributions. It is because of you that The Gordian Magazine has developed into its current form and has become a platform for members to express their thoughts and ideas.
 
 The last eight issues we covered key human right topics. You can find all topics below.
@@ -166,8 +162,6 @@ _By Adrian Liberto_
 
 ![](/images/6-1024x614.jpg)
 
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Italian_-The-Lingering-Sins-of-Religion-I-peccati-persistenti-della-religione.pdf)**
-
 ### **Written in stone**
 
 There are thousands of religions in the world today and many thousands more have come and gone. Many of these claim or have claimed a monopoly on truth relating to the divine and the moral, as well as to the rituals necessary to accompany a devout life. No doubt, much good has come from these religions in as much as they have contributed to unifying people around a set of values that have generally been beneficial to society and wellbeing. Often, they coalesce around scriptures that are professed to have been inspired or dictated by heaven itself. The Abrahamic religions, Judaism, Christianity and Islam are very much of this mould. There is only one problem: societies change, but books do not.
@@ -203,8 +197,6 @@ In conclusion, religion should not and must not be used as an excuse for indiffe
 _By Ariana Yekrangi_
 
 ![](/images/John-Chrysostom-with-Basil-of-Caesarea-and-Gregory-of-Nazianzus-on-a-late-15th-century-icon-of-the-Three-Holy-Hierarchs-from-the-Cathedral-of-St-Sophia2C-Novgorod-1024x614.jpg)
-
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Italina_-Cinque-volte-la-Chiesa-ortodossa-russa-ha-infranto-le-norme-di-decenza.pdf)**
 
 Under the former communist regime, the Russian Orthodox Church (ROC) was suppressed, its properties confiscated and its followers harassed and imprisoned. This was until a Messiah came along. He promised the church fortune, a return to traditional values, a trip to simpler times when the state and church washed filth off each others’ backs. Yes, Putin and the Russian Orthodox Church walk hand-in-hand in so many ways. From the eyes of the church he is seen as a “miracle of God”, a humble Russian worshiper who wants to put the Church at the heart of Russia’s national identity. However, the Church is not the only one who has wet dreams; what the ROC knows too well is that they must return the favour. And we all know what the price of a deal with the devil is: selling your soul.
 
@@ -270,8 +262,6 @@ _By Adrian Liberto_
 
 ![](/images/2-1024x614.jpg)
 
-[**Read this article in Italian (Leggi questo articolo in italiano) →**](https://un-aligned.org/wp-content/uploads/2021/02/Italian_-Why-Circumcision-is-Legalised-Child-Abuse-Perche-la-circoncisione-e-un-abuso-legale-sui-minori.pdf)
-
 Mutilating the sexual organs of a child in the name of culture, religion or dubious preventative medical claims is outrageous and a blatant breach of the child’s human rights. Female genital mutilation is thankfully on the decline and relatively rare in developed countries. The cutting of little boys, however, is not. Approximately one third of males are circumcised worldwide. In this article I intend to highlight the futility and barbarity of the practice.
 
 ### **Justifications on a razor’s edge**
@@ -312,8 +302,6 @@ The aim of this article is to highlight the injustice of forced non-therapeutic 
 
 ![](/images/John-Chrysostom-with-Basil-of-Caesarea-and-Gregory-of-Nazianzus-on-a-late-15th-century-icon-of-the-Three-Holy-Hierarchs-from-the-Cathedral-of-St-Sophia2C-Novgorod-3-1024x614.jpg)
 
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Le-religioni-che-uniscono.pdf)**
-
 People with bigotted or selfish agendas have always tried to hijack religion, but there have always been spiritual adherents who have understood that kindness is paramount and they have highlighted the essence that unites us rather than the dross that divides us. Here are some inspirational quotes from a range of religious thinkers.
 
 “As different streams having their sources in different places all mingle their waters in the sea, so, Oh Lord, the different paths which men take through different tendencies, various though they appear, crooked or straight, all lead to Thee.” **Sanskrit Hymn**
@@ -339,8 +327,6 @@ People with bigotted or selfish agendas have always tried to hijack religion, bu
 _By Jonna Lappalainen_
 
 ![](/images/1-1024x614.jpg)
-
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Italian_-Comprendere-le-teorie-della-cospirazione-e-le-sue-vittime-nelleta-doro-delle-sciocchezze.pdf)**
 
 Guarded by some 25 000 troops, Joe Biden successfully took the oath of office. Earlier Mr Ex-President had taken off for Mar-a-Lago. Hopes and dreams were shattered. I felt a rush of compassion for the QAnon believers who felt betrayed realising that nothing happened; no arrests, no intervention. It is bitter to realise that the firm ground below one’s feet has collapsed. The liberating, newly revealed truth turned out to be yet another lie. Yet, the question remains: What were they thinking?
 
@@ -371,8 +357,6 @@ _By Alex Liberto_
 ![](/images/8-1024x614.jpg)
 
 We are delighted to announce that, following positive feedback, our literary column will now occupy a regular slot in The Gordian. The feature will be overseen by The Gordian literary editor, [Alex Liberto](https://un-aligned.org/author/alex-liberto/) and will include articles, literary pieces (including poetry), book reviews, interviews and competitions. The section is being launched with a two-part feature on English poet and preacher John Donne (1572-1631)
-
-[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Italian_-Your-Full-Guide-to-John-Donnes-Life-Career-and-Poems.pdf)
 
 ### **Family background**
 
@@ -427,8 +411,6 @@ The later religious poems of Donne, although thematically different, are similar
 _By Aryan Yekrangi_
 
 ![](/images/Image-by-Collagist-from-pixabay.com_-1024x614.jpg)
-
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Italian_-Il-colore-semantico-della-parola-cinese-22laowai22-e-affascinanti-considerazioni-al-riguardo.pdf)**
 
 A single person may often be categorized and called in a number of different ways. I for instance may be categorized as ‘Iranian’, ‘Middle Eastern’, ‘brown’, etc. These separations and categorizations often occur due to cultural differences between two or more groups. A common separation in China is that of a Chinese person and a foreigner. While there are a number of different ways to refer to a foreign person in Chinese, such as ‘waiguoren’ (foreign country person), ‘waiguoyouren’ (foreign country friend person), etc., in this short paper we will discuss the word ‘laowai’, its semantic color, usage and perception.
 

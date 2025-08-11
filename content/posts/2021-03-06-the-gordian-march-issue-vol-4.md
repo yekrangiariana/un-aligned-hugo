@@ -23,8 +23,6 @@ _By Adrian Liberto_
 
 ![](/images/United-Nations-Security-Council-03.03-1024x614.jpg)
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-Il-dilemma-delle-sanzioni.pdf)\_
-
 _"Yesterday, upon the stair,**I met a man who wasn't there!**He wasn't there again today,\_\_Oh how I wish he'd go away!"_
 
 The above quote from Hughes Mearns’ poem, _Antigonish_, could so easily allude to sanctions. They are full of sound and fury, and yet, they signify nothing concrete, but rather an absence of something. Of course, sometimes, a lack of something can have devastating effects: if you stop my air supply, for instance, I am dead. Sanctions, however, are very limited in what they can stop, because what comes from outside one’s borders was not there in the first place, like the man upon the stair.
@@ -144,8 +142,6 @@ _By Ayten Aydin_
 
 ![](/images/Design-03.03-1024x575.jpg)
 
-[_Read this article in Italian (Leggi questo articolo in italiano) →_](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-Domare-le-strategie-che-governano-lo-sviluppo-socio-economico-in-corso-attraverso-la-G-Localizzazione.pdf)
-
 ### **Ultimate goal and Foregrounding**
 
 The aim of this reflection is to create favourable conditions for progress by mobilizing the intellectual, spiritual and material forces with a sense of belonging to one and the same human community. This requires finding new ways of living in society and of facing the future together. Living organisms compete for resources, but collaborate for sustaining life on Earth.
@@ -223,8 +219,6 @@ Created by Giuseppe Fedda (Italian Cartoonist). On the left you see the syntropi
 _By Alex Liberto_
 
 ![](/images/John-Donne-1024x614.jpg)
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-Donne-Donne-Donne…-Per-chi-suona-la-campana.pdf)\_
 
 In today’s world besieged by isolationism, America First, Britain First, white supremacy, cyber bullying, homophobia, racism, vaccine tug-of-war, colonialist withdrawal symptoms (… shall I go on?) and the like, never before have the words of John Donne been more relevant; “No man is an island…”. In the age of Brexit, the very notion that every man is part of a greater humanity is a powerful assertion.
 
@@ -316,8 +310,6 @@ Pir (also translated as saint), Shaliyar is believed to have cured the daughter 
 ## News in February 2021 You May Have Missed
 
 ![](/images/Africa-1024x538.jpg)
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-notizie-nel-febbraio-2021-che-potresti-esserti-perso.pdf)\_
 
 ### **AFRICA**
 

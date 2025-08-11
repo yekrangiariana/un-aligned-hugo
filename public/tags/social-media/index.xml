@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Social Media on UN-aligned</title><link>https://un-aligned.org/tags/social-media/</link><description>Recent content in Social Media on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Tue, 21 Jun 2022 13:54:04 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/social-media/index.xml" rel="self" type="application/rss+xml"/><item><title>Social Media in an Era of Invasion</title><link>https://un-aligned.org/global-issues/social-media-in-an-era-of-invasion/</link><pubDate>Tue, 21 Jun 2022 13:54:04 +0300</pubDate><author>Kaitlyn.Rivera</author><guid>https://un-aligned.org/global-issues/social-media-in-an-era-of-invasion/</guid><description>In a time of uncertainty and fear, Ukrainians are using social media to stay in the world.</description><enclosure url="https://un-aligned.org/images/Social-Media-in-an-Era-of-Invasion.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Social Media on UN-aligned</title>
+    <link>http://localhost:1313/tags/social-media/</link>
+    <description>Recent content in Social Media on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 21 Jun 2022 13:54:04 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Social Media in an Era of Invasion</title>
+      <link>http://localhost:1313/global-issues/social-media-in-an-era-of-invasion/</link>
+      <pubDate>Tue, 21 Jun 2022 13:54:04 +0300</pubDate>
+      <author>Kaitlyn.Rivera</author>
+      <guid>http://localhost:1313/global-issues/social-media-in-an-era-of-invasion/</guid>
+      <description>In a time of uncertainty and fear, Ukrainians are using social media to stay in the world.</description>
+      <enclosure url="http://localhost:1313/images/Social-Media-in-an-Era-of-Invasion.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

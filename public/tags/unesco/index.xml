@@ -1,1 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Unesco on UN-aligned</title><link>https://un-aligned.org/tags/unesco/</link><description>Recent content in Unesco on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Sun, 05 Mar 2023 12:00:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/unesco/index.xml" rel="self" type="application/rss+xml"/><item><title>Odessa's Cultural Heritage Threatened by Ongoing Conflict in Ukraine</title><link>https://un-aligned.org/un-in-focus/odessas-cultural-heritage-threatened-by-ongoing-conflict-in-ukraine/</link><pubDate>Sun, 05 Mar 2023 12:00:00 +0200</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/un-in-focus/odessas-cultural-heritage-threatened-by-ongoing-conflict-in-ukraine/</guid><description>Despite being inscribed on UNESCO's World Heritage List, the historical Ukrainian city of Odessa struggles to protect its monuments from the effects of war.</description><enclosure url="https://un-aligned.org/images/Ivan-Martoss-statue-covered-in-sandbags.jpg" type="image/jpeg"/></item><item><title>UNESCO’s 44th Session: 27 sites that made it into the World Heritage List - in Pictures</title><link>https://un-aligned.org/gallery/unescos-44th-session-27-sites-that-made-it-into-the-world-heritage-list-in-pictures/</link><pubDate>Tue, 03 Aug 2021 08:03:00 +0300</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/gallery/unescos-44th-session-27-sites-that-made-it-into-the-world-heritage-list-in-pictures/</guid><description>The 44th session of the World Heritage Committee saw Liverpool stripped of its heritage status due to development concerns, while Venice and the Great Barrier Reef narrowly avoided being added to the list of endangered sites.</description><enclosure url="https://un-aligned.org/images/18-2.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unesco on UN-aligned</title>
+    <link>http://localhost:1313/tags/unesco/</link>
+    <description>Recent content in Unesco on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sun, 05 Mar 2023 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/unesco/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Odessa&#39;s Cultural Heritage Threatened by Ongoing Conflict in Ukraine</title>
+      <link>http://localhost:1313/un-in-focus/odessas-cultural-heritage-threatened-by-ongoing-conflict-in-ukraine/</link>
+      <pubDate>Sun, 05 Mar 2023 12:00:00 +0200</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/un-in-focus/odessas-cultural-heritage-threatened-by-ongoing-conflict-in-ukraine/</guid>
+      <description>Despite being inscribed on UNESCO&#39;s World Heritage List, the historical Ukrainian city of Odessa struggles to protect its monuments from the effects of war.</description>
+      <enclosure url="http://localhost:1313/images/Ivan-Martoss-statue-covered-in-sandbags.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>UNESCO’s 44th Session: 27 sites that made it into the World Heritage List - in Pictures</title>
+      <link>http://localhost:1313/gallery/unescos-44th-session-27-sites-that-made-it-into-the-world-heritage-list-in-pictures/</link>
+      <pubDate>Tue, 03 Aug 2021 08:03:00 +0300</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/gallery/unescos-44th-session-27-sites-that-made-it-into-the-world-heritage-list-in-pictures/</guid>
+      <description>The 44th session of the World Heritage Committee saw Liverpool stripped of its heritage status due to development concerns, while Venice and the Great Barrier Reef narrowly avoided being added to the list of endangered sites.</description>
+      <enclosure url="http://localhost:1313/images/18-2.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

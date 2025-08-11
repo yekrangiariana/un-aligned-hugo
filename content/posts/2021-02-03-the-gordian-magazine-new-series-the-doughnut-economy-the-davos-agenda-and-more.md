@@ -10,8 +10,6 @@ tags:
 image: "/images/John-Chrysostom-with-Basil-of-Caesarea-and-Gregory-of-Nazianzus-on-a-late-15th-century-icon-of-the-Three-Holy-Hierarchs-from-the-Cathedral-of-St-Sophia2C-Novgorod-2.jpg"
 ---
 
-**[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/02/Il-mese-prossimo.pdf)**
-
 As the Human Right Series of the Gordian comes to its eighth issue, we sincerely thank all of our readers and authors for their generous support and contributions. It is because of you that The Gordian Magazine has developed into its current form and has become a platform for members to express their thoughts and ideas.
 
 The last eight issues we covered key human right topics. You can find all topics below. 

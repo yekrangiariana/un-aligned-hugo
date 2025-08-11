@@ -1,3 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Journalism on UN-aligned</title><link>https://un-aligned.org/tags/journalism/</link><description>Recent content in Journalism on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Tue, 08 Jul 2025 21:52:52 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/journalism/index.xml" rel="self" type="application/rss+xml"/><item><title>Nicaragua’s War on the Press: New Report Highlights Escalating Repression</title><link>https://un-aligned.org/global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression/</link><pubDate>Tue, 08 Jul 2025 21:52:52 +0300</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression/</guid><description>&lt;p>UN-aligned recently partnered with &lt;a href="https://fled.ong/">FLED Nicaragua&lt;/a> to translate their annual report from Spanish into English, highlighting the grave state of press freedom in the country.&lt;/p>
-&lt;p>The assassination of retired Nicaraguan army officer and outspoken critic of President Daniel Ortega, Roberto Samcam, on June 19 while in exile in Costa Rica, underscores the urgency of the crisis and the critical need to raise international awareness.&lt;/p>
-&lt;p>&lt;a href="https://un-aligned.org/wp-content/uploads/2025/07/Press-Freedom-Report-January%E2%80%93March-2025-%E2%80%93-Copy.pdf">&lt;strong>Read full report -&amp;gt;&lt;/strong>&lt;/a>&lt;/p></description><enclosure url="https://un-aligned.org/images/denissa-devy-OfLdxlspigY-unsplash1.jpg" type="image/jpeg"/></item><item><title>“We’ve seen this before”: Inside Israel’s war on truth, journalists and the free media</title><link>https://un-aligned.org/human-rights/inside-israels-war-on-truth-journalists-and-the-free-media/</link><pubDate>Thu, 09 May 2024 09:17:12 +0300</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/human-rights/inside-israels-war-on-truth-journalists-and-the-free-media/</guid><description>Amidst rising violence and a tightening grip on truth, Israel's aggressive campaign against journalists mirrors tactics used by history's most oppressive regimes.</description><enclosure url="https://un-aligned.org/images/2-Inside-Israels-war-on-truth-journalists-and-the-free-media.jpg" type="image/jpeg"/></item><item><title>Julia Hartley-Brewer's racism is a common reality for brown man - I know, having experienced it firsthand</title><link>https://un-aligned.org/comments/julia-hartley-brewers-racism-is-a-common-reality-for-brown-man-i-know-having-experienced-it-firsthand/</link><pubDate>Tue, 09 Jan 2024 18:48:10 +0200</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/comments/julia-hartley-brewers-racism-is-a-common-reality-for-brown-man-i-know-having-experienced-it-firsthand/</guid><description>Julia Hartley-Brewer's sexist and racist remarks to her guest, Mustafa Barghouti, reflect a troubling norm in many workplaces.</description><enclosure url="https://un-aligned.org/images/Julia-Hartley-Brewers-racism.jpg" type="image/jpeg"/></item><item><title>Understanding the Subtle Manipulation of News Media in the Age of Pseudo-Enlightenment</title><link>https://un-aligned.org/global-issues/understanding-the-subtle-manipulation-of-news-media/</link><pubDate>Mon, 16 Jan 2023 09:30:00 +0200</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/global-issues/understanding-the-subtle-manipulation-of-news-media/</guid><description>Exploring manipulation tactics and dangers of compliance in the news media.</description><enclosure url="https://un-aligned.org/images/Understanding-the-Subtle-Manipulation-of-News-Media-in-the-Age-of-Pseudo-Enlightenment.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Journalism on UN-aligned</title>
+    <link>http://localhost:1313/tags/journalism/</link>
+    <description>Recent content in Journalism on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 08 Jul 2025 21:52:52 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/journalism/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nicaragua’s War on the Press: New Report Highlights Escalating Repression</title>
+      <link>http://localhost:1313/global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression/</link>
+      <pubDate>Tue, 08 Jul 2025 21:52:52 +0300</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression/</guid>
+      <description>&lt;p&gt;UN-aligned recently partnered with &lt;a href=&#34;https://fled.ong/&#34;&gt;FLED Nicaragua&lt;/a&gt; to translate their annual report from Spanish into English, highlighting the grave state of press freedom in the country.&lt;/p&gt;
+&lt;p&gt;The assassination of retired Nicaraguan army officer and outspoken critic of President Daniel Ortega, Roberto Samcam, on June 19 while in exile in Costa Rica, underscores the urgency of the crisis and the critical need to raise international awareness.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/PDFs/Press-Freedom-Report-JanuaryMarch-2025.pdf&#34;&gt;&lt;strong&gt;Read full report -&amp;gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;{{ partial &amp;ldquo;pdf-viewer.html&amp;rdquo; (dict &amp;ldquo;pdfUrl&amp;rdquo; &amp;ldquo;/PDFs/Press-Freedom-Report-JanuaryMarch-2025.pdf&amp;rdquo;) }}&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/denissa-devy-OfLdxlspigY-unsplash1.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>“We’ve seen this before”: Inside Israel’s war on truth, journalists and the free media</title>
+      <link>http://localhost:1313/human-rights/inside-israels-war-on-truth-journalists-and-the-free-media/</link>
+      <pubDate>Thu, 09 May 2024 09:17:12 +0300</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/human-rights/inside-israels-war-on-truth-journalists-and-the-free-media/</guid>
+      <description>Amidst rising violence and a tightening grip on truth, Israel&#39;s aggressive campaign against journalists mirrors tactics used by history&#39;s most oppressive regimes.</description>
+      <enclosure url="http://localhost:1313/images/2-Inside-Israels-war-on-truth-journalists-and-the-free-media.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Julia Hartley-Brewer&#39;s racism is a common reality for brown man - I know, having experienced it firsthand</title>
+      <link>http://localhost:1313/comments/julia-hartley-brewers-racism-is-a-common-reality-for-brown-man-i-know-having-experienced-it-firsthand/</link>
+      <pubDate>Tue, 09 Jan 2024 18:48:10 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/comments/julia-hartley-brewers-racism-is-a-common-reality-for-brown-man-i-know-having-experienced-it-firsthand/</guid>
+      <description>Julia Hartley-Brewer&#39;s sexist and racist remarks to her guest, Mustafa Barghouti, reflect a troubling norm in many workplaces.</description>
+      <enclosure url="http://localhost:1313/images/Julia-Hartley-Brewers-racism.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Understanding the Subtle Manipulation of News Media in the Age of Pseudo-Enlightenment</title>
+      <link>http://localhost:1313/global-issues/understanding-the-subtle-manipulation-of-news-media/</link>
+      <pubDate>Mon, 16 Jan 2023 09:30:00 +0200</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/global-issues/understanding-the-subtle-manipulation-of-news-media/</guid>
+      <description>Exploring manipulation tactics and dangers of compliance in the news media.</description>
+      <enclosure url="http://localhost:1313/images/Understanding-the-Subtle-Manipulation-of-News-Media-in-the-Age-of-Pseudo-Enlightenment.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

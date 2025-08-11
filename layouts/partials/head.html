@@ -45,9 +45,18 @@
 
   <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
-  {{- if .Params.album -}}
+  {{- if .Params.featuredImage -}}
+  <meta property="og:image" content="{{ .Params.featuredImage }}" />
+  <meta property="og:image:alt" content="{{ .Title }}" />
+  {{- else if .Params.image -}}
+  <meta property="og:image" content="{{ .Params.image }}" />
+  <meta property="og:image:alt" content="{{ .Title }}" />
+  {{- else if .Params.album -}}
   <meta property="og:image" content="{{ .Params.album }}" />
   <meta property="og:image:alt" content="{{ .Title }}" />
+  {{- else if .Site.Params.defaultSocialImage -}}
+  <meta property="og:image" content="{{ .Site.Params.defaultSocialImage }}" />
+  <meta property="og:image:alt" content="{{ .Site.Title }}" />
   {{- else -}}
   <meta property="og:image" content="{{ .Site.Params.favicon }}" />
   <meta property="og:image:alt" content="{{ .Title }}" />
@@ -57,8 +66,14 @@
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="{{ .Title }}" />
   <meta name="twitter:description" content="{{ default .Summary .Description | plainify }}" />
-  {{- if .Params.album -}}
+  {{- if .Params.featuredImage -}}
+  <meta name="twitter:image" content="{{ .Params.featuredImage }}" />
+  {{- else if .Params.image -}}
+  <meta name="twitter:image" content="{{ .Params.image }}" />
+  {{- else if .Params.album -}}
   <meta name="twitter:image" content="{{ .Params.album }}" />
+  {{- else if .Site.Params.defaultSocialImage -}}
+  <meta name="twitter:image" content="{{ .Site.Params.defaultSocialImage }}" />
   {{- else -}}
   <meta name="twitter:image" content="{{ .Site.Params.favicon }}" />
   {{ end }}

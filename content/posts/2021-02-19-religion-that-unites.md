@@ -10,8 +10,6 @@ tags:
 image: "/images/John-Chrysostom-with-Basil-of-Caesarea-and-Gregory-of-Nazianzus-on-a-late-15th-century-icon-of-the-Three-Holy-Hierarchs-from-the-Cathedral-of-St-Sophia2C-Novgorod-3.jpg"
 ---
 
-**[_Read this article in Italian (Leggi questo articolo in italiano) →_](https://un-aligned.org/wp-content/uploads/2021/02/Le-religioni-che-uniscono.pdf)**
-
 People with bigotted or selfish agendas have always tried to hijack religion, but there have always been spiritual adherents who have understood that kindness is paramount and they have highlighted the essence that unites us rather than the dross that divides us. Here are some inspirational quotes from a range of religious thinkers.
 
 ### **Sanskrit Hymn** 

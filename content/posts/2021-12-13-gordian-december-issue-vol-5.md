@@ -340,8 +340,6 @@ The three-quarter pose of the woman's figure suggests that Artemisia had to use 
 
 Despite the obvious points of contact with other figures she painted, in this allegory Artemisia also represents herself in her "nakedness", revealing her true essence to the world, ceasing to be Artemisia the woman, in order expose the very essence of painting as well as the profound and tumultuous creative process that was within her.
 
-[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/05/Italian_-La-liberta-di-scegliere-Dante-uomo-nel-tempo.pdfhttps://drive.google.com/file/d/19EQNEfg39V43iGwnhveF5z_Vb1ZKG8IQ/view?usp=sharing)
-
 ## What you may have missed in November in 2021
 
 ![](/images/Africa-1024x538.jpg)

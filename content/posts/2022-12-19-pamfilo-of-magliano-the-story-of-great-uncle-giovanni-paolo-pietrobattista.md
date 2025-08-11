@@ -107,5 +107,3 @@ In 1876 he published the first two volumes of the Compendious History of St. Fra
 I do not deny that I would have liked to look for the name of the friar who managed to get Giovanni Paolo back to Italy, but then I realised that this search would have been useless because the historical truth and the authenticity of Panfilo's vocation, his works and the enormous cultural heritage and affection he left in America.
 
 A legacy that I touched firsthand during a visit to Saint Bonaventure University. On that occasion I took a tour of Panfilo's landmarks which represented a profound, almost introspective experience for me; a journey that allowed me to visit places and establishments that I had never seen in person, but that somehow felt mine, because in my own way I had already lived them through stories and research. It was like that intimate feeling of being back home.
-
-[Read this article in Italian](https://un-aligned.org/wp-content/uploads/2022/12/Pamfilo-of-Magliano-Lamico-di-tutti-1.pdf)

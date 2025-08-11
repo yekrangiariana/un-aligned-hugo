@@ -15,8 +15,6 @@ _By Adrian Liberto_
 
 ![Doughnut Economy](/images/Doughnut-Economy-1024x614.jpg)
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/04/Italiano_-LEconomia-della-Ciambella.pdf)\_
-
 Over the last few centuries, economics has been dominated by a doctrine of perpetual growth. The prevailing idea was that there were no limits to how much we could exploit the earth and its resources. Today we know better, but sadly, we still behave as though we did not. As Kate Raworth states in her book _Doughnut Economics: Seven Ways to Think Like a 21st-Century Economist_ (2017), the citizens of the next few decades are being cultivated in a mindset that is obsolete for the 21st century as it is “rooted in the textbooks of 1950, which in turn are rooted in the theories of 1850.” This, she points out, is proving to be a veritable disaster.
 
 Kate Raworth first introduced her visual representation of what a healthy economy could look like in a 2012 OXFAM discussion paper titled: [A safe and just space for humanity: can we live within the doughnut?](https://oi-files-d8-prod.s3.eu-west-2.amazonaws.com/s3fs-public/file_attachments/dp-a-safe-and-just-space-for-humanity-130212-en_0_4.pdf) The doughnut represented the safe space where humanity could thrive sandwiched between its inner and outer limits, namely our social and planetary boundaries:
@@ -91,8 +89,6 @@ No doubt, implementing the necessary changes will not be easy, particularly when
 _By Ariana Yekrangi_
 
 ![](/images/GDP-is-an-imposto-1-1024x614.jpg)
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/04/Italiano_-Il-PIL-non-significa-nulla-di-concreto-quindi-perche-lo-utilizziamo-ancora-per-misurare-la-felicita.pdf)\_
 
 GDP is not a suitable measurement for happiness or welfare. It sucks. Assessing the economy using GDP is destroying our planet and the global community and the United Nation’s sustainable development solutions network (SDSN) need to find other suitable alternatives.
 
@@ -223,8 +219,6 @@ _By Carla Pietrobattista_
 
 ![](/images/Santa-Maria-in-Proclantea-1.jpg)
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/04/Italiano_-Popoli-in-cammino-le-storie-dietro-larte.pdf)\_
-
 The perfect balance and harmony that govern the elements present in the church of Santa Maria in the Porclaneta in Rosciolo, Abruzzo, Italy, tends to arouse one’s curiosity with regards to its origins and history. Although much has already been said by historians and art experts, I firmly believe there are still many secrets hidden in the iconography the church is steeped in.
 
 ### **Unexplored secrets** 
@@ -290,8 +284,6 @@ Surely the habits, encounters and ways of living, which according to my interpre
 _By Alex Liberto_
 
 ![](/images/T.S-Eliot-1-1024x614.jpg)
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/04/Italiano_-APRILE-E-IL-MESE-PIU-CRUDELE.pdf)\_
 
 T.S Eliot is perhaps the best example of the modern metaphysical poet. Like the [17th century poet, John Donne](https://un-aligned.org/culture/john-donne-life-career-and-poems/), Eliot veered from the ethereal world of romance and idealisation, to head directly towards a concrete reality through conceits and extended metaphors.
 
@@ -438,8 +430,6 @@ Travel with Ruby Goldenberg to the peculiar Cathedral of Russian armed forces.
 _By Adrian Liberto_
 
 ![](/images/Africa-1024x538.jpg)
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/04/Italiano_-Notize-Marzo-2021.pdf)\_
 
 ### **AFRICA**
 

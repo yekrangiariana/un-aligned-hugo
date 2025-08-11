@@ -17,4 +17,4 @@ UN-aligned recently partnered with [FLED Nicaragua](https://fled.ong/) to transl
 
 The assassination of retired Nicaraguan army officer and outspoken critic of President Daniel Ortega, Roberto Samcam, on June 19 while in exile in Costa Rica, underscores the urgency of the crisis and the critical need to raise international awareness.
 
-[**Read full report ->**](https://un-aligned.org/wp-content/uploads/2025/07/Press-Freedom-Report-January–March-2025-–-Copy.pdf)
+[**Read full report ->**](/PDFs/Press-Freedom-Report-JanuaryMarch-2025.pdf)

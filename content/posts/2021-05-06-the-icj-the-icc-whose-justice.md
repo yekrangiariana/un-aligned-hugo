@@ -13,8 +13,6 @@ tags:
 image: "/images/The-ICJ-the-ICC-A-closer-look-at-the-justice-doppelganger.jpg"
 ---
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/05/Italiano_-La-giustizia-di-chi.pdf)\_
-
 Justice is not a relative term, but for much of our history we have manipulated it to such an extent that we have created a parallel sort of justice. More often than not, human justice is just a sinister doppelgänger of justice in its purest form. This is because human justice depends on laws, and as we all know, laws are biased. The justice of the Inquisition, a sharia court or the sham courts of dictatorial regimes are based on very different laws and therefore profess their own unique brands of justice. The one main thing that they do have in common, though, is that they are self-serving. Being tried by a self-serving court is not justice, but rather, quite the opposite, namely, injustice or anti-justice. However, laws are not the only factor influencing justice, as the mechanisms that are in place to apply these laws also play a crucial part in the administration of justice.
 
 ## **International Law**

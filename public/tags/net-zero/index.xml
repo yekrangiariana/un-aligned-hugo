@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Net Zero on UN-aligned</title><link>https://un-aligned.org/tags/net-zero/</link><description>Recent content in Net Zero on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Tue, 19 Apr 2022 10:30:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/net-zero/index.xml" rel="self" type="application/rss+xml"/><item><title>Policy Making: How to Achieve Net Zero</title><link>https://un-aligned.org/climate-emergency/policy-making-how-to-achieve-net-zero/</link><pubDate>Tue, 19 Apr 2022 10:30:00 +0300</pubDate><author>Partho Pratim Chatterjee</author><guid>https://un-aligned.org/climate-emergency/policy-making-how-to-achieve-net-zero/</guid><description>Offering a brilliant look at technologies that can help tackle climate change.</description><enclosure url="https://un-aligned.org/images/Achieving-next-zero.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Net Zero on UN-aligned</title>
+    <link>http://localhost:1313/tags/net-zero/</link>
+    <description>Recent content in Net Zero on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Tue, 19 Apr 2022 10:30:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/net-zero/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Policy Making: How to Achieve Net Zero</title>
+      <link>http://localhost:1313/climate-emergency/policy-making-how-to-achieve-net-zero/</link>
+      <pubDate>Tue, 19 Apr 2022 10:30:00 +0300</pubDate>
+      <author>Partho Pratim Chatterjee</author>
+      <guid>http://localhost:1313/climate-emergency/policy-making-how-to-achieve-net-zero/</guid>
+      <description>Offering a brilliant look at technologies that can help tackle climate change.</description>
+      <enclosure url="http://localhost:1313/images/Achieving-next-zero.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

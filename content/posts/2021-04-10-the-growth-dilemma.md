@@ -11,7 +11,7 @@ tags:
 image: "/images/The-growth-dilemma-1.jpg"
 ---
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/04/Italiano_-Il-dilemma-della-crescita.pdf)_
+
 
 ## **Transcending simplistic assumptions**
 

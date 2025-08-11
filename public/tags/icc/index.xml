@@ -1,1 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Icc on UN-aligned</title><link>https://un-aligned.org/tags/icc/</link><description>Recent content in Icc on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Mon, 10 Apr 2023 15:09:47 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/icc/index.xml" rel="self" type="application/rss+xml"/><item><title>ICC Pursues Putin: A Sprinkle of Justice in a World of Mischief</title><link>https://un-aligned.org/human-rights/icc-pursues-putin-and-lvova-belova/</link><pubDate>Mon, 10 Apr 2023 15:09:47 +0300</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/human-rights/icc-pursues-putin-and-lvova-belova/</guid><description>The International Criminal Court's arrest warrant for Putin may be a small, symbolic step towards justice, but in a world where accountability is as dead as the dodo, it's a tune worth dancing to.</description><enclosure url="https://un-aligned.org/images/Vladimir-Putin-and-Maria-Lvova-Belova.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Icc on UN-aligned</title>
+    <link>http://localhost:1313/tags/icc/</link>
+    <description>Recent content in Icc on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 10 Apr 2023 15:09:47 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/icc/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ICC Pursues Putin: A Sprinkle of Justice in a World of Mischief</title>
+      <link>http://localhost:1313/human-rights/icc-pursues-putin-and-lvova-belova/</link>
+      <pubDate>Mon, 10 Apr 2023 15:09:47 +0300</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/human-rights/icc-pursues-putin-and-lvova-belova/</guid>
+      <description>The International Criminal Court&#39;s arrest warrant for Putin may be a small, symbolic step towards justice, but in a world where accountability is as dead as the dodo, it&#39;s a tune worth dancing to.</description>
+      <enclosure url="http://localhost:1313/images/Vladimir-Putin-and-Maria-Lvova-Belova.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

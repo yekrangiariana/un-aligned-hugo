@@ -63,5 +63,3 @@ The numerous tabernacles reproducing the Virgin and Child, which responded preci
 The best known Renaissance works, the most studied ones, as I mentioned earlier, have characteristics that certainly make them materially and conceptually unrepeatable. Conversely, the art of the della Robbia can be characterised by a uniqueness of thought rather than an exclusivity of diffusion. Suffice it to say that more than four thousand works were made in their family's workshop.
 
 In addition to having created a new and revolutionary material, I believe that the [della Robbia family](https://www.wga.hu/html_m/r/robbia/index.html) had above all the special merit of having given dignity to this technique, because before them the terracotta sculptures were made only as sketches for sculptural works. Above all, I believe they have given dignity to the users of this new form of art, thanks to which everyone could finally afford to touch the beauty with their own hands.
-
-[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2022/02/Larte-per-tutti-i-della-Robbia.pdf)

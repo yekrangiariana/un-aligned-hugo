@@ -1,1 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sports on UN-aligned</title><link>https://un-aligned.org/categories/sports/</link><description>Recent content in Sports on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Thu, 11 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/categories/sports/index.xml" rel="self" type="application/rss+xml"/><item><title>Wealth at Whistle's Blow: The Importance of Financial Planning for Athletes</title><link>https://un-aligned.org/sports/the-importance-of-financial-planning-for-athletes/</link><pubDate>Thu, 11 Jan 2024 10:00:00 +0200</pubDate><author>Alexander Stoney</author><guid>https://un-aligned.org/sports/the-importance-of-financial-planning-for-athletes/</guid><description>With ink drying on contracts worth millions, young athletes step into a world of wealth and responsibility. How do they handle this sudden fortune, and what impact does it have on their futures?</description><enclosure url="https://un-aligned.org/images/Wealth-at-Whistles-Blow-The-Importance-of-Financial-Planning-for-Athletes.jpg" type="image/jpeg"/></item><item><title>From Table Tennis to the UN: How Kosovo Used Sports for Nation Building</title><link>https://un-aligned.org/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</link><pubDate>Tue, 14 Nov 2023 08:02:00 +0200</pubDate><author>Alexander Stoney</author><guid>https://un-aligned.org/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</guid><description>As a young nation, Kosovo leveraged sports to establish international recognition, power, independence and national pride.</description><enclosure url="https://un-aligned.org/images/From-Table-Tennis-to-the-UN-How-Kosovo-Used-Sport-for-Nation-Building-.jpg" type="image/jpeg"/></item><item><title>Qatar 2022: A World Cup for Straight Men</title><link>https://un-aligned.org/human-rights/qatar-2022-a-world-cup-for-straight-men/</link><pubDate>Tue, 13 Dec 2022 14:30:00 +0200</pubDate><author>mayabearyman</author><guid>https://un-aligned.org/human-rights/qatar-2022-a-world-cup-for-straight-men/</guid><description>FIFA's male-dominated World Cup fails to represent its diverse fan base, but those fighting for equality will persevere.</description><enclosure url="https://un-aligned.org/images/Qatar-2022-A-World-Cup-for-Straight-Men-.jpg" type="image/jpeg"/></item><item><title>Football: ‘Unsuitable for Women’ or were you just not brave enough to see the vision?</title><link>https://un-aligned.org/sports/women-football-not-brave-enough-to-see-the-vision/</link><pubDate>Fri, 09 Sep 2022 10:01:10 +0300</pubDate><author>mayabearyman</author><guid>https://un-aligned.org/sports/women-football-not-brave-enough-to-see-the-vision/</guid><description>Ask any British woman about sexism, and she’ll likely tell you a story of her experience, ask any British woman that played football, and she’ll probably tell you five.</description><enclosure url="https://un-aligned.org/images/Football-%E2%80%98Unsuitable-for-Women-or-were-you-just-not-brave-enough-to-see-the-vision-.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sports on UN-aligned</title>
+    <link>http://localhost:1313/categories/sports/</link>
+    <description>Recent content in Sports on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Thu, 11 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/sports/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Wealth at Whistle&#39;s Blow: The Importance of Financial Planning for Athletes</title>
+      <link>http://localhost:1313/sports/the-importance-of-financial-planning-for-athletes/</link>
+      <pubDate>Thu, 11 Jan 2024 10:00:00 +0200</pubDate>
+      <author>Alexander Stoney</author>
+      <guid>http://localhost:1313/sports/the-importance-of-financial-planning-for-athletes/</guid>
+      <description>With ink drying on contracts worth millions, young athletes step into a world of wealth and responsibility. How do they handle this sudden fortune, and what impact does it have on their futures?</description>
+      <enclosure url="http://localhost:1313/images/Wealth-at-Whistles-Blow-The-Importance-of-Financial-Planning-for-Athletes.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>From Table Tennis to the UN: How Kosovo Used Sports for Nation Building</title>
+      <link>http://localhost:1313/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</link>
+      <pubDate>Tue, 14 Nov 2023 08:02:00 +0200</pubDate>
+      <author>Alexander Stoney</author>
+      <guid>http://localhost:1313/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</guid>
+      <description>As a young nation, Kosovo leveraged sports to establish international recognition, power, independence and national pride.</description>
+      <enclosure url="http://localhost:1313/images/From-Table-Tennis-to-the-UN-How-Kosovo-Used-Sport-for-Nation-Building-.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Qatar 2022: A World Cup for Straight Men</title>
+      <link>http://localhost:1313/human-rights/qatar-2022-a-world-cup-for-straight-men/</link>
+      <pubDate>Tue, 13 Dec 2022 14:30:00 +0200</pubDate>
+      <author>mayabearyman</author>
+      <guid>http://localhost:1313/human-rights/qatar-2022-a-world-cup-for-straight-men/</guid>
+      <description>FIFA&#39;s male-dominated World Cup fails to represent its diverse fan base, but those fighting for equality will persevere.</description>
+      <enclosure url="http://localhost:1313/images/Qatar-2022-A-World-Cup-for-Straight-Men-.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Football: ‘Unsuitable for Women’ or were you just not brave enough to see the vision?</title>
+      <link>http://localhost:1313/sports/women-football-not-brave-enough-to-see-the-vision/</link>
+      <pubDate>Fri, 09 Sep 2022 10:01:10 +0300</pubDate>
+      <author>mayabearyman</author>
+      <guid>http://localhost:1313/sports/women-football-not-brave-enough-to-see-the-vision/</guid>
+      <description>Ask any British woman about sexism, and she’ll likely tell you a story of her experience, ask any British woman that played football, and she’ll probably tell you five.</description>
+      <enclosure url="http://localhost:1313/images/Football-%E2%80%98Unsuitable-for-Women-or-were-you-just-not-brave-enough-to-see-the-vision-.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

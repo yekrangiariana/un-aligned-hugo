@@ -80,5 +80,3 @@ Although Donne’s sermons and meditations are based on the fundamentals of Chri
 Connection and compassion are vital. They offer a sense of belonging, of being part of a whole, one of the most essential of all human needs. Reflecting on our common humanity, we can appreciate that we all, at heart, want to be spiritually empathetic and in unison with mankind and the universe. We all have an innate desire to avoid suffering and be happy.  
 
 Donne’s _No Man Is an Island_ cultivates this ecumenical desire by reflecting on our awareness of the essential oneness with the rest of humanity.
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-Donne-Donne-Donne…-Per-chi-suona-la-campana.pdf)_

@@ -1,3 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Get to Know Our Members on UN-aligned</title><link>https://un-aligned.org/tags/get-to-know-our-members/</link><description>Recent content in Get to Know Our Members on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Fri, 18 Feb 2022 11:46:06 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/get-to-know-our-members/index.xml" rel="self" type="application/rss+xml"/><item><title>'Standing up for the planet': An interview with climate activist Partho Chatterjee</title><link>https://un-aligned.org/climate-emergency/interview-with-partho-pratim-chatterjee/</link><pubDate>Fri, 18 Feb 2022 11:46:06 +0200</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/climate-emergency/interview-with-partho-pratim-chatterjee/</guid><description>&lt;p>I am Partho Pratim Chatterjee, a citizen of India and a member of UN-aligned. I hail from the mineral rich eastern state of Jharkhand. I am an engineer by profession and working in the capacity of Co-Founder and Technical Advisor of &lt;a href="https://www.adityabioinnovation.in/">Aditya Bioinnovation&lt;/a> Private Limited, Nagpur, India. I have a keen penchant for eco-friendly technologies which include clean nanofluids, clean energy and clean transportation. My hobbies include penning poems and biodiversity exploration. &lt;/p></description><enclosure url="https://un-aligned.org/images/Partho-interview.jpg" type="image/jpeg"/></item><item><title>"I want UN-aligned to be a place where people can come together without being judged": Interview with Katharina Wüstnienhaus</title><link>https://un-aligned.org/interview/get-to-know-our-members-katha-from-germany/</link><pubDate>Thu, 13 Aug 2020 10:55:00 +0300</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/interview/get-to-know-our-members-katha-from-germany/</guid><description>&lt;p>This interview is part of an ongoing series about our members and how they wish to take charge of UN-aligned and use it as a beacon for hope and change. If you wish to participate in these interviews, please &lt;a href="https://un-aligned.org/about/contact/register/">contact us&lt;/a>.&lt;/p>
-&lt;p>Question: Tell us a little about yourself Katha. What is your background? Where do you live? What are some of your hobbies and things you are passionate about?&lt;/p>
-&lt;p>I am from the westernmost part of Germany, only a bike ride away from the Netherlands. I have recently quitted my job in Berlin because I wanted to travel; unfortunately, this just happened when the Covid-19 pandemic hit us, so I decided to move back home and stay here instead. I enjoy music, being surrounded by nature, travelling and making friends.&lt;/p></description><enclosure url="https://un-aligned.org/images/6.jpg.webp" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Get to Know Our Members on UN-aligned</title>
+    <link>http://localhost:1313/tags/get-to-know-our-members/</link>
+    <description>Recent content in Get to Know Our Members on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Fri, 18 Feb 2022 11:46:06 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/get-to-know-our-members/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#39;Standing up for the planet&#39;: An interview with climate activist Partho Chatterjee</title>
+      <link>http://localhost:1313/climate-emergency/interview-with-partho-pratim-chatterjee/</link>
+      <pubDate>Fri, 18 Feb 2022 11:46:06 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/climate-emergency/interview-with-partho-pratim-chatterjee/</guid>
+      <description>&lt;p&gt;I am Partho Pratim Chatterjee, a citizen of India and a member of UN-aligned. I hail from the mineral rich eastern state of Jharkhand. I am an engineer by profession and working in the capacity of Co-Founder and Technical Advisor of &lt;a href=&#34;https://www.adityabioinnovation.in/&#34;&gt;Aditya Bioinnovation&lt;/a&gt; Private Limited, Nagpur, India. I have a keen penchant for eco-friendly technologies which include clean nanofluids, clean energy and clean transportation. My hobbies include penning poems and biodiversity exploration. &lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/Partho-interview.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>&#34;I want UN-aligned to be a place where people can come together without being judged&#34;: Interview with Katharina Wüstnienhaus</title>
+      <link>http://localhost:1313/interview/get-to-know-our-members-katha-from-germany/</link>
+      <pubDate>Thu, 13 Aug 2020 10:55:00 +0300</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/interview/get-to-know-our-members-katha-from-germany/</guid>
+      <description>&lt;p&gt;This interview is part of an ongoing series about our members and how they wish to take charge of UN-aligned and use it as a beacon for hope and change. If you wish to participate in these interviews, please &lt;a href=&#34;https://un-aligned.org/about/contact/register/&#34;&gt;contact us&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Question: Tell us a little about yourself Katha. What is your background? Where do you live? What are some of your hobbies and things you are passionate about?&lt;/p&gt;
+&lt;p&gt;I am from the westernmost part of Germany, only a bike ride away from the Netherlands. I have recently quitted my job in Berlin because I wanted to travel; unfortunately, this just happened when the Covid-19 pandemic hit us, so I decided to move back home and stay here instead. I enjoy music, being surrounded by nature, travelling and making friends.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/6.jpg.webp" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

@@ -131,5 +131,3 @@ Notwithstanding that I am against the censorship of thought and that I believe t
 Pompeii itself has given us strong and colourful attacks, for personal or political reasons, against some people of the city. It has even presented us the rates of brothels, but next to these more immediate and impetuous manifestations of human life, it has also transmitted writings that are real jewels. I refer to phrases created to disclose and celebrate feelings through carefully chosen words as if they were poetry.
 
 My perplexity about some graffiti is not the result of false and sterile respectability. I firmly believe that everyone must be aware that what we express through drawings or graphic signs reveals nothing less than our true and intimate nature. We must therefore choose with deep awareness what we want to convey about ourselves and the means through which to express it, remembering that… 'Scripta Manent'.
-
-[Read this article in Italian.](https://un-aligned.org/wp-content/uploads/2022/07/Italiano-Scripta-Manent.pdf)

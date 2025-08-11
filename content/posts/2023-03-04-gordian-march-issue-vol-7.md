@@ -691,8 +691,6 @@ The Conversion of St. Paul is a powerful representation of a transformative mome
 
 The painting exemplifies Caravaggio's break from the traditional aesthetic criteria of his time, making it a testament to his artistic vision and courage to follow it.
 
-- [**Read this article in Italian.**](https://un-aligned.org/wp-content/uploads/2023/03/Conversione-di-San-Paolo.pdf)
-
 ## Unlocking the Power of a Thriving Bioeconomy
 
 By Partho Pratim Chatterjee and Pradeep Kumar Chatterjee

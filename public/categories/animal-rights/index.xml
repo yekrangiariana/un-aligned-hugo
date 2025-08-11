@@ -1,2 +1,82 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Animal Rights on UN-aligned</title><link>https://un-aligned.org/categories/animal-rights/</link><description>Recent content in Animal Rights on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Sat, 22 Oct 2022 08:00:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/categories/animal-rights/index.xml" rel="self" type="application/rss+xml"/><item><title>How CalAnimals is making a difference for animals in California</title><link>https://un-aligned.org/animal-rights/how-californias-animal-welfare-association-calanimals-is-caring-for-thousands-animals-across-the-state/</link><pubDate>Sat, 22 Oct 2022 08:00:00 +0300</pubDate><author>Victoria-Davila</author><guid>https://un-aligned.org/animal-rights/how-californias-animal-welfare-association-calanimals-is-caring-for-thousands-animals-across-the-state/</guid><description>&lt;p>Like many people who love their companion animals, it may be surprising how so many animals wind up in shelters unclaimed, says Jill Tucker, CEO of California Animal Welfare Association&lt;/p>
-&lt;p>Tucker, who originally started her career in software, shifted into the animal sector in 2003, where she moved from California to Vermont to run an animal humane society organisation. From starting as a foster parent to making her way as the president of that same organisation, Tucker found herself as a leader in protecting animals.&lt;/p></description><enclosure url="https://un-aligned.org/images/Californias-Animal-Welfare-Association.jpg" type="image/jpeg"/></item><item><title>The WHO warns of pathogenic outbreaks threatening Africa</title><link>https://un-aligned.org/animal-rights/the-who-warns-of-pathogenic-outbreaks-threatening-africa/</link><pubDate>Mon, 12 Sep 2022 16:00:00 +0300</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/animal-rights/the-who-warns-of-pathogenic-outbreaks-threatening-africa/</guid><description>The WHO regional director for Africa, Matshidiso Moeti, warned of a growing risk of pathogenic outbreaks on the continent, caused by human proximity to wild and domesticated animals.</description><enclosure url="https://un-aligned.org/images/The-WHO-warns-of-pathogenic-outbreaks-threatening-Africa-.jpg" type="image/jpeg"/></item><item><title>Join the campaign to save cruelty-free cosmetics</title><link>https://un-aligned.org/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</link><pubDate>Tue, 09 Nov 2021 10:13:14 +0200</pubDate><author>Jonna.Lappalainen</author><guid>https://un-aligned.org/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</guid><description>On 15th September 2021, the European Parliament voted in favor of a resolution that demands an EU-wide action plan to end the use of animals in testing and research. It also calls for sufficient fundings for developing non-animal testing methods further. Give your support for cruelty-free cosmetics in the EU and join PETA and others by signing the European citizens’ initiative.</description><enclosure url="https://un-aligned.org/images/oin-the-campaign-to-save-cruelty-free-cosmetics.jpg" type="image/jpeg"/></item><item><title>How cultivated meat can save the planet</title><link>https://un-aligned.org/animal-rights/how-cultivated-meat-can-save-the-planet/</link><pubDate>Tue, 12 Jan 2021 10:00:00 +0200</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/animal-rights/how-cultivated-meat-can-save-the-planet/</guid><description>Cultivated meat will present a futuristic alternative to the callous, unwieldy and unnecessarily wasteful way animals are farmed today.</description><enclosure url="https://un-aligned.org/images/imasge.jpg" type="image/jpeg"/></item><item><title>Accidentally Vegan Feature?</title><link>https://un-aligned.org/animal-rights/accidentally-vegan-feature/</link><pubDate>Wed, 06 Jan 2021 10:00:00 +0200</pubDate><author>rubygoldenberg</author><guid>https://un-aligned.org/animal-rights/accidentally-vegan-feature/</guid><description>&lt;p>If you’ve pondered veganism but haven’t yet followed through, it may be that you are put off by the myth of the diet being restricted. As with any lifestyle change, slow and steady tends to lead to longevity. It is much better to gradually cut animal products from your diet permanently than trying to be a strict vegan for a month, falling off the wagon, and being put off enough to never try it again.&lt;/p></description><enclosure url="https://un-aligned.org/images/Featured-images-Jan-2021-1200x630-1.jpg" type="image/jpeg"/></item><item><title>Giving voice to the the voiceless: Animal Equality’s Global Fight for Farmed Animals</title><link>https://un-aligned.org/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</link><pubDate>Tue, 05 Jan 2021 10:00:00 +0200</pubDate><author>Animal Equality</author><guid>https://un-aligned.org/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</guid><description>Founded in Spain in 2006, Animal Equality is now a global leader in defending farmed animals, using investigations, corporate reform and public action to expose cruelty and drive lasting change.</description><enclosure url="https://un-aligned.org/images/4-1.jpg" type="image/jpeg"/></item><item><title>Annus Horribilis? Looking on the brighter side of 2020</title><link>https://un-aligned.org/animal-rights/annus-horribilis-looking-on-the-brighter-side-of-2020/</link><pubDate>Mon, 04 Jan 2021 12:25:56 +0200</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/animal-rights/annus-horribilis-looking-on-the-brighter-side-of-2020/</guid><description>2020 has certainly been an Annus Horribilis, but it wasn’t all bad.</description><enclosure url="https://un-aligned.org/images/Featured-images-Jan-2021-1200x630-2.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Animal Rights on UN-aligned</title>
+    <link>http://localhost:1313/categories/animal-rights/</link>
+    <description>Recent content in Animal Rights on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 22 Oct 2022 08:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/animal-rights/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How CalAnimals is making a difference for animals in California</title>
+      <link>http://localhost:1313/animal-rights/how-californias-animal-welfare-association-calanimals-is-caring-for-thousands-animals-across-the-state/</link>
+      <pubDate>Sat, 22 Oct 2022 08:00:00 +0300</pubDate>
+      <author>Victoria-Davila</author>
+      <guid>http://localhost:1313/animal-rights/how-californias-animal-welfare-association-calanimals-is-caring-for-thousands-animals-across-the-state/</guid>
+      <description>&lt;p&gt;Like many people who love their companion animals, it may be surprising how so many animals wind up in shelters unclaimed, says Jill Tucker, CEO of California Animal Welfare Association&lt;/p&gt;
+&lt;p&gt;Tucker, who originally started her career in software, shifted into the animal sector in 2003, where she moved from California to Vermont to run an animal humane society organisation. From starting as a foster parent to making her way as the president of that same organisation, Tucker found herself as a leader in protecting animals.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/Californias-Animal-Welfare-Association.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>The WHO warns of pathogenic outbreaks  threatening Africa</title>
+      <link>http://localhost:1313/animal-rights/the-who-warns-of-pathogenic-outbreaks-threatening-africa/</link>
+      <pubDate>Mon, 12 Sep 2022 16:00:00 +0300</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/animal-rights/the-who-warns-of-pathogenic-outbreaks-threatening-africa/</guid>
+      <description>The WHO regional director for Africa, Matshidiso Moeti, warned of a growing risk of pathogenic outbreaks on the continent, caused by human proximity to wild and domesticated animals.</description>
+      <enclosure url="http://localhost:1313/images/The-WHO-warns-of-pathogenic-outbreaks-threatening-Africa-.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Join the campaign to save cruelty-free cosmetics</title>
+      <link>http://localhost:1313/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</link>
+      <pubDate>Tue, 09 Nov 2021 10:13:14 +0200</pubDate>
+      <author>Jonna.Lappalainen</author>
+      <guid>http://localhost:1313/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</guid>
+      <description>On 15th September 2021, the European Parliament voted in favor of a resolution that demands an EU-wide action plan to end the use of animals in testing and research. It also calls for sufficient fundings for developing non-animal testing methods further. Give your support for cruelty-free cosmetics in the EU and join PETA and others by signing the European citizens’ initiative.</description>
+      <enclosure url="http://localhost:1313/images/oin-the-campaign-to-save-cruelty-free-cosmetics.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>How cultivated meat can save the planet</title>
+      <link>http://localhost:1313/animal-rights/how-cultivated-meat-can-save-the-planet/</link>
+      <pubDate>Tue, 12 Jan 2021 10:00:00 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/animal-rights/how-cultivated-meat-can-save-the-planet/</guid>
+      <description>Cultivated meat will present a futuristic alternative to the callous, unwieldy and unnecessarily wasteful way animals are farmed today.</description>
+      <enclosure url="http://localhost:1313/images/imasge.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Accidentally Vegan Feature?</title>
+      <link>http://localhost:1313/animal-rights/accidentally-vegan-feature/</link>
+      <pubDate>Wed, 06 Jan 2021 10:00:00 +0200</pubDate>
+      <author>rubygoldenberg</author>
+      <guid>http://localhost:1313/animal-rights/accidentally-vegan-feature/</guid>
+      <description>&lt;p&gt;If you’ve pondered veganism but haven’t yet followed through, it may be that you are put off by the myth of the diet being restricted. As with any lifestyle change, slow and steady tends to lead to longevity. It is much better to gradually cut animal products from your diet permanently than trying to be a strict vegan for a month, falling off the wagon, and being put off enough to never try it again.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/Featured-images-Jan-2021-1200x630-1.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Giving voice to the the voiceless: Animal Equality’s Global Fight for Farmed Animals</title>
+      <link>http://localhost:1313/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</link>
+      <pubDate>Tue, 05 Jan 2021 10:00:00 +0200</pubDate>
+      <author>Animal Equality</author>
+      <guid>http://localhost:1313/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</guid>
+      <description>Founded in Spain in 2006, Animal Equality is now a global leader in defending farmed animals, using investigations, corporate reform and public action to expose cruelty and drive lasting change.</description>
+      <enclosure url="http://localhost:1313/images/4-1.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Annus Horribilis? Looking on the brighter side of 2020</title>
+      <link>http://localhost:1313/animal-rights/annus-horribilis-looking-on-the-brighter-side-of-2020/</link>
+      <pubDate>Mon, 04 Jan 2021 12:25:56 +0200</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/animal-rights/annus-horribilis-looking-on-the-brighter-side-of-2020/</guid>
+      <description>2020 has certainly been an Annus Horribilis, but it wasn’t all bad.</description>
+      <enclosure url="http://localhost:1313/images/Featured-images-Jan-2021-1200x630-2.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

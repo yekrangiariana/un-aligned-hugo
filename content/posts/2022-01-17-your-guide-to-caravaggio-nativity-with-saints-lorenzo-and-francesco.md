@@ -96,5 +96,3 @@ Among the various characters on the canvas, the one who most of all breaks the m
 The saint, despite being depicted with white hair, does not convey the same idea of ​​old age present in almost all the works that portray him. In fact, Joseph's body speaks to us of something else, his muscular legs, his broad shoulders are those of a strong, young man. The dynamic pose, reserved exclusively for him, conveys the idea of ​​a muscular tension almost completely absent in the other subjects depicted.
 
 This very different and new vision of Giuseppe is even more emphasised by the bright green colour of his robe, a colour that is rarely reserved for this character. The dialogue between Joseph and the shepherd is then completely compatible, in my opinion, with the artistic vision of Caravaggio. A vision that has always led him to choose the faces of his characters from among the humblest, offering them that dignity that society, the real world, too often denied them.
-
-[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2022/01/La-nativita-perduta.pdf)

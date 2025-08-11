@@ -82,8 +82,6 @@ _By Adrian Liberto_
 President of ICC Judge Piotr Hofmański and Xue Hanqin vice-president of the ICJ
 
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/05/Italiano_-La-giustizia-di-chi.pdf)\_
-
 Justice is not a relative term, but for much of our history we have manipulated it to such an extent that we have created a parallel sort of justice. More often than not, human justice is just a sinister doppelgänger of justice in its purest form. This is because human justice depends on laws, and as we all know, laws are biased. The justice of the Inquisition, a sharia court or the sham courts of dictatorial regimes are based on very different laws and therefore profess their own unique brands of justice. The one main thing that they do have in common, though, is that they are self-serving. Being tried by a self-serving court is not justice, but rather, quite the opposite, namely, injustice or anti-justice. However, laws are not the only factor influencing justice, as the mechanisms that are in place to apply these laws also play a crucial part in the administration of justice.
 
 ### **International Law**
@@ -171,9 +169,6 @@ _By Ayten Aydin_
 
 Easter Island, Ahu Tongariki. Photo by Arian Zwegers/Flickr
 
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/05/Italian_-La-trasmutazione-antropologica-umana.pdf)\_
-
 In the Palaeozoic era, an order of molluscs with red shells, called ammonites, had spread through all the sea since they had the ability not just to live underwater, but also to expel water from their shell and thus rise and descend. Their success with respect to other forms of life led them to reproduce until they saturated their environment and became extinct. The reason is the uncontainable growth of the species.
 
 The large stone statues that we see today on Easter Island are the visible trace of the passage of a population that died out following the total deforestation of the land. The source of life on the island was in fact the very trees that were used for the transport and erection of those totems, symbols of political and religious power.
@@ -203,9 +198,6 @@ _By Carla Pietrobattista_
 ![](/images/700-years-of-dante-1024x614.jpg)
 
 Joseph Anton Koch – Inferno (1825-28)
-
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/05/Italian_-La-liberta-di-scegliere-Dante-uomo-nel-tempo.pdf)\_
 
 The following article is taken from a speech given by Carla Pietrobattista on Dante Day, March 25, which is traditionally held as the day the “divine poet” started his masterpiece, the _Divine Comedy_. 2021 also marks the 700th anniversary of Dante’s death. The event was presided by the Mayor of Magliano dei Marsi, Pasqualino di Cristofano. Ms. Pietrobattista will also be collaborating on the new Art Section of _The Gordian_, which will start next month.
 
@@ -297,8 +289,6 @@ On May 1st, 1890, demonstrators called by the Second International gathered toge
 [Open gallery →](https://un-aligned.org/gallery/may-day-protests-and-celebrations-in-pictures/)
 
 ## **News in May 2021 you may have missed**
-
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/05/Italiano_-Notizie-Aprile-2021.pdf)\_
 
 ![](/images/Africa-1024x538.jpg)
 

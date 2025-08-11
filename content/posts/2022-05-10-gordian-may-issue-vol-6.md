@@ -645,8 +645,6 @@ Examples of the censored parts.
 
 In the course of their lives, people try to dress up their weaknesses in an obstinate search for external decorum: a perfection of form which, however, too often is not a perfection of substance. This decorum, or rather this show of it, built with attention and clear awareness throughout one’s life, fades at the moment of judgement. When we are no longer the judges of ourselves, this charade is swept away by the truth that makes us naked in front of our deep nature and the tally of our actions.
 
-[Read this article in Italian.](https://un-aligned.org/wp-content/uploads/2022/05/Il-giudizio-universale-di-Michelangelo-Buonarroti.pdf)
-
 ## Where water is a gift: The outskirts of Nairobi in pictures
 
 By Anahita Ahmadi, Senior Photographer of The Gordian

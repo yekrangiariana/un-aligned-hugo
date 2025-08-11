@@ -591,8 +591,6 @@ Now, paradoxically, the head is still full of life, generating a scream, a pain 
 
 That scream, that frightened and crazy look that those who closely observe death have, are the scream and the look of Caravaggio. He painted himself on the head of Medusa and signed himself in the blood that comes out of the severed head with "Michelangelo fecit". A latter formula that we will also find years later in the altarpiece of the "Slaughtered Baptist", when the name Michelangelo and the fecit were imprinted again in the blood as if to seal a consecration, a complete belonging to art.
 
-[Read this article in Italian →](https://un-aligned.org/wp-content/uploads/2022/10/LApparir-del-vero.pdf)
-
 ## David Herbert Lawrence: The Freudian who hated industrialisation
 
 By Alex Liberto

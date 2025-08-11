@@ -10,8 +10,6 @@ tags:
 image: "/images/Africa.jpg"
 ---
 
-_[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-notizie-nel-febbraio-2021-che-potresti-esserti-perso.pdf)\_
-
 ## **AFRICA**
 
 01.02.21: **Somalia.** Al-Shabab militants stormed the Afrik Hotel in the capital Mogadishu and started shooting at guests. At least nine people were killed including a former military general and four of the assailants.

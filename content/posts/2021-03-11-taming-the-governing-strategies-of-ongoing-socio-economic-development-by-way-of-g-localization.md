@@ -10,8 +10,6 @@ categories:
 image: "/images/Design-03.03.jpg"
 ---
 
-[_Read this article in Italian (Leggi questo articolo in italiano) →_](https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-Domare-le-strategie-che-governano-lo-sviluppo-socio-economico-in-corso-attraverso-la-G-Localizzazione.pdf)
-
 ## **Ultimate goal and Foregrounding**
 
 The aim of this reflection is to create favourable conditions for progress by mobilizing the intellectual, spiritual and material forces with a sense of belonging to one and the same human community. This requires finding new ways of living in society and of facing the future together. Living organisms compete for resources, but collaborate for sustaining life on Earth.

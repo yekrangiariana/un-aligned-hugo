@@ -532,8 +532,6 @@ In this discourse of similarities and parallels, the figure of Minos has always 
 
 Both Dante and Michelangelo had complex personalities and a great awareness of their own value, yet both represented themselves in their works on tiptoe. Dante presents himself as a mere spectator of the divine will, Michelangelo as a skin without a body in the face of the greatness of what was happening. The two artists wanted to celebrate their thoughts and their inspiration more than their personal glory. In so doing, they have given us messages that after centuries continue to vibrate in the souls of those who know how to welcome them.
 
-[Read this article in Italian (Leggi questo articolo in italiano) →](https://un-aligned.org/wp-content/uploads/2022/04/CERCHI-NELLACQUA_-linfluenza-di-Dante-su-Michelangelo.pdf)
-
 ## Poems for a better world: This War of MMXXII
 
 By Usha Roopnarain

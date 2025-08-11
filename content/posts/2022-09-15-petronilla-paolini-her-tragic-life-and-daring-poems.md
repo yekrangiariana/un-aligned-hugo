@@ -75,5 +75,3 @@ I saw in her a woman who lived two distinct lives. In the first, she was a belov
 Nevertheless, it is remarkable how much of Petronilla's life took place behind closed doors; first those of the convent, then those of Castel Sant 'Angelo. Yet these cages did not really lock her up; Petronilla broke through them with the only weapon she had at her disposal: her art.
 
 Through her works, she has been able to teach us that no one should be crushed by their own destiny. Everyone can decide to write their own story with the same courage, the same conscious determination of Petronilla, a woman and a poet.
-
-[Read this article in Italian.](https://un-aligned.org/wp-content/uploads/2022/09/Petronilla-Paolini_-una-donna-e-una-poetessa.pdf)

@@ -134,5 +134,3 @@ The essence of art appreciation lies in understanding and contextualising a piec
 In the next attempt, the author approached the exam with a focus on memorising numbers and dates, but years later, none of these details were retained. In contrast, every single detail of subsequent art studies, including the Doni Tondo and other remarkable works, was remembered vividly because they were understood and contextualised.
 
 The true value of art appreciation comes from immersing oneself in the story and context behind a work of art, enabling a deeper connection and understanding that goes beyond sterile facts and figures.
-
-- [Read this article in Italian](https://un-aligned.org/wp-content/uploads/2022/06/Tondo-Doni-Analisi.pdf)

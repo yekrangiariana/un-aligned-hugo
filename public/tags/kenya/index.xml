@@ -1,11 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Kenya on UN-aligned</title><link>https://un-aligned.org/tags/kenya/</link><description>Recent content in Kenya on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Sat, 14 Jan 2023 06:40:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/kenya/index.xml" rel="self" type="application/rss+xml"/><item><title>The Fight to Eliminate Jiggers Disease - In Pictures</title><link>https://un-aligned.org/gallery/the-fight-to-eliminate-jiggers-disease-in-pictures/</link><pubDate>Sat, 14 Jan 2023 06:40:00 +0200</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/gallery/the-fight-to-eliminate-jiggers-disease-in-pictures/</guid><description>Joe Wain’s collection of photos portray the devastating effects of Jiggers Disease in Kenya.</description><enclosure url="https://un-aligned.org/images/Children-receive-treatment-for-jiggers-africa-2.jpg" type="image/jpeg"/></item><item><title>Where water is a gift: The outskirts of Nairobi in pictures</title><link>https://un-aligned.org/gallery/where-water-is-a-gift-the-outskirts-of-nairobi-in-pictures/</link><pubDate>Tue, 10 May 2022 07:30:00 +0300</pubDate><author>anahitaahmadi</author><guid>https://un-aligned.org/gallery/where-water-is-a-gift-the-outskirts-of-nairobi-in-pictures/</guid><description>&lt;p>&lt;img src="https://un-aligned.org/images/IMG_7996-1024x768.jpg" alt="">&lt;/p>
-&lt;p>A female tailor living in her one-roomed house made with corrugated metal sheets. © Anahita Ahmadi&lt;/p>
-&lt;p>&lt;img src="https://un-aligned.org/images/IMG_7787-2-1024x768.jpg" alt="">&lt;/p>
-&lt;p>Two girls from the Masai tribe. In this tribe, literacy for girls has no value and families consider it  just a waste of money. © Anahita Ahmadi&lt;/p>
-&lt;p>&lt;img src="https://un-aligned.org/images/IMG_8019-1024x819.jpg" alt="">&lt;/p>
-&lt;p>A family in Gaucho, the suburbs of Nairobi. © Anahita Ahmadi&lt;/p>
-&lt;p>&lt;img src="https://un-aligned.org/images/IMG_7890-1024x682.jpg" alt="">&lt;/p>
-&lt;p>The containers that are used to carry water were used for storing fertilisers or oil. The water in basins and pumps is often contaminated. © Anahita Ahmadi&lt;/p></description><enclosure url="https://un-aligned.org/images/IMG_8036.jpg" type="image/jpeg"/></item><item><title>Portraits from Tanzania - In Pictures</title><link>https://un-aligned.org/gallery/portraits-from-tanzania-in-pictures/</link><pubDate>Wed, 06 Apr 2022 07:15:00 +0300</pubDate><author>anahitaahmadi</author><guid>https://un-aligned.org/gallery/portraits-from-tanzania-in-pictures/</guid><description>Anahita Ahmadi's gallery consisting of portrait of Maasai people in Kenya.</description><enclosure url="https://un-aligned.org/images/Maasai-woman-Tooth-extraction-7631.jpg" type="image/jpeg"/></item><item><title>Photographer Anwar Sadat: “If you listen, people are always willing to talk”</title><link>https://un-aligned.org/interview/a-conversation-with-photographer-anwar-sadat/</link><pubDate>Sat, 06 Mar 2021 16:28:01 +0200</pubDate><author>Adrian Liberto</author><guid>https://un-aligned.org/interview/a-conversation-with-photographer-anwar-sadat/</guid><description>&lt;p>On the 15th of February 2021, the 2020 UN-aligned photo competition winner, Anwar Sadat, tells us about the story behind his prize-winning photos and his love for photography.&lt;/p>
-&lt;p>_&lt;a href="https://un-aligned.org/wp-content/uploads/2021/03/Italiano_-22Se-ascolti-le-persone-sono-sempre-disponibili-a-parlare22-Una-conversazione-con-il-fotografo-Anwar-Sadat.pdf">Read this article in Italian (Leggi questo articolo in italiano) →&lt;/a>_&lt;/p>
-&lt;h2 id="could-you-tell-us-a-bit-about-yourself-and-your-love-for-photography">&lt;strong>Could you tell us a bit about yourself and your love for photography?&lt;/strong>&lt;/h2>
-&lt;p>Well, my name is Anwar Sadat and I am a photographer based in Nairobi Kenya. My focus in photography is documentary, photojournalism, street reportage and portraiture. I often tell stories of the buzzing streets of Nairobi and my community that often go unseen and unnoticed.&lt;/p></description><enclosure url="https://un-aligned.org/images/IMG_0228-copy-2.jpg" type="image/jpeg"/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kenya on UN-aligned</title>
+    <link>http://localhost:1313/tags/kenya/</link>
+    <description>Recent content in Kenya on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Sat, 14 Jan 2023 06:40:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/kenya/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The Fight to Eliminate Jiggers Disease - In Pictures</title>
+      <link>http://localhost:1313/gallery/the-fight-to-eliminate-jiggers-disease-in-pictures/</link>
+      <pubDate>Sat, 14 Jan 2023 06:40:00 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>http://localhost:1313/gallery/the-fight-to-eliminate-jiggers-disease-in-pictures/</guid>
+      <description>Joe Wain’s collection of photos portray the devastating effects of Jiggers Disease in Kenya.</description>
+      <enclosure url="http://localhost:1313/images/Children-receive-treatment-for-jiggers-africa-2.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Where water is a gift: The outskirts of Nairobi in pictures</title>
+      <link>http://localhost:1313/gallery/where-water-is-a-gift-the-outskirts-of-nairobi-in-pictures/</link>
+      <pubDate>Tue, 10 May 2022 07:30:00 +0300</pubDate>
+      <author>anahitaahmadi</author>
+      <guid>http://localhost:1313/gallery/where-water-is-a-gift-the-outskirts-of-nairobi-in-pictures/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/IMG_7996-1024x768.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A female tailor living in her one-roomed house made with corrugated metal sheets. © Anahita Ahmadi&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/IMG_7787-2-1024x768.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Two girls from the Masai tribe. In this tribe, literacy for girls has no value and families consider it  just a waste of money. © Anahita Ahmadi&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/IMG_8019-1024x819.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;A family in Gaucho, the suburbs of Nairobi. © Anahita Ahmadi&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/IMG_7890-1024x682.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;The containers that are used to carry water were used for storing fertilisers or oil. The water in basins and pumps is often contaminated. © Anahita Ahmadi&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/IMG_8036.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Portraits from Tanzania - In Pictures</title>
+      <link>http://localhost:1313/gallery/portraits-from-tanzania-in-pictures/</link>
+      <pubDate>Wed, 06 Apr 2022 07:15:00 +0300</pubDate>
+      <author>anahitaahmadi</author>
+      <guid>http://localhost:1313/gallery/portraits-from-tanzania-in-pictures/</guid>
+      <description>Anahita Ahmadi&#39;s gallery consisting of portrait of Maasai people in Kenya.</description>
+      <enclosure url="http://localhost:1313/images/Maasai-woman-Tooth-extraction-7631.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Photographer Anwar Sadat: “If you listen, people are always willing to talk”</title>
+      <link>http://localhost:1313/interview/a-conversation-with-photographer-anwar-sadat/</link>
+      <pubDate>Sat, 06 Mar 2021 16:28:01 +0200</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/interview/a-conversation-with-photographer-anwar-sadat/</guid>
+      <description>&lt;p&gt;On the 15th of February 2021, the 2020 UN-aligned photo competition winner, Anwar Sadat, tells us about the story behind his prize-winning photos and his love for photography.&lt;/p&gt;
+&lt;h2 id=&#34;could-you-tell-us-a-bit-about-yourself-and-your-love-for-photography&#34;&gt;&lt;strong&gt;Could you tell us a bit about yourself and your love for photography?&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Well, my name is Anwar Sadat and I am a photographer based in Nairobi Kenya. My focus in photography is documentary, photojournalism, street reportage and portraiture. I often tell stories of the buzzing streets of Nairobi and my community that often go unseen and unnoticed.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/IMG_0228-copy-2.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>
