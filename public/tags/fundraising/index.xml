@@ -1,22 +1,2 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Fundraising on UN-aligned</title>
-    <link>http://localhost:1313/tags/fundraising/</link>
-    <description>Recent content in Fundraising on UN-aligned</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
-    <lastBuildDate>Tue, 15 Jun 2021 11:15:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/fundraising/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Help safeguard the access of Palestinian children to health services</title>
-      <link>http://localhost:1313/campaigns/help-safeguard-the-access-of-palestinian-children-to-health-services/</link>
-      <pubDate>Tue, 15 Jun 2021 11:15:00 +0300</pubDate>
-      <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/campaigns/help-safeguard-the-access-of-palestinian-children-to-health-services/</guid>
-      <description>&lt;p&gt;According to the Palestinian health authorities, during the recent clashes between Israel and Gaza, at least 254 Palestinians including 66 children were killed. This is while more than 1,900 are reported to be wounded. &lt;/p&gt;
-&lt;p&gt;For 30 years, the Palestinian Children’s Relief Fund (PCRF), a nonpolitical humanitarian relief organisation, has provided the children of Gaza with free medical care. However, on the 17th of May, their main Gaza office was arbitrarily targeted by the Israeli military. &lt;/p&gt;</description>
-      <enclosure url="http://localhost:1313/images/Safeguard-the-access-of-the-Palestinian-Children-to-health-services.jpg" type="image/jpeg" />
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fundraising on UN-aligned</title><link>https://un-aligned.org/tags/fundraising/</link><description>Recent content in Fundraising on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Tue, 15 Jun 2021 11:15:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/fundraising/index.xml" rel="self" type="application/rss+xml"/><item><title>Help safeguard the access of Palestinian children to health services</title><link>https://un-aligned.org/campaigns/help-safeguard-the-access-of-palestinian-children-to-health-services/</link><pubDate>Tue, 15 Jun 2021 11:15:00 +0300</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/campaigns/help-safeguard-the-access-of-palestinian-children-to-health-services/</guid><description>&lt;p>According to the Palestinian health authorities, during the recent clashes between Israel and Gaza, at least 254 Palestinians including 66 children were killed. This is while more than 1,900 are reported to be wounded. &lt;/p>
+&lt;p>For 30 years, the Palestinian Children’s Relief Fund (PCRF), a nonpolitical humanitarian relief organisation, has provided the children of Gaza with free medical care. However, on the 17th of May, their main Gaza office was arbitrarily targeted by the Israeli military. &lt;/p></description><enclosure url="https://un-aligned.org/images/Safeguard-the-access-of-the-Palestinian-Children-to-health-services.jpg" type="image/jpeg"/></item></channel></rss>

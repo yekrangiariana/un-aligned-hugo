@@ -1,63 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Events on UN-aligned</title>
-    <link>http://localhost:1313/categories/events/</link>
-    <description>Recent content in Events on UN-aligned</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-uk</language>
-    <lastBuildDate>Fri, 14 Oct 2022 19:46:09 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/events/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>UN-aligned Annual General Meeting 2022</title>
-      <link>http://localhost:1313/events/un-aligned-annual-general-meeting-2022/</link>
-      <pubDate>Fri, 14 Oct 2022 19:46:09 +0300</pubDate>
-      <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/events/un-aligned-annual-general-meeting-2022/</guid>
-      <description>&lt;p&gt;We are pleased to invite you to UN-aligned’s 2022 Annual General Meeting.&lt;/p&gt;
-&lt;p&gt;The Annual General Meeting is a special occasion for the exchange of information and discussion between UN-aligned members across the world. &lt;/p&gt;
-&lt;p&gt;It is also an opportunity for you to express yourself and play an active role in the major decisions of the organisation.&lt;/p&gt;
-&lt;p&gt;Below you will find the agenda and instructions on how to participate in this meeting.&lt;/p&gt;</description>
-      <enclosure url="http://localhost:1313/images/UN-aligneds-AGM-2022.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>UN-aligned&#39;s first Annual General Meeting</title>
-      <link>http://localhost:1313/events/un-aligned-first-agm/</link>
-      <pubDate>Tue, 16 Nov 2021 11:19:45 +0200</pubDate>
-      <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/events/un-aligned-first-agm/</guid>
-      <description>&lt;p&gt;UN-aligned’s first AGM was held on Wednesday, November 24th, 2021, at 19:30 - 20:30 (EET) on Google Meet. The proposals included in the agenda of UN-aligned’s AGM, together with this invitation, the NGO’s Financial Statement and the Auditor&amp;rsquo;s Report are all available on this page.&lt;/p&gt;
-&lt;h2 id=&#34;invitation&#34;&gt;Invitation&lt;/h2&gt;
-&lt;p&gt;We are pleased to invite you to UN-aligned’s first Annual General Meeting. The Annual General Meeting is a special occasion for the exchange of information and discussion between UN-aligned members across the world. &lt;/p&gt;</description>
-      <enclosure url="http://localhost:1313/images/UN-aligneds-invites-you-to-its-first-AGM.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>“Terra Australis Incognita” &amp; “Silence” chosen as the winners of the 2021 UN-aligned poetry competition</title>
-      <link>http://localhost:1313/culture/terra-australis-incognita-silence-chosen-as-the-winners-of-the-2021-un-aligned-poetry-competition/</link>
-      <pubDate>Tue, 09 Nov 2021 10:13:01 +0200</pubDate>
-      <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/culture/terra-australis-incognita-silence-chosen-as-the-winners-of-the-2021-un-aligned-poetry-competition/</guid>
-      <description>&lt;p&gt;It is with great pleasure to announce the winners of this year&amp;rsquo;s poetry competition arranged by UN-aligned. This year, we have received 17 poems that creatively portrayed the values that UN-aligned’s &lt;a href=&#34;https://un-aligned.org/our-manifesto/&#34;&gt;Manifesto&lt;/a&gt; campaigns for. &lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;The first place&lt;/strong&gt; goes to Dean Gessie from Canada for his poem “&lt;a href=&#34;https://un-aligned.org/culture/terra-australis-incognita/&#34;&gt;Terra Australis Incognita&lt;/a&gt;”.&lt;/li&gt;
-&lt;li&gt;And the &lt;strong&gt;second place&lt;/strong&gt; goes to Ayesha Kajee from South Africa for her poem “&lt;a href=&#34;https://un-aligned.org/culture/silence/&#34;&gt;Silence&lt;/a&gt;”.&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;The selection in the call for works was made by UN-aligned’s literary editor and winner of the international ‘Il Leone D’Oro’ award, &lt;a href=&#34;https://un-aligned.org/author/alex-liberto/&#34;&gt;Alex Liberto&lt;/a&gt;.&lt;/p&gt;</description>
-      <enclosure url="http://localhost:1313/images/poetry-competition.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>Renewed for September! The free UN-aligned writing course</title>
-      <link>http://localhost:1313/events/the-un-aligned-writing-course/</link>
-      <pubDate>Fri, 04 Jun 2021 12:00:00 +0300</pubDate>
-      <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/events/the-un-aligned-writing-course/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Join this practical and informative online workshop, which will culminate in a published article in The Gordian.&lt;/em&gt; &lt;/p&gt;
-&lt;p&gt;In the space of just five lessons, starting on the first of July, &lt;a href=&#34;https://un-aligned.org/author/adrian-liberto/&#34;&gt;Adrian Liberto&lt;/a&gt;, author, journalist, a former professor at the American University of Rome and current editor-in-chief of the Gordian Magazine, will teach you how to overcome your weaknesses in writing.&lt;/p&gt;
-&lt;p&gt;Adrian will use his vast reserves of experience and enthusiasm to give you an overall assessment of your writing strengths and weaknesses and how to maximise the former and overcome the latter. This is an unmissable opportunity for anyone looking to sharpen their journalistic skills. After the course you will be offered the opportunity to send your piece for publication in the Gordian, UN-aligned’s monthly publication. &lt;/p&gt;</description>
-      <enclosure url="http://localhost:1313/images/194953390_2893916164184528_7060861168912488824_n-copy.jpg" type="image/jpeg" />
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Events on UN-aligned</title><link>https://un-aligned.org/categories/events/</link><description>Recent content in Events on UN-aligned</description><generator>Hugo -- gohugo.io</generator><language>en-uk</language><lastBuildDate>Fri, 14 Oct 2022 19:46:09 +0300</lastBuildDate><atom:link href="https://un-aligned.org/categories/events/index.xml" rel="self" type="application/rss+xml"/><item><title>UN-aligned Annual General Meeting 2022</title><link>https://un-aligned.org/events/un-aligned-annual-general-meeting-2022/</link><pubDate>Fri, 14 Oct 2022 19:46:09 +0300</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/events/un-aligned-annual-general-meeting-2022/</guid><description>&lt;p>We are pleased to invite you to UN-aligned’s 2022 Annual General Meeting.&lt;/p>
+&lt;p>The Annual General Meeting is a special occasion for the exchange of information and discussion between UN-aligned members across the world. &lt;/p>
+&lt;p>It is also an opportunity for you to express yourself and play an active role in the major decisions of the organisation.&lt;/p>
+&lt;p>Below you will find the agenda and instructions on how to participate in this meeting.&lt;/p></description><enclosure url="https://un-aligned.org/images/UN-aligneds-AGM-2022.jpg" type="image/jpeg"/></item><item><title>UN-aligned's first Annual General Meeting</title><link>https://un-aligned.org/events/un-aligned-first-agm/</link><pubDate>Tue, 16 Nov 2021 11:19:45 +0200</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/events/un-aligned-first-agm/</guid><description>&lt;p>UN-aligned’s first AGM was held on Wednesday, November 24th, 2021, at 19:30 - 20:30 (EET) on Google Meet. The proposals included in the agenda of UN-aligned’s AGM, together with this invitation, the NGO’s Financial Statement and the Auditor&amp;rsquo;s Report are all available on this page.&lt;/p>
+&lt;h2 id="invitation">Invitation&lt;/h2>
+&lt;p>We are pleased to invite you to UN-aligned’s first Annual General Meeting. The Annual General Meeting is a special occasion for the exchange of information and discussion between UN-aligned members across the world. &lt;/p></description><enclosure url="https://un-aligned.org/images/UN-aligneds-invites-you-to-its-first-AGM.jpg" type="image/jpeg"/></item><item><title>“Terra Australis Incognita” &amp; “Silence” chosen as the winners of the 2021 UN-aligned poetry competition</title><link>https://un-aligned.org/culture/terra-australis-incognita-silence-chosen-as-the-winners-of-the-2021-un-aligned-poetry-competition/</link><pubDate>Tue, 09 Nov 2021 10:13:01 +0200</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/culture/terra-australis-incognita-silence-chosen-as-the-winners-of-the-2021-un-aligned-poetry-competition/</guid><description>&lt;p>It is with great pleasure to announce the winners of this year&amp;rsquo;s poetry competition arranged by UN-aligned. This year, we have received 17 poems that creatively portrayed the values that UN-aligned’s &lt;a href="https://un-aligned.org/our-manifesto/">Manifesto&lt;/a> campaigns for. &lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>The first place&lt;/strong> goes to Dean Gessie from Canada for his poem “&lt;a href="https://un-aligned.org/culture/terra-australis-incognita/">Terra Australis Incognita&lt;/a>”.&lt;/li>
+&lt;li>And the &lt;strong>second place&lt;/strong> goes to Ayesha Kajee from South Africa for her poem “&lt;a href="https://un-aligned.org/culture/silence/">Silence&lt;/a>”.&lt;/li>
+&lt;/ul>
+&lt;p>The selection in the call for works was made by UN-aligned’s literary editor and winner of the international ‘Il Leone D’Oro’ award, &lt;a href="https://un-aligned.org/author/alex-liberto/">Alex Liberto&lt;/a>.&lt;/p></description><enclosure url="https://un-aligned.org/images/poetry-competition.jpg" type="image/jpeg"/></item><item><title>Renewed for September! The free UN-aligned writing course</title><link>https://un-aligned.org/events/the-un-aligned-writing-course/</link><pubDate>Fri, 04 Jun 2021 12:00:00 +0300</pubDate><author>Ariana Yekrangi</author><guid>https://un-aligned.org/events/the-un-aligned-writing-course/</guid><description>&lt;p>&lt;em>Join this practical and informative online workshop, which will culminate in a published article in The Gordian.&lt;/em> &lt;/p>
+&lt;p>In the space of just five lessons, starting on the first of July, &lt;a href="https://un-aligned.org/author/adrian-liberto/">Adrian Liberto&lt;/a>, author, journalist, a former professor at the American University of Rome and current editor-in-chief of the Gordian Magazine, will teach you how to overcome your weaknesses in writing.&lt;/p>
+&lt;p>Adrian will use his vast reserves of experience and enthusiasm to give you an overall assessment of your writing strengths and weaknesses and how to maximise the former and overcome the latter. This is an unmissable opportunity for anyone looking to sharpen their journalistic skills. After the course you will be offered the opportunity to send your piece for publication in the Gordian, UN-aligned’s monthly publication. &lt;/p></description><enclosure url="https://un-aligned.org/images/194953390_2893916164184528_7060861168912488824_n-copy.jpg" type="image/jpeg"/></item></channel></rss>
