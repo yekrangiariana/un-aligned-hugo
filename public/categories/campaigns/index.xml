@@ -2,134 +2,134 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Campaigns on UN-aligned</title>
-    <link>/categories/campaigns/</link>
+    <link>//localhost:1313/categories/campaigns/</link>
     <description>Recent content in Campaigns on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 12 Mar 2025 16:33:15 +0200</lastBuildDate><atom:link href="/categories/campaigns/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 16:33:15 +0200</lastBuildDate><atom:link href="//localhost:1313/categories/campaigns/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Onward and upwards: UN-aligned priorities for 2025</title>
-      <link>/campaigns/call-to-action/</link>
+      <link>//localhost:1313/campaigns/call-to-action/</link>
       <pubDate>Wed, 12 Mar 2025 16:33:15 +0200</pubDate>
       <author>Adrian Liberto</author>
-      <guid>/campaigns/call-to-action/</guid>
+      <guid>//localhost:1313/campaigns/call-to-action/</guid>
       <description>Following a successful AGM, during which Adrian Liberto was confirmed as Chair and Partho Chatterjee as Vice-Chair, UN-aligned highlights some of the priorities for the remainder of 2025</description>
-      <enclosure url="/images/Eugene_Delacroix_-_Le_28_Juillet._La_Liberte_guidant_le_peuple.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Eugene_Delacroix_-_Le_28_Juillet._La_Liberte_guidant_le_peuple.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>OHCHR: Take action to ban harmful conversion practices against LGBTQIA&#43;</title>
-      <link>/campaigns/letter-ohchr-ban-conversion-therapy/</link>
+      <link>//localhost:1313/campaigns/letter-ohchr-ban-conversion-therapy/</link>
       <pubDate>Wed, 07 Sep 2022 08:05:00 +0300</pubDate>
       <author>Victoria-Davila</author>
-      <guid>/campaigns/letter-ohchr-ban-conversion-therapy/</guid>
+      <guid>//localhost:1313/campaigns/letter-ohchr-ban-conversion-therapy/</guid>
       <description>UN-aligned calls on the OHCHR to take action to ban harmful conversion practices against LGBTQ+</description>
-      <enclosure url="/images/OHCHR-Take-action-to-ban-harmful-conversion-practices-against-LGBTQIA-.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/OHCHR-Take-action-to-ban-harmful-conversion-practices-against-LGBTQIA-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Update on UN-aligned’s open letter to the United Nations Human Rights Council</title>
-      <link>/campaigns/update-on-un-aligneds-open-letter-to-the-united-nations-human-rights-council/</link>
+      <link>//localhost:1313/campaigns/update-on-un-aligneds-open-letter-to-the-united-nations-human-rights-council/</link>
       <pubDate>Thu, 10 Mar 2022 11:11:13 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/campaigns/update-on-un-aligneds-open-letter-to-the-united-nations-human-rights-council/</guid>
+      <guid>//localhost:1313/campaigns/update-on-un-aligneds-open-letter-to-the-united-nations-human-rights-council/</guid>
       <description>UN-aligned’s open letter to the UNHRC which called for a ban on countries that criminalise LGBTQ+ from forming part of the commission will be delayed owing to the latest developments in the United Nations and the ongoing war in Ukraine.</description>
-      <enclosure url="/images/Update-on-UN-aligneds-open-letter-to-the-United-Nations-Human-Rights-Council-.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Update-on-UN-aligneds-open-letter-to-the-United-Nations-Human-Rights-Council-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Join the campaign to save cruelty-free cosmetics</title>
-      <link>/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</link>
+      <link>//localhost:1313/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</link>
       <pubDate>Tue, 09 Nov 2021 10:13:14 +0200</pubDate>
       <author>Jonna.Lappalainen</author>
-      <guid>/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</guid>
+      <guid>//localhost:1313/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</guid>
       <description>On 15th September 2021, the European Parliament voted in favor of a resolution that demands an EU-wide action plan to end the use of animals in testing and research. It also calls for sufficient fundings for developing non-animal testing methods further. Give your support for cruelty-free cosmetics in the EU and join PETA and others by signing the European citizens’ initiative.</description>
-      <enclosure url="/images/oin-the-campaign-to-save-cruelty-free-cosmetics.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/oin-the-campaign-to-save-cruelty-free-cosmetics.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>UN-aligned calls on UNHRC to ban members that criminalise homosexuality</title>
-      <link>/campaigns/counties-who-criminalise-homosexuality-must-not-be-allowed-a-seat-on-the-unhrc/</link>
+      <link>//localhost:1313/campaigns/counties-who-criminalise-homosexuality-must-not-be-allowed-a-seat-on-the-unhrc/</link>
       <pubDate>Sun, 05 Sep 2021 16:54:07 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>/campaigns/counties-who-criminalise-homosexuality-must-not-be-allowed-a-seat-on-the-unhrc/</guid>
+      <guid>//localhost:1313/campaigns/counties-who-criminalise-homosexuality-must-not-be-allowed-a-seat-on-the-unhrc/</guid>
       <description>This is an open letter drafted by UN-aligned and addressed to the President of the United Nations Human Rights Commission.</description>
-      <enclosure url="/images/mercedes-mehling-718731-unsplash.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/mercedes-mehling-718731-unsplash.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Help safeguard the access of Palestinian children to health services</title>
-      <link>/campaigns/help-safeguard-the-access-of-palestinian-children-to-health-services/</link>
+      <link>//localhost:1313/campaigns/help-safeguard-the-access-of-palestinian-children-to-health-services/</link>
       <pubDate>Tue, 15 Jun 2021 11:15:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/campaigns/help-safeguard-the-access-of-palestinian-children-to-health-services/</guid>
+      <guid>//localhost:1313/campaigns/help-safeguard-the-access-of-palestinian-children-to-health-services/</guid>
       <description>&lt;p&gt;According to the Palestinian health authorities, during the recent clashes between Israel and Gaza, at least 254 Palestinians including 66 children were killed. This is while more than 1,900 are reported to be wounded. &lt;/p&gt;
 &lt;p&gt;For 30 years, the Palestinian Children’s Relief Fund (PCRF), a nonpolitical humanitarian relief organisation, has provided the children of Gaza with free medical care. However, on the 17th of May, their main Gaza office was arbitrarily targeted by the Israeli military. &lt;/p&gt;</description>
-      <enclosure url="/images/Safeguard-the-access-of-the-Palestinian-Children-to-health-services.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Safeguard-the-access-of-the-Palestinian-Children-to-health-services.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Letter to UN-aligned members: Ask your government to take immediate action against the looming hunger crisis affecting millions of people worldwide</title>
-      <link>/campaigns/ask-your-government-to-take-immediate-action-against-hunger/</link>
+      <link>//localhost:1313/campaigns/ask-your-government-to-take-immediate-action-against-hunger/</link>
       <pubDate>Fri, 20 Nov 2020 11:22:29 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/campaigns/ask-your-government-to-take-immediate-action-against-hunger/</guid>
+      <guid>//localhost:1313/campaigns/ask-your-government-to-take-immediate-action-against-hunger/</guid>
       <description>&lt;p&gt;&lt;a href=&#34;https://un-aligned.org/global-issues/how-to-prevent-the-food-crisis-of-2021/&#34;&gt;In a recent publication&lt;/a&gt;, UN-aligned joined the voices of organisations, like Oxfam and the WFP, in warning against a hunger catastrophe already targeting millions of children and adults in the world’s most vulnerable places. The good earth is rich and can provide for everyone and in our world of plenty, no one should have to suffer hunger or malnutrition.  &lt;/p&gt;
 &lt;p&gt;The solid frame-work the sustainable development goals provided during the last decade is threatened by an awful melange of disasters, such as Covid-19 and climate change. If no action is taken, many lives will be lost. Some estimates by Oxfam suggest up to 12,000 people could die every day as a result of hunger. &lt;/p&gt;</description>
-      <enclosure url="/images/November-Social-Media-posts-2.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/November-Social-Media-posts-2.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Letter to the Arab League &amp; the OIC: Take immediate action to counter discriminatory practices against LGBTQ individuals</title>
-      <link>/campaigns/letter-to-the-arab-league-the-oic-take-immediate-action-lgbtq-rights/</link>
+      <link>//localhost:1313/campaigns/letter-to-the-arab-league-the-oic-take-immediate-action-lgbtq-rights/</link>
       <pubDate>Fri, 16 Oct 2020 11:30:12 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>/campaigns/letter-to-the-arab-league-the-oic-take-immediate-action-lgbtq-rights/</guid>
+      <guid>//localhost:1313/campaigns/letter-to-the-arab-league-the-oic-take-immediate-action-lgbtq-rights/</guid>
       <description>Letter dated 30 September 2020 from UN-aligned to the representatives of the Arab League and the Organisation of Islamic Cooperation.</description>
-      <enclosure url="/images/1024px-Flag_of_the_Arab_League.svg.png" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/1024px-Flag_of_the_Arab_League.svg.png" type="image/jpeg" />
     </item>
     
     <item>
       <title>Letter to Ashin Wirathu: Can your monastery do anything now to restore the spirit of fraternity that should reign amongst all the residents of Myanmar?</title>
-      <link>/campaigns/letter-to-mr-ashin-wirathu/</link>
+      <link>//localhost:1313/campaigns/letter-to-mr-ashin-wirathu/</link>
       <pubDate>Sat, 15 Aug 2020 11:16:18 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>/campaigns/letter-to-mr-ashin-wirathu/</guid>
+      <guid>//localhost:1313/campaigns/letter-to-mr-ashin-wirathu/</guid>
       <description>&lt;p&gt;Bhante Ashin Wirathu, I am writing to you on behalf of UN-aligned, an international organisation that focusses on the need to replace the United Nations with a more effective and principled organisation, although we also work to promote human and animal rights, as well as the welfare of the planet.&lt;/p&gt;
 &lt;p&gt;Institutionalised religion has had a sad history in a number of countries around the world owing to its bigotry and abuse of power. Many spiritual people, including some of our members, have therefore looked to Buddhism as a beacon of justice and openness. This image has been tainted over the last few years by portrayals of monks leading a crusade against the Rohingya inhabitants of Myanmar. The contradiction here reminds many people of the darkest periods of some of the leading world religions.&lt;/p&gt;</description>
-      <enclosure url="/images/Rohingya_displaced_Muslims_010-1.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Rohingya_displaced_Muslims_010-1.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Letters: The Lives of Three Iranian Protestors are on the Line - Take Action Now</title>
-      <link>/campaigns/iranian-protesters-to-be-hanged/</link>
+      <link>//localhost:1313/campaigns/iranian-protesters-to-be-hanged/</link>
       <pubDate>Wed, 15 Jul 2020 14:57:03 +0300</pubDate>
       <author>Anonymous</author>
-      <guid>/campaigns/iranian-protesters-to-be-hanged/</guid>
+      <guid>//localhost:1313/campaigns/iranian-protesters-to-be-hanged/</guid>
       <description>&lt;p&gt;On Tuesday morning, a spokesman for Iran&amp;rsquo;s judiciary confirmed the death sentence of three young men who were participants in the nationwide unrest that swept across the country in November 2019. &lt;/p&gt;
 &lt;p&gt;The “November protests” started with anger over the government&amp;rsquo;s decision to increase diesel prices, and soon developed into violent clashes between police and  protestors, with many chanting slogans against the Islamic Republic. Protests also echoed concerns over an increasing assault on individual liberties by the Iranian establishment, massive corruption scandals and a dying economy in which many struggle to make ends meet.&lt;/p&gt;</description>
-      <enclosure url="/images/113190050_f13a16a3-ba31-428e-b597-3418fd2b04dc.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/113190050_f13a16a3-ba31-428e-b597-3418fd2b04dc.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Introducing the New UN-aligned Campaigns</title>
-      <link>/campaigns/un-aligned-campaigns/</link>
+      <link>//localhost:1313/campaigns/un-aligned-campaigns/</link>
       <pubDate>Mon, 06 Jul 2020 11:09:03 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>/campaigns/un-aligned-campaigns/</guid>
+      <guid>//localhost:1313/campaigns/un-aligned-campaigns/</guid>
       <description>&lt;p&gt;UN-aligned is proud to announce the launch of a series of campaigns in line with its manifesto. UN-aligned campaigns will cover a range of issues concerning human rights, the environment and United Nations reform, and we will be reporting on them in The Gordian, as well as on our website.&lt;/p&gt;
 &lt;p&gt;Our campaigns will start by targeting blatant disregard to clearcut issues of social or environmental justice by powerful corporations, organisations or individuals. We will be highlighting their shortcomings and asking them to take positive steps in order to improve their undertakings in line with a fairer and safer world.&lt;/p&gt;</description>
-      <enclosure url="/images/WP-Photo-4.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/WP-Photo-4.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Letter to Amazon: Feedback &amp; suggestions for a more  effective &amp; environmentally friendly practices</title>
-      <link>/campaigns/letter-to-amazon-about-a-more-effective-packaging-practice/</link>
+      <link>//localhost:1313/campaigns/letter-to-amazon-about-a-more-effective-packaging-practice/</link>
       <pubDate>Thu, 02 Jul 2020 18:45:53 +0300</pubDate>
       <author>rubygoldenberg</author>
-      <guid>/campaigns/letter-to-amazon-about-a-more-effective-packaging-practice/</guid>
+      <guid>//localhost:1313/campaigns/letter-to-amazon-about-a-more-effective-packaging-practice/</guid>
       <description>&lt;p&gt;Dear Amazon,I am writing on behalf of UN-aligned. An alternative United Nations organization that seeks to put humanity before nationality and planet before greed. We consider topics ranging from the current United Nations, Human Rights, Environment, Economy and Trade. Today I am writing to you in relation to our commitment to the environment. In particular, our members are interested in schemes to limit the need for packaging and on this topic, we reach out to you for answers. Naturally, the scope of this is limitless, but I’d like to address to you some concerns regarding Amazons conscious effort towards sustainable packaging materials in your orders.&lt;/p&gt;</description>
-      <enclosure url="/images/unnamed.png" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/unnamed.png" type="image/jpeg" />
     </item>
     
   </channel>

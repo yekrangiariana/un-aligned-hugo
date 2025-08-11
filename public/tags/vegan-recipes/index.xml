@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Vegan Recipes on UN-aligned</title>
-    <link>/tags/vegan-recipes/</link>
+    <link>//localhost:1313/tags/vegan-recipes/</link>
     <description>Recent content in Vegan Recipes on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 18 Oct 2022 08:20:00 +0300</lastBuildDate><atom:link href="/tags/vegan-recipes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Oct 2022 08:20:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/vegan-recipes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>A Simple Vegan Peach Cobbler</title>
-      <link>/recipes/a-simple-vegan-peach-cobbler/</link>
+      <link>//localhost:1313/recipes/a-simple-vegan-peach-cobbler/</link>
       <pubDate>Tue, 18 Oct 2022 08:20:00 +0300</pubDate>
       <author>Victoria-Davila</author>
-      <guid>/recipes/a-simple-vegan-peach-cobbler/</guid>
+      <guid>//localhost:1313/recipes/a-simple-vegan-peach-cobbler/</guid>
       <description>This dish is a simple peach cobbler recipe. Serve warm with some vegan vanilla ice cream and enjoy! Perfect for cold seasons or if you&#39;re looking for a sweet vegan dessert.</description>
-      <enclosure url="/images/Simple-Vegan-Peach-Cobbler.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Simple-Vegan-Peach-Cobbler.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Bolognese with lentils</title>
-      <link>/recipes/bolognese-with-lentils/</link>
+      <link>//localhost:1313/recipes/bolognese-with-lentils/</link>
       <pubDate>Fri, 08 Jan 2021 10:00:00 +0200</pubDate>
       <author>Jonna.Lappalainen</author>
-      <guid>/recipes/bolognese-with-lentils/</guid>
+      <guid>//localhost:1313/recipes/bolognese-with-lentils/</guid>
       <description>&lt;p&gt;As Veganuary approaches, more and more people are looking to find ideas for healthier, more environment-friendly, and really yummy vegan recipes. To support your efforts The Gordian Magazine has decided to regularly include new recipes in our monthly publication. Whether you are turning vegan to reduce carbon emissions, protect animals from slaughter or to save a few quid, we got you covered.&lt;/p&gt;
 &lt;p&gt;If you have any favourite vegan/vegetarian recipes, please &lt;a href=&#34;https://un-aligned.org/about/contact/register/&#34;&gt;send them to us&lt;/a&gt;. We would love to publish them. The following Bolognese with lentils recipe was sent to us by UN-aligned treasurer, Jonna Lappalainen. &lt;/p&gt;</description>
-      <enclosure url="/images/image-2.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/image-2.jpg" type="image/jpeg" />
     </item>
     
   </channel>

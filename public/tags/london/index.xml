@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>London on UN-aligned</title>
-    <link>/tags/london/</link>
+    <link>//localhost:1313/tags/london/</link>
     <description>Recent content in London on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 19 Sep 2022 10:30:00 +0300</lastBuildDate><atom:link href="/tags/london/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 19 Sep 2022 10:30:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/london/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Today&#39;s London through the eyes of an old Communist hag</title>
-      <link>/culture/2022-london-through-the-eyes-of-an-old-communist-hag/</link>
+      <link>//localhost:1313/culture/2022-london-through-the-eyes-of-an-old-communist-hag/</link>
       <pubDate>Mon, 19 Sep 2022 10:30:00 +0300</pubDate>
       <author>CristinaMihailescu</author>
-      <guid>/culture/2022-london-through-the-eyes-of-an-old-communist-hag/</guid>
+      <guid>//localhost:1313/culture/2022-london-through-the-eyes-of-an-old-communist-hag/</guid>
       <description>London has always been my dream. Ever since my first English lesson, back in 1974, I have imagined myself wandering along its famous streets, visiting its exquisite monuments, but the city was unlike anything I imagined it to be.</description>
-      <enclosure url="/images/Todays-London-through-the-eyes-of-an-old-Communist-hag.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Todays-London-through-the-eyes-of-an-old-Communist-hag.jpg" type="image/jpeg" />
     </item>
     
   </channel>

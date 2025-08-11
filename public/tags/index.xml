@@ -2,307 +2,307 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on UN-aligned</title>
-    <link>/tags/</link>
+    <link>//localhost:1313/tags/</link>
     <description>Recent content in Tags on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 15 Jul 2025 19:29:09 +0300</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Jul 2025 19:29:09 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Israel</title>
-      <link>/tags/israel/</link>
+      <link>//localhost:1313/tags/israel/</link>
       <pubDate>Tue, 15 Jul 2025 19:29:09 +0300</pubDate>
       
-      <guid>/tags/israel/</guid>
+      <guid>//localhost:1313/tags/israel/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>United Nations</title>
-      <link>/tags/united-nations/</link>
+      <link>//localhost:1313/tags/united-nations/</link>
       <pubDate>Fri, 11 Jul 2025 21:54:35 +0300</pubDate>
       
-      <guid>/tags/united-nations/</guid>
+      <guid>//localhost:1313/tags/united-nations/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Journalism</title>
-      <link>/tags/journalism/</link>
+      <link>//localhost:1313/tags/journalism/</link>
       <pubDate>Tue, 08 Jul 2025 21:52:52 +0300</pubDate>
       
-      <guid>/tags/journalism/</guid>
+      <guid>//localhost:1313/tags/journalism/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nicaragua</title>
-      <link>/tags/nicaragua/</link>
+      <link>//localhost:1313/tags/nicaragua/</link>
       <pubDate>Tue, 08 Jul 2025 21:52:52 +0300</pubDate>
       
-      <guid>/tags/nicaragua/</guid>
+      <guid>//localhost:1313/tags/nicaragua/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Literature</title>
-      <link>/tags/literature/</link>
+      <link>//localhost:1313/tags/literature/</link>
       <pubDate>Thu, 19 Jun 2025 12:32:26 +0300</pubDate>
       
-      <guid>/tags/literature/</guid>
+      <guid>//localhost:1313/tags/literature/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Monthly Recap</title>
-      <link>/tags/monthly-recap/</link>
+      <link>//localhost:1313/tags/monthly-recap/</link>
       <pubDate>Mon, 14 Apr 2025 17:05:25 +0300</pubDate>
       
-      <guid>/tags/monthly-recap/</guid>
+      <guid>//localhost:1313/tags/monthly-recap/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Following a Successful Agm</title>
-      <link>/tags/following-a-successful-agm/</link>
+      <link>//localhost:1313/tags/following-a-successful-agm/</link>
       <pubDate>Wed, 12 Mar 2025 16:33:15 +0200</pubDate>
       
-      <guid>/tags/following-a-successful-agm/</guid>
+      <guid>//localhost:1313/tags/following-a-successful-agm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>New Solutions With Omar</title>
-      <link>/tags/new-solutions-with-omar/</link>
+      <link>//localhost:1313/tags/new-solutions-with-omar/</link>
       <pubDate>Sun, 02 Mar 2025 18:11:40 +0200</pubDate>
       
-      <guid>/tags/new-solutions-with-omar/</guid>
+      <guid>//localhost:1313/tags/new-solutions-with-omar/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>United States</title>
-      <link>/tags/united-states/</link>
+      <link>//localhost:1313/tags/united-states/</link>
       <pubDate>Sun, 02 Mar 2025 18:11:40 +0200</pubDate>
       
-      <guid>/tags/united-states/</guid>
+      <guid>//localhost:1313/tags/united-states/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Environment Report</title>
-      <link>/tags/environment-report/</link>
+      <link>//localhost:1313/tags/environment-report/</link>
       <pubDate>Sun, 17 Nov 2024 12:37:38 +0200</pubDate>
       
-      <guid>/tags/environment-report/</guid>
+      <guid>//localhost:1313/tags/environment-report/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Gaza</title>
-      <link>/tags/gaza/</link>
+      <link>//localhost:1313/tags/gaza/</link>
       <pubDate>Mon, 13 May 2024 14:41:53 +0300</pubDate>
       
-      <guid>/tags/gaza/</guid>
+      <guid>//localhost:1313/tags/gaza/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Long Read</title>
-      <link>/tags/long-read/</link>
+      <link>//localhost:1313/tags/long-read/</link>
       <pubDate>Thu, 09 May 2024 09:17:12 +0300</pubDate>
       
-      <guid>/tags/long-read/</guid>
+      <guid>//localhost:1313/tags/long-read/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Iran</title>
-      <link>/tags/iran/</link>
+      <link>//localhost:1313/tags/iran/</link>
       <pubDate>Sun, 07 Apr 2024 17:55:03 +0300</pubDate>
       
-      <guid>/tags/iran/</guid>
+      <guid>//localhost:1313/tags/iran/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Federalism</title>
-      <link>/tags/federalism/</link>
+      <link>//localhost:1313/tags/federalism/</link>
       <pubDate>Wed, 07 Feb 2024 12:53:29 +0200</pubDate>
       
-      <guid>/tags/federalism/</guid>
+      <guid>//localhost:1313/tags/federalism/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Art</title>
-      <link>/tags/art/</link>
+      <link>//localhost:1313/tags/art/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 +0200</pubDate>
       
-      <guid>/tags/art/</guid>
+      <guid>//localhost:1313/tags/art/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Caravaggio</title>
-      <link>/tags/caravaggio/</link>
+      <link>//localhost:1313/tags/caravaggio/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 +0200</pubDate>
       
-      <guid>/tags/caravaggio/</guid>
+      <guid>//localhost:1313/tags/caravaggio/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>United Kingdom</title>
-      <link>/tags/united-kingdom/</link>
+      <link>//localhost:1313/tags/united-kingdom/</link>
       <pubDate>Fri, 12 Jan 2024 10:00:00 +0200</pubDate>
       
-      <guid>/tags/united-kingdom/</guid>
+      <guid>//localhost:1313/tags/united-kingdom/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>European Union</title>
-      <link>/tags/european-union/</link>
+      <link>//localhost:1313/tags/european-union/</link>
       <pubDate>Wed, 10 Jan 2024 10:00:00 +0200</pubDate>
       
-      <guid>/tags/european-union/</guid>
+      <guid>//localhost:1313/tags/european-union/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Linguistics</title>
-      <link>/tags/linguistics/</link>
+      <link>//localhost:1313/tags/linguistics/</link>
       <pubDate>Thu, 21 Dec 2023 10:00:00 +0200</pubDate>
       
-      <guid>/tags/linguistics/</guid>
+      <guid>//localhost:1313/tags/linguistics/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Unsc</title>
-      <link>/tags/unsc/</link>
+      <link>//localhost:1313/tags/unsc/</link>
       <pubDate>Thu, 21 Dec 2023 10:00:00 +0200</pubDate>
       
-      <guid>/tags/unsc/</guid>
+      <guid>//localhost:1313/tags/unsc/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Person of the Year</title>
-      <link>/tags/person-of-the-year/</link>
+      <link>//localhost:1313/tags/person-of-the-year/</link>
       <pubDate>Wed, 06 Dec 2023 09:00:00 +0200</pubDate>
       
-      <guid>/tags/person-of-the-year/</guid>
+      <guid>//localhost:1313/tags/person-of-the-year/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Books</title>
-      <link>/tags/books/</link>
+      <link>//localhost:1313/tags/books/</link>
       <pubDate>Mon, 04 Dec 2023 13:19:46 +0200</pubDate>
       
-      <guid>/tags/books/</guid>
+      <guid>//localhost:1313/tags/books/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Agm</title>
-      <link>/tags/agm/</link>
+      <link>//localhost:1313/tags/agm/</link>
       <pubDate>Mon, 04 Dec 2023 11:31:41 +0200</pubDate>
       
-      <guid>/tags/agm/</guid>
+      <guid>//localhost:1313/tags/agm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nation Building</title>
-      <link>/tags/nation-building/</link>
+      <link>//localhost:1313/tags/nation-building/</link>
       <pubDate>Sat, 18 Nov 2023 10:00:00 +0200</pubDate>
       
-      <guid>/tags/nation-building/</guid>
+      <guid>//localhost:1313/tags/nation-building/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Afghanistan</title>
-      <link>/tags/afghanistan/</link>
+      <link>//localhost:1313/tags/afghanistan/</link>
       <pubDate>Fri, 17 Nov 2023 10:00:00 +0200</pubDate>
       
-      <guid>/tags/afghanistan/</guid>
+      <guid>//localhost:1313/tags/afghanistan/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nepal</title>
-      <link>/tags/nepal/</link>
+      <link>//localhost:1313/tags/nepal/</link>
       <pubDate>Thu, 16 Nov 2023 10:00:00 +0200</pubDate>
       
-      <guid>/tags/nepal/</guid>
+      <guid>//localhost:1313/tags/nepal/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>India</title>
-      <link>/tags/india/</link>
+      <link>//localhost:1313/tags/india/</link>
       <pubDate>Tue, 14 Nov 2023 08:04:00 +0200</pubDate>
       
-      <guid>/tags/india/</guid>
+      <guid>//localhost:1313/tags/india/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Kosovo</title>
-      <link>/tags/kosovo/</link>
+      <link>//localhost:1313/tags/kosovo/</link>
       <pubDate>Tue, 14 Nov 2023 08:02:00 +0200</pubDate>
       
-      <guid>/tags/kosovo/</guid>
+      <guid>//localhost:1313/tags/kosovo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>China</title>
-      <link>/tags/china/</link>
+      <link>//localhost:1313/tags/china/</link>
       <pubDate>Tue, 14 Nov 2023 07:00:00 +0200</pubDate>
       
-      <guid>/tags/china/</guid>
+      <guid>//localhost:1313/tags/china/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tibet</title>
-      <link>/tags/tibet/</link>
+      <link>//localhost:1313/tags/tibet/</link>
       <pubDate>Tue, 14 Nov 2023 07:00:00 +0200</pubDate>
       
-      <guid>/tags/tibet/</guid>
+      <guid>//localhost:1313/tags/tibet/</guid>
       <description></description>
       
     </item>

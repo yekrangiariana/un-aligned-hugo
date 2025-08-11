@@ -2,57 +2,57 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pages on UN-aligned</title>
-    <link>/pages/</link>
+    <link>//localhost:1313/pages/</link>
     <description>Recent content in Pages on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 07 Jun 2025 12:00:00 +0000</lastBuildDate><atom:link href="/pages/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Jun 2025 12:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/pages/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Tag Index</title>
-      <link>/tags/</link>
+      <link>//localhost:1313/tags/</link>
       <pubDate>Sat, 07 Jun 2025 12:00:00 +0000</pubDate>
       
-      <guid>/tags/</guid>
+      <guid>//localhost:1313/tags/</guid>
       <description>Browse all tags of UN-aligned articles</description>
       
     </item>
     
     <item>
       <title>My Bookmarks</title>
-      <link>/pages/bookmarks/</link>
+      <link>//localhost:1313/pages/bookmarks/</link>
       <pubDate>Fri, 09 May 2025 10:00:00 +0300</pubDate>
       
-      <guid>/pages/bookmarks/</guid>
+      <guid>//localhost:1313/pages/bookmarks/</guid>
       <description>&lt;h1 id=&#34;my-bookmarked-articles&#34;&gt;My Bookmarked Articles&lt;/h1&gt;</description>
       
     </item>
     
     <item>
       <title>Category Index</title>
-      <link>/pages/category-index/</link>
+      <link>//localhost:1313/pages/category-index/</link>
       <pubDate>Wed, 07 May 2025 12:00:00 +0000</pubDate>
       
-      <guid>/pages/category-index/</guid>
+      <guid>//localhost:1313/pages/category-index/</guid>
       <description>Browse all categories of UN-aligned articles</description>
       
     </item>
     
     <item>
       <title>Search through all UN-aligned articles</title>
-      <link>/search/</link>
+      <link>//localhost:1313/search/</link>
       <pubDate>Sat, 11 Jan 2025 12:00:00 +0200</pubDate>
       
-      <guid>/search/</guid>
+      <guid>//localhost:1313/search/</guid>
       <description>Search through all UN-aligned articles, interviews and content using the search box below.</description>
       
     </item>
     
     <item>
       <title>Archive</title>
-      <link>/archive/</link>
+      <link>//localhost:1313/archive/</link>
       <pubDate>Mon, 15 Apr 2019 18:06:23 +0300</pubDate>
       <author>Ariana</author>
-      <guid>/archive/</guid>
+      <guid>//localhost:1313/archive/</guid>
       <description>&lt;h2 id=&#34;read--enjoy-our-monthly-magazine&#34;&gt;Read &amp;amp; Enjoy our Monthly Magazine&lt;/h2&gt;
 &lt;p&gt;Did you know that UN-aligned members can contribute to The Gordian in anyway they want? Write, design, take pictures, make quizzes or financially contribute to your favourite magazine today.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://un-aligned.org/opportunities/write-for-un-aligned/&#34;&gt;See how&lt;/a&gt;&lt;/p&gt;
@@ -75,40 +75,40 @@
     
     <item>
       <title>Become an UN-aligned member</title>
-      <link>/register/</link>
+      <link>//localhost:1313/register/</link>
       <pubDate>Thu, 11 Apr 2019 03:15:03 +0300</pubDate>
       <author>UN-aligned</author>
-      <guid>/register/</guid>
+      <guid>//localhost:1313/register/</guid>
       <description>UN-aligned is a United Nations for everyone. UN-aligned membership is not limited to nations or bullying super powers or their money. Everyone is welcome! Our membership is 100% free and gives you access to many additional perks.</description>
-      <enclosure url="/images/Economic-santions03.03.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Economic-santions03.03.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The UN-aligned Manifesto</title>
-      <link>/manifesto/</link>
+      <link>//localhost:1313/manifesto/</link>
       <pubDate>Mon, 01 Apr 2019 19:30:33 +0300</pubDate>
       <author>UN-aligned</author>
-      <guid>/manifesto/</guid>
+      <guid>//localhost:1313/manifesto/</guid>
       <description>See where we stand and read UN-aligned&#39;s manifesto in English</description>
-      <enclosure url="/images/UNINFO1.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/UNINFO1.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Get involved with UN-aligned</title>
-      <link>/get-involved/</link>
+      <link>//localhost:1313/get-involved/</link>
       <pubDate>Mon, 25 Mar 2019 21:26:17 +0200</pubDate>
       
-      <guid>/get-involved/</guid>
+      <guid>//localhost:1313/get-involved/</guid>
       <description>&lt;p&gt;Welcome to the volunteer with UN-aligned page! At UN-aligned, we believe that everyone has the power to make a positive impact on the world. That&amp;rsquo;s why we offer opportunities for individuals to get involved and contribute their skills and expertise to our organization. Whether you&amp;rsquo;re looking to write for our newsletters, translate information, promote our cause, or engage in other activities, there&amp;rsquo;s a place for you at UN-aligned. Thank you for considering volunteering with us. We look forward to working with you to create a better United Nations and a better world.&lt;/p&gt;</description>
       
     </item>
     
     <item>
       <title>Terms and Conditions</title>
-      <link>/terms-and-conditions/</link>
+      <link>//localhost:1313/terms-and-conditions/</link>
       <pubDate>Mon, 25 Mar 2019 21:26:17 +0200</pubDate>
       <author>Ariana</author>
-      <guid>/terms-and-conditions/</guid>
+      <guid>//localhost:1313/terms-and-conditions/</guid>
       <description>&lt;h2 id=&#34;terms--conditions&#34;&gt;Terms &amp;amp; Conditions&lt;/h2&gt;
 &lt;h2 id=&#34;un-aligneds-terms--conditions&#34;&gt;Un-aligned&amp;rsquo;s Terms &amp;amp; Conditions&lt;/h2&gt;
 &lt;p&gt;Welcome to UN-aligned&lt;/p&gt;
@@ -122,10 +122,10 @@ capitalisation and/or he/she or they, are taken as interchangeable and therefore
     
     <item>
       <title>Mission Statement and Foundation</title>
-      <link>/our-essence-and-foundation/</link>
+      <link>//localhost:1313/our-essence-and-foundation/</link>
       <pubDate>Sun, 24 Feb 2019 22:44:32 +0200</pubDate>
       
-      <guid>/our-essence-and-foundation/</guid>
+      <guid>//localhost:1313/our-essence-and-foundation/</guid>
       <description>&lt;p&gt;In a world undergoing rapid change, idealism is not a weakness but a catalyst for transformation. At UN-aligned, we harness the power of creative imagination to envision a better world—one united by a federal order rooted in shared humanity and planetary stewardship. Founded in 2016 by Adriano Liberto and Ariana Yekrangi, UN-aligned stands as a beacon of change.&lt;/p&gt;
 &lt;p&gt;UN-aligned was registered as a non-profit association in the Finnish Patent and Registration Office on 03/18/2021 . Our business ID (Y-tunnus) is 3166623-5. &lt;/p&gt;</description>
       
@@ -133,10 +133,10 @@ capitalisation and/or he/she or they, are taken as interchangeable and therefore
     
     <item>
       <title>Privacy Policy</title>
-      <link>/privacy-policy/</link>
+      <link>//localhost:1313/privacy-policy/</link>
       <pubDate>Fri, 25 Jan 2019 17:53:06 +0200</pubDate>
       <author>Ariana</author>
-      <guid>/privacy-policy/</guid>
+      <guid>//localhost:1313/privacy-policy/</guid>
       <description>&lt;h3 id=&#34;privacy--cookies&#34;&gt;Privacy &amp;amp; Cookies&lt;/h3&gt;
 &lt;h2 id=&#34;un-aligneds-privacy-statement&#34;&gt;Un-aligned&amp;rsquo;s Privacy Statement&lt;/h2&gt;
 &lt;p&gt;This privacy policy will explain how our organisation uses the personal data we collect from you when you use our website.&lt;/p&gt;
@@ -153,10 +153,10 @@ capitalisation and/or he/she or they, are taken as interchangeable and therefore
     
     <item>
       <title>Contact UN-aligned</title>
-      <link>/contact/</link>
+      <link>//localhost:1313/contact/</link>
       <pubDate>Fri, 25 Jan 2019 17:50:15 +0200</pubDate>
       
-      <guid>/contact/</guid>
+      <guid>//localhost:1313/contact/</guid>
       <description>&lt;p&gt;Whether it’s a question about UN-aligned&amp;rsquo;s policy or suggestions and feedback, we’d love to hear from you, so get in touch.&lt;/p&gt;
 &lt;p&gt;You can write to us using the following email or via the contact form below.&lt;/p&gt;
 &lt;h2 id=&#34;write-to-us-via-the-contact-form&#34;&gt;Write to us via the contact form&lt;/h2&gt;
@@ -178,10 +178,10 @@ capitalisation and/or he/she or they, are taken as interchangeable and therefore
     
     <item>
       <title>Frequently Asked Questions</title>
-      <link>/frequently-asked-questions/</link>
+      <link>//localhost:1313/frequently-asked-questions/</link>
       <pubDate>Fri, 25 Jan 2019 14:51:09 +0200</pubDate>
       
-      <guid>/frequently-asked-questions/</guid>
+      <guid>//localhost:1313/frequently-asked-questions/</guid>
       <description>&lt;h2 id=&#34;what-is-un-aligned&#34;&gt;What is UN-aligned?&lt;/h2&gt;
 &lt;p&gt;UN-aligned ry is an NGO based in Finland that works towards the creation of a better United Nations, one that is founded on clearer principles and that is free from the shackles that have undermined the current institution beyond any possibility of repair. Part of its brief is to promote human rights, animal welfare and environmental protection; for instance, through the publication of written content. We want to put humanity before nationality &amp;amp; planet before greed.&lt;/p&gt;</description>
       
@@ -189,12 +189,12 @@ capitalisation and/or he/she or they, are taken as interchangeable and therefore
     
     <item>
       <title>The Alternative UN and The International Political Party</title>
-      <link>/the-alternative-un/</link>
+      <link>//localhost:1313/the-alternative-un/</link>
       <pubDate>Fri, 25 Jan 2019 13:31:26 +0200</pubDate>
       <author>Ariana</author>
-      <guid>/the-alternative-un/</guid>
+      <guid>//localhost:1313/the-alternative-un/</guid>
       <description>Many of the world’s ills are man-made. Although we may feel powerless in the face of practices that are entrenched in the current structures of international politics, there is nothing to stop us from creating a virtual world order...</description>
-      <enclosure url="/images/Abandon-all-hope-ye-who-enter-here_-The-shitshow-that-is-the-UN-Security-Council.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Abandon-all-hope-ye-who-enter-here_-The-shitshow-that-is-the-UN-Security-Council.jpg" type="image/jpeg" />
     </item>
     
   </channel>

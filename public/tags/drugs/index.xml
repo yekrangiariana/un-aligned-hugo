@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drugs on UN-aligned</title>
-    <link>/tags/drugs/</link>
+    <link>//localhost:1313/tags/drugs/</link>
     <description>Recent content in Drugs on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 14 Feb 2022 10:00:00 +0200</lastBuildDate><atom:link href="/tags/drugs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Feb 2022 10:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/drugs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Five benefits of legalising drugs that may change your perspective</title>
-      <link>/global-issues/five-benefits-of-legalising-drugs/</link>
+      <link>//localhost:1313/global-issues/five-benefits-of-legalising-drugs/</link>
       <pubDate>Mon, 14 Feb 2022 10:00:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/global-issues/five-benefits-of-legalising-drugs/</guid>
+      <guid>//localhost:1313/global-issues/five-benefits-of-legalising-drugs/</guid>
       <description>Legalising drugs would make drug use safer, but the bigger impact of moving to a regulated drug market is that it would defy racism, reduce chaos and violence and make us wealthier.</description>
-      <enclosure url="/images/Five-benefits-of-legalising-drugs-that-may-change-your-perspective-.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Five-benefits-of-legalising-drugs-that-may-change-your-perspective-.jpg" type="image/jpeg" />
     </item>
     
   </channel>

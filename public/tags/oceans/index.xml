@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Oceans on UN-aligned</title>
-    <link>/tags/oceans/</link>
+    <link>//localhost:1313/tags/oceans/</link>
     <description>Recent content in Oceans on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 04 Mar 2023 07:10:00 +0200</lastBuildDate><atom:link href="/tags/oceans/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 07:10:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/oceans/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diving Into the Enigmatic World of Deep Sea Creatures – A Photo Essay</title>
-      <link>/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</link>
+      <link>//localhost:1313/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</link>
       <pubDate>Sat, 04 Mar 2023 07:10:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</guid>
+      <guid>//localhost:1313/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</guid>
       <description>Step into the captivating and unknown realm of the deep sea, where a vast variety of extraordinary creatures dwell, still largely unknown to humans.</description>
-      <enclosure url="/images/Barreleye.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Barreleye.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The three UN conventions on the laws of the sea and how they are failing to secure it</title>
-      <link>/global-issues/the-three-un-conventions-on-the-laws-of-the-sea-and-how-they-are-failing-to-secure-it/</link>
+      <link>//localhost:1313/global-issues/the-three-un-conventions-on-the-laws-of-the-sea-and-how-they-are-failing-to-secure-it/</link>
       <pubDate>Mon, 16 May 2022 10:50:56 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/global-issues/the-three-un-conventions-on-the-laws-of-the-sea-and-how-they-are-failing-to-secure-it/</guid>
+      <guid>//localhost:1313/global-issues/the-three-un-conventions-on-the-laws-of-the-sea-and-how-they-are-failing-to-secure-it/</guid>
       <description>In this article, we will explore the three UN conventions that are designed to protect the laws of our seas: the UNCLOS, the ITLOS  and ISA.</description>
-      <enclosure url="/images/The-three-UN-conventions-on-the-laws-of-the-sea-and-how-they-are-failing-to-secure-it.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/The-three-UN-conventions-on-the-laws-of-the-sea-and-how-they-are-failing-to-secure-it.jpg" type="image/jpeg" />
     </item>
     
   </channel>

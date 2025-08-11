@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Science on UN-aligned</title>
-    <link>/categories/science/</link>
+    <link>//localhost:1313/categories/science/</link>
     <description>Recent content in Science on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 04 Mar 2023 07:10:00 +0200</lastBuildDate><atom:link href="/categories/science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 07:10:00 +0200</lastBuildDate><atom:link href="//localhost:1313/categories/science/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diving Into the Enigmatic World of Deep Sea Creatures – A Photo Essay</title>
-      <link>/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</link>
+      <link>//localhost:1313/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</link>
       <pubDate>Sat, 04 Mar 2023 07:10:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</guid>
+      <guid>//localhost:1313/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</guid>
       <description>Step into the captivating and unknown realm of the deep sea, where a vast variety of extraordinary creatures dwell, still largely unknown to humans.</description>
-      <enclosure url="/images/Barreleye.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Barreleye.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Exploring the microscopic world: 10 stunning photos</title>
-      <link>/gallery/10-photos-of-the-microscopic-world/</link>
+      <link>//localhost:1313/gallery/10-photos-of-the-microscopic-world/</link>
       <pubDate>Sun, 06 Feb 2022 06:58:00 +0200</pubDate>
       <author>Jonna.Lappalainen</author>
-      <guid>/gallery/10-photos-of-the-microscopic-world/</guid>
+      <guid>//localhost:1313/gallery/10-photos-of-the-microscopic-world/</guid>
       <description>In this gallery we will introduce you to 10 extraordinary microscopic photos. See if you can guess the object in question before reading the description on the side. Do also let us know if you have any suggestions about other items that look amazing under the microscope.</description>
-      <enclosure url="/images/Gecko-toe-hairs.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Gecko-toe-hairs.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>10 most fascinating scientific discoveries of 2021</title>
-      <link>/explainer/10-most-fascinating-scientific-discoveries-of-2021/</link>
+      <link>//localhost:1313/explainer/10-most-fascinating-scientific-discoveries-of-2021/</link>
       <pubDate>Thu, 06 Jan 2022 09:30:46 +0200</pubDate>
       <author>unregisteredauthor</author>
-      <guid>/explainer/10-most-fascinating-scientific-discoveries-of-2021/</guid>
+      <guid>//localhost:1313/explainer/10-most-fascinating-scientific-discoveries-of-2021/</guid>
       <description>2021 saw a tentative return to “normal” life. Scientists returned to their labs, continued to take on Covid, blackholes, climate change and delved into so much more. Let us take a look at some of the most fascinating scientific discoveries of 2021.</description>
-      <enclosure url="/images/10-most-fascinating-scientific-discoveries-of-2021.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/10-most-fascinating-scientific-discoveries-of-2021.jpg" type="image/jpeg" />
     </item>
     
   </channel>

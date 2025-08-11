@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>New Series on UN-aligned</title>
-    <link>/tags/new-series/</link>
+    <link>//localhost:1313/tags/new-series/</link>
     <description>Recent content in New Series on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 15 Feb 2022 16:00:00 +0200</lastBuildDate><atom:link href="/tags/new-series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Feb 2022 16:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/new-series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Celebrity islands with the United Nations</title>
-      <link>/un-in-focus/celebrity-islands-with-the-united-nations/</link>
+      <link>//localhost:1313/un-in-focus/celebrity-islands-with-the-united-nations/</link>
       <pubDate>Tue, 15 Feb 2022 16:00:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/un-in-focus/celebrity-islands-with-the-united-nations/</guid>
+      <guid>//localhost:1313/un-in-focus/celebrity-islands-with-the-united-nations/</guid>
       <description>Many may not know, but the United Nations is the creator of some of the worst “reality TV” of all time. This is The Gordian Magazine’s review of United Nations events as if they were reality TV.</description>
-      <enclosure url="/images/Celebrity-islands-with-the-United-Nations-.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Celebrity-islands-with-the-United-Nations-.jpg" type="image/jpeg" />
     </item>
     
   </channel>

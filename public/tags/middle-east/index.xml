@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Middle East on UN-aligned</title>
-    <link>/tags/middle-east/</link>
+    <link>//localhost:1313/tags/middle-east/</link>
     <description>Recent content in Middle East on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 11 Mar 2023 09:00:00 +0200</lastBuildDate><atom:link href="/tags/middle-east/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 11 Mar 2023 09:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/middle-east/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Closing the Wealth Gap in Arab Economies: The Power of a Progressive Taxation System</title>
-      <link>/economy/closing-the-wealth-gap-in-arab-economies-the-power-of-a-progressive-taxation-system/</link>
+      <link>//localhost:1313/economy/closing-the-wealth-gap-in-arab-economies-the-power-of-a-progressive-taxation-system/</link>
       <pubDate>Sat, 11 Mar 2023 09:00:00 +0200</pubDate>
       <author>DawnRoy</author>
-      <guid>/economy/closing-the-wealth-gap-in-arab-economies-the-power-of-a-progressive-taxation-system/</guid>
+      <guid>//localhost:1313/economy/closing-the-wealth-gap-in-arab-economies-the-power-of-a-progressive-taxation-system/</guid>
       <description>The rising levels of wealth inequality in the Middle East sparks debate over the need for progressive taxation models to bridge the extreme concentration of wealth in the region.</description>
-      <enclosure url="/images/Closing-the-Wealth-Gap-in-Arab-Economies-The-Power-of-a-Progressive-Taxation-System.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Closing-the-Wealth-Gap-in-Arab-Economies-The-Power-of-a-Progressive-Taxation-System.jpg" type="image/jpeg" />
     </item>
     
   </channel>

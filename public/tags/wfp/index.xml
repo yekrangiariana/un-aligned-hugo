@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Wfp on UN-aligned</title>
-    <link>/tags/wfp/</link>
+    <link>//localhost:1313/tags/wfp/</link>
     <description>Recent content in Wfp on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 14 Nov 2020 09:55:00 +0200</lastBuildDate><atom:link href="/tags/wfp/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Nov 2020 09:55:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/wfp/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>5 reasons why the 2020 Nobel Peace Prize was misplaced</title>
-      <link>/un-in-focus/the-2020-nobel-peace-prize/</link>
+      <link>//localhost:1313/un-in-focus/the-2020-nobel-peace-prize/</link>
       <pubDate>Sat, 14 Nov 2020 09:55:00 +0200</pubDate>
       <author>Adrian Liberto</author>
-      <guid>/un-in-focus/the-2020-nobel-peace-prize/</guid>
+      <guid>//localhost:1313/un-in-focus/the-2020-nobel-peace-prize/</guid>
       <description>&lt;p&gt;On 9 October 2020, the &lt;a href=&#34;https://www.wfp.org/&#34;&gt;World Food Programme&lt;/a&gt; (WFP) was awarded the prestigious Nobel Peace Prize by the Norwegian Nobel Committee: “for its efforts to combat hunger, for its contribution to bettering conditions for peace in conflict-affected areas and for acting as a driving force in efforts to prevent the use of hunger as a weapon of war and conflict.”&lt;/p&gt;
 &lt;p&gt;No doubt this was a safe political move since even leaders who are hostile to the United Nations, of which the WFP is a branch, cannot feel affronted by such a selection. In dangerous times, however, a safe move is often a cowardly one and, in this case, it certainly feels like one. Here are five reasons why choosing the WFP was a bad decision.&lt;/p&gt;</description>
-      <enclosure url="/images/7853084494_6acdd6be20_b.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/7853084494_6acdd6be20_b.jpg" type="image/jpeg" />
     </item>
     
   </channel>

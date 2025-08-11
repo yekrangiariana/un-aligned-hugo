@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Romania on UN-aligned</title>
-    <link>/tags/romania/</link>
+    <link>//localhost:1313/tags/romania/</link>
     <description>Recent content in Romania on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 08 Apr 2022 10:06:00 +0300</lastBuildDate><atom:link href="/tags/romania/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 10:06:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/romania/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Romania Always Welcomes Ukrainian Refugees: Support and Opportunities Await</title>
-      <link>/human-rights/ukrainians-romania-is-alway-open-to-you/</link>
+      <link>//localhost:1313/human-rights/ukrainians-romania-is-alway-open-to-you/</link>
       <pubDate>Fri, 08 Apr 2022 10:06:00 +0300</pubDate>
       <author>CristinaMihailescu</author>
-      <guid>/human-rights/ukrainians-romania-is-alway-open-to-you/</guid>
+      <guid>//localhost:1313/human-rights/ukrainians-romania-is-alway-open-to-you/</guid>
       <description>Many people have shared their homes with total strangers, people with whom they can only communicate in sign language. But what need is there for a common language when humanity is all that matters?</description>
-      <enclosure url="/images/Slovakia-%E2%80%94-The-world-stands-up-to-Putins-bloodthirsty-antics.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Slovakia-%E2%80%94-The-world-stands-up-to-Putins-bloodthirsty-antics.jpg" type="image/jpeg" />
     </item>
     
   </channel>

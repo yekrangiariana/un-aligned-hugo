@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Picture Story on UN-aligned</title>
-    <link>/tags/a-picture-story/</link>
+    <link>//localhost:1313/tags/a-picture-story/</link>
     <description>Recent content in A Picture Story on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 04 Mar 2023 07:10:00 +0200</lastBuildDate><atom:link href="/tags/a-picture-story/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 07:10:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/a-picture-story/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Diving Into the Enigmatic World of Deep Sea Creatures – A Photo Essay</title>
-      <link>/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</link>
+      <link>//localhost:1313/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</link>
       <pubDate>Sat, 04 Mar 2023 07:10:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</guid>
+      <guid>//localhost:1313/science/diving-into-the-enigmatic-world-of-deep-sea-creatures-in-pictures/</guid>
       <description>Step into the captivating and unknown realm of the deep sea, where a vast variety of extraordinary creatures dwell, still largely unknown to humans.</description>
-      <enclosure url="/images/Barreleye.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Barreleye.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Finland’s troubled history with Russia — A Story in Photos</title>
-      <link>/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</link>
+      <link>//localhost:1313/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</link>
       <pubDate>Sat, 09 Jul 2022 07:36:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</guid>
+      <guid>//localhost:1313/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</guid>
       <description>Finland is a young country, but one with a heartbreaking history. In this photo timeline, which consists of 11 events showcasing 80 photos, we’ll guide you through the country’s tragic history with Russia.</description>
-      <enclosure url="/images/fortification-in-the-Karelian-Isthmus-in-1939..jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/fortification-in-the-Karelian-Isthmus-in-1939..jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The painful history of Ukraine — A photo timeline</title>
-      <link>/explainer/history-of-ukraine-photo-timeline-1/</link>
+      <link>//localhost:1313/explainer/history-of-ukraine-photo-timeline-1/</link>
       <pubDate>Thu, 03 Mar 2022 06:30:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/explainer/history-of-ukraine-photo-timeline-1/</guid>
+      <guid>//localhost:1313/explainer/history-of-ukraine-photo-timeline-1/</guid>
       <description>A photo timeline of over 35 images explores 12 painful events from Ukraine&#39;s tragic history, suggesting the country&#39;s past is key to understanding its present fate.</description>
-      <enclosure url="/images/Ukrainian-War-of-Independence-1917-to-1921-.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Ukrainian-War-of-Independence-1917-to-1921-.jpg" type="image/jpeg" />
     </item>
     
   </channel>

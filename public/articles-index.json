@@ -1,5 +1,15 @@
 [
   {
+    "id": "/gordian/issue-1/",
+    "title": "A new issue of the Gordian will be coming soon",
+    "date": "2025-08-01",
+    "author": "",
+    "categories": null,
+    "description": "",
+    "featuredImage": "/images/issue-1-vol-7-scaled.jpg",
+    "url": "/gordian/issue-1/"
+  },
+  {
     "id": "/human-rights/the-zionist-experiment-has-failed-it-must-be-abolished/",
     "title": "The Zionist experiment has failed: it must be abolished",
     "date": "2025-07-15",
@@ -68,16 +78,6 @@
     "description": "June began with the death of two literary giants: Edmund White (died June 3, 2025 at 85) and Frederick Forsyth (died June 9,2025 at 86). Our literary editor, Alex Liberto, had met and corresponded with the former and has written this touching tribute.",
     "featuredImage": "/images/Edmund_White_2_by_David_Shankbone_cropped.jpg",
     "url": "/culture/more-than-just-a-gay-icon/"
-  },
-  {
-    "id": "/gordian/issue-1/",
-    "title": "A new issue of the Gordian will be coming soon",
-    "date": "2025-05-01",
-    "author": "",
-    "categories": null,
-    "description": "",
-    "featuredImage": "/images/issue-1-vol-7-scaled.jpg",
-    "url": "/gordian/issue-1/"
   },
   {
     "id": "/un-aligned-news/onward-and-upwards/",

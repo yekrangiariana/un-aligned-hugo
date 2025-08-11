@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Social Issues on UN-aligned</title>
-    <link>/tags/social-issues/</link>
+    <link>//localhost:1313/tags/social-issues/</link>
     <description>Recent content in Social Issues on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 05 Sep 2021 16:54:04 +0300</lastBuildDate><atom:link href="/tags/social-issues/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 16:54:04 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/social-issues/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When it was illegal for me to be alive</title>
-      <link>/health/when-it-is-illegal-for-me-to-be-alive/</link>
+      <link>//localhost:1313/health/when-it-is-illegal-for-me-to-be-alive/</link>
       <pubDate>Sun, 05 Sep 2021 16:54:04 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>/health/when-it-is-illegal-for-me-to-be-alive/</guid>
+      <guid>//localhost:1313/health/when-it-is-illegal-for-me-to-be-alive/</guid>
       <description>&lt;p&gt;“Disaster&amp;hellip; it could happen to anyone.” Think about it too much and you will go mad: that endless list of slings and arrows. Yes, it could happen to anyone, but it is best to plod along as though it could never happen to us. Perhaps they deserved it. Karma. Their suffering is like a parallel universe: it need never touch us&amp;hellip; Then, out of the blue, or through a slow and inevitable twist of events, it does.&lt;/p&gt;</description>
-      <enclosure url="/images/Adrian-Liberto.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/Adrian-Liberto.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The Gordian Magazine introduces new series about “social issues”</title>
-      <link>/opportunities/the-gordian-magazine-introduces-new-series-about-social-issues/</link>
+      <link>//localhost:1313/opportunities/the-gordian-magazine-introduces-new-series-about-social-issues/</link>
       <pubDate>Wed, 04 Aug 2021 11:00:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>/opportunities/the-gordian-magazine-introduces-new-series-about-social-issues/</guid>
+      <guid>//localhost:1313/opportunities/the-gordian-magazine-introduces-new-series-about-social-issues/</guid>
       <description>&lt;p&gt;This month marks the last issue of the 4th Volume of the Gordian Magazine.&lt;/p&gt;
 &lt;p&gt;Although it may not seem like much, to date we have published more than 25 issues of the Gordian, all of which can be &lt;a href=&#34;https://un-aligned.org/dashboard/&#34;&gt;accessed for free&lt;/a&gt;. &lt;/p&gt;
 &lt;p&gt;Words cannot express how grateful we are to the generous support of our writers, contributors and, you, our readers. Thank you for using this magazine as a platform to express your ideas for a better and fairer world. &lt;/p&gt;</description>
-      <enclosure url="/images/The-Gordian-Magazine-introduces-new-series-about-Social-Issues.jpg" type="image/jpeg" />
+      <enclosure url="//localhost:1313/images/The-Gordian-Magazine-introduces-new-series-about-Social-Issues.jpg" type="image/jpeg" />
     </item>
     
   </channel>
