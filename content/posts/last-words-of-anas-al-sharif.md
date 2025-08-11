@@ -1,5 +1,5 @@
 ---
-title: '"I entrust you with Palestine": A murdered Gaza Journalist pleas as his people are erased'
+title: '"I entrust you with Palestine": A murdered Gaza journalist pleads amid his people’s erasure'
 description: "Israel succeeded in killing journalist Anas Jamal Al-Sharif, but it could not silence him. In this posthumous letter, he testifies against those who \"accepted our killing,\" and entrusts his beloved daughter Sham, his son Salah, and the soul of his nation to a world he urges to finally act."
 date: 2025-08-11T19:43:10+03:00
 authors: ["Anas Al-Sharif"]
