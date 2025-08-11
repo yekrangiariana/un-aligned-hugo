@@ -2,69 +2,69 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alexander Stoney on UN-aligned</title>
-    <link>//localhost:1313/authors/alexander-stoney/</link>
+    <link>/authors/alexander-stoney/</link>
     <description>Recent content in Alexander Stoney on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 11 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/authors/alexander-stoney/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 11 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="/authors/alexander-stoney/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wealth at Whistle&#39;s Blow: The Importance of Financial Planning for Athletes</title>
-      <link>//localhost:1313/sports/the-importance-of-financial-planning-for-athletes/</link>
+      <link>/sports/the-importance-of-financial-planning-for-athletes/</link>
       <pubDate>Thu, 11 Jan 2024 10:00:00 +0200</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/sports/the-importance-of-financial-planning-for-athletes/</guid>
+      <guid>/sports/the-importance-of-financial-planning-for-athletes/</guid>
       <description>With ink drying on contracts worth millions, young athletes step into a world of wealth and responsibility. How do they handle this sudden fortune, and what impact does it have on their futures?</description>
-      <enclosure url="//localhost:1313/images/Wealth-at-Whistles-Blow-The-Importance-of-Financial-Planning-for-Athletes.jpg" type="image/jpeg" />
+      <enclosure url="/images/Wealth-at-Whistles-Blow-The-Importance-of-Financial-Planning-for-Athletes.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>From Table Tennis to the UN: How Kosovo Used Sports for Nation Building</title>
-      <link>//localhost:1313/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</link>
+      <link>/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</link>
       <pubDate>Tue, 14 Nov 2023 08:02:00 +0200</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</guid>
+      <guid>/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</guid>
       <description>As a young nation, Kosovo leveraged sports to establish international recognition, power, independence and national pride.</description>
-      <enclosure url="//localhost:1313/images/From-Table-Tennis-to-the-UN-How-Kosovo-Used-Sport-for-Nation-Building-.jpg" type="image/jpeg" />
+      <enclosure url="/images/From-Table-Tennis-to-the-UN-How-Kosovo-Used-Sport-for-Nation-Building-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>‘The Imagined Unity’: Understanding Nations, Nationalism and Their Bedrock</title>
-      <link>//localhost:1313/global-issues/nations-nationalism-and-their-bedrock/</link>
+      <link>/global-issues/nations-nationalism-and-their-bedrock/</link>
       <pubDate>Mon, 16 Oct 2023 11:15:43 +0300</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/global-issues/nations-nationalism-and-their-bedrock/</guid>
+      <guid>/global-issues/nations-nationalism-and-their-bedrock/</guid>
       <description>How do the multifaceted processes of nation building shape our understanding and implications for the future of the United Nations?</description>
-      <enclosure url="//localhost:1313/images/%E2%80%98The-Imagined-Unity-Understanding-Nations-Nationalism-and-Their-Bedrock.jpg" type="image/jpeg" />
+      <enclosure url="/images/%E2%80%98The-Imagined-Unity-Understanding-Nations-Nationalism-and-Their-Bedrock.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Redefining Forest Boundaries: Sunil Pariyar on the Dalit Struggle and DANAR&#39;s Impact in Nepal</title>
-      <link>//localhost:1313/climate-emergency/sunil-pariyar-on-dalit-and-danar-impact-in-nepal/</link>
+      <link>/climate-emergency/sunil-pariyar-on-dalit-and-danar-impact-in-nepal/</link>
       <pubDate>Sat, 07 Oct 2023 08:30:09 +0300</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/climate-emergency/sunil-pariyar-on-dalit-and-danar-impact-in-nepal/</guid>
+      <guid>/climate-emergency/sunil-pariyar-on-dalit-and-danar-impact-in-nepal/</guid>
       <description>Sunil Kumar Pariyar talks about DANAR and the struggles and triumphs of the Dalit community as they strive to reclaim their rightful place in Nepal’s natural resource management.</description>
-      <enclosure url="//localhost:1313/images/Sunil-Pariyar-DANAR.jpg" type="image/jpeg" />
+      <enclosure url="/images/Sunil-Pariyar-DANAR.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>&#39;24 Years of Missed Opportunities&#39;: How the UN Failed to Secure Peace in the DRC</title>
-      <link>//localhost:1313/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</link>
+      <link>/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</link>
       <pubDate>Sat, 07 Oct 2023 08:28:01 +0300</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</guid>
+      <guid>/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</guid>
       <description>As the UN&#39;s longest-standing peacekeeping mission faces a turbulent exit from the Democratic Republic of Congo, what were its critical failings, and what can the UN learn from them?</description>
-      <enclosure url="//localhost:1313/images/How-the-UN-Failed-to-Secure-Peace-in-the-DRC.jpg" type="image/jpeg" />
+      <enclosure url="/images/How-the-UN-Failed-to-Secure-Peace-in-the-DRC.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Sanctuary Cities: Shattering Myths, Protecting Human Rights</title>
-      <link>//localhost:1313/explainer/sanctuary-cities-shattering-myths-protecting-human-rights/</link>
+      <link>/explainer/sanctuary-cities-shattering-myths-protecting-human-rights/</link>
       <pubDate>Mon, 12 Jun 2023 11:00:00 +0300</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/explainer/sanctuary-cities-shattering-myths-protecting-human-rights/</guid>
+      <guid>/explainer/sanctuary-cities-shattering-myths-protecting-human-rights/</guid>
       <description>Salvation of subterfuge? Since 1979, Sanctuary Cities have become the hot political potato — are they migrant safe havens or is there a hidden truth?</description>
-      <enclosure url="//localhost:1313/images/sanctuary-cities.jpg" type="image/jpeg" />
+      <enclosure url="/images/sanctuary-cities.jpg" type="image/jpeg" />
     </item>
     
   </channel>

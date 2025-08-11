@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Photo Contest on UN-aligned</title>
-    <link>//localhost:1313/tags/photo-contest/</link>
+    <link>/tags/photo-contest/</link>
     <description>Recent content in Photo Contest on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 02 Feb 2021 06:40:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/photo-contest/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 06:40:00 +0200</lastBuildDate><atom:link href="/tags/photo-contest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Announcing the Winners of the UN-aligned Photo Competition</title>
-      <link>//localhost:1313/un-aligned-news/announcing-the-winners-of-the-un-aligned-photo-competition/</link>
+      <link>/un-aligned-news/announcing-the-winners-of-the-un-aligned-photo-competition/</link>
       <pubDate>Tue, 02 Feb 2021 06:40:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/un-aligned-news/announcing-the-winners-of-the-un-aligned-photo-competition/</guid>
+      <guid>/un-aligned-news/announcing-the-winners-of-the-un-aligned-photo-competition/</guid>
       <description>Anwar Sadat Swaka declared as the winner of the 2020 UN-aligned photo competition.</description>
-      <enclosure url="//localhost:1313/images/Anwar-Sadat-Swaka1.jpg" type="image/jpeg" />
+      <enclosure url="/images/Anwar-Sadat-Swaka1.jpg" type="image/jpeg" />
     </item>
     
   </channel>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Drc on UN-aligned</title>
-    <link>//localhost:1313/tags/drc/</link>
+    <link>/tags/drc/</link>
     <description>Recent content in Drc on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 07 Oct 2023 08:28:01 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/drc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 08:28:01 +0300</lastBuildDate><atom:link href="/tags/drc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#39;24 Years of Missed Opportunities&#39;: How the UN Failed to Secure Peace in the DRC</title>
-      <link>//localhost:1313/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</link>
+      <link>/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</link>
       <pubDate>Sat, 07 Oct 2023 08:28:01 +0300</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</guid>
+      <guid>/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</guid>
       <description>As the UN&#39;s longest-standing peacekeeping mission faces a turbulent exit from the Democratic Republic of Congo, what were its critical failings, and what can the UN learn from them?</description>
-      <enclosure url="//localhost:1313/images/How-the-UN-Failed-to-Secure-Peace-in-the-DRC.jpg" type="image/jpeg" />
+      <enclosure url="/images/How-the-UN-Failed-to-Secure-Peace-in-the-DRC.jpg" type="image/jpeg" />
     </item>
     
   </channel>

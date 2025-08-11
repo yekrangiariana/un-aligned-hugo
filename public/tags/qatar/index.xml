@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Qatar on UN-aligned</title>
-    <link>//localhost:1313/tags/qatar/</link>
+    <link>/tags/qatar/</link>
     <description>Recent content in Qatar on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 13 Dec 2022 14:30:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/qatar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2022 14:30:00 +0200</lastBuildDate><atom:link href="/tags/qatar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Qatar 2022: A World Cup for Straight Men</title>
-      <link>//localhost:1313/human-rights/qatar-2022-a-world-cup-for-straight-men/</link>
+      <link>/human-rights/qatar-2022-a-world-cup-for-straight-men/</link>
       <pubDate>Tue, 13 Dec 2022 14:30:00 +0200</pubDate>
       <author>mayabearyman</author>
-      <guid>//localhost:1313/human-rights/qatar-2022-a-world-cup-for-straight-men/</guid>
+      <guid>/human-rights/qatar-2022-a-world-cup-for-straight-men/</guid>
       <description>FIFA&#39;s male-dominated World Cup fails to represent its diverse fan base, but those fighting for equality will persevere.</description>
-      <enclosure url="//localhost:1313/images/Qatar-2022-A-World-Cup-for-Straight-Men-.jpg" type="image/jpeg" />
+      <enclosure url="/images/Qatar-2022-A-World-Cup-for-Straight-Men-.jpg" type="image/jpeg" />
     </item>
     
   </channel>

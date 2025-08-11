@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Usha Roopnarain on UN-aligned</title>
-    <link>//localhost:1313/authors/usha-roopnarain/</link>
+    <link>/authors/usha-roopnarain/</link>
     <description>Recent content in Usha Roopnarain on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 15 Apr 2022 08:54:05 +0300</lastBuildDate><atom:link href="//localhost:1313/authors/usha-roopnarain/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 15 Apr 2022 08:54:05 +0300</lastBuildDate><atom:link href="/authors/usha-roopnarain/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poems For a Better World: This War of MMXXII</title>
-      <link>//localhost:1313/culture/poems-for-a-better-world-this-war-of-mmxxii/</link>
+      <link>/culture/poems-for-a-better-world-this-war-of-mmxxii/</link>
       <pubDate>Fri, 15 Apr 2022 08:54:05 +0300</pubDate>
       <author>Usha Roopnarain</author>
-      <guid>//localhost:1313/culture/poems-for-a-better-world-this-war-of-mmxxii/</guid>
+      <guid>/culture/poems-for-a-better-world-this-war-of-mmxxii/</guid>
       <description>This is war my dear! Invasion for pure greed and gratification. What else can this be?</description>
-      <enclosure url="//localhost:1313/images/This-War-of-MMXXI.jpg" type="image/jpeg" />
+      <enclosure url="/images/This-War-of-MMXXI.jpg" type="image/jpeg" />
     </item>
     
   </channel>

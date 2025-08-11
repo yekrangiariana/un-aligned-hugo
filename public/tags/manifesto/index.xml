@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Manifesto on UN-aligned</title>
-    <link>//localhost:1313/tags/manifesto/</link>
+    <link>/tags/manifesto/</link>
     <description>Recent content in Manifesto on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 04 May 2021 01:55:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/manifesto/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 04 May 2021 01:55:00 +0300</lastBuildDate><atom:link href="/tags/manifesto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Updates to the UN-aligned manifesto that you need to review</title>
-      <link>//localhost:1313/un-aligned-news/updates-to-the-un-aligned-manifesto/</link>
+      <link>/un-aligned-news/updates-to-the-un-aligned-manifesto/</link>
       <pubDate>Tue, 04 May 2021 01:55:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/un-aligned-news/updates-to-the-un-aligned-manifesto/</guid>
+      <guid>/un-aligned-news/updates-to-the-un-aligned-manifesto/</guid>
       <description>&lt;p&gt;We believe the flexible roadmap of UN-aligned’s manifesto presents a safe trajectory for a united world, so as UN-aligned grows we are always seeking to refine, clarify and improve our goals and missions. The following changes have been made to the UN-aligned manifesto as of May 2021.&lt;/p&gt;
 &lt;h2 id=&#34;updates-regarding-our-mission-statement&#34;&gt;&lt;strong&gt;Updates regarding our Mission statement&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;We refined the language around our mission statement, namely regarding our vision to create an alternative to the United Nations. &lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/Updates-to-the-UN-aligned-manifesto-that-you-need-to-review.jpg" type="image/jpeg" />
+      <enclosure url="/images/Updates-to-the-UN-aligned-manifesto-that-you-need-to-review.jpg" type="image/jpeg" />
     </item>
     
   </channel>

@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Un Aligned on UN-aligned</title>
-    <link>//localhost:1313/tags/un-aligned/</link>
+    <link>/tags/un-aligned/</link>
     <description>Recent content in Un Aligned on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 24 Dec 2022 14:14:46 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/un-aligned/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 24 Dec 2022 14:14:46 +0200</lastBuildDate><atom:link href="/tags/un-aligned/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>There is citizen journalism and there is The Gordian Magazine</title>
-      <link>//localhost:1313/comments/there-is-citizen-journalism-and-there-is-the-gordian/</link>
+      <link>/comments/there-is-citizen-journalism-and-there-is-the-gordian/</link>
       <pubDate>Sat, 24 Dec 2022 14:14:46 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/comments/there-is-citizen-journalism-and-there-is-the-gordian/</guid>
+      <guid>/comments/there-is-citizen-journalism-and-there-is-the-gordian/</guid>
       <description>In a world that moves at a dizzying speed, sometimes towards the wrong direction, The Gordian has stayed true to its values, fighting for a better UN and bringing our readers the insights and information they need to stay informed and engaged.</description>
-      <enclosure url="//localhost:1313/images/the-gordian-in-2022.jpg" type="image/jpeg" />
+      <enclosure url="/images/the-gordian-in-2022.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Winners of the 2022 Environmental Quiz</title>
-      <link>//localhost:1313/un-aligned-news/winners-of-the-2022-environmental-quiz/</link>
+      <link>/un-aligned-news/winners-of-the-2022-environmental-quiz/</link>
       <pubDate>Mon, 12 Dec 2022 14:30:00 +0200</pubDate>
       <author>Partho Pratim Chatterjee</author>
-      <guid>//localhost:1313/un-aligned-news/winners-of-the-2022-environmental-quiz/</guid>
+      <guid>/un-aligned-news/winners-of-the-2022-environmental-quiz/</guid>
       <description>Five indivduals have been selected as the winners of the 2022 UN-aligned Environmental Quotient Quiz.</description>
-      <enclosure url="//localhost:1313/images/194953390_2893916164184528_7060861168912488824_n-copy.jpg" type="image/jpeg" />
+      <enclosure url="/images/194953390_2893916164184528_7060861168912488824_n-copy.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The Gordian Magazine introduces new series about ‘Utopia’</title>
-      <link>//localhost:1313/un-aligned-news/the-gordian-magazine-introduces-new-series-about-utopia/</link>
+      <link>/un-aligned-news/the-gordian-magazine-introduces-new-series-about-utopia/</link>
       <pubDate>Sun, 11 Dec 2022 07:10:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/un-aligned-news/the-gordian-magazine-introduces-new-series-about-utopia/</guid>
+      <guid>/un-aligned-news/the-gordian-magazine-introduces-new-series-about-utopia/</guid>
       <description>This month’s Gordian Magazine marks the end of volume 6 in which we covered various aspects of justice and its relationship to law enforcement.</description>
-      <enclosure url="//localhost:1313/images/What-will-your-ideal-world-look-like_-Collaborate-with-us-on-a-new-book.jpg" type="image/jpeg" />
+      <enclosure url="/images/What-will-your-ideal-world-look-like_-Collaborate-with-us-on-a-new-book.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Exploring the difference between what is legal and what is ethical: The Gordian Magazine enters Vol. 6</title>
-      <link>//localhost:1313/un-aligned-news/the-gordian-magazine-enters-vol-6/</link>
+      <link>/un-aligned-news/the-gordian-magazine-enters-vol-6/</link>
       <pubDate>Sat, 09 Apr 2022 09:03:28 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/un-aligned-news/the-gordian-magazine-enters-vol-6/</guid>
+      <guid>/un-aligned-news/the-gordian-magazine-enters-vol-6/</guid>
       <description>&lt;p&gt;Having covered social topics in the last few issues of The Gordian, in May we will be moving on to a series that will focus on law and order. &lt;/p&gt;
 &lt;p&gt;Topics will range from international law and treaties to general crime and punishment. We will also be exploring the difference between what is legal and what is ethical, which are two very different animals. After all, most of the world’s problems today are caused by activities that are more or less legal everywhere, such as intensive animal farming, extraction and consumption of fossil fuels, suppression of human rights and exploitation. &lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/Introduction-to-the-new-volume.jpg" type="image/jpeg" />
+      <enclosure url="/images/Introduction-to-the-new-volume.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Support The Gordian with a Patreon subscription</title>
-      <link>//localhost:1313/opportunities/support-the-gordian-with-a-patreon-subscription/</link>
+      <link>/opportunities/support-the-gordian-with-a-patreon-subscription/</link>
       <pubDate>Mon, 13 Dec 2021 17:43:50 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/opportunities/support-the-gordian-with-a-patreon-subscription/</guid>
+      <guid>/opportunities/support-the-gordian-with-a-patreon-subscription/</guid>
       <description>&lt;p&gt;The Gordian Magazine is an open, independent publication that is read by hundreds of people around the world. Its main purpose has always been the creation of a platform for discussion and dissemination of knowledge; and with your support, we hope to take our game up a notch and build on this for many years to come.&lt;/p&gt;
 &lt;p&gt;So far we have managed to do without any financial support, however, as the organisation has grown our need for fundraising has become more and more crucial.&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/Donate-to-UN-aligned.jpg" type="image/jpeg" />
+      <enclosure url="/images/Donate-to-UN-aligned.jpg" type="image/jpeg" />
     </item>
     
   </channel>

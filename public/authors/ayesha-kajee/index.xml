@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ayesha Kajee on UN-aligned</title>
-    <link>//localhost:1313/authors/ayesha-kajee/</link>
+    <link>/authors/ayesha-kajee/</link>
     <description>Recent content in Ayesha Kajee on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 10 Nov 2021 09:53:35 +0200</lastBuildDate><atom:link href="//localhost:1313/authors/ayesha-kajee/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Nov 2021 09:53:35 +0200</lastBuildDate><atom:link href="/authors/ayesha-kajee/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Poems for a Better World: Silence</title>
-      <link>//localhost:1313/culture/silence/</link>
+      <link>/culture/silence/</link>
       <pubDate>Wed, 10 Nov 2021 09:53:35 +0200</pubDate>
       <author>Ayesha Kajee</author>
-      <guid>//localhost:1313/culture/silence/</guid>
+      <guid>/culture/silence/</guid>
       <description>&lt;h2 id=&#34;i&#34;&gt;i&lt;/h2&gt;
 &lt;p&gt;Silence is explicit&lt;br&gt;
 Silence is complicit&lt;br&gt;
@@ -35,7 +35,7 @@ Which now turns to rue &lt;/p&gt;
 It is complicit It is violent&lt;br&gt;
 And in its complicit explicit violence&lt;br&gt;
 We too have bloodied our souls&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/Ayesha-Kajee.jpg" type="image/jpeg" />
+      <enclosure url="/images/Ayesha-Kajee.jpg" type="image/jpeg" />
     </item>
     
   </channel>

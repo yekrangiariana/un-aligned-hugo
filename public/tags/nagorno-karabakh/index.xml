@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nagorno Karabakh on UN-aligned</title>
-    <link>//localhost:1313/tags/nagorno-karabakh/</link>
+    <link>/tags/nagorno-karabakh/</link>
     <description>Recent content in Nagorno Karabakh on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 09 Oct 2023 11:59:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/nagorno-karabakh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 09 Oct 2023 11:59:00 +0300</lastBuildDate><atom:link href="/tags/nagorno-karabakh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Armenia’s ICC Pivot: Defying Russia and Eyeing European and Iranian Ties</title>
-      <link>//localhost:1313/explainer/armenias-icc-pivot-defying-russia-and-eyeing-european-and-iranian-ties/</link>
+      <link>/explainer/armenias-icc-pivot-defying-russia-and-eyeing-european-and-iranian-ties/</link>
       <pubDate>Mon, 09 Oct 2023 11:59:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/explainer/armenias-icc-pivot-defying-russia-and-eyeing-european-and-iranian-ties/</guid>
+      <guid>/explainer/armenias-icc-pivot-defying-russia-and-eyeing-european-and-iranian-ties/</guid>
       <description>Armenia&#39;s move towards the International Criminal Court sets the stage for a diplomatic drama with Russia, while opening a new chapter of engagement with the West and Iran.</description>
-      <enclosure url="//localhost:1313/images/Armenias-ICC-Pivot-Defying-Russia-and-Eyeing-European-and-Iranian-Ties-.jpg" type="image/jpeg" />
+      <enclosure url="/images/Armenias-ICC-Pivot-Defying-Russia-and-Eyeing-European-and-Iranian-Ties-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The OSCE Minsk Group is Unfit to Conciliate Between Azerbaijan &amp; Armenia over Nagorno-Karabakh</title>
-      <link>//localhost:1313/human-rights/the-osce-minsk-group-is-unfit-to-conciliate-between-azerbaijan-armenia-over-nagorno-karabakh/</link>
+      <link>/human-rights/the-osce-minsk-group-is-unfit-to-conciliate-between-azerbaijan-armenia-over-nagorno-karabakh/</link>
       <pubDate>Sat, 08 Aug 2020 10:55:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/human-rights/the-osce-minsk-group-is-unfit-to-conciliate-between-azerbaijan-armenia-over-nagorno-karabakh/</guid>
+      <guid>/human-rights/the-osce-minsk-group-is-unfit-to-conciliate-between-azerbaijan-armenia-over-nagorno-karabakh/</guid>
       <description>&lt;p&gt;In 1992, two years before the war between the neighbouring Armenia and Azerbaijan ended, the Conference on Security and Cooperation in Europe (OSCE), met in Helsinki and decided to chair negotiations towards a peaceful political settlement for the crisis.&lt;/p&gt;
 &lt;p&gt;The body, also known as the Minsk group, is led and co-chaired by the US, &lt;a href=&#34;https://un-aligned.org/human-rights/russian-roulette-why-putins-referendum-victory-is-a-threat-to-humanity/&#34;&gt;Russia&lt;/a&gt; and France with Belarus, Germany, Italy, Portugal, The Netherlands, Sweden, Finland, Turkey, Armenia and Azerbaijan as participating member states. &lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/5a.jpg" type="image/jpeg" />
+      <enclosure url="/images/5a.jpg" type="image/jpeg" />
     </item>
     
   </channel>

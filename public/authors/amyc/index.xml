@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Amyc on UN-aligned</title>
-    <link>//localhost:1313/authors/amyc/</link>
+    <link>/authors/amyc/</link>
     <description>Recent content in Amyc on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 12 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/authors/amyc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="/authors/amyc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is UK&#39;s North Sea Drilling Plan a Sustainable Solution? An Impact Assessment Report</title>
-      <link>//localhost:1313/climate-emergency/uk-north-sea-drilling-impact-assessment-report/</link>
+      <link>/climate-emergency/uk-north-sea-drilling-impact-assessment-report/</link>
       <pubDate>Fri, 12 Jan 2024 10:00:00 +0200</pubDate>
       <author>amyc</author>
-      <guid>//localhost:1313/climate-emergency/uk-north-sea-drilling-impact-assessment-report/</guid>
+      <guid>/climate-emergency/uk-north-sea-drilling-impact-assessment-report/</guid>
       <description>The UK&#39;s North Sea oil strategy grapples with immediate energy benefits versus long-term environmental and economic costs, amid energy security and climate concerns.</description>
-      <enclosure url="//localhost:1313/images/2-Is-UKs-Oil-Drilling-Plan-a-Sustainable-Choice_-An-Impact-Assessment-Reporte.jpg" type="image/jpeg" />
+      <enclosure url="/images/2-Is-UKs-Oil-Drilling-Plan-a-Sustainable-Choice_-An-Impact-Assessment-Reporte.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>‘No Girl Left Behind’: How Taliban&#39;s Ban on Girls&#39; Education Imperils Afghanistan&#39;s Future</title>
-      <link>//localhost:1313/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</link>
+      <link>/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</link>
       <pubDate>Fri, 17 Nov 2023 10:00:00 +0200</pubDate>
       <author>amyc</author>
-      <guid>//localhost:1313/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</guid>
+      <guid>/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</guid>
       <description>The empty chairs in Afghanistan&#39;s classrooms don&#39;t just signify a local crisis; they mark a global failure that jeopardises the future of an entire generation and country.</description>
-      <enclosure url="//localhost:1313/images/Afghan-girl-education-scaled.jpg" type="image/jpeg" />
+      <enclosure url="/images/Afghan-girl-education-scaled.jpg" type="image/jpeg" />
     </item>
     
   </channel>

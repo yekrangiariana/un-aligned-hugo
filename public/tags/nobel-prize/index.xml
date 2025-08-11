@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nobel Prize on UN-aligned</title>
-    <link>//localhost:1313/tags/nobel-prize/</link>
+    <link>/tags/nobel-prize/</link>
     <description>Recent content in Nobel Prize on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 12 Dec 2022 09:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/nobel-prize/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Dec 2022 09:00:00 +0200</lastBuildDate><atom:link href="/tags/nobel-prize/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Who are the 2022 Nobel Prize Winners?</title>
-      <link>//localhost:1313/global-issues/who-are-the-2022-nobel-prize-winners/</link>
+      <link>/global-issues/who-are-the-2022-nobel-prize-winners/</link>
       <pubDate>Mon, 12 Dec 2022 09:00:00 +0200</pubDate>
       <author>Elvira_Ineza</author>
-      <guid>//localhost:1313/global-issues/who-are-the-2022-nobel-prize-winners/</guid>
+      <guid>/global-issues/who-are-the-2022-nobel-prize-winners/</guid>
       <description>A summary of the lucky winners of the 2022 Nobel Prize in physics, chemistry, physiology or medicine, literature, peace, and economics.</description>
-      <enclosure url="//localhost:1313/images/Who-are-the-2022-Nobel-Prize-Winners-scaled.jpg" type="image/jpeg" />
+      <enclosure url="/images/Who-are-the-2022-Nobel-Prize-Winners-scaled.jpg" type="image/jpeg" />
     </item>
     
   </channel>

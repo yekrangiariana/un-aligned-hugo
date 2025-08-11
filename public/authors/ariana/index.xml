@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ariana on UN-aligned</title>
-    <link>//localhost:1313/authors/ariana/</link>
+    <link>/authors/ariana/</link>
     <description>Recent content in Ariana on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 15 Apr 2019 18:06:23 +0300</lastBuildDate><atom:link href="//localhost:1313/authors/ariana/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 15 Apr 2019 18:06:23 +0300</lastBuildDate><atom:link href="/authors/ariana/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Archive</title>
-      <link>//localhost:1313/archive/</link>
+      <link>/archive/</link>
       <pubDate>Mon, 15 Apr 2019 18:06:23 +0300</pubDate>
       <author>Ariana</author>
-      <guid>//localhost:1313/archive/</guid>
+      <guid>/archive/</guid>
       <description>&lt;h2 id=&#34;read--enjoy-our-monthly-magazine&#34;&gt;Read &amp;amp; Enjoy our Monthly Magazine&lt;/h2&gt;
 &lt;p&gt;Did you know that UN-aligned members can contribute to The Gordian in anyway they want? Write, design, take pictures, make quizzes or financially contribute to your favourite magazine today.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://un-aligned.org/opportunities/write-for-un-aligned/&#34;&gt;See how&lt;/a&gt;&lt;/p&gt;
@@ -35,10 +35,10 @@
     
     <item>
       <title>Terms and Conditions</title>
-      <link>//localhost:1313/terms-and-conditions/</link>
+      <link>/terms-and-conditions/</link>
       <pubDate>Mon, 25 Mar 2019 21:26:17 +0200</pubDate>
       <author>Ariana</author>
-      <guid>//localhost:1313/terms-and-conditions/</guid>
+      <guid>/terms-and-conditions/</guid>
       <description>&lt;h2 id=&#34;terms--conditions&#34;&gt;Terms &amp;amp; Conditions&lt;/h2&gt;
 &lt;h2 id=&#34;un-aligneds-terms--conditions&#34;&gt;Un-aligned&amp;rsquo;s Terms &amp;amp; Conditions&lt;/h2&gt;
 &lt;p&gt;Welcome to UN-aligned&lt;/p&gt;
@@ -52,10 +52,10 @@ capitalisation and/or he/she or they, are taken as interchangeable and therefore
     
     <item>
       <title>Privacy Policy</title>
-      <link>//localhost:1313/privacy-policy/</link>
+      <link>/privacy-policy/</link>
       <pubDate>Fri, 25 Jan 2019 17:53:06 +0200</pubDate>
       <author>Ariana</author>
-      <guid>//localhost:1313/privacy-policy/</guid>
+      <guid>/privacy-policy/</guid>
       <description>&lt;h3 id=&#34;privacy--cookies&#34;&gt;Privacy &amp;amp; Cookies&lt;/h3&gt;
 &lt;h2 id=&#34;un-aligneds-privacy-statement&#34;&gt;Un-aligned&amp;rsquo;s Privacy Statement&lt;/h2&gt;
 &lt;p&gt;This privacy policy will explain how our organisation uses the personal data we collect from you when you use our website.&lt;/p&gt;
@@ -72,12 +72,12 @@ capitalisation and/or he/she or they, are taken as interchangeable and therefore
     
     <item>
       <title>The Alternative UN and The International Political Party</title>
-      <link>//localhost:1313/the-alternative-un/</link>
+      <link>/the-alternative-un/</link>
       <pubDate>Fri, 25 Jan 2019 13:31:26 +0200</pubDate>
       <author>Ariana</author>
-      <guid>//localhost:1313/the-alternative-un/</guid>
+      <guid>/the-alternative-un/</guid>
       <description>Many of the world’s ills are man-made. Although we may feel powerless in the face of practices that are entrenched in the current structures of international politics, there is nothing to stop us from creating a virtual world order...</description>
-      <enclosure url="//localhost:1313/images/Abandon-all-hope-ye-who-enter-here_-The-shitshow-that-is-the-UN-Security-Council.jpg" type="image/jpeg" />
+      <enclosure url="/images/Abandon-all-hope-ye-who-enter-here_-The-shitshow-that-is-the-UN-Security-Council.jpg" type="image/jpeg" />
     </item>
     
   </channel>

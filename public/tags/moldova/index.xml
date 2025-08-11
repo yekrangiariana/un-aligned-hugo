@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Moldova on UN-aligned</title>
-    <link>//localhost:1313/tags/moldova/</link>
+    <link>/tags/moldova/</link>
     <description>Recent content in Moldova on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 11 Jul 2022 08:52:11 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/moldova/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Jul 2022 08:52:11 +0300</lastBuildDate><atom:link href="/tags/moldova/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Ukraine and Moldova&#39;s EU candidacy status… beneficial?</title>
-      <link>//localhost:1313/explainer/ukraine-and-moldovas-eu-candidacy-status-beneficial/</link>
+      <link>/explainer/ukraine-and-moldovas-eu-candidacy-status-beneficial/</link>
       <pubDate>Mon, 11 Jul 2022 08:52:11 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/explainer/ukraine-and-moldovas-eu-candidacy-status-beneficial/</guid>
+      <guid>/explainer/ukraine-and-moldovas-eu-candidacy-status-beneficial/</guid>
       <description>The European Union recently granted applicant status to Ukraine and Moldova. If approved, its many benefits, even rivalling NATO’s, include deterring Russia’s war machine. Here are some key questions surrounding the topic.</description>
-      <enclosure url="//localhost:1313/images/Ukraine-and-Moldovas-EU-candidacy-status-beneficial_.jpg" type="image/jpeg" />
+      <enclosure url="/images/Ukraine-and-Moldovas-EU-candidacy-status-beneficial_.jpg" type="image/jpeg" />
     </item>
     
   </channel>

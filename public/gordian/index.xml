@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gordians on UN-aligned</title>
-    <link>//localhost:1313/gordian/</link>
+    <link>/gordian/</link>
     <description>Recent content in Gordians on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/gordian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="/gordian/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Rising Utopia Brick by Brick</title>
-      <link>//localhost:1313/gordian/issue-3/</link>
+      <title>A new issue of the Gordian will be coming soon</title>
+      <link>/gordian/issue-1/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
       
-      <guid>//localhost:1313/gordian/issue-3/</guid>
-      <description>In this first issue of our new Utopia series, we will be focusing on world peace and democracy. Our main article is a quirky piece which postulates an interview with the representative of a more advanced civilisation; and within this setting, novel visions are juxtaposed to some of our pressing problems. Of course, our coverage does not end here.</description>
-      <enclosure url="//localhost:1313/images/issue-1-vol-7-scaled.jpg" type="image/jpeg" />
+      <guid>/gordian/issue-1/</guid>
+      <description></description>
+      <enclosure url="/images/issue-1-vol-7-scaled.jpg" type="image/jpeg" />
     </item>
     
   </channel>

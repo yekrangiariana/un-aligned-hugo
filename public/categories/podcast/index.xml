@@ -2,79 +2,79 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Podcast on UN-aligned</title>
-    <link>//localhost:1313/categories/podcast/</link>
+    <link>/categories/podcast/</link>
     <description>Recent content in Podcast on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 06 Feb 2022 10:37:26 +0200</lastBuildDate><atom:link href="//localhost:1313/categories/podcast/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 10:37:26 +0200</lastBuildDate><atom:link href="/categories/podcast/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Kazakhstan calls on Russia to help quell its unrest, Rock star Meat Loaf dies and Prince Andrew gets stripped (out of his royal patronage)</title>
-      <link>//localhost:1313/news/monthly-recap-feb-2022/</link>
+      <link>/news/monthly-recap-feb-2022/</link>
       <pubDate>Sun, 06 Feb 2022 10:37:26 +0200</pubDate>
       <author>rubygoldenberg</author>
-      <guid>//localhost:1313/news/monthly-recap-feb-2022/</guid>
+      <guid>/news/monthly-recap-feb-2022/</guid>
       <description>From a messy closet to the freezing cold of Helsinki, hosts Ruby Goldenberg and Ariana Yekrangi show their commitment as they recap the events of January 2022 for the Gordian Monthly Recap.</description>
-      <enclosure url="//localhost:1313/images/Kazakhstan-calls-on-Russia-to-help-quell-its-unrest-Rock-star-Meat-Loaf-dies-and-Prince-Andrew-gets-stripped-out-of-his-royal-patronage-.jpg" type="image/jpeg" />
+      <enclosure url="/images/Kazakhstan-calls-on-Russia-to-help-quell-its-unrest-Rock-star-Meat-Loaf-dies-and-Prince-Andrew-gets-stripped-out-of-his-royal-patronage-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>French and UK authorities are being sued, Merkel retires and Honduras gets its first female leader</title>
-      <link>//localhost:1313/podcast/french-and-uk-authorities-are-being-sued-merkel-retires-and-honduras-gets-its-first-female-leader/</link>
+      <link>/podcast/french-and-uk-authorities-are-being-sued-merkel-retires-and-honduras-gets-its-first-female-leader/</link>
       <pubDate>Wed, 05 Jan 2022 08:00:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/podcast/french-and-uk-authorities-are-being-sued-merkel-retires-and-honduras-gets-its-first-female-leader/</guid>
+      <guid>/podcast/french-and-uk-authorities-are-being-sued-merkel-retires-and-honduras-gets-its-first-female-leader/</guid>
       <description>In this episode of Gordian Monthly Recap, Ruby Goldenberg and Ariana Yekrangi help you catch up with everything that happened in November 2021.</description>
-      <enclosure url="//localhost:1313/images/French-and-UK-authorities-are-being-sued-Merkel-retires-and-Honduras-gets-its-first-female-leader-%E2%80%94-The-Gordian-Monthly-Recap.jpg" type="image/jpeg" />
+      <enclosure url="/images/French-and-UK-authorities-are-being-sued-Merkel-retires-and-Honduras-gets-its-first-female-leader-%E2%80%94-The-Gordian-Monthly-Recap.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Here&#39;s everything you may have missed in November — The Gordian Monthly Recap</title>
-      <link>//localhost:1313/news/heres-everything-you-may-have-missed-in-november-the-gordian-monthly-recap/</link>
+      <link>/news/heres-everything-you-may-have-missed-in-november-the-gordian-monthly-recap/</link>
       <pubDate>Mon, 13 Dec 2021 09:00:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/news/heres-everything-you-may-have-missed-in-november-the-gordian-monthly-recap/</guid>
+      <guid>/news/heres-everything-you-may-have-missed-in-november-the-gordian-monthly-recap/</guid>
       <description>In this episode of Gordian Monthly Recap, Ruby and Ariana help you catch up with everything that happened in October 2021.</description>
-      <enclosure url="//localhost:1313/images/Heres-everything-you-may-have-missed-in-October-%E2%80%94-The-Gordian-Monthly-recap-.jpg" type="image/jpeg" />
+      <enclosure url="/images/Heres-everything-you-may-have-missed-in-October-%E2%80%94-The-Gordian-Monthly-recap-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Here&#39;s everything you may have missed in October — The Gordian Monthly Recap</title>
-      <link>//localhost:1313/news/october-the-gordian-monthly-recap/</link>
+      <link>/news/october-the-gordian-monthly-recap/</link>
       <pubDate>Sun, 07 Nov 2021 12:28:16 +0200</pubDate>
       <author>rubygoldenberg</author>
-      <guid>//localhost:1313/news/october-the-gordian-monthly-recap/</guid>
+      <guid>/news/october-the-gordian-monthly-recap/</guid>
       <description>In this episode of Gordian Monthly Recap, Ruby Goldenberg and Ariana Yekrangi help you catch up with everything that happened in October 2021.</description>
-      <enclosure url="//localhost:1313/images/Heres-everything-you-may-have-missed-in-October-%E2%80%94-The-Gordian-Monthly-recap-.jpg" type="image/jpeg" />
+      <enclosure url="/images/Heres-everything-you-may-have-missed-in-October-%E2%80%94-The-Gordian-Monthly-recap-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>What does Antonio Guterres&#39; re-selection mean for the United Nations? — Podcast</title>
-      <link>//localhost:1313/podcast/what-does-antonio-guterres-re-selection-mean-for-the-united-nations/</link>
+      <link>/podcast/what-does-antonio-guterres-re-selection-mean-for-the-united-nations/</link>
       <pubDate>Thu, 15 Jul 2021 11:00:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/podcast/what-does-antonio-guterres-re-selection-mean-for-the-united-nations/</guid>
+      <guid>/podcast/what-does-antonio-guterres-re-selection-mean-for-the-united-nations/</guid>
       <description>While the UN&#39;s causes are noble, its communiques can feel like an alphabet soup and its members often behave like undisciplined children. An audio episode explores the ambitions and limitations of its leader, António Guterres</description>
-      <enclosure url="//localhost:1313/images/10_Antonio_Guterres@0.5x.jpg" type="image/jpeg" />
+      <enclosure url="/images/10_Antonio_Guterres@0.5x.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Are the ICJ and the ICC our answers to international justice? - Podcast</title>
-      <link>//localhost:1313/global-issues/are-the-icj-and-the-icc-our-answers-to-international-justice-podcast/</link>
+      <link>/global-issues/are-the-icj-and-the-icc-our-answers-to-international-justice-podcast/</link>
       <pubDate>Tue, 11 May 2021 11:00:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/global-issues/are-the-icj-and-the-icc-our-answers-to-international-justice-podcast/</guid>
+      <guid>/global-issues/are-the-icj-and-the-icc-our-answers-to-international-justice-podcast/</guid>
       <description>Humanity has created a biased, self-serving &#39;doppelgänger&#39; of true justice through flawed laws, a concept explored here in relation to institutions like the International Court of Justice and the International Criminal Court.</description>
-      <enclosure url="//localhost:1313/images/International_Court_of_Justice_1979-copy.jpg" type="image/jpeg" />
+      <enclosure url="/images/International_Court_of_Justice_1979-copy.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Seven Ways to Create a Healthy Economy with Kate Raworth - Podcast</title>
-      <link>//localhost:1313/economy/seven-ways-to-create-a-healthy-economy-podcast/</link>
+      <link>/economy/seven-ways-to-create-a-healthy-economy-podcast/</link>
       <pubDate>Sat, 10 Apr 2021 10:36:17 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/economy/seven-ways-to-create-a-healthy-economy-podcast/</guid>
+      <guid>/economy/seven-ways-to-create-a-healthy-economy-podcast/</guid>
       <description>Economist Kate Raworth&#39;s &#39;Doughnut&#39; model provides a visual framework for a healthy economy, outlining a safe and just space for humanity to thrive between its social and planetary boundaries.</description>
-      <enclosure url="//localhost:1313/images/Doughnut-Economy-copy.jpg" type="image/jpeg" />
+      <enclosure url="/images/Doughnut-Economy-copy.jpg" type="image/jpeg" />
     </item>
     
   </channel>
