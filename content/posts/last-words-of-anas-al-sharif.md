@@ -51,6 +51,6 @@ Throughout the conflict, Al-Sharif faced baseless accusations from the Israeli m
 
 He was killed in an Israeli airstrike targeting a press gathering outside Al-Shifa Hospital in Gaza City, along with four colleagues.
 
-The [following statement](https://x.com/AnasAlSharif0/status/1954670507128914219) was published on 11 August 2025 on Anas Al-Sharif’s Twitter account after another targeted Israeli strike killed five journalists. Since the genocidal war began on 7 October 2023, Israel has (deliberately killed)[https://un-aligned.org/human-rights/inside-israels-war-on-truth-journalists-and-the-free-media/] 237 journalists. This has occurred while Israel continues to block the entry of foreign journalists.
+The [following statement](https://x.com/AnasAlSharif0/status/1954670507128914219) was published on 11 August 2025 on Anas Al-Sharif’s Twitter account after another targeted Israeli strike killed five journalists. Since the genocidal war began on 7 October 2023, Israel has [deliberately killed](https://un-aligned.org/human-rights/inside-israels-war-on-truth-journalists-and-the-free-media/) 237 journalists. This has occurred while Israel continues to block the entry of foreign journalists.
 
 Photo screenshot of Anas Al-Sharif from Aljazeera Arabiya. 

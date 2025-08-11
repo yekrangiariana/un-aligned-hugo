@@ -160,12 +160,12 @@
           <!-- For Style 2 comments, add description container here -->
           {{ if and $hasComments .Description (eq (.Params.style | default "1") "2") }}
             <div class="comment-description-container-right-column">              
-              <div class="comment-description">               
-                <div itemprop="description">{{ .Description }}</div>
-              </div>
               <div class="comment-author-space">
                 {{ partial "author-info.html" (dict "context" . "showImage" true "showName" false) }}
               </div>
+            </div>
+            <div class="comment-description">               
+              <div itemprop="description">{{ .Description }}</div>
             </div>
           {{ end }}
           
@@ -190,12 +190,12 @@
             <!-- For Style 1 comments, add description container here -->
             {{ if and $hasComments .Description (ne (.Params.style | default "1") "2") }}
               <div class="comment-description-container">              
-                <div class="comment-description">                
-                  <div itemprop="description">{{ .Description }}</div>
-                </div>
                 <div class="comment-author-space">
                   {{ partial "author-info.html" (dict "context" . "showImage" true "showName" false) }}
                 </div>
+              </div>
+              <div class="comment-description">                
+                <div itemprop="description">{{ .Description }}</div>
               </div>
               {{ if and $hasComments (ne (.Params.style | default "1") "2") }}
                 {{ if .Params.featuredImage }}
