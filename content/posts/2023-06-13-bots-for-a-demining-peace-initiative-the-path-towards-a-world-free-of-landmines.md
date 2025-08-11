@@ -1,7 +1,7 @@
 ---
 title: "Bots for a Demining Peace Initiative: The Path Towards a World Free of Landmines"
 date: 2023-06-13T11:00:00+03:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "human-rights/bots-for-a-demining-peace-initiative-the-path-towards-a-world-free-of-landmines"
 categories: 
   - "Human Rights"

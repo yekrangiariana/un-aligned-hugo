@@ -4,23 +4,30 @@
     <title>Rohingya on UN-aligned</title>
     <link>//localhost:1313/tags/rohingya/</link>
     <description>Recent content in Rohingya on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 23 Nov 2020 07:00:51 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/rohingya/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 23 Nov 2020 07:00:51 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/rohingya/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Update on the Ashin Wirathu Campaign</title>
       <link>//localhost:1313/un-aligned-news/update-on-the-afshin-wirathu-campaign/</link>
       <pubDate>Mon, 23 Nov 2020 07:00:51 +0200</pubDate>
+      <author>Adrian Liberto</author>
       <guid>//localhost:1313/un-aligned-news/update-on-the-afshin-wirathu-campaign/</guid>
-      <description>&lt;p&gt;On 27 July 2020, UN-aligned sent a &lt;a href=&#34;https://un-aligned.org/letters/letter-to-mr-ashin-wirathu/&#34;&gt;letter to the Burmese Buddhist monk Ashin Wirathu&lt;/a&gt; asking him, amongst other things, how he could reconcile his hostility to the Rohingya with his Buddhist creed. The letter was sent registered.&lt;/p&gt;&#xA;&lt;p&gt;Three months later, the letter is still sitting in a post office in Myanmar and the status of the letter is described as “in transit.” The address was of course correct; in fact, the monastery he resides in is the well-known and accessible New Masoyein Monastery in &lt;a href=&#34;https://en.wikipedia.org/wiki/Mandalay&#34;&gt;Mandalay&lt;/a&gt;. So why on earth is the letter still stuck in Nowhere Land?&lt;/p&gt;</description>
+      <description>&lt;p&gt;On 27 July 2020, UN-aligned sent a &lt;a href=&#34;https://un-aligned.org/letters/letter-to-mr-ashin-wirathu/&#34;&gt;letter to the Burmese Buddhist monk Ashin Wirathu&lt;/a&gt; asking him, amongst other things, how he could reconcile his hostility to the Rohingya with his Buddhist creed. The letter was sent registered.&lt;/p&gt;
+&lt;p&gt;Three months later, the letter is still sitting in a post office in Myanmar and the status of the letter is described as “in transit.” The address was of course correct; in fact, the monastery he resides in is the well-known and accessible New Masoyein Monastery in &lt;a href=&#34;https://en.wikipedia.org/wiki/Mandalay&#34;&gt;Mandalay&lt;/a&gt;. So why on earth is the letter still stuck in Nowhere Land?&lt;/p&gt;</description>
+      <enclosure url="//localhost:1313/images/venerable-w-crop.jpg" type="image/jpeg" />
     </item>
+    
     <item>
       <title>Letter to Ashin Wirathu: Can your monastery do anything now to restore the spirit of fraternity that should reign amongst all the residents of Myanmar?</title>
       <link>//localhost:1313/campaigns/letter-to-mr-ashin-wirathu/</link>
       <pubDate>Sat, 15 Aug 2020 11:16:18 +0300</pubDate>
+      <author>Adrian Liberto</author>
       <guid>//localhost:1313/campaigns/letter-to-mr-ashin-wirathu/</guid>
-      <description>&lt;p&gt;Bhante Ashin Wirathu, I am writing to you on behalf of UN-aligned, an international organisation that focusses on the need to replace the United Nations with a more effective and principled organisation, although we also work to promote human and animal rights, as well as the welfare of the planet.&lt;/p&gt;&#xA;&lt;p&gt;Institutionalised religion has had a sad history in a number of countries around the world owing to its bigotry and abuse of power. Many spiritual people, including some of our members, have therefore looked to Buddhism as a beacon of justice and openness. This image has been tainted over the last few years by portrayals of monks leading a crusade against the Rohingya inhabitants of Myanmar. The contradiction here reminds many people of the darkest periods of some of the leading world religions.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Bhante Ashin Wirathu, I am writing to you on behalf of UN-aligned, an international organisation that focusses on the need to replace the United Nations with a more effective and principled organisation, although we also work to promote human and animal rights, as well as the welfare of the planet.&lt;/p&gt;
+&lt;p&gt;Institutionalised religion has had a sad history in a number of countries around the world owing to its bigotry and abuse of power. Many spiritual people, including some of our members, have therefore looked to Buddhism as a beacon of justice and openness. This image has been tainted over the last few years by portrayals of monks leading a crusade against the Rohingya inhabitants of Myanmar. The contradiction here reminds many people of the darkest periods of some of the leading world religions.&lt;/p&gt;</description>
+      <enclosure url="//localhost:1313/images/Rohingya_displaced_Muslims_010-1.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

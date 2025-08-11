@@ -4,16 +4,18 @@
     <title>Gordians on UN-aligned</title>
     <link>//localhost:1313/gordian/</link>
     <description>Recent content in Gordians on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="//localhost:1313/gordian/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 01 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="//localhost:1313/gordian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rising Utopia Brick by Brick</title>
       <link>//localhost:1313/gordian/issue-3/</link>
       <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
+      
       <guid>//localhost:1313/gordian/issue-3/</guid>
-      <description>&lt;p&gt;Welcome to the inaugural issue of The Gordian Magazine, where we bring you a curated collection of thought-provoking articles that challenge the status quo and offer new perspectives on global issues.&lt;/p&gt;&#xA;&lt;p&gt;In this first issue, we explore the themes of global security, international organizations, and migration through a selection of our most insightful pieces.&lt;/p&gt;&#xA;&lt;p&gt;The Gordian Magazine aims to untangle complex global issues by presenting diverse viewpoints and in-depth analysis. Each issue brings together a collection of articles that provide context and clarity on the most pressing challenges of our time.&lt;/p&gt;</description>
+      <description>In this first issue of our new Utopia series, we will be focusing on world peace and democracy. Our main article is a quirky piece which postulates an interview with the representative of a more advanced civilisation; and within this setting, novel visions are juxtaposed to some of our pressing problems. Of course, our coverage does not end here.</description>
+      <enclosure url="//localhost:1313/images/issue-1-vol-7-scaled.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

@@ -4,23 +4,29 @@
     <title>Sri Lanka on UN-aligned</title>
     <link>//localhost:1313/tags/sri-lanka/</link>
     <description>Recent content in Sri Lanka on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 19 Jan 2023 09:30:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/sri-lanka/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Jan 2023 09:30:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/sri-lanka/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Where are Sri Lanka’s Missing Children?</title>
       <link>//localhost:1313/global-issues/where-are-sri-lankas-missing-children/</link>
       <pubDate>Thu, 19 Jan 2023 09:30:00 +0200</pubDate>
+      <author>Dinojah.Patkunarajah</author>
       <guid>//localhost:1313/global-issues/where-are-sri-lankas-missing-children/</guid>
-      <description>&lt;p&gt;“Remember when you and Akka [older sister in Tamil] used to skip dance class by hiding in the storage shed in the backyard?”, reminisces my Aunt. “We would spend ages looking for you, thinking you both had gone missing.” It’s been 13 years since the end of the Sri Lankan civil war and my cousin went missing. My aunt, like many mothers in Sri Lanka, is still searching for her daughter or at least answers as to what happened to her. Answers she is unlikely to ever find.&lt;/p&gt;</description>
+      <description>13 years after the end of the Sri Lankan civil war, mothers of the disappeared are still searching for answers and justice.</description>
+      <enclosure url="//localhost:1313/images/The-Ongoing-Search-for-Sri-Lankas-missing-children.jpg" type="image/jpeg" />
     </item>
+    
     <item>
       <title>Reflections on the Sri Lanka bombings</title>
       <link>//localhost:1313/country-profile/reflections-on-the-sri-lanka-bombings-2/</link>
       <pubDate>Mon, 06 May 2019 08:15:23 +0300</pubDate>
+      <author>Adrian Liberto</author>
       <guid>//localhost:1313/country-profile/reflections-on-the-sri-lanka-bombings-2/</guid>
-      <description>&lt;h2 id=&#34;bloody-motives&#34;&gt;Bloody motives!&lt;/h2&gt;&#xA;&lt;p&gt;If an angel came and told me that all the world problems would be solved if I just put a few bombs around killing innocent people in mosques, synagogues, churches, market places or hotels… would I do it? Of course not. Firstly, because I do not even have the right to insult an innocent person, let alone take their life. Secondly, because it would be like asking me to believe that good is founded on evil, or harmony on hatred. Rather obvious, you would say… Then why, oh why, does it keep happening again and again!&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;bloody-motives&#34;&gt;Bloody motives!&lt;/h2&gt;
+&lt;p&gt;If an angel came and told me that all the world problems would be solved if I just put a few bombs around killing innocent people in mosques, synagogues, churches, market places or hotels… would I do it? Of course not. Firstly, because I do not even have the right to insult an innocent person, let alone take their life. Secondly, because it would be like asking me to believe that good is founded on evil, or harmony on hatred. Rather obvious, you would say… Then why, oh why, does it keep happening again and again!&lt;/p&gt;</description>
+      <enclosure url="//localhost:1313/images/shutterstock-164109974.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

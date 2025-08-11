@@ -2,7 +2,7 @@
 title: "Become a Voice in UN-aligned and The Gordian Magazine"
 description: "Do you wish to write and contribute articles, photo essays, analyses, interviews and much more to The Gordian Magazine?"
 date: 2020-04-17T10:15:05+03:00
-authors: ["Ariana Yekrangi"]
+authors: ["UN-aligned"]
 url: "opportunities/write-for-un-aligned"
 categories: 
   - "Opportunities"

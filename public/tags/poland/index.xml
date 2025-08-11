@@ -4,16 +4,20 @@
     <title>Poland on UN-aligned</title>
     <link>//localhost:1313/tags/poland/</link>
     <description>Recent content in Poland on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 10 Oct 2020 10:59:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/poland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 10 Oct 2020 10:59:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/poland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>LGBTQ Rights: Zombie Democracy and Loveless Religion</title>
       <link>//localhost:1313/global-issues/lgbtq-rights-zombie-democracy-and-loveless-religion/</link>
       <pubDate>Sat, 10 Oct 2020 10:59:00 +0300</pubDate>
+      <author>Adrian Liberto</author>
       <guid>//localhost:1313/global-issues/lgbtq-rights-zombie-democracy-and-loveless-religion/</guid>
-      <description>&lt;h3 id=&#34;hiding-behind-democracy&#34;&gt;&lt;strong&gt;Hiding behind democracy&lt;/strong&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Any lover of democracy would be justified in feeling a sense of alarm when faced with such statements as “an assault on democracy…” and “a direct political attack against the democratically elected government…”, but as the Bard of Avon put it: “The devil can cite Scripture for his purpose.”&lt;/p&gt;&#xA;&lt;p&gt;The above two quotes come from Polish Justice Minister Zbigniew Ziobro and Hungarian Prime Minister Viktor Orban, respectively. They are directed against the EU presidency for calling their countries to task for their deteriorating record on human rights.&lt;/p&gt;</description>
+      <description>&lt;h3 id=&#34;hiding-behind-democracy&#34;&gt;&lt;strong&gt;Hiding behind democracy&lt;/strong&gt;&lt;/h3&gt;
+&lt;p&gt;Any lover of democracy would be justified in feeling a sense of alarm when faced with such statements as “an assault on democracy…” and “a direct political attack against the democratically elected government…”, but as the Bard of Avon put it: “The devil can cite Scripture for his purpose.”&lt;/p&gt;
+&lt;p&gt;The above two quotes come from Polish Justice Minister Zbigniew Ziobro and Hungarian Prime Minister Viktor Orban, respectively. They are directed against the EU presidency for calling their countries to task for their deteriorating record on human rights.&lt;/p&gt;</description>
+      <enclosure url="//localhost:1313/images/2-1.jpg.webp" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

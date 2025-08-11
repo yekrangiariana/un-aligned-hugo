@@ -4,16 +4,19 @@
     <title>Global Pandemic on UN-aligned</title>
     <link>//localhost:1313/tags/global-pandemic/</link>
     <description>Recent content in Global Pandemic on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 08 Jul 2020 11:00:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/global-pandemic/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 08 Jul 2020 11:00:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/global-pandemic/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Protestors: When is it OK to Hit them?</title>
       <link>//localhost:1313/global-issues/hitting-a-protestor/</link>
       <pubDate>Wed, 08 Jul 2020 11:00:00 +0300</pubDate>
+      <author>Ariana Yekrangi</author>
       <guid>//localhost:1313/global-issues/hitting-a-protestor/</guid>
-      <description>&lt;p&gt;When is it OK to hit a protestor? Is protesting during a global pandemic a good idea?&lt;/p&gt;&#xA;&lt;p&gt;There has rarely been any positive social changes without some form of protest. Too often the establishment is seen grappling on to power by fostering a dominant discourse from which dissident and minority views are excluded. At best, protests today are characterised as a disruption and inconvenience and, at worst, a threat to a vaguely-defined national security. Political leaders and the majority they may represent, blame these warriors of justice for lack of character and accountability, even though, ironically, those are the very flaws &lt;strong&gt;they&lt;/strong&gt; are being accused of.&lt;/p&gt;</description>
+      <description>&lt;p&gt;When is it OK to hit a protestor? Is protesting during a global pandemic a good idea?&lt;/p&gt;
+&lt;p&gt;There has rarely been any positive social changes without some form of protest. Too often the establishment is seen grappling on to power by fostering a dominant discourse from which dissident and minority views are excluded. At best, protests today are characterised as a disruption and inconvenience and, at worst, a threat to a vaguely-defined national security. Political leaders and the majority they may represent, blame these warriors of justice for lack of character and accountability, even though, ironically, those are the very flaws &lt;strong&gt;they&lt;/strong&gt; are being accused of.&lt;/p&gt;</description>
+      <enclosure url="//localhost:1313/images/WP-Photo-2.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

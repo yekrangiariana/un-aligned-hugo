@@ -2,7 +2,7 @@
 title: "“With a democratic world federation, humanity can address global problems”"
 description: "Humanity has been taking the easy path for far too long and we are the unfortunate generation that has to get off the couch and into the trenches."
 date: 2022-06-24T11:37:45+03:00
-authors: ["eston.mckeague"]
+authors: ["Eston McKeague"]
 url: "global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems"
 categories: 
   - "Global Issues"

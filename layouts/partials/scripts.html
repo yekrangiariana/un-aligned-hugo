@@ -7,9 +7,6 @@
 </script>
 {{ end }}
 
-<!-- Sticky Table of Contents -->
-<script src="{{ "js/sticky-toc.js" | absURL }}" type="text/javascript"></script>
-
 <!-- Load Gordian dark mode CSS if we're on a Gordian page -->
 <script>
   if (document.body.classList.contains('gordian-body') || 
@@ -18,7 +15,6 @@
     link.rel = 'stylesheet';
     link.href = '{{ "css/gordian-dark-mode.css" | absURL }}';
     document.head.appendChild(link);
-    console.log('Loaded Gordian dark mode CSS');
   }
 </script>
 
@@ -108,9 +104,6 @@
     })();
   }
 </script>
-
-<!-- Smooth scrolling script (no flash effects) -->
-<script src="{{ "js/scroll-animation-clean.js" | absURL }}"></script>
 
 <!-- Page load script -->
 <script>

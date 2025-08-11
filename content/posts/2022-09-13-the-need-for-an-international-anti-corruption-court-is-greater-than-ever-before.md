@@ -2,7 +2,7 @@
 title: "The need for an International Anti-Corruption Court (IACC) is greater than ever before"
 description: "While the ICC is busy with sanctimonious show trials in the Global South, the need for a supranational criminal court that prosecutes corruption without fear and favour is rising."
 date: 2022-09-13T16:00:00+03:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "global-issues/the-need-for-an-international-anti-corruption-court-is-greater-than-ever-before"
 categories:
   - "Global Issues"

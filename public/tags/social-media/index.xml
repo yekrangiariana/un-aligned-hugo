@@ -4,16 +4,18 @@
     <title>Social Media on UN-aligned</title>
     <link>//localhost:1313/tags/social-media/</link>
     <description>Recent content in Social Media on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 21 Jun 2022 13:54:04 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jun 2022 13:54:04 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/social-media/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Social Media in an Era of Invasion</title>
       <link>//localhost:1313/global-issues/social-media-in-an-era-of-invasion/</link>
       <pubDate>Tue, 21 Jun 2022 13:54:04 +0300</pubDate>
+      <author>Kaitlyn.Rivera</author>
       <guid>//localhost:1313/global-issues/social-media-in-an-era-of-invasion/</guid>
-      <description>&lt;p&gt;From February 24th until now, nearly tens of thousands of people have been either injured or killed by the Russian invasion of Ukraine. This is an unfortunate number of people, especially so when considering the number of refugees fleeing Ukraine; &lt;a href=&#34;https://www.cfr.org/global-conflict-tracker/conflict/conflict-ukraine&#34;&gt;&lt;/a&gt;with more than five million leaving Ukraine in search of safety. The people of Ukraine have been pushed from their homes, forced to leave behind their lives, families, friends, and pets; but they are resilient people and have given the world personal insights to life in Ukraine post-invasion. &lt;/p&gt;</description>
+      <description>In a time of uncertainty and fear, Ukrainians are using social media to stay in the world.</description>
+      <enclosure url="//localhost:1313/images/Social-Media-in-an-Era-of-Invasion.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

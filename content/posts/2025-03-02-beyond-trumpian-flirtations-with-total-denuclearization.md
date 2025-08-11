@@ -2,7 +2,7 @@
 title: "Beyond Trumpian Flirtations with Total Denuclearization"
 description: "Is Donald Trump to be taken seriously when openly speaking of denuclearization?"
 date: 2025-03-02T18:11:40+02:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "global-issues/beyond-trumpian-flirtations-with-total-denuclearization"
 categories: 
   - "Global Issues"

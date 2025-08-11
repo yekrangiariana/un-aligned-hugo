@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dean Gessie on UN-aligned</title>
+    <link>//localhost:1313/authors/dean-gessie/</link>
+    <description>Recent content in Dean Gessie on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Mon, 08 Nov 2021 09:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/authors/dean-gessie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Poems for a Better World: Terra Australis Incognita</title>
+      <link>//localhost:1313/culture/terra-australis-incognita/</link>
+      <pubDate>Mon, 08 Nov 2021 09:00:00 +0200</pubDate>
+      <author>Dean Gessie</author>
+      <guid>//localhost:1313/culture/terra-australis-incognita/</guid>
+      <description>Read Dean Gessie’s winning submission to the 2021 UN-aligned poetry competition.</description>
+      <enclosure url="//localhost:1313/images/Dean-Gessie.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

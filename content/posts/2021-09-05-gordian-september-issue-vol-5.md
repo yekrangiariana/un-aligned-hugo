@@ -62,7 +62,7 @@ Then, out of the blue, or through a slow and inevitable twist of events, it does
 
 _By Jay Davis_
 
-![](/images/‘Unanimous-Verdict_-the-UN-is-failing-to-eradicate-poverty-1024x614.jpg)
+![](/images/‘Unanimous-Verdict_-the-UN-is-failing-to-eradicate-poverty.jpg)
 
 Poverty, to put it simply, is one of humankind’s greatest ills and despite various ways to quantify, analyse or measure it, the problem remains unsolved. With the world finding itself in unprecedented straits owing to the COVID-19 pandemic, which has not only claimed the lives of 4,000,000, but has revealed ominous and record-breaking poverty worldwide, humanity more than ever needs its leaders to come together and work towards effective solutions.
 

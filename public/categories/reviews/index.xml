@@ -4,16 +4,18 @@
     <title>Reviews on UN-aligned</title>
     <link>//localhost:1313/categories/reviews/</link>
     <description>Recent content in Reviews on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 06 Feb 2022 06:50:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 06:50:00 +0200</lastBuildDate><atom:link href="//localhost:1313/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UN Security Council meeting on Ukraine Review: Abstaining Romance and Plenty of Hot Air</title>
       <link>//localhost:1313/global-issues/unsc-meeting-on-ukraine-review/</link>
       <pubDate>Sun, 06 Feb 2022 06:50:00 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
       <guid>//localhost:1313/global-issues/unsc-meeting-on-ukraine-review/</guid>
-      <description>&lt;p&gt;Tensions between Russia and Ukraine have been mounting for weeks now and for some reason, everyone expected that this particular Security Council session would narrow the wide divide between Russia and the so-called West. Of course, there’s nothing wrong with being pessimistic, but it is a fool who watches the same episode and expects a different ending. Here are three of the main sides of the argument presented during the Council meeting.&lt;/p&gt;</description>
+      <description>Participating members in this UN Security Council meeting on Ukraine attempt their best with this bland, shallow and awkwardly structured meeting, which can be characterised in 6 words: “Too late”, “nothing new” and “bad directing”.</description>
+      <enclosure url="//localhost:1313/images/UN-Security-Council-meeting-on-Ukraine-Review-copy.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

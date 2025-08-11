@@ -2,7 +2,7 @@
 title: "Preserving Peace and Heritage: Converting Woodrow Wilson's Vision into a UN World Park Service"
 description: "Could Wilson's US National Park Service inspire a UN World Park Service to preserve ecological and historic sites, promote international cooperation, and appreciate cultural heritage?"
 date: 2023-04-14T09:07:19+03:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "un-in-focus/preserving-peace-and-heritage-converting-woodrow-wilsons-vision-into-a-un-world-park-service"
 categories:
   - "Un In Focus"

@@ -4,16 +4,18 @@
     <title>Sunil Kumar Pariyar on UN-aligned</title>
     <link>//localhost:1313/authors/sunil-kumar-pariyar/</link>
     <description>Recent content in Sunil Kumar Pariyar on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 16 Nov 2023 10:00:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/authors/sunil-kumar-pariyar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Nov 2023 10:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/authors/sunil-kumar-pariyar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nepal&#39;s National Parks: A Conservation Success Shadowed by Local Struggles</title>
       <link>//localhost:1313/climate-emergency/ramifications-of-nepal-forest-policies-on-marginalised-communities/</link>
       <pubDate>Thu, 16 Nov 2023 10:00:00 +0200</pubDate>
+      <author>Sunil Kumar Pariyar</author>
       <guid>//localhost:1313/climate-emergency/ramifications-of-nepal-forest-policies-on-marginalised-communities/</guid>
-      <description>&lt;p&gt;In Nepal, majestic national parks thrive as sanctuaries for wildlife, but for the local communities who are grappling with human rights abuses the path to harmonious coexistence remains fraught with challenges.&lt;/p&gt;&#xA;&lt;p&gt;The value of protected spaces like National Parks is undeniable. Nepal&amp;rsquo;s journey with these parks began in 1993, when the Forest Act recognised certain &amp;lsquo;protected forests&amp;rsquo; for their environmental, scientific and cultural value.&lt;/p&gt;&#xA;&lt;p&gt;Once the royal hunting grounds, these spaces have evolved into critical conservation centres, forming a key part of Nepal&amp;rsquo;s forest management strategy. Today, Nepal boasts about 20 such protected spaces. However, while these parks aim for conservation, they also pose challenges, particularly for local communities with restricted access.&lt;/p&gt;</description>
+      <description>In Nepal, majestic national parks thrive as sanctuaries for wildlife, but for the local communities grappling with restricted access, human rights abuses and the stark reality of living on the edge of wilderness, the path to harmonious coexistence remains fraught with challenges.</description>
+      <enclosure url="//localhost:1313/images/Social-Fallout-of-Nepals-Conservation-Policies-on-Marginalised-Communities-.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

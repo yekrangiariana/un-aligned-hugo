@@ -4,16 +4,18 @@
     <title>Photo Contest on UN-aligned</title>
     <link>//localhost:1313/tags/photo-contest/</link>
     <description>Recent content in Photo Contest on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 02 Feb 2021 06:40:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/photo-contest/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 02 Feb 2021 06:40:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/photo-contest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Announcing the Winners of the UN-aligned Photo Competition</title>
       <link>//localhost:1313/un-aligned-news/announcing-the-winners-of-the-un-aligned-photo-competition/</link>
       <pubDate>Tue, 02 Feb 2021 06:40:00 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
       <guid>//localhost:1313/un-aligned-news/announcing-the-winners-of-the-un-aligned-photo-competition/</guid>
-      <description>&lt;p&gt;We would like to say thank you to everyone who took part in our Photo Competition! There were many fantastic entries with some awesome inspiring photography. As per rule of the contest, we have selected two winners.&lt;/p&gt;&#xA;&lt;h2 id=&#34;1st-prize-winner-anwar-sadat-swaka&#34;&gt;&lt;strong&gt;1st Prize Winner&lt;/strong&gt;: Anwar Sadat Swaka&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/Anwar-Sadat-Swaka-2-1-1024x768.jpg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;In the streets of kibera, normal daily life goes on. Mama Maria as she is popularly known because of her daily religious attire, confidently makes her way.&lt;/p&gt;</description>
+      <description>Anwar Sadat Swaka declared as the winner of the 2020 UN-aligned photo competition.</description>
+      <enclosure url="//localhost:1313/images/Anwar-Sadat-Swaka1.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

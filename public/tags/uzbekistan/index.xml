@@ -4,16 +4,18 @@
     <title>Uzbekistan on UN-aligned</title>
     <link>//localhost:1313/tags/uzbekistan/</link>
     <description>Recent content in Uzbekistan on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 07 Dec 2020 17:32:42 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/uzbekistan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 07 Dec 2020 17:32:42 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/uzbekistan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Noble Bukhara: A UNESCO Gem - in pictures</title>
       <link>//localhost:1313/gallery/the-noble-bukhara-a-unesco-gem-in-pictures/</link>
       <pubDate>Mon, 07 Dec 2020 17:32:42 +0200</pubDate>
+      <author>Adrian Liberto</author>
       <guid>//localhost:1313/gallery/the-noble-bukhara-a-unesco-gem-in-pictures/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/Bukhara8-1024x768.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The Toki Zargaron Trading Domes were a major hub of the Great Silk Road. They were described by Khafizi Tanysh, a 16th century chronicler, as the largest of all existing arcades in Bukhara. Photographer: Adrian Liberto&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/Bukhara7-767x1024.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The intricate walls of the Magoki Attori Mosque. Photographer: Adrian Liberto&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/Bukhara6-1024x938.jpeg&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;The amazing portal of the Nadir Divan Begi Khanaka. The building was originally built as a caravanserai, however, the imam officiating the opening ceremony unexpectedly called it a madrasah, so the portal, side towers, loggias, and students quarters had to be added on. Photographer: Adrian Liberto&lt;/p&gt;</description>
+      <description>Walking the ancient streets of Bukhara in Uzbekistan is like being sucked into the pages of One Thousand and One Nights: mosques, madrasahs and markets follow you wherever you go, while the smells and ancient hues add to the dreaminess of the place. However, there is no Scheherazade here and you will have to weave your own stories. Years of Soviet rule appears to have left a wedge between Bukhara’s history and its people.</description>
+      <enclosure url="//localhost:1313/images/3.jpeg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

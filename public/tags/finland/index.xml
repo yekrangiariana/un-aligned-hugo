@@ -4,16 +4,18 @@
     <title>Finland on UN-aligned</title>
     <link>//localhost:1313/tags/finland/</link>
     <description>Recent content in Finland on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 09 Jul 2022 07:36:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/finland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 07:36:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/finland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finland’s troubled history with Russia — A Story in Photos</title>
       <link>//localhost:1313/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</link>
       <pubDate>Sat, 09 Jul 2022 07:36:00 +0300</pubDate>
+      <author>Ariana Yekrangi</author>
       <guid>//localhost:1313/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</guid>
-      <description>&lt;h2 id=&#34;the-february-manifesto-and-the-russification-of-finland-1899&#34;&gt;&lt;strong&gt;The February Manifesto and the Russification of Finland (1899)&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;The February manifesto was part of the larger operation of the Russification of Finland during which Finnish territories were forced to align their cultures with that of the Russian empire. On the 5th of February 1899, Nicholas II of Russia, the Tsar of Russia, defined a new legislation order that asserted the imperial Russian government to rule over Finland without the consultation of the Finnish Senate.&lt;/p&gt;</description>
+      <description>Finland is a young country, but one with a heartbreaking history. In this photo timeline, which consists of 11 events showcasing 80 photos, we’ll guide you through the country’s tragic history with Russia.</description>
+      <enclosure url="//localhost:1313/images/fortification-in-the-Karelian-Isthmus-in-1939..jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

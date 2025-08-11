@@ -4,16 +4,18 @@
     <title>Canada on UN-aligned</title>
     <link>//localhost:1313/tags/canada/</link>
     <description>Recent content in Canada on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 18 Oct 2022 08:05:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/canada/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 18 Oct 2022 08:05:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/canada/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>USA vs Canada: A history of residential schools in North America</title>
       <link>//localhost:1313/human-rights/residential-schools-in-canada-and-the-us/</link>
       <pubDate>Tue, 18 Oct 2022 08:05:00 +0300</pubDate>
+      <author>Victoria-Davila</author>
       <guid>//localhost:1313/human-rights/residential-schools-in-canada-and-the-us/</guid>
-      <description>&lt;h2 id=&#34;the-uncovering-of-mass-graves-in-canada-and-the-united-states&#34;&gt;&lt;strong&gt;The Uncovering of Mass Graves in Canada and the United States&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;&lt;img src=&#34;//localhost:1313/images/The-Uncovering-of-Mass-Graves-in-Canada-and-the-United-States-.jpg&#34; alt=&#34;Kamloops Indian Residential School classroom building&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;A classroom building of Kamloops Indian Residential School, Kamloops, British Columbia during the 1950. &lt;a href=&#34;https://creativecommons.org/licenses/by/2.0/&#34;&gt;© CC 2.0&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;In May 2021, 215 bodies of children were found buried on Kamloops Indian Residential School grounds in Kamloops, British Columbia, Canada. Following the incident, the US Interior Department began their investigation of US schools and uncovered over nine graves of indigenous children at the Carlisle Indian Industrial school in Carlisle, Pennsylvania, United States. What followed since has brought forth to the colonist public’s attention the systemic destruction of indigenous communities, cultures, and peoples.&lt;/p&gt;</description>
+      <description>“Indian” vocational and residential schools have a long history in the United States and Canada, with each seeking to achieve the cultural extermination of indigenous peoples. Throughout the existance of these schools, an uncountable amount of sexual, verbal, and physical abuse was inflicted upon these essentially kidnapped youth.</description>
+      <enclosure url="//localhost:1313/images/How-are-Canada-and-the-United-States-Reconciling-American-Indian-boarding-schools.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

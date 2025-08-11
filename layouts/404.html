@@ -1,16 +1,67 @@
 {{ define "main" }}
-<main class="not-found">
-  <header>
-    <h1 class="taxonomy-term">Page Not Found</h1>
-  </header>
-  <p>The page you're looking for doesn't exist. You can return to our <a href="{{ "/" | relURL }}">homepage</a> to explore more content.</p>
+  <!-- Custom CSS for 404 page -->
+  <style>
+    .page-title-with-icon {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .page-icon {
+      width: 1em;
+      height: 1em;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+    .plain-page-main {
+      min-height: 60vh;
+    }
+  </style>
+
+  <!-- Main content section -->
+  <main class="post article-style-1 plain-page-main" id="article">
+    <article itemscope itemtype="https://schema.org/Article">
+      <section class="category-section post-section">
+        <aside class="category-header post-sidebar">
+          <!-- Empty - content positioned here with CSS -->
+        </aside>
+
+        <div class="article-grid category-grid post-content-container">
+          
+          <!-- Title Section -->
+          <div class="post-title-section">
+            <h1 class="post-title page-title-with-icon">
+              <svg class="page-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2l10.09 17.09c.07.14.07.3 0 .44-.07.14-.2.23-.35.23H2.26c-.15 0-.28-.09-.35-.23-.07-.14-.07-.3 0-.44L12 2zm0 6L5.33 19h13.34L12 8z"/>
+                <path d="M11 14h2v2h-2v-2zm0-6h2v4h-2V8z"/>
+              </svg>
+              Page Not Found
+            </h1>
+            <div class="post-description">
+              <p>The page you're looking for doesn't exist.</p>
+            </div>
+          </div>
+
+          <!-- Main content -->
+          <div class="post-content markdown-body">
+            <p>The page you're looking for doesn't exist. You can return to our <a href="{{ "/" | relURL }}">homepage</a> to explore more content, or use the search below to find what you're looking for.</p>
+            
+            <!-- Pagefind Search Implementation -->
+            <div class="search-container" style="margin-top: 2rem;">
+              <div id="search"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- Pagefind CSS and JS -->
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
   <script src="/pagefind/pagefind-ui.js"></script>
-  <div id="search"></div>
   <script>
   window.addEventListener('DOMContentLoaded', (event) => {
     new PagefindUI({ element: "#search", showSubResults: true });
   }); 
   </script>
-</main>
+
 {{ end }}

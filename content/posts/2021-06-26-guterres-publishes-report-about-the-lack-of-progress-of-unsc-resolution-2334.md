@@ -1,5 +1,6 @@
 ---
 title: "Guterres publishes report about the lack of progress of UNSC Resolution 2334"
+description: "On 23 June, António Guterres reported ongoing Israeli settlement expansion and Palestinian displacement, despite Security Council Resolution 2334 and recent political shifts."
 date: 2021-06-26T11:00:00+03:00
 authors: ["Adrian Liberto"]
 url: "news/guterres-publishes-report-about-the-lack-of-progress-of-unsc-resolution-2334"

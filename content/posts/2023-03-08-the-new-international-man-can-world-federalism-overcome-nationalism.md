@@ -2,7 +2,7 @@
 title: "The New International Man: Can World Federalism Overcome Nationalism?"
 description: "Exploring the concept of the ‘New Soviet Man’ and how a modern-day equivalent could promote world federalism and overcome nationalism."
 date: 2023-03-08T12:00:00+02:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "global-issues/the-new-international-man-can-world-federalism-overcome-nationalism"
 categories:
   - "Global Issues"

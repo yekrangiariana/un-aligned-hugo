@@ -2,7 +2,7 @@
 title: "Redefining Peacekeeping: The Case for a United Nations Corps of Peacekeeping Engineers"
 description: "A proposed UN Corps of Peacekeeping Engineers could shift the focus from mere conflict containment to active infrastructural revival in war-torn states."
 date: 2023-11-20T10:00:00+02:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "un-in-focus/redefining-peacekeeping-the-case-for-a-united-nations-corps-of-peacekeeping-engineers"
 categories:
   - "Un In Focus"

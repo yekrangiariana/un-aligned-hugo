@@ -1,22 +1,13 @@
 ---
 title: "The UN-aligned Manifesto"
+description: "See where we stand and read UN-aligned's manifesto in English"
 date: 2019-04-01T19:30:33+03:00
-authors: ["Ariana"]
+authors: ["UN-aligned"]
 url: "manifesto"
 image: "/images/UNINFO1.jpg"
 ---
 
-###### UN-aligned manifesto in English
-
-**See where we stand...**
-
 The world is changing rapidly. Advancements in science, such as virtual worlds, wonder drugs and artificial intelligence may alter the very fabric of our existence. This Manifesto will therefore be subject to change and development. The spirit of UN-aligned, however, will remain the same; it is based on the core principles of a shared humanity and a shared planet that requires respect, cooperation and freedom from bigotry.
-
-- [Read the manifesto in Italian.](https://un-aligned.org/our-manifesto/in-italiano/)
-- [Read the manifesto in Spanish.](https://un-aligned.org/our-manifesto/en-espanol/)
-- [Read the manifesto in French.](https://un-aligned.org/our-manifesto/en-francais/)
-
-#### Topics:
 
 ## Mission Statement
 
@@ -40,9 +31,9 @@ Conditions for membership are listed in the following articles which constitute 
 
 The structure, which may change according to the needs of the organisation, will consist of:
 
-I. Worldwide Parishes
+1. Worldwide Parishes
 
-II. A Central Office that will supervise these various Parishes.
+2. A Central Office that will supervise these various Parishes.
 
 ### I. Parishes
 

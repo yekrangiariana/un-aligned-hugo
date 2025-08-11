@@ -3,6 +3,7 @@ ignoreLogs = ['warning-goldmark-raw-html']
 baseURL = "/"
 languageCode = "en-uk"
 title = "UN-aligned"
+rssLimit = 30
 
 cleanURLs = true
 
@@ -10,6 +11,7 @@ cleanURLs = true
 extraHead = ''
 mainSections = ["posts", "gordian"]
 tagline = "Putting humanity before nationality and planet before greed"
+favicon = "/favicon.ico"
 
 [params.logo]
   name = "logo"
@@ -41,7 +43,7 @@ link = "#"
     notAlternative = true
 
 [outputs]
-  home = ["HTML", "ArticlesIndex"]
+  home = ["HTML", "RSS", "ArticlesIndex"]
 
 [markup]
   [markup.goldmark]

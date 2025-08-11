@@ -1,0 +1,74 @@
+{{ define "main" }}
+  <!-- Custom CSS for search icon -->
+  <style>
+    .search-title {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .search-icon {
+      width: 1em;
+      height: 1em;
+      fill: currentColor;
+      flex-shrink: 0;
+    }
+    .search-page-main {
+      min-height: 50vh;
+    }
+  </style>
+
+  <!-- Main content section -->
+  <main class="post article-style-1 search-page-main" id="article">
+    <article itemscope itemtype="https://schema.org/Article">
+      <section class="category-section post-section">
+        <aside class="category-header post-sidebar">
+          <!-- Empty - content positioned here with CSS -->
+        </aside>
+
+        <div class="article-grid category-grid post-content-container">
+          
+          <!-- Title Section -->
+          <div class="post-title-section">
+            <h1 class="post-title search-title" itemprop="headline">
+              <svg class="search-icon" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M21.71 20.29L18 16.61A9 9 0 1 0 16.61 18l3.68 3.68a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.39zM11 18a7 7 0 1 1 7-7 7 7 0 0 1-7 7z"/>
+              </svg>
+              {{ .Title }}
+            </h1>
+            {{ if .Description }}
+            <div class="post-description">
+              <p itemprop="description">{{ .Description }}</p>
+            </div>
+            {{ end }}
+          </div>
+          
+          <!-- Reading features -->
+          <div class="sidebar-item reading-features-container">
+            {{ partial "text-size-adjuster.html" . }}
+            {{ partial "comment-separator.html" dict }}
+          </div>
+
+          <!-- Main content with Pagefind search -->
+          <div class="post-content markdown-body" itemprop="articleBody">
+            {{ .Content }}
+            
+            <!-- Pagefind Search Implementation -->
+            <div class="search-container" style="margin-top: 2rem;">
+              <div id="search"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <!-- Pagefind CSS and JS -->
+  <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+  <script src="/pagefind/pagefind-ui.js"></script>
+  <script>
+  window.addEventListener('DOMContentLoaded', (event) => {
+    new PagefindUI({ element: "#search", showSubResults: true });
+  }); 
+  </script>
+
+{{ end }}

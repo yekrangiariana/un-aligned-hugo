@@ -2,7 +2,7 @@
 title: "Revitalising Global Engagement: The Case for a United Nations Peace Corps"
 description: "A UN Peace Corps can transform global indifference into active engagement, leveraging the American Peace Corps model to foster international cooperation and make a tangible impact in the global South."
 date: 2024-02-07T12:53:29+02:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "un-in-focus/the-case-for-a-united-nations-peace-corps"
 categories: 
   - "Un In Focus"

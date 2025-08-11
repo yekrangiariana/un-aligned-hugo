@@ -4,16 +4,18 @@
     <title>Drc on UN-aligned</title>
     <link>//localhost:1313/tags/drc/</link>
     <description>Recent content in Drc on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 07 Oct 2023 08:28:01 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/drc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 07 Oct 2023 08:28:01 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/drc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#39;24 Years of Missed Opportunities&#39;: How the UN Failed to Secure Peace in the DRC</title>
       <link>//localhost:1313/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</link>
       <pubDate>Sat, 07 Oct 2023 08:28:01 +0300</pubDate>
+      <author>Alexander Stoney</author>
       <guid>//localhost:1313/un-in-focus/how-the-un-failed-to-secure-peace-in-the-drc/</guid>
-      <description>&lt;p&gt;On June 7th, 2023, after an extensive visit and tour of the Democratic Republic of Congo (DRC), senior UN official Jean-Pierre Lacroix spoke to reporters in the country’s capital, Kinshasa. The line of questioning was centered entirely around the UN’s 24-year long peacekeeping mission, known as MONUSCO. His response to these questions was brief, yet it made headlines globally: the peacekeepers &lt;a href=&#34;https://www.rfi.fr/en/africa/20230609-un-peacekeeping-mission-in-drc-is-to-withdraw-as-quickly-as-possible&#34;&gt;should withdraw&lt;/a&gt; from the conflict-torn country “as quickly as possible”.&lt;/p&gt;</description>
+      <description>As the UN&#39;s longest-standing peacekeeping mission faces a turbulent exit from the Democratic Republic of Congo, what were its critical failings, and what can the UN learn from them?</description>
+      <enclosure url="//localhost:1313/images/How-the-UN-Failed-to-Secure-Peace-in-the-DRC.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

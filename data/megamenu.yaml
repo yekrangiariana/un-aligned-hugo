@@ -17,6 +17,8 @@ sections:
         url: manifesto
       - name: As an Alternative UN
         url: the-alternative-un
+      - name: Search 🔎
+        url: search
 
   - title: Special Sections
     links:

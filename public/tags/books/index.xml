@@ -4,23 +4,28 @@
     <title>Books on UN-aligned</title>
     <link>//localhost:1313/tags/books/</link>
     <description>Recent content in Books on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 04 Dec 2023 13:19:46 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 13:19:46 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Gordian Companion 2023: Your Stories from a Year on Edge</title>
       <link>//localhost:1313/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</link>
       <pubDate>Mon, 04 Dec 2023 13:19:46 +0200</pubDate>
+      <author>unregisteredauthor</author>
       <guid>//localhost:1313/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</guid>
-      <description>&lt;p&gt;Step into the world of The Gordian Companion 2023 and experience a year of groundbreaking stories. This collection, consisting of the best reads from The Gordian Magazine, is not just a book; it is a revolution in citizen journalism. Edited by Ariana Yekrangi, every page challenges, inspires and awakens.&lt;/p&gt;&#xA;&lt;p&gt;Featuring a star-studded roster of writers such as Adrian Liberto, Omar Alansari-Kreger, Dinojah Patkunarajah, Elvira Ineza, Dawn Roy, Alex Liberto, Partho Pratim Chatterjee, Alexander Stoney, Sunil Kumar Pariyar, Amy Church and Carla Pietrobattista, The Gordian Companion is where diverse perspectives ignite. Each voice in this anthology does not simply recount the year&amp;rsquo;s events; they redefine them, offering fresh, bold insights that break the mould.&lt;/p&gt;</description>
+      <description>Introducing The Gordian Companion (2023) – not just a book, but a journey into the heart of groundbreaking citizen journalism. Order your copy today.</description>
+      <enclosure url="//localhost:1313/images/The-gordian-companion-2023.jpg" type="image/jpeg" />
     </item>
+    
     <item>
       <title>Unravelling the United Nations, Argead style</title>
       <link>//localhost:1313/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</link>
       <pubDate>Tue, 02 Feb 2021 10:00:00 +0200</pubDate>
+      <author>unregisteredauthor</author>
       <guid>//localhost:1313/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</guid>
-      <description>&lt;p&gt;How exactly has the United Nations failed in its primary mission of securing world peace? What went wrong? Who or what is to blame? Can reform absolve the organisation of its monumental shortcomings and put it back on course with regards to meeting its obligations? These are just some questions this book aims to answer. And here is the spoiler: no, the United Nations cannot be salvaged. &lt;/p&gt;&#xA;&lt;p&gt;However, the book presents an alternative vision: an organisation that can achieve the sacred mission without the shackles of obsolete structures and bullying superpowers. The organisation, UN-aligned, has already been founded and it is introduced in this groundbreaking work.&lt;/p&gt;</description>
+      <description>How can the UN achieve its sacred mission without the shackles of obsolete structures and bullying superpowers? This is how!</description>
+      <enclosure url="//localhost:1313/images/Unravelling-the-UN-book-cover-scaled.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

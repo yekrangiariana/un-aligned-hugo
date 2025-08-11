@@ -4,30 +4,40 @@
     <title>Music on UN-aligned</title>
     <link>//localhost:1313/tags/music/</link>
     <description>Recent content in Music on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 17 Apr 2023 17:24:39 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/music/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 17 Apr 2023 17:24:39 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/music/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Michael Torke&#39;s &#39;Being&#39;: Dreadful Art Cover, Glorious Music</title>
       <link>//localhost:1313/culture/michael-torkes-being-dreadful-art-cover-glorious-music/</link>
       <pubDate>Mon, 17 Apr 2023 17:24:39 +0300</pubDate>
+      <author>Ariana Yekrangi</author>
       <guid>//localhost:1313/culture/michael-torkes-being-dreadful-art-cover-glorious-music/</guid>
-      <description>&lt;p&gt;American composer Michael Torke has once again delivered an album that showcases his unique voice and style, drawing inspiration from jazz and minimalism to create a work that shimmers with vibrant timbrel palettes and infectious energy.&lt;/p&gt;&#xA;&lt;p&gt;Finished in 2019, “Being” is a continuous 43-minute composition that consists of nine parts, each building on the previous and creating a hypnotic and immersive experience for the listener.&lt;/p&gt;&#xA;&lt;p&gt;Before talking about the music, we need to talk about the elephant in the room – that album cover. It looks like someone typed in “women holding coffee staring into the abyss” on a stock photo website and called it a day. But don&amp;rsquo;t let the questionable art direction deter you, the music inside is worth every quid.&lt;/p&gt;</description>
+      <description>Michael Torke&#39;s &#39;Being&#39; is a transfixing 43-minute composition that shimmers with infectious energy, despite its lacklustre album cover.</description>
+      <enclosure url="//localhost:1313/images/Michael-Torke.jpg" type="image/jpeg" />
     </item>
+    
     <item>
       <title>Defining modern American music: The story of Ruth Crawford Seeger</title>
       <link>//localhost:1313/culture/ruth-crawford-seeger-an-avant-gardist-who-defined-modern-american-music/</link>
       <pubDate>Sat, 29 Feb 2020 11:27:45 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
       <guid>//localhost:1313/culture/ruth-crawford-seeger-an-avant-gardist-who-defined-modern-american-music/</guid>
-      <description>&lt;p&gt;From its early foundations, American music had a European character stamped on it by the American academic musical establishment, which itself was a product of the late 19th century. Before the 1870s, there was virtually no such thing as a music course at the universities; higher educational institutions were reserved for classes in science, history, and languages. Music was a pure extracurricular activity. &lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;The rivalry between European training and indigenous American folk sources has always resonated throughout America&amp;rsquo;s history&lt;/p&gt;</description>
+      <description>&lt;p&gt;From its early foundations, American music had a European character stamped on it by the American academic musical establishment, which itself was a product of the late 19th century. Before the 1870s, there was virtually no such thing as a music course at the universities; higher educational institutions were reserved for classes in science, history, and languages. Music was a pure extracurricular activity. &lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The rivalry between European training and indigenous American folk sources has always resonated throughout America&amp;rsquo;s history&lt;/p&gt;</description>
+      <enclosure url="//localhost:1313/images/seeger-ruth-crawford-06b-800.jpg" type="image/jpeg" />
     </item>
+    
     <item>
       <title>Women Composers in the Western Tradition</title>
       <link>//localhost:1313/culture/women-composers-in-the-western-tradition/</link>
       <pubDate>Sat, 08 Feb 2020 17:24:16 +0200</pubDate>
+      <author>Jonna.Lappalainen</author>
       <guid>//localhost:1313/culture/women-composers-in-the-western-tradition/</guid>
       <description>&lt;p&gt;The history of western classical music has traditionally been the province of male composers making music for the aristocracy. Rather than due to nonexistence, the absence of women in the standard music histories has been the result of the common practices of musicologists of the past. First of all, many musicologists focused more on the documents of music (manuscripts, prints and treatises) than on the sociology of music. Fewer documents of the music of women or of the lower classes have remained. Second, musicologists have focused on the development of musical styles and the progressive works that engendered new genres. &lt;a href=&#34;https://un-aligned.org/culture/ruth-crawford-seeger-an-avant-gardist-who-defined-modern-american-music/&#34;&gt;Most women&lt;/a&gt; were excluded from professional musical positions, which at least partly led to them entering new styles “late”.&lt;/p&gt;</description>
+      <enclosure url="//localhost:1313/images/Bernardo_Strozzi_001-1.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

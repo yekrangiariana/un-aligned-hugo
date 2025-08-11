@@ -1,7 +1,7 @@
 ---
 title: "Demilitarising the Manipulable Atom"
 date: 2022-10-21T08:00:00+03:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "global-issues/demilitarising-the-manipulable-atom"
 categories:
   - "Global Issues"

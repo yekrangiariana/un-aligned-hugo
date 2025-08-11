@@ -1,7 +1,7 @@
 ---
 title: "Generation Earth: Why Youth are Necessary for Solving Global Problems"
 date: 2021-11-15T14:05:59+02:00
-authors: ["eston.mckeague"]
+authors: ["Eston McKeague"]
 url: "global-issues/generation-earth-why-youth-are-necessary-for-solving-global-problems"
 categories: 
   - "Global Issues"

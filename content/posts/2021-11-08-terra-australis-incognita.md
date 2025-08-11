@@ -2,7 +2,7 @@
 title: "Poems for a Better World: Terra Australis Incognita"
 description: "Read Dean Gessie’s winning submission to the 2021 UN-aligned poetry competition."
 date: 2021-11-08T09:00:00+02:00
-authors: ["unregisteredauthor"]
+authors: ["Dean Gessie"]
 url: "culture/terra-australis-incognita"
 categories: 
   - "Culture"

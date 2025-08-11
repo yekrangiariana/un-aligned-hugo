@@ -4,16 +4,18 @@
     <title>Animal Equality on UN-aligned</title>
     <link>//localhost:1313/authors/animal-equality/</link>
     <description>Recent content in Animal Equality on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 05 Jan 2021 10:00:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/authors/animal-equality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 10:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/authors/animal-equality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Giving voice to the the voiceless: Animal Equality’s Global Fight for Farmed Animals</title>
       <link>//localhost:1313/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</link>
       <pubDate>Tue, 05 Jan 2021 10:00:00 +0200</pubDate>
+      <author>Animal Equality</author>
       <guid>//localhost:1313/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</guid>
-      <description>&lt;p&gt;Animal Equality is an international organisation that was founded in Spain in 2006 by Sharon Nuñez, Jose Valle and Javier Moreno; their one objective: to protect animals. From that moment on, a growing enthusiasm and commitment ensured the organisation’s global reach. It has expanded to such an extent, that it is now one of the most successful forces for the defence of farmed animals.  &lt;/p&gt;&#xA;&lt;p&gt;Animal Equality’s vision is that of a world where all animals are respected and protected. Our core values are compassion, determination, and effectiveness; these guide us in our daily operations, which are designed to end cruelty to farmed animals. &lt;/p&gt;</description>
+      <description>Founded in Spain in 2006, Animal Equality is now a global leader in defending farmed animals, using investigations, corporate reform and public action to expose cruelty and drive lasting change.</description>
+      <enclosure url="//localhost:1313/images/4-1.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

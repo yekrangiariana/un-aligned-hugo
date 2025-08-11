@@ -1,7 +1,7 @@
 ---
 title: "The Forging of an East African Federation"
 date: 2022-02-16T11:37:59+02:00
-authors: ["unregisteredauthor"]
+authors: ["Kennedy Karanja"]
 url: "global-issues/forging-an-east-african-federation"
 categories: 
   - "Global Issues"

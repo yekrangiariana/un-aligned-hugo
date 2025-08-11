@@ -2,7 +2,7 @@
 title: "Rethinking Nuclear Deterrence: Geopolitical Bravado or Our Obligation Towards Peace?"
 description: "Might a shift towards proactive anti-nuclear strategies become the key to future global security, given Putin's revival of Cold War threats?"
 date: 2023-10-17T13:38:09+03:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "global-issues/rethinking-nuclear-deterrence-geopolitical-bravado-or-our-obligation-towards-peace"
 categories: 
   - "Global Issues"

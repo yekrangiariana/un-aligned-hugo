@@ -4,23 +4,28 @@
     <title>Amyc on UN-aligned</title>
     <link>//localhost:1313/authors/amyc/</link>
     <description>Recent content in Amyc on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 12 Jan 2024 10:00:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/authors/amyc/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 12 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/authors/amyc/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is UK&#39;s North Sea Drilling Plan a Sustainable Solution? An Impact Assessment Report</title>
       <link>//localhost:1313/climate-emergency/uk-north-sea-drilling-impact-assessment-report/</link>
       <pubDate>Fri, 12 Jan 2024 10:00:00 +0200</pubDate>
+      <author>amyc</author>
       <guid>//localhost:1313/climate-emergency/uk-north-sea-drilling-impact-assessment-report/</guid>
-      <description>&lt;h2 id=&#34;key-findings&#34;&gt;Key findings&lt;/h2&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The UK&amp;rsquo;s proposed drilling plan has minimal immediate impact on energy security, offering only short-term reserves.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;With sustainable energy advancements, extensive reliance on fossil fuels is becoming obsolete.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The plan&amp;rsquo;s short-term financial benefits are economically short-sighted.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;Investing in a net-zero economy and green jobs is more beneficial for long-term economic growth and competitiveness.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;The drilling plan could harm climate commitments and marine biodiversity in the North Sea.&lt;/p&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;A shift to renewable energy and green bond financing is advised, echoing global body recommendations.&lt;/p&gt;</description>
+      <description>The UK&#39;s North Sea oil strategy grapples with immediate energy benefits versus long-term environmental and economic costs, amid energy security and climate concerns.</description>
+      <enclosure url="//localhost:1313/images/2-Is-UKs-Oil-Drilling-Plan-a-Sustainable-Choice_-An-Impact-Assessment-Reporte.jpg" type="image/jpeg" />
     </item>
+    
     <item>
       <title>‘No Girl Left Behind’: How Taliban&#39;s Ban on Girls&#39; Education Imperils Afghanistan&#39;s Future</title>
       <link>//localhost:1313/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</link>
       <pubDate>Fri, 17 Nov 2023 10:00:00 +0200</pubDate>
+      <author>amyc</author>
       <guid>//localhost:1313/education/how-talibans-ban-on-girls-education-imperils-afghanistans-future/</guid>
-      <description>&lt;h2 id=&#34;the-historical-context-afghanistans-education-system&#34;&gt;&lt;strong&gt;The historical context: Afghanistan&amp;rsquo;s education system&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Afghanistan is currently the only country in the world where girls are forbidden to go to school. The decision to stop women being able to access school and university by the Taliban in August 2021, has consequently denied millions of girls their fundamental right to education.&lt;/p&gt;&#xA;&lt;p&gt;Afghanistan has a complex and turbulent history and this has had undeniable consequences on its education system. The department of education was established in Afghanistan in 1913, with the goal of a national education system.&lt;/p&gt;</description>
+      <description>The empty chairs in Afghanistan&#39;s classrooms don&#39;t just signify a local crisis; they mark a global failure that jeopardises the future of an entire generation and country.</description>
+      <enclosure url="//localhost:1313/images/Afghan-girl-education-scaled.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

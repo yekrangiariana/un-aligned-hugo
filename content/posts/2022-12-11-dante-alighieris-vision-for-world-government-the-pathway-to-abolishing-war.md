@@ -2,7 +2,7 @@
 title: "Dante Alighieri's Vision for World Government: The Pathway to Abolishing War"
 description: "Dante's death 700 years ago marked the end of an era. But his lasting legacy may be his vision for a world government, outlined in his work De Monarchia."
 date: 2022-12-11T07:30:00+02:00
-authors: ["Anonymous"]
+authors: ["Tad Daley"]
 url: "culture/dante-alighieris-vision-for-world-government-the-pathway-to-abolishing-war"
 categories: 
   - "Culture"

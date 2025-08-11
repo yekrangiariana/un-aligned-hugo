@@ -4,16 +4,18 @@
     <title>Belarus on UN-aligned</title>
     <link>//localhost:1313/tags/belarus/</link>
     <description>Recent content in Belarus on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 18 Jul 2022 12:01:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/belarus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 18 Jul 2022 12:01:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/belarus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The UN human rights report on Belarus is worrying, but there is precious little the UN can do</title>
       <link>//localhost:1313/un-in-focus/un-human-rights-report-on-belarus/</link>
       <pubDate>Mon, 18 Jul 2022 12:01:00 +0300</pubDate>
+      <author>Adrian Liberto</author>
       <guid>//localhost:1313/un-in-focus/un-human-rights-report-on-belarus/</guid>
-      <description>&lt;p&gt;She said that the situation has been deteriorating steadily since the UN OHCHR condemned the violent crackdowns against mass protests challenging the presidential elections held in August 2020.&lt;/p&gt;&#xA;&lt;p&gt;The rapporteur also highlighted that the constitutional referendum held on February 27, which endorsed further oppression, was neither free nor fair.&lt;/p&gt;&#xA;&lt;p&gt;The sinister reforms included the extension of the death penalty to “planning” or “attempting” to commit what the State can arbitrarily define as terrorist acts.&lt;/p&gt;</description>
+      <description>The Special Rapporteur on the human rights situation in Belarus, Anaïs Marin, issued her annual report on June 29, which paints a dire picture of tightening legislation and diminishing civil and political rights.</description>
+      <enclosure url="//localhost:1313/images/Deep-concern-over-Belarus-.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

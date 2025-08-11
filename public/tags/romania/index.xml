@@ -4,16 +4,18 @@
     <title>Romania on UN-aligned</title>
     <link>//localhost:1313/tags/romania/</link>
     <description>Recent content in Romania on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 08 Apr 2022 10:06:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/romania/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 08 Apr 2022 10:06:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/romania/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Romania Always Welcomes Ukrainian Refugees: Support and Opportunities Await</title>
       <link>//localhost:1313/human-rights/ukrainians-romania-is-alway-open-to-you/</link>
       <pubDate>Fri, 08 Apr 2022 10:06:00 +0300</pubDate>
+      <author>CristinaMihailescu</author>
       <guid>//localhost:1313/human-rights/ukrainians-romania-is-alway-open-to-you/</guid>
-      <description>&lt;p&gt;It’s been a few days since Romanians stopped wearing masks. Literally speaking, we have finally been told that such protection is no longer necessary, even though the hospitals are still full of sick people. The pandemic is not over, but a greater evil has appeared at the borders of our country, an evil we would hopefully never meet face to face: war.&lt;/p&gt;&#xA;&lt;p&gt;Terrible as it sounds and can be felt in the images broadcast 24 hours a day on all the TV stations, the war in the neighbouring country has produced an unprecedented, totally unexpected outcome: Romanians stopped wearing masks in their daily lives and started showing their true colours.&lt;/p&gt;</description>
+      <description>Many people have shared their homes with total strangers, people with whom they can only communicate in sign language. But what need is there for a common language when humanity is all that matters?</description>
+      <enclosure url="//localhost:1313/images/Slovakia-%E2%80%94-The-world-stands-up-to-Putins-bloodthirsty-antics.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

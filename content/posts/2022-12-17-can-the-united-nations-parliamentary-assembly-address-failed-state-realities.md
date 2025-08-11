@@ -2,7 +2,7 @@
 title: "Can the United Nations Parliamentary Assembly Address Failed State Realities?"
 description: "With poverty, corruption, and functional illiteracy affecting many nations, can the UN Parliamentary Assembly's proposal for representative democracy succeed?"
 date: 2022-12-17T09:30:00+02:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "un-in-focus/can-the-united-nations-parliamentary-assembly-address-failed-state-realities"
 categories:
   - "Un In Focus"

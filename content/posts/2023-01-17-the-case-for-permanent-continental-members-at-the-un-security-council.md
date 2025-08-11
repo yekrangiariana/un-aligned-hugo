@@ -2,7 +2,7 @@
 title: "The Case for Permanent Continental Members at the UN Security Council"
 description: "Empowering continents and ensuring lasting peace - a case for permanent continental members at the UN Security Council"
 date: 2023-01-17T09:30:00+02:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "un-in-focus/the-case-for-permanent-continental-members-at-the-un-security-council"
 categories:
   - "Un In Focus"

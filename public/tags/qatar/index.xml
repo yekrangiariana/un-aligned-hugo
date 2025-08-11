@@ -4,16 +4,18 @@
     <title>Qatar on UN-aligned</title>
     <link>//localhost:1313/tags/qatar/</link>
     <description>Recent content in Qatar on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 13 Dec 2022 14:30:00 +0200</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/qatar/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2022 14:30:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/qatar/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Qatar 2022: A World Cup for Straight Men</title>
       <link>//localhost:1313/human-rights/qatar-2022-a-world-cup-for-straight-men/</link>
       <pubDate>Tue, 13 Dec 2022 14:30:00 +0200</pubDate>
+      <author>mayabearyman</author>
       <guid>//localhost:1313/human-rights/qatar-2022-a-world-cup-for-straight-men/</guid>
-      <description>&lt;p&gt;Not too long ago, I wrote an article for The Gordian Magazine celebrating the &lt;a href=&#34;https://un-aligned.org/lifestyle/women-football-not-brave-enough-to-see-the-vision/&#34;&gt;growth of women’s football&lt;/a&gt; in the UK, and hailing 2022 as a watershed year in women’s sport around the world. Now, just a few months later, nothing seems further from the truth. In choosing to host one of the world’s biggest sporting competitions in Qatar this year, a country run on Sharia law and plagued by inequalities, FIFA has let the world know that football remains the domain of straight men.&lt;/p&gt;</description>
+      <description>FIFA&#39;s male-dominated World Cup fails to represent its diverse fan base, but those fighting for equality will persevere.</description>
+      <enclosure url="//localhost:1313/images/Qatar-2022-A-World-Cup-for-Straight-Men-.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

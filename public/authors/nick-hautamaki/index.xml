@@ -4,16 +4,18 @@
     <title>Nick Hautamaki on UN-aligned</title>
     <link>//localhost:1313/authors/nick-hautamaki/</link>
     <description>Recent content in Nick Hautamaki on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 13 Jul 2022 16:07:15 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/authors/nick-hautamaki/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jul 2022 16:07:15 +0300</lastBuildDate><atom:link href="//localhost:1313/authors/nick-hautamaki/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Lobbyland: The Story of American Lobbying and Campaign Donations</title>
       <link>//localhost:1313/country-profile/lobbyland-the-story-of-american-lobbying-and-campaign-donations/</link>
       <pubDate>Wed, 13 Jul 2022 16:07:15 +0300</pubDate>
+      <author>Nick Hautamaki</author>
       <guid>//localhost:1313/country-profile/lobbyland-the-story-of-american-lobbying-and-campaign-donations/</guid>
-      <description>&lt;p&gt;The United States, although a mighty country, has its flaws. One of its flaws is how some lobbying groups hold immensely more significant sway than others, thus unfairly eliciting beneficial results for a minority group. Another such flaw is the restriction of representatives to be solely those who may afford to run. These systemic flaws, among others not mentioned, when compounded together, erode democratic representation and must be viewed as an existential threat.&lt;/p&gt;</description>
+      <description>What is lobbying and is it bad for our democracy? Here is your guide to lobbying in the United States.</description>
+      <enclosure url="//localhost:1313/images/American-lobbying-and-campaign-donations-.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

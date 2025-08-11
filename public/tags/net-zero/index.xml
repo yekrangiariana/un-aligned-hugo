@@ -4,16 +4,18 @@
     <title>Net Zero on UN-aligned</title>
     <link>//localhost:1313/tags/net-zero/</link>
     <description>Recent content in Net Zero on UN-aligned</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 19 Apr 2022 10:30:00 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/tags/net-zero/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 19 Apr 2022 10:30:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/net-zero/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Policy Making: How to Achieve Net Zero</title>
       <link>//localhost:1313/climate-emergency/policy-making-how-to-achieve-net-zero/</link>
       <pubDate>Tue, 19 Apr 2022 10:30:00 +0300</pubDate>
+      <author>Partho Pratim Chatterjee</author>
       <guid>//localhost:1313/climate-emergency/policy-making-how-to-achieve-net-zero/</guid>
-      <description>&lt;h2 id=&#34;the-clean-energy-imperative&#34;&gt;&lt;strong&gt;The Clean Energy Imperative&lt;/strong&gt;&lt;/h2&gt;&#xA;&lt;p&gt;Clean energy sources like solar, wind, hydropower and nuclear energy have low Levelized Cost of Electricity (LCOE). This makes electricity purchase from clean energy sources more economically viable and environmentally sustainable for domestic as well as commercial applications. Therefore, increasing the share of clean energy sources in the energy generation mix is essentially advisable. Historically, developing nations have been dependent upon fossil fuel based power generation at large to meet their primary energy requirements.&lt;/p&gt;</description>
+      <description>Offering a brilliant look at technologies that can help tackle climate change.</description>
+      <enclosure url="//localhost:1313/images/Achieving-next-zero.jpg" type="image/jpeg" />
     </item>
+    
   </channel>
 </rss>

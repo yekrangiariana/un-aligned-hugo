@@ -2,7 +2,7 @@
 title: "What is the World Atomic Weapons Disarmament Agency (WAWDA) and why do we need it"
 description: "The IAEA has successfully preserved the spirit nuclear disarmament, but today we know that the enforcement of international law fails without a multilateral body of enforcement."
 date: 2022-10-20T10:00:00+03:00
-authors: ["OmarAlansari-Kreger"]
+authors: ["Omar Alansari-Kreger"]
 url: "un-in-focus/the-need-for-a-world-atomic-weapons-disarmament-agency"
 categories:
   - "Un In Focus"

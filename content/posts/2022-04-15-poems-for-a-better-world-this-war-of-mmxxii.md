@@ -2,7 +2,7 @@
 title: "Poems For a Better World: This War of MMXXII"
 description: "This is war my dear! Invasion for pure greed and gratification. What else can this be?"
 date: 2022-04-15T08:54:05+03:00
-authors: ["unregisteredauthor"]
+authors: ["Usha Roopnarain"]
 url: "culture/poems-for-a-better-world-this-war-of-mmxxii"
 categories: 
   - "Culture"

@@ -128,11 +128,14 @@
     <loc>//localhost:1313/tags/new-solutions-with-omar/</loc>
     <lastmod>2025-03-02T18:11:40+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/authors/omaralansari-kreger/</loc>
+    <loc>//localhost:1313/authors/omar-alansari-kreger/</loc>
     <lastmod>2025-03-02T18:11:40+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/tags/united-states/</loc>
     <lastmod>2025-03-02T18:11:40+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/search/</loc>
+    <lastmod>2025-01-11T12:00:00+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/climate-emergency/4-ways-to-use-carbon-dioxide-to-curb-global-warming/</loc>
     <lastmod>2024-11-17T12:37:38+02:00</lastmod>
@@ -722,10 +725,10 @@
     <loc>//localhost:1313/tags/700-years-of-dante/</loc>
     <lastmod>2022-12-11T07:30:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/authors/anonymous/</loc>
+    <loc>//localhost:1313/culture/dante-alighieris-vision-for-world-government-the-pathway-to-abolishing-war/</loc>
     <lastmod>2022-12-11T07:30:00+02:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/culture/dante-alighieris-vision-for-world-government-the-pathway-to-abolishing-war/</loc>
+    <loc>//localhost:1313/authors/tad-daley/</loc>
     <lastmod>2022-12-11T07:30:00+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/culture/poems-for-a-better-world-86-billion/</loc>
@@ -980,7 +983,7 @@
     <loc>//localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</loc>
     <lastmod>2022-06-24T11:37:45+03:00</lastmod>
   </url><url>
-    <loc>//localhost:1313/authors/eston.mckeague/</loc>
+    <loc>//localhost:1313/authors/eston-mckeague/</loc>
     <lastmod>2022-06-24T11:37:45+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/culture/the-drawbacks-of-language-for-communication-and-thought/</loc>
@@ -1094,6 +1097,9 @@
     <loc>//localhost:1313/culture/poems-for-a-better-world-this-war-of-mmxxii/</loc>
     <lastmod>2022-04-15T08:54:05+03:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/authors/usha-roopnarain/</loc>
+    <lastmod>2022-04-15T08:54:05+03:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/global-issues/letter-to-putin/</loc>
     <lastmod>2022-04-14T10:00:00+03:00</lastmod>
   </url><url>
@@ -1174,6 +1180,9 @@
   </url><url>
     <loc>//localhost:1313/tags/get-to-know-our-members/</loc>
     <lastmod>2022-02-18T11:46:06+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/authors/kennedy-karanja/</loc>
+    <lastmod>2022-02-16T11:37:59+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/global-issues/forging-an-east-african-federation/</loc>
     <lastmod>2022-02-16T11:37:59+02:00</lastmod>
@@ -1352,6 +1361,9 @@
     <loc>//localhost:1313/culture/ayesha-kajee-on-her-poem-silence/</loc>
     <lastmod>2021-11-10T09:53:45+02:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/authors/ayesha-kajee/</loc>
+    <lastmod>2021-11-10T09:53:35+02:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/culture/silence/</loc>
     <lastmod>2021-11-10T09:53:35+02:00</lastmod>
   </url><url>
@@ -1363,6 +1375,9 @@
   </url><url>
     <loc>//localhost:1313/culture/dean-gessie-on-terra-australis-incognita/</loc>
     <lastmod>2021-11-08T09:40:24+02:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/authors/dean-gessie/</loc>
+    <lastmod>2021-11-08T09:00:00+02:00</lastmod>
   </url><url>
     <loc>//localhost:1313/culture/terra-australis-incognita/</loc>
     <lastmod>2021-11-08T09:00:00+02:00</lastmod>
@@ -1724,6 +1739,9 @@
     <loc>//localhost:1313/recipes/bolognese-with-lentils/</loc>
     <lastmod>2021-01-08T10:00:00+02:00</lastmod>
   </url><url>
+    <loc>//localhost:1313/authors/anonymous/</loc>
+    <lastmod>2021-01-07T10:00:00+02:00</lastmod>
+  </url><url>
     <loc>//localhost:1313/tags/covid-19/</loc>
     <lastmod>2021-01-07T10:00:00+02:00</lastmod>
   </url><url>
@@ -2001,6 +2019,9 @@
     <lastmod>2020-05-03T11:00:40+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/opportunities/write-for-un-aligned/</loc>
+    <lastmod>2020-04-17T10:15:05+03:00</lastmod>
+  </url><url>
+    <loc>//localhost:1313/authors/un-aligned/</loc>
     <lastmod>2020-04-17T10:15:05+03:00</lastmod>
   </url><url>
     <loc>//localhost:1313/the-gordian-magazine/the-gordian-april-issue/</loc>
