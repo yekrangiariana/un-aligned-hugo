@@ -6,13 +6,33 @@
     <description>Recent content in Tags on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 15 Jul 2025 19:29:09 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Aug 2025 19:43:10 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gaza</title>
+      <link>http://localhost:1313/tags/gaza/</link>
+      <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/gaza/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Israel</title>
       <link>http://localhost:1313/tags/israel/</link>
-      <pubDate>Tue, 15 Jul 2025 19:29:09 +0300</pubDate>
+      <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
       
       <guid>http://localhost:1313/tags/israel/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Journalism</title>
+      <link>http://localhost:1313/tags/journalism/</link>
+      <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
+      
+      <guid>http://localhost:1313/tags/journalism/</guid>
       <description></description>
       
     </item>
@@ -23,16 +43,6 @@
       <pubDate>Fri, 11 Jul 2025 21:54:35 +0300</pubDate>
       
       <guid>http://localhost:1313/tags/united-nations/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Journalism</title>
-      <link>http://localhost:1313/tags/journalism/</link>
-      <pubDate>Tue, 08 Jul 2025 21:52:52 +0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/journalism/</guid>
       <description></description>
       
     </item>
@@ -103,16 +113,6 @@
       <pubDate>Sun, 17 Nov 2024 12:37:38 +0200</pubDate>
       
       <guid>http://localhost:1313/tags/environment-report/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Gaza</title>
-      <link>http://localhost:1313/tags/gaza/</link>
-      <pubDate>Mon, 13 May 2024 14:41:53 +0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/gaza/</guid>
       <description></description>
       
     </item>

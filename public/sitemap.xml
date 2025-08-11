@@ -2,34 +2,49 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/last-words-of-anas-al-sharif/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/anas-al-sharif/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/comments/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gaza/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/israel/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/journalism/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/gordian/issue-1/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/gordian/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/authors/ariana-yekrangi/</loc>
     <lastmod>2025-07-15T19:29:09+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2025-07-15T19:29:09+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-07-15T19:29:09+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/human-rights/</loc>
-    <lastmod>2025-07-15T19:29:09+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/israel/</loc>
-    <lastmod>2025-07-15T19:29:09+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-07-15T19:29:09+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-07-15T19:29:09+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/human-rights/the-zionist-experiment-has-failed-it-must-be-abolished/</loc>
@@ -55,9 +70,6 @@
   </url><url>
     <loc>http://localhost:1313/categories/un-in-focus/</loc>
     <lastmod>2025-07-09T22:09:56+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/journalism/</loc>
-    <lastmod>2025-07-08T21:52:52+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/nicaragua/</loc>
     <lastmod>2025-07-08T21:52:52+03:00</lastmod>
@@ -152,9 +164,6 @@
     <loc>http://localhost:1313/human-rights/how-the-us-betrayed-free-speech/</loc>
     <lastmod>2024-05-13T14:41:53+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gaza/</loc>
-    <lastmod>2024-05-13T14:41:53+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/social-issues/</loc>
     <lastmod>2024-05-13T14:41:53+03:00</lastmod>
   </url><url>
@@ -226,9 +235,6 @@
   </url><url>
     <loc>http://localhost:1313/global-issues/horizons-of-eu-expansion/</loc>
     <lastmod>2024-01-10T10:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/comments/</loc>
-    <lastmod>2024-01-09T18:48:10+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/comments/julia-hartley-brewers-racism-is-a-common-reality-for-brown-man-i-know-having-experienced-it-firsthand/</loc>
     <lastmod>2024-01-09T18:48:10+02:00</lastmod>

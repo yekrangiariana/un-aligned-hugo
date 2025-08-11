@@ -6,7 +6,17 @@
     <description>Recent content on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Aug 2025 19:43:10 +0300</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>&#34;I entrust you with Palestine&#34;: A murdered Gaza Journalist pleas as his people are erased</title>
+      <link>http://localhost:1313/posts/last-words-of-anas-al-sharif/</link>
+      <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
+      <author>Anas Al-Sharif</author>
+      <guid>http://localhost:1313/posts/last-words-of-anas-al-sharif/</guid>
+      <description>Israel succeeded in killing journalist Anas Jamal Al-Sharif, but it could not silence him. In this posthumous letter, he testifies against those who &#34;accepted our killing,&#34; and entrusts his beloved daughter Sham, his son Salah, and the soul of his nation to a world he urges to finally act.</description>
+      <enclosure url="http://localhost:1313/images/Anas-Al-Sharif.jpg" type="image/jpeg" />
+    </item>
+    
     <item>
       <title>A new issue of the Gordian will be coming soon</title>
       <link>http://localhost:1313/gordian/issue-1/</link>
@@ -55,8 +65,7 @@
       <guid>http://localhost:1313/global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression/</guid>
       <description>&lt;p&gt;UN-aligned recently partnered with &lt;a href=&#34;https://fled.ong/&#34;&gt;FLED Nicaragua&lt;/a&gt; to translate their annual report from Spanish into English, highlighting the grave state of press freedom in the country.&lt;/p&gt;
 &lt;p&gt;The assassination of retired Nicaraguan army officer and outspoken critic of President Daniel Ortega, Roberto Samcam, on June 19 while in exile in Costa Rica, underscores the urgency of the crisis and the critical need to raise international awareness.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;http://localhost:1313/PDFs/Press-Freedom-Report-JanuaryMarch-2025.pdf&#34;&gt;&lt;strong&gt;Read full report -&amp;gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;{{ partial &amp;ldquo;pdf-viewer.html&amp;rdquo; (dict &amp;ldquo;pdfUrl&amp;rdquo; &amp;ldquo;/PDFs/Press-Freedom-Report-JanuaryMarch-2025.pdf&amp;rdquo;) }}&lt;/p&gt;</description>
+&lt;p&gt;&lt;a href=&#34;http://localhost:1313/PDFs/Press-Freedom-Report-JanuaryMarch-2025.pdf&#34;&gt;&lt;strong&gt;Read full report -&amp;gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;</description>
       <enclosure url="http://localhost:1313/images/denissa-devy-OfLdxlspigY-unsplash1.jpg" type="image/jpeg" />
     </item>
     
@@ -298,16 +307,6 @@
       <guid>http://localhost:1313/sports/the-importance-of-financial-planning-for-athletes/</guid>
       <description>With ink drying on contracts worth millions, young athletes step into a world of wealth and responsibility. How do they handle this sudden fortune, and what impact does it have on their futures?</description>
       <enclosure url="http://localhost:1313/images/Wealth-at-Whistles-Blow-The-Importance-of-Financial-Planning-for-Athletes.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>To be or not to be European alone: Horizons of EU expansion</title>
-      <link>http://localhost:1313/global-issues/horizons-of-eu-expansion/</link>
-      <pubDate>Wed, 10 Jan 2024 10:00:00 +0200</pubDate>
-      <author>Adrian Liberto</author>
-      <guid>http://localhost:1313/global-issues/horizons-of-eu-expansion/</guid>
-      <description>Can the EU redefine what it means to be European in a globally connected world?</description>
-      <enclosure url="http://localhost:1313/images/To-be-or-not-to-be-European-alone_-Horizons-of-EU-expansion.jpg" type="image/jpeg" />
     </item>
     
   </channel>

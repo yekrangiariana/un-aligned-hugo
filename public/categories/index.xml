@@ -6,7 +6,17 @@
     <description>Recent content in Categories on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 15 Jul 2025 19:29:09 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Aug 2025 19:43:10 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comments</title>
+      <link>http://localhost:1313/categories/comments/</link>
+      <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
+      
+      <guid>http://localhost:1313/categories/comments/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Human Rights</title>
       <link>http://localhost:1313/categories/human-rights/</link>
@@ -123,16 +133,6 @@
       <pubDate>Thu, 11 Jan 2024 10:00:00 +0200</pubDate>
       
       <guid>http://localhost:1313/categories/sports/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Comments</title>
-      <link>http://localhost:1313/categories/comments/</link>
-      <pubDate>Tue, 09 Jan 2024 18:48:10 +0200</pubDate>
-      
-      <guid>http://localhost:1313/categories/comments/</guid>
       <description></description>
       
     </item>
