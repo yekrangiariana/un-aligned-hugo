@@ -157,6 +157,15 @@ No doubt this was a safe political move since even leaders who are hostile to th
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     
     
+
+
+<div class="site-alert" id="site-alert">
+  <div class="alert-container">
+    <span class="alert-text">Welcome to the new UN-Aligned site! Some bugs and missing content are being fixed.</span>
+    <button class="alert-close" onclick="closeSiteAlert()" aria-label="Close alert">&times;</button>
+  </div>
+</div>
+
 <header class="site-header">
   <div class="header-container">
     <div class="header-two-columns">
@@ -345,6 +354,12 @@ No doubt this was a safe political move since even leaders who are hostile to th
             
           </li>
           
+          <li>
+            
+              <a href="//localhost:1313/search">Search 🔎</a>
+            
+          </li>
+          
         </ul>
       </div>
       
@@ -404,14 +419,6 @@ No doubt this was a safe political move since even leaders who are hostile to th
           <li class="mega-menu-section-title">Latest Gordian Issue</li>
           
           
-            <li class="gordian-cover">
-              <img src="/images/issue-1-vol-7-scaled.jpg" alt="Gordian Issue 3 Cover">
-            </li>
-            <li class="gordian-buttons">
-              <a href="//localhost:1313/gordian/issue-3/" class="gordian-button current-issue">Read Issue 3</a>
-              <a href="//localhost:1313/gordian/" class="gordian-button past-issues">Past Issues</a>
-            </li>
-          
         </ul>
       </div>
     </div>
@@ -425,7 +432,25 @@ No doubt this was a safe political move since even leaders who are hostile to th
 
 
 <script>
+  
+  function closeSiteAlert() {
+    const alert = document.getElementById('site-alert');
+    if (alert) {
+      alert.style.display = 'none';
+      
+      localStorage.setItem('siteAlertClosed', 'true');
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
+    
+    if (localStorage.getItem('siteAlertClosed') === 'true') {
+      const alert = document.getElementById('site-alert');
+      if (alert) {
+        alert.style.display = 'none';
+      }
+    }
+
     
     const navContainer = document.querySelector('.category-nav');
     const leftIndicator = document.querySelector('.scroll-indicator-left');

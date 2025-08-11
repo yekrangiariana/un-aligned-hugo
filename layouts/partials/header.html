@@ -1,4 +1,13 @@
 {{ $curLanguageName := .Site.Language.LanguageName }}
+
+<!-- Site Alert Banner -->
+<div class="site-alert" id="site-alert">
+  <div class="alert-container">
+    <span class="alert-text">Welcome to the new UN-Aligned site! Some bugs and missing content are being fixed.</span>
+    <button class="alert-close" onclick="closeSiteAlert()" aria-label="Close alert">&times;</button>
+  </div>
+</div>
+
 <header class="site-header">
   <div class="header-container">
     <div class="header-two-columns">
@@ -86,7 +95,25 @@
 
 <!-- Script to handle scroll indicators and menu popup -->
 <script>
+  // Function to close the site alert
+  function closeSiteAlert() {
+    const alert = document.getElementById('site-alert');
+    if (alert) {
+      alert.style.display = 'none';
+      // Store in localStorage to remember the user closed it
+      localStorage.setItem('siteAlertClosed', 'true');
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
+    // Check if alert was previously closed
+    if (localStorage.getItem('siteAlertClosed') === 'true') {
+      const alert = document.getElementById('site-alert');
+      if (alert) {
+        alert.style.display = 'none';
+      }
+    }
+
     // Category navigation scroll indicators
     const navContainer = document.querySelector('.category-nav');
     const leftIndicator = document.querySelector('.scroll-indicator-left');

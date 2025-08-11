@@ -1,6 +1,54 @@
 /* Header specific styles - MAIN SOURCE OF HEADER STYLING */
 /* Any changes to header layout should be made here to ensure consistency */
 
+/* Site Alert Banner */
+.site-alert {
+  background-color: #ffd700; /* Yellow background */
+  color: #000; /* Black text */
+  width: 100%;
+  position: relative;
+  z-index: 1001; /* Above header but below any overlays */
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.alert-container {
+  max-width: var(--site-max-width);
+  width: var(--site-content-width);
+  margin: 0 auto;
+  padding: 8px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.alert-text {
+  flex: 1;
+  margin-right: 15px;
+}
+
+.alert-close {
+  background: none;
+  border: none;
+  color: #000;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 0;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 2px;
+  transition: background-color 0.2s ease;
+}
+
+.alert-close:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 /* Header layout */
 .site-header {
   display: flex;
@@ -353,5 +401,15 @@
     align-items: flex-end;
     flex-direction: row;
     gap: 10px;
+  }
+
+  /* Mobile alert styling */
+  .alert-container {
+    padding: 6px 10px;
+    font-size: 0.8rem;
+  }
+
+  .alert-text {
+    margin-right: 10px;
   }
 }

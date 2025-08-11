@@ -110,16 +110,6 @@
     </item>
     
     <item>
-      <title>Rising Utopia Brick by Brick</title>
-      <link>//localhost:1313/gordian/issue-3/</link>
-      <pubDate>Thu, 01 May 2025 00:00:00 +0000</pubDate>
-      
-      <guid>//localhost:1313/gordian/issue-3/</guid>
-      <description>In this first issue of our new Utopia series, we will be focusing on world peace and democracy. Our main article is a quirky piece which postulates an interview with the representative of a more advanced civilisation; and within this setting, novel visions are juxtaposed to some of our pressing problems. Of course, our coverage does not end here.</description>
-      <enclosure url="//localhost:1313/images/issue-1-vol-7-scaled.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
       <title>Call to Action!</title>
       <link>//localhost:1313/un-aligned-news/onward-and-upwards/</link>
       <pubDate>Mon, 14 Apr 2025 17:05:25 +0300</pubDate>
@@ -307,6 +297,16 @@
       <guid>//localhost:1313/global-issues/horizons-of-eu-expansion/</guid>
       <description>Can the EU redefine what it means to be European in a globally connected world?</description>
       <enclosure url="//localhost:1313/images/To-be-or-not-to-be-European-alone_-Horizons-of-EU-expansion.jpg" type="image/jpeg" />
+    </item>
+    
+    <item>
+      <title>Julia Hartley-Brewer&#39;s racism is a common reality for brown man - I know, having experienced it firsthand</title>
+      <link>//localhost:1313/comments/julia-hartley-brewers-racism-is-a-common-reality-for-brown-man-i-know-having-experienced-it-firsthand/</link>
+      <pubDate>Tue, 09 Jan 2024 18:48:10 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>//localhost:1313/comments/julia-hartley-brewers-racism-is-a-common-reality-for-brown-man-i-know-having-experienced-it-firsthand/</guid>
+      <description>Julia Hartley-Brewer&#39;s sexist and racist remarks to her guest, Mustafa Barghouti, reflect a troubling norm in many workplaces.</description>
+      <enclosure url="//localhost:1313/images/Julia-Hartley-Brewers-racism.jpg" type="image/jpeg" />
     </item>
     
   </channel>
