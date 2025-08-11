@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Covid 19 on UN-aligned</title>
-    <link>//localhost:1313/tags/covid-19/</link>
+    <link>http://localhost:1313/tags/covid-19/</link>
     <description>Recent content in Covid 19 on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 07 Jan 2021 10:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/covid-19/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 07 Jan 2021 10:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/covid-19/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>When Dilly-dallying Costs Lives</title>
-      <link>//localhost:1313/global-issues/when-dilly-dallying-costs-lives/</link>
+      <link>http://localhost:1313/global-issues/when-dilly-dallying-costs-lives/</link>
       <pubDate>Thu, 07 Jan 2021 10:00:00 +0200</pubDate>
       <author>Anonymous</author>
-      <guid>//localhost:1313/global-issues/when-dilly-dallying-costs-lives/</guid>
+      <guid>http://localhost:1313/global-issues/when-dilly-dallying-costs-lives/</guid>
       <description>&lt;p&gt;This year has been difficult for everyone. We have all had to adapt to new changes and the impact COVID-19 has had worldwide.&lt;/p&gt;
 &lt;p&gt;I am a classroom teacher based in a primary school in London. Since April, we have had to face many challenges due to the pandemic. Children have done an amazing job at adapting to necessary changes and staff have been very supportive of each other. We worked flexibly and creatively to help the school run as efficiently and effectively as possible. This last term, however, has been particularly draining for all of us!&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/people-wearing-diy-masks-3951623.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/people-wearing-diy-masks-3951623.jpg" type="image/jpeg" />
     </item>
     
   </channel>

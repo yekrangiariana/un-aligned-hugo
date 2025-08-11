@@ -2,41 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kurdistan on UN-aligned</title>
-    <link>//localhost:1313/tags/kurdistan/</link>
+    <link>http://localhost:1313/tags/kurdistan/</link>
     <description>Recent content in Kurdistan on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 06 Mar 2021 16:27:55 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/kurdistan/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 06 Mar 2021 16:27:55 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/kurdistan/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The 40th day of winter: Kurdistan Celebrates Pir Shaliar - in pictures</title>
-      <link>//localhost:1313/gallery/kurdistan-celebrates-pir-shaliar/</link>
+      <link>http://localhost:1313/gallery/kurdistan-celebrates-pir-shaliar/</link>
       <pubDate>Sat, 06 Mar 2021 16:27:55 +0200</pubDate>
       <author>anahitaahmadi</author>
-      <guid>//localhost:1313/gallery/kurdistan-celebrates-pir-shaliar/</guid>
+      <guid>http://localhost:1313/gallery/kurdistan-celebrates-pir-shaliar/</guid>
       <description>In the Kurdish city of Uraman Takht, the ancient Pir Shalyar festival marks a legendary wedding with roots in pre-Islamic Zoroastrian tradition.</description>
-      <enclosure url="//localhost:1313/images/IMG_6451.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/IMG_6451.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>How the recent conflicts in Syria could shape its future</title>
-      <link>//localhost:1313/country-profile/how-the-recent-conflicts-in-syria-could-shape-its-future/</link>
+      <link>http://localhost:1313/country-profile/how-the-recent-conflicts-in-syria-could-shape-its-future/</link>
       <pubDate>Tue, 05 Nov 2019 11:46:17 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/country-profile/how-the-recent-conflicts-in-syria-could-shape-its-future/</guid>
+      <guid>http://localhost:1313/country-profile/how-the-recent-conflicts-in-syria-could-shape-its-future/</guid>
       <description>&lt;h2 id=&#34;what-happened&#34;&gt;&lt;strong&gt;What happened?&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;Although people are long used to the erratic twists and turns of Donald Trump, his decision to sell the Kurds down the river by withdrawing American troops from Syria caught everyone by surprise. Whether Trump was right to extricate his forces from Syria remains debatable, but just as there is rarely a good time to start international military interventions, so there is rarely a good time to discontinue them. One would have thought that Libya’s and Iraq’s ongoing atrocities would have made this clear.&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/image1170x530cropped-2.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/image1170x530cropped-2.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Uraman Takht - a journey to the forgotten lands of Kurdistan</title>
-      <link>//localhost:1313/country-profile/uraman-takht-a-journey-to-the-forgotten-lands-of-kurdistan/</link>
+      <link>http://localhost:1313/country-profile/uraman-takht-a-journey-to-the-forgotten-lands-of-kurdistan/</link>
       <pubDate>Sun, 01 Sep 2019 05:51:04 +0300</pubDate>
       <author>anahitaahmadi</author>
-      <guid>//localhost:1313/country-profile/uraman-takht-a-journey-to-the-forgotten-lands-of-kurdistan/</guid>
+      <guid>http://localhost:1313/country-profile/uraman-takht-a-journey-to-the-forgotten-lands-of-kurdistan/</guid>
       <description>&lt;p&gt;&lt;em&gt;After publishing the August issue of &lt;a href=&#34;https://un-aligned.org/the-gordian/&#34;&gt;The Gordian&lt;/a&gt;, we received the kind message from an UN-aligned member, Anahita, saying the magazine had inspired her to travel to the &lt;a href=&#34;https://un-aligned.org/wp-content/uploads/2019/08/MAGAZINE-ISSUE-3VOL.1-3.pdf&#34;&gt;Iranian Kurdistan&lt;/a&gt;. As a thank you we received beautiful pictures from her which we decided to publish as a bonus, showcasing Uraman Takht, a magnificent village in the west of &lt;a href=&#34;https://un-aligned.org/tag/iran/&#34;&gt;Iran&lt;/a&gt;.&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;Uraman Takht is indeed one of the wonders of what Iran has to offer. With a population of less than 3000, this village hosts the kindest and most hard-working people that I have yet seen throughout my journeys. This paradise is located in eastern part of Marivan city of Kurdistan and lies 1450 meters above sea level on the alluring heights of the Zagros mountains.&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/WhatsApp-Image-2019-08-29-at-18.13.48.jpeg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/WhatsApp-Image-2019-08-29-at-18.13.48.jpeg" type="image/jpeg" />
     </item>
     
   </channel>

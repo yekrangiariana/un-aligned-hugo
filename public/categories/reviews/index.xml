@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Reviews on UN-aligned</title>
-    <link>//localhost:1313/categories/reviews/</link>
+    <link>http://localhost:1313/categories/reviews/</link>
     <description>Recent content in Reviews on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 06 Feb 2022 06:50:00 +0200</lastBuildDate><atom:link href="//localhost:1313/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 06 Feb 2022 06:50:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/reviews/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UN Security Council meeting on Ukraine Review: Abstaining Romance and Plenty of Hot Air</title>
-      <link>//localhost:1313/global-issues/unsc-meeting-on-ukraine-review/</link>
+      <link>http://localhost:1313/global-issues/unsc-meeting-on-ukraine-review/</link>
       <pubDate>Sun, 06 Feb 2022 06:50:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/global-issues/unsc-meeting-on-ukraine-review/</guid>
+      <guid>http://localhost:1313/global-issues/unsc-meeting-on-ukraine-review/</guid>
       <description>Participating members in this UN Security Council meeting on Ukraine attempt their best with this bland, shallow and awkwardly structured meeting, which can be characterised in 6 words: “Too late”, “nothing new” and “bad directing”.</description>
-      <enclosure url="//localhost:1313/images/UN-Security-Council-meeting-on-Ukraine-Review-copy.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/UN-Security-Council-meeting-on-Ukraine-Review-copy.jpg" type="image/jpeg" />
     </item>
     
   </channel>

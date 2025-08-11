@@ -1,6 +1,6 @@
 ignoreLogs = ['warning-goldmark-raw-html']
 
-baseURL = "/"
+baseURL = "https://un-aligned.org"
 languageCode = "en-uk"
 title = "UN-aligned"
 rssLimit = 30

@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nepal on UN-aligned</title>
-    <link>//localhost:1313/tags/nepal/</link>
+    <link>http://localhost:1313/tags/nepal/</link>
     <description>Recent content in Nepal on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 16 Nov 2023 10:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/nepal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 16 Nov 2023 10:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/nepal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nepal&#39;s National Parks: A Conservation Success Shadowed by Local Struggles</title>
-      <link>//localhost:1313/climate-emergency/ramifications-of-nepal-forest-policies-on-marginalised-communities/</link>
+      <link>http://localhost:1313/climate-emergency/ramifications-of-nepal-forest-policies-on-marginalised-communities/</link>
       <pubDate>Thu, 16 Nov 2023 10:00:00 +0200</pubDate>
       <author>Sunil Kumar Pariyar</author>
-      <guid>//localhost:1313/climate-emergency/ramifications-of-nepal-forest-policies-on-marginalised-communities/</guid>
+      <guid>http://localhost:1313/climate-emergency/ramifications-of-nepal-forest-policies-on-marginalised-communities/</guid>
       <description>In Nepal, majestic national parks thrive as sanctuaries for wildlife, but for the local communities grappling with restricted access, human rights abuses and the stark reality of living on the edge of wilderness, the path to harmonious coexistence remains fraught with challenges.</description>
-      <enclosure url="//localhost:1313/images/Social-Fallout-of-Nepals-Conservation-Policies-on-Marginalised-Communities-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Social-Fallout-of-Nepals-Conservation-Policies-on-Marginalised-Communities-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Redefining Forest Boundaries: Sunil Pariyar on the Dalit Struggle and DANAR&#39;s Impact in Nepal</title>
-      <link>//localhost:1313/climate-emergency/sunil-pariyar-on-dalit-and-danar-impact-in-nepal/</link>
+      <link>http://localhost:1313/climate-emergency/sunil-pariyar-on-dalit-and-danar-impact-in-nepal/</link>
       <pubDate>Sat, 07 Oct 2023 08:30:09 +0300</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/climate-emergency/sunil-pariyar-on-dalit-and-danar-impact-in-nepal/</guid>
+      <guid>http://localhost:1313/climate-emergency/sunil-pariyar-on-dalit-and-danar-impact-in-nepal/</guid>
       <description>Sunil Kumar Pariyar talks about DANAR and the struggles and triumphs of the Dalit community as they strive to reclaim their rightful place in Nepal’s natural resource management.</description>
-      <enclosure url="//localhost:1313/images/Sunil-Pariyar-DANAR.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Sunil-Pariyar-DANAR.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Kathmandu: The Colorful Lands of Nepal - in pictures</title>
-      <link>//localhost:1313/gallery/kathmandu-the-colorful-lands-of-nepal/</link>
+      <link>http://localhost:1313/gallery/kathmandu-the-colorful-lands-of-nepal/</link>
       <pubDate>Wed, 07 Oct 2020 15:00:10 +0300</pubDate>
       <author>anahitaahmadi</author>
-      <guid>//localhost:1313/gallery/kathmandu-the-colorful-lands-of-nepal/</guid>
+      <guid>http://localhost:1313/gallery/kathmandu-the-colorful-lands-of-nepal/</guid>
       <description>A journey beyond tourism in Nepal and India reveals how the most genuine smiles and a profound sense of humanity can be found in the most unexpected of places.</description>
-      <enclosure url="//localhost:1313/images/4.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/4.jpg" type="image/jpeg" />
     </item>
     
   </channel>

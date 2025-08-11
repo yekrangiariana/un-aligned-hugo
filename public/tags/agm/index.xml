@@ -2,54 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Agm on UN-aligned</title>
-    <link>//localhost:1313/tags/agm/</link>
+    <link>http://localhost:1313/tags/agm/</link>
     <description>Recent content in Agm on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 04 Dec 2023 11:31:41 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/agm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 11:31:41 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/agm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UN-aligned&#39;s 2023 Annual General Meeting</title>
-      <link>//localhost:1313/opportunities/join-us-at-un-aligneds-2023-annual-general-meeting/</link>
+      <link>http://localhost:1313/opportunities/join-us-at-un-aligneds-2023-annual-general-meeting/</link>
       <pubDate>Mon, 04 Dec 2023 11:31:41 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/opportunities/join-us-at-un-aligneds-2023-annual-general-meeting/</guid>
+      <guid>http://localhost:1313/opportunities/join-us-at-un-aligneds-2023-annual-general-meeting/</guid>
       <description>We are thrilled to extend an invitation to all our members for the UN-aligned 2023 Annual General Meeting, scheduled for Thursday, December 14th, 2023.</description>
-      <enclosure url="//localhost:1313/images/UN-aligned-agm-2023.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/UN-aligned-agm-2023.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>UN-aligned Annual General Meeting 2022</title>
-      <link>//localhost:1313/events/un-aligned-annual-general-meeting-2022/</link>
+      <link>http://localhost:1313/events/un-aligned-annual-general-meeting-2022/</link>
       <pubDate>Fri, 14 Oct 2022 19:46:09 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/events/un-aligned-annual-general-meeting-2022/</guid>
+      <guid>http://localhost:1313/events/un-aligned-annual-general-meeting-2022/</guid>
       <description>&lt;p&gt;We are pleased to invite you to UN-aligned’s 2022 Annual General Meeting.&lt;/p&gt;
 &lt;p&gt;The Annual General Meeting is a special occasion for the exchange of information and discussion between UN-aligned members across the world. &lt;/p&gt;
 &lt;p&gt;It is also an opportunity for you to express yourself and play an active role in the major decisions of the organisation.&lt;/p&gt;
 &lt;p&gt;Below you will find the agenda and instructions on how to participate in this meeting.&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/UN-aligneds-AGM-2022.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/UN-aligneds-AGM-2022.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>“With a democratic world federation, humanity can address global problems”</title>
-      <link>//localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</link>
+      <link>http://localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</link>
       <pubDate>Fri, 24 Jun 2022 11:37:45 +0300</pubDate>
       <author>Eston McKeague</author>
-      <guid>//localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</guid>
+      <guid>http://localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</guid>
       <description>Humanity has been taking the easy path for far too long and we are the unfortunate generation that has to get off the couch and into the trenches.</description>
-      <enclosure url="//localhost:1313/images/With-a-democratic-world-federation-humanity-can-address-global-problems-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/With-a-democratic-world-federation-humanity-can-address-global-problems-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>UN-aligned&#39;s first Annual General Meeting</title>
-      <link>//localhost:1313/events/un-aligned-first-agm/</link>
+      <link>http://localhost:1313/events/un-aligned-first-agm/</link>
       <pubDate>Tue, 16 Nov 2021 11:19:45 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/events/un-aligned-first-agm/</guid>
+      <guid>http://localhost:1313/events/un-aligned-first-agm/</guid>
       <description>&lt;p&gt;UN-aligned’s first AGM was held on Wednesday, November 24th, 2021, at 19:30 - 20:30 (EET) on Google Meet. The proposals included in the agenda of UN-aligned’s AGM, together with this invitation, the NGO’s Financial Statement and the Auditor&amp;rsquo;s Report are all available on this page.&lt;/p&gt;
 &lt;h2 id=&#34;invitation&#34;&gt;Invitation&lt;/h2&gt;
 &lt;p&gt;We are pleased to invite you to UN-aligned’s first Annual General Meeting. The Annual General Meeting is a special occasion for the exchange of information and discussion between UN-aligned members across the world. &lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/UN-aligneds-invites-you-to-its-first-AGM.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/UN-aligneds-invites-you-to-its-first-AGM.jpg" type="image/jpeg" />
     </item>
     
   </channel>

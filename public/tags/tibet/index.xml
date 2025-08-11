@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tibet on UN-aligned</title>
-    <link>//localhost:1313/tags/tibet/</link>
+    <link>http://localhost:1313/tags/tibet/</link>
     <description>Recent content in Tibet on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 14 Nov 2023 07:00:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/tibet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Nov 2023 07:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/tibet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>How Tibet&#39;s Peaceful Nation-Building Challenges Chinese Rule</title>
-      <link>//localhost:1313/country-profile/how-tibets-peaceful-nation-building-challenges-chinese-rule/</link>
+      <link>http://localhost:1313/country-profile/how-tibets-peaceful-nation-building-challenges-chinese-rule/</link>
       <pubDate>Tue, 14 Nov 2023 07:00:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/country-profile/how-tibets-peaceful-nation-building-challenges-chinese-rule/</guid>
+      <guid>http://localhost:1313/country-profile/how-tibets-peaceful-nation-building-challenges-chinese-rule/</guid>
       <description>Despite relentless conquests, the struggle for Tibet’s sovereignty extends beyond the protection of its heritage; it&#39;s a fight for the nation&#39;s very spirit, enduring as the mountains that embrace it.</description>
-      <enclosure url="//localhost:1313/images/How-Tibets-Peaceful-Nation-Building-Challenges-Chinese-Rule.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/How-Tibets-Peaceful-Nation-Building-Challenges-Chinese-Rule.jpg" type="image/jpeg" />
     </item>
     
   </channel>

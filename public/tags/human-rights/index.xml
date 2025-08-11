@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Human Rights on UN-aligned</title>
-    <link>//localhost:1313/tags/human-rights/</link>
+    <link>http://localhost:1313/tags/human-rights/</link>
     <description>Recent content in Human Rights on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 10 Feb 2021 08:56:49 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/human-rights/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Feb 2021 08:56:49 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/human-rights/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>&#34;No, it&#39;s not just a snip&#34;: Why Circumcision is Legalised Child Abuse</title>
-      <link>//localhost:1313/health/why-circumcision-is-legalised-child-abuse/</link>
+      <link>http://localhost:1313/health/why-circumcision-is-legalised-child-abuse/</link>
       <pubDate>Wed, 10 Feb 2021 08:56:49 +0200</pubDate>
       <author>Adrian Liberto</author>
-      <guid>//localhost:1313/health/why-circumcision-is-legalised-child-abuse/</guid>
+      <guid>http://localhost:1313/health/why-circumcision-is-legalised-child-abuse/</guid>
       <description>&lt;p&gt;Mutilating the sexual organs of a child (circumcision) in the name of culture, religion or dubious preventative medical claims is outrageous and a blatant breach of the child’s human rights. Female genital mutilation is thankfully on the decline and relatively rare in developed countries. The cutting of little boys, however, is not. Approximately one third of males are circumcised worldwide. In this article I intend to highlight the futility and barbarity of the practice. &lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/2.jpg.webp" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/2.jpg.webp" type="image/jpeg" />
     </item>
     
     <item>
       <title>The Lingering Sins of Religion: When books weigh us down</title>
-      <link>//localhost:1313/human-rights/the-lingering-sins-of-religion-when-books-weigh-us-down/</link>
+      <link>http://localhost:1313/human-rights/the-lingering-sins-of-religion-when-books-weigh-us-down/</link>
       <pubDate>Thu, 04 Feb 2021 08:35:21 +0200</pubDate>
       <author>Adrian Liberto</author>
-      <guid>//localhost:1313/human-rights/the-lingering-sins-of-religion-when-books-weigh-us-down/</guid>
+      <guid>http://localhost:1313/human-rights/the-lingering-sins-of-religion-when-books-weigh-us-down/</guid>
       <description>&lt;h2 id=&#34;written-in-stone&#34;&gt;&lt;strong&gt;Written in stone&lt;/strong&gt;&lt;/h2&gt;
 &lt;p&gt;There are thousands of religions in the world today and many thousands more have come and gone. Many of these claim or have claimed a monopoly on truth relating to the divine and the moral, as well as to the rituals necessary to accompany a devout life. No doubt, much good has come from these religions in as much as they have contributed to unifying people around a set of values that have generally been beneficial to society and wellbeing. Often, they coalesce around scriptures that are professed to have been inspired or dictated by heaven itself. The Abrahamic religions, Judaism, Christianity and Islam are very much of this mould. There is only one problem: societies change, but books do not.&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/6.jpg-1.webp" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/6.jpg-1.webp" type="image/jpeg" />
     </item>
     
   </channel>

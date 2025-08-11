@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Disease on UN-aligned</title>
-    <link>//localhost:1313/tags/disease/</link>
+    <link>http://localhost:1313/tags/disease/</link>
     <description>Recent content in Disease on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 14 Jan 2023 06:40:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/disease/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Jan 2023 06:40:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/disease/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Fight to Eliminate Jiggers Disease - In Pictures</title>
-      <link>//localhost:1313/gallery/the-fight-to-eliminate-jiggers-disease-in-pictures/</link>
+      <link>http://localhost:1313/gallery/the-fight-to-eliminate-jiggers-disease-in-pictures/</link>
       <pubDate>Sat, 14 Jan 2023 06:40:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/gallery/the-fight-to-eliminate-jiggers-disease-in-pictures/</guid>
+      <guid>http://localhost:1313/gallery/the-fight-to-eliminate-jiggers-disease-in-pictures/</guid>
       <description>Joe Wain’s collection of photos portray the devastating effects of Jiggers Disease in Kenya.</description>
-      <enclosure url="//localhost:1313/images/Children-receive-treatment-for-jiggers-africa-2.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Children-receive-treatment-for-jiggers-africa-2.jpg" type="image/jpeg" />
     </item>
     
   </channel>

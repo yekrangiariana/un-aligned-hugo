@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Bangladesh on UN-aligned</title>
-    <link>//localhost:1313/tags/bangladesh/</link>
+    <link>http://localhost:1313/tags/bangladesh/</link>
     <description>Recent content in Bangladesh on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 15 Sep 2020 10:55:49 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/bangladesh/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 15 Sep 2020 10:55:49 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/bangladesh/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Surviving against the odds: life in an overlooked Bangladeshi locality</title>
-      <link>//localhost:1313/country-profile/life-in-an-overlooked-bangladeshi-locality/</link>
+      <link>http://localhost:1313/country-profile/life-in-an-overlooked-bangladeshi-locality/</link>
       <pubDate>Tue, 15 Sep 2020 10:55:49 +0300</pubDate>
       <author>MdGolamHabib</author>
-      <guid>//localhost:1313/country-profile/life-in-an-overlooked-bangladeshi-locality/</guid>
+      <guid>http://localhost:1313/country-profile/life-in-an-overlooked-bangladeshi-locality/</guid>
       <description>&lt;p&gt;I live in a southernmost Upazila (administrative district) of Bangladesh called Gabura. Bangladesh is an underdeveloped country and my village is typical of the struggling communities of the delta region. Many people here do not have access to basic education and the village does not even have electricity.&lt;/p&gt;
 &lt;p&gt;There are three distinct seasons in Bangladesh: a hot, humid summer from March to June; a cool rainy monsoon season from June to October; and a cool dry winter from October to March. Life in Gabura changes dramatically with each season.&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/FLOODED20HOUSE_auto_x1.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/FLOODED20HOUSE_auto_x1.jpg" type="image/jpeg" />
     </item>
     
   </channel>

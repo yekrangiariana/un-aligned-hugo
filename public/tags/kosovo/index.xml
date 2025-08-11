@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Kosovo on UN-aligned</title>
-    <link>//localhost:1313/tags/kosovo/</link>
+    <link>http://localhost:1313/tags/kosovo/</link>
     <description>Recent content in Kosovo on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 14 Nov 2023 08:02:00 +0200</lastBuildDate><atom:link href="//localhost:1313/tags/kosovo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 14 Nov 2023 08:02:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/kosovo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>From Table Tennis to the UN: How Kosovo Used Sports for Nation Building</title>
-      <link>//localhost:1313/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</link>
+      <link>http://localhost:1313/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</link>
       <pubDate>Tue, 14 Nov 2023 08:02:00 +0200</pubDate>
       <author>Alexander Stoney</author>
-      <guid>//localhost:1313/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</guid>
+      <guid>http://localhost:1313/global-issues/from-table-tennis-to-the-un-kosovos-sport-driven-nation-building/</guid>
       <description>As a young nation, Kosovo leveraged sports to establish international recognition, power, independence and national pride.</description>
-      <enclosure url="//localhost:1313/images/From-Table-Tennis-to-the-UN-How-Kosovo-Used-Sport-for-Nation-Building-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/From-Table-Tennis-to-the-UN-How-Kosovo-Used-Sport-for-Nation-Building-.jpg" type="image/jpeg" />
     </item>
     
   </channel>

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Rahimaelharrak on UN-aligned</title>
-    <link>//localhost:1313/authors/rahimaelharrak/</link>
+    <link>http://localhost:1313/authors/rahimaelharrak/</link>
     <description>Recent content in Rahimaelharrak on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Thu, 25 Jun 2020 13:00:00 +0300</lastBuildDate><atom:link href="//localhost:1313/authors/rahimaelharrak/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 25 Jun 2020 13:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/authors/rahimaelharrak/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>My Traumatic Experience with Postpartum - An interview with Rahima El Harrak</title>
-      <link>//localhost:1313/health/postpartum-a-personal-perspective/</link>
+      <link>http://localhost:1313/health/postpartum-a-personal-perspective/</link>
       <pubDate>Thu, 25 Jun 2020 13:00:00 +0300</pubDate>
       <author>rahimaelharrak</author>
-      <guid>//localhost:1313/health/postpartum-a-personal-perspective/</guid>
+      <guid>http://localhost:1313/health/postpartum-a-personal-perspective/</guid>
       <description>&lt;p&gt;&lt;em&gt;&amp;ldquo;The period soon after childbirth poses substantial health risks for both mother and new-born infant. Yet the postpartum and postnatal period receives less attention from health care providers than pregnancy and childbirth. Models of postpartum and postnatal care have changed little since first developed a century ago. The World Health Organization (WHO) is in the process of revising and updating its guidance on postpartum and postnatal care delivered by skilled providers.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/Social-Media-post-2-1.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Social-Media-post-2-1.jpg" type="image/jpeg" />
     </item>
     
   </channel>

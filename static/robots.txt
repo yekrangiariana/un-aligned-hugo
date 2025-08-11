@@ -2,7 +2,7 @@ User-agent: *
 Allow: /
 
 # Sitemap
-Sitemap: /sitemap.xml
+Sitemap: https://un-aligned.org/sitemap.xml
 
 # RSS Feed
 # /index.xml

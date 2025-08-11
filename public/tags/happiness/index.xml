@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Happiness on UN-aligned</title>
-    <link>//localhost:1313/tags/happiness/</link>
+    <link>http://localhost:1313/tags/happiness/</link>
     <description>Recent content in Happiness on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 07 Apr 2021 08:00:00 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/happiness/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 07 Apr 2021 08:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/happiness/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GDP is an impostor, so why are we still using it to measure happiness?</title>
-      <link>//localhost:1313/economy/why-are-we-still-using-gdp-to-measure-happiness/</link>
+      <link>http://localhost:1313/economy/why-are-we-still-using-gdp-to-measure-happiness/</link>
       <pubDate>Wed, 07 Apr 2021 08:00:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/economy/why-are-we-still-using-gdp-to-measure-happiness/</guid>
+      <guid>http://localhost:1313/economy/why-are-we-still-using-gdp-to-measure-happiness/</guid>
       <description>&lt;p&gt;&lt;em&gt;&lt;a href=&#34;https://un-aligned.org/wp-content/uploads/2021/04/Italiano_-Il-PIL-non-significa-nulla-di-concreto-quindi-perche-lo-utilizziamo-ancora-per-misurare-la-felicita.pdf&#34;&gt;Read this article in Italian (Leggi questo articolo in italiano) →&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;GDP is not a suitable measurement for happiness or welfare. It sucks. Assessing the economy using GDP is destroying our planet. The global community and the United Nation’s sustainable development solutions network (SDSN) need to find other suitable alternatives.&lt;/p&gt;
 &lt;p&gt;Since 2011, the SDSN, an initiative operating under the auspices of the United Nations, has been &lt;a href=&#34;https://worldhappiness.report/ed/2021/happiness-trust-and-deaths-under-covid-19/&#34;&gt;publishing a yearly report&lt;/a&gt; on how happy the world is. Embarking upon this fundamentally subjective and unquantifiable quest is no easy task and although the SDSN has significantly improved its methods to measure happiness throughout the years, it still has a long way to go before becoming perfect. This year the report used a host of different criteria to grade the happiness of a nation, these included: gross domestic product per capita (GDP), social support, healthy life expectancy, freedom to make your own life choices, generosity of the general population and perceptions of internal and external corruption levels. &lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/GDP-is-an-imposto-1.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/GDP-is-an-imposto-1.jpg" type="image/jpeg" />
     </item>
     
   </channel>

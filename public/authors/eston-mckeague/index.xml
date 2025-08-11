@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Eston McKeague on UN-aligned</title>
-    <link>//localhost:1313/authors/eston-mckeague/</link>
+    <link>http://localhost:1313/authors/eston-mckeague/</link>
     <description>Recent content in Eston McKeague on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 24 Jun 2022 11:37:45 +0300</lastBuildDate><atom:link href="//localhost:1313/authors/eston-mckeague/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 Jun 2022 11:37:45 +0300</lastBuildDate><atom:link href="http://localhost:1313/authors/eston-mckeague/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>“With a democratic world federation, humanity can address global problems”</title>
-      <link>//localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</link>
+      <link>http://localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</link>
       <pubDate>Fri, 24 Jun 2022 11:37:45 +0300</pubDate>
       <author>Eston McKeague</author>
-      <guid>//localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</guid>
+      <guid>http://localhost:1313/global-issues/with-a-democratic-world-federation-humanity-can-address-global-problems/</guid>
       <description>Humanity has been taking the easy path for far too long and we are the unfortunate generation that has to get off the couch and into the trenches.</description>
-      <enclosure url="//localhost:1313/images/With-a-democratic-world-federation-humanity-can-address-global-problems-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/With-a-democratic-world-federation-humanity-can-address-global-problems-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Generation Earth: Why Youth are Necessary for Solving Global Problems</title>
-      <link>//localhost:1313/global-issues/generation-earth-why-youth-are-necessary-for-solving-global-problems/</link>
+      <link>http://localhost:1313/global-issues/generation-earth-why-youth-are-necessary-for-solving-global-problems/</link>
       <pubDate>Mon, 15 Nov 2021 14:05:59 +0200</pubDate>
       <author>Eston McKeague</author>
-      <guid>//localhost:1313/global-issues/generation-earth-why-youth-are-necessary-for-solving-global-problems/</guid>
+      <guid>http://localhost:1313/global-issues/generation-earth-why-youth-are-necessary-for-solving-global-problems/</guid>
       <description>&lt;h2 id=&#34;humanity-faces-immense-challenges&#34;&gt;Humanity faces immense challenges&lt;/h2&gt;
 &lt;p&gt;Many young people are global. Growing up online has predisposed a generation to a cosmopolitan perspective previously only accessible by the elite. Interacting with a culture different from your own has become a commonplace occurrence online, which has led many to retreat into safe, echo chambers with people of the value system. This retreat is exemplified by private chat groups which at best, provide a welcoming space for a niche community, and at worst, provide a space for terrorists to plan attacks. Yet, if you’ve grown up online, you’ll know that an echo chamber is far less fun than a debate space. &lt;/p&gt;</description>
-      <enclosure url="//localhost:1313/images/Photo-Fabrice-Florin_Flickr.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Photo-Fabrice-Florin_Flickr.jpg" type="image/jpeg" />
     </item>
     
   </channel>

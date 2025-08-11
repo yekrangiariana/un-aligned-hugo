@@ -2,49 +2,49 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Editorial on UN-aligned</title>
-    <link>//localhost:1313/tags/editorial/</link>
+    <link>http://localhost:1313/tags/editorial/</link>
     <description>Recent content in Editorial on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 25 Oct 2023 20:54:16 +0300</lastBuildDate><atom:link href="//localhost:1313/tags/editorial/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 25 Oct 2023 20:54:16 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/editorial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bombing Civilian Areas &amp; Killing Children is Wrong. Even for Revenge, Especially for Revenge</title>
-      <link>//localhost:1313/human-rights/bombing-civilian-areas-and-killing-children-is-wrong-even-for-revenge/</link>
+      <link>http://localhost:1313/human-rights/bombing-civilian-areas-and-killing-children-is-wrong-even-for-revenge/</link>
       <pubDate>Wed, 25 Oct 2023 20:54:16 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/human-rights/bombing-civilian-areas-and-killing-children-is-wrong-even-for-revenge/</guid>
+      <guid>http://localhost:1313/human-rights/bombing-civilian-areas-and-killing-children-is-wrong-even-for-revenge/</guid>
       <description>Two wrongs don&#39;t make a right, particularly when the price is measured in the lives of children and the fabric of communities torn asunder.</description>
-      <enclosure url="//localhost:1313/images/Bombing-civilian-areas-and-killing-children-is-wrong.-Even-for-revenge-especially-for-revenge-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Bombing-civilian-areas-and-killing-children-is-wrong.-Even-for-revenge-especially-for-revenge-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>UN-aligned’s views on strikes in England: Laying the blame where it should be</title>
-      <link>//localhost:1313/comments/un-aligneds-views-on-strikes-in-england-laying-the-blame-where-it-should-be/</link>
+      <link>http://localhost:1313/comments/un-aligneds-views-on-strikes-in-england-laying-the-blame-where-it-should-be/</link>
       <pubDate>Sun, 15 Jan 2023 15:00:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/comments/un-aligneds-views-on-strikes-in-england-laying-the-blame-where-it-should-be/</guid>
+      <guid>http://localhost:1313/comments/un-aligneds-views-on-strikes-in-england-laying-the-blame-where-it-should-be/</guid>
       <description>It&#39;s time to stand with essential workers and demand fair treatment and decent pay for their tireless efforts during the global crisis.</description>
-      <enclosure url="//localhost:1313/images/2.-UN-aligneds-views-on-strikes-in-England-Laying-the-blame-where-it-should-be-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/2.-UN-aligneds-views-on-strikes-in-England-Laying-the-blame-where-it-should-be-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>There is citizen journalism and there is The Gordian Magazine</title>
-      <link>//localhost:1313/comments/there-is-citizen-journalism-and-there-is-the-gordian/</link>
+      <link>http://localhost:1313/comments/there-is-citizen-journalism-and-there-is-the-gordian/</link>
       <pubDate>Sat, 24 Dec 2022 14:14:46 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/comments/there-is-citizen-journalism-and-there-is-the-gordian/</guid>
+      <guid>http://localhost:1313/comments/there-is-citizen-journalism-and-there-is-the-gordian/</guid>
       <description>In a world that moves at a dizzying speed, sometimes towards the wrong direction, The Gordian has stayed true to its values, fighting for a better UN and bringing our readers the insights and information they need to stay informed and engaged.</description>
-      <enclosure url="//localhost:1313/images/the-gordian-in-2022.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/the-gordian-in-2022.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>UN-aligned’s view on the climate protests: the days of self-serving governments are over</title>
-      <link>//localhost:1313/climate-emergency/un-aligneds-view-on-the-climate-protests-the-days-of-self-serving-governments-are-over/</link>
+      <link>http://localhost:1313/climate-emergency/un-aligneds-view-on-the-climate-protests-the-days-of-self-serving-governments-are-over/</link>
       <pubDate>Tue, 24 Sep 2019 10:22:06 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>//localhost:1313/climate-emergency/un-aligneds-view-on-the-climate-protests-the-days-of-self-serving-governments-are-over/</guid>
+      <guid>http://localhost:1313/climate-emergency/un-aligneds-view-on-the-climate-protests-the-days-of-self-serving-governments-are-over/</guid>
       <description>As CO2 emissions hit a 10-million-year high, people in 185 countries unite across continents to protest political inaction on this urgent crisis.</description>
-      <enclosure url="//localhost:1313/images/800px-Fridays_For_Future_Vicenza.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/800px-Fridays_For_Future_Vicenza.jpg" type="image/jpeg" />
     </item>
     
   </channel>

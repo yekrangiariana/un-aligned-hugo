@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Obituary on UN-aligned</title>
-    <link>//localhost:1313/categories/obituary/</link>
+    <link>http://localhost:1313/categories/obituary/</link>
     <description>Recent content in Obituary on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 20 Dec 2022 09:30:00 +0200</lastBuildDate><atom:link href="//localhost:1313/categories/obituary/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 20 Dec 2022 09:30:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/obituary/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Obituary: Ayten Aydın</title>
-      <link>//localhost:1313/obituary/obituary-ayten-aydin/</link>
+      <link>http://localhost:1313/obituary/obituary-ayten-aydin/</link>
       <pubDate>Tue, 20 Dec 2022 09:30:00 +0200</pubDate>
       <author>Adrian Liberto</author>
-      <guid>//localhost:1313/obituary/obituary-ayten-aydin/</guid>
+      <guid>http://localhost:1313/obituary/obituary-ayten-aydin/</guid>
       <description>Ayten Aydin, former writer for The Gordian, has died in Rome aged 92 after a short illness.</description>
-      <enclosure url="//localhost:1313/images/Ayten-Aydin-1.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Ayten-Aydin-1.jpg" type="image/jpeg" />
     </item>
     
   </channel>
