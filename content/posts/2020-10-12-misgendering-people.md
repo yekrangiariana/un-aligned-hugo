@@ -1,7 +1,7 @@
 ---
 title: "Misgendering people: Identity and Gender Pronouns"
 date: 2020-10-12T10:50:23+03:00
-authors: ["aryan.yekrangi1"]
+authors: ["Anonymous"]
 url: "culture/misgendering-people"
 categories: 
   - "Culture"

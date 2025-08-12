@@ -1,7 +1,7 @@
 ---
 title: "Language to Unite, Language to Separate: The Tale of Serbian & Croatian"
 date: 2021-11-19T12:35:41+02:00
-authors: ["aryan.yekrangi1"]
+authors: ["Anonymous"]
 url: "country-profile/language-to-unite-language-to-separate-the-tale-of-serbian-croatian"
 categories: 
   - "Country Profile"

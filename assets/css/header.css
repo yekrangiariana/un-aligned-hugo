@@ -28,6 +28,10 @@
   margin-right: 15px;
 }
 
+body.dark-mode .alert-text {
+  color: #121212
+}
+
 .alert-close {
   background: none;
   border: none;

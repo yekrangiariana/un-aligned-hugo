@@ -142,7 +142,7 @@ Of course, religion and tradition affect a range of issues and can condone a mul
 
 ## **Why We Misgender People**
 
-_By Aryan Yekrangi_
+_By Anonymous_
 
 ![](/images/1.-5-1024x538.png)
 

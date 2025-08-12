@@ -362,7 +362,7 @@ In the next issue of [_The Gordian_](https://un-aligned.org/the-gordian/) I shal
 
 ## “Why are you talking like that?” — How politicians use language
 
-_By Aryan Yekrangi_
+_By Anonymous_
 
 ![how politicians use language](/images/how-politicians-use-language-1024x614.jpg)
 

@@ -1,7 +1,7 @@
 ---
 title: "The Use of Chinese Medicine in Treating Covid-19"
 date: 2020-06-11T10:30:00+03:00
-authors: ["aryan.yekrangi"]
+authors: ["Anonymous"]
 url: "health/the-use-of-chinese-medicine-in-treating-covid-19"
 categories: 
   - "Health"

@@ -1,7 +1,7 @@
 ---
 title: "Immigrants: Language Acquisition and Education"
 date: 2020-09-11T11:02:34+03:00
-authors: ["aryan.yekrangi1"]
+authors: ["Anonymous"]
 url: "global-issues/immigrants-language-acquisition-and-education"
 categories:
   - "Global Issues"

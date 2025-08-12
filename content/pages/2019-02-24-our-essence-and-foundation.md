@@ -2,6 +2,9 @@
 title: "Mission Statement and Foundation"
 date: 2019-02-24T22:44:32+02:00
 url: "our-essence-and-foundation"
+aliases:
+- /un-aligned-and-its-foundation
+
 ---
 
 In a world undergoing rapid change, idealism is not a weakness but a catalyst for transformation. At UN-aligned, we harness the power of creative imagination to envision a better world—one united by a federal order rooted in shared humanity and planetary stewardship. Founded in 2016 by Adriano Liberto and Ariana Yekrangi, UN-aligned stands as a beacon of change.
@@ -11,8 +14,16 @@ UN-aligned was registered as a non-profit association in the Finnish Patent and 
 The central office team consists of the following individuals. 
 
 Ariana Yekrangi
-Founder & Chair. Editor of the Gordian Magazine  
+Founder and Editor of the Gordian Magazine  
 📍Helsinki, Finland
+
+Adrian Liberto 
+Co-Founder and Editor of the Gordian Magazine
+📍Rome, Italy
+
+Partho Pratim Chatterjee
+Chair
+📍Italy
 
 Jonna Lappalainen
 Treasurer  

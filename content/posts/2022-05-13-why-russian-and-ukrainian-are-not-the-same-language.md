@@ -1,8 +1,8 @@
 ---
 title: "Why Russian and Ukrainian are not the same language"
-description: "As the Ukrainian invasion enters its third month, Aryan Yekrangi writes about the difference between Russian and Ukrainian language, which are often mistaken as the same."
+description: "As the Ukrainian invasion enters its third month, we explore the difference between Russian and Ukrainian language, which are often mistaken as the same."
 date: 2022-05-13T10:05:54+03:00
-authors: ["aryan.yekrangi1"]
+authors: ["Anonymous"]
 url: "culture/why-russian-and-ukrainian-are-not-the-same-language"
 categories: 
   - "Culture"

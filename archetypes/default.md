@@ -3,8 +3,8 @@ title: "{{ replace .File.ContentBaseName "-" " " | title }}"
 description: ""
 date: {{ .Date }}
 authors: [""]
-url: ""
-slug: ""
+url: "{{ .Name }}"
+slug: "{{ .Name }}"
 categories:
 	- ""
 tags:

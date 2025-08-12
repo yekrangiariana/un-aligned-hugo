@@ -168,7 +168,7 @@ So there is a lot of festering behind the scenes, we cannot be sure how much, bu
 
 ## Language to Unite, Language to Separate: The Tale of Serbian & Croatian
 
-By Aryan Yekrangi
+By Anonymous
 
 ![](/images/Language-to-Unite-Language-to-Separate_-The-Tale-of-Serbian-Croatian--1024x614.jpg)
 

@@ -528,7 +528,7 @@ Revealed- Leaked file uncovers how the Iranian Revolutionary Guards plan to quel
 
 ## **The Iranian Government: How is it structured?**
 
-By Aryan Yekrangi
+By Anonymous
 
 ![](/images/x-The-Iranian-Government-How-is-it-structured--1024x571.jpg)
 

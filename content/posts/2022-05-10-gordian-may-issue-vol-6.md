@@ -331,7 +331,7 @@ The cultural clashes were ongoing, but school life had begun to feel calm, rewar
 
 ## Why Russian and Ukrainian are not the same language
 
-By Aryan Yekrangi
+By Anonymous
 
 ![](/images/Why-Russian-and-Ukrainian-are-not-the-same-language-1024x614.jpg)
 

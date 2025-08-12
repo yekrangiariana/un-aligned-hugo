@@ -1,7 +1,7 @@
 ---
 title: "Document no. 3 and what it reveals about the Chinese Communist Party"
 date: 2020-05-25T07:07:40+03:00
-authors: ["aryan.yekrangi"]
+authors: ["Anonymous"]
 url: "global-issues/china-is-lying-about-the-coronavirus-document-no-3-reavels"
 categories: 
   - "Global Issues"

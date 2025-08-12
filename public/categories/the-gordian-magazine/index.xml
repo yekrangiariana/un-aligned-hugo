@@ -6,7 +6,17 @@
     <description>Recent content in The Gordian Magazine on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 07 Feb 2024 13:43:31 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/the-gordian-magazine/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/the-gordian-magazine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>A new issue of the Gordian will be coming soon</title>
+      <link>http://localhost:1313/gordian/issue-1/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/gordian/issue-1/</guid>
+      <description>&lt;p&gt;Some articles to read in the time being.&lt;/p&gt;</description>
+      <enclosure url="http://localhost:1313/images/issue-1-vol-7-scaled.jpg" type="image/jpeg" />
+    </item>
+    
     <item>
       <title>To be or not to be European alone — The Gordian Magazine</title>
       <link>http://localhost:1313/the-gordian-magazine/gordian-february-issue-vol-8/</link>
@@ -295,16 +305,6 @@
       <guid>http://localhost:1313/the-gordian-magazine/the-gordian-november-issue-vol-3/</guid>
       <description>This year the World Food Programme was awarded the prestigious Nobel Peace Prize. But should branches of the United Nations be beneficiaries of such awards for simply doing their job? Wasn&#39;t this a missed opportunity? &#34;This was a coward and political move&#34; argues Adrian Liberto in his piece: Five Reasons why this Year’s Nobel Peace Prize was Misplaced. In this publication, author Ariana Yekrangi also takes a closer look at a looming food crisis predicted to be unlike anything we&#39;ve seen before. This issue also contains an exclusive photo reportage by UN-aligned Administrator, Ruby Goldenberg.</description>
       <enclosure url="http://localhost:1313/images/ISSUE-5VOL.3-1.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>The Gordian – October Issue, Vol 3</title>
-      <link>http://localhost:1313/the-gordian-magazine/the-gordian-october-issue-vol-3/</link>
-      <pubDate>Wed, 07 Oct 2020 14:40:02 +0300</pubDate>
-      <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/the-gordian-magazine/the-gordian-october-issue-vol-3/</guid>
-      <description>Any lover of democracy would be justified in feeling a sense of alarm when faced with such statements as “an assault on democracy...” and “a direct political attack against the democratically elected government...”, but as the Bard of Avon put it: “The devil can cite Scripture for his purpose.”   In this month&#39;s Gordian we discuss LGBTQ+ rights. This issue contain more exclusive reports by Alex Liberto, Aryan Yekrangi and Anahita Ahmadi.</description>
-      <enclosure url="http://localhost:1313/images/Copy-of-ISSUE-4VOL.3.jpg" type="image/jpeg" />
     </item>
     
   </channel>

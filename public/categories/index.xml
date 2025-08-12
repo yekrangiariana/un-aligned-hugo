@@ -18,6 +18,16 @@
     </item>
     
     <item>
+      <title>The Gordian Magazine</title>
+      <link>http://localhost:1313/categories/the-gordian-magazine/</link>
+      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/the-gordian-magazine/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Human Rights</title>
       <link>http://localhost:1313/categories/human-rights/</link>
       <pubDate>Tue, 15 Jul 2025 19:29:09 +0300</pubDate>
@@ -113,16 +123,6 @@
       <pubDate>Mon, 13 May 2024 14:41:53 +0300</pubDate>
       
       <guid>http://localhost:1313/categories/social-issues/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>The Gordian Magazine</title>
-      <link>http://localhost:1313/categories/the-gordian-magazine/</link>
-      <pubDate>Wed, 07 Feb 2024 13:43:31 +0200</pubDate>
-      
-      <guid>http://localhost:1313/categories/the-gordian-magazine/</guid>
       <description></description>
       
     </item>

@@ -65,6 +65,7 @@
   display: block;
   margin: 0 0 0 auto; /* Push the image to the right */
   max-height: 150px; /* Set a consistent height */
+  margin-top: -40px;
 }
 
 .comment-description {
@@ -76,7 +77,6 @@
   width: 100%;
   position: relative; /* Enable positioning context */
   text-align: right;
-  margin-top: -18px;
 }
 
 /* Author photo and separator alignment */

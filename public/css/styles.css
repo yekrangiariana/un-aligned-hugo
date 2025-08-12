@@ -2472,6 +2472,10 @@ article {
   margin-right: 15px;
 }
 
+body.dark-mode .alert-text {
+  color: #121212
+}
+
 .alert-close {
   background: none;
   border: none;
@@ -3262,6 +3266,14 @@ select:focus-visible,
 .article-grid .article-card:first-child .article-card-carousel,
 .article-grid .article-card:nth-child(4) .article-card-carousel {
   height: 450px;
+}
+
+.article-card:nth-child(4) .article-card-link {
+  flex-direction: row !important;
+}
+
+.article-card:nth-child(4) .article-card-image {
+  width: 66.6%;
 }
 
 /* Responsive carousel heights */

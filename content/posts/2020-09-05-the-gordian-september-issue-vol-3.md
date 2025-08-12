@@ -256,7 +256,7 @@ Finally, listen to us with your hearts and look at us with your minds.
 
 ## **Immigrants and Language Acquisition**
 
-_By Aryan Yekrangi_
+_By Anonymous_
 
 ![](/images/6-1024x538.jpg)
 

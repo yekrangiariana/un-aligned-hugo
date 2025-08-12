@@ -1,7 +1,7 @@
 ---
 title: "The Use of Tear Gas in the 21st Century is Unacceptable."
 date: 2020-07-10T09:55:00+03:00
-authors: ["aryan.yekrangi1"]
+authors: ["Anonymous"]
 url: "global-issues/the-use-of-tear-gas-is-unacceptable"
 categories:
   - "Global Issues"

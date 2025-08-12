@@ -2,6 +2,9 @@
 title: "Frequently Asked Questions"
 date: 2019-01-25T14:51:09+02:00
 url: "frequently-asked-questions"
+aliases:
+- /about
+- /about/frequently-asked-questions
 ---
 
 ## What is UN-aligned?

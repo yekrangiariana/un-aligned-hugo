@@ -41,6 +41,9 @@
     <loc>http://localhost:1313/gordian/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/the-gordian-magazine/</loc>
+    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/authors/ariana-yekrangi/</loc>
     <lastmod>2025-07-15T19:29:09+03:00</lastmod>
   </url><url>
@@ -184,9 +187,6 @@
   </url><url>
     <loc>http://localhost:1313/global-issues/israels-collapse-under-global-condemnation/</loc>
     <lastmod>2024-03-12T08:35:24+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/the-gordian-magazine/</loc>
-    <lastmod>2024-02-07T13:43:31+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/the-gordian-magazine/gordian-february-issue-vol-8/</loc>
     <lastmod>2024-02-07T13:43:31+02:00</lastmod>
@@ -2132,17 +2132,14 @@
     <loc>http://localhost:1313/country-profile/reflections-on-the-sri-lanka-bombings-2/</loc>
     <lastmod>2019-05-06T08:15:23+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/archive/</loc>
-    <lastmod>2019-04-15T18:06:23+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/ariana/</loc>
-    <lastmod>2019-04-15T18:06:23+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/register/</loc>
     <lastmod>2019-04-11T03:15:03+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/manifesto/</loc>
     <lastmod>2019-04-01T19:30:33+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/ariana/</loc>
+    <lastmod>2019-03-25T21:26:17+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/get-involved/</loc>
     <lastmod>2019-03-25T21:26:17+02:00</lastmod>

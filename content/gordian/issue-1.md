@@ -4,7 +4,10 @@ date: 2025-08-01
 slug: "issue-1"
 description: ""
 issueNumber: 1
+volume: 9
 tagline: ""
+categories: 
+  - "The Gordian Magazine"
 articleList:
   - "the-zionist-experiment-has-failed-it-must-be-abolished"
   - "global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression"

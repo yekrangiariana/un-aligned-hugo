@@ -1,7 +1,7 @@
 ---
 title: "'Why are you talking like that?': How politicians use words to influence and mislead"
 date: 2021-07-19T10:56:31+03:00
-authors: ["aryan.yekrangi1"]
+authors: ["Anonymous"]
 url: "culture/how-politicians-use-language"
 categories: 
   - "Culture"

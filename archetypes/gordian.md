@@ -1,12 +1,20 @@
 ---
 title: "{{ replace .Name "-" " " | title }}"
-slug: ""
+date: {{ .Date }}
+slug: "{{ .Name }}"
 description: ""
-categories:
-- "News"
-volume: 1
 issueNumber: 1
-articleList: []
+volume: 9
+tagline: ""
+categories: 
+  - "The Gordian Magazine"
+articleList:
+  - ""
+  - ""
+  - ""
+image: "/images/{{ .Name }}.jpg"
 ---
 
 Welcome to this issue of The Gordian Magazine.
+
+// hugo new gordian/issue-4.md

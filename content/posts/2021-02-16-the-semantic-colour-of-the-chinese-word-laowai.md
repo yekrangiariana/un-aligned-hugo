@@ -1,7 +1,7 @@
 ---
 title: "So You Have Been Called 'Laowai'? Here's What it Means"
 date: 2021-02-16T08:56:44+02:00
-authors: ["aryan.yekrangi1"]
+authors: ["Anonymous"]
 url: "culture/the-semantic-colour-of-the-chinese-word-laowai"
 categories:
   - "Culture"
