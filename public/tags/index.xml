@@ -2,307 +2,307 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on UN-aligned</title>
-    <link>https://un-aligned.org/tags/</link>
+    <link>http://localhost:1313/tags/</link>
     <description>Recent content in Tags on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 11 Aug 2025 19:43:10 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 11 Aug 2025 19:43:10 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaza</title>
-      <link>https://un-aligned.org/tags/gaza/</link>
+      <link>http://localhost:1313/tags/gaza/</link>
       <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/gaza/</guid>
+      <guid>http://localhost:1313/tags/gaza/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Israel</title>
-      <link>https://un-aligned.org/tags/israel/</link>
+      <link>http://localhost:1313/tags/israel/</link>
       <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/israel/</guid>
+      <guid>http://localhost:1313/tags/israel/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Journalism</title>
-      <link>https://un-aligned.org/tags/journalism/</link>
+      <link>http://localhost:1313/tags/journalism/</link>
       <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/journalism/</guid>
+      <guid>http://localhost:1313/tags/journalism/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>United Nations</title>
-      <link>https://un-aligned.org/tags/united-nations/</link>
+      <link>http://localhost:1313/tags/united-nations/</link>
       <pubDate>Fri, 11 Jul 2025 21:54:35 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/united-nations/</guid>
+      <guid>http://localhost:1313/tags/united-nations/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nicaragua</title>
-      <link>https://un-aligned.org/tags/nicaragua/</link>
+      <link>http://localhost:1313/tags/nicaragua/</link>
       <pubDate>Tue, 08 Jul 2025 21:52:52 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/nicaragua/</guid>
+      <guid>http://localhost:1313/tags/nicaragua/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Literature</title>
-      <link>https://un-aligned.org/tags/literature/</link>
+      <link>http://localhost:1313/tags/literature/</link>
       <pubDate>Thu, 19 Jun 2025 12:32:26 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/literature/</guid>
+      <guid>http://localhost:1313/tags/literature/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Monthly Recap</title>
-      <link>https://un-aligned.org/tags/monthly-recap/</link>
+      <link>http://localhost:1313/tags/monthly-recap/</link>
       <pubDate>Mon, 14 Apr 2025 17:05:25 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/monthly-recap/</guid>
+      <guid>http://localhost:1313/tags/monthly-recap/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Following a Successful Agm</title>
-      <link>https://un-aligned.org/tags/following-a-successful-agm/</link>
+      <link>http://localhost:1313/tags/following-a-successful-agm/</link>
       <pubDate>Wed, 12 Mar 2025 16:33:15 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/following-a-successful-agm/</guid>
+      <guid>http://localhost:1313/tags/following-a-successful-agm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>New Solutions With Omar</title>
-      <link>https://un-aligned.org/tags/new-solutions-with-omar/</link>
+      <link>http://localhost:1313/tags/new-solutions-with-omar/</link>
       <pubDate>Sun, 02 Mar 2025 18:11:40 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/new-solutions-with-omar/</guid>
+      <guid>http://localhost:1313/tags/new-solutions-with-omar/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>United States</title>
-      <link>https://un-aligned.org/tags/united-states/</link>
+      <link>http://localhost:1313/tags/united-states/</link>
       <pubDate>Sun, 02 Mar 2025 18:11:40 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/united-states/</guid>
+      <guid>http://localhost:1313/tags/united-states/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Environment Report</title>
-      <link>https://un-aligned.org/tags/environment-report/</link>
+      <link>http://localhost:1313/tags/environment-report/</link>
       <pubDate>Sun, 17 Nov 2024 12:37:38 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/environment-report/</guid>
+      <guid>http://localhost:1313/tags/environment-report/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Long Read</title>
-      <link>https://un-aligned.org/tags/long-read/</link>
+      <link>http://localhost:1313/tags/long-read/</link>
       <pubDate>Thu, 09 May 2024 09:17:12 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/long-read/</guid>
+      <guid>http://localhost:1313/tags/long-read/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Iran</title>
-      <link>https://un-aligned.org/tags/iran/</link>
+      <link>http://localhost:1313/tags/iran/</link>
       <pubDate>Sun, 07 Apr 2024 17:55:03 +0300</pubDate>
       
-      <guid>https://un-aligned.org/tags/iran/</guid>
+      <guid>http://localhost:1313/tags/iran/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Federalism</title>
-      <link>https://un-aligned.org/tags/federalism/</link>
+      <link>http://localhost:1313/tags/federalism/</link>
       <pubDate>Wed, 07 Feb 2024 12:53:29 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/federalism/</guid>
+      <guid>http://localhost:1313/tags/federalism/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Art</title>
-      <link>https://un-aligned.org/tags/art/</link>
+      <link>http://localhost:1313/tags/art/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/art/</guid>
+      <guid>http://localhost:1313/tags/art/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Caravaggio</title>
-      <link>https://un-aligned.org/tags/caravaggio/</link>
+      <link>http://localhost:1313/tags/caravaggio/</link>
       <pubDate>Mon, 15 Jan 2024 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/caravaggio/</guid>
+      <guid>http://localhost:1313/tags/caravaggio/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>United Kingdom</title>
-      <link>https://un-aligned.org/tags/united-kingdom/</link>
+      <link>http://localhost:1313/tags/united-kingdom/</link>
       <pubDate>Fri, 12 Jan 2024 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/united-kingdom/</guid>
+      <guid>http://localhost:1313/tags/united-kingdom/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>European Union</title>
-      <link>https://un-aligned.org/tags/european-union/</link>
+      <link>http://localhost:1313/tags/european-union/</link>
       <pubDate>Wed, 10 Jan 2024 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/european-union/</guid>
+      <guid>http://localhost:1313/tags/european-union/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Linguistics</title>
-      <link>https://un-aligned.org/tags/linguistics/</link>
+      <link>http://localhost:1313/tags/linguistics/</link>
       <pubDate>Thu, 21 Dec 2023 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/linguistics/</guid>
+      <guid>http://localhost:1313/tags/linguistics/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Unsc</title>
-      <link>https://un-aligned.org/tags/unsc/</link>
+      <link>http://localhost:1313/tags/unsc/</link>
       <pubDate>Thu, 21 Dec 2023 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/unsc/</guid>
+      <guid>http://localhost:1313/tags/unsc/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Person of the Year</title>
-      <link>https://un-aligned.org/tags/person-of-the-year/</link>
+      <link>http://localhost:1313/tags/person-of-the-year/</link>
       <pubDate>Wed, 06 Dec 2023 09:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/person-of-the-year/</guid>
+      <guid>http://localhost:1313/tags/person-of-the-year/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Books</title>
-      <link>https://un-aligned.org/tags/books/</link>
+      <link>http://localhost:1313/tags/books/</link>
       <pubDate>Mon, 04 Dec 2023 13:19:46 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/books/</guid>
+      <guid>http://localhost:1313/tags/books/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Agm</title>
-      <link>https://un-aligned.org/tags/agm/</link>
+      <link>http://localhost:1313/tags/agm/</link>
       <pubDate>Mon, 04 Dec 2023 11:31:41 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/agm/</guid>
+      <guid>http://localhost:1313/tags/agm/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nation Building</title>
-      <link>https://un-aligned.org/tags/nation-building/</link>
+      <link>http://localhost:1313/tags/nation-building/</link>
       <pubDate>Sat, 18 Nov 2023 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/nation-building/</guid>
+      <guid>http://localhost:1313/tags/nation-building/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Afghanistan</title>
-      <link>https://un-aligned.org/tags/afghanistan/</link>
+      <link>http://localhost:1313/tags/afghanistan/</link>
       <pubDate>Fri, 17 Nov 2023 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/afghanistan/</guid>
+      <guid>http://localhost:1313/tags/afghanistan/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Nepal</title>
-      <link>https://un-aligned.org/tags/nepal/</link>
+      <link>http://localhost:1313/tags/nepal/</link>
       <pubDate>Thu, 16 Nov 2023 10:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/nepal/</guid>
+      <guid>http://localhost:1313/tags/nepal/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>India</title>
-      <link>https://un-aligned.org/tags/india/</link>
+      <link>http://localhost:1313/tags/india/</link>
       <pubDate>Tue, 14 Nov 2023 08:04:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/india/</guid>
+      <guid>http://localhost:1313/tags/india/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Kosovo</title>
-      <link>https://un-aligned.org/tags/kosovo/</link>
+      <link>http://localhost:1313/tags/kosovo/</link>
       <pubDate>Tue, 14 Nov 2023 08:02:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/kosovo/</guid>
+      <guid>http://localhost:1313/tags/kosovo/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>China</title>
-      <link>https://un-aligned.org/tags/china/</link>
+      <link>http://localhost:1313/tags/china/</link>
       <pubDate>Tue, 14 Nov 2023 07:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/china/</guid>
+      <guid>http://localhost:1313/tags/china/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Tibet</title>
-      <link>https://un-aligned.org/tags/tibet/</link>
+      <link>http://localhost:1313/tags/tibet/</link>
       <pubDate>Tue, 14 Nov 2023 07:00:00 +0200</pubDate>
       
-      <guid>https://un-aligned.org/tags/tibet/</guid>
+      <guid>http://localhost:1313/tags/tibet/</guid>
       <description></description>
       
     </item>

@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tourism on UN-aligned</title>
-    <link>https://un-aligned.org/tags/tourism/</link>
+    <link>http://localhost:1313/tags/tourism/</link>
     <description>Recent content in Tourism on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 29 Feb 2020 11:45:21 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/tourism/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 Feb 2020 11:45:21 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/tourism/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The importance of accessible tourist visas to balance our perception of Russia</title>
-      <link>https://un-aligned.org/global-issues/accessible-russian-tourist-visas/</link>
+      <link>http://localhost:1313/global-issues/accessible-russian-tourist-visas/</link>
       <pubDate>Sat, 29 Feb 2020 11:45:21 +0200</pubDate>
       <author>rubygoldenberg</author>
-      <guid>https://un-aligned.org/global-issues/accessible-russian-tourist-visas/</guid>
+      <guid>http://localhost:1313/global-issues/accessible-russian-tourist-visas/</guid>
       <description>&lt;p&gt;In February 2020, Russia announced that it would soon be offering a simplified and cheaper online visa application for tourists from EU countries.&lt;/p&gt;
 &lt;p&gt;If you were asked to describe Russia, your immediate thoughts may be of snow, bears and vodka. Unsurprisingly, Russia does contain all of those things. Think a little more and you might settle on political tension, corruption and the mafia. Unless you had visited, you probably would not envision the long summers in a cottage surrounded by countryside, LGBT activists, or a local taxi driver cracking jokes in elementary English. &lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/A-journey-to-the-forgotten-lands-of-Kurdistan-2-1.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/A-journey-to-the-forgotten-lands-of-Kurdistan-2-1.jpg" type="image/jpeg" />
     </item>
     
   </channel>

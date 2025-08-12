@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>European Union on UN-aligned</title>
-    <link>https://un-aligned.org/tags/european-union/</link>
+    <link>http://localhost:1313/tags/european-union/</link>
     <description>Recent content in European Union on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 10 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/european-union/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 10 Jan 2024 10:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/european-union/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>To be or not to be European alone: Horizons of EU expansion</title>
-      <link>https://un-aligned.org/global-issues/horizons-of-eu-expansion/</link>
+      <link>http://localhost:1313/global-issues/horizons-of-eu-expansion/</link>
       <pubDate>Wed, 10 Jan 2024 10:00:00 +0200</pubDate>
       <author>Adrian Liberto</author>
-      <guid>https://un-aligned.org/global-issues/horizons-of-eu-expansion/</guid>
+      <guid>http://localhost:1313/global-issues/horizons-of-eu-expansion/</guid>
       <description>Can the EU redefine what it means to be European in a globally connected world?</description>
-      <enclosure url="https://un-aligned.org/images/To-be-or-not-to-be-European-alone_-Horizons-of-EU-expansion.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/To-be-or-not-to-be-European-alone_-Horizons-of-EU-expansion.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The EU and Justice: Inside the July Gordian Magazine</title>
-      <link>https://un-aligned.org/inside-gordian-magazine/inside-the-july-gordian-magazine/</link>
+      <link>http://localhost:1313/inside-gordian-magazine/inside-the-july-gordian-magazine/</link>
       <pubDate>Wed, 27 Jul 2022 10:09:41 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/inside-gordian-magazine/inside-the-july-gordian-magazine/</guid>
+      <guid>http://localhost:1313/inside-gordian-magazine/inside-the-july-gordian-magazine/</guid>
       <description>A quick glance at what was inside the latest issue of The Gordian Magazine, UN-aligned&#39;s monthly publication.</description>
-      <enclosure url="https://un-aligned.org/images/issue-3-vol6.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/issue-3-vol6.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Justice across the EU: 6 ways the EU ensures fairness</title>
-      <link>https://un-aligned.org/explainer/6-ways-the-eu-secures-justice/</link>
+      <link>http://localhost:1313/explainer/6-ways-the-eu-secures-justice/</link>
       <pubDate>Mon, 18 Jul 2022 11:00:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/explainer/6-ways-the-eu-secures-justice/</guid>
+      <guid>http://localhost:1313/explainer/6-ways-the-eu-secures-justice/</guid>
       <description>Here’s a look over the five key judicial branches of the European Union and how they are safeguarding justice across the block.</description>
-      <enclosure url="https://un-aligned.org/images/How-Justice-is-ensured-in-the-European-Union-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/How-Justice-is-ensured-in-the-European-Union-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The Golden Curtain: Does the EU Stand on the Side of Justice?</title>
-      <link>https://un-aligned.org/human-rights/does-the-eu-stand-on-the-side-of-justice/</link>
+      <link>http://localhost:1313/human-rights/does-the-eu-stand-on-the-side-of-justice/</link>
       <pubDate>Fri, 15 Jul 2022 11:00:00 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>https://un-aligned.org/human-rights/does-the-eu-stand-on-the-side-of-justice/</guid>
+      <guid>http://localhost:1313/human-rights/does-the-eu-stand-on-the-side-of-justice/</guid>
       <description>The EU is a remarkable institution, but its callous exclusivity has risked making it a gentlemen’s club, whose head is very much up its own backside.</description>
-      <enclosure url="https://un-aligned.org/images/The-European-Unions-Golden-Curtain-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/The-European-Unions-Golden-Curtain-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Ukraine and Moldova&#39;s EU candidacy status… beneficial?</title>
-      <link>https://un-aligned.org/explainer/ukraine-and-moldovas-eu-candidacy-status-beneficial/</link>
+      <link>http://localhost:1313/explainer/ukraine-and-moldovas-eu-candidacy-status-beneficial/</link>
       <pubDate>Mon, 11 Jul 2022 08:52:11 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/explainer/ukraine-and-moldovas-eu-candidacy-status-beneficial/</guid>
+      <guid>http://localhost:1313/explainer/ukraine-and-moldovas-eu-candidacy-status-beneficial/</guid>
       <description>The European Union recently granted applicant status to Ukraine and Moldova. If approved, its many benefits, even rivalling NATO’s, include deterring Russia’s war machine. Here are some key questions surrounding the topic.</description>
-      <enclosure url="https://un-aligned.org/images/Ukraine-and-Moldovas-EU-candidacy-status-beneficial_.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Ukraine-and-Moldovas-EU-candidacy-status-beneficial_.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The Council of Europe and the struggle to uphold human rights</title>
-      <link>https://un-aligned.org/human-rights/the-council-of-europe-and-the-struggle-to-uphold-human-rights/</link>
+      <link>http://localhost:1313/human-rights/the-council-of-europe-and-the-struggle-to-uphold-human-rights/</link>
       <pubDate>Thu, 19 May 2022 10:01:12 +0300</pubDate>
       <author>Kaitlyn.Rivera</author>
-      <guid>https://un-aligned.org/human-rights/the-council-of-europe-and-the-struggle-to-uphold-human-rights/</guid>
+      <guid>http://localhost:1313/human-rights/the-council-of-europe-and-the-struggle-to-uphold-human-rights/</guid>
       <description>Human rights have been under attack in one way or another at nearly every single point in human history, so what has changed?</description>
-      <enclosure url="https://un-aligned.org/images/The-Council-of-Europe-and-the-struggle-to-uphold-human-rights.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/The-Council-of-Europe-and-the-struggle-to-uphold-human-rights.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>At last, European Unity Prevails</title>
-      <link>https://un-aligned.org/country-profile/at-last-european-unity-prevails/</link>
+      <link>http://localhost:1313/country-profile/at-last-european-unity-prevails/</link>
       <pubDate>Wed, 09 Mar 2022 10:28:36 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/country-profile/at-last-european-unity-prevails/</guid>
+      <guid>http://localhost:1313/country-profile/at-last-european-unity-prevails/</guid>
       <description>For years Europe has watched iron-man rising worldwide and polarising the advance of authoritarianism. Now, we proved it: we can take action, but only if we want to.</description>
-      <enclosure url="https://un-aligned.org/images/At-last-European-Unity-Prevails-2-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/At-last-European-Unity-Prevails-2-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Join the campaign to save cruelty-free cosmetics</title>
-      <link>https://un-aligned.org/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</link>
+      <link>http://localhost:1313/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</link>
       <pubDate>Tue, 09 Nov 2021 10:13:14 +0200</pubDate>
       <author>Jonna.Lappalainen</author>
-      <guid>https://un-aligned.org/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</guid>
+      <guid>http://localhost:1313/animal-rights/join-the-campaign-to-save-cruelty-free-cosmetics/</guid>
       <description>On 15th September 2021, the European Parliament voted in favor of a resolution that demands an EU-wide action plan to end the use of animals in testing and research. It also calls for sufficient fundings for developing non-animal testing methods further. Give your support for cruelty-free cosmetics in the EU and join PETA and others by signing the European citizens’ initiative.</description>
-      <enclosure url="https://un-aligned.org/images/oin-the-campaign-to-save-cruelty-free-cosmetics.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/oin-the-campaign-to-save-cruelty-free-cosmetics.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>LGBTQ Rights: Zombie Democracy and Loveless Religion</title>
-      <link>https://un-aligned.org/global-issues/lgbtq-rights-zombie-democracy-and-loveless-religion/</link>
+      <link>http://localhost:1313/global-issues/lgbtq-rights-zombie-democracy-and-loveless-religion/</link>
       <pubDate>Sat, 10 Oct 2020 10:59:00 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>https://un-aligned.org/global-issues/lgbtq-rights-zombie-democracy-and-loveless-religion/</guid>
+      <guid>http://localhost:1313/global-issues/lgbtq-rights-zombie-democracy-and-loveless-religion/</guid>
       <description>&lt;h3 id=&#34;hiding-behind-democracy&#34;&gt;&lt;strong&gt;Hiding behind democracy&lt;/strong&gt;&lt;/h3&gt;
 &lt;p&gt;Any lover of democracy would be justified in feeling a sense of alarm when faced with such statements as “an assault on democracy…” and “a direct political attack against the democratically elected government…”, but as the Bard of Avon put it: “The devil can cite Scripture for his purpose.”&lt;/p&gt;
 &lt;p&gt;The above two quotes come from Polish Justice Minister Zbigniew Ziobro and Hungarian Prime Minister Viktor Orban, respectively. They are directed against the EU presidency for calling their countries to task for their deteriorating record on human rights.&lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/2-1.jpg.webp" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/2-1.jpg.webp" type="image/jpeg" />
     </item>
     
   </channel>

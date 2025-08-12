@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Books on UN-aligned</title>
-    <link>https://un-aligned.org/tags/books/</link>
+    <link>http://localhost:1313/tags/books/</link>
     <description>Recent content in Books on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 04 Dec 2023 13:19:46 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/books/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 13:19:46 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/books/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Gordian Companion 2023: Your Stories from a Year on Edge</title>
-      <link>https://un-aligned.org/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</link>
+      <link>http://localhost:1313/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</link>
       <pubDate>Mon, 04 Dec 2023 13:19:46 +0200</pubDate>
       <author>unregisteredauthor</author>
-      <guid>https://un-aligned.org/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</guid>
+      <guid>http://localhost:1313/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</guid>
       <description>Introducing The Gordian Companion (2023) – not just a book, but a journey into the heart of groundbreaking citizen journalism. Order your copy today.</description>
-      <enclosure url="https://un-aligned.org/images/The-gordian-companion-2023.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/The-gordian-companion-2023.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Unravelling the United Nations, Argead style</title>
-      <link>https://un-aligned.org/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</link>
+      <link>http://localhost:1313/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</link>
       <pubDate>Tue, 02 Feb 2021 10:00:00 +0200</pubDate>
       <author>unregisteredauthor</author>
-      <guid>https://un-aligned.org/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</guid>
+      <guid>http://localhost:1313/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</guid>
       <description>How can the UN achieve its sacred mission without the shackles of obsolete structures and bullying superpowers? This is how!</description>
-      <enclosure url="https://un-aligned.org/images/Unravelling-the-UN-book-cover-scaled.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Unravelling-the-UN-book-cover-scaled.jpg" type="image/jpeg" />
     </item>
     
   </channel>

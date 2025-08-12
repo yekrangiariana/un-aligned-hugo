@@ -2,40 +2,40 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Inside Gordian Magazine on UN-aligned</title>
-    <link>https://un-aligned.org/categories/inside-gordian-magazine/</link>
+    <link>http://localhost:1313/categories/inside-gordian-magazine/</link>
     <description>Recent content in Inside Gordian Magazine on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 17 Oct 2023 12:30:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/categories/inside-gordian-magazine/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 17 Oct 2023 12:30:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/inside-gordian-magazine/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Global Constitution: The New Social Contract Inside the October Gordian Magazine</title>
-      <link>https://un-aligned.org/inside-gordian-magazine/global-constitution-the-new-social-contract-inside-the-october-gordian-magazine/</link>
+      <link>http://localhost:1313/inside-gordian-magazine/global-constitution-the-new-social-contract-inside-the-october-gordian-magazine/</link>
       <pubDate>Tue, 17 Oct 2023 12:30:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/inside-gordian-magazine/global-constitution-the-new-social-contract-inside-the-october-gordian-magazine/</guid>
+      <guid>http://localhost:1313/inside-gordian-magazine/global-constitution-the-new-social-contract-inside-the-october-gordian-magazine/</guid>
       <description>The dream of a united global constitution is closer than we think. As nationalism rises, can a unified code be the anchor we need?</description>
-      <enclosure url="https://un-aligned.org/images/issue-1-vol8-c.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/issue-1-vol8-c.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Dismantling the war machine: Inside the October Gordian Magazine</title>
-      <link>https://un-aligned.org/inside-gordian-magazine/inside-the-gordian/</link>
+      <link>http://localhost:1313/inside-gordian-magazine/inside-the-gordian/</link>
       <pubDate>Wed, 26 Oct 2022 11:00:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/inside-gordian-magazine/inside-the-gordian/</guid>
+      <guid>http://localhost:1313/inside-gordian-magazine/inside-the-gordian/</guid>
       <description>&lt;p&gt;The Gordian rolls on with its messages of peace and light and respect, but notwithstanding, the world seems to be getting darker and more troubled. &lt;/p&gt;
 &lt;p&gt;Climate disasters are no longer the exception, while the threat of a nuclear apocalypse is more real than it ever has been. Giving in is not an option. On the contrary we must double our efforts to combat all that is a threat to the dignity and wellbeing of humanity and the survival of earth’s multifaceted manifestations of nature. Being marginally involved with organisations like UN-aligned is no longer enough. Each and every one of us needs to do more, both as individuals and as part of our communities, be they local, or global like UN-aligned. For want of a nail the shoe was lost… then the horse, the rider, the message, the battle and finally, the kingdom. We are that nail, but we have been led to believe that our input is insignificant. It isn’t. So The Gordian will continue to roll on with your support and inspiration: a platform for the sharing of ideas and information and a launchpad for exiting ventures.&lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/inside-the-gordian.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/inside-the-gordian.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>The EU and Justice: Inside the July Gordian Magazine</title>
-      <link>https://un-aligned.org/inside-gordian-magazine/inside-the-july-gordian-magazine/</link>
+      <link>http://localhost:1313/inside-gordian-magazine/inside-the-july-gordian-magazine/</link>
       <pubDate>Wed, 27 Jul 2022 10:09:41 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/inside-gordian-magazine/inside-the-july-gordian-magazine/</guid>
+      <guid>http://localhost:1313/inside-gordian-magazine/inside-the-july-gordian-magazine/</guid>
       <description>A quick glance at what was inside the latest issue of The Gordian Magazine, UN-aligned&#39;s monthly publication.</description>
-      <enclosure url="https://un-aligned.org/images/issue-3-vol6.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/issue-3-vol6.jpg" type="image/jpeg" />
     </item>
     
   </channel>

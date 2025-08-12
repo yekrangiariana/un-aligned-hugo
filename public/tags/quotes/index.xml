@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Quotes on UN-aligned</title>
-    <link>https://un-aligned.org/tags/quotes/</link>
+    <link>http://localhost:1313/tags/quotes/</link>
     <description>Recent content in Quotes on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 19 Feb 2021 09:59:49 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Feb 2021 09:59:49 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/quotes/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Religion that unites...</title>
-      <link>https://un-aligned.org/global-issues/religion-that-unites/</link>
+      <link>http://localhost:1313/global-issues/religion-that-unites/</link>
       <pubDate>Fri, 19 Feb 2021 09:59:49 +0200</pubDate>
       <author>Adrian Liberto</author>
-      <guid>https://un-aligned.org/global-issues/religion-that-unites/</guid>
+      <guid>http://localhost:1313/global-issues/religion-that-unites/</guid>
       <description>&lt;p&gt;People with bigotted or selfish agendas have always tried to hijack religion, but there have always been spiritual adherents who have understood that kindness is paramount and they have highlighted the essence that unites us rather than the dross that divides us. Here are some inspirational quotes from a range of religious thinkers.&lt;/p&gt;
 &lt;h3 id=&#34;sanskrit-hymn&#34;&gt;&lt;strong&gt;Sanskrit Hymn&lt;/strong&gt; &lt;/h3&gt;
 &lt;p&gt;&lt;em&gt;“As different streams having their sources in different places all mingle their waters in the sea, so, Oh Lord, the different paths which men take through different tendencies, various though they appear, crooked or straight, all lead to Thee.”&lt;/em&gt;&lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/John-Chrysostom-with-Basil-of-Caesarea-and-Gregory-of-Nazianzus-on-a-late-15th-century-icon-of-the-Three-Holy-Hierarchs-from-the-Cathedral-of-St-Sophia2C-Novgorod-3.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/John-Chrysostom-with-Basil-of-Caesarea-and-Gregory-of-Nazianzus-on-a-late-15th-century-icon-of-the-Three-Holy-Hierarchs-from-the-Cathedral-of-St-Sophia2C-Novgorod-3.jpg" type="image/jpeg" />
     </item>
     
   </channel>

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fared.fared on UN-aligned</title>
-    <link>https://un-aligned.org/authors/fared.fared/</link>
+    <link>http://localhost:1313/authors/fared.fared/</link>
     <description>Recent content in Fared.fared on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 08 Sep 2020 11:00:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/authors/fared.fared/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 08 Sep 2020 11:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/authors/fared.fared/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wishing to stay above the ground: immigration and survival</title>
-      <link>https://un-aligned.org/human-rights/wishing-to-stay-above-the-ground/</link>
+      <link>http://localhost:1313/human-rights/wishing-to-stay-above-the-ground/</link>
       <pubDate>Tue, 08 Sep 2020 11:00:00 +0300</pubDate>
       <author>fared.fared</author>
-      <guid>https://un-aligned.org/human-rights/wishing-to-stay-above-the-ground/</guid>
+      <guid>http://localhost:1313/human-rights/wishing-to-stay-above-the-ground/</guid>
       <description>&lt;p&gt;&lt;em&gt;This article is by Abdelkander, an UN-aligned member from Algeria who is on the &lt;a href=&#34;https://un-aligned.org/un-aligned-news/my-experience-with-unaligneds-language-courses/&#34;&gt;UN-aligned English Language Programme&lt;/a&gt;. He is currently living and working in Turkey.&lt;/em&gt; &lt;/p&gt;
 &lt;h3 id=&#34;immigration-and-survival&#34;&gt;&lt;strong&gt;Immigration and survival&lt;/strong&gt; &lt;/h3&gt;
 &lt;p&gt;My name is Abdelkader, though I am also known as Faysal. I am from Algeria and I am 37-years-old. Like most young people, I want to have a decent life. Of course, I have dreams, but my main dream is simple: I just want an honest job. In my country, however, whether you studied or did not finish your studies, the matter will not be different, because in either case you will not get a job unless you have mediation, or you pay a bribe.&lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/6-1.jpg.webp" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/6-1.jpg.webp" type="image/jpeg" />
     </item>
     
   </channel>

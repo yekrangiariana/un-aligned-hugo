@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Animal Equality on UN-aligned</title>
-    <link>https://un-aligned.org/authors/animal-equality/</link>
+    <link>http://localhost:1313/authors/animal-equality/</link>
     <description>Recent content in Animal Equality on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 05 Jan 2021 10:00:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/authors/animal-equality/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 10:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/authors/animal-equality/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Giving voice to the the voiceless: Animal Equality’s Global Fight for Farmed Animals</title>
-      <link>https://un-aligned.org/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</link>
+      <link>http://localhost:1313/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</link>
       <pubDate>Tue, 05 Jan 2021 10:00:00 +0200</pubDate>
       <author>Animal Equality</author>
-      <guid>https://un-aligned.org/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</guid>
+      <guid>http://localhost:1313/animal-rights/animal-equality-14-years-of-supporting-those-on-the-brink-animals-reared-for-food/</guid>
       <description>Founded in Spain in 2006, Animal Equality is now a global leader in defending farmed animals, using investigations, corporate reform and public action to expose cruelty and drive lasting change.</description>
-      <enclosure url="https://un-aligned.org/images/4-1.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/4-1.jpg" type="image/jpeg" />
     </item>
     
   </channel>
