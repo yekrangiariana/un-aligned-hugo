@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mexico on UN-aligned</title>
-    <link>http://localhost:1313/tags/mexico/</link>
+    <link>https://un-aligned.org/tags/mexico/</link>
     <description>Recent content in Mexico on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 12 Sep 2022 10:30:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/mexico/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Sep 2022 10:30:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/mexico/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is Mexico suing the United Nations?</title>
-      <link>http://localhost:1313/news/is-mexico-suing-the-united-nations/</link>
+      <link>https://un-aligned.org/news/is-mexico-suing-the-united-nations/</link>
       <pubDate>Mon, 12 Sep 2022 10:30:00 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>http://localhost:1313/news/is-mexico-suing-the-united-nations/</guid>
+      <guid>https://un-aligned.org/news/is-mexico-suing-the-united-nations/</guid>
       <description>Mexico threatens to sue the UN following the WHO&#39;s failure to provide the country with covid vaccines.</description>
-      <enclosure url="http://localhost:1313/images/President-of-Mexico-Andres-Manuel-Lopez-Obrador.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/President-of-Mexico-Andres-Manuel-Lopez-Obrador.jpg" type="image/jpeg" />
     </item>
     
   </channel>
