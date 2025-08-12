@@ -13,6 +13,8 @@ mainSections = ["posts", "gordian"]
 tagline = "Putting humanity before nationality and planet before greed"
 favicon = "/favicon.ico"
 defaultSocialImage = "/images/un-aligned-default-social.jpg"
+publisher = "UN-aligned ry"
+copyrightHolder = "UN-aligned ry"
 
 [params.logo]
   name = "logo"

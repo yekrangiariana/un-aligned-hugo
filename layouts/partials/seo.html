@@ -15,11 +15,22 @@
       "description" : "{{ default .Summary .Description | plainify }}",
       {{- end }}
       "inLanguage" : "en-UK",
-      "author" : "{{ .Site.Params.author }}",
-      "creator" : "{{ .Site.Params.author }}",
-      "publisher": "{{ .Site.Params.author }}",
-      "accountablePerson" : "{{ .Site.Params.author }}",
-      "copyrightHolder" : "{{ .Site.Params.author }}",
+      {{ if .Params.authors }}"author" : {
+        "@type": "Person",
+        "name": "{{ index .Params.authors 0 }}"
+      },
+      "creator" : "{{ index .Params.authors 0 }}",
+      "accountablePerson" : "{{ index .Params.authors 0 }}",{{ else }}"author" : {
+        "@type": "Organization", 
+        "name": "{{ .Site.Params.publisher }}"
+      },
+      "creator" : "{{ .Site.Params.publisher }}",
+      "accountablePerson" : "{{ .Site.Params.publisher }}",{{ end }}
+      "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Params.publisher }}"
+      },
+      "copyrightHolder" : "{{ .Site.Params.copyrightHolder }}",
       "copyrightYear" : "{{ .Date.Format "2006" }}",
       "datePublished": "{{ .Date }}",
       "dateModified" : "{{ .Lastmod }}",

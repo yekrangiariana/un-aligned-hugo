@@ -1,0 +1,172 @@
+{{/* Similar Article Shortcode - adopts the same positioning as blockquotes */}}
+<style>
+/* Similar article container - styled like blockquotes */
+.similar-article {
+  float: left;
+  margin-top: 0;
+  /* margin-right: 1rem; */
+  width: 24%;
+  margin-left: -28%;
+  position: relative;
+  padding: 3px;
+  border: var(--border-thin-light);
+}
+
+/* Make the entire card clickable */
+.similar-article .article-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.similar-article .article-link:hover {
+  opacity: 0.8;
+}
+
+.similar-article .article-image {
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+
+.similar-article .article-title {
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+  text-align: left; /* Left align text */
+}
+
+.similar-article .article-author {
+  font-size: 0.8rem;
+  font-style: italic;
+  text-align: left; /* Left align text */
+}
+
+/* Category-specific colors based on the linked article's category */
+.similar-article.has-culture .article-title {
+  color: var(--color-culture) !important;
+}
+
+.similar-article.has-interview .article-title {
+  color: var(--color-interview) !important;
+}
+
+.similar-article.has-comments .article-title {
+  color: var(--color-comments) !important;
+}
+
+.similar-article.has-technology .article-title {
+  color: var(--color-technology) !important;
+}
+
+.similar-article.has-science .article-title {
+  color: var(--color-science) !important;
+}
+
+.similar-article.has-politics .article-title {
+  color: var(--color-politics) !important;
+}
+
+.similar-article.has-environment .article-title {
+  color: var(--color-environment) !important;
+}
+
+/* Dark mode category colors */
+body.dark-mode .similar-article.has-culture .article-title {
+  color: var(--dark-color-culture) !important;
+}
+
+body.dark-mode .similar-article.has-interview .article-title {
+  color: var(--dark-color-interview) !important;
+}
+
+body.dark-mode .similar-article.has-comments .article-title {
+  color: var(--dark-color-comments) !important;
+}
+
+body.dark-mode .similar-article.has-technology .article-title {
+  color: var(--dark-color-technology) !important;
+}
+
+body.dark-mode .similar-article.has-science .article-title {
+  color: var(--dark-color-science) !important;
+}
+
+body.dark-mode .similar-article.has-politics .article-title {
+  color: var(--dark-color-politics) !important;
+}
+
+body.dark-mode .similar-article.has-environment .article-title {
+  color: var(--dark-color-environment) !important;
+}
+
+/* Mobile responsive styling - matching blockquote mobile behavior exactly */
+@media screen and (max-width: 768px) {
+  .similar-article {
+    width: 100%;
+    margin-left: 0;
+    float: left; /* Keep float like blockquotes on mobile */
+    margin-right: 1rem;
+    margin-bottom: 0.2rem;
+    width: 50%;
+    background-color: transparent;
+  }
+  
+  .similar-article .article-title {
+    font-size: 0.85rem;
+  }
+  
+  .similar-article .article-author {
+    font-size: 0.75rem;
+  }
+}
+</style>
+
+{{/* Get the article slug parameter */}}
+{{ $slug := .Get "slug" }}
+
+{{/* Find the page by slug */}}
+{{ $page := "" }}
+{{ range site.RegularPages }}
+  {{ if eq .Params.slug $slug }}
+    {{ $page = . }}
+  {{ end }}
+{{ end }}
+
+<div class="similar-article{{ if $page }}{{ range $page.Params.categories }}{{ $categoryLower := . | lower | urlize }} {{ if eq $categoryLower "culture" }} has-culture{{ else if eq $categoryLower "interview" }} has-interview{{ else if eq $categoryLower "comments" }} has-comments{{ else if eq $categoryLower "technology" }} has-technology{{ else if eq $categoryLower "science" }} has-science{{ else if eq $categoryLower "politics" }} has-politics{{ else if eq $categoryLower "environment" }} has-environment{{ end }}{{ end }}{{ end }}">
+  {{ if $page }}
+    <a href="{{ $page.RelPermalink }}" class="article-link">
+      {{ if $page.Params.image }}
+        <img src="{{ $page.Params.image | relURL }}" alt="{{ $page.Title }}" class="article-image">
+      {{ end }}
+      
+      <div class="article-title">{{ $page.Title }}</div>
+      
+      {{ if $page.Params.authors }}
+        <div class="article-author">
+          {{ if gt (len $page.Params.authors) 1 }}
+            {{ $authors := slice }}
+            {{ range $page.Params.authors }}
+              {{ $authorData := index site.Data.authors (urlize .) }}
+              {{ if $authorData }}
+                {{ $authors = $authors | append $authorData.name }}
+              {{ else }}
+                {{ $authors = $authors | append . }}
+              {{ end }}
+            {{ end }}
+            by {{ delimit $authors ", " " and " }}
+          {{ else }}
+            {{ $authorData := index site.Data.authors (urlize (index $page.Params.authors 0)) }}
+            {{ if $authorData }}
+              by {{ $authorData.name }}
+            {{ else }}
+            by {{ index $page.Params.authors 0 }}
+            {{ end }}
+          {{ end }}
+        </div>
+      {{ end }}
+    </a>
+  {{ else }}
+    <p>Article not found: {{ $slug }}</p>
+  {{ end }}
+</div>

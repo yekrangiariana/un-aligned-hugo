@@ -4,6 +4,7 @@ description: "Caravaggio's portrayal, St. Lucy forsakes heavenly glory for a gri
 date: 2023-11-21T10:00:00+02:00
 authors: ["carlapietrobattista"]
 url: "culture/how-caravaggios-the-burial-of-saint-lucy-transforms-the-divine-into-the-earthly"
+slug: "how-caravaggios-the-burial-of-saint-lucy-transforms-the-divine-into-the-earthly"
 categories:
   - "Culture"
 tags:

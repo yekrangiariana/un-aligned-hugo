@@ -4,6 +4,7 @@ description: "Amidst rising violence and a tightening grip on truth, Israel's ag
 date: 2024-05-09T09:17:12+03:00
 authors: ["Ariana Yekrangi"]
 url: "human-rights/inside-israels-war-on-truth-journalists-and-the-free-media"
+slug: "inside-israels-war-on-truth-journalists-and-the-free-media"
 categories:
   - "Human Rights"
 tags:

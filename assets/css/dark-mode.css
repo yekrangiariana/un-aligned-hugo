@@ -159,7 +159,8 @@ body.dark-mode .post-description-style-2,
 body.dark-mode .mega-menu-content,
 body.dark-mode .gordian-badge,
 body.dark-mode .article-card-image,
-body.dark-mode .article-card-placeholder {
+body.dark-mode .article-card-placeholder, 
+body.dark-mode .similar-article {
   border-color: var(--dark-border);
 }
 

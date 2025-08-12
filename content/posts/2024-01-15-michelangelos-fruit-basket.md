@@ -4,6 +4,7 @@ description: "In Caravaggio's 'Fruit Basket', a mere wicker basket and its conte
 date: 2024-01-15T10:00:00+02:00
 authors: ["carlapietrobattista"]
 url: "culture/michelangelos-fruit-basket"
+slug: "michelangelos-fruit-basket"
 categories: 
   - "Culture"
 tags: 
