@@ -2,7 +2,7 @@
 title: "Poems for a Better World: Stop this rape in Ukraine"
 description: "Gruesome rape and torment in Ukraine, Causing women and children agonising pain. Horrific headlines curdles one to the bone.Russian soldiers have no hearts of their own..."
 date: 2022-10-19T16:00:00+03:00
-authors: ["unregisteredauthor"]
+authors: ["Usha Roopnarain"]
 url: "culture/stop-this-rape-in-ukraine"
 categories: 
   - "Culture"

@@ -559,6 +559,24 @@ body.dark-mode .environment-article .markdown-body a {
   text-decoration-color: var(--light-border);
 }
 
+/* Quote category styling */
+body.dark-mode 
+.comments-article .post-content blockquote p:first-of-type::before {
+  color: var(--dark-color-comments);
+}
+body.dark-mode 
+.interview-article .post-content blockquote p:first-of-type::before {
+  color: var(--dark-color-interview);
+}
+body.dark-mode 
+.culture-article .post-content blockquote p:first-of-type::before {
+  color: var(--dark-color-culture);
+}
+body.dark-mode 
+.environment-article .post-content blockquote p:first-of-type::before {
+  color: var(--dark-color-environment);
+}
+
 /* Article-related components */
 body.dark-mode .related-articles,
 body.dark-mode .comment,

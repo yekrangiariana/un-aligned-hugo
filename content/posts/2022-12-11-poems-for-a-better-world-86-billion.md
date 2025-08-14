@@ -2,7 +2,7 @@
 title: "86 Billion: The human spirt's fight to live a meaningful life"
 description: "Poems for a better world is collection of poems composed by UN-aligneders for a better better and fairer future."
 date: 2022-12-11T07:22:00+02:00
-authors: ["unregisteredauthor"]
+authors: ["Ayesha Dawood"]
 url: "culture/poems-for-a-better-world-86-billion"
 categories: 
   - "Culture"

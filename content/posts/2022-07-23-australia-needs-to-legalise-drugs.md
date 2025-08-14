@@ -2,7 +2,7 @@
 title: "Australia Needs to Legalise Drugs"
 description: "Cannabis can be taken legally for medicinal purposes in all Australian states by people with certain limited classes of health problems. The obvious question is – why are some drugs legal and others illegal?"
 date: 2022-07-23T12:00:24+03:00
-authors: ["unregisteredauthor"]
+authors: ["Jon Cook"]
 url: "global-issues/australia-needs-to-legalise-drugs"
 categories: 
   - "Global Issues"

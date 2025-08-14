@@ -400,18 +400,17 @@ select:focus-visible,
 }
 
 /* Override heights for different card positions to match existing design */
-.article-grid .article-card:first-child .article-card-carousel,
-.article-grid .article-card:nth-child(4) .article-card-carousel {
+.article-grid .article-card:first-child .article-card-carousel {
   height: 450px;
 }
 
-.article-card:nth-child(4) .article-card-link {
+/* .article-card:nth-child(4) .article-card-link {
   flex-direction: row !important;
 }
 
 .article-card:nth-child(4) .article-card-image {
   width: 66.6%;
-}
+} */
 
 /* Responsive carousel heights */
 @media screen and (max-width: 768px) {

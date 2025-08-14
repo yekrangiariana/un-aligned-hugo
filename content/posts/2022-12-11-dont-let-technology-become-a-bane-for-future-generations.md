@@ -2,7 +2,7 @@
 title: "Don’t let technology become a bane for future generations"
 description: "The negative impact of technology, particularly on children, cannot be understated. For our wellbeing’s sake, we need a healthier balance, argues Sailaja."
 date: 2022-12-11T07:36:00+02:00
-authors: ["unregisteredauthor"]
+authors: ["Sailaja SP"]
 url: "comments/dont-let-technology-become-a-bane-for-future-generations"
 categories: 
   - "Comments"

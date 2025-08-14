@@ -15,7 +15,7 @@ Throughout the years, democracy has become a defining characteristic of the West
 
 ## Can democracy help to unite the world?
 
-Also known in Millian philosophy as a “government by decision”, democracy is not a procedure by which progress in any sense of the word is made, but rather a process that expresses citizenry views, regardless of what they are. This poses a clear challenge: as populism has shown in recent times, voters are confronted with simplistic options and complex unpopular ones. The lack of expertise of voters is a serious issue as the case with Nazism and Fascism demonstrates.
+Also known in Millian philosophy as a “government by decision”,  democracy is not a procedure by which progress in any sense of the word is made, but rather a process that expresses citizenry views, regardless of what they are. This poses a clear challenge: as populism has shown in recent times, voters are confronted with simplistic options and complex unpopular ones. The lack of expertise of voters is a serious issue as the case with Nazism and Fascism demonstrates.
 
 Cultivation is an arduous task, making progress, especially in the field of international relations, even more so. In essence, any prospect of progress requires two key features: patience and consistency. Unfortunately, democracy lacks the latter. When basic principles of governance are not enshrined in constitutions, as they are often not, democracy becomes a great hindrance to stability and continuity, as one government sees it acceptable to reverse the policies or development of the former.
 

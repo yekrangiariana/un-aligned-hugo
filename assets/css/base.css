@@ -275,7 +275,7 @@ h6 {
 /* Horizontal rule/separator styling */
 .post-content hr {
   border: var(--border-thin-light);
-  margin-left: -1em;
+  margin-left: -1.2em;
   margin-top: 100px;
   margin-bottom: 10px;
   width: 30%;
@@ -308,7 +308,7 @@ h6 {
   content: "";
   display: inline-block;
   position: relative;
-  top: 0.2em;
+  top: 0.3em;
   width: 24px;
   height: 24px;
   margin-right: 4px;
@@ -325,32 +325,35 @@ h6 {
   color: #c33c64;
 }
 
-/* Apply category-specific colors to blockquotes */
-.culture-article .post-content blockquote {
+/* Links category styling */
+.culture-article .markdown-body > *:not(.similar-article) a {
   color: var(--color-culture);
 }
-
-.interview-article .post-content blockquote {
-  color: var(--color-interview);
+.interview-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-interview) !important;
+}
+.comments-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-comments);
+}
+.environment-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-environment);
 }
 
-.comments-article .post-content blockquote {
+/* Quote category styling */
+
+.comments-article .post-content blockquote p:first-of-type::before {
   color: var(--color-comments);
 }
 
-.technology-article .post-content blockquote {
-  color: var(--color-technology);
+.interview-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-interview);
 }
 
-.science-article .post-content blockquote {
-  color: var(--color-science);
+.culture-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-culture);
 }
 
-.politics-article .post-content blockquote {
-  color: var(--color-politics);
-}
-
-.environment-article .post-content blockquote {
+.environment-article .post-content blockquote p:first-of-type::before {
   color: var(--color-environment);
 }
 

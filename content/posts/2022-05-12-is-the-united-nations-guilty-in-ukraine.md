@@ -11,6 +11,8 @@ tags:
   - "Ukraine"
   - "United Nations"
 image: "/images/The-new-lady-justice.jpg"
+aliases:
+- /un-in-focus/is-the-united-nations-guilty-in-ukraine
 ---
 
 As long as international justice is left in the hands of nation states at the UN nothing will ever improve because self-interest will always win the day. This needs to change. Meet the new lady justice!

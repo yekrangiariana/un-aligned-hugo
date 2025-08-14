@@ -1,4 +1,35 @@
 <head>
+  <!-- Critical Dark Mode Script - Must run before any CSS to prevent flash -->
+  <script>
+  (function() {
+    // Check for saved preference or system preference
+    const savedMode = localStorage.getItem("darkMode");
+    const systemPrefersDark = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
+    
+    // Determine if dark mode should be active
+    const shouldUseDark = savedMode === "enabled" || (savedMode === null && systemPrefersDark);
+    
+    if (shouldUseDark) {
+      // Apply to html immediately
+      document.documentElement.classList.add("dark-mode");
+      
+      // Apply to body when it becomes available
+      if (document.body) {
+        document.body.classList.add("dark-mode");
+      } else {
+        // Body doesn't exist yet, so set up a listener
+        const observer = new MutationObserver(function(mutations) {
+          if (document.body) {
+            document.body.classList.add("dark-mode");
+            observer.disconnect();
+          }
+        });
+        observer.observe(document.documentElement, { childList: true });
+      }
+    }
+  })();
+  </script>
+
   <meta charset="utf-8" />
   {{ hugo.Generator }}
 

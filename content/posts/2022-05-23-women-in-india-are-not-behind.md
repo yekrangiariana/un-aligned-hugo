@@ -2,7 +2,7 @@
 title: "Breaking the Glass Ceiling: Women in India are not Behind"
 description: "In the late 20th century, women in other parts of the industrialised world had also experienced what is popularly known as the 'glass ceiling' phenomenon, which meant that women found they could only rise to a certain level in corporations and no further. This raises two immediate questions. What were the reasons that could have led to such a thought? And, were men keeping women away from the top?"
 date: 2022-05-23T10:47:03+03:00
-authors: ["unregisteredauthor"]
+authors: ["Sailaja SP"]
 url: "comments/women-in-india-are-not-behind"
 categories:
   - "Comments"

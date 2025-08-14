@@ -1,6 +1,7 @@
 {{/* Similar Article Shortcode - adopts the same positioning as blockquotes */}}
 <style>
 /* Similar article container - styled like blockquotes */
+
 .similar-article {
   float: left;
   margin-top: 0;
@@ -10,6 +11,10 @@
   position: relative;
   padding: 3px;
   border: var(--border-thin-light);
+}
+
+.post-content .similar-article img {
+  margin: 0;
 }
 
 /* Make the entire card clickable */
@@ -33,13 +38,28 @@
   font-weight: var(--font-weight-bold);
   line-height: 1.2;
   margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
   text-align: left; /* Left align text */
 }
 
-.similar-article .article-author {
+.similar-article .read-more {
   font-size: 0.8rem;
-  font-style: italic;
   text-align: left; /* Left align text */
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.similar-article .read-more .arrow-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  font-size: 0.7rem;
 }
 
 /* Category-specific colors based on the linked article's category */
@@ -107,7 +127,7 @@ body.dark-mode .similar-article.has-environment .article-title {
     margin-left: 0;
     float: left; /* Keep float like blockquotes on mobile */
     margin-right: 1rem;
-    margin-bottom: 0.2rem;
+    margin-bottom: 1.3 rem;
     width: 50%;
     background-color: transparent;
   }
@@ -116,7 +136,7 @@ body.dark-mode .similar-article.has-environment .article-title {
     font-size: 0.85rem;
   }
   
-  .similar-article .article-author {
+  .similar-article .read-more {
     font-size: 0.75rem;
   }
 }
@@ -142,29 +162,12 @@ body.dark-mode .similar-article.has-environment .article-title {
       
       <div class="article-title">{{ $page.Title }}</div>
       
-      {{ if $page.Params.authors }}
-        <div class="article-author">
-          {{ if gt (len $page.Params.authors) 1 }}
-            {{ $authors := slice }}
-            {{ range $page.Params.authors }}
-              {{ $authorData := index site.Data.authors (urlize .) }}
-              {{ if $authorData }}
-                {{ $authors = $authors | append $authorData.name }}
-              {{ else }}
-                {{ $authors = $authors | append . }}
-              {{ end }}
-            {{ end }}
-            by {{ delimit $authors ", " " and " }}
-          {{ else }}
-            {{ $authorData := index site.Data.authors (urlize (index $page.Params.authors 0)) }}
-            {{ if $authorData }}
-              by {{ $authorData.name }}
-            {{ else }}
-            by {{ index $page.Params.authors 0 }}
-            {{ end }}
-          {{ end }}
-        </div>
-      {{ end }}
+      <div class="read-more">
+        <span class="arrow-circle">
+          <i class="fas fa-arrow-right"></i>
+        </span>
+        Read more
+      </div>
     </a>
   {{ else }}
     <p>Article not found: {{ $slug }}</p>

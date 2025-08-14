@@ -2,119 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Unregisteredauthor on UN-aligned</title>
-    <link>http://localhost:1313/authors/unregisteredauthor/</link>
+    <link>https://un-aligned.org/authors/unregisteredauthor/</link>
     <description>Recent content in Unregisteredauthor on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 04 Dec 2023 13:19:46 +0200</lastBuildDate><atom:link href="http://localhost:1313/authors/unregisteredauthor/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 04 Dec 2023 13:19:46 +0200</lastBuildDate><atom:link href="https://un-aligned.org/authors/unregisteredauthor/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The Gordian Companion 2023: Your Stories from a Year on Edge</title>
-      <link>http://localhost:1313/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</link>
+      <link>https://un-aligned.org/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</link>
       <pubDate>Mon, 04 Dec 2023 13:19:46 +0200</pubDate>
       <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</guid>
+      <guid>https://un-aligned.org/un-aligned-news/the-gordian-companion-2023-your-stories-from-a-year-on-edge/</guid>
       <description>Introducing The Gordian Companion (2023) – not just a book, but a journey into the heart of groundbreaking citizen journalism. Order your copy today.</description>
-      <enclosure url="http://localhost:1313/images/The-gordian-companion-2023.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>Nation-Building and Indigenous Struggles: Histories, Rights and Representation</title>
-      <link>http://localhost:1313/global-issues/nation-building-and-indigenous-struggles-histories-rights-and-representation/</link>
-      <pubDate>Sat, 18 Nov 2023 10:00:00 +0200</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/global-issues/nation-building-and-indigenous-struggles-histories-rights-and-representation/</guid>
-      <description>How do the enduring land struggles of Palestinians, Māori, Sami and First Nations define the modern state?</description>
-      <enclosure url="http://localhost:1313/images/Nation-Building-and-Indigenous-Struggles-Histories-Rights-and-Representation-2.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>The Montreux Declaration: An Alternative Vision for World Peace</title>
-      <link>http://localhost:1313/un-in-focus/the-montreux-declaration-an-alternative-vision-for-world-peace/</link>
-      <pubDate>Sat, 14 Jan 2023 06:30:00 +0200</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/un-in-focus/the-montreux-declaration-an-alternative-vision-for-world-peace/</guid>
-      <description>The Montreux Declaration presents a coherent alternative to the UN&#39;s design flaws for achieving genuine world peace, argues Lukas Pfluger.</description>
-      <enclosure url="http://localhost:1313/images/The-UN-Done-properly.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>Don’t let technology become a bane for future generations</title>
-      <link>http://localhost:1313/comments/dont-let-technology-become-a-bane-for-future-generations/</link>
-      <pubDate>Sun, 11 Dec 2022 07:36:00 +0200</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/comments/dont-let-technology-become-a-bane-for-future-generations/</guid>
-      <description>The negative impact of technology, particularly on children, cannot be understated. For our wellbeing’s sake, we need a healthier balance, argues Sailaja.</description>
-      <enclosure url="http://localhost:1313/images/Technologys-harmful-effects-on-children.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>86 Billion: The human spirt&#39;s fight to live a meaningful life</title>
-      <link>http://localhost:1313/culture/poems-for-a-better-world-86-billion/</link>
-      <pubDate>Sun, 11 Dec 2022 07:22:00 +0200</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/culture/poems-for-a-better-world-86-billion/</guid>
-      <description>Poems for a better world is collection of poems composed by UN-aligneders for a better better and fairer future.</description>
-      <enclosure url="http://localhost:1313/images/86-million-1.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>Poems for a Better World: Stop this rape in Ukraine</title>
-      <link>http://localhost:1313/culture/stop-this-rape-in-ukraine/</link>
-      <pubDate>Wed, 19 Oct 2022 16:00:00 +0300</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/culture/stop-this-rape-in-ukraine/</guid>
-      <description>Gruesome rape and torment in Ukraine, Causing women and children agonising pain. Horrific headlines curdles one to the bone.Russian soldiers have no hearts of their own...</description>
-      <enclosure url="http://localhost:1313/images/Stop-this-rape-in-Ukraine.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>Emotional health: 4 ways you can improve it today</title>
-      <link>http://localhost:1313/health/emotional-health-4-ways-you-can-improve-it-today/</link>
-      <pubDate>Fri, 16 Sep 2022 10:30:00 +0300</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/health/emotional-health-4-ways-you-can-improve-it-today/</guid>
-      <description>Being emotionally healthy is just as important as being physically healthy: the two are closely connected at various levels. To ensure that we lead a fulfilling life, we have to take that extra step.</description>
-      <enclosure url="http://localhost:1313/images/Emotional-health-4-ways-you-can-improve-it.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>Australia Needs to Legalise Drugs</title>
-      <link>http://localhost:1313/global-issues/australia-needs-to-legalise-drugs/</link>
-      <pubDate>Sat, 23 Jul 2022 12:00:24 +0300</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/global-issues/australia-needs-to-legalise-drugs/</guid>
-      <description>Cannabis can be taken legally for medicinal purposes in all Australian states by people with certain limited classes of health problems. The obvious question is – why are some drugs legal and others illegal?</description>
-      <enclosure url="http://localhost:1313/images/Australia-Needs-to-Legalise-Drugs-.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>Breaking the Glass Ceiling: Women in India are not Behind</title>
-      <link>http://localhost:1313/comments/women-in-india-are-not-behind/</link>
-      <pubDate>Mon, 23 May 2022 10:47:03 +0300</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/comments/women-in-india-are-not-behind/</guid>
-      <description>In the late 20th century, women in other parts of the industrialised world had also experienced what is popularly known as the &#39;glass ceiling&#39; phenomenon, which meant that women found they could only rise to a certain level in corporations and no further. This raises two immediate questions. What were the reasons that could have led to such a thought? And, were men keeping women away from the top?</description>
-      <enclosure url="http://localhost:1313/images/Women-in-India-are-not-Behind.-photo_-Anahita-ahmadi.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>10 most fascinating scientific discoveries of 2021</title>
-      <link>http://localhost:1313/explainer/10-most-fascinating-scientific-discoveries-of-2021/</link>
-      <pubDate>Thu, 06 Jan 2022 09:30:46 +0200</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/explainer/10-most-fascinating-scientific-discoveries-of-2021/</guid>
-      <description>2021 saw a tentative return to “normal” life. Scientists returned to their labs, continued to take on Covid, blackholes, climate change and delved into so much more. Let us take a look at some of the most fascinating scientific discoveries of 2021.</description>
-      <enclosure url="http://localhost:1313/images/10-most-fascinating-scientific-discoveries-of-2021.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/The-gordian-companion-2023.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Unravelling the United Nations, Argead style</title>
-      <link>http://localhost:1313/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</link>
+      <link>https://un-aligned.org/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</link>
       <pubDate>Tue, 02 Feb 2021 10:00:00 +0200</pubDate>
       <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</guid>
+      <guid>https://un-aligned.org/un-in-focus/unravelling-the-united-nations-argead-style-officially-published/</guid>
       <description>How can the UN achieve its sacred mission without the shackles of obsolete structures and bullying superpowers? This is how!</description>
-      <enclosure url="http://localhost:1313/images/Unravelling-the-UN-book-cover-scaled.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Unravelling-the-UN-book-cover-scaled.jpg" type="image/jpeg" />
     </item>
     
   </channel>

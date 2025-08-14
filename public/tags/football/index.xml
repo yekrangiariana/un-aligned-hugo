@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Football on UN-aligned</title>
-    <link>http://localhost:1313/tags/football/</link>
+    <link>https://un-aligned.org/tags/football/</link>
     <description>Recent content in Football on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 13 Dec 2022 14:30:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/tags/football/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 13 Dec 2022 14:30:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/tags/football/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Qatar 2022: A World Cup for Straight Men</title>
-      <link>http://localhost:1313/human-rights/qatar-2022-a-world-cup-for-straight-men/</link>
+      <link>https://un-aligned.org/human-rights/qatar-2022-a-world-cup-for-straight-men/</link>
       <pubDate>Tue, 13 Dec 2022 14:30:00 +0200</pubDate>
       <author>mayabearyman</author>
-      <guid>http://localhost:1313/human-rights/qatar-2022-a-world-cup-for-straight-men/</guid>
+      <guid>https://un-aligned.org/human-rights/qatar-2022-a-world-cup-for-straight-men/</guid>
       <description>FIFA&#39;s male-dominated World Cup fails to represent its diverse fan base, but those fighting for equality will persevere.</description>
-      <enclosure url="http://localhost:1313/images/Qatar-2022-A-World-Cup-for-Straight-Men-.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Qatar-2022-A-World-Cup-for-Straight-Men-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Football: ‘Unsuitable for Women’ or were you just not brave enough to see the vision?</title>
-      <link>http://localhost:1313/sports/women-football-not-brave-enough-to-see-the-vision/</link>
+      <link>https://un-aligned.org/sports/women-football-not-brave-enough-to-see-the-vision/</link>
       <pubDate>Fri, 09 Sep 2022 10:01:10 +0300</pubDate>
       <author>mayabearyman</author>
-      <guid>http://localhost:1313/sports/women-football-not-brave-enough-to-see-the-vision/</guid>
+      <guid>https://un-aligned.org/sports/women-football-not-brave-enough-to-see-the-vision/</guid>
       <description>Ask any British woman about sexism, and she’ll likely tell you a story of her experience, ask any British woman that played football, and she’ll probably tell you five.</description>
-      <enclosure url="http://localhost:1313/images/Football-%E2%80%98Unsuitable-for-Women-or-were-you-just-not-brave-enough-to-see-the-vision-.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Football-%E2%80%98Unsuitable-for-Women-or-were-you-just-not-brave-enough-to-see-the-vision-.jpg" type="image/jpeg" />
     </item>
     
   </channel>

@@ -10,6 +10,8 @@ tags:
   - "Diaries From Refugee Camps"
   - "Refugees"
 image: "/images/Syrian-Refugees-Heading-for-Another-Tough-Winter.jpg"
+aliases:
+- /global-issues/syrian-refugees-heading-for-another-tough-winter
 ---
 
 The mere mention of the word ‘refugee’ immediately evokes scenes of pain, sadness, hardship and cold.

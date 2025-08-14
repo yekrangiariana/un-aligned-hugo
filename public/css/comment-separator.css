@@ -65,7 +65,7 @@
   display: block;
   margin: 0 0 0 auto; /* Push the image to the right */
   max-height: 150px; /* Set a consistent height */
-  margin-top: -40px;
+  margin-top: -10px;
 }
 
 .comment-description {

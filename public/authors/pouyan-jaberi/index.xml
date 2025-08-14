@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pouyan Jaberi on UN-aligned</title>
+    <link>https://un-aligned.org/authors/pouyan-jaberi/</link>
+    <description>Recent content in Pouyan Jaberi on UN-aligned</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-uk</language>
+    <lastBuildDate>Thu, 06 Jan 2022 09:30:46 +0200</lastBuildDate><atom:link href="https://un-aligned.org/authors/pouyan-jaberi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>10 most fascinating scientific discoveries of 2021</title>
+      <link>https://un-aligned.org/explainer/10-most-fascinating-scientific-discoveries-of-2021/</link>
+      <pubDate>Thu, 06 Jan 2022 09:30:46 +0200</pubDate>
+      <author>Ariana Yekrangi</author>
+      <guid>https://un-aligned.org/explainer/10-most-fascinating-scientific-discoveries-of-2021/</guid>
+      <description>2021 saw a tentative return to “normal” life. Scientists returned to their labs, continued to take on Covid, blackholes, climate change and delved into so much more. Let us take a look at some of the most fascinating scientific discoveries of 2021.</description>
+      <enclosure url="https://un-aligned.org/images/10-most-fascinating-scientific-discoveries-of-2021.jpg" type="image/jpeg" />
+    </item>
+    
+  </channel>
+</rss>

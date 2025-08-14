@@ -2,7 +2,7 @@
 title: "Nation-Building and Indigenous Struggles: Histories, Rights and Representation"
 description: "How do the enduring land struggles of Palestinians, Māori, Sami and First Nations define the modern state?"
 date: 2023-11-18T10:00:00+02:00
-authors: ["unregisteredauthor"]
+authors: ["Ellen Jones"]
 url: "global-issues/nation-building-and-indigenous-struggles-histories-rights-and-representation"
 categories:
   - "Global Issues"

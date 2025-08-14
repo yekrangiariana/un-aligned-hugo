@@ -1,5 +1,5 @@
 ---
-title: "Another US Condemns Gaza to Further Genocide "
+title: "Another US veto condemns gaza to further genocide "
 description: "As Trump and Netanyahu cosy up in Washington again with fresh talks on Gaza, one thing is certain: there is no Israeli atrocity, however diabolical, that the US will not back. Here I pick at Dorothy Shea’s narrative after yet another US veto blocking moves to put an end to the genocide."
 date: 2025-07-09T22:09:56+03:00
 authors: ["Adrian Liberto"]

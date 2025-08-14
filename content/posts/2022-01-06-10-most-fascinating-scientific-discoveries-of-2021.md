@@ -2,7 +2,7 @@
 title: "10 most fascinating scientific discoveries of 2021"
 description: "2021 saw a tentative return to “normal” life. Scientists returned to their labs, continued to take on Covid, blackholes, climate change and delved into so much more. Let us take a look at some of the most fascinating scientific discoveries of 2021."
 date: 2022-01-06T09:30:46+02:00
-authors: ["unregisteredauthor"]
+authors: ["Ariana Yekrangi", "Pouyan Jaberi"]
 url: "explainer/10-most-fascinating-scientific-discoveries-of-2021"
 categories:
   - "Explainer"

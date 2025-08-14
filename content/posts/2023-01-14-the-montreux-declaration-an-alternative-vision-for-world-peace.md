@@ -2,7 +2,7 @@
 title: "The Montreux Declaration: An Alternative Vision for World Peace"
 description: "The Montreux Declaration presents a coherent alternative to the UN's design flaws for achieving genuine world peace, argues Lukas Pfluger."
 date: 2023-01-14T06:30:00+02:00
-authors: ["unregisteredauthor"]
+authors: ["Lukas Pfluger"]
 url: "un-in-focus/the-montreux-declaration-an-alternative-vision-for-world-peace"
 categories:
   - "Un In Focus"

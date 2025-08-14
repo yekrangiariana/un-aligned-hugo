@@ -2,7 +2,7 @@
 title: "Emotional health: 4 ways you can improve it today"
 description: "Being emotionally healthy is just as important as being physically healthy: the two are closely connected at various levels. To ensure that we lead a fulfilling life, we have to take that extra step."
 date: 2022-09-16T10:30:00+03:00
-authors: ["unregisteredauthor"]
+authors: ["Sonia Roopnarain"]
 url: "health/emotional-health-4-ways-you-can-improve-it-today"
 categories:
   - "Health"

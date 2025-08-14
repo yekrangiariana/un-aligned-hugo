@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technology on UN-aligned</title>
-    <link>http://localhost:1313/categories/technology/</link>
+    <link>https://un-aligned.org/categories/technology/</link>
     <description>Recent content in Technology on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 11 Dec 2022 07:36:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/technology/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2022 07:36:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/categories/technology/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Don’t let technology become a bane for future generations</title>
-      <link>http://localhost:1313/comments/dont-let-technology-become-a-bane-for-future-generations/</link>
+      <link>https://un-aligned.org/comments/dont-let-technology-become-a-bane-for-future-generations/</link>
       <pubDate>Sun, 11 Dec 2022 07:36:00 +0200</pubDate>
-      <author>unregisteredauthor</author>
-      <guid>http://localhost:1313/comments/dont-let-technology-become-a-bane-for-future-generations/</guid>
+      <author>Sailaja SP</author>
+      <guid>https://un-aligned.org/comments/dont-let-technology-become-a-bane-for-future-generations/</guid>
       <description>The negative impact of technology, particularly on children, cannot be understated. For our wellbeing’s sake, we need a healthier balance, argues Sailaja.</description>
-      <enclosure url="http://localhost:1313/images/Technologys-harmful-effects-on-children.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Technologys-harmful-effects-on-children.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Social Media in an Era of Invasion</title>
-      <link>http://localhost:1313/global-issues/social-media-in-an-era-of-invasion/</link>
+      <link>https://un-aligned.org/global-issues/social-media-in-an-era-of-invasion/</link>
       <pubDate>Tue, 21 Jun 2022 13:54:04 +0300</pubDate>
       <author>Kaitlyn.Rivera</author>
-      <guid>http://localhost:1313/global-issues/social-media-in-an-era-of-invasion/</guid>
+      <guid>https://un-aligned.org/global-issues/social-media-in-an-era-of-invasion/</guid>
       <description>In a time of uncertainty and fear, Ukrainians are using social media to stay in the world.</description>
-      <enclosure url="http://localhost:1313/images/Social-Media-in-an-Era-of-Invasion.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Social-Media-in-an-Era-of-Invasion.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Machines for the environment: 10 Simple machines that made our lives more sustainable</title>
-      <link>http://localhost:1313/climate-emergency/10-machines-for-the-environment/</link>
+      <link>https://un-aligned.org/climate-emergency/10-machines-for-the-environment/</link>
       <pubDate>Thu, 13 Jan 2022 09:30:00 +0200</pubDate>
       <author>Partho Pratim Chatterjee</author>
-      <guid>http://localhost:1313/climate-emergency/10-machines-for-the-environment/</guid>
+      <guid>https://un-aligned.org/climate-emergency/10-machines-for-the-environment/</guid>
       <description>Your home appliances used to be slow, smelly and awful for the environment. Thanks to new technology and the modern machine things have changed: here are 10 new tech that has helped us increase our efficiency and make our lives more sustainable.</description>
-      <enclosure url="http://localhost:1313/images/Machines-for-the-environment_-10-Simple-but-revolutionary-machines-that-have-made-our-lives-more-sustainable.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Machines-for-the-environment_-10-Simple-but-revolutionary-machines-that-have-made-our-lives-more-sustainable.jpg" type="image/jpeg" />
     </item>
     
   </channel>
