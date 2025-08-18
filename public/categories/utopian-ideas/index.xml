@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Utopian Ideas on UN-aligned</title>
-    <link>http://localhost:1313/categories/utopian-ideas/</link>
+    <link>https://un-aligned.org/categories/utopian-ideas/</link>
     <description>Recent content in Utopian Ideas on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 06 Mar 2023 12:00:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/utopian-ideas/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 Mar 2023 12:00:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/categories/utopian-ideas/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bridging the Wealth Gap: A Blueprint for Poverty Eradication</title>
-      <link>http://localhost:1313/economy/strongbridging-the-wealth-gap-a-blueprint-for-poverty-eradication-strong/</link>
+      <link>https://un-aligned.org/economy/strongbridging-the-wealth-gap-a-blueprint-for-poverty-eradication-strong/</link>
       <pubDate>Mon, 06 Mar 2023 12:00:00 +0200</pubDate>
       <author>Adrian Liberto</author>
-      <guid>http://localhost:1313/economy/strongbridging-the-wealth-gap-a-blueprint-for-poverty-eradication-strong/</guid>
+      <guid>https://un-aligned.org/economy/strongbridging-the-wealth-gap-a-blueprint-for-poverty-eradication-strong/</guid>
       <description>Redefining 21st century economics to eradicate poverty.</description>
-      <enclosure url="http://localhost:1313/images/Bridging-the-Wealth-Gap-A-Blueprint-for-Poverty-Eradication.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Bridging-the-Wealth-Gap-A-Blueprint-for-Poverty-Eradication.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Chapter 1: Transcending the Moon, a Democratic Encounter</title>
-      <link>http://localhost:1313/utopian-ideas/transcending-the-moon-a-democratic-encounter/</link>
+      <link>https://un-aligned.org/utopian-ideas/transcending-the-moon-a-democratic-encounter/</link>
       <pubDate>Sat, 14 Jan 2023 06:25:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/utopian-ideas/transcending-the-moon-a-democratic-encounter/</guid>
+      <guid>https://un-aligned.org/utopian-ideas/transcending-the-moon-a-democratic-encounter/</guid>
       <description>The first chapter will take you on a journey to discover a utopia where war is abolished and where facts are sacred. But the encounter will raise more questions than answers, as it challenges our understanding of war, humanity, and the future of our world.</description>
-      <enclosure url="http://localhost:1313/images/Utopian-Ideas-from-an-Alien-Society-Conversations-with-the-Dengilaun-1.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Utopian-Ideas-from-an-Alien-Society-Conversations-with-the-Dengilaun-1.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Utopian Ideas from an Alien Society: Conversations with the Dengilauns</title>
-      <link>http://localhost:1313/utopian-ideas/conversations-with-the-dengilauns/</link>
+      <link>https://un-aligned.org/utopian-ideas/conversations-with-the-dengilauns/</link>
       <pubDate>Sat, 14 Jan 2023 06:20:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/utopian-ideas/conversations-with-the-dengilauns/</guid>
+      <guid>https://un-aligned.org/utopian-ideas/conversations-with-the-dengilauns/</guid>
       <description>Ariana Yekrangi conducts an interview with a representative of a technologically advanced civilization, during which new perspectives are presented in relation to some of humanity&#39;s current challenges.</description>
-      <enclosure url="http://localhost:1313/images/Journalist-flying-to-moon.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Journalist-flying-to-moon.jpg" type="image/jpeg" />
     </item>
     
   </channel>

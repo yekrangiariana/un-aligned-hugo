@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Poverty on UN-aligned</title>
-    <link>http://localhost:1313/tags/poverty/</link>
+    <link>https://un-aligned.org/tags/poverty/</link>
     <description>Recent content in Poverty on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 05 Sep 2021 16:54:02 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/poverty/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Sep 2021 16:54:02 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/poverty/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The UN is failing to eradicate poverty</title>
-      <link>http://localhost:1313/economy/the-un-is-failing-to-eradicate-poverty/</link>
+      <link>https://un-aligned.org/economy/the-un-is-failing-to-eradicate-poverty/</link>
       <pubDate>Sun, 05 Sep 2021 16:54:02 +0300</pubDate>
       <author>jay.davis</author>
-      <guid>http://localhost:1313/economy/the-un-is-failing-to-eradicate-poverty/</guid>
+      <guid>https://un-aligned.org/economy/the-un-is-failing-to-eradicate-poverty/</guid>
       <description>&lt;p&gt;Poverty, to put it simply, is one of humankind’s greatest ills and despite various ways to quantify, analyse or measure it, the problem remains unsolved. With the world finding itself in unprecedented straits owing to the COVID-19 pandemic, which has not only claimed the lives of 4,000,000, but has revealed ominous and record-breaking poverty worldwide, humanity more than ever needs its leaders to come together and work towards effective solutions.&lt;/p&gt;</description>
-      <enclosure url="http://localhost:1313/images/%E2%80%98Unanimous-Verdict_-the-UN-is-failing-to-eradicate-poverty.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/%E2%80%98Unanimous-Verdict_-the-UN-is-failing-to-eradicate-poverty.jpg" type="image/jpeg" />
     </item>
     
   </channel>

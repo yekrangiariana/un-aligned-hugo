@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Investigation on UN-aligned</title>
-    <link>http://localhost:1313/categories/investigation/</link>
+    <link>https://un-aligned.org/categories/investigation/</link>
     <description>Recent content in Investigation on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sun, 11 Dec 2022 07:20:00 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/investigation/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Dec 2022 07:20:00 +0200</lastBuildDate><atom:link href="https://un-aligned.org/categories/investigation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Revealed: Leaked file uncovers how the Iranian Revolutionary Guards plan to quell protests</title>
-      <link>http://localhost:1313/human-rights/iranian-irgc-secret-meeting-leaked/</link>
+      <link>https://un-aligned.org/human-rights/iranian-irgc-secret-meeting-leaked/</link>
       <pubDate>Sun, 11 Dec 2022 07:20:00 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>http://localhost:1313/human-rights/iranian-irgc-secret-meeting-leaked/</guid>
+      <guid>https://un-aligned.org/human-rights/iranian-irgc-secret-meeting-leaked/</guid>
       <description>Exclusive: A two-hour-long audio leak of a secret meeting between a Basij commander and news outlets reveals the regime’s tactics to suppress dissent.</description>
-      <enclosure url="http://localhost:1313/images/Revealed-Leaked-file-uncovers-how-the-Iranian-Revolutionary-Guards-plan-to-quell-protests.jpg" type="image/jpeg" />
+      <enclosure url="https://un-aligned.org/images/Revealed-Leaked-file-uncovers-how-the-Iranian-Revolutionary-Guards-plan-to-quell-protests.jpg" type="image/jpeg" />
     </item>
     
   </channel>
