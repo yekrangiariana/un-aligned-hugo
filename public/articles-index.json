@@ -1,5 +1,15 @@
 [
   {
+    "id": "/religion/christian-zionism-and-the-prophets-of-annihilation/",
+    "title": "The prophets of annihilation’: Inside the movement that sees genocide as god's will",
+    "date": "2025-08-18",
+    "author": "Ariana Yekrangi",
+    "categories": ["Religion"],
+    "description": "For millions of Christian Zionists, the annihilation of Palestinians is not a crime to be condemned, but a sacred prophecy to be fulfilled. This is the story of the theological engine driving the war on Gaza.",
+    "featuredImage": "/images/christian-zionism-and-the-prophets-of-annihilation/christian-zionism-and-the-prophets-of-annihilation.jpg",
+    "url": "/religion/christian-zionism-and-the-prophets-of-annihilation/"
+  },
+  {
     "id": "/world-peace/the-death-of-empathy/",
     "title": "89 seconds to midnight: The cost of lost empathy",
     "date": "2025-08-18",
@@ -54,8 +64,8 @@
     "title": "When Kakistocracy Sanctions Humanity",
     "date": "2025-07-11",
     "author": "Adrian Liberto",
-    "categories": ["Global Issues"],
-    "description": "On Wednesday July 9, US Secretary of State Marco Rubio announced the imposition of sanctions by the United States under a Presidential Executive Order targeting Francesca Albanese, the United Nations Special Rapporteur on Palestine. Her crime? Speaking the truth about the Gaza genocide and those who profit from it.",
+    "categories": ["UN in Focus","Global Issues"],
+    "description": "US sanctions UN investigator Francesca Albanese for speaking out on Gaza, punishing her for naming those profiting from violence while the world watches in quiet complicity.",
     "featuredImage": "/images/Francesca-Albanese-Photo-by-R-Medeiro.jpg",
     "url": "/global-issues/when-kakistocracy-sanctions-humanity/"
   },

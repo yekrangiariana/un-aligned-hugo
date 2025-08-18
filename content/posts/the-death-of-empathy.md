@@ -100,7 +100,9 @@ The amount of global wealth controlled by a very small group of individuals is s
 
 Today, the bottom 50% of people still own only around 2% of the world’s wealth, while the top 10% holds roughly three-quarters of it. Avaricious tycoons will stop at nothing to get richer at the expense of the vast majority. 
 
-Francesca Albanese’s recent report [*From Economy of Occupation to Economy of Genocide*](https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session59/advance-version/a-hrc-59-23-aev.pdf) highlights the links between big business and genocide, and that is why the Trump administration slammed sanctions on her. 
+{{< sim "when-kakistocracy-sanctions-humanity" >}}
+
+Francesca Albanese’s recent report [*From Economy of Occupation to Economy of Genocide*](https://www.ohchr.org/sites/default/files/documents/hrbodies/hrcouncil/sessions-regular/session59/advance-version/a-hrc-59-23-aev.pdf) highlights the links between big business and genocide, and that is why the Trump administration slammed [sanctions on her](https://un-aligned.org/global-issues/when-kakistocracy-sanctions-humanity/). 
 
 Israel has become a sort of champion for capitalism and colonialism to the point where it has become dangerous to challenge it, its apartheid or its genocide. 
 

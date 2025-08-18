@@ -6,7 +6,17 @@
     <description>Recent content in UN in Focus on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Wed, 09 Jul 2025 22:09:56 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/un-in-focus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Jul 2025 21:54:35 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/un-in-focus/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>When Kakistocracy Sanctions Humanity</title>
+      <link>http://localhost:1313/global-issues/when-kakistocracy-sanctions-humanity/</link>
+      <pubDate>Fri, 11 Jul 2025 21:54:35 +0300</pubDate>
+      <author>Adrian Liberto</author>
+      <guid>http://localhost:1313/global-issues/when-kakistocracy-sanctions-humanity/</guid>
+      <description>US sanctions UN investigator Francesca Albanese for speaking out on Gaza, punishing her for naming those profiting from violence while the world watches in quiet complicity.</description>
+      <enclosure url="http://localhost:1313/images/Francesca-Albanese-Photo-by-R-Medeiro.jpg" type="image/jpeg" />
+    </item>
+    
     <item>
       <title>Another US veto condemns Gaza to further genocide </title>
       <link>http://localhost:1313/global-issues/another-us-veto-supporting-genocide/</link>
@@ -295,16 +305,6 @@
       <guid>http://localhost:1313/human-rights/china-in-focus-at-un-selective-rights-council-unrc/</guid>
       <description>The Human Rights Council passed a resolution on the protection against violence and discrimination based on sexual orientation and gender identity.</description>
       <enclosure url="http://localhost:1313/images/China-in-Focus-at-UN-22Selective-Rights-Council22-UNRC.jpg" type="image/jpeg" />
-    </item>
-    
-    <item>
-      <title>The need for an International Anti-Corruption Court (IACC) is greater than ever before</title>
-      <link>http://localhost:1313/global-issues/the-need-for-an-international-anti-corruption-court-is-greater-than-ever-before/</link>
-      <pubDate>Tue, 13 Sep 2022 16:00:00 +0300</pubDate>
-      <author>Omar Alansari-Kreger</author>
-      <guid>http://localhost:1313/global-issues/the-need-for-an-international-anti-corruption-court-is-greater-than-ever-before/</guid>
-      <description>While the ICC is busy with sanctimonious show trials in the Global South, the need for a supranational criminal court that prosecutes corruption without fear and favour is rising.</description>
-      <enclosure url="http://localhost:1313/images/The-need-for-an-International-Anti-Corruption-Court-IACC-is-greater-than-ever-before-.jpg" type="image/jpeg" />
     </item>
     
   </channel>
