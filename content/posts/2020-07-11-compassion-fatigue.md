@@ -3,6 +3,7 @@ title: "Compassion fatigue: How to turn your compassion into positive action"
 date: 2020-07-11T11:03:59+03:00
 authors: ["Adrian Liberto"]
 url: "global-issues/compassion-fatigue"
+slug: "compassion-fatigue"
 categories: 
   - "Global Issues"
   - "Human Rights"

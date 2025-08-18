@@ -1,0 +1,139 @@
+{{/* Ultra-short Similar Article Shortcode */}}
+<style>
+.similar-article {
+  float: left;
+  margin-top: 0;
+  width: 24%;
+  margin-left: -28%;
+  position: relative;
+  padding: 3px;
+  border: var(--border-thin-light);
+}
+.post-content .similar-article img {
+  margin: 0;
+}
+.similar-article .article-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+.similar-article .article-link:hover {
+  opacity: 0.8;
+}
+.similar-article .article-image {
+  object-fit: cover;
+  margin-bottom: 0.5rem;
+}
+.similar-article .article-title {
+  font-size: 0.9rem;
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2;
+  margin-bottom: 0.3rem;
+  margin-top: 0.3rem;
+  text-align: left;
+}
+.similar-article .read-more {
+  font-size: 0.8rem;
+  text-align: left;
+  margin-top: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+.similar-article .read-more .arrow-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.5rem;
+  font-size: 0.7rem;
+}
+.similar-article.has-culture .article-title {
+  color: var(--color-culture) !important;
+}
+.similar-article.has-interview .article-title {
+  color: var(--color-interview) !important;
+}
+.similar-article.has-comments .article-title {
+  color: var(--color-comments) !important;
+}
+.similar-article.has-technology .article-title {
+  color: var(--color-technology) !important;
+}
+.similar-article.has-science .article-title {
+  color: var(--color-science) !important;
+}
+.similar-article.has-politics .article-title {
+  color: var(--color-politics) !important;
+}
+.similar-article.has-environment .article-title {
+  color: var(--color-environment) !important;
+}
+body.dark-mode .similar-article.has-culture .article-title {
+  color: var(--dark-color-culture) !important;
+}
+body.dark-mode .similar-article.has-interview .article-title {
+  color: var(--dark-color-interview) !important;
+}
+body.dark-mode .similar-article.has-comments .article-title {
+  color: var(--dark-color-comments) !important;
+}
+body.dark-mode .similar-article.has-technology .article-title {
+  color: var(--dark-color-technology) !important;
+}
+body.dark-mode .similar-article.has-science .article-title {
+  color: var(--dark-color-science) !important;
+}
+body.dark-mode .similar-article.has-politics .article-title {
+  color: var(--dark-color-politics) !important;
+}
+body.dark-mode .similar-article.has-environment .article-title {
+  color: var(--dark-color-environment) !important;
+}
+@media screen and (max-width: 768px) {
+  .similar-article {
+    width: 100%;
+    margin-left: 0;
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1.3rem;
+    width: 50%;
+    background-color: transparent;
+  }
+  .similar-article .article-title {
+    font-size: 0.85rem;
+  }
+  .similar-article .read-more {
+    font-size: 0.75rem;
+  }
+}
+</style>
+
+{{ $slug := .Get 0 }}
+{{ $page := "" }}
+{{ range site.RegularPages }}
+  {{ if eq .Params.slug $slug }}
+    {{ $page = . }}
+  {{ end }}
+{{ end }}
+
+<div class="similar-article{{ if $page }}{{ range $page.Params.categories }}{{ $categoryLower := . | lower | urlize }} {{ if eq $categoryLower "culture" }} has-culture{{ else if eq $categoryLower "interview" }} has-interview{{ else if eq $categoryLower "comments" }} has-comments{{ else if eq $categoryLower "technology" }} has-technology{{ else if eq $categoryLower "science" }} has-science{{ else if eq $categoryLower "politics" }} has-politics{{ else if eq $categoryLower "environment" }} has-environment{{ end }}{{ end }}{{ end }}">
+  {{ if $page }}
+    <a href="{{ $page.RelPermalink }}" class="article-link">
+      {{ if $page.Params.image }}
+        <img src="{{ $page.Params.image | relURL }}" alt="{{ $page.Title }}" class="article-image">
+      {{ end }}
+      <div class="article-title">{{ $page.Title }}</div>
+      <div class="read-more">
+        <span class="arrow-circle">
+          <i class="fas fa-arrow-right"></i>
+        </span>
+        Read more
+      </div>
+    </a>
+  {{ else }}
+    <p>Article not found: {{ $slug }}</p>
+  {{ end }}
+</div>

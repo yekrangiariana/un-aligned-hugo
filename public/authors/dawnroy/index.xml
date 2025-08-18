@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DawnRoy on UN-aligned</title>
-    <link>https://un-aligned.org/authors/dawnroy/</link>
+    <link>http://localhost:1313/authors/dawnroy/</link>
     <description>Recent content in DawnRoy on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 10 Oct 2023 12:11:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/authors/dawnroy/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 10 Oct 2023 12:11:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/authors/dawnroy/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Could Uganda&#39;s Anti-Gay Law Alter the Lives of All Ugandans, Straight or Not?</title>
-      <link>https://un-aligned.org/human-rights/could-ugandas-anti-gay-law-alter-the-lives-of-all-ugandans-straight-or-not/</link>
+      <link>http://localhost:1313/human-rights/could-ugandas-anti-gay-law-alter-the-lives-of-all-ugandans-straight-or-not/</link>
       <pubDate>Tue, 10 Oct 2023 12:11:00 +0300</pubDate>
       <author>DawnRoy</author>
-      <guid>https://un-aligned.org/human-rights/could-ugandas-anti-gay-law-alter-the-lives-of-all-ugandans-straight-or-not/</guid>
+      <guid>http://localhost:1313/human-rights/could-ugandas-anti-gay-law-alter-the-lives-of-all-ugandans-straight-or-not/</guid>
       <description>Uganda&#39;s Anti-Homosexuality Act not only threatens the LGBTQ+ community but also endangers healthcare and disrupts international aid, creating a nationwide crisis.</description>
-      <enclosure url="https://un-aligned.org/images/Uganda-anti-lgbtq-protest.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Uganda-anti-lgbtq-protest.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>‘Corrupt to the Bone’: The Pursuit of Transparency in a Corrupt World</title>
-      <link>https://un-aligned.org/global-issues/the-pursuit-of-transparency-in-a-corrupt-world/</link>
+      <link>http://localhost:1313/global-issues/the-pursuit-of-transparency-in-a-corrupt-world/</link>
       <pubDate>Sun, 11 Jun 2023 08:15:00 +0300</pubDate>
       <author>DawnRoy</author>
-      <guid>https://un-aligned.org/global-issues/the-pursuit-of-transparency-in-a-corrupt-world/</guid>
+      <guid>http://localhost:1313/global-issues/the-pursuit-of-transparency-in-a-corrupt-world/</guid>
       <description>Transparency International&#39;s index reveals 124 nations stagnant in the fight against corruption. What forms does corruption take in politics, and what can be done to confront it?</description>
-      <enclosure url="https://un-aligned.org/images/%E2%80%98Corrupt-to-the-Bone-The-Pursuit-of-Transparency-in-a-Corrupt-World.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/%E2%80%98Corrupt-to-the-Bone-The-Pursuit-of-Transparency-in-a-Corrupt-World.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Closing the Wealth Gap in Arab Economies: The Power of a Progressive Taxation System</title>
-      <link>https://un-aligned.org/economy/closing-the-wealth-gap-in-arab-economies-the-power-of-a-progressive-taxation-system/</link>
+      <link>http://localhost:1313/economy/closing-the-wealth-gap-in-arab-economies-the-power-of-a-progressive-taxation-system/</link>
       <pubDate>Sat, 11 Mar 2023 09:00:00 +0200</pubDate>
       <author>DawnRoy</author>
-      <guid>https://un-aligned.org/economy/closing-the-wealth-gap-in-arab-economies-the-power-of-a-progressive-taxation-system/</guid>
+      <guid>http://localhost:1313/economy/closing-the-wealth-gap-in-arab-economies-the-power-of-a-progressive-taxation-system/</guid>
       <description>The rising levels of wealth inequality in the Middle East sparks debate over the need for progressive taxation models to bridge the extreme concentration of wealth in the region.</description>
-      <enclosure url="https://un-aligned.org/images/Closing-the-Wealth-Gap-in-Arab-Economies-The-Power-of-a-Progressive-Taxation-System.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Closing-the-Wealth-Gap-in-Arab-Economies-The-Power-of-a-Progressive-Taxation-System.jpg" type="image/jpeg" />
     </item>
     
   </channel>

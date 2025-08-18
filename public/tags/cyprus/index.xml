@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Cyprus on UN-aligned</title>
-    <link>https://un-aligned.org/tags/cyprus/</link>
+    <link>http://localhost:1313/tags/cyprus/</link>
     <description>Recent content in Cyprus on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Fri, 16 Jul 2021 11:00:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/cyprus/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 16 Jul 2021 11:00:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/cyprus/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>The new UN-peacekeeping budget: pun intended!</title>
-      <link>https://un-aligned.org/un-in-focus/un-peacekeeping-budget/</link>
+      <link>http://localhost:1313/un-in-focus/un-peacekeeping-budget/</link>
       <pubDate>Fri, 16 Jul 2021 11:00:00 +0300</pubDate>
       <author>Adrian Liberto</author>
-      <guid>https://un-aligned.org/un-in-focus/un-peacekeeping-budget/</guid>
+      <guid>http://localhost:1313/un-in-focus/un-peacekeeping-budget/</guid>
       <description>&lt;p&gt;At the end of June, the &lt;a href=&#34;https://undocs.org/en/A/C.5/75/25&#34;&gt;budget for peacekeeping operations for the period from 1 July 2021 to 30 June 2022&lt;/a&gt; was approved by the United Nations. Eye-watering sums have been allocated in order to maintain buffers between hostilities that have been stewing for decades. This is not what peacekeeping should be about. Peacekeeping ought to be a temporary measure while every effort is put into resolving a conflict.&lt;/p&gt;
 &lt;p&gt;Instead, what is happening is that resources are being pumped into keeping the symptoms under control rather than removing the cause of the problem. As long as the wound is festering and the patient is alive, the doctor’s job is secured.&lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/Funding-and-Fiscal-Responsibility-of-the-United-Nations-1.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Funding-and-Fiscal-Responsibility-of-the-United-Nations-1.jpg" type="image/jpeg" />
     </item>
     
   </channel>

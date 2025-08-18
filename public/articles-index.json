@@ -1,5 +1,25 @@
 [
   {
+    "id": "/world-peace/the-death-of-empathy/",
+    "title": "89 seconds to midnight: The cost of lost empathy",
+    "date": "2025-08-18",
+    "author": "Adrian Liberto",
+    "categories": ["World Peace","Animal Rights","Climate Emergency"],
+    "description": "Our greatest threat lies not only in nuclear arms or climate collapse but in the death of empathy itself. Unless we confront the four horsemen of exploitation, greed, colonialism and nationalism, nature will deliver the reckoning we refuse to face.",
+    "featuredImage": "/images/The-cost-of-lost-empathy.jpg",
+    "url": "/world-peace/the-death-of-empathy/"
+  },
+  {
+    "id": "/civilisation-federalism-and-literacy/",
+    "title": "World federalism is the key to ending functional illiteracy and reviving civilisation",
+    "date": "2025-08-18",
+    "author": "Omar Alansari-Kreger",
+    "categories": ["Education","Global Issues"],
+    "description": "In an age of abundant technology yet persistent functional illiteracy, world federalism asks what it truly means to be civilized and how global literacy can enable a continuous human renaissance.",
+    "featuredImage": "/images/civilisation-federalism-and-literacy.jpg",
+    "url": "/civilisation-federalism-and-literacy/"
+  },
+  {
     "id": "/posts/last-words-of-anas-al-sharif/",
     "title": "\"I entrust you with Palestine\": A murdered Gaza journalist pleads amid his people’s erasure",
     "date": "2025-08-11",
@@ -41,7 +61,7 @@
   },
   {
     "id": "/global-issues/another-us-veto-supporting-genocide/",
-    "title": "Another US veto condemns gaza to further genocide ",
+    "title": "Another US veto condemns Gaza to further genocide ",
     "date": "2025-07-09",
     "author": "Adrian Liberto",
     "categories": ["UN in Focus","World Peace"],

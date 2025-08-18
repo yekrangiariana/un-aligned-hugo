@@ -6,9 +6,11 @@ authors: [""]
 url: "{{ .Name }}"
 slug: "{{ .Name }}"
 categories:
-	- ""
+  - ""
 tags:
-	- ""
+  - ""
 image: ""
 style: "1"
+images:
+  - ""
 ---

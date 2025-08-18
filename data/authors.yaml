@@ -3,12 +3,6 @@
 # Each author is identified by their urlized name (same as used in content front matter)
 
 # Example author
-admin-man:
-  name: "Admin Man"
-  bio: "Site administrator and primary content creator."
-  image: ""
-  twitter: "adminuser"
-  website: "https://example.com"
 
 # Add more authors here following the same format
 # The key should match the urlized version of the author name used in front matter
@@ -26,8 +20,13 @@ ariana-yekrangi:
   bio: "Ariana Yekrangi is a writer and activist focused on human rights and international affairs."
   image: "/images/authors/Ariana-Yekrangi-Profile-Photo-300x300.png.webp"
   email: "ariana.yekrangi@un-aligned.org"
-  twitter: "adminuser"
-  website: "https://example.com"
+  twitter: "https://x.com/YekrangiAriana"
+  website: ""
+
+omar-alansari-kreger:
+  name: "Omar Alansari-Kreger"
+  bio: "Omar Alansari-Kreger is a US based writer focused on federalism and international affairs."
+  image: "/images/authors/Omar-Alansari-Kreger-300x300.png.webp"
 
   
 # john-doe:

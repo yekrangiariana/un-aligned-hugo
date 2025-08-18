@@ -11,6 +11,7 @@ cleanURLs = true
 extraHead = ''
 mainSections = ["posts", "gordian"]
 tagline = "Putting humanity before nationality and planet before greed"
+description = "UN-aligned ry is a Finnish NGO working to create a United Nations built on clear principles, free from the flaws that have broken the current institution."
 favicon = "/favicon.ico"
 defaultSocialImage = "/images/un-aligned-default-social.jpg"
 publisher = "UN-aligned ry"

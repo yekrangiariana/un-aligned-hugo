@@ -31,7 +31,7 @@ There are many organisations that do just that. UN-aligned supports any organisa
 
 ## What is wrong with the United Nations to warrant the founding of an organisation like UN-aligned?
 
-[Read the Following article to read the answer.](https://un-aligned.org/global-issues/what-is-wrong-with-the-united-nations-to-warrant-the-founding-of-an-organisation-like-un-aligned/)
+[Read the Following article to read the answer.](https://un-aligned.org/un-in-focus/what-is-wrong-with-the-united-nations-to-warrant-the-founding-of-an-organisation-like-un-aligned/)
 
 ## How can UN-aligned improve on the United Nations?
 

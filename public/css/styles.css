@@ -1268,7 +1268,7 @@ h6 {
 }
 
 .post-content p {
-  hyphens: auto;
+  /* hyphens: auto; */
   line-height: var(--line-height-paragraph);
   text-justify: ideographic;
   margin-bottom: var(--margin-paragraph);
@@ -1592,7 +1592,6 @@ article {
 }
 
 .post-content p {
-  hyphens: auto;
   line-height: 1.8;
   text-justify: ideographic;
   margin-bottom: 1em;

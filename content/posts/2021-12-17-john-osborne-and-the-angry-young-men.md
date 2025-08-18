@@ -10,7 +10,7 @@ tags:
 image: "/images/Photo-John-Osbornes-Wikipedia-page..jpg"
 ---
 
-After our overview of post-war British drama with a survey of the [Theatre of the Absurd](https://docs.google.com/document/d/1aFPD3yGlnWubBApVyOyjFgWhXeP1qBShaTKmbLeM_8I/edit#), let us now look at another important literary movement that developed after the end of World War II. 
+After our overview of post-war British drama with a survey of the [Theatre of the Absurd](un-aligned.org/culture/samuel-beckett-harold-pinter-two-giants-of-the-theatre-of-the-absurd), let us now look at another important literary movement that developed after the end of World War II. 
 
 The end of the war left a sense of discontent and disillusionment, especially with the younger generation. As society developed into a more affluent capitalistic and class-conscious structure, the younger generation became aware that the poorer classes were being exploited and this prompted them to voice their anger. A new class of writers, known as the Angry Young Men, came into being. They were expressing their anger through various literary genres, in particular through prose and drama.
 
@@ -20,7 +20,7 @@ As regards drama, the most significant playwright who represented the Angry Youn
 
 Wesker dealt with the discontent of the working classes with his politically motivated productions. He focussed on the problems of the individual by showing that each person’s troubles were actually triggered by the flaws of society, rather than by individual weakness. John Arden, on the other hand, dealt with the wider issues of postwar society. His best work was certainly _Musgrave’s Dance_ (1959), which was influenced by Brecht. Arden studied the intricate nature of war and peace in light of the changing society.
 
-## **John Osborne: life**
+## John Osborne: life
 
 John Osborne was born in London in 1929. His father was middle class and worked as a copy-writer while his mother, a barmaid, was of a lower class. John Osborne was therefore brought up in a type of social stratum which did not belong to any specific class. He was not able to identify either with the middle class or with the lower class and so grew up in that strange condition of constant struggle to reach an acceptable respectability. This social limbo into which Osborne was introduced from childhood affected his work as a playwright. The changing situation of post-war England was tangible. The Labour government introduced the Welfare State and the younger generation began to reject the conservative values of the past.
 

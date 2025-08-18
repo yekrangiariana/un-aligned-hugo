@@ -27,7 +27,7 @@ I urge you not to let chains silence you, nor borders restrain you. Be bridges t
 
 I entrust you with my dear son Salah, whom I had wished to support and accompany through life until he grew strong enough to carry my burden and continue the mission.
 
-{{< similar-articles slug="inside-israels-war-on-truth-journalists-and-the-free-media" >}}
+{{< sim "inside-israels-war-on-truth-journalists-and-the-free-media" >}}
 
 I entrust you with my beloved mother, whose blessed prayers brought me to where I am, whose supplications were my fortress and whose light guided my path. I pray that Allah grants her strength and rewards her on my behalf with the best of rewards.
 

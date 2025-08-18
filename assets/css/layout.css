@@ -37,7 +37,6 @@ article {
 }
 
 .post-content p {
-  hyphens: auto;
   line-height: 1.8;
   text-justify: ideographic;
   margin-bottom: 1em;

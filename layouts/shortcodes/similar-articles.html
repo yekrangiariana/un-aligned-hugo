@@ -142,8 +142,8 @@ body.dark-mode .similar-article.has-environment .article-title {
 }
 </style>
 
-{{/* Get the article slug parameter */}}
-{{ $slug := .Get "slug" }}
+{{/* Get the article slug parameter - supports both positional and named */}}
+{{ $slug := .Get 0 | default (.Get "slug") }}
 
 {{/* Find the page by slug */}}
 {{ $page := "" }}
