@@ -2,13 +2,37 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/christian-zionism-and-the-prophets-of-annihilation/</loc>
+    <loc>http://localhost:1313/authors/ariana-yekrangi/</loc>
+    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/</loc>
+    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/gaza/</loc>
+    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/israel/</loc>
     <lastmod>2025-08-18T23:07:43+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
     <lastmod>2025-08-18T23:07:43+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/categories/religion/</loc>
+    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/religion/christian-zionism-and-the-prophets-of-annihilation/</loc>
+    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/</loc>
+    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/united-states/</loc>
     <lastmod>2025-08-18T23:07:43+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/world-peace/the-death-of-empathy/</loc>
@@ -20,19 +44,10 @@
     <loc>http://localhost:1313/categories/animal-rights/</loc>
     <lastmod>2025-08-18T12:00:06+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2025-08-18T12:00:06+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/capitalism/</loc>
     <lastmod>2025-08-18T12:00:06+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-18T12:00:06+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/climate-emergency/</loc>
-    <lastmod>2025-08-18T12:00:06+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2025-08-18T12:00:06+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/world-peace/</loc>
@@ -65,12 +80,6 @@
     <loc>http://localhost:1313/categories/comments/</loc>
     <lastmod>2025-08-11T19:43:10+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/gaza/</loc>
-    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/israel/</loc>
-    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/journalism/</loc>
     <lastmod>2025-08-11T19:43:10+03:00</lastmod>
   </url><url>
@@ -82,9 +91,6 @@
   </url><url>
     <loc>http://localhost:1313/gordian/</loc>
     <lastmod>2025-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/ariana-yekrangi/</loc>
-    <lastmod>2025-07-15T19:29:09+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/human-rights/</loc>
     <lastmod>2025-07-15T19:29:09+03:00</lastmod>
@@ -165,9 +171,6 @@
     <lastmod>2025-03-12T16:33:15+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/global-issues/beyond-trumpian-flirtations-with-total-denuclearization/</loc>
-    <lastmod>2025-03-02T18:11:40+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/united-states/</loc>
     <lastmod>2025-03-02T18:11:40+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/search/</loc>
@@ -1647,9 +1650,6 @@
     <lastmod>2021-05-03T07:55:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/culture/the-story-behind-santa-maria-church-in-valle-porclaneta/</loc>
-    <lastmod>2021-04-17T09:50:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/religion/</loc>
     <lastmod>2021-04-17T09:50:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/gallery/the-church-of-putin-inside-the-cathedral-of-russian-armed-forces/</loc>
