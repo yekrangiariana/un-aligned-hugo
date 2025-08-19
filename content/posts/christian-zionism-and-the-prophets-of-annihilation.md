@@ -33,7 +33,7 @@ This heresy is not ancient; it is a modern political invention. Christian Zionis
 
 Central to this was the idea that before Jesus could return, Jews had to gather in Palestine, rebuild their temple and face a final, bloody cataclysm—Armageddon. 
 
-This fringe belief was popularised in America through the Scofield Reference Bible in the early 20th century, transforming it from a niche theory into a political roadmap for millions.
+This once-fringe belief was carried into mainstream American life through the Scofield Reference Bible in the early 20th century. What began as a marginal theory soon became a political programme for millions.
 
 ## **From prophecy to the bench**
 
@@ -41,9 +41,8 @@ This ideology is not confined to fringe churches; it has reached the highest ech
 
 At the helm of the International Court of Justice (ICJ)—the very body tasked with adjudicating South Africa's genocide case against Israel—sits Judge Julia Sebutinde of Uganda. Her public statements reveal a worldview where judicial duty is secondary to religious prophecy.
 
-![Judge Julia Sebutinde of Uganda. Photo: ICJ](/images/christian-zionism-and-the-prophets-of-annihilation/JuliaSebutinde.webp)
+{{< photo-normal src="/images/christian-zionism-and-the-prophets-of-annihilation/JuliaSebutinde.webp" caption="Judge Julia Sebutinde of Uganda. Photo: ICJ" >}}
 
-*Judge Julia Sebutinde of Uganda. Photo: ICJ*
 
 “The Lord is counting on me to stand on the side of Israel,” she has stated, framing her role not in legal terms, but as a divine mandate. 
 
@@ -57,7 +56,7 @@ Sebutinde’s [own words](https://www.monitor.co.ug/uganda/news/national/my-coun
 
 ## **The American political engine**
 
-While Sebutinde represents a shocking individual case, the true political engine of Christian Zionism resides in the United States, where it has become a cornerstone of right-wing politics. 
+While Sebutinde illustrates how theology can distort law, the true political power of Christian Zionism lies in the United States. There it has become a cornerstone of right-wing politics.
 
 To consolidate his power, Donald Trump harnessed his relationship with the most extreme Christian Zionist organisations, leveraging his messianic reputation among evangelicals who view him as a leader chosen by God to accelerate prophecy.
 
@@ -71,7 +70,7 @@ However, a fissure is emerging. An isolationist faction, personified by figures 
 
 This created a televised confrontation between Carlson and Senator Ted Cruz, a staunch Trump ally and beneficiary of almost $2 million [from pro-Israel lobbies](https://www.trackaipac.com/states/texas). 
 
-![Senator Ted Cruz on the Tucker Carlson show. Photo: screenshot of the video](/images/christian-zionism-and-the-prophets-of-annihilation/ted-cruz-on-tucker-carlson-network.jpg)
+{{< photo-normal src="/images/christian-zionism-and-the-prophets-of-annihilation/ted-cruz-on-tucker-carlson-network.jpg" caption="Senator Ted Cruz on the Tucker Carlson show. Photo: screenshot of the video" >}}
 
 Having framed the genocide as "a battle between civilisation and barbarism," Cruz explained his unconditional support with a simple biblical threat: “As a Christian... I was taught from the Bible: those who bless Israel will be blessed, and those who curse Israel will be cursed.” 
 
@@ -115,9 +114,7 @@ It transforms the brutal reality of occupation and genocide into a celebrated mi
 
 The story, however, does not have to end here. A counter-current is forming, a voice of conscience from within the faith community itself. 
 
-![Mother Agapia Stephanopoulos on the Tucker Carlson show. Photo: Screenshot of Tucker Carlson's YouTube channel](/images/christian-zionism-and-the-prophets-of-annihilation/Mother-Agapia-Stephanopoulos.jpg)
-
-*Mother Agapia Stephanopoulos on the Tucker Carlson show. Photo: Screenshot of Tucker Carlson's YouTube channel*
+{{< photo-normal src="/images/christian-zionism-and-the-prophets-of-annihilation/Mother-Agapia-Stephanopoulos.jpg" caption="Mother Agapia Stephanopoulos on the Tucker Carlson show. Photo: Screenshot of Tucker Carlson's YouTube channel" >}}
 
 As Mother Agapia Stephanopoulos observed, “It's slowly growing, an awareness by other Christians in America. Just like many Jews are protesting and saying ‘not in our name,’ there has to be much more done by the Christians in America, because these Christian Zionists are speaking in our name.”
 

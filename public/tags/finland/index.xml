@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Finland on UN-aligned</title>
-    <link>https://un-aligned.org/tags/finland/</link>
+    <link>http://localhost:1313/tags/finland/</link>
     <description>Recent content in Finland on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 09 Jul 2022 07:36:00 +0300</lastBuildDate><atom:link href="https://un-aligned.org/tags/finland/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 09 Jul 2022 07:36:00 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/finland/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Finland’s troubled history with Russia — A Story in Photos</title>
-      <link>https://un-aligned.org/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</link>
+      <link>http://localhost:1313/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</link>
       <pubDate>Sat, 09 Jul 2022 07:36:00 +0300</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</guid>
+      <guid>http://localhost:1313/gallery/finlands-troubled-history-with-russia-a-photo-timeline/</guid>
       <description>Finland is a young country, but one with a heartbreaking history. In this photo timeline, which consists of 11 events showcasing 80 photos, we’ll guide you through the country’s tragic history with Russia.</description>
-      <enclosure url="https://un-aligned.org/images/fortification-in-the-Karelian-Isthmus-in-1939..jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/fortification-in-the-Karelian-Isthmus-in-1939..jpg" type="image/jpeg" />
     </item>
     
   </channel>

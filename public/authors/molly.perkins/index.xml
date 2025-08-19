@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Molly.perkins on UN-aligned</title>
-    <link>https://un-aligned.org/authors/molly.perkins/</link>
+    <link>http://localhost:1313/authors/molly.perkins/</link>
     <description>Recent content in Molly.perkins on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Sat, 23 May 2020 14:56:33 +0300</lastBuildDate><atom:link href="https://un-aligned.org/authors/molly.perkins/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 May 2020 14:56:33 +0300</lastBuildDate><atom:link href="http://localhost:1313/authors/molly.perkins/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Imposter Syndrome</title>
-      <link>https://un-aligned.org/global-issues/imposter-syndrome/</link>
+      <link>http://localhost:1313/global-issues/imposter-syndrome/</link>
       <pubDate>Sat, 23 May 2020 14:56:33 +0300</pubDate>
       <author>molly.perkins</author>
-      <guid>https://un-aligned.org/global-issues/imposter-syndrome/</guid>
+      <guid>http://localhost:1313/global-issues/imposter-syndrome/</guid>
       <description>&lt;p&gt;There are many reasons why some of us choose to set up life in a new country. The prospect offers numerous benefits, such as satisfying a yearning for exploration, self-improvement or a higher standard of living.&lt;/p&gt;
 &lt;p&gt;Living abroad is undoubtedly a highly enriching experience, it broadens your mind and provides exposure to different ways of life; it offers a more immersive language learning opportunity and your self-sufficiency will come to know no bounds as a result of having to jump through strange and complex bureaucratic hoops in a foreign language.&lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/Pissing-in-the-sacred-brook_-humanity%E2%80%99s-abuse-of-water-and-water%E2%80%99s-revenge-1-1.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Pissing-in-the-sacred-brook_-humanity%E2%80%99s-abuse-of-water-and-water%E2%80%99s-revenge-1-1.jpg" type="image/jpeg" />
     </item>
     
   </channel>

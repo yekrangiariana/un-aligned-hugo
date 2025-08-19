@@ -3334,9 +3334,9 @@ select:focus-visible,
 
 /* Normal photo - fits inside the 80% column */
 .photo-normal {
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
+  width: 70%;
+  align-items: start;
+  margin-bottom: 10px;
 }
 
 /* Large photo - stretches to 100% of the columns */
@@ -3354,6 +3354,7 @@ select:focus-visible,
   position: relative;
   left: -28%;
   width: 128%;
+  margin-bottom: 10px;
 }
 
 /* Caption styling for large photos - positioned absolutely to avoid affecting layout flow */
@@ -3472,6 +3473,10 @@ select:focus-visible,
     max-width: 100%;
     margin-left: 0;
     margin-right: 0;
+  }
+
+  .photo-normal {
+    width: 100%;
   }
 
   /* Change the caption positioning for mobile */

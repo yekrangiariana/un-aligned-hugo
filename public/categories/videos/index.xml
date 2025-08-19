@@ -2,43 +2,43 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Videos on UN-aligned</title>
-    <link>https://un-aligned.org/categories/videos/</link>
+    <link>http://localhost:1313/categories/videos/</link>
     <description>Recent content in Videos on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Tue, 25 Jan 2022 15:43:25 +0200</lastBuildDate><atom:link href="https://un-aligned.org/categories/videos/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 25 Jan 2022 15:43:25 +0200</lastBuildDate><atom:link href="http://localhost:1313/categories/videos/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Is circumcision abuse?</title>
-      <link>https://un-aligned.org/health/circumcision-is-child-abuse-stop-it/</link>
+      <link>http://localhost:1313/health/circumcision-is-child-abuse-stop-it/</link>
       <pubDate>Tue, 25 Jan 2022 15:43:25 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/health/circumcision-is-child-abuse-stop-it/</guid>
+      <guid>http://localhost:1313/health/circumcision-is-child-abuse-stop-it/</guid>
       <description>Mutilating the sexual organs of a child, circumcision, in the name of culture, religion or dubious preventative medical claims is outrageous and a blatant breach of the child’s human rights.</description>
-      <enclosure url="https://un-aligned.org/images/Circumcision-is-Child-Abuse-%E2%80%94-Stop-it-.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Circumcision-is-Child-Abuse-%E2%80%94-Stop-it-.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Ayesha Kajee Talks to UN-aligned About Her Poem &#34;Silence&#34;</title>
-      <link>https://un-aligned.org/culture/ayesha-kajee-on-her-poem-silence/</link>
+      <link>http://localhost:1313/culture/ayesha-kajee-on-her-poem-silence/</link>
       <pubDate>Wed, 10 Nov 2021 09:53:45 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/culture/ayesha-kajee-on-her-poem-silence/</guid>
+      <guid>http://localhost:1313/culture/ayesha-kajee-on-her-poem-silence/</guid>
       <description>&lt;p&gt;In September 2021, UN-aligned arranged a poetry competition and asked writers to creatively portray the values that its Manifesto campaigns for. The second place was awarded to Ayesha Kajee for her poem Silence. The following interview was conducted on the 2nd of November 2021.&lt;/p&gt;
 &lt;p&gt;Watch the interview here: &lt;a href=&#34;https://www.youtube.com/watch?v=o33ltCPX_6I&#34;&gt;https://www.youtube.com/watch?v=o33ltCPX_6I&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://un-aligned.org/culture/silence/&#34;&gt;Read Ayesha&amp;rsquo;s poem “Silence&amp;quot;&lt;/a&gt;&lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/Ayesha-Kajee-interview.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Ayesha-Kajee-interview.jpg" type="image/jpeg" />
     </item>
     
     <item>
       <title>Author Dean Gessie Talks to UN-aligned about his “Terra Australis Incognita”</title>
-      <link>https://un-aligned.org/culture/dean-gessie-on-terra-australis-incognita/</link>
+      <link>http://localhost:1313/culture/dean-gessie-on-terra-australis-incognita/</link>
       <pubDate>Mon, 08 Nov 2021 09:40:24 +0200</pubDate>
       <author>Ariana Yekrangi</author>
-      <guid>https://un-aligned.org/culture/dean-gessie-on-terra-australis-incognita/</guid>
+      <guid>http://localhost:1313/culture/dean-gessie-on-terra-australis-incognita/</guid>
       <description>&lt;p&gt;In September 2021, UN-aligned arranged a poetry competition and asked writers to creatively portray the values that its Manifesto campaigns for. The first place was awarded to Dean Gessie for his poem “Terra Australis Incognita”. The following interview was conducted on the 31st of October 2021.&lt;/p&gt;
 &lt;p&gt;&lt;a href=&#34;https://un-aligned.org/culture/terra-australis-incognita/&#34;&gt;Read Dean&amp;rsquo;s poem “Terra Australis Incognita”.&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Watch our interview with Dean Gessie here: &lt;a href=&#34;https://www.youtube.com/watch?v=B39EuPH21Ng&#34;&gt;https://www.youtube.com/watch?v=B39EuPH21Ng&lt;/a&gt;&lt;/p&gt;</description>
-      <enclosure url="https://un-aligned.org/images/Dean-Gessie-interview.jpg" type="image/jpeg" />
+      <enclosure url="http://localhost:1313/images/Dean-Gessie-interview.jpg" type="image/jpeg" />
     </item>
     
   </channel>
