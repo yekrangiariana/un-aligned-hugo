@@ -1,7 +1,7 @@
 ---
 title: "Samuel Taylor Coleridge: The Supernatural Poet"
 date: 2020-07-15T10:55:00+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/samuel-coleridge-natural-supernatural"
 categories:
   - "Culture"
@@ -17,7 +17,6 @@ It was this poetic process of creation that laid the foundations for the hauntin
 ![Kubla Khan handwritten sketch](/images/Samuel-Taylor-Coleridge-KublaKhan.jpg)
 
 Coleridge's handwritten draft of Kubla Khan
-
 
 Coleridge did not find any solace in nature as Wordsworth did. It was not something he could go back to with his memory in order to find joy and consolation. There were no “emotions recollected in tranquillity”. His relationship with nature was more philosophical, seeing it through his philosophical poetic faith: “No man was ever yet a great poet, without at the same time being a profound philosopher.” The intensity of the poet’s vision and imagination is best reflected by the lines from Dejection An Ode:
 
@@ -52,7 +51,6 @@ These words exemplify Coleridge’s essence; a poet of the natural, the supernat
 ![Samuel Taylor Coleridge drawing](/images/Samuel-Taylor-Coleridge-The-Supernatural-Poet-2.jpg)
 
 Samuel Taylor Coleridge from a drawing by G. R. Leslie R.A. © Public domain
-
 
 I’d like to conclude this brief peek into the soul of Coleridge by referring to another love poem entitled *Love*. This poem is a ballad, a short narrative tale encapsulating two stories. One is a tale of a woeful Knight who pines and dies for his love, and the other is the story of the poet who is relating the story of the knight to Genevieve, in order to win her love. He uses the story of the knight to focus on his own battle for love. Typically here,  Coleridge swings from the dreamlike tale of a medieval knight to the real tangible love he is feeling for Genevieve.
 

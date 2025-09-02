@@ -3,11 +3,10 @@ title: "The Lingering Sins of Religion: When books weigh us down"
 date: 2021-02-04T08:35:21+02:00
 authors: ["Adrian Liberto"]
 url: "human-rights/the-lingering-sins-of-religion-when-books-weigh-us-down"
-categories: 
+categories:
   - "Human Rights"
   - "Religion"
-tags: 
-  - "Human Rights"
+tags:
 image: "/images/6.jpg-1.webp"
 ---
 
@@ -47,7 +46,7 @@ Second, mark you this: “the devil can cite Scripture for his purpose,” and s
 
 Some may argue that taking away strict adherence to the scriptures would be like opening a Pandora’s Box and inviting a free for all. This is nonsense. Let us consider why believers follow a particular religion. In many cases it is because their parents or their community told them too. I doubt many children are presented with a selection of world scriptures as they get older and encouraged to choose for themselves.
 
-People often just follow what they are brought up with and would consider it treason to even contemplate abandoning their religion for another, or none at all. Where is the virtue in that? Still, let us assume one does make a concerted effort to choose one’s religion according to the highest principles of kindness and decency. The fact remains that the scripture is being judged by something higher than itself, namely a person’s conscience. Surely then, this is what we should be following in the first place: a conscience, which indeed can be edified by scriptures and a host of other teachings and experiences, but a conscience nonetheless. 
+People often just follow what they are brought up with and would consider it treason to even contemplate abandoning their religion for another, or none at all. Where is the virtue in that? Still, let us assume one does make a concerted effort to choose one’s religion according to the highest principles of kindness and decency. The fact remains that the scripture is being judged by something higher than itself, namely a person’s conscience. Surely then, this is what we should be following in the first place: a conscience, which indeed can be edified by scriptures and a host of other teachings and experiences, but a conscience nonetheless.
 
 Such a conclusion has led some religions or schools to deny free will altogether and attribute one’s faith solely to grace or predestination. This is the ultimate betrayal of one’s dignity and responsibility and all the more sinister when the religion in question leads us to bigotry and acts of hatred.
 

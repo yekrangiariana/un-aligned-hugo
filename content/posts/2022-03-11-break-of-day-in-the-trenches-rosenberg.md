@@ -2,11 +2,11 @@
 title: "From patriotism to pure poetry: Isaac Rosenberg’s Break of Day in the Trenches"
 description: "Isaac Rosenberg (1890-1918) did not sing the praises of war; he reflected on its philosophical and poetical impact through symbolism and imagery."
 date: 2022-03-11T11:06:00+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/break-of-day-in-the-trenches-rosenberg"
-categories: 
+categories:
   - "Culture"
-tags: 
+tags:
   - "Literature"
 image: "/images/From-patriotism-to-pure-poetry_-Isaac-Rosenbergs-Break-of-Day-in-the-Trenches-.jpg"
 ---
@@ -38,15 +38,15 @@ Drop, and are ever dropping;
 But mine in my ear is safe,  
 Just a little white with the dust.
 
-* * *
+---
 
-Isaac Rosenberg (1890-1918) did not sing the praises of war; he reflected on its philosophical and poetical impact through symbolism and imagery. 
+Isaac Rosenberg (1890-1918) did not sing the praises of war; he reflected on its philosophical and poetical impact through symbolism and imagery.
 
 Break of Day in the Trenches is a short poem that not only deals with the deadly devastation of trench warfare, but also with the poetic and philosophical view of human emotions.
 
-The opening line of the poem poetically and metaphorically describes the break of day by saying, "The darkness crumbles away". It is not the birth of light, but the crumbling of darkness. Everything is withering, everything dies, even darkness. The poet then introduces the central figure of the poem, an ungainly rat. This lowly creature is a symbol around which the poem revolves, and is the starting point for the poet’s reflections on the atrocity and stupidity of the war. 
+The opening line of the poem poetically and metaphorically describes the break of day by saying, "The darkness crumbles away". It is not the birth of light, but the crumbling of darkness. Everything is withering, everything dies, even darkness. The poet then introduces the central figure of the poem, an ungainly rat. This lowly creature is a symbol around which the poem revolves, and is the starting point for the poet’s reflections on the atrocity and stupidity of the war.
 
-The rat is described as being cosmopolitan. It is, in fact, a rat and therefore has no nationality, no patriotic sentiments. It crosses both sides of the trenches and scurries over German soldiers and British soldiers. It takes no sides, and in this wretched scene of death and destruction it seems to be superior to the dying soldiers. 
+The rat is described as being cosmopolitan. It is, in fact, a rat and therefore has no nationality, no patriotic sentiments. It crosses both sides of the trenches and scurries over German soldiers and British soldiers. It takes no sides, and in this wretched scene of death and destruction it seems to be superior to the dying soldiers.
 
 This insignificant creature is sardonic and grins at the paradox of being more likely to live than the unfortunate soldiers, who are indeed “haughty athletes” with “strong eyes” and “fine limbs”. Although they are strong and athletic, they are in fact, shooting at each other...
 

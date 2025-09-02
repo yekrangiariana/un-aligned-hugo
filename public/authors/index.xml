@@ -6,11 +6,21 @@
     <description>Recent content in Authors on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 18 Aug 2025 23:07:43 +0300</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 11:26:17 +0000</lastBuildDate><atom:link href="http://localhost:1313/authors/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Adrian Liberto</title>
+      <link>http://localhost:1313/authors/adrian-liberto/</link>
+      <pubDate>Mon, 01 Sep 2025 11:26:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/adrian-liberto/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Ariana Yekrangi</title>
       <link>http://localhost:1313/authors/ariana-yekrangi/</link>
-      <pubDate>Mon, 18 Aug 2025 23:07:43 +0300</pubDate>
+      <pubDate>Mon, 01 Sep 2025 10:15:57 +0000</pubDate>
       
       <guid>http://localhost:1313/authors/ariana-yekrangi/</guid>
       <description></description>
@@ -18,11 +28,41 @@
     </item>
     
     <item>
-      <title>Adrian Liberto</title>
-      <link>http://localhost:1313/authors/adrian-liberto/</link>
-      <pubDate>Mon, 18 Aug 2025 12:00:06 +0300</pubDate>
+      <title>Alex Liberto</title>
+      <link>http://localhost:1313/authors/alex-liberto/</link>
+      <pubDate>Mon, 01 Sep 2025 09:29:26 +0000</pubDate>
       
-      <guid>http://localhost:1313/authors/adrian-liberto/</guid>
+      <guid>http://localhost:1313/authors/alex-liberto/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Carla Pietrobattista</title>
+      <link>http://localhost:1313/authors/carla-pietrobattista/</link>
+      <pubDate>Sun, 31 Aug 2025 19:35:29 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/carla-pietrobattista/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Partho Pratim Chatterjee</title>
+      <link>http://localhost:1313/authors/partho-pratim-chatterjee/</link>
+      <pubDate>Sun, 31 Aug 2025 10:25:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/partho-pratim-chatterjee/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>UN-Aligned</title>
+      <link>http://localhost:1313/authors/un-aligned/</link>
+      <pubDate>Sat, 30 Aug 2025 19:36:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/authors/un-aligned/</guid>
       <description></description>
       
     </item>
@@ -43,26 +83,6 @@
       <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
       
       <guid>http://localhost:1313/authors/anas-al-sharif/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Partho Pratim Chatterjee</title>
-      <link>http://localhost:1313/authors/partho-pratim-chatterjee/</link>
-      <pubDate>Wed, 25 Jun 2025 21:33:28 +0300</pubDate>
-      
-      <guid>http://localhost:1313/authors/partho-pratim-chatterjee/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Alex.liberto</title>
-      <link>http://localhost:1313/authors/alex.liberto/</link>
-      <pubDate>Thu, 19 Jun 2025 12:32:26 +0300</pubDate>
-      
-      <guid>http://localhost:1313/authors/alex.liberto/</guid>
       <description></description>
       
     </item>
@@ -283,26 +303,6 @@
       <pubDate>Sat, 23 Jul 2022 12:00:24 +0300</pubDate>
       
       <guid>http://localhost:1313/authors/jon-cook/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Nick Hautamaki</title>
-      <link>http://localhost:1313/authors/nick-hautamaki/</link>
-      <pubDate>Wed, 13 Jul 2022 16:07:15 +0300</pubDate>
-      
-      <guid>http://localhost:1313/authors/nick-hautamaki/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Eston McKeague</title>
-      <link>http://localhost:1313/authors/eston-mckeague/</link>
-      <pubDate>Fri, 24 Jun 2022 11:37:45 +0300</pubDate>
-      
-      <guid>http://localhost:1313/authors/eston-mckeague/</guid>
       <description></description>
       
     </item>

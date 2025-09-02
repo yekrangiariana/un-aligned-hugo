@@ -2,52 +2,124 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/authors/ariana-yekrangi/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+    <loc>http://localhost:1313/posts/when-religions-fail/</loc>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/adrian-liberto/</loc>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/gaza/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/israel/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+    <loc>http://localhost:1313/categories/human-rights/</loc>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/religion/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/ariana-yekrangi/</loc>
+    <lastmod>2025-09-01T10:15:57+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/un-palestine-us-defiance-1988-2025/</loc>
+    <lastmod>2025-09-01T10:15:57+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/un-in-focus/</loc>
+    <lastmod>2025-09-01T10:15:57+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/unga-debates/</loc>
+    <lastmod>2025-09-01T10:15:57+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/united-states/</loc>
+    <lastmod>2025-09-01T10:15:57+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/the-making-of-american-culture-1/</loc>
+    <lastmod>2025-09-01T09:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/alex-liberto/</loc>
+    <lastmod>2025-09-01T09:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/country-profile/</loc>
+    <lastmod>2025-09-01T09:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/culture/</loc>
+    <lastmod>2025-09-01T09:29:26+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gordian/issue-1/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/the-gordian-magazine/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/gordian/</loc>
+    <lastmod>2025-09-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/art/</loc>
+    <lastmod>2025-08-31T19:35:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/caravaggios-two-matthews/</loc>
+    <lastmod>2025-08-31T19:35:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/carla-pietrobattista/</loc>
+    <lastmod>2025-08-31T19:35:29+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/climate-emergency/</loc>
+    <lastmod>2025-08-31T10:25:16+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/environment-report/</loc>
+    <lastmod>2025-08-31T10:25:16+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/partho-pratim-chatterjee/</loc>
+    <lastmod>2025-08-31T10:25:16+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/honeybees-under-siege/</loc>
+    <lastmod>2025-08-31T10:25:16+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/campaigns/</loc>
+    <lastmod>2025-08-30T19:36:11+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/journalism/</loc>
+    <lastmod>2025-08-30T19:36:11+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/categories/letters/</loc>
+    <lastmod>2025-08-30T19:36:11+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/open-letter-to-un-protect-press-freedom/</loc>
+    <lastmod>2025-08-30T19:36:11+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/un-aligned/</loc>
+    <lastmod>2025-08-30T19:36:11+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/united-nations/</loc>
+    <lastmod>2025-08-30T19:36:11+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/tags/israel/</loc>
     <lastmod>2025-08-18T23:07:43+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/religion/christian-zionism-and-the-prophets-of-annihilation/</loc>
     <lastmod>2025-08-18T23:07:43+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/united-states/</loc>
-    <lastmod>2025-08-18T23:07:43+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/world-peace/the-death-of-empathy/</loc>
-    <lastmod>2025-08-18T12:00:06+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/adrian-liberto/</loc>
     <lastmod>2025-08-18T12:00:06+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/animal-rights/</loc>
     <lastmod>2025-08-18T12:00:06+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/capitalism/</loc>
-    <lastmod>2025-08-18T12:00:06+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/climate-emergency/</loc>
     <lastmod>2025-08-18T12:00:06+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/categories/world-peace/</loc>
@@ -80,29 +152,8 @@
     <loc>http://localhost:1313/categories/comments/</loc>
     <lastmod>2025-08-11T19:43:10+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/journalism/</loc>
-    <lastmod>2025-08-11T19:43:10+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/gordian/issue-1/</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/the-gordian-magazine/</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/gordian/</loc>
-    <lastmod>2025-08-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/human-rights/</loc>
-    <lastmod>2025-07-15T19:29:09+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/human-rights/the-zionist-experiment-has-failed-it-must-be-abolished/</loc>
     <lastmod>2025-07-15T19:29:09+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/un-in-focus/</loc>
-    <lastmod>2025-07-11T21:54:35+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/united-nations/</loc>
-    <lastmod>2025-07-11T21:54:35+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/global-issues/when-kakistocracy-sanctions-humanity/</loc>
     <lastmod>2025-07-11T21:54:35+03:00</lastmod>
@@ -116,20 +167,11 @@
     <loc>http://localhost:1313/global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression/</loc>
     <lastmod>2025-07-08T21:52:52+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/partho-pratim-chatterjee/</loc>
-    <lastmod>2025-06-25T21:33:28+03:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/climate-emergency/sky-born-infernos-the-deadly-feedback-loop-of-pyrocumulonimbus-clouds/</loc>
     <lastmod>2025-06-25T21:33:28+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/global-issues/confronting-a-genocide/</loc>
     <lastmod>2025-06-23T00:28:42+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/alex.liberto/</loc>
-    <lastmod>2025-06-19T12:32:26+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/culture/</loc>
-    <lastmod>2025-06-19T12:32:26+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/literature/</loc>
     <lastmod>2025-06-19T12:32:26+03:00</lastmod>
@@ -158,9 +200,6 @@
     <loc>http://localhost:1313/categories/un-aligned-news/</loc>
     <lastmod>2025-04-14T17:05:25+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/categories/campaigns/</loc>
-    <lastmod>2025-03-12T16:33:15+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/following-a-successful-agm/</loc>
     <lastmod>2025-03-12T16:33:15+02:00</lastmod>
   </url><url>
@@ -177,9 +216,6 @@
     <lastmod>2025-01-11T12:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/climate-emergency/4-ways-to-use-carbon-dioxide-to-curb-global-warming/</loc>
-    <lastmod>2024-11-17T12:37:38+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/environment-report/</loc>
     <lastmod>2024-11-17T12:37:38+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/human-rights/harris-democrats-and-the-price-of-betrayal/</loc>
@@ -220,9 +256,6 @@
   </url><url>
     <loc>http://localhost:1313/un-in-focus/why-the-wests-unrwa-fund-cuts-are-nakedly-political/</loc>
     <lastmod>2024-01-28T16:38:09+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/tags/art/</loc>
-    <lastmod>2024-01-15T10:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/caravaggio/</loc>
     <lastmod>2024-01-15T10:00:00+02:00</lastmod>
@@ -342,9 +375,6 @@
     <lastmod>2023-11-14T08:02:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/china/</loc>
-    <lastmod>2023-11-14T07:00:00+02:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/country-profile/</loc>
     <lastmod>2023-11-14T07:00:00+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/country-profile/how-tibets-peaceful-nation-building-challenges-chinese-rule/</loc>
@@ -934,9 +964,6 @@
   </url><url>
     <loc>http://localhost:1313/human-rights/mridul-wadhwa-conversion-therapy-and-edinburgh-rape-crisis-centre/</loc>
     <lastmod>2022-09-07T08:10:00+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/letters/</loc>
-    <lastmod>2022-09-07T08:05:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/campaigns/letter-ohchr-ban-conversion-therapy/</loc>
     <lastmod>2022-09-07T08:05:00+03:00</lastmod>
@@ -1727,9 +1754,6 @@
     <loc>http://localhost:1313/health/why-circumcision-is-legalised-child-abuse/</loc>
     <lastmod>2021-02-10T08:56:49+02:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/tags/human-rights/</loc>
-    <lastmod>2021-02-10T08:56:49+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/tags/psychology/</loc>
     <lastmod>2021-02-09T10:14:08+02:00</lastmod>
   </url><url>
@@ -2049,9 +2073,6 @@
     <lastmod>2020-05-03T11:00:40+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/opportunities/write-for-un-aligned/</loc>
-    <lastmod>2020-04-17T10:15:05+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/un-aligned/</loc>
     <lastmod>2020-04-17T10:15:05+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/the-gordian-magazine/the-gordian-april-issue/</loc>

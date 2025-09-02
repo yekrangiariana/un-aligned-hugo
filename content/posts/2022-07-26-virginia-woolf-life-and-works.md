@@ -2,7 +2,7 @@
 title: "Unlocked and Unbolted: Virginia Woolf's Life and Works"
 description: "Virginia Woolf and her tumultuous psychological hardships should be considered an essential cornerstone of modernist fiction."
 date: 2022-07-26T11:26:24+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/virginia-woolf-life-and-works"
 categories:
   - "Culture"
@@ -10,6 +10,7 @@ tags:
   - "Literature"
 image: "/images/Virginal-Wolf.jpg"
 ---
+
 ## Early life
 
 Virginia Woolf was born in London on the 25th of January 1882. Her father, Leslie Stephen, was an eminent Victorian critic and man of letters. He was the first editor of the Dictionary of National Biography. He was married twice. His first wife was William Thackeray’s daughter Minny.
@@ -32,13 +33,11 @@ Virginia found great comfort in her sister Vanessa, whom she loved very much, an
 
 Left to right: Lady Ottoline Morrell, Mrs. Aldous Huxley, Lytton Strachey, Duncan Grant, and Vanessa Bell.
 
-
 Vanessa married the art critic Clive Bell, who had been a good friend of Thoby’s, and both helped promote the Bloomsbury circle. Bell wrote about the group: “they shared a taste for discussion in pursuit of truth and a contempt for conventional ways of thinking and feeling, contempt for conventional morals if you will”.
 
 ![](/images/Roger-Fry.jpg)
 
 A self-portrait of Roger Fry
-
 
 The group promoted modern French post-Impressionist painting, which outraged the straight-laced Edwardian public, still tied to the Victorian tradition of conservative ideas. The English painter who slowly helped change this narrow-minded attitude was Roger Fry, another Bloomsbury member.
 
@@ -51,7 +50,6 @@ In this period Virginia also befriended Vita Sackville-West, who was a renowned 
 ![Leonard Woolf and Sackville-West](/images/Leonard-Woolf-and-Sackville-West-1024x564.jpg)
 
 Right Leonard Woolf, Left: Sackville-West
-
 
 The beginning of the Second World War depressed both Virginia and Leonard. They both feared a possible victory of Hitler. Virginia’s depression, however, was far more serious. She could not bear the thought of going totally mad.
 
@@ -67,7 +65,6 @@ She then walked to the river and putting a large stone in her coat pocket, she j
 
 Cover of Mrs. Dalloway
 
-
 Virginia Woolf proved to be a very competent writer by 1912, when she worked as a critic for the Times Literary Supplement. With her husband, in 1917, she established the Hogarth Press which published her works, and those of many other anti-traditionalist writers. Woolf wrote nine novels in all and also a great number of other works like short stories, essays, letters and diaries.
 
 She wrote her first two novels in 1915 and in 1919. Both these novels, _The Voyage Out_ and _Night and Day_, were plot-oriented and rather traditional in style. Her first attempt at experimental writing was made with _Jacob’s Room_ which she wrote in 1922. The story is not revealed chronologically; it is understood through the reminiscences of the characters. These memories unfold the life of a young man and his experiences until his death in war.
@@ -82,7 +79,6 @@ She wrote her first two novels in 1915 and in 1919. Both these novels, _The Voya
 
 1st edition cover of To the Lighthouse (1927)
 
-
 ### **To the Lighthouse (1927)**
 
 In 1927 Woolf wrote _To the Lighthouse_. The first part of the book describes one day in the life of a large family and of other characters on holiday in the Hebrides. Mr and Mrs Ramsay, the main characters, mirror Virginia Woolf’s own parents and the relaxed atmosphere of her childhood prior to her mother‘s death. One of Mr and Mrs Ramsay’s eight children, James, wants to go to the nearby lighthouse, however, due to the bad weather he cannot.
@@ -92,7 +88,6 @@ In the second part of the book, there is a time-lapse. We learn that two of the 
 ![](/images/Orlando-A-Biography.jpg)
 
 The cover of Orlando: A Biography
-
 
 ### **Orlando: A Biography (1928)**
 
@@ -105,7 +100,6 @@ _The Waves_, which she wrote in 1931, was also successful, even though it initia
 ![](/images/The-Years-1937.jpg)
 
 1st edition cover of The Years
-
 
 ### **The Years (1937)**
 
@@ -130,7 +124,6 @@ Two typical characteristics of Virginia Woolf are her use of the stream-of-consc
 ![](/images/drawing-of-James-Joyce-728x1024.jpg)
 
 Adolf Hoffmeister illustration of James Joyce in 1966
-
 
 Arnold Kettle wrote in The Pelican Guide to English Literature (Pelican, 1973): “Joyce is a far bigger figure than Virginia Woolf - his work bristles with an intellectual and moral toughness which hers lacks”. Woolf’s characters are also not as universal as those of Joyce. They all belong to a specific upper class and basically follow very similar psychological standards. They are, nonetheless, unique and exceptional creations. Through their disconnected and incoherent development Woolf majestically manages to capture the essence of their existence.
 

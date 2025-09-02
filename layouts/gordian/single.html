@@ -55,6 +55,9 @@
             <!-- Process articles first -->
             {{ $articlesByCategory := dict }}
             {{ $uncategorized := slice }}
+            {{ $featuredArticles := slice }}
+            {{ $featuredCount := 0 }}
+            {{ $maxFeatured := 3 }}
             
             {{ range .Params.articleList }} 
               {{ $slug := . }} 
@@ -63,13 +66,20 @@
                 {{ if eq .Params.slug $slug }} 
                   {{ $found = true }}
                   
-                  {{ if .Params.categories }}
-                    {{ $category := index .Params.categories 0 }}
-                    {{ $articles := index $articlesByCategory $category | default slice }}
-                    {{ $articlesUpdated := $articles | append . }}
-                    {{ $articlesByCategory = merge $articlesByCategory (dict $category $articlesUpdated)  }}
+                  <!-- Add the first three articles to the featured section -->
+                  {{ if lt $featuredCount $maxFeatured }}
+                    {{ $featuredArticles = $featuredArticles | append . }}
+                    {{ $featuredCount = add $featuredCount 1 }}
                   {{ else }}
-                    {{ $uncategorized = $uncategorized | append . }}
+                    <!-- After the first three, categorize as before -->
+                    {{ if .Params.categories }}
+                      {{ $category := index .Params.categories 0 }}
+                      {{ $articles := index $articlesByCategory $category | default slice }}
+                      {{ $articlesUpdated := $articles | append . }}
+                      {{ $articlesByCategory = merge $articlesByCategory (dict $category $articlesUpdated)  }}
+                    {{ else }}
+                      {{ $uncategorized = $uncategorized | append . }}
+                    {{ end }}
                   {{ end }}
                   
                 {{ end }} 
@@ -86,6 +96,22 @@
               
               <div class="article-grid category-grid post-content-container">
                 <div class="gordian-articles-section">
+                
+                  <!-- Featured Articles Section -->
+                  {{ if gt (len $featuredArticles) 0 }}
+                    <div class="article-category-section featured-articles-section">
+                      <h3 class="category-heading">Featured Articles</h3>
+                      
+                      <!-- Display featured articles in a distinct style -->
+                      <div class="featured-articles-grid">
+                        {{ range $featuredArticles }}
+                        <div class="featured-article-item">
+                          {{ partial "article-card.html" . }}
+                        </div>
+                        {{ end }}
+                      </div>
+                    </div>
+                  {{ end }}
                   <!-- Display error cards for any articles not found -->
                   {{ range .Params.articleList }} 
                     {{ $slug := . }} 
@@ -116,8 +142,35 @@
                     }
                     .gordian-articles-section h3.category-heading {
                       margin-bottom: 1.2rem;
-                      padding-bottom: 0.5rem;
                       border-bottom: 1px solid rgba(0,0,0,0.1);
+                    }
+                    
+                    /* Featured Articles Section */
+                    .featured-articles-section {
+                      margin-bottom: 3rem;
+                    }
+                    .featured-articles-grid {
+                      display: grid;
+                      grid-template-columns: repeat(3, 1fr);
+                      grid-gap: 1.5rem;
+                    }
+
+                    .gordian-articles-section .featured-article-item .article-card-link  {
+                      display: flex;
+                      flex-direction: column;
+                    }
+                    .gordian-articles-section .featured-article-item .article-card-image {
+                      width: 100%;
+                      height: 100%;
+                      object-fit: cover;
+                      margin-bottom: 1rem;
+                    }
+                    .gordian-articles-section .featured-article-item .article-card-content {
+                      width: 100%;
+                    }
+                    .gordian-articles-section .featured-article-item .article-card-title {
+                      font-size: 1.3rem;
+                      font-weight: 600;
                     }
                     
                     /* Uniform article styling - all in row layout */
@@ -163,9 +216,15 @@
                     .dark-mode .gordian-articles-section .article-item {
                       border-bottom: 1px solid rgba(255,255,255,0.05);
                     }
+                    .dark-mode .featured-articles-section {
+                      border-bottom: 2px solid rgba(255,255,255,0.1);
+                    }
                     
                     /* Responsive styling */
                     @media (max-width: 768px) {
+                      .featured-articles-grid {
+                        grid-template-columns: 1fr;
+                      }
                       .gordian-articles-section .article-card-link {
                         flex-direction: column;
                       }

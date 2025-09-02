@@ -1,11 +1,11 @@
 ---
 title: "Samuel Pepys: A peep into the life of a gentleman in the Restoration period"
 date: 2020-12-22T09:00:00+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/samuel-pepys-a-peep-into-the-life-of-a-gentleman-in-the-restoration-period"
-categories: 
+categories:
   - "Culture"
-tags: 
+tags:
   - "Literature"
 image: "/images/10.jpg.webp"
 ---

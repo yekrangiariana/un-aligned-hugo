@@ -1,17 +1,17 @@
 ---
 title: "John Donne's No Man is an Island: Feeling a Oneness With Humanity"
 date: 2021-03-15T08:38:21+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/donne-no-man-is-an-island-and-feeling-a-oneness-with-the-rest-of-humanity"
-categories: 
+categories:
   - "Culture"
-tags: 
+tags:
   - "John Donne"
   - "Literature"
 image: "/images/John-Donne.jpg"
 ---
 
-In today’s world besieged by isolationism, America First, Britain First, white supremacy, cyber bullying, homophobia, racism, vaccine tug-of-war, colonialist withdrawal symptoms (… shall I go on?) and the like, never before have the words of John Donne been more relevant; “No man is an island…”. In the age of Brexit, the very notion that every man is part of a greater humanity is a powerful assertion. 
+In today’s world besieged by isolationism, America First, Britain First, white supremacy, cyber bullying, homophobia, racism, vaccine tug-of-war, colonialist withdrawal symptoms (… shall I go on?) and the like, never before have the words of John Donne been more relevant; “No man is an island…”. In the age of Brexit, the very notion that every man is part of a greater humanity is a powerful assertion.
 
 However, the profound conviction that ‘every man is a piece of the continent, a part of the main’ has a far more universal metaphorical significance; a spiritual and existential significance.
 
@@ -31,7 +31,7 @@ John Donne’s Sermons and Meditations blend the strength of his religious faith
 
 ## **Donne preferred physical, sensual love**...
 
-Before his religious awakening, Donne was profane and very sensual. He wrote poetry that overturned the traditional poetic courtly style of his Elizabethan and Cavalier contemporaries, whose sugary romantic poetry eulogised emotional and romantic love. Donne preferred physical, sensual love and avoided any metaphorical allusions to the ethereal or romantic. He was the typical metaphysical poet who related to emotions, like love or sex, in a cerebral way. His poetry was much more analytical and intellectual, reflecting the quintessential characteristics of the metaphysical school, of which he was the main exponent. When he addressed his loved one, he did not ask her if he should compare her to a ‘summer’s day’, like Shakespeare did, but quite differently, he tried to convince her to make love to him. 
+Before his religious awakening, Donne was profane and very sensual. He wrote poetry that overturned the traditional poetic courtly style of his Elizabethan and Cavalier contemporaries, whose sugary romantic poetry eulogised emotional and romantic love. Donne preferred physical, sensual love and avoided any metaphorical allusions to the ethereal or romantic. He was the typical metaphysical poet who related to emotions, like love or sex, in a cerebral way. His poetry was much more analytical and intellectual, reflecting the quintessential characteristics of the metaphysical school, of which he was the main exponent. When he addressed his loved one, he did not ask her if he should compare her to a ‘summer’s day’, like Shakespeare did, but quite differently, he tried to convince her to make love to him.
 
 ```
 “Thou know’st that this cannot be saidA sinne, nor shame, nor loss of Maidenhead,...” - John Donne - The Flea
@@ -39,7 +39,7 @@ Before his religious awakening, Donne was profane and very sensual. He wrote poe
 
 His poems were full of conceits and extended metaphors. Through these conceits Donne compared the spiritual, emotional or ethereal to the very tangible. His associations were often scientific or mathematical (love compared to a compass, or to an atlas).
 
-Metaphysical poetry mirrored the contemporary situation of the undoing of basic and rooted medieval beliefs, at the expense of scientific discoveries and academic progress. 
+Metaphysical poetry mirrored the contemporary situation of the undoing of basic and rooted medieval beliefs, at the expense of scientific discoveries and academic progress.
 
 Metaphysical poetry, therefore, marked a development from the self-confident courtly traditions, to a position of disorientation and mistrust:
 
@@ -49,11 +49,11 @@ Metaphysical poetry, therefore, marked a development from the self-confident cou
 
 ## **Donne: a spiritual and religious poet?**
 
-After his elopement with Anne and his subsequent fall from grace, Donne became more introspective. He seemed to have had a spiritual epiphany and started writing poetry with religious themes. Donne’s religious sonnets, known as the Holy Sonnets, were also different from the conventional Elizabethan and courtly sonnets. 
+After his elopement with Anne and his subsequent fall from grace, Donne became more introspective. He seemed to have had a spiritual epiphany and started writing poetry with religious themes. Donne’s religious sonnets, known as the Holy Sonnets, were also different from the conventional Elizabethan and courtly sonnets.
 
 Although the theme was now spiritual and religious, Donne did not abandon his Metaphysical cerebral style. His new poetry was neither conventional nor spiritually languid. Although focusing on religious themes, they held all the intense and cerebral power of intellect. When he addressed death, he peremptorily declared: “Death thou shalt die.”  When he addressed God, he was neither deferential nor meek, but cried: “Batter my heart, three-personed God, ...”
 
-Donne’s religious prose is no exception. The personal tone and emotional intensity contained in his sermons and meditations are strikingly dramatic and original. 
+Donne’s religious prose is no exception. The personal tone and emotional intensity contained in his sermons and meditations are strikingly dramatic and original.
 
 ## **Donne, Donne, Donne… For whom the bell tolls**
 
@@ -67,16 +67,16 @@ Donne develops this thread by pointing out that not only “your” loss is mean
 
 By reverting to the first-person he then emphasises his own connection to “mankind”, saying that “Each man’s death” diminishes him. He is “involved” in the spiritual web of humankind.
 
-The last lines address death and highlight the essence of what it means when a new death occurs. Death is symbolically displayed by the image of the tolling of a church bell. 
+The last lines address death and highlight the essence of what it means when a new death occurs. Death is symbolically displayed by the image of the tolling of a church bell.
 
 When the death bell tolls, Donne asks not to send anyone to find out who has died, for it is part of you who has died with that death. The bell actually tolls for you.
 
-Although Donne’s sermons and meditations are based on the fundamentals of Christianity, his concept of compassion and connection to all of humanity is shared by other religions, especially Buddhism.  Compassion is not a relationship between the healer and the wounded. It's a relationship between equals. Only when we know our own darkness well can we be present with the darkness of others. 
+Although Donne’s sermons and meditations are based on the fundamentals of Christianity, his concept of compassion and connection to all of humanity is shared by other religions, especially Buddhism.  Compassion is not a relationship between the healer and the wounded. It's a relationship between equals. Only when we know our own darkness well can we be present with the darkness of others.
 
 ```
 “Compassion becomes real when we recognise our shared humanity.” - Pema Chödrön
 ```
 
-Connection and compassion are vital. They offer a sense of belonging, of being part of a whole, one of the most essential of all human needs. Reflecting on our common humanity, we can appreciate that we all, at heart, want to be spiritually empathetic and in unison with mankind and the universe. We all have an innate desire to avoid suffering and be happy.  
+Connection and compassion are vital. They offer a sense of belonging, of being part of a whole, one of the most essential of all human needs. Reflecting on our common humanity, we can appreciate that we all, at heart, want to be spiritually empathetic and in unison with mankind and the universe. We all have an innate desire to avoid suffering and be happy.
 
 Donne’s _No Man Is an Island_ cultivates this ecumenical desire by reflecting on our awareness of the essential oneness with the rest of humanity.

@@ -2,7 +2,7 @@
 title: "Edward Morgan Forster: Life and works"
 description: "Edward Morgan Forster: his life and his works."
 date: 2022-05-21T11:17:13+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/edward-morgan-forster-life-and-works"
 categories:
   - "Culture"
@@ -19,7 +19,6 @@ When Forster was only eight years old his great-aunt, who had been a frequent vi
 
 Right: Arlington Park Mansions. Left: Robert and May Buckingham’s house. Forster lived and died at this house, the home of his friends. The sign above the garage door marks the 100th anniversary of his birth.
 
-
 Forster then went to King's College, Cambridge, where he was introduced to many intellectual groups, especially to the Apostles and to the members of what was later to become the Bloomsbury Group. It was at Cambridge that Forster came to terms with his own homosexuality, in particular thanks to the open discussions he used to have on the subject with the members of these groups, like Bertrand Russell, H.O. Meredith, Virginia Woolf and her husband Leonard.
 
 After leaving Cambridge in 1901 he remained very close to Meredith, who he considered as being his first "great love". Forster and his mother then travelled to Italy and Greece where he absorbed every feeling and emotion, cultivating them for his creative future as a writer. After a few months in Germany, Forster returned to England where he met a handsome young Indian man called Syed Ross Masood. The two developed a very deep friendship which was to last until Masood's death in 1937. The importance of Masood's influence on Forster is clearly evident in Forster's own words about his friend: "He woke me up out of my suburban and academic life, showed me new horizons and a new civilization".
@@ -35,7 +34,6 @@ The Second World War was a very painful period for Forster who was a convinced p
 ![](/images/E.-M.-Forster-works-2-839x1024.jpg)
 
 Photo by the UN-aligned design team.
-
 
 E.M. Forster's first novel, Where Angels Fear to Tread, was written in 1905. The title of this first book really sums up Forster's entire literary output. The author explored the two worlds which man was constantly facing: the world of convention and the world of instinct. People may choose to follow whichever, but both alternatives have their price. His second novel The Longest Journey, written in 1907, attacked British life with his biting satire on the narrow-mindedness and pettiness of public school.
 
@@ -60,7 +58,6 @@ Edward Morgan Forster was awarded one of Britain's most important decorations, t
 ![](/images/A-passage-to-india-Edward-Morgan-Forster.jpg)
 
 A first edition cover of Edward Morgan Forster's famous A Passage to India
-
 
 A Passage to India is considered to be Forster's masterpiece. The novel investigates the possibility of reciprocal understanding and tolerance among people, in a country torn by internal conflict.
 

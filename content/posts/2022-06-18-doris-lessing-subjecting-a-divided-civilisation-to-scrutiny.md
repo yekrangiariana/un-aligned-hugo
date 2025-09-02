@@ -2,7 +2,7 @@
 title: "Doris Lessing: Subjecting a Divided Civilisation to Scrutiny"
 description: "Doris Lessing, a female writer who weighed in on the feminist front and who wrote about persecution, intolerance and injustice."
 date: 2022-06-18T10:40:18+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/doris-lessing-subjecting-a-divided-civilisation-to-scrutiny"
 categories:
   - "Culture"
@@ -10,6 +10,7 @@ tags:
   - "Literature"
 image: "/images/Doris-Lessing_-subjecting-a-divided-civilisation-to-scrutiny-.jpg"
 ---
+
 Doris Lessing was born in Iran on the 22nd of October 1919 to Alfred Cook Taylor and Emily Maud McVeigh. Her parents were both very involved in the Second World War. Her father was an active fighter and her mother was a nurse. It was in this capacity that Emily Maud met Alfred, who had been seriously injured in battle. His leg was, in fact, eventually amputated.
 
 Doris Lessing spent the first six years of her life in Tehran, where her father worked at the Imperial Bank of Persia. After a brief return to England the family moved to Zimbabwe, which was then known as Rhodesia. There, Alfred invested all his capital on a 3000 acre farm which he hoped to develop. Life in southern Africa was to leave an indelible influence on Doris Lessing's existence and on her written work.

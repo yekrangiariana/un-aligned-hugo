@@ -2,12 +2,12 @@
 title: "We support Ukraine because it represents the sacrosanct right to build one's own future"
 description: "Ukraine is supported by many countries because it represents the right to build one's own future, in peace within the safety of their borders, without the threats of aggression. Peace, principles, justice and self determination are sacrosanct. That is why the Ukrainians do not want war. They want to live harmoniously among their own people, sharing the culture and heritage with their neighbours and the world."
 date: 2022-03-08T10:04:44+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "global-issues/why-we-support-ukraine"
-categories: 
+categories:
   - "Global Issues"
   - "Human Rights"
-tags: 
+tags:
   - "Russia"
   - "Ukraine"
 image: "/images/Wroclaw-Poland-2-—-The-world-stands-up-to-Putins-bloodthirsty-antics.jpg"
@@ -17,7 +17,7 @@ After appealing to the Russian President, Volodymyr Zelenskyy only received sile
 
 Zelenskyy spoke about the shared 2000km border with Russia that is today breached by almost 200,000 soldiers and thousands of military units. This situation could trigger a widespread war on the European continent. The area is now a smouldering keg that could potentially burst into a catastrophic conflagration.
 
-Zelenskyy reiterated that the people of Ukraine do not need the Russian army to bring them freedom, as they were told. The Ukrainians are free and have been free, living peacefully and building their own future. They have their own culture and are proud of it. The people of Russia were told that the Ukrainians hated Russian culture, but how can culture be hated? 
+Zelenskyy reiterated that the people of Ukraine do not need the Russian army to bring them freedom, as they were told. The Ukrainians are free and have been free, living peacefully and building their own future. They have their own culture and are proud of it. The people of Russia were told that the Ukrainians hated Russian culture, but how can culture be hated?
 
 Zelenskyy spoke about mutual cultural enrichment that unites people. There is no, as he put it, “us and them”. Sure enough, it is diverse and unique cultures that should unite nations, not divide them.
 

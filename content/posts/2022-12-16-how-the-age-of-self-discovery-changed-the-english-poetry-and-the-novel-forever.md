@@ -2,7 +2,7 @@
 title: "How the age of self-discovery changed the English poetry and novel forever"
 description: "The Age of Self-Discovery was a milestone for the English poetry and novel that opened the doors for the intellectual creativity and innovation of 20th-century writers."
 date: 2022-12-16T09:30:00+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/how-the-age-of-self-discovery-changed-the-english-poetry-and-the-novel-forever"
 categories:
   - "Culture"
@@ -10,6 +10,7 @@ tags:
   - "Literature"
 image: "/images/How-the-age-of-self-discovery-changed-the-English-poetry-and-the-novel-forever-.jpg"
 ---
+
 Literature during the Victorian Era identified itself with the ethical values of that society. The superficial optimism and bigotry of a self-righteous attitude forged a kind of literature that was condescending and emotionally wanting.
 
 Apart from the few exceptions like Emily Bronte’s Wuthering Heights, most of the production of that period lacked the emotional intensity or the daring experimentation of writers belonging to other periods.
@@ -30,7 +31,6 @@ The direct fruits of the age of self-discovery were the war poets like Wilfred O
 
 Rupert Brooke © Public Domain
 
-
 In 1915 Rupert Brooke died, in active service, of blood poisoning on his way to the Dardanelles at the young age of 28. His poems and his extremely handsome good looks instantly made him the typical romantic hero of that generation. His Poem The Soldier seemed to have been prophetic:
 
 ```
@@ -46,7 +46,6 @@ If this be the last song you shall sing,Sing well, for you may not sing another.
 ![Julian Grenfell](/images/Julian-Grenfell.jpg)
 
 Julian Grenfell. © Public Domain
-
 
 Other soldier war poets who were killed were Edward Thomas, Isaac Rosenberg and Wilfred Owen. War was the essence of their poetry. Owen wrote:
 
@@ -64,7 +63,6 @@ Thomas wrote about the horrors of the war through his memories of the tiny Engli
 
 Sassoon photographed in 1915 by George Charles Beresford. © Public Domain
 
-
 The most famous war poet who survived the Great War was Siegfried Sassoon. He lived to the venerable age of 81 During World War One he was known as Mad Jack because of his daring solitary expeditions. He was the first poet to express his disapproval and disgust of the horrors of the war.
 
 He wrote of “the unreturning army that was youth” and of “the simple soldier boy” who shot his brains out. This type of writing really shocked the English patriots of his society.
@@ -79,7 +77,6 @@ Generally, however, post-Victorian poetry stemmed mainly from two major traditio
 
 The Wounded Angel by Hugo Simberg. The French Symbolists, including Arthur Rimbaud and Stéphane Mallarmé, reject realism and embrace the power of the imagination in their poetry. Influenced by Edgar Allan Poe, they seek to reveal deeper truths through the "systematic derangement of the senses.
 
-
 On the one hand, the former school of poetry, whose main founder was Eitienne Stephane Mallarme, expressed its poetic inspiration through intuitive and suggestive expression.
 
 The poets represented their ideas through symbols associating images, feelings and emotions with specifically invoked elements. One of the main poets belonging to this group was Dylan Thomas.
@@ -91,7 +88,6 @@ Thomas’ work was complex and difficult to understand. It was not, however, int
 ![William Butler Yeats](/images/William-Butler-Yeats.jpg)
 
 Yeats photographed in 1903 by [Alice Boughton](https://en.wikipedia.org/wiki/Alice_Boughton)
-
 
 Another poet who was influenced by the French symbolist movement was William Butler Yeats. His poetry owed a great deal to Mallarme, Baudelaire and Verlaine. Yeats, who has become one of the leading 20th-century poets, used a great deal of obscure imagery and symbols.
 
@@ -109,7 +105,6 @@ Metaphysical poetry was intellectually difficult and very down to earth in its c
 
 Thomas Sterns Eliot in 1923 © Public Domain
 
-
 The main exponent of this school in the 20th century was undoubtedly Thomas Sterns Eliot, whose rebellion against 19th century romanticism and Victorian convention was the essence of his poetic output.
 
 _Read more:_ [_Your guide to T.S Eliot poems_](https://un-aligned.org/culture/your-guide-to-t-s-eliot-poems/)
@@ -123,7 +118,6 @@ He managed to capture the feelings of futility, senselessness and degradation of
 ![Wystan Hugh Auden.](/images/Wystan-Hugh.jpg)
 
 Wystan Hugh Auden © Public Domain
-
 
 Another poet whose experimental creativity helped revitalise the art of poetry was Wystan Hugh Auden. He, too, felt strongly about the emptiness of his society but his work had a more socio-political slant, focusing on themes like the Spanish Civil War and Nazism.
 
@@ -149,7 +143,6 @@ The use of the stream-of-consciousness technique is by far the literary device w
 
 William James and Josiah Royce.
 
-
 The psychologist William James, brother of the American author Henry James, had used the term stream-of-consciousness to describe the haphazard gushing of emotions, memories, thoughts and perceptions which take place within us without following a logical or chronological order. William James explained this in The Principles of Psychology (1890). His theory was that a confused succession of memories and feelings could be suddenly brought on in one's mind by external stimuli like music, perfumes or even just a banal action.
 
 The distant music of a familiar song could, for example, remind you of an incident which had happened years earlier while listening to the same song. In your mind those memories, and the emotions linked to them, mingle with the present situation. In your mind, past, present, mixed emotions and perceptions simultaneously unravel.
@@ -171,7 +164,6 @@ Joyce also exploited the interior monologue, which is the pouring out of a chara
 ![Virginia Woolf](/images/image.png)
 
 Virginia Woolf © Public Domain
-
 
 The works of Virginia Woolf added a personal touch to the stream-of-consciousness and interior monologue with the introduction of the "she/he thought".
 
@@ -197,7 +189,6 @@ Other authors of that period who studied the upper-class English society were Jo
 
 From left: Evelyn Waugh, W. Somerset Maugham and John Galsworthy.
 
-
 Evelyn Waugh’s insight into man's psychology was quite astounding. Sebastian in Brideshead Revisited has mesmerised many readers. The young aristocrat's soul-searching quest for self-fulfilment and understanding was a perfect picture not only of the type of society he belonged to but also of human psychology in general.
 
 Another author who delved into human psychology was William Somerset Maugham (1874-1965). His type of experimentation lay in his studies of the complexities of human sexuality. One of his best novels, Of Human Bondage (1915), is a painful attempt to come to terms with his own bisexuality. The clubfoot of Philip, the protagonist, is a symbol of how Maugham viewed his own ‘crippled’ sexuality.
@@ -208,13 +199,11 @@ Another author who delved into human psychology was William Somerset Maugham (18
 
 Photographic portrait of Sigmund Freud © Public Domain
 
-
 During this period some novelists were also picking up their inspiration from Sigmund Freud, who gave dreams and sexuality a new important position in a psychologically based vision of life. Freud didn't think much of the surrealists, but their leader André Breton got his inspiration from him.
 
 ![David Herbert Lawrence](/images/David-Herbert-Lawrence.jpg)
 
 David Herbert Lawrence © Public Domain
-
 
 Together with Freud's view on the world of dreams came his view on traditional morality. His works on psychoanalysis and his studies on sex inspired, in particular, David Herbert Lawrence (1885-1930) who believed in instinct rather than logic.
 
@@ -234,7 +223,6 @@ Brave New World, written by the Aldous Huxley, was obviously a clear example of 
 
 From right: Aldous Huxley and George Orwell
 
-
 George Orwell, on the other hand, [expressed the dystopia](https://un-aligned.org/global-issues/the-dystopian-novel-beyond-utopia/) by focusing on totalitarian regimes and their despotic society. Nineteen Eighty-Four is a perfect example of this type of totalitarian world, in which Big Brother kept a vigilant watch over everybody. Individuality in this world became a crime and people were seen as mechanised dummies:
 
 ```
@@ -244,7 +232,6 @@ His head was thrown back a little, and because of the angle at which he was sitt
 ![William Golding](/images/image-1.jpg)
 
 William Golding © Public Domain
-
 
 The dystopian novel was also present after the Second World War in the 1950s with William Golding's, The Lord of the Flies.
 

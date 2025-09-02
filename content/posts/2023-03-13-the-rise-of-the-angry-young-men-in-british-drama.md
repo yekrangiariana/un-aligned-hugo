@@ -2,7 +2,7 @@
 title: "The Rise of the Angry Young Men in British Drama"
 description: "Exploring social injustice and generation gap in post-war Britain drama through the works of John Osborne and other playwrights of the Angry Young Men movement."
 date: 2023-03-13T13:00:00+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/the-rise-of-the-angry-young-men-in-british-drama"
 categories:
   - "Culture"
@@ -10,6 +10,7 @@ tags:
   - "Literature"
 image: "/images/The-Rise-of-the-Angry-Young-Men-in-British-Drama.jpg"
 ---
+
 ## **‘A Look Back in Anger’ by John Osborne**
 
 Drama, like the novel, reflected the discontent and disillusionment of the younger generations. The Angry Young Men were not only novelists but also playwrights.
@@ -26,7 +27,6 @@ Osborne attacked the complacency of the English and the main character Jimmy Por
 
 Richard Burton and Mary Ure in Look Back in Anger (1959). Photo: Screenshot from the movie.
 
-
 Another characteristic of Osborne's work is the study of the generation gap, which highlighted the fracture between the stable values and national greatness of the past, and the social protest and declining importance of Post-War Britain.
 
 Learn more: [_John Osborne: his life and works_](https://un-aligned.org/culture/john-osborne-and-the-angry-young-men/)
@@ -38,7 +38,6 @@ The structure followed the basic three-act play created by the French dramatists
 ![](/images/John_Osborne_playwright.jpg)
 
 John Osborne
-
 
 Osbome did away with flashbacks and created a circular development in the progression of his story. In Look Back in Anger, for example, the setting in the first act is identical to the third act, a fact which underlines the repetitive nature of daily routine.
 
@@ -69,7 +68,6 @@ This new drama, known as the Theatre of the Absurd, was in fact the incarnation 
 ![](/images/‘Waiting-for-Godot-by-Samuel-Beckett-1024x746.jpg)
 
 A 1978 staging of _Waiting for Godot_ by Otomar Krejca. Rufus (Estragon) and Georges Wilson (Vladimir). Photo: Fernand Michaud.
-
 
 In a period of two days, a dreamlike situation unfolds as a dead, withered tree regains its full bloom. Two characters, Pozzo and Lucky, who are normal on the first day, are both handicapped on the second, Pozzo is blind and Lucky is dumb. What is more surprising is that we learn that they have been blind and dumb for a long time.
 
@@ -110,7 +108,6 @@ Two playwrights worthy of mention are Tom Stoppard (b.1937) and Robert Bolt (192
 ![](/images/Other-angry-young-men-1024x603.jpg)
 
 Right to left: Tom Stoppard, Peter Shaffer and Robert Bolt
-
 
 Another traditionalist was Peter Shaffer (1926-2016) who wrote The Royal Hunt of the Sun (1964), a play on the conquest of Peru; Equs (1973); and Amadeus (1981) which focused on the dying Mozart's accusations of the rival Antonio Salieri for poisoning him.
 

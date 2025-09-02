@@ -6,13 +6,93 @@
     <description>Recent content in Categories on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 18 Aug 2025 23:07:43 +0300</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 11:26:17 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Human Rights</title>
+      <link>http://localhost:1313/categories/human-rights/</link>
+      <pubDate>Mon, 01 Sep 2025 11:26:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/human-rights/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Religion</title>
       <link>http://localhost:1313/categories/religion/</link>
-      <pubDate>Mon, 18 Aug 2025 23:07:43 +0300</pubDate>
+      <pubDate>Mon, 01 Sep 2025 11:26:17 +0000</pubDate>
       
       <guid>http://localhost:1313/categories/religion/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>UN in Focus</title>
+      <link>http://localhost:1313/categories/un-in-focus/</link>
+      <pubDate>Mon, 01 Sep 2025 10:15:57 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/un-in-focus/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Country Profile</title>
+      <link>http://localhost:1313/categories/country-profile/</link>
+      <pubDate>Mon, 01 Sep 2025 09:29:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/country-profile/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Culture</title>
+      <link>http://localhost:1313/categories/culture/</link>
+      <pubDate>Mon, 01 Sep 2025 09:29:26 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/culture/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>The Gordian Magazine</title>
+      <link>http://localhost:1313/categories/the-gordian-magazine/</link>
+      <pubDate>Mon, 01 Sep 2025 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/the-gordian-magazine/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Climate Emergency</title>
+      <link>http://localhost:1313/categories/climate-emergency/</link>
+      <pubDate>Sun, 31 Aug 2025 10:25:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/climate-emergency/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Campaigns</title>
+      <link>http://localhost:1313/categories/campaigns/</link>
+      <pubDate>Sat, 30 Aug 2025 19:36:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/campaigns/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Letters</title>
+      <link>http://localhost:1313/categories/letters/</link>
+      <pubDate>Sat, 30 Aug 2025 19:36:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/letters/</guid>
       <description></description>
       
     </item>
@@ -23,16 +103,6 @@
       <pubDate>Mon, 18 Aug 2025 12:00:06 +0300</pubDate>
       
       <guid>http://localhost:1313/categories/animal-rights/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Climate Emergency</title>
-      <link>http://localhost:1313/categories/climate-emergency/</link>
-      <pubDate>Mon, 18 Aug 2025 12:00:06 +0300</pubDate>
-      
-      <guid>http://localhost:1313/categories/climate-emergency/</guid>
       <description></description>
       
     </item>
@@ -78,61 +148,11 @@
     </item>
     
     <item>
-      <title>The Gordian Magazine</title>
-      <link>http://localhost:1313/categories/the-gordian-magazine/</link>
-      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-      
-      <guid>http://localhost:1313/categories/the-gordian-magazine/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Human Rights</title>
-      <link>http://localhost:1313/categories/human-rights/</link>
-      <pubDate>Tue, 15 Jul 2025 19:29:09 +0300</pubDate>
-      
-      <guid>http://localhost:1313/categories/human-rights/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>UN in Focus</title>
-      <link>http://localhost:1313/categories/un-in-focus/</link>
-      <pubDate>Fri, 11 Jul 2025 21:54:35 +0300</pubDate>
-      
-      <guid>http://localhost:1313/categories/un-in-focus/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Culture</title>
-      <link>http://localhost:1313/categories/culture/</link>
-      <pubDate>Thu, 19 Jun 2025 12:32:26 +0300</pubDate>
-      
-      <guid>http://localhost:1313/categories/culture/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Un Aligned News</title>
       <link>http://localhost:1313/categories/un-aligned-news/</link>
       <pubDate>Mon, 14 Apr 2025 17:05:25 +0300</pubDate>
       
       <guid>http://localhost:1313/categories/un-aligned-news/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Campaigns</title>
-      <link>http://localhost:1313/categories/campaigns/</link>
-      <pubDate>Wed, 12 Mar 2025 16:33:15 +0200</pubDate>
-      
-      <guid>http://localhost:1313/categories/campaigns/</guid>
       <description></description>
       
     </item>
@@ -173,16 +193,6 @@
       <pubDate>Fri, 17 Nov 2023 10:00:00 +0200</pubDate>
       
       <guid>http://localhost:1313/categories/women/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Country Profile</title>
-      <link>http://localhost:1313/categories/country-profile/</link>
-      <pubDate>Tue, 14 Nov 2023 07:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:1313/categories/country-profile/</guid>
       <description></description>
       
     </item>
@@ -293,16 +303,6 @@
       <pubDate>Sun, 11 Dec 2022 07:36:00 +0200</pubDate>
       
       <guid>http://localhost:1313/categories/health/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Technology</title>
-      <link>http://localhost:1313/categories/technology/</link>
-      <pubDate>Sun, 11 Dec 2022 07:36:00 +0200</pubDate>
-      
-      <guid>http://localhost:1313/categories/technology/</guid>
       <description></description>
       
     </item>

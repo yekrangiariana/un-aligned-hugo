@@ -91,8 +91,17 @@
                 {{ $articleSlug := . }}
                 {{ range $.Site.RegularPages }}
                   {{ if or (eq .Params.slug $articleSlug) (eq .RelPermalink (printf "/%s/" $articleSlug)) (strings.HasSuffix .RelPermalink (printf "/%s/" $articleSlug)) }}
-                    {{ range .Params.authors }}
-                      {{ $allAuthors = $allAuthors | append . }}
+                    {{ if .Params.authors }}
+                      {{ if reflect.IsSlice .Params.authors }}
+                        {{ range .Params.authors }}
+                          {{ $allAuthors = $allAuthors | append . }}
+                        {{ end }}
+                      {{ else }}
+                        {{ $allAuthors = $allAuthors | append .Params.authors }}
+                      {{ end }}
+                    {{ end }}
+                    {{ if .Params.author }}
+                      {{ $allAuthors = $allAuthors | append .Params.author }}
                     {{ end }}
                   {{ end }}
                 {{ end }}

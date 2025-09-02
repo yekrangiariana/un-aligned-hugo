@@ -1,7 +1,7 @@
 ---
 title: '"The Greatest Metaphysical Poet": Your Full Guide to John Donne’s Life, Career & Poems'
 date: 2021-02-11T14:00:00+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/john-donne-life-career-and-poems"
 categories:
   - "Culture"
@@ -32,7 +32,6 @@ In 1598 he was appointed Chief Secretary to the powerful Lord Keeper of England,
 ![](/images/John_Donne_house_Pyrford-copy-2-1024x768.jpg)
 
 Part of the house where Donne lived in Pyrford.
-
 
 ## **Almost undone**
 
@@ -71,7 +70,6 @@ The most famous poems of this period, to mention but a few, are:
 ![](/images/1600px-John_Donnes_Biathanatos-1024x768.jpg)
 
 Biathanatos comes from the Greek and means "life and death"
-
 
 Thematically, Donne’s poems take a twist for the Divine towards 1608, when he wrote _Biathanatos_, a treatise on the subject of suicide; _Pseudo-Martyr_, on the persecution of the Jesuits and their desire for martyrdom; and _Ignatius his Conclave_, written against the Jesuits.
 

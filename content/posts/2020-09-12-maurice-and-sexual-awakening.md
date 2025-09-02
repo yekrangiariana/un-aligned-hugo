@@ -1,11 +1,11 @@
 ---
 title: "Maurice and Sexual Awakening"
 date: 2020-09-12T10:55:38+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/maurice-and-sexual-awakening"
-categories: 
+categories:
   - "Culture"
-tags: 
+tags:
   - "Literature"
 image: "/images/10-1.jpg.webp"
 ---
@@ -14,7 +14,7 @@ Today I’d like to start a short cycle on love with a work about the “love th
 
 Maurice , written in 1913-14, was published posthumously in 1971, due to its too stark revelation of “human nature”. It is a Bildungsroman; a coming of age novel that follows the moral and psychological growth of the protagonist, Maurice.
 
-He does indeed grow and he develops from the naive boy who believed himself to be sick because of his love for another man, to the enlightened adult who understood and accepted the reality of his beautiful human nature. 
+He does indeed grow and he develops from the naive boy who believed himself to be sick because of his love for another man, to the enlightened adult who understood and accepted the reality of his beautiful human nature.
 
 The story starts when Maurice Hall, studying at Cambridge, falls in love with his friend and fellow student Clive Durham. Their relationship is a romantic one, but they are both not daring enough to make it a sexual one.
 
@@ -37,7 +37,7 @@ _“It comes to this then: there always have been people like me and always will
 
 _“That is so, Mr Hall; or, as psychiatry prefers to put it, there has been, is, and always will be every conceivable type of person. And you must remember that your type was once put to death in England.”_
 
-Maurice learns to accept his true nature and when he meets Alec Scudder, the gamekeeper at the Durham estate, he becomes both romantically and sexually involved with him. With Alec he feels the entirety of love, in its powerful emotional and physical completeness. He eventually decides to start a new life with his lover. 
+Maurice learns to accept his true nature and when he meets Alec Scudder, the gamekeeper at the Durham estate, he becomes both romantically and sexually involved with him. With Alec he feels the entirety of love, in its powerful emotional and physical completeness. He eventually decides to start a new life with his lover.
 
 _“Madness is not for everyone, but Maurice’s proved the thunderbolt that dispels the clouds.”_
 

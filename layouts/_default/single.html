@@ -257,7 +257,11 @@
           <div class="sidebar-item author-container">
             {{ if .Params.authors }}
               <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                {{ range $index, $author := .Params.authors }}
+                {{ $authorsList := .Params.authors }}
+                {{ if not (reflect.IsSlice $authorsList) }}
+                  {{ $authorsList = slice $authorsList }}
+                {{ end }}
+                {{ range $index, $author := $authorsList }}
                   {{ if $index }}<span class="author-separator"></span>{{ end }}
                   <a href="/authors/{{ $author | urlize }}/" itemprop="url">
                     <span itemprop="name">@{{ $author }}</span>
@@ -266,22 +270,18 @@
               </address>
             {{ else if .Params.author }}
               <!-- Handle both string and array formats for author field -->
-              {{ if reflect.IsSlice .Params.author }}
-                <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                  {{ range $index, $author := .Params.author }}
-                    {{ if $index }}<span class="author-separator">, </span>{{ end }}
-                    <a href="/authors/{{ $author | urlize }}/" itemprop="url">
-                      <span itemprop="name">@{{ $author }}</span>
-                    </a>
-                  {{ end }}
-                </address>
-              {{ else }}
-                <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
-                  <a href="/authors/{{ .Params.author | urlize }}/" itemprop="url">
-                    <span itemprop="name">@{{ .Params.author }}</span>
+              <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
+                {{ $authorsList := .Params.author }}
+                {{ if not (reflect.IsSlice $authorsList) }}
+                  {{ $authorsList = slice $authorsList }}
+                {{ end }}
+                {{ range $index, $author := $authorsList }}
+                  {{ if $index }}<span class="author-separator">, </span>{{ end }}
+                  <a href="/authors/{{ $author | urlize }}/" itemprop="url">
+                    <span itemprop="name">@{{ $author }}</span>
                   </a>
-                </address>
-              {{ end }}
+                {{ end }}
+              </address>
             {{ else if .Site.Params.author }}
               <address class="post-categories post-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
                 <a target="_blank" href="{{ .Site.Params.authorHomepage }}" itemprop="url">

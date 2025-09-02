@@ -2,7 +2,7 @@
 title: "English Poetry After WWII: The Rise and Evolution of Post-War Literature in The UK"
 description: "In a world recovering from the devastation of war, how did English literature find its footing? Here are the most pivotal figures and movements that reshaped the post-war literary landscape."
 date: 2023-06-11T08:30:00+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/english-poetry-after-world-war-ii"
 categories:
   - "Culture"
@@ -11,6 +11,7 @@ tags:
   - "Long Read"
 image: "/images/TOWARDS-THE-THIRD-MILLENNIUM-The-Gordian.jpg"
 ---
+
 ## **Post-War English Literature**
 
 As we have already seen while analysing the literary background of previous periods, the literature of each historical age often reflected the political and social situation of the time.
@@ -39,7 +40,6 @@ These poets focused on exploring and addressing the pressing issues of their tim
 
 W.H. Auden, Christopher Isherwood and Stephen Spender. Photo: Howard Coster. © National Portrait Gallery. Used under CC BY-NC-ND 3.0.
 
-
 Auden was particularly concerned about the dehumanising effect of modern society. His later poems revealed a touch of mysticism as he battled with his own spirituality. His main works in this period were The Age of Anxiety (1948), The Shield of Achilles (1959) and Homage to Clio (1960).
 
 Of the older poets, **John Betjeman** was perhaps the one who was most widely read and appreciated. His satirical light verse written in traditional forms and unique smooth rhythm, made him in 1958 a surprising bestseller. His Collected Poems sold over a hundred thousand copies in the original edition.
@@ -55,7 +55,6 @@ In the late 1940s and the early 1950s he became more aloof and depressed. His po
 ![Dylan Thomas](/images/Dylan-Thomas.jpg)
 
 Dylan Thomas
-
 
 Deaths and Entrances, for example, which was published in 1946, was an intense picture of London under the enemy bombs. Thomas also experimented with different styles and imagery.
 
@@ -101,7 +100,6 @@ Together with these two poets in The Movement, there were **Philip Larkin, Kings
 
 Top to bottom, left to right: Robert Conquest, Donald Davie, Kingsley Amis and Elizabeth Jennings
 
-
 Thom Gunn stressed mood, intentionally creating variations of it in his different poems. While a student at Cambridge, Gunn developed a theory. He observed that everybody seemed to behave differently when dealing with different people and in different circumstances. Therefore, he believed that it would be best to be utterly conscious of this and to use direct roles consciously.
 
 This is evident both in his first book, Fighting Terms (1954) and in his second, The Sense of Movement (1957). The poet, in his way, also studied the various sides of contemporary life. It was, however, in Gunn's second book that energy began to work its way to the surface. His poem To Yvor Winters, written for his teacher when Gunn was at Stanford University in California, is a case in point.
@@ -119,7 +117,6 @@ The pose that was particularly favoured was that of the tough non-conformist. Th
 ![ Philip Larkin ](/images/Philip-Larkin-.jpg)
 
 Philip Larkin © Simon Knott/Flickr
-
 
 In the poem On The Move, for example, Gunn described a gang of toughs who raced their motorcycles across the landscape without a precise direction in mind. This disquiet was imbued with various symbols which dealt with life's problems and complications:
 
@@ -145,7 +142,6 @@ In the expansive landscape of post-war poetry, an alternative school known as Th
 
 Left to right: Peter Porter, Edward Lucie-Smith and George Macbeth
 
-
 The Group carved a distinct niche for themselves, representing a cadre of cultural elites, unapologetically crafting their work for a highly discerning reader.
 
 Among the many noteworthy poets who were part of The Group, three figures stood out. **Peter Porter**, the Australian-born poet who imbued his work with a profound sense of irony [reminiscent of John Donne,](https://un-aligned.org/culture/donne-no-man-is-an-island-and-feeling-a-oneness-with-the-rest-of-humanity/) **George Macbeth**, whose lyrical narrative style echoed that of Dylan Thomas, and **Edward Lucie-Smith**, a critic and poet whose versatility and eclecticism bore a likeness to T.S. Eliot.
@@ -159,7 +155,6 @@ Hughes’s first volume of poetry, The Hawk in the Rain (1957), was powerful and
 ![Ted Hughes](/images/Ted-Hughes.jpg)
 
 Ted Hughes
-
 
 Seen as a whole, the picture presented by post-war poetry up to our days is one of striking characteristics. Human experience became the essence while epic, bombastic, heroic and tragic poetry was dropped altogether.
 
@@ -178,7 +173,6 @@ The Times Literary Supplement once wrote of his work: “At the root of every wo
 ![Heaney in 1982](/images/Seamus-Heaney.jpg)
 
 Heaney in 1982
-
 
 His poems portray a particular love for Irish life and heritage, placing importance on the continuity of family traditions. The past is very dear to Heaney. He is very conservative in relation to his past and feels the need to preserve it. He believes that the past can remain, if we reinterpret it, in our present.
 

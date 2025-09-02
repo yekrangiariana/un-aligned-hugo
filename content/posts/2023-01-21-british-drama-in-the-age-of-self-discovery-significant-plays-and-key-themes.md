@@ -2,7 +2,7 @@
 title: "British Drama in the Age of Self-Discovery: Significant Plays and Key Themes"
 description: "Uncovering the hidden gems of 20th century British drama."
 date: 2023-01-21T09:30:00+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/british-drama-in-the-age-of-self-discovery-significant-plays-and-key-themes"
 categories:
   - "Culture"
@@ -11,6 +11,7 @@ tags:
   - "United Kingdom"
 image: "/images/British-Drama-in-the-Age-of-Self-Discovery-Significant-Plays-and-Key-Themes-.jpg"
 ---
+
 In last month’s issue we surveyed the two literary genres of poetry and the novel at the turn of the 20th century which we defined as [an Age of Self-Discovery](https://un-aligned.org/culture/how-the-age-of-self-discovery-changed-the-english-poetry-and-the-novel-forever/).
 
 We saw how the tide began to change during the last two decades of Queen Victoria’s reign, when some writers sought a newer and fresher approach to literature.
@@ -28,7 +29,6 @@ The most representative writers of this period belonged to the Irish Literary Th
 ![W.B. Yeats, Lady Augusta Gregory and Sean O'Casey.](/images/The-Irish-Literary-Theatre-W.B.-Yeats-Lady-Augusta-Gregory-and-Sean-OCasey.-1024x623.jpg)
 
 The Irish Literary Theatre was founded in Dublin, Ireland, in 1899. It proposed to give performances in Dublin of Irish plays by Irish authors. From left to right, W.B. Yeats, Sean O'Casey and Lady Augusta Gregory.
-
 
 The literary career of Sean O'Casey commenced in 1923 with his involvement in the Abbey Theatre in Dublin. By that date he had written four plays: The Frost in the Flower, The Harvest Festival, The Crimson and the Tri-Colour and The Shadow of a Gunman.
 
@@ -50,7 +50,6 @@ Set in 1922 during the Civil War between Irish republicans and supporters of the
 
 Sara Allgood and Kathleen O'Regan in Juno and the Paycock (1929) © Wardour Films
 
-
 The literary critic Herbert Goldstone believed that this play could be ‘underrated’ or ‘overrated’. He wrote in his, In Search of Community:
 
 "We can all too easily both underrate and overrate Juno and the Paycock, the brilliantly amusing but sometimes heart-rending portrayal of the disintegration of a Dublin tenement family, the Boyles. We can underrate the play if we merely think of it as a lively, free-wheeling comedy that suddenly takes a tragic turn at the end. While in some respects the tragedy is forced and sudden, the comedy remains an integral part of Casey's vision in which folly, selfishness, and moral chaos have grim, tragic consequences. On the other hand, we overrate the play if we assert that its affirmation of responsibility and elemental family love, embodied in Mrs Boyle (Juno), is as sustained or powerful as the irresponsibility and selfishness embodied in Boyle himself (the paycock)."
@@ -62,7 +61,6 @@ The story did not follow the parameters of the staunch nationalists who saw Irel
 ![Right William Somerset Maugham, left John Galsworthy.](/images/William-Somerset-Maugham-and-John-Galsworthy-1024x623.jpg)
 
 Right William Somerset Maugham, left John Galsworthy.
-
 
 William Somerset Maugham and John Galsworthy as the writers of Of Human Bondage and The Forsythe Saga, were also very successful playwrights. Their works did not show any significant forms of experimentation or innovation, but nevertheless they excelled respectively in wit, satire and structural technique, and realistic social content.
 
@@ -79,7 +77,6 @@ The main exponents of this trend were T.S. Eliot, who in 1935 wrote Murder in th
 ![T.S. Eliot](/images/Thomas-Sterns-Eliot.jpg)
 
 Eliot in 1923 by Lady Ottoline Morrell © Open source
-
 
 T.S. Eliot was definitely the most important of the poetic playwrights. He was already an established poet by the time he wrote Murder in the Cathedral. His Prufrock and Other Observations, published in 1917, and The Waste Land, published in 1922, won him not only respect as a major poet of the times, but also recognition as one of the most influential intellectuals of world literature.
 
@@ -98,7 +95,6 @@ The story is about the life of Thomas à Becket whose martyrdom in Canterbury wa
 ![Screenshot of Murder in the Cathedral (1951)](/images/Murder-in-the-Cathedral-1951-1024x582.jpg)
 
 Screenshot of Murder in the Cathedral (1951), directed by George Hoellering. Watch the full film on [YouTube](https://www.youtube.com/watch?v=tv6244CBnLY).
-
 
 Henry ll was the cause of Becket's assassination, which took place in Canterbury cathedral on December 29th 1170. The play is not only dramatic in its content but also in its structure.
 

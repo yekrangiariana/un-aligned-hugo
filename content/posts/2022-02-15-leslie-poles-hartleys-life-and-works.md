@@ -2,7 +2,7 @@
 title: "The master of the Bildungsroman: Leslie Poles Hartley’s life and works"
 description: "Born in 1895 L.P Hartley was an English poet and author of many notable works including The Go-Between and The Eustace and Hilda trilogy. Learn more about his life and works."
 date: 2022-02-15T10:45:55+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/leslie-poles-hartleys-life-and-works"
 categories:
   - "Culture"

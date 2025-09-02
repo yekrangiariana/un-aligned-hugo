@@ -1,19 +1,19 @@
 ---
-title: "The Dystopian Novel: \"Beyond Utopia\"!"
+title: 'The Dystopian Novel: "Beyond Utopia"!'
 date: 2021-08-09T11:00:00+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/the-dystopian-novel-beyond-utopia"
-categories: 
+categories:
   - "Culture"
   - "Global Issues"
-tags: 
+tags:
   - "Literature"
 image: "/images/George-Orwell-1981.jpg"
 ---
 
-The dystopian novel developed during the 20th century when the reality of humanity’s volatile condition became evident after both the first and second world wars. The word, dystopia, refers to Utopia, the fictitious name of an ideal country, coined by Thomas More in his famous book Libellus ... de optimo reipublicae statu deque nova Insula [Utopia (1516)](https://www.gutenberg.org/ebooks/2130). 
+The dystopian novel developed during the 20th century when the reality of humanity’s volatile condition became evident after both the first and second world wars. The word, dystopia, refers to Utopia, the fictitious name of an ideal country, coined by Thomas More in his famous book Libellus ... de optimo reipublicae statu deque nova Insula [Utopia (1516)](https://www.gutenberg.org/ebooks/2130).
 
-It was designed as a political, social and religious system which was not supposed to be reflected in reality, but proposed as an ideal model.  
+It was designed as a political, social and religious system which was not supposed to be reflected in reality, but proposed as an ideal model.
 
 ## Utopia was later seen as the panacea for the future
 
@@ -27,9 +27,9 @@ The two giants of the dystopian novel were Aldous Huxley, with his _[Brave New W
 
 ## **Empty values and the Brave New World**
 
-The scientifically perfect society of the _Brave New World_ portrayed the dangers of life caught between cold technology and empty values. The novel was set in A. F. 632, which corresponded to the year 2540. 
+The scientifically perfect society of the _Brave New World_ portrayed the dangers of life caught between cold technology and empty values. The novel was set in A. F. 632, which corresponded to the year 2540.
 
-In that brave new world, in fact, time was counted from when Henry Ford produced his first economic automobile model, commencing that mass production system which was to make cars a means of transportation available to everybody. 
+In that brave new world, in fact, time was counted from when Henry Ford produced his first economic automobile model, commencing that mass production system which was to make cars a means of transportation available to everybody.
 
 Huxley’s aim was to make people reflect on the effects that a misused concept of scientific advancement could have on mankind and society. A case in point was the way children were generated. They were no longer conceived through sexual intercourse, but generated through chemical processes similar to that of the assembly line.
 
@@ -37,7 +37,7 @@ Huxley’s aim was to make people reflect on the effects that a misused concept 
 
 This irony was also evident in the title of the novel itself, which is actually a quotation from Shakespeare’s play _The Tempest_. The words, ‘brave new world’, were pronounced by Miranda when she saw some new people on the deserted island on which she and her father lived. Miranda was fascinated by the arrival of these new people and believed them to be the product of her father’s magic. Unlike Shakespeare’s _[Tempest](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjz0cyM0o_yAhWErYsKHbD_CcIQFjAAegQIBRAD&url=http%3A%2F%2Fshakespeare.mit.edu%2Ftempest%2Ffull.html&usg=AOvVaw0ROdd3n7ZHVDUtAO04vuVm)_, however, where the brave new world stood for a world of magic and poetry, Huxley’s brave new world had no magic, and certainly no poetry.
 
-Like Aldous Huxley, George Orwell also warned us about the dangers of the negative development society was undertaking. However, unlike Huxley, who warned us about the technological and scientific would-be perfection, Orwell was more concerned with the political aspects. 
+Like Aldous Huxley, George Orwell also warned us about the dangers of the negative development society was undertaking. However, unlike Huxley, who warned us about the technological and scientific would-be perfection, Orwell was more concerned with the political aspects.
 
 ## Orwell’s **Nineteen-Eighty-Four (1984): dark and disquieting** 
 
@@ -58,11 +58,11 @@ The Party also modified and adapted the language of the people, in order to be a
 This was the aim of the Party, and its slogan was explicit:
 
 ```
-“War is Peace, Freedom is Slavery, Ignorance Is Strength”.  
+“War is Peace, Freedom is Slavery, Ignorance Is Strength”. 
 
 ```
 
-The description of the ministries of Love, Truth and Plenty confirmed the Party’s aim, since they were working to achieve the exact opposite of what they stood for. The Party was able to manipulate everybody’s personality. 
+The description of the ministries of Love, Truth and Plenty confirmed the Party’s aim, since they were working to achieve the exact opposite of what they stood for. The Party was able to manipulate everybody’s personality.
 
 ## **A wider world order**
 

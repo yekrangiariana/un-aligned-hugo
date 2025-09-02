@@ -1,9 +1,9 @@
 ---
 title: "The Blame Game: Blame Breeds Blame in a Never Ending Game of Hate"
 date: 2020-10-14T10:55:00+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "global-issues/the-blame-game"
-categories: 
+categories:
   - "Global Issues"
 image: "/images/6.png.webp"
 ---
@@ -17,13 +17,13 @@ Our daily strife
 I blame the heat  
 For my fatigue  
 I blame the cold  
-For my clogged nose 
-  
+For my clogged nose
+
 I blame them all  
 For my bad traits  
 It’s all their fault  
 I live in hate
-  
+
 And when I die  
 I’ll blame my God  
 For a hateful life  
@@ -31,7 +31,7 @@ A painful death
 
 ---
 
-We live in a culture of litigation. We sue Starbucks if their coffee is too hot and scalds us. We sue our hosts if we get involved in an alcohol-related accident after drinking at their home. We sue teachers if our children fall and hurt themselves at school. We would sue God if we could, for making us sick, for making us unhappy, for not preventing the death of a loved one. This is the blame game. 
+We live in a culture of litigation. We sue Starbucks if their coffee is too hot and scalds us. We sue our hosts if we get involved in an alcohol-related accident after drinking at their home. We sue teachers if our children fall and hurt themselves at school. We would sue God if we could, for making us sick, for making us unhappy, for not preventing the death of a loved one. This is the blame game.
 
 21st century politics works in pretty much the same way. In political debates we rarely witness articulate, analytical interaction. When a politician expresses an opinion, his/her adversary never listens to understand, but only to contradict and to obsessively dig out the slightest, insignificant flaw.  It is the petty flaw that scores points, not the value of one’s own ideas. Blame your opponent and bless yourself.
 
@@ -61,6 +61,6 @@ Reconciliation supplanted blame. Reconciliation meant freedom for all, not only 
 
 _“For to be free is not merely to cast off one’s chains, but to live in a way that respects and enhances the freedom of others.”_
 
-Blame bears no fruit.  Blame breeds blame in a never ending game of hate. Mandela said it best in his autobiography, _Long Walk to Freedom_ (1995)
+Blame bears no fruit.  Blame breeds blame in a never ending game of hate. Mandela said it best in his autobiography, *Long Walk to Freedom* (1995)
 
 _“No one is born hating another person because of the color of his skin, or his background, or his religion. They must learn to hate, and if they can learn to hate, they can be taught to love, for love comes more naturally to the human heart than its opposite.”_

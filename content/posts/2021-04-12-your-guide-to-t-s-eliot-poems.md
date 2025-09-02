@@ -1,11 +1,11 @@
 ---
 title: "Your guide to T.S Eliot poems - April is the cruellest month"
 date: 2021-04-12T11:13:30+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/your-guide-to-t-s-eliot-poems"
-categories: 
+categories:
   - "Culture"
-tags: 
+tags:
   - "Literature"
 image: "/images/T.S-Eliot-1.jpg"
 ---
@@ -16,7 +16,7 @@ His work reflected the upheaval of the social order in the aftermath of World Wa
 
 ## **Portrayals of an arid society**
 
-In 1917, Eliot published his first book of Poems, _Prufrock and other Observatories_ and later in 1922, _The Waste Land_. His reputation as a poet grew quickly and with such great attention came harsh criticism. His poetry blended free verse, rhyme and highly structured poetic compositions. It was a revolution both in style and in content. 
+In 1917, Eliot published his first book of Poems, _Prufrock and other Observatories_ and later in 1922, _The Waste Land_. His reputation as a poet grew quickly and with such great attention came harsh criticism. His poetry blended free verse, rhyme and highly structured poetic compositions. It was a revolution both in style and in content.
 
 Eliot’s _The Love Song of J. Alfred Prufrock_, portrays an arid society that had become fake and materialistic. The main character, Alfred Prufrock, a middle-aged self-conscious and awkward man, is well aware that his society is flawed and phoney. Despite his insecurity and self-consciousness,
 
@@ -96,13 +96,13 @@ She smoothes her hair with automatic hand,
 And puts a record on the gramophone.
 ```
 
-In this extract we are introduced to a clerk and a typist who are lovers. Eliot wants to show us how both love and sex have become arid and emotionless.  The typist lives in a dreary and untidy little apartment. She prepares a meal for her lover, but it is not a candlelit romantic dinner. On the contrary, she “…lays out food; in tins” within a disheartening backdrop. There is nothing romantic about the setting. 
+In this extract we are introduced to a clerk and a typist who are lovers. Eliot wants to show us how both love and sex have become arid and emotionless.  The typist lives in a dreary and untidy little apartment. She prepares a meal for her lover, but it is not a candlelit romantic dinner. On the contrary, she “…lays out food; in tins” within a disheartening backdrop. There is nothing romantic about the setting.
 
 > The sexual encounter is representative of a barren relationship in a world where all are dead and dying.
 
 At this point one would imagine that, if the romance is missing, perhaps the sex will make up for it. After all, sex itself can be a positive value if enjoyed reciprocally by the lovers. However, even the sexual encounter is representative of a barren relationship in a world where all are dead and dying. The clerk only wants to perform the physical act of sex and is not concerned with the feelings of the woman he is with. What is worse is the woman’s reaction to his advances. She is completely frigid and unresponsive. His response to her frigidity is also surprising. Rather than being upset or hurt, the clerk “makes a welcome of indifference”. He is content because this means that he can have sex without any effort to interact or to woo his partner. There is no human interaction and both accept this. He could be making love to a mannequin, “His vanity requires no response”, and she is completely oblivious of what is going on. Her zombielike reaction after the act is over, is even more gruelling. All she has to say is, “Well now that’s done: and I’m glad it’s over.”
 
-Both man and woman are here wrapped up in the same aloof monotony, detached from all emotional contact. Her final robotic action of playing a record on the gramophone is symptomatic of the mechanical cycle of modern life, that has been stripped of all humanity. 
+Both man and woman are here wrapped up in the same aloof monotony, detached from all emotional contact. Her final robotic action of playing a record on the gramophone is symptomatic of the mechanical cycle of modern life, that has been stripped of all humanity.
 
 ## **The ultimate alienation**
 

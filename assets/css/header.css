@@ -29,7 +29,7 @@
 }
 
 body.dark-mode .alert-text {
-  color: #121212
+  color: #121212;
 }
 
 .alert-close {
@@ -220,11 +220,9 @@ body.dark-mode .alert-text {
 /* Bottom categories area in right column */
 .header-bottom-categories {
   width: 100%;
-  overflow: hidden; /* Ensure no horizontal scrollbar appears outside the .category-nav */
+  overflow: hidden;
   position: relative;
-  background-color: var(
-    --menu-dark-color
-  ); /* Match the category-nav background color */
+  background-color: var(--menu-dark-color);
 }
 
 /* Left fade out removed as per request */

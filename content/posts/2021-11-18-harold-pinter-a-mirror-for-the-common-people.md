@@ -1,11 +1,11 @@
 ---
 title: "Harold Pinter: a mirror for the common people"
 date: 2021-11-18T12:50:05+02:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/harold-pinter-a-mirror-for-the-common-people"
-categories: 
+categories:
   - "Culture"
-tags: 
+tags:
   - "Literature"
 image: "/images/Harold-Pinter_-a-mirror-for-the-common-people.jpg"
 ---
@@ -14,15 +14,15 @@ In the last issue we saw how Samuel Beckett and Harold Pinter [developed a new d
 
 ## Early Life
 
-Harold Pinter was born in Hackney, East London, in 1930. His father was a Jewish tailor who could barely make ends meet. Harold was sent to a grammar school where he remained until the age of seventeen. He then left school to undertake a career in acting. He first joined the Royal Academy of Dramatic Arts and the Central School of Speech and Drama, and subsequently became a professional actor working for the BBC and for various theatres across the United Kingdom. He adopted the stage name of David Baron and acted for a prestigious Shakespearean company. During this period he began writing his first novel, [_The Dwarfs_](https://www.amazon.com/Dwarfs-Harold-Pinter/dp/057116417X)_,_ which he never completed. He also wrote various poems. 
+Harold Pinter was born in Hackney, East London, in 1930. His father was a Jewish tailor who could barely make ends meet. Harold was sent to a grammar school where he remained until the age of seventeen. He then left school to undertake a career in acting. He first joined the Royal Academy of Dramatic Arts and the Central School of Speech and Drama, and subsequently became a professional actor working for the BBC and for various theatres across the United Kingdom. He adopted the stage name of David Baron and acted for a prestigious Shakespearean company. During this period he began writing his first novel, [_The Dwarfs_](https://www.amazon.com/Dwarfs-Harold-Pinter/dp/057116417X)_,_ which he never completed. He also wrote various poems.
 
-In 1957 he wrote his first play entitled [_The Room_](https://en.wikipedia.org/wiki/The_Room_\(play\)). Pinter wrote this one-act play in four days for the drama department of Bristol University. It was performed there in May 1957. Only in 1960 did his work achieve recognition with the production of [_The_ _Caretaker_](https://en.wikipedia.org/wiki/The_Caretaker). Pinter produced significant literature and also works for television and cinema until his death in 2008.
+In 1957 he wrote his first play entitled [_The Room_](<https://en.wikipedia.org/wiki/The_Room_(play)>). Pinter wrote this one-act play in four days for the drama department of Bristol University. It was performed there in May 1957. Only in 1960 did his work achieve recognition with the production of [_The_ _Caretaker_](https://en.wikipedia.org/wiki/The_Caretaker). Pinter produced significant literature and also works for television and cinema until his death in 2008.
 
 ## Literary Career
 
 Pinter's first play, _The Room_ was about the fears and anxieties of an old woman who believed that some mysterious beings were about to deprive her of the room in which she lived. At first this play did not achieve significant success, but by 1960 Pinter's name was on everyone's tongue thanks to the production of _The Caretaker_. This very successful three-act play was about two brothers who hosted an old man in their room but eventually got rid of him. On the wake of this success the critics turned to the previous plays Pinter had published. Apart from _The Room_, he had staged _The Birthday Party_ in 1958, and _The Dumb Waiter_ in 1959. Both plays were back on stage achieving great success.
 
-_The Birthday Party_ is reminiscent of Kafka's _The Trial_ and focuses on the ruthless interrogation of an unemployed pianist by two unknown men. 
+_The Birthday Party_ is reminiscent of Kafka's _The Trial_ and focuses on the ruthless interrogation of an unemployed pianist by two unknown men.
 
 _The Dumb Waiter_ is about two professional killers, Gus and Ben, who are employed by a mysterious organization. They are sent to a basement room to wait for the order to kill someone, who they apparently both don't know. Eventually, however, we realize that the victim in question is one of the two killers.
 

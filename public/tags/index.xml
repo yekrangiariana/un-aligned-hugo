@@ -6,13 +6,73 @@
     <description>Recent content in Tags on UN-aligned</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-uk</language>
-    <lastBuildDate>Mon, 18 Aug 2025 23:07:43 +0300</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Sep 2025 11:26:17 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gaza</title>
       <link>http://localhost:1313/tags/gaza/</link>
-      <pubDate>Mon, 18 Aug 2025 23:07:43 +0300</pubDate>
+      <pubDate>Mon, 01 Sep 2025 11:26:17 +0000</pubDate>
       
       <guid>http://localhost:1313/tags/gaza/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>UNGA Debates</title>
+      <link>http://localhost:1313/tags/unga-debates/</link>
+      <pubDate>Mon, 01 Sep 2025 10:15:57 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/unga-debates/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>United States</title>
+      <link>http://localhost:1313/tags/united-states/</link>
+      <pubDate>Mon, 01 Sep 2025 10:15:57 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/united-states/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Art</title>
+      <link>http://localhost:1313/tags/art/</link>
+      <pubDate>Sun, 31 Aug 2025 19:35:29 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/art/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Environment Report</title>
+      <link>http://localhost:1313/tags/environment-report/</link>
+      <pubDate>Sun, 31 Aug 2025 10:25:16 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/environment-report/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Journalism</title>
+      <link>http://localhost:1313/tags/journalism/</link>
+      <pubDate>Sat, 30 Aug 2025 19:36:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/journalism/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>United Nations</title>
+      <link>http://localhost:1313/tags/united-nations/</link>
+      <pubDate>Sat, 30 Aug 2025 19:36:11 +0000</pubDate>
+      
+      <guid>http://localhost:1313/tags/united-nations/</guid>
       <description></description>
       
     </item>
@@ -23,16 +83,6 @@
       <pubDate>Mon, 18 Aug 2025 23:07:43 +0300</pubDate>
       
       <guid>http://localhost:1313/tags/israel/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>United States</title>
-      <link>http://localhost:1313/tags/united-states/</link>
-      <pubDate>Mon, 18 Aug 2025 23:07:43 +0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/united-states/</guid>
       <description></description>
       
     </item>
@@ -63,26 +113,6 @@
       <pubDate>Mon, 18 Aug 2025 10:40:37 +0300</pubDate>
       
       <guid>http://localhost:1313/tags/new-solutions-with-omar/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Journalism</title>
-      <link>http://localhost:1313/tags/journalism/</link>
-      <pubDate>Mon, 11 Aug 2025 19:43:10 +0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/journalism/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>United Nations</title>
-      <link>http://localhost:1313/tags/united-nations/</link>
-      <pubDate>Fri, 11 Jul 2025 21:54:35 +0300</pubDate>
-      
-      <guid>http://localhost:1313/tags/united-nations/</guid>
       <description></description>
       
     </item>
@@ -128,16 +158,6 @@
     </item>
     
     <item>
-      <title>Environment Report</title>
-      <link>http://localhost:1313/tags/environment-report/</link>
-      <pubDate>Sun, 17 Nov 2024 12:37:38 +0200</pubDate>
-      
-      <guid>http://localhost:1313/tags/environment-report/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Long Read</title>
       <link>http://localhost:1313/tags/long-read/</link>
       <pubDate>Thu, 09 May 2024 09:17:12 +0300</pubDate>
@@ -153,16 +173,6 @@
       <pubDate>Sun, 07 Apr 2024 17:55:03 +0300</pubDate>
       
       <guid>http://localhost:1313/tags/iran/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Art</title>
-      <link>http://localhost:1313/tags/art/</link>
-      <pubDate>Mon, 15 Jan 2024 10:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:1313/tags/art/</guid>
       <description></description>
       
     </item>
@@ -293,16 +303,6 @@
       <pubDate>Tue, 14 Nov 2023 08:02:00 +0200</pubDate>
       
       <guid>http://localhost:1313/tags/kosovo/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>China</title>
-      <link>http://localhost:1313/tags/china/</link>
-      <pubDate>Tue, 14 Nov 2023 07:00:00 +0200</pubDate>
-      
-      <guid>http://localhost:1313/tags/china/</guid>
       <description></description>
       
     </item>

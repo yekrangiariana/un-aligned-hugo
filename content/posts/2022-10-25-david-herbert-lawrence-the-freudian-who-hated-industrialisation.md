@@ -2,7 +2,7 @@
 title: "David Herbert Lawrence: The Freudian who hated industrialisation"
 description: "David Herbert Lawrence has captivated the imagination with his rich and substantial prose, painting a clear picture of reality with spontaneous language."
 date: 2022-10-25T11:00:00+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/david-herbert-lawrence-the-freudian-who-hated-industrialisation"
 categories:
   - "Culture"
@@ -10,6 +10,7 @@ tags:
   - "Literature"
 image: "/images/David-Herbert-Lawrence-The-Freudian-who-hated-industrialisation-.jpg"
 ---
+
 ## Early Life
 
 David Herbert Lawrence was born on the 11th September 1885 at Eastwood, a poor small mining town near Nottingham. He was the fourth of five children. His father was an uneducated collier who was fond of drinking and having a good time. His mother, on the contrary, was a well-educated retired teacher whose determination and puritanical strength of character greatly influenced her son's psyche. The social difference between D.H. Lawrence's parents was the major cause of the endless quarrels and rows that used to take place in the Lawrence family.
@@ -19,7 +20,6 @@ At the age of thirteen, Lawrence applied for a scholarship to Nottingham High Sc
 ![Sons and  Mothers](/images/David-Herbert-Lawrence-Sonslovers.jpg)
 
 The cover of Sons and Mothers by David Lawrence.
-
 
 Lawrence, who had always been a sickly child, fell seriously ill with pneumonia. Lydia Lawrence, his mother, dedicated her heart and soul to her son's physical well-being and felt that she was going to lose him. This created an almost morbid attachment which was to emerge so vividly in one of D.H. Lawrence's most famous novels, Sons and Lovers.
 
@@ -35,7 +35,6 @@ In March of that year Lawrence met the person who was to become his lifelong par
 
 David Herbert Lawrence & Frieda von Richthofen were married in 1914 and settled in south of England. Colorised photo: Photo by the UN-aligned design team.
 
-
 After World War One broke out, Lawrence had to face two serious problems. The first was the hostility towards him by the British authorities, who were aware of his anti-war position and who regarded his wife, a German, with great suspicion. At one stage Lawrence was actually suspected of being a spy for Germany. Their passports were confiscated and life at Zennor, in Cornwall, where they had settled, became unbearable. The second problem for Lawrence was the British censorship, which labelled his work as obscene. The first novel which was the target of the Public Morality Council was The Rainbow, published in September 1915.
 
 After the war the Lawrences could finally travel again. On the restitution of their passports, they left England for good and by March 1920 they settled in Taormina, in Sicily, where they remained for two years. Being totally fed up with Europe they then travelled the world, visiting Ceylon, Australia, America and Mexico.
@@ -50,7 +49,6 @@ The restless and adventurous life of D.H. Lawrence has captivated the imaginatio
 
 The cover of The White Peacock which was Lawrence's first novel.
 
-
 D.H. Lawrence started writing his first novels when he was still in his early twenties at Croydon. In 1911 he released The White Peacock which was his very first publication, and in the following year The Trespasser. The former novel, published by Heinemann, foreshadowed Lawrence's interest in the intricate relationships between men and women, while the latter portrayed his life in Croydon.
 
 Lawrence had also been working on an autobiographical novel which he entitled Paul Morel. This novel was eventually published in 1913 as Sons and Lovers and is one of his most well-known books. Jessie Chambers, who had read the manuscript before its publication, noted that "Lawrence possessed the miraculous power of translating the raw material of life into magnificent form". The novel reflected his own experience with his mother, her stifling love which verged on obsession and his own subsequent psychological development.
@@ -62,7 +60,6 @@ In 1922 Lawrence published the novel Aaron's Rod, a collection of short stories,
 ![Lady Chatterley's Lover cover](/images/Lady_chatterleys_lover_1932_UK_Secker.png)
 
 Lawrence's Lady Chatterley's Lover was banned as obscene only to be released in its full edition in 1960, over 30 years after its publication.
-
 
 In 1928 Lawrence saw the publication and subsequent confiscation of his most notorious novel, Lady Chatterley's Lover. The novel explored the psychology of sexuality and of social standing and it attacked industrialism in general. The story revolved around Lady Chatterley who was happily married to a handsome, upper-class lord. Tragically, due to a war injury, he became totally impotent. He obviously still loved his wife and she loved him. They lived on happily together, but their sexless relationship developed into frustration. Her need for sexual satisfaction was finally appeased when she commenced a relationship with the low-class gamekeeper who, although uncouth and unrefined, made Lady Chatterley feel her womanhood and her sexuality. The Freudian implications and the deep psychoanalytical study of sexuality was unfortunately not appreciated by British society. The book was banned as obscene only to be released in its full edition in 1960, over 30 years after its publication. Just before his death, in 1930, Lawrence wrote a very interesting essay on his notorious publication, A Propos of Lady Chatterley's Lover (1930).
 

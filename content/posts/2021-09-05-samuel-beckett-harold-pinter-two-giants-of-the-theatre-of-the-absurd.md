@@ -1,16 +1,16 @@
 ---
 title: "Samuel Beckett & Harold Pinter: 2 Giants of the Theatre of the Absurd"
 date: 2021-09-05T16:53:55+03:00
-authors: ["alex.liberto"]
+authors: ["Alex Liberto"]
 url: "culture/samuel-beckett-harold-pinter-two-giants-of-the-theatre-of-the-absurd"
-categories: 
+categories:
   - "Culture"
-tags: 
+tags:
   - "Literature"
 image: "/images/Giants-of-the-Theatre-of-the-Absurd-.jpg"
 ---
 
-In [the last issue](https://un-aligned.org/tag/literature/) we saw how some 20th century writers envisioned [a dystopian future](https://un-aligned.org/global-issues/the-dystopian-novel-beyond-utopia/) in reaction to the two world wars and to the dwindling human values. Protesting against society and the situation of man, but in a different way, were the giants of the Theatre of the Absurd Samuel Beckett and Harold Pinter. Both playwrights developed a new drama which was characterised by features that had nothing in common with the prevailing criteria of the time. 
+In [the last issue](https://un-aligned.org/tag/literature/) we saw how some 20th century writers envisioned [a dystopian future](https://un-aligned.org/global-issues/the-dystopian-novel-beyond-utopia/) in reaction to the two world wars and to the dwindling human values. Protesting against society and the situation of man, but in a different way, were the giants of the Theatre of the Absurd Samuel Beckett and Harold Pinter. Both playwrights developed a new drama which was characterised by features that had nothing in common with the prevailing criteria of the time.
 
 ## **Samuel Beckett**: **Waiting endlessly**
 
@@ -18,7 +18,7 @@ Samuel Beckett's _Waiting for Godot_ (1952) shocked the traditional critics who 
 
 Time loses all sense and meaning. In two days, a dead, withered tree regains its full bloom. Two characters, Pozzo and Lucky, who were normal on the first day, both have disabilities on the second, Pozzo is blind and Lucky is dumb. What is more surprising is that we learn that they have been blind and dumb for a long time. This surrealistic quality of the play is also evident in the static development of the two main characters, Vladimir and Estragon. They talk to each other but they do not communicate. They take decisions which they never follow. They wait endlessly for Godot who never appears. The whole work is more like dramatised poetry, or music.
 
-Herbert Blau, who directed the play for 1400 convicts at San Quentin penitentiary in 1957, compared the play to a piece of jazz music in which one could search for any interpretation of feeling or understanding. Referring to jazz, which is characterised by improvisation and not altogether harmonious rhythm, helps us understand the definition of Absurd which, in musical terminology, actually means out of harmony. 
+Herbert Blau, who directed the play for 1400 convicts at San Quentin penitentiary in 1957, compared the play to a piece of jazz music in which one could search for any interpretation of feeling or understanding. Referring to jazz, which is characterised by improvisation and not altogether harmonious rhythm, helps us understand the definition of Absurd which, in musical terminology, actually means out of harmony.
 
 ## **Beckett’s Style and Themes**
 
@@ -58,7 +58,7 @@ Pinter belongs to the Theatre of the Absurd and owes a lot to Beckett. However, 
 
 A typical characteristic of Harold Pinter is his ability to describe the raw reality of life's stereotypical repetitive nature, highlighting at the same time the sense of doom and danger hovering overhead.
 
-Pinter is also quite unique in his use of language. He skilfully zeroes in on the lack of rationality in man's life through the use of language, or many a time, through the absence of language, hence the renowned expression, ‘Pinter pause’. This extreme use of silence as a tool to convey certain messages is evident in many plays. In _[A Slight Ache](https://literariness.org/wp-content/uploads/2019/06/Literariness.org-Pinter-Harold-Harold-Pinter-Plays-1-The-Birthday-Party_-The-Room_-The-Dumb-Waiter_-A-Slight-Ache_-The-Hothouse_-A-Night-Out_-Black-and-White_-Examination-1.pdf)_, for example, the growing tension between a husband and wife is exasperated by the use of unbearable silence. He also uses outside effects like sudden banging or calling, to obtain that threatening feeling of doom.
+Pinter is also quite unique in his use of language. He skilfully zeroes in on the lack of rationality in man's life through the use of language, or many a time, through the absence of language, hence the renowned expression, ‘Pinter pause’. This extreme use of silence as a tool to convey certain messages is evident in many plays. In _[A Slight Ache](https://literariness.org/wp-content/uploads/2019/06/Literariness.org-Pinter-Harold-Harold-Pinter-Plays-1-The-Birthday-Party_-The-Room*-The-Dumb-Waiter*-A-Slight-Ache*-The-Hothouse*-A-Night-Out*-Black-and-White*-Examination-1.pdf)\_, for example, the growing tension between a husband and wife is exasperated by the use of unbearable silence. He also uses outside effects like sudden banging or calling, to obtain that threatening feeling of doom.
 
 The Pinteresque language is generally colloquial and repetitive and the dialogues are inarticulate and often banal. It is, however, this banality of natural speech which enhances the depth and strength of the emotional potency.
 
