@@ -34,4 +34,7 @@ This sense of the new, of fragile hope, stands in stark contrast to the world ou
 
 The pieces in this volume are a testament to what happens in the void left by indifference. They bear witness to the erasure of peoples and the corrosion of principles. But they also light up the resistance: journalists reporting from the abyss, thinkers imagining radical new paths and individuals who refuse to be silenced.
 
-This is our call to attention. The world we stand to inherit is fragile, and the forces aligned against justice are relentless. Yet, our most potent act of defiance remains the same: to look closely, to question boldly and to refuse to turn away. Step in, read and carry something forward with you.
+This is our call to attention. The world we stand to inherit is fragile, and the forces aligned against justice are relentless. Yet, our most potent act of defiance remains the same: to look closely, to question boldly and to refuse to turn away.
+
+Step in, read and carry something forward with you.\
+_Ariana Yekrangi, Editor the Gordian and co-Founder of UN-aligned_
