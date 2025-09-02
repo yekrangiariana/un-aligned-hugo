@@ -114,5 +114,5 @@ Ideally, however, they should set aside their differences in the face of these a
 
 In the words Martin Luther King, Jr: “In the end, we will remember not the words of our enemies, but the silence of our friends.”
 
-- UN-aligned will be setting up a work party toward getting something like the joint statement done. If you are interested in getting involved in this project, pelase [email us](mailto:contact@un-aligned.org).
+- UN-aligned will be setting up a work party toward getting something like the joint statement done. If you are interested in getting involved in this project, please [email us](mailto:contact@un-aligned.org).
 - Additional research for this article was provided by our interns, Savannah Schwarz and Sabih Abdul.

@@ -23,7 +23,7 @@ With this open letter to the United Nations, we call for urgent and enforceable 
 
 {{< sim "global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression" >}}
 
-To underline the urgency, we recently translated and published a report by FLED on press freedom in Nicaragua, where journalists endure censorship, exile and persecution under an increasingly authoritarian regime. Nicaragua is only one of many troubling examples that highlight the need for international action.
+To underline the urgency, we recently translated and [published a report by FLED](http://localhost:1313/global-issues/nicaraguas-war-on-the-press-new-report-highlights-escalating-repression/) on press freedom in Nicaragua, where journalists endure censorship, exile and persecution under an increasingly authoritarian regime. Nicaragua is only one of many troubling examples that highlight the need for international action.
 
 A united civil society front has the power to press for meaningful reform.
 
@@ -31,7 +31,7 @@ The letter will be publicly shared and formally submitted to the United Nations,
 
 ---
 
-On the Urgent Need to Protect Press Freedom and Uphold Human Rights Standards
+## On the urgent need to protect press freedom and uphold human rights standards
 
 Dear Secretary-General António Guterres,
 
