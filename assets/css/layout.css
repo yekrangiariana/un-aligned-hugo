@@ -238,7 +238,7 @@ article {
     top: 40px;
   }
   .gordian-badge-container {
-    top: 70px;
+    top: 80px;
   }
   .reading-features-container {
     display: flex;
@@ -589,12 +589,12 @@ article {
     background: var(--dark-color-bg-light);
     border-color: #333;
   }
-  
+
   .newsletter-main h3,
   .newsletter-benefits h4 {
     color: var(--dark-color-heading);
   }
-  
+
   .newsletter-main p,
   .newsletter-benefits li {
     color: var(--dark-color-text);
@@ -607,28 +607,28 @@ article {
     flex-direction: column;
     display: block;
   }
-  
+
   .newsletter-content {
     border-left: none;
     padding-left: var(--padding-left-column-left);
     padding-right: 15px;
   }
-  
+
   .newsletter-card {
     grid-template-columns: 1fr;
     gap: 20px;
     padding: 20px;
   }
-  
+
   .cta-buttons {
     flex-direction: column;
   }
-  
+
   .btn {
     width: 100%;
     text-align: center;
   }
-  
+
   .newsletter-main h3 {
     font-size: 1.3rem;
   }
@@ -640,7 +640,7 @@ article {
     grid-template-columns: 1fr;
     gap: 20px;
   }
-  
+
   .cta-buttons {
     justify-content: center;
   }
