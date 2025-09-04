@@ -2,7 +2,7 @@
 title: "USA vs Canada: A history of residential schools in North America"
 description: "“Indian” vocational and residential schools have a long history in the United States and Canada, with each seeking to achieve the cultural extermination of indigenous peoples. Throughout the existance of these schools, an uncountable amount of sexual, verbal, and physical abuse was inflicted upon these essentially kidnapped youth."
 date: 2022-10-18T08:05:00+03:00
-authors: ["Victoria-Davila"]
+authors: ["Victoria-Davila", "Nick Hautamaki"]
 url: "human-rights/residential-schools-in-canada-and-the-us"
 categories:
   - "Human Rights"
@@ -11,26 +11,24 @@ tags:
   - "Long Read"
   - "United States"
 image: "/images/How-are-Canada-and-the-United-States-Reconciling-American-Indian-boarding-schools.jpg"
+style: "2"
 ---
+
 ## **The Uncovering of Mass Graves in Canada and the United States**
 
-![Kamloops Indian Residential School classroom building](/images/The-Uncovering-of-Mass-Graves-in-Canada-and-the-United-States-.jpg)
-
-A classroom building of Kamloops Indian Residential School, Kamloops, British Columbia during the 1950. [© CC 2.0](https://creativecommons.org/licenses/by/2.0/)
-
-
 In May 2021, 215 bodies of children were found buried on Kamloops Indian Residential School grounds in Kamloops, British Columbia, Canada. Following the incident, the US Interior Department began their investigation of US schools and uncovered over nine graves of indigenous children at the Carlisle Indian Industrial school in Carlisle, Pennsylvania, United States. What followed since has brought forth to the colonist public’s attention the systemic destruction of indigenous communities, cultures, and peoples.
+
+{{< photo-normal src="/images/The-Uncovering-of-Mass-Graves-in-Canada-and-the-United-States-.jpg" caption="A classroom building of Kamloops Indian Residential School, Kamloops, British Columbia during the 1950. © CC 2.0" >}}
 
 All of this is something that Indigenous Nations have known since the schools\` beginning in the 17th century. As it currently stands, about 1,308 unmarked graves have been discovered in Canada. While the Truth and Reconciliation Commission estimates that there are many more amongst the 140 former Canadian residential schools. In the US, the Department of Interior has identified 53 burial sites and expects this number to grow with further investigations of the recognised 408 US boarding schools. These traumas and broken families, coupled with inadequate education, have left indigenous peoples at a systemically intergenerational breaking point.
 
 ## **Residential School Timeline** (USA)
 
-![Carlisle Indian Industrial School students](/images/The-United-States-Residential-School-Timeline.jpg)
+Efforts to eradicate indigenous culture in the US began early, with denominations of Catholicism and Protestantism creating missions focused on indigenous education starting in the 1600s. These missions, crafted to convert indigenous people into the Christian faith, burdened their students with unfair education and disproportionate labour.
 
-Students at Carlisle Indian Industrial School in Pennsylvania during the 1900. © Public Domain
+{{< photo-large src="/images/The-United-States-Residential-School-Timeline.jpg" caption="Students at Carlisle Indian Industrial School in Pennsylvania during the 1900. © Public Domain" >}}
 
-
-Efforts to eradicate indigenous culture in the US began early, with denominations of Catholicism and Protestantism creating missions focused on indigenous education starting in the 1600s. These missions, crafted to convert indigenous people into the Christian faith, burdened their students with unfair education and disproportionate labour. In time, the federal government would take control over these boarding schools beginning in the late 19th century. The following timeline reveals significant events and projects that contributed to the cultural genocide of indigenous peoples:
+In time, the federal government would take control over these boarding schools beginning in the late 19th century. The following timeline reveals significant events and projects that contributed to the cultural genocide of indigenous peoples:
 
 **1631:** Several missions began developing in the 1600s with the aim to convert indigenous peoples into the Christian faith and colonist society.  One mission in Roxbury, Boston, Massachusetts, was established by Puritan missionary John Elliot who used the mission to reach indigenous communities and encourage them to take on colonist ways of dress and lifestyle.
 
@@ -56,7 +54,6 @@ Under the care of Pratt and other Carlisle staff, students experienced poor livi
 
 Native American children working in a school's garden during 1890s. © Public Domain
 
-
 **1890s-1900s:** Mission schools began to decline and schools directly controlled by the federal US government grew into the 1900s.
 
 **1893:** (March 3) Congress would order the withholding of rations to Indigenous Nations and families who refused to send their children to boarding schools.  Following this time, the federal government would kidnap and remove children from their reservations and send them to off-reservation schools without parental consent.
@@ -75,12 +72,9 @@ Native American children working in a school's garden during 1890s. © Public Do
 
 ## **Residential School Timeline** (Canada)
 
-![Pangnirtung Natives at Mission House in 1927](/images/Residential-Schools-in-Canada-1921-.jpg)
-
-Pangnirtung Natives at Mission House, Baffin Island during the 1927s. Photo: F. H. Stringer [© CC 2.0](https://creativecommons.org/licenses/by/2.0/)
-
-
 Like the United States, residential schools were established as an arm of the colonial institution and began in the 1600s. Initially, these schools, which forcibly removed children from their homes, were administered by the various Protestant denominations and Catholic churches through their missionaries. In Canada, federal involvement in the operation commenced in the 1840s.
+
+{{< photo-large src="/images/Residential-Schools-in-Canada-1921-.jpg" caption="Pangnirtung Natives at Mission House, Baffin Island during the 1927s. Photo: F. H. Stringer © CC 2.0" >}}
 
 **1830:** Jurisdiction of Indigenous Affairs for applicability to law and regulation was transferred from the military to the governors of Upper Canada (British) and Lower Canada (French). The policy change signified a shift in external relations with First Nations, Inuit and Métis to assimilation into Canadian society and territory.
 
@@ -99,7 +93,6 @@ It should be noted that to this day, Indian Status remains in effect. Status mad
 ![Gray Nuns at Fort Qu'Appelle Indian Industrial School in 1885](/images/Residential-Schools-in-Canada-1885.jpg)
 
 Photograph of Gray Nuns in the background on some hills at Fort Qu'Appelle Indian Industrial School in Lebret, Saskatchewan May 1885 © Public Domain
-
 
 **1857:** The Gradual Civilization Act was enacted. The Act forced any "Indian" man over 21 to lose their Indian Status if they (a) could speak, read and write either English or French, (b) were of good moral character, and (c) were free from debt.
 
@@ -123,7 +116,6 @@ Priests, "Indian agents," and police officers kidnapped children from their home
 
 A residential School's dormitory in Québec, Canada during 1950s. © Public Domain
 
-
 **1960-1980:** Commonly referred to as the 60s scoop, children were kidnapped without their communities' and families' knowledge. Government officials and social workers did this based on cultural inferiority and that indigenous peoples could not adequately provide for children. Once the Children's Aid Society had abducted the children, they were placed in the foster care system or up for adoption to non-indigenous homes. A predominant number of adoptions were to locations outside the originating province, with many also being sent to Europe.
 
 **1996:** The final Canadian Federal Indian Residential School shuts its doors and is soon after demolished.
@@ -133,7 +125,6 @@ A residential School's dormitory in Québec, Canada during 1950s. © Public Doma
 ![Indigenous man](/images/andrew-james-ehdsg7SHm6A-unsplash-1024x683.jpg)
 
 Photo Unsplash/Andrew James © Public Domain
-
 
 Intergenerational trauma affects not simply individuals but their entire communities. Through colonialism and cultural assimilationist practises, components integral to indigenous cultural identities have been lost to time. Such a disconnect between an indigenous person and their cultural heritage proves to be an additional obstacle to overcome. The following sections unravel statistics of prevalent issues among the indigenous Nations exacerbated by the abusive conditions within residential schools in the Americas:
 
@@ -163,7 +154,6 @@ With historical trauma and loss rooted in discrimination, Indigenous Nations and
 
 On May 11th, Interior Secretary Deb Haaland gave an update on Federal Indian Boarding School Initiative. Haaland the first Native American to serve as a Cabinet secretary.
 
-
 ### **United States**
 
 US Secretary of the Interior, Deb Haaland, issued a Federal Boarding School Initiative on June 22, 2021, following the discovery of 215 mass residential schools graves at the Kamloops Indian Residential School in May 2021. The investigations seek to identify all US boarding school sites, the names and tribal identities of students, burial sites of indigenous children, and share the impacts and experiences encountered in US boarding schools through the perspectives of students' descendants.
@@ -177,7 +167,6 @@ In May 2022, the DOI Secretary supported the volume II recommendations by launch
 ![Justin Trudeau](/images/How-are-Canada-and-the-United-States-Reconciling-Canadian-Indian-boarding-schools-1024x600.jpg)
 
 In June 2021, Prime Minister Justin Trudeau apologised for the “incredibly harmful” government policies after an estimated 751 unmarked graves were found at a former Saskatchewan residential school site. © [CC 3.0](https://creativecommons.org/licenses/by/3.0/legalcode)
-
 
 ### **Canada**
 

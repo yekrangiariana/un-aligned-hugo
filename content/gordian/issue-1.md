@@ -2,7 +2,7 @@
 title: "The broken covenant: When belief betrays and the faithful must rebel"
 date: 2025-09-01
 slug: "issue-1"
-description: "At its heart, faith is a promise—a covenant of justice, refuge, and truth. But across the world, that covenant lies in pieces, shattered by leaders who offer platitudes for violence and dogma as a shield for indifference. From this betrayal, however, a rebellion of conscience is rising."
+description: "At its heart, faith is a promise—a covenant of justice, refuge and truth. But across the world, that covenant lies in pieces, shattered by leaders who offer platitudes for violence and dogma as a shield for indifference. From this betrayal, however, a rebellion of conscience is rising."
 issueNumber: 1
 volume: 9
 tagline: ""
@@ -24,6 +24,8 @@ articleList:
 image: "/images/issue-1-vol-8.jpg"
 ---
 
+## Editorial
+
 A year can change everything. It’s been that long since we last spoke on these pages and in that time, my own world has been quietly remade by the arrival of my son. Becoming a father while continuing to publish has been a profound balancing act, one made possible only by the incredible support of my wife, my co-editor, Adrian Liberto, and the entire UN-aligned team. I’m deeply grateful.
 
 {{< photo-custom src="/images/issue-1-vol-8.jpg" width="24" caption="The cover of the Gordian issue 1 volume 8" >}}
@@ -36,5 +38,7 @@ The pieces in this volume are a testament to what happens in the void left by in
 
 This is our call to attention. The world we stand to inherit is fragile, and the forces aligned against justice are relentless. Yet, our most potent act of defiance remains the same: to look closely, to question boldly and to refuse to turn away.
 
-Step in, read and carry something forward with you.\
-_Ariana Yekrangi, Editor the Gordian and co-Founder of UN-aligned_
+Please step in, read and carry something forward with you.
+
+_Ariana Yekrangi\
+Editor of the Gordian and co-Founder of [UN-aligned ry](https://un-aligned.org/our-essence-and-foundation/)_

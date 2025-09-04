@@ -278,6 +278,16 @@
     </item>
     
     <item>
+      <title>Nick Hautamaki</title>
+      <link>http://localhost:1313/authors/nick-hautamaki/</link>
+      <pubDate>Tue, 18 Oct 2022 08:05:00 +0300</pubDate>
+      
+      <guid>http://localhost:1313/authors/nick-hautamaki/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>CristinaMihailescu</title>
       <link>http://localhost:1313/authors/cristinamihailescu/</link>
       <pubDate>Mon, 19 Sep 2022 10:30:00 +0300</pubDate>
@@ -293,16 +303,6 @@
       <pubDate>Fri, 16 Sep 2022 10:30:00 +0300</pubDate>
       
       <guid>http://localhost:1313/authors/sonia-roopnarain/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Jon Cook</title>
-      <link>http://localhost:1313/authors/jon-cook/</link>
-      <pubDate>Sat, 23 Jul 2022 12:00:24 +0300</pubDate>
-      
-      <guid>http://localhost:1313/authors/jon-cook/</guid>
       <description></description>
       
     </item>

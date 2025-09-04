@@ -890,6 +890,9 @@
     <loc>http://localhost:1313/tags/canada/</loc>
     <lastmod>2022-10-18T08:05:00+03:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/authors/nick-hautamaki/</loc>
+    <lastmod>2022-10-18T08:05:00+03:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/human-rights/residential-schools-in-canada-and-the-us/</loc>
     <lastmod>2022-10-18T08:05:00+03:00</lastmod>
   </url><url>
@@ -1014,9 +1017,6 @@
     <lastmod>2022-07-15T11:00:00+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/country-profile/lobbyland-the-story-of-american-lobbying-and-campaign-donations/</loc>
-    <lastmod>2022-07-13T16:07:15+03:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/authors/nick-hautamaki/</loc>
     <lastmod>2022-07-13T16:07:15+03:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/un-in-focus/why-doesnt-the-un-expel-russia-like-the-league-of-nations-did-in-1939/</loc>
@@ -2183,9 +2183,6 @@
     <loc>http://localhost:1313/manifesto/</loc>
     <lastmod>2019-04-01T19:30:33+03:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/authors/ariana/</loc>
-    <lastmod>2019-03-25T21:26:17+02:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/get-involved/</loc>
     <lastmod>2019-03-25T21:26:17+02:00</lastmod>
   </url><url>
@@ -2194,6 +2191,9 @@
   </url><url>
     <loc>http://localhost:1313/our-essence-and-foundation/</loc>
     <lastmod>2019-02-24T22:44:32+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/authors/ariana/</loc>
+    <lastmod>2019-01-25T17:53:06+02:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/privacy-policy/</loc>
     <lastmod>2019-01-25T17:53:06+02:00</lastmod>

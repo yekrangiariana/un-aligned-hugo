@@ -2,7 +2,21 @@
           <!-- SEO H1 - hidden from view but present for search engines -->
           <h1 style="display: none;">{{ .Site.Title }}</h1>
           
+          <!-- Load Gordian CSS for the current issue section -->
+          {{ $gordianCSS := resources.Get "css/gordian.css" }}
+          <link rel="stylesheet" href="{{ $gordianCSS.RelPermalink }}" />
+          
           <main id="posts-list">
+            <!-- Current Gordian Issue Section -->
+            <section id="current-gordian" class="category-section latest-issue" aria-labelledby="current-gordian-heading">
+              <header class="category-header">
+                <h3 id="current-gordian-heading" class="site-date-catalog">The Gordian Magazine</h3>
+              </header>
+              <div class="article-grid category-grid">
+                {{ partial "current-gordian.html" . }}
+              </div>
+            </section>
+
             <!-- Headlines section - now using the same structure as other category sections -->
             <section id="headlines" class="category-section" aria-labelledby="headlines-heading">
               <header class="category-header">

@@ -1,22 +1,17 @@
 ---
 title: "Terms and Conditions"
 date: 2019-03-25T21:26:17+02:00
-authors: ["Ariana"]
 url: "terms-and-conditions"
+description: "UN-aligned's Terms & Conditions"
 ---
 
-## Terms & Conditions
+These terms and conditions outline the rules and regulations for the use of UN-aligned's Website.
 
-## Un-aligned's Terms & Conditions
-
-Welcome to UN-aligned
-
-These terms and conditions outline the rules and regulations for the use of UN-aligned's Website.  
 By accessing this website we assume you accept these terms and conditions in full. Do not continue to use UN-aligned's website if you do not accept all of the terms and conditions stated on this page.
 
 The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: “Client”, “You” and “Your” refers to you, the person accessing this website and accepting the Company’s terms and conditions. “The Company”, “Ourselves”, “We”, “Our” and “Us”, refers to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves, or either the Client or ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, in accordance with and subject to, prevailing law  
 of. Any use of the above terminology or other words in the singular, plural,  
-capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same. 
+capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.
 
 **Cookies**
 
@@ -46,7 +41,7 @@ Online directory distributors when they list us in the directory may link to our
 manner as they hyperlink to the Web sites of other listed businesses; and  
 System-wide. Accredited Businesses except soliciting non-profit organisations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
 
-These organisations may link to our home page, to publications or to other Web site information so long as the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site. 
+These organisations may link to our home page, to publications or to other Web site information so long as the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site.
 
 We may consider and approve in our sole discretion other link requests from the following types of organisations: commonly-known consumer and/or business information sources such as Chambers of Commerce, American Automobile Association, AARP and Consumers Union; dot.com community sites; associations or other groups representing charities, including charity giving sites, online directory distributors; internet portals; accounting, law and consulting firms whose primary clients are businesses; and educational institutions and trade associations.
 
@@ -66,7 +61,7 @@ By use of any other description of our Web site or material being linked to that
 No use of UN-aligned’s logo or other artwork will be allowed for linking absent a trademark license  
 agreement.
 
-**Iframes** 
+**Iframes**
 
 Without prior approval and express written permission, you may not create frames around our Web pages or use other techniques that alter in any way the visual presentation or appearance of our Web site.
 
