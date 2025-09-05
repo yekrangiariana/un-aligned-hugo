@@ -3822,12 +3822,41 @@ a.article-card-link:focus {
 .btn-outline:hover {
   background-color: rgba(0, 0, 0, 0.05);
 }
+
+.simple-button {
+  font-size: 1rem;
+  display: inline-block;
+  padding: 0.5rem 1.25rem;
+  color: white !important;
+  background-color: black;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.2s ease;
+  margin: 1rem 0;
+}
+
+.simple-button:hover {
+  background-color: #333;
+  transform: translateY(-1px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.simple-button .fa-arrow-right {
+  margin-left: 0.5rem;
+  font-size: 0.85em;
+  transition: transform 0.2s ease;
+}
+
+.simple-button:hover .fa-arrow-right {
+  transform: translateX(3px);
+}
+
 @media screen and (max-width: 600px) {
   .authors-list,
   .tags-list {
     grid-template-columns: 1fr;
   }
-
 }
 /* Reading features styling - Category-aware design */
 

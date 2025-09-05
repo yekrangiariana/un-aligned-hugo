@@ -15,6 +15,10 @@ articleList:
 image: "/images/{{ .Name }}.jpg"
 ---
 
+---
+
+## Editorial
+
 Welcome to this issue of The Gordian Magazine.
 
-// hugo new gordian/issue-4.md
+{{< button "Subscribe" "http://eepurl.com/gnp8SL" "_blank" >}}

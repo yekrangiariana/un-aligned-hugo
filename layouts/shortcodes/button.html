@@ -1,0 +1,6 @@
+{{ $text := .Get 0 }} {{ $link := .Get 1 }} {{ $target := .Get 2 | default
+"_self" }}
+
+<a href="{{ $link }}" class="simple-button" target="{{ $target }}">
+  {{ $text }} <i class="fas fa-arrow-right"></i>
+</a>
