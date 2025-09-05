@@ -3833,7 +3833,13 @@ a.article-card-link:focus {
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
-  margin: 1rem 0;
+  text-decoration: none !important;
+  /* margin: 1rem 0; */
+}
+
+body.dark-mode .simple-button {
+  background-color: white;
+  color: black !important;
 }
 
 .simple-button:hover {
