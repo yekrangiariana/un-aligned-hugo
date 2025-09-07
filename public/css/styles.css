@@ -2870,7 +2870,9 @@ body.dark-mode .alert-text {
   overflow: hidden;
   background-color: var(--color-background);
   height: 100%;
-  border: var(--border-thin);
+  border-bottom: var(--border-thin);
+  padding-bottom: 10px;
+  padding-top: 0;
   position: relative;
 }
 
@@ -2951,7 +2953,7 @@ body.dark-mode .alert-text {
 /* Card image */
 .article-card-image {
   width: 100%;
-  height: fit-content;
+  height: auto;
   object-fit: cover;
   margin-top: auto;
 }
@@ -2973,7 +2975,7 @@ body.dark-mode .alert-text {
 
 /* Title styling - reduced spacing */
 .article-card-title {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: var(--spacing-xs) 0;
   line-height: 1.2;
   font-weight: var(--font-weight-bold);
@@ -3304,17 +3306,16 @@ select:focus-visible,
   color: var(--color-text-subtitle);
   padding: 0.5rem 0;
   line-height: var(--line-height-relaxed);
-  display: flex;
-  align-items: baseline;
 }
 
-/* Adding an upward arrow character at the beginning of all photo block captions */
-.photo-block figcaption::before {
-  content: "⬆";
+/* Adding a camera icon at the beginning of all photo block captions */
+.photo-block .caption::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f030";
+  font-weight: 900;
   display: inline;
   margin-right: 4px;
-  color: #d42b63;
-  float: left;
+  color: var(--color-text-subtitle);
   vertical-align: middle;
   line-height: inherit;
 }
@@ -3367,13 +3368,14 @@ select:focus-visible,
   line-height: var(--line-height-relaxed);
 }
 
-/* Adding an upward arrow character at the beginning of large photo captions */
-.photo-large-caption::before {
-  content: "⬆";
+/* Adding a camera icon at the beginning of large photo captions */
+.photo-large-caption .caption::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f030";
+  font-weight: 900;
   display: inline;
   margin-right: 4px;
-  color: #d42b63;
-  float: left;
+  color: var(--color-text-subtitle);
   vertical-align: middle;
   line-height: inherit;
 }
@@ -3441,12 +3443,14 @@ select:focus-visible,
   line-height: var(--line-height-relaxed);
 }
 
-/* Adding a bottom arrow character at the end of the caption */
-.photo-custom-caption::after {
-  content: "⬇";
+/* Adding a camera icon at the beginning of the custom photo caption */
+.photo-custom-caption .caption::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f030";
+  font-weight: 900;
   display: inline;
-  margin-left: 4px;
-  color: #d42b63;
+  margin-right: 4px;
+  color: var(--color-text-subtitle);
   vertical-align: middle;
   line-height: inherit;
 }
@@ -3530,9 +3534,9 @@ select:focus-visible,
     margin-top: 0.5rem; /* Spacing only for mobile */
   }
 
-  /* Adding a bottom arrow character at the end of the caption */
-  .photo-custom-caption::after {
-    content: "⬆";
+  /* Camera icon remains the same on mobile */
+  .photo-custom-caption .caption::before {
+    content: "\f030";
   }
 }
 /**

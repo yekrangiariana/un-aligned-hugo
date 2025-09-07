@@ -7,7 +7,9 @@
   overflow: hidden;
   background-color: var(--color-background);
   height: 100%;
-  border: var(--border-thin);
+  border-bottom: var(--border-thin);
+  padding-bottom: 10px;
+  padding-top: 0;
   position: relative;
 }
 
@@ -88,7 +90,7 @@
 /* Card image */
 .article-card-image {
   width: 100%;
-  height: fit-content;
+  height: auto;
   object-fit: cover;
   margin-top: auto;
 }
@@ -110,7 +112,7 @@
 
 /* Title styling - reduced spacing */
 .article-card-title {
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: var(--spacing-xs) 0;
   line-height: 1.2;
   font-weight: var(--font-weight-bold);

@@ -2,6 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2025-09-05T20:36:48+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2025-09-05T20:36:48+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/posts/when-religions-fail/</loc>
     <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
@@ -20,16 +26,10 @@
     <loc>http://localhost:1313/categories/human-rights/</loc>
     <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
-    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/categories/religion/</loc>
     <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/tags/</loc>
-    <lastmod>2025-09-01T11:26:17+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/</loc>
     <lastmod>2025-09-01T11:26:17+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/authors/ariana-yekrangi/</loc>
