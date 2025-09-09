@@ -351,13 +351,13 @@
               </div>
               {{ end }}
             </div>
+            {{ end }}
             <div>
               {{ partial "related.html" . }}
               {{ if .Site.Params.postAds }}
               <div class="post-ads">{{ .Site.Params.postAds | safeHTML }}</div>
               {{ end }}
             </div>
-          {{ end }}
         </div>
       </section>
     </article>

@@ -10,21 +10,16 @@
     const shouldUseDark = savedMode === "enabled" || (savedMode === null && systemPrefersDark);
     
     if (shouldUseDark) {
-      // Apply to html immediately
+      // Apply to both html and body immediately
       document.documentElement.classList.add("dark-mode");
-      
-      // Apply to body when it becomes available
+      // Set up body class application
       if (document.body) {
         document.body.classList.add("dark-mode");
       } else {
-        // Body doesn't exist yet, so set up a listener
-        const observer = new MutationObserver(function(mutations) {
-          if (document.body) {
-            document.body.classList.add("dark-mode");
-            observer.disconnect();
-          }
+        // Body doesn't exist yet, apply when DOM is ready
+        document.addEventListener('DOMContentLoaded', function() {
+          document.body.classList.add("dark-mode");
         });
-        observer.observe(document.documentElement, { childList: true });
       }
     }
   })();

@@ -160,7 +160,10 @@ body.dark-mode .mega-menu-content,
 body.dark-mode .gordian-badge,
 body.dark-mode .article-card-image,
 body.dark-mode .article-card-placeholder,
-body.dark-mode .similar-article {
+body.dark-mode .similar-article,
+body.dark-mode .reasons-section,
+body.dark-mode .reason-card,
+body.dark-mode .latest-issue {
   border-color: var(--dark-border);
 }
 

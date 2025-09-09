@@ -88,6 +88,7 @@
 
 .bookmark-icon {
   margin-right: var(--spacing-xs);
+  margin-left: 15px;
   transition: transform 0.2s ease;
 }
 

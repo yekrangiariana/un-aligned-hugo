@@ -1,30 +1,7 @@
 /**
- * Simple Dark Mode Toggle - The One File To Rule Them All
- * Created to fix the missing toggleDarkMode() function
- * Handles everything in one place to avoid conflicts
+ * Simple Dark Mode Toggle - Handles toggle functionality only
+ * Initial dark mode application is handled by inline script in head.html
  */
-
-// Apply dark mode immediately (before page rendering) to avoid flashing
-(function () {
-  // Check system preference for dark mode
-  const prefersDarkMode =
-    window.matchMedia &&
-    window.matchMedia("(prefers-color-scheme: dark)").matches;
-
-  // Use a single localStorage key to avoid conflicts
-  if (localStorage.getItem("darkMode") === null) {
-    // Default to system preference on first visit
-    if (prefersDarkMode) {
-      localStorage.setItem("darkMode", "enabled");
-      document.documentElement.classList.add("dark-mode");
-    } else {
-      localStorage.setItem("darkMode", "disabled");
-    }
-  } else if (localStorage.getItem("darkMode") === "enabled") {
-    // Apply saved preference
-    document.documentElement.classList.add("dark-mode");
-  }
-})();
 
 // The main toggle function that the header button calls
 function toggleDarkMode() {
@@ -61,14 +38,9 @@ function updateDarkModeIcons() {
   }
 }
 
-// When DOM is ready, apply dark mode to body and update icons
+// When DOM is ready, just update icons and set up system preference listener
 document.addEventListener("DOMContentLoaded", function () {
-  // Apply dark mode to body if it should be enabled
-  if (localStorage.getItem("darkMode") === "enabled") {
-    document.body.classList.add("dark-mode");
-  }
-
-  // Update toggle button icons
+  // Update toggle button icons based on current state
   updateDarkModeIcons();
 
   // Listen for system preference changes

@@ -113,6 +113,11 @@ body.dark-mode .hero-cta {
   }
 }
 
+.latest-issue {
+  border-top: var(--border-thin-light);
+  padding-top: 20px;
+}
+
 /* Horizontal layout for latest issue */
 .latest-issue .article-card .article-card-link {
   flex-direction: row-reverse;
@@ -162,14 +167,14 @@ body.dark-mode .hero-cta {
 
 /* Reasons section styling - using 20/80 layout */
 .reasons-section {
-  margin: 4rem 0;
+  /* margin: 4rem 0; */
   padding: 2rem 0;
-  border-top: 1px solid #e8e8e8;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: var(--border-thin-light);
+  border-bottom: var(--border-thin-light);
 }
 
 .reasons-grid {
-  display: grid;
+  display: flex;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 2rem;
 }
@@ -179,7 +184,6 @@ body.dark-mode .hero-cta {
   display: flex;
   flex-direction: column;
   overflow: hidden;
-  background-color: var(--color-background);
   height: 100%;
   border: var(--border-thin);
   position: relative;
@@ -367,6 +371,10 @@ body.dark-mode .hero-cta {
     .article-card.gordian-issue-card.first-visible
     .article-card-content {
     width: 100%;
+  }
+
+  .reasons-grid {
+    display: grid;
   }
 }
 

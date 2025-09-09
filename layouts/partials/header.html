@@ -10,6 +10,7 @@
 
 <header class="site-header">
   <div class="header-container">
+    
     <div class="header-two-columns">
     <!-- Left Column (20%) - Logo -->
     <div class="header-left-column">
@@ -63,9 +64,12 @@
         </div>
         
         <!-- Categories row -->
-        <div class="header-bottom-categories">
-          <div class="scroll-indicator-left"></div>
-          <div class="scroll-indicator-right"></div>
+        
+      </div>
+    
+    </div>
+  </div>
+  <div class="header-bottom-categories">
           <div class="category-nav">
           {{/* Debug: Check if data is loaded */}}
           <!-- DEBUG: Categories count: {{ len .Site.Data.header_categories.categories }} -->
@@ -86,11 +90,8 @@
         </div>
       </div>
 
-      <!-- Popup Menu - Positioned under categories -->
-      {{ partial "mega-menu.html" . }}
-    
-    </div>
-  </div>
+<!-- Popup Menu - Now positioned right after the categories -->
+{{ partial "mega-menu.html" . }}
 </header>
 
 <!-- Script to handle scroll indicators and menu popup -->
