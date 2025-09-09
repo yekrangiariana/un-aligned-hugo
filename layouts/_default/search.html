@@ -54,7 +54,9 @@
             
             <!-- Pagefind Search Implementation -->
             <div class="search-container" style="margin-top: 2rem;">
-              <div id="search"></div>
+              <div id="search">
+                <p style="color: #666; font-style: italic;">Loading search...</p>
+              </div>
             </div>
           </div>
         </div>
@@ -64,11 +66,37 @@
 
   <!-- Pagefind CSS and JS -->
   <link href="/pagefind/pagefind-ui.css" rel="stylesheet">
-  <script src="/pagefind/pagefind-ui.js"></script>
-  <script>
-  window.addEventListener('DOMContentLoaded', (event) => {
-    new PagefindUI({ element: "#search", showSubResults: true });
-  }); 
+  <script src="/pagefind/pagefind-ui.js" type="text/javascript"></script>
+  <script type="text/javascript">
+    // Debug function
+    function initializePagefind() {
+      if (typeof PagefindUI !== 'undefined') {
+        try {
+          console.log('Initializing PagefindUI...');
+          new PagefindUI({ 
+            element: "#search", 
+            showSubResults: true,
+            showImages: false,
+            excerptLength: 15
+          });
+          console.log('PagefindUI initialized successfully');
+        } catch (error) {
+          console.error('Error initializing PagefindUI:', error);
+          document.getElementById('search').innerHTML = '<p>Search temporarily unavailable. Please try refreshing the page.</p>';
+        }
+      } else {
+        console.error('PagefindUI not loaded');
+        // Retry after 500ms
+        setTimeout(initializePagefind, 500);
+      }
+    }
+
+    // Initialize when DOM is loaded
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializePagefind);
+    } else {
+      initializePagefind();
+    }
   </script>
 
 {{ end }}
