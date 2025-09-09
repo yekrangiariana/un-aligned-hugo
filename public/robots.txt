@@ -1,8 +1,0 @@
-User-agent: *
-Allow: /
-
-# Sitemap
-Sitemap: https://un-aligned.org/sitemap.xml
-
-# RSS Feed
-# /index.xml
