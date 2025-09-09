@@ -1,5 +1,10 @@
 /* Gordian Magazine Specific Styles */
 
+/* Hide current gordian section by default to prevent flash */
+#current-gordian {
+  display: none;
+}
+
 /* Hero section styling */
 .gordian-hero {
   padding: 2rem 0;
@@ -90,17 +95,17 @@ body.dark-mode .hero-cta {
   .hero-content h1 {
     font-size: 2.5rem;
   }
-  
+
   .inline-logo {
     width: 40px;
     height: 40px;
   }
-  
+
   .hero-cta-container {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .hero-cta {
     width: 100%;
     max-width: 300px;
@@ -129,16 +134,16 @@ body.dark-mode .hero-cta {
   .latest-issue .article-card .article-card-link {
     flex-direction: column;
   }
-  
+
   .latest-issue .article-card .article-card-image,
   .latest-issue .article-card .article-card-content {
     width: 100%;
   }
-  
+
   .latest-issue .article-card .article-card-image {
     order: -1; /* Ensures the image appears first on mobile */
   }
-  
+
   .latest-issue .article-card-description,
   .latest-issue .featured-articles,
   .latest-issue .gordian-authors,
@@ -148,7 +153,7 @@ body.dark-mode .hero-cta {
   .latest-issue .author-list {
     display: block !important; /* Ensure nothing is hidden */
   }
-  
+
   .latest-issue .article-card-description {
     margin-top: 1rem;
     font-size: var(--font-size-sm);
@@ -303,8 +308,14 @@ body.dark-mode .hero-cta {
 }
 
 /* Hide titles and descriptions for non-first items */
-.older-issues .article-grid .article-card:not(:first-child):not(.first-visible) .article-card-description,
-.older-issues .article-grid .article-card:not(:first-child):not(.first-visible) .article-card-title {
+.older-issues
+  .article-grid
+  .article-card:not(:first-child):not(.first-visible)
+  .article-card-description,
+.older-issues
+  .article-grid
+  .article-card:not(:first-child):not(.first-visible)
+  .article-card-title {
   display: none;
 }
 
@@ -339,13 +350,22 @@ body.dark-mode .hero-cta {
   .older-issues .article-grid .article-card.gordian-issue-card.first-visible {
     width: 100%;
   }
-  
-  .older-issues .article-grid .article-card.gordian-issue-card.first-visible .article-card-link {
+
+  .older-issues
+    .article-grid
+    .article-card.gordian-issue-card.first-visible
+    .article-card-link {
     flex-direction: column;
   }
-  
-  .older-issues .article-grid .article-card.gordian-issue-card.first-visible .article-card-image,
-  .older-issues .article-grid .article-card.gordian-issue-card.first-visible .article-card-content {
+
+  .older-issues
+    .article-grid
+    .article-card.gordian-issue-card.first-visible
+    .article-card-image,
+  .older-issues
+    .article-grid
+    .article-card.gordian-issue-card.first-visible
+    .article-card-content {
     width: 100%;
   }
 }

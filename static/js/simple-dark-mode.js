@@ -7,8 +7,10 @@
 // Apply dark mode immediately (before page rendering) to avoid flashing
 (function () {
   // Check system preference for dark mode
-  const prefersDarkMode = window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches;
-  
+  const prefersDarkMode =
+    window.matchMedia &&
+    window.matchMedia("(prefers-color-scheme: dark)").matches;
+
   // Use a single localStorage key to avoid conflicts
   if (localStorage.getItem("darkMode") === null) {
     // Default to system preference on first visit
@@ -27,15 +29,15 @@
 // The main toggle function that the header button calls
 function toggleDarkMode() {
   console.log("toggleDarkMode called");
-  
+
   // Toggle dark mode class on both body and documentElement
   document.body.classList.toggle("dark-mode");
   document.documentElement.classList.toggle("dark-mode");
-  
+
   // Save the preference
   const isDarkMode = document.body.classList.contains("dark-mode");
   localStorage.setItem("darkMode", isDarkMode ? "enabled" : "disabled");
-  
+
   // Update toggle button icons
   updateDarkModeIcons();
 }
@@ -65,13 +67,15 @@ document.addEventListener("DOMContentLoaded", function () {
   if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark-mode");
   }
-  
+
   // Update toggle button icons
   updateDarkModeIcons();
-  
+
   // Listen for system preference changes
   if (window.matchMedia) {
-    const darkModeMediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const darkModeMediaQuery = window.matchMedia(
+      "(prefers-color-scheme: dark)"
+    );
     if (darkModeMediaQuery.addEventListener) {
       darkModeMediaQuery.addEventListener("change", function (e) {
         // Only change if user hasn't set a preference manually

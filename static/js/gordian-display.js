@@ -1,6 +1,6 @@
 /**
  * Current Gordian Issue Display Logic
- * Hides the current issue section after 7 days from publication
+ * Shows the current issue section only within 7 days from publication
  */
 document.addEventListener("DOMContentLoaded", function () {
   // Find the current Gordian issue section
@@ -23,17 +23,17 @@ document.addEventListener("DOMContentLoaded", function () {
         const diffTime = currentDate - publishDate;
         const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
 
-        // Hide if more than 7 days old
-        if (diffDays > 7) {
-          currentGordianSection.style.display = "none";
-          console.log(
-            "Current Gordian issue hidden - published " + diffDays + " days ago"
-          );
-        } else {
+        // Show only if within 7 days of publication
+        if (diffDays <= 7) {
+          currentGordianSection.style.display = "block";
           console.log(
             "Current Gordian issue displayed - published " +
               diffDays +
               " days ago"
+          );
+        } else {
+          console.log(
+            "Current Gordian issue hidden - published " + diffDays + " days ago"
           );
         }
       }

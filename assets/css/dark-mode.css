@@ -159,7 +159,7 @@ body.dark-mode .post-description-style-2,
 body.dark-mode .mega-menu-content,
 body.dark-mode .gordian-badge,
 body.dark-mode .article-card-image,
-body.dark-mode .article-card-placeholder, 
+body.dark-mode .article-card-placeholder,
 body.dark-mode .similar-article {
   border-color: var(--dark-border);
 }
@@ -560,20 +560,32 @@ body.dark-mode .environment-article .markdown-body a {
 }
 
 /* Quote category styling */
-body.dark-mode 
-.comments-article .post-content blockquote p:first-of-type::before {
+body.dark-mode
+  .comments-article
+  .post-content
+  blockquote
+  p:first-of-type::before {
   color: var(--dark-color-comments);
 }
-body.dark-mode 
-.interview-article .post-content blockquote p:first-of-type::before {
+body.dark-mode
+  .interview-article
+  .post-content
+  blockquote
+  p:first-of-type::before {
   color: var(--dark-color-interview);
 }
-body.dark-mode 
-.culture-article .post-content blockquote p:first-of-type::before {
+body.dark-mode
+  .culture-article
+  .post-content
+  blockquote
+  p:first-of-type::before {
   color: var(--dark-color-culture);
 }
-body.dark-mode 
-.environment-article .post-content blockquote p:first-of-type::before {
+body.dark-mode
+  .environment-article
+  .post-content
+  blockquote
+  p:first-of-type::before {
   color: var(--dark-color-environment);
 }
 
