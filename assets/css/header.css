@@ -113,9 +113,9 @@ body.dark-mode .alert-text {
 }
 
 .header-left-column {
-  padding-right: 30px;
   padding-bottom: 5px;
-  width: var(--column-left-width);
+  /* width: var(--column-left-width); */
+  width: 30%;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -193,7 +193,7 @@ body.dark-mode .alert-text {
   text-decoration: none;
   border-radius: 3px; /* Sharp corners for boxy design */
   cursor: pointer;
-  font-size: 14px; /* Consistent font size for all buttons */
+  font-size: 15px; /* Consistent font size for all buttons */
 }
 
 /* Dark mode toggle specific styling */

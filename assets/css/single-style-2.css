@@ -28,7 +28,7 @@
 /* Featured image styling for style 2 - Full screen immersive experience */
 .post-featured-image-style-2 {
   position: relative;
-  width: 100vw; /* Full viewport width */
+  width: 100%; /* Full viewport width */
   height: auto; /* Full viewport height */
   left: 0;
   right: 0;
@@ -73,11 +73,7 @@
 /* Style for the title overlay */
 .post-title-overlay {
   display: block; /* Always display the title - force it with !important */
-  font-size: clamp(
-    2rem,
-    4.5vw,
-    3.5rem
-  ); 
+  font-size: clamp(2rem, 4.5vw, 3.5rem);
   font-weight: 800; /* Extra bold for emphasis */
   margin-bottom: 0;
   color: white;
