@@ -64,7 +64,7 @@
 
 .photo-large {
   position: relative;
-  left: -28%;
+  left: -27%;
   width: 128%;
   margin-bottom: 10px;
 }
@@ -72,8 +72,8 @@
 /* Caption styling for large photos - positioned absolutely to avoid affecting layout flow */
 .photo-large-caption {
   position: absolute;
-  width: 25%; /* Fixed width */
-  left: -28%;
+  width: 23.5%;
+  left: -27%;
   top: 100%;
   box-sizing: border-box;
   font-size: var(--font-size-sm);
@@ -138,7 +138,7 @@
   float: left;
   margin-top: 0;
   margin-right: 1rem;
-  margin-left: -28%;
+  margin-left: -27%;
   margin-bottom: 0;
   padding-bottom: 0;
   max-width: 100%;
@@ -147,8 +147,8 @@
 /* Caption styling that's independent of photo width */
 .photo-custom-caption {
   position: absolute;
-  width: 25%; /* Fixed width */
-  left: -28%;
+  width: 23.5%;
+  left: -27%;
   bottom: 0%;
   box-sizing: border-box;
   font-size: var(--font-size-sm);

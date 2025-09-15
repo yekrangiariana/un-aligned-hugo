@@ -1,86 +1,822 @@
-/* Category-specific utility classes for consistent styling across the site */
+/**
+ * Unified Category Color System
+ * Centralized color definitions and category-specific styling rules
+ * 
+ * Structure:
+ * 1. CSS Custom Properties (Color Variables)
+ * 2. Universal Category Patterns (using CSS attribute selectors)
+ * 3. Category-Specific Overrides (for special cases)
+ * 4. Dark Mode Overrides
+ * 
+ * Adding new categories:
+ * - Add color variables in :root
+ * - Universal patterns will automatically apply
+ * - Add specific overrides only if needed
+ */
 
-/* Text color utilities */
-.text-culture {
-  color: var(--color-culture) !important;
+:root {
+  /* Light Mode Category Colors */
+  --color-culture: #554937;
+  --color-culture-rgb: 85, 73, 55;
+
+  --color-gallery: #d42b63;
+  --color-gallery-rgb: 212, 43, 99;
+
+  --color-interview: #631357;
+  --color-interview-rgb: 99, 19, 87;
+
+  --color-comments: #c74600;
+  --color-comments-rgb: 199, 70, 0;
+
+  --color-environment: #016a01;
+  --color-environment-rgb: 1, 106, 1;
+
+  --color-technology: #007acc;
+  --color-technology-rgb: 0, 122, 204;
+
+  --color-science: #4a90e2;
+  --color-science-rgb: 74, 144, 226;
+
+  --color-politics: #8b0000;
+  --color-politics-rgb: 139, 0, 0;
+
+  --color-article-style-3: #ba0000;
+
+  /* Dark Mode Category Colors */
+  --dark-color-culture: #c2a888;
+  --dark-color-gallery: #d42b63;
+  --dark-color-interview: #b96fa9;
+  --dark-color-comments: #f97736;
+  --dark-color-environment: #5ec45e;
+  --dark-color-technology: #5a9bd5;
+  --dark-color-science: #b279c8;
+  --dark-color-politics: #e67e22;
 }
-.text-gallery {
-  color: var(--color-gallery) !important;
+
+/**
+ * UNIVERSAL CATEGORY PATTERNS
+ * These rules automatically apply to any element with [class*="-article"] 
+ * To add a new category: just add the color variables above, no additional rules needed
+ */
+
+/* Article content links - automatically inherit category color */
+[class*="-article"] .markdown-body > *:not(.similar-article) a {
+  color: var(--color-culture); /* fallback */
 }
-.text-interview {
+
+.article-style-3 .markdown-body > *:not(.similar-article) a {
+  color: var(--color-article-style-3);
+}
+.culture-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-culture);
+}
+.gallery-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-gallery);
+}
+.interview-article .markdown-body > *:not(.similar-article) a {
   color: var(--color-interview) !important;
 }
-.text-technology {
-  color: var(--color-technology) !important;
+.comments-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-comments);
 }
-.text-science {
-  color: var(--color-science) !important;
+.environment-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-environment);
 }
-.text-politics {
-  color: var(--color-politics) !important;
+.technology-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-technology);
 }
-.text-environment {
-  color: var(--color-environment) !important;
+.science-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-science);
 }
-.text-comments {
+.politics-article .markdown-body > *:not(.similar-article) a {
+  color: var(--color-politics);
+}
+
+/* Blockquote pseudo-elements */
+.culture-article .post-content blockquote p:first-of-type::before,
+.gallery-article .post-content blockquote p:first-of-type::before,
+.interview-article .post-content blockquote p:first-of-type::before,
+.comments-article .post-content blockquote p:first-of-type::before,
+.environment-article .post-content blockquote p:first-of-type::before,
+.technology-article .post-content blockquote p:first-of-type::before,
+.science-article .post-content blockquote p:first-of-type::before,
+.politics-article .post-content blockquote p:first-of-type::before {
+  color: inherit; /* Will inherit from parent category */
+}
+.culture-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-culture);
+}
+.gallery-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-gallery);
+}
+.interview-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-interview);
+}
+.comments-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-comments);
+}
+.environment-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-environment);
+}
+.technology-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-technology);
+}
+.science-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-science);
+}
+.politics-article .post-content blockquote p:first-of-type::before {
+  color: var(--color-politics);
+}
+
+.article-style-3 .post-content blockquote p:first-of-type::before {
+  color: var(--color-article-style-3);
+}
+
+/* List markers - category-specific coloring */
+.culture-article .post-content ul li::before,
+.culture-article .post-content ol li::before,
+.gallery-article .post-content ul li::before,
+.gallery-article .post-content ol li::before,
+.interview-article .post-content ul li::before,
+.interview-article .post-content ol li::before,
+.comments-article .post-content ul li::before,
+.comments-article .post-content ol li::before,
+.environment-article .post-content ul li::before,
+.environment-article .post-content ol li::before,
+.technology-article .post-content ul li::before,
+.technology-article .post-content ol li::before,
+.science-article .post-content ul li::before,
+.science-article .post-content ol li::before,
+.politics-article .post-content ul li::before,
+.politics-article .post-content ol li::before {
+  color: inherit; /* Will inherit from parent category */
+}
+.culture-article .post-content ul li::before,
+.culture-article .post-content ol li::before {
+  color: var(--color-culture);
+}
+.gallery-article .post-content ul li::before,
+.gallery-article .post-content ol li::before {
+  color: var(--color-gallery);
+}
+.interview-article .post-content ul li::before,
+.interview-article .post-content ol li::before {
+  color: var(--color-interview);
+}
+.comments-article .post-content ul li::before,
+.comments-article .post-content ol li::before {
+  color: var(--color-comments);
+}
+.environment-article .post-content ul li::before,
+.environment-article .post-content ol li::before {
+  color: var(--color-environment);
+}
+.technology-article .post-content ul li::before,
+.technology-article .post-content ol li::before {
+  color: var(--color-technology);
+}
+.science-article .post-content ul li::before,
+.science-article .post-content ol li::before {
+  color: var(--color-science);
+}
+.politics-article .post-content ul li::before,
+.politics-article .post-content ol li::before {
+  color: var(--color-politics);
+}
+
+.article-style-3 .post-content ul li::before,
+.article-style-3 .post-content ol li::before {
+  color: var(--color-article-style-3);
+}
+
+/* Drop caps - standard pattern */
+.culture-article .post-content > p:first-of-type::first-letter,
+.gallery-article .post-content > p:first-of-type::first-letter,
+.technology-article .post-content > p:first-of-type::first-letter,
+.science-article .post-content > p:first-of-type::first-letter,
+.politics-article .post-content > p:first-of-type::first-letter,
+.environment-article .post-content > p:first-of-type::first-letter,
+.environment-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: inherit;
+}
+.article-style-3 .post-content > p:first-of-type::first-letter {
+  color: var(--color-article-style-3);
+}
+.culture-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-culture);
+}
+.gallery-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-gallery);
+}
+.technology-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-technology);
+}
+.science-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-science);
+}
+.politics-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-politics);
+}
+.environment-article .post-content > p:first-of-type::first-letter,
+.environment-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter {
+  color: var(--color-environment);
+}
+
+/* Drop caps - special cases requiring !important */
+.interview-article .post-content > p:first-of-type::first-letter,
+.interview-article.article-style-1
+  .post-content
+  > p:first-of-type::first-letter,
+.interview-article.article-style-2
+  .post-content
+  > p:first-of-type::first-letter,
+.comments-article .post-content > p:first-of-type::first-letter {
+  color: var(--color-interview) !important;
+}
+.comments-article .post-content > p:first-of-type::first-letter {
   color: var(--color-comments) !important;
 }
 
-/* Background color utilities */
-.bg-culture {
-  background-color: var(--color-culture) !important;
+/* Reading controls active states */
+.culture-article .bookmark-button.active,
+.culture-article .size-option.active,
+.culture-article .view-bookmarks-link,
+.gallery-article .bookmark-button.active,
+.gallery-article .size-option.active,
+.gallery-article .view-bookmarks-link,
+.interview-article .bookmark-button.active,
+.interview-article .size-option.active,
+.interview-article .view-bookmarks-link,
+.technology-article .bookmark-button.active,
+.technology-article .size-option.active,
+.technology-article .view-bookmarks-link,
+.science-article .bookmark-button.active,
+.science-article .size-option.active,
+.science-article .view-bookmarks-link,
+.comments-article .bookmark-button.active,
+.comments-article .size-option.active,
+.comments-article .view-bookmarks-link,
+.environment-article .bookmark-button.active,
+.environment-article .size-option.active,
+.environment-article .view-bookmarks-link,
+.politics-article .bookmark-button.active,
+.politics-article .size-option.active,
+.politics-article .view-bookmarks-link {
+  color: inherit;
 }
-.bg-gallery {
-  background-color: var(--color-gallery) !important;
+.culture-article .bookmark-button.active,
+.culture-article .size-option.active,
+.culture-article .view-bookmarks-link {
+  color: var(--color-culture);
 }
-.bg-interview {
-  background-color: var(--color-interview) !important;
+.gallery-article .bookmark-button.active,
+.gallery-article .size-option.active,
+.gallery-article .view-bookmarks-link {
+  color: var(--color-gallery);
 }
-.bg-technology {
-  background-color: var(--color-technology) !important;
+.interview-article .bookmark-button.active,
+.interview-article .size-option.active,
+.interview-article .view-bookmarks-link {
+  color: var(--color-interview);
 }
-.bg-science {
-  background-color: var(--color-science) !important;
+.technology-article .bookmark-button.active,
+.technology-article .size-option.active,
+.technology-article .view-bookmarks-link {
+  color: var(--color-technology);
 }
-.bg-politics {
-  background-color: var(--color-politics) !important;
+.science-article .bookmark-button.active,
+.science-article .size-option.active,
+.science-article .view-bookmarks-link {
+  color: var(--color-science);
 }
-.bg-environment {
-  background-color: var(--color-environment) !important;
+.comments-article .bookmark-button.active,
+.comments-article .size-option.active,
+.comments-article .view-bookmarks-link {
+  color: var(--color-comments);
 }
-.bg-comments {
-  background-color: var(--color-comments) !important;
+.environment-article .bookmark-button.active,
+.environment-article .size-option.active,
+.environment-article .view-bookmarks-link {
+  color: var(--color-environment);
+}
+.politics-article .bookmark-button.active,
+.politics-article .size-option.active,
+.politics-article .view-bookmarks-link {
+  color: var(--color-politics);
 }
 
-/* Border color utilities */
+/* Post titles */
+.culture-article .post-title,
+.gallery-article .post-title,
+.technology-article .post-title,
+.science-article .post-title,
+.politics-article .post-title,
+.environment-article .post-title {
+  color: inherit;
+}
+.culture-article .post-title {
+  color: var(--color-culture);
+}
+.gallery-article .post-title {
+  color: var(--color-gallery);
+}
+.interview-article .post-title:not(.interview-header-group .post-title) {
+  color: var(--color-interview);
+}
+.technology-article .post-title {
+  color: var(--color-technology);
+}
+.science-article .post-title {
+  color: var(--color-science);
+}
+.politics-article .post-title {
+  color: var(--color-politics);
+}
+.environment-article .post-title {
+  color: var(--color-environment);
+}
+.comments-article .post-title {
+  color: var(--color-primary);
+  position: relative;
+}
+
+/* Category badges */
+.culture-article .post-categories a,
+.gallery-article .post-categories a,
+.interview-article .post-categories a,
+.comments-article .post-categories a,
+.technology-article .post-categories a,
+.science-article .post-categories a,
+.politics-article .post-categories a,
+.environment-article .post-categories a {
+  border-color: inherit;
+  background-color: inherit;
+}
+.culture-article .post-categories a {
+  background-color: var(--color-culture);
+  border-color: var(--color-culture);
+}
+.culture-article .category-label-style-2 {
+  background-color: var(--color-culture);
+}
+.gallery-article .post-categories a {
+  background-color: var(--color-gallery);
+  border-color: var(--color-gallery);
+}
+.interview-article .post-categories a {
+  background-color: var(--color-interview);
+  border-color: var(--color-interview);
+}
+.comments-article .post-categories a {
+  background-color: var(--color-comments);
+  border-color: var(--color-comments);
+}
+.technology-article .post-categories a {
+  background-color: var(--color-technology);
+  border-color: var(--color-technology);
+}
+.science-article .post-categories a {
+  background-color: var(--color-science);
+  border-color: var(--color-science);
+}
+.politics-article .post-categories a {
+  background-color: var(--color-politics);
+  border-color: var(--color-politics);
+}
+.environment-article .post-categories a {
+  background-color: var(--color-environment);
+  border-color: var(--color-environment);
+}
+
+/* Quote marks */
+.culture-article .quote-mark,
+.gallery-article .quote-mark,
+.interview-article .quote-mark,
+.comments-article .quote-mark,
+.technology-article .quote-mark,
+.science-article .quote-mark,
+.politics-article .quote-mark,
+.environment-article .quote-mark {
+  background-color: inherit;
+}
+.culture-article .quote-mark {
+  background-color: var(--color-culture);
+}
+.gallery-article .quote-mark {
+  background-color: var(--color-gallery);
+}
+.interview-article .quote-mark {
+  background-color: var(--color-interview);
+}
+.comments-article .quote-mark {
+  background-color: var(--color-comments);
+}
+.technology-article .quote-mark {
+  background-color: var(--color-technology);
+}
+.science-article .quote-mark {
+  background-color: var(--color-science);
+}
+.politics-article .quote-mark {
+  background-color: var(--color-politics);
+}
+.environment-article .quote-mark {
+  background-color: var(--color-environment);
+}
+
+/**
+ * UTILITY CLASSES & ADDITIONAL PATTERNS
+ * Class-based styling that can be applied to any element
+ */
+
+/* Drop cap utility classes */
+.drop-cap.culture {
+  color: var(--color-culture);
+}
+.drop-cap.gallery {
+  color: var(--color-gallery);
+}
+.drop-cap.interview {
+  color: var(--color-interview);
+}
+.drop-cap.comments {
+  color: var(--color-comments);
+}
+.drop-cap.environment {
+  color: var(--color-environment);
+}
+.drop-cap.technology {
+  color: var(--color-technology);
+}
+.drop-cap.science {
+  color: var(--color-science);
+}
+.drop-cap.politics {
+  color: var(--color-politics);
+}
+
+/* Border utility classes */
 .border-culture {
-  border-color: var(--color-culture) !important;
+  border-color: var(--color-culture);
 }
 .border-gallery {
-  border-color: var(--color-gallery) !important;
+  border-color: var(--color-gallery);
 }
 .border-interview {
-  border-color: var(--color-interview) !important;
+  border-color: var(--color-interview);
 }
-.border-technology {
-  border-color: var(--color-technology) !important;
-}
-.border-science {
-  border-color: var(--color-science) !important;
-}
-.border-politics {
-  border-color: var(--color-politics) !important;
+.border-comments {
+  border-color: var(--color-comments);
 }
 .border-environment {
-  border-color: var(--color-environment) !important;
+  border-color: var(--color-environment);
+}
+.border-technology {
+  border-color: var(--color-technology);
+}
+.border-science {
+  border-color: var(--color-science);
+}
+.border-politics {
+  border-color: var(--color-politics);
 }
 
-/* How to add a new category:
-1. Define the new category color in variables.css
-   Example: --color-new-category: #hexcode;
-2. Add new utility classes here following the pattern:
-   .text-new-category { color: var(--color-new-category) !important; }
-   .bg-new-category { background-color: var(--color-new-category) !important; }
-   .border-new-category { border-color: var(--color-new-category) !important; }
-3. Optional: Add category-specific styling to article-cards.css and single.css
-*/
+/* Text color utility classes */
+.text-culture {
+  color: var(--color-culture);
+}
+.text-gallery {
+  color: var(--color-gallery);
+}
+.text-interview {
+  color: var(--color-interview);
+}
+.text-comments {
+  color: var(--color-comments);
+}
+.text-environment {
+  color: var(--color-environment);
+}
+.text-technology {
+  color: var(--color-technology);
+}
+.text-science {
+  color: var(--color-science);
+}
+.text-politics {
+  color: var(--color-politics);
+}
+
+/* Background color utility classes */
+.bg-culture {
+  background-color: var(--color-culture);
+}
+.bg-gallery {
+  background-color: var(--color-gallery);
+}
+.bg-interview {
+  background-color: var(--color-interview);
+}
+.bg-comments {
+  background-color: var(--color-comments);
+}
+.bg-environment {
+  background-color: var(--color-environment);
+}
+.bg-technology {
+  background-color: var(--color-technology);
+}
+.bg-science {
+  background-color: var(--color-science);
+}
+.bg-politics {
+  background-color: var(--color-politics);
+}
+
+/* Mega menu category links */
+.mega-menu-links .culture a {
+  color: var(--color-culture);
+}
+.mega-menu-links .gallery a {
+  color: var(--color-gallery);
+}
+.mega-menu-links .interview a {
+  color: var(--color-interview);
+}
+.mega-menu-links .comments a {
+  color: var(--color-comments);
+}
+.mega-menu-links .environment a {
+  color: var(--color-environment);
+}
+.mega-menu-links .technology a {
+  color: var(--color-technology);
+}
+.mega-menu-links .science a {
+  color: var(--color-science);
+}
+.mega-menu-links .politics a {
+  color: var(--color-politics);
+}
+
+/* Links with alpha transparency */
+.markdown-body a.has-culture {
+  color: rgba(var(--color-culture-rgb), 0.7);
+}
+.markdown-body a.has-gallery {
+  color: rgba(var(--color-gallery-rgb), 0.7);
+}
+.markdown-body a.has-interview {
+  color: rgba(var(--color-interview-rgb), 0.7);
+}
+.markdown-body a.has-comments {
+  color: rgba(var(--color-comments-rgb), 0.7);
+}
+.markdown-body a.has-environment {
+  color: rgba(var(--color-environment-rgb), 0.7);
+}
+.markdown-body a.has-technology {
+  color: rgba(var(--color-technology-rgb), 0.7);
+}
+.markdown-body a.has-science {
+  color: rgba(var(--color-science-rgb), 0.7);
+}
+.markdown-body a.has-politics {
+  color: rgba(var(--color-politics-rgb), 0.7);
+}
+
+/* Special cases */
+.comments-article::before,
+.author-name-style-2 {
+  background-color: var(--color-comments);
+  color: var(--color-comments);
+}
+
+.article-style-3 .style-3-author-large a {
+  color: var(--color-article-style-3);
+}
+
+.article-style-3 .style-3-category-link {
+  color: var(--color-article-style-3);
+}
+
+/**
+ * DARK MODE OVERRIDES
+ * Dark theme variations for all category colors
+ */
+
+/* Dark mode text utility classes */
+body.dark-mode .text-culture {
+  color: var(--dark-color-culture) !important;
+}
+body.dark-mode .text-gallery {
+  color: var(--dark-color-gallery) !important;
+}
+body.dark-mode .text-interview {
+  color: var(--dark-color-interview) !important;
+}
+body.dark-mode .text-comments {
+  color: var(--dark-color-comments) !important;
+}
+body.dark-mode .text-environment {
+  color: var(--dark-color-environment) !important;
+}
+body.dark-mode .text-technology {
+  color: var(--dark-color-technology) !important;
+}
+body.dark-mode .text-science {
+  color: var(--dark-color-science) !important;
+}
+body.dark-mode .text-politics {
+  color: var(--dark-color-politics) !important;
+}
+
+/* Dark mode background utility classes */
+body.dark-mode .bg-culture {
+  background-color: var(--dark-color-culture) !important;
+}
+body.dark-mode .bg-gallery {
+  background-color: var(--dark-color-gallery) !important;
+}
+body.dark-mode .bg-interview {
+  background-color: var(--dark-color-interview) !important;
+}
+body.dark-mode .bg-comments {
+  background-color: var(--dark-color-comments) !important;
+}
+body.dark-mode .bg-environment {
+  background-color: var(--dark-color-environment) !important;
+}
+body.dark-mode .bg-technology {
+  background-color: var(--dark-color-technology) !important;
+}
+body.dark-mode .bg-science {
+  background-color: var(--dark-color-science) !important;
+}
+body.dark-mode .bg-politics {
+  background-color: var(--dark-color-politics) !important;
+}
+
+/* Dark mode border utility classes */
+body.dark-mode .border-culture {
+  border-color: var(--dark-color-culture);
+}
+body.dark-mode .border-gallery {
+  border-color: var(--dark-color-gallery);
+}
+body.dark-mode .border-interview {
+  border-color: var(--dark-color-interview);
+}
+body.dark-mode .border-comments {
+  border-color: var(--dark-color-comments);
+}
+body.dark-mode .border-environment {
+  border-color: var(--dark-color-environment);
+}
+body.dark-mode .border-technology {
+  border-color: var(--dark-color-technology);
+}
+body.dark-mode .border-science {
+  border-color: var(--dark-color-science);
+}
+body.dark-mode .border-politics {
+  border-color: var(--dark-color-politics);
+}
+
+/* Dark mode drop cap utility classes */
+
+body.dark-mode .drop-cap.culture {
+  color: var(--dark-color-culture);
+}
+body.dark-mode .drop-cap.gallery {
+  color: var(--dark-color-gallery);
+}
+body.dark-mode .drop-cap.interview {
+  color: var(--dark-color-interview);
+}
+body.dark-mode .drop-cap.comments {
+  color: var(--dark-color-comments);
+}
+body.dark-mode .drop-cap.environment {
+  color: var(--dark-color-environment);
+}
+body.dark-mode .drop-cap.technology {
+  color: var(--dark-color-technology);
+}
+body.dark-mode .drop-cap.science {
+  color: var(--dark-color-science);
+}
+body.dark-mode .drop-cap.politics {
+  color: var(--dark-color-politics);
+}
+
+/* Dark mode mega menu category links */
+body.dark-mode .mega-menu-links .culture a {
+  color: var(--dark-color-culture);
+}
+body.dark-mode .mega-menu-links .gallery a {
+  color: var(--dark-color-gallery);
+}
+body.dark-mode .mega-menu-links .interview a {
+  color: var(--dark-color-interview);
+}
+body.dark-mode .mega-menu-links .comments a {
+  color: var(--dark-color-comments);
+}
+body.dark-mode .mega-menu-links .environment a {
+  color: var(--dark-color-environment);
+}
+body.dark-mode .mega-menu-links .technology a {
+  color: var(--dark-color-technology);
+}
+body.dark-mode .mega-menu-links .science a {
+  color: var(--dark-color-science);
+}
+body.dark-mode .mega-menu-links .politics a {
+  color: var(--dark-color-politics);
+}
+
+/* Dark mode post title colors */
+body.dark-mode .culture-article .post-title,
+body.dark-mode .single-post.culture .post-title,
+body.dark-mode .article-card.has-culture .article-card-title {
+  color: var(--dark-color-culture) !important;
+}
+
+body.dark-mode .gallery-article .post-title,
+body.dark-mode .single-post.gallery .post-title,
+body.dark-mode .article-card.has-gallery .article-card-title {
+  color: var(--dark-color-gallery) !important;
+}
+
+body.dark-mode .single-post.interview .post-title,
+body.dark-mode .article-card.has-interview .article-card-title {
+  color: var(--dark-color-interview) !important;
+}
+
+body.dark-mode .comments-article .post-title,
+body.dark-mode .single-post.comments .post-title {
+  color: var(--dark-color-comments) !important;
+}
+
+body.dark-mode .environment-article .post-title,
+body.dark-mode .single-post.environment .post-title {
+  color: var(--dark-color-environment) !important;
+}
+
+body.dark-mode .technology-article .post-title,
+body.dark-mode .single-post.technology .post-title {
+  color: var(--dark-color-technology) !important;
+}
+
+body.dark-mode .science-article .post-title,
+body.dark-mode .single-post.science .post-title {
+  color: var(--dark-color-science) !important;
+}
+
+body.dark-mode .politics-article .post-title,
+body.dark-mode .single-post.politics .post-title {
+  color: var(--dark-color-politics) !important;
+}
+
+/* Dark mode category badge colors */
+body.dark-mode .culture-article .post-categories a {
+  background-color: var(--dark-color-culture) !important;
+  border-color: var(--dark-color-culture);
+}
+body.dark-mode .gallery-article .post-categories a {
+  background-color: var(--dark-color-gallery) !important;
+  border-color: var(--dark-color-gallery);
+}
+body.dark-mode .interview-article .post-categories a {
+  background-color: var(--dark-color-interview) !important;
+  border-color: var(--dark-color-interview);
+}
+body.dark-mode .interview-category-label {
+  background-color: var(--dark-color-interview) !important;
+  border-color: var(--dark-color-interview);
+}
+body.dark-mode .comments-article .post-categories a {
+  background-color: var(--dark-color-comments) !important;
+  border-color: var(--dark-color-comments);
+}
+body.dark-mode .environment-article .post-categories a {
+  background-color: var(--dark-color-environment) !important;
+  border-color: var(--dark-color-environment);
+}
+body.dark-mode .technology-article .post-categories a {
+  background-color: var(--dark-color-technology) !important;
+  border-color: var(--dark-color-technology);
+}
+body.dark-mode .science-article .post-categories a {
+  background-color: var(--dark-color-science) !important;
+  border-color: var(--dark-color-science);
+}
+body.dark-mode .politics-article .post-categories a {
+  background-color: var(--dark-color-politics) !important;
+  border-color: var(--dark-color-politics);
+}

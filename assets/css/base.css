@@ -66,26 +66,15 @@ a:focus {
 }
 
 .markdown-body a {
-  color: #c33c64;
+  color: var(--color-gallery);
   text-decoration: underline;
   text-decoration-thickness: 0.5px;
   text-decoration-color: rgba(0, 0, 0, 0.7);
   text-underline-offset: 0.2em;
 }
 
-/* .markdown-body a.has-culture {
-  color: rgba(var(--color-culture-rgb), 0.7);
-}
-
-.markdown-body a.has-interview {
-  color: rgba(var(--color-interview-rgb), 0.7);
-}
-
-.markdown-body a.has-comments {
-  color: rgba(var(--color-comments-rgb), 0.7);
-} */
-
-.markdown-body blockquote {
+/* Category-specific link colors - now centralized in category-colors.css */
+*/ .markdown-body blockquote {
   margin: 0;
   padding: 0 1em;
   color: var(--color-text-muted);
@@ -253,22 +242,45 @@ h6 {
 }
 
 .post-content ul {
-  list-style-type: disc; /* Custom bullet style */
+  list-style: none; /* Remove default bullets */
+  padding-left: 0;
 }
 
 .post-content ol {
-  list-style-type: decimal;
+  list-style: none; /* Remove default numbering */
+  counter-reset: list-counter; /* Initialize counter for ordered lists */
 }
 
 .post-content li {
   margin-bottom: 0.5em;
   margin-left: 1.5em;
+  position: relative;
 }
 
-.post-content li::marker {
-  color: #c33c64;
-  font-size: 2em;
+/* Custom bullet for unordered lists */
+.post-content ul li::before {
+  content: "•";
+  color: rgb(97, 97, 97);
+  font-size: 4em;
   line-height: 1;
+  position: absolute;
+  left: -0.5em;
+  top: -0.4em;
+}
+
+/* Custom numbering for ordered lists */
+.post-content ol li {
+  counter-increment: list-counter;
+}
+
+.post-content ol li::before {
+  content: counter(list-counter) ".";
+  color: var(--color-gallery);
+  font-size: 1em;
+  font-weight: var(--font-weight-medium);
+  position: absolute;
+  left: -1.5em;
+  top: 0;
 }
 
 /* Horizontal rule/separator styling */
@@ -321,39 +333,7 @@ h6 {
   /* Use the inherited color from blockquote */
   background-color: currentColor;
   opacity: 0.9; /* Slightly soften the quote mark */
-  color: #c33c64;
-}
-
-/* Links category styling */
-.culture-article .markdown-body > *:not(.similar-article) a {
-  color: var(--color-culture);
-}
-.interview-article .markdown-body > *:not(.similar-article) a {
-  color: var(--color-interview) !important;
-}
-.comments-article .markdown-body > *:not(.similar-article) a {
-  color: var(--color-comments);
-}
-.environment-article .markdown-body > *:not(.similar-article) a {
-  color: var(--color-environment);
-}
-
-/* Quote category styling */
-
-.comments-article .post-content blockquote p:first-of-type::before {
-  color: var(--color-comments);
-}
-
-.interview-article .post-content blockquote p:first-of-type::before {
-  color: var(--color-interview);
-}
-
-.culture-article .post-content blockquote p:first-of-type::before {
-  color: var(--color-culture);
-}
-
-.environment-article .post-content blockquote p:first-of-type::before {
-  color: var(--color-environment);
+  color: var(--color-gallery);
 }
 
 /* Gallery */
@@ -508,9 +488,6 @@ h6 {
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   .header-left-column {
     padding: 0 1rem;
-  }
-
-  .header-right-column {
   }
 
   .site-container {

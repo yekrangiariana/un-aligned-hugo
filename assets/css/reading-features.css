@@ -157,33 +157,4 @@
   }
 }
 
-/* Category-specific color variations */
-.culture-article .bookmark-button.active,
-.culture-article .size-option.active,
-.culture-article .view-bookmarks-link {
-  color: var(--color-culture);
-}
-
-.gallery-article .bookmark-button.active,
-.gallery-article .size-option.active,
-.gallery-article .view-bookmarks-link {
-  color: var(--color-gallery);
-}
-
-.interview-article .bookmark-button.active,
-.interview-article .size-option.active,
-.interview-article .view-bookmarks-link {
-  color: var(--color-interview);
-}
-
-.technology-article .bookmark-button.active,
-.technology-article .size-option.active,
-.technology-article .view-bookmarks-link {
-  color: var(--color-technology);
-}
-
-.science-article .bookmark-button.active,
-.science-article .size-option.active,
-.science-article .view-bookmarks-link {
-  color: var(--color-science);
-}
+/* Category-specific color variations - moved to category-colors.css for centralized management */

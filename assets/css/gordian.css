@@ -169,14 +169,13 @@ body.dark-mode .hero-cta {
 .reasons-section {
   /* margin: 4rem 0; */
   padding: 2rem 0;
-  border-top: var(--border-thin-light);
-  border-bottom: var(--border-thin-light);
 }
 
 .reasons-grid {
   display: flex;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  gap: 2rem;
+  gap: 1.5rem;
+  height: 100%;
 }
 
 /* Reason cards using article card styling */

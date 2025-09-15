@@ -27,15 +27,7 @@
   --dark-border: #404040;
   --dark-border-subtle: #333333;
 
-  /* Category colors */
-  --dark-color-culture: #c2a888;
-  --dark-color-gallery: #d42b63;
-  --dark-color-interview: #b96fa9;
-  --dark-color-comments: #f97736;
-  --dark-color-environment: #5ec45e;
-  --dark-color-technology: #5a9bd5;
-  --dark-color-science: #b279c8;
-  --dark-color-politics: #e67e22;
+  /* Category colors - moved to category-colors.css for centralized management */
 }
 
 /* Dark Mode Toggle Button */
@@ -163,8 +155,14 @@ body.dark-mode .article-card-placeholder,
 body.dark-mode .similar-article,
 body.dark-mode .reasons-section,
 body.dark-mode .reason-card,
-body.dark-mode .latest-issue {
+body.dark-mode .latest-issue,
+body.dark-mode .style-3-date-separated,
+body.dark-mode .style-3-header-container::after {
   border-color: var(--dark-border);
+}
+
+body.dark-mode .style-3-image {
+  border-color: white;
 }
 
 body.dark-mode .post-date {
@@ -191,50 +189,7 @@ body.dark-mode {
     science, politics;
 }
 
-/* Category text colors */
-body.dark-mode .text-culture,
-body.dark-mode .single-post.culture .post-title,
-body.dark-mode .culture-article .post-title,
-body.dark-mode .article-card.has-culture .article-card-title {
-  color: var(--dark-color-culture) !important;
-}
-
-body.dark-mode .text-gallery,
-body.dark-mode .single-post.gallery .post-title,
-body.dark-mode .article-card.has-gallery .article-card-title {
-  color: var(--dark-color-gallery) !important;
-}
-
-body.dark-mode .text-interview,
-body.dark-mode .single-post.interview .post-title,
-body.dark-mode .article-card.has-interview .article-card-title {
-  color: var(--dark-color-interview) !important;
-}
-
-body.dark-mode .text-comments,
-body.dark-mode .single-post.comments .post-title {
-  color: var(--dark-color-comments) !important;
-}
-
-body.dark-mode .text-environment,
-body.dark-mode .single-post.environment .post-title {
-  color: var(--dark-color-environment) !important;
-}
-
-body.dark-mode .text-technology,
-body.dark-mode .single-post.technology .post-title {
-  color: var(--dark-color-technology) !important;
-}
-
-body.dark-mode .text-science,
-body.dark-mode .single-post.science .post-title {
-  color: var(--dark-color-science) !important;
-}
-
-body.dark-mode .text-politics,
-body.dark-mode .single-post.politics .post-title {
-  color: var(--dark-color-politics) !important;
-}
+/* Category text colors - moved to category-colors.css for centralized management */
 
 /* Category background colors */
 body.dark-mode .bg-culture,
@@ -274,31 +229,7 @@ body.dark-mode .bg-politics {
   background-color: var(--dark-color-politics);
 }
 
-/* Category border colors */
-body.dark-mode .border-culture {
-  border-color: var(--dark-color-culture);
-}
-body.dark-mode .border-gallery {
-  border-color: var(--dark-color-gallery);
-}
-body.dark-mode .border-interview {
-  border-color: var(--dark-color-interview);
-}
-body.dark-mode .border-comments {
-  border-color: var(--dark-color-comments);
-}
-body.dark-mode .border-environment {
-  border-color: var(--dark-color-environment);
-}
-body.dark-mode .border-technology {
-  border-color: var(--dark-color-technology);
-}
-body.dark-mode .border-science {
-  border-color: var(--dark-color-science);
-}
-body.dark-mode .border-politics {
-  border-color: var(--dark-color-politics);
-}
+/* Category border colors - moved to category-colors.css for centralized management */
 
 /* Special cases */
 body.dark-mode .interview-author-credit {
@@ -512,19 +443,7 @@ body.dark-mode
   color: var(--dark-color-environment);
 }
 
-/* Drop cap classes */
-body.dark-mode .drop-cap.culture {
-  color: var(--dark-color-culture);
-}
-body.dark-mode .drop-cap.gallery {
-  color: var(--dark-color-gallery);
-}
-body.dark-mode .drop-cap.interview {
-  color: var(--dark-color-interview);
-}
-body.dark-mode .drop-cap.comments {
-  color: var(--dark-color-comments);
-}
+/* Drop cap classes - moved to category-colors.css for centralized management */
 
 body.dark-mode
   .environment-article
@@ -694,31 +613,7 @@ body.dark-mode .mega-menu-links a:hover {
   background-color: var(--dark-surface-elevated);
 }
 
-/* Category-specific menu links */
-body.dark-mode .mega-menu-links .culture a {
-  color: var(--dark-color-culture);
-}
-body.dark-mode .mega-menu-links .gallery a {
-  color: var(--dark-color-gallery);
-}
-body.dark-mode .mega-menu-links .interview a {
-  color: var(--dark-color-interview);
-}
-body.dark-mode .mega-menu-links .comments a {
-  color: var(--dark-color-comments);
-}
-body.dark-mode .mega-menu-links .environment a {
-  color: var(--dark-color-environment);
-}
-body.dark-mode .mega-menu-links .technology a {
-  color: var(--dark-color-technology);
-}
-body.dark-mode .mega-menu-links .science a {
-  color: var(--dark-color-science);
-}
-body.dark-mode .mega-menu-links .politics a {
-  color: var(--dark-color-politics);
-}
+/* Category-specific menu links - moved to category-colors.css for centralized management */
 
 /* Gordian buttons */
 body.dark-mode .gordian-button {

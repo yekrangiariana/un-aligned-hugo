@@ -34,7 +34,7 @@
                 {{- end -}}
                 {{- /* Then fill remaining slots with non-featured posts */ -}}
                 {{- $nonFeaturedPages := where $regularPages ".Params.feature" "ne" true -}}
-                {{- $remainingSlots := sub 8 (len $featuredPages) -}}
+                {{- $remainingSlots := sub 10 (len $featuredPages) -}}
                 {{- if gt $remainingSlots 0 -}}
                   {{- range first $remainingSlots $nonFeaturedPages -}}
                     {{ partial "article-card.html" . }}

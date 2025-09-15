@@ -12,7 +12,7 @@ tags:
   - "Gaza"
   - "United States"
 image: "/images/arafat-speaking-unga-in-geneva.jpg"
-style: "2"
+style: "3"
 ---
 
 The General Assembly Hall in New York is usually a theatre of protocol, but on 2 December 1988 it became a stage for open defiance. The United States, as host of UN Headquarters under the [1947 Headquarters Agreement](https://treaties.un.org/doc/Publication/UNTS/Volume%2011/volume-11-I-147-English.pdf), had refused Yasser Arafat, then chairman of the Palestine Liberation Organisation (PLO), a visa to attend. Rather than accept the absence of the Palestinian leader, 154 nations voted to take the Assembly elsewhere. Only the US and Israel stood in opposition. Britain abstained.

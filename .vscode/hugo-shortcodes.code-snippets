@@ -41,7 +41,7 @@
 
   "Photo Custom": {
     "prefix": "photo-custom",
-    "body": ["{{< photo-custom src=\"$1\" width=\"$2\" caption=\"$3\" >}}"],
+    "body": ["{{< photo-custom src=\"$1\" width=\"$2(23)\" caption=\"$3\" >}}"],
     "description": "Custom width photo"
   }
 }

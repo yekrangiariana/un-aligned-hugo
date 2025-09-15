@@ -145,6 +145,10 @@
                       border-bottom: 1px solid rgba(0,0,0,0.1);
                     }
                     
+                    .gordian-articles-section h3.category-comments {
+                      border-color: var(--color-comments);
+                    }
+                    
                     /* Featured Articles Section */
                     .featured-articles-section {
                       margin-bottom: 3rem;
@@ -195,7 +199,7 @@
                     }
                     .gordian-articles-section .article-card-content {
                       width: 60%;
-                      padding: 0;
+                      /* padding: 0; */
                     }
                     .gordian-articles-section .article-card-title {
                       font-size: 1.2rem;
@@ -241,7 +245,7 @@
                   <!-- Display articles grouped by category -->
                   {{ range $category, $articles := $articlesByCategory }}
                     <div class="article-category-section">
-                      <h3 class="category-heading">{{ $category }}</h3>
+                      <h3 class="category-heading category-{{ $category | lower | urlize }}">{{ $category }}</h3>
                       
                       <!-- Display all articles in this category -->
                       {{ range $articles }}

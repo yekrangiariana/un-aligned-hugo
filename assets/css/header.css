@@ -61,7 +61,7 @@ body.dark-mode .alert-text {
   position: relative;
   z-index: 1000; /* Ensure header is above other elements */
   border-bottom: 3px solid var(--color-header-border);
-  background-color: #d42b63;
+  background-color: var(--color-gallery);
   width: 100%; /* Full width background */
   padding-bottom: 0;
 }

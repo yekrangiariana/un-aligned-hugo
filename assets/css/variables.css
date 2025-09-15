@@ -8,7 +8,7 @@
    * Layout Constraints
    * Control the width of page elements from one central location
    */
-  --site-max-width: 1000px;
+  --site-max-width: 1100px;
   --site-content-width: 100%;
 
   /**
@@ -92,20 +92,6 @@
   --dark-color-code-bg: #1d1f21;
 
   /**
-   * Category Colors
-   * Specific colors for content categories
-   */
-  --color-culture: #554937;
-  --color-culture-rgb: 85, 73, 55;
-  --color-gallery: #d42b63;
-  --color-gallery-rgb: 18, 18, 18;
-  --color-interview: #631357;
-  --color-interview-rgb: 99, 19, 87;
-  --color-comments: #c74600;
-  --color-comments-rgb: 199, 70, 0;
-  --color-environment: rgb(1, 106, 1);
-
-  /**
    * Borders
    * Border styles, thickness, and radii
    */
@@ -140,7 +126,7 @@
   --spacing-xl: 3rem;
   --margin-paragraph: 1.2em;
   --margin-component: 50px;
-  --margin-text: 30%;
+  --margin-text: 35%;
 
   /**
    * Typography

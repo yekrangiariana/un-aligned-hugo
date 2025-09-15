@@ -28,44 +28,7 @@
   border-bottom: var(--border-thin-light);
 }
 
-/* Category-specific styling for single pages */
-
-/* Culture category - using var(--color-culture) */
-.culture-article .post-title {
-  color: var(--color-culture);
-}
-
-.culture-article .post-categories a {
-  background-color: var(--color-culture);
-}
-
-.interview-article .post-categories a {
-  background-color: var(--color-interview);
-}
-
-.interview-article .post-title:not(.interview-header-group .post-title) {
-  color: var(--color-interview);
-}
-
-/* Comments category styling */
-.comments-article .post-categories a {
-  background-color: var(--color-comments);
-}
-
-.comments-article .post-title {
-  color: var(--color-primary);
-  position: relative;
-}
-
-/* Comments quote mark styling for single posts */
-.comments-article .quote-mark {
-  /* Using shared component with large variant */
-  width: 50px;
-  height: 50px;
-  margin-right: 10px;
-  background-color: var(--color-comments);
-}
-
+/* Category-specific styling for single pages - moved to category-colors.css for centralized management */
 
 .gallery-article .post-content img {
   display: block;
@@ -95,11 +58,11 @@
 .post-content pre code {
   display: block;
   font-family: var(--font-family-primary);
-  font-weight:400;
+  font-weight: 400;
   font-style: italic;
   background-color: transparent;
   line-height: 1.6;
-  padding-right: var(--margin-text)
+  padding-right: var(--margin-text);
 }
 
 /* Styles for the categories and tags section */
@@ -135,7 +98,7 @@
     width: 35px;
     height: 35px;
     margin-right: 10px;
-    background-color: var(--color-comments);
+    /* Category-specific colors moved to category-colors.css */
   }
 
   .tag-container {
@@ -143,6 +106,6 @@
   }
 
   .post-content pre code {
-  padding-right: 0;
-}
+    padding-right: 0;
+  }
 }

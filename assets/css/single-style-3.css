@@ -1,0 +1,250 @@
+/* Style 3: Guardian-inspired two-column layout */
+
+/* Style 3 Page Background */
+.article-style-3 body,
+body:has(.article-style-3) {
+  background-color: #fdf4f2; /* Very light reddish background */
+}
+
+/* Only apply styles when article has style-3 class */
+.article-style-3 .style-3-header-container {
+  display: grid;
+  max-width: 1140px;
+  margin: 0;
+  padding: 20px;
+
+  /* Define grid columns: left for text (2fr), right for image (3fr) */
+  grid-template-columns: minmax(0, 2.5fr) minmax(0, 3fr);
+  gap: 0 15px;
+
+  /* Fade-in animation on page load */
+  opacity: 0;
+  animation: fadeInUp 0.4s ease-out 0.2s forwards;
+
+  /* Define grid areas to control placement */
+  grid-template-areas:
+    "category-tag image"
+    "headline     image"
+    "author       image"
+    "description  image"
+    "date         image"
+    "gordian      image"
+    ".            image";
+}
+
+.style-3-header-container::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 24%;
+  border-bottom: var(--border-thin-light);
+}
+
+/* Grid area assignments */
+.article-style-3 .style-3-category-tag {
+  grid-area: category-tag;
+}
+
+.article-style-3 .style-3-headline-wrapper {
+  grid-area: headline;
+}
+
+.article-style-3 .style-3-author-large {
+  grid-area: author;
+}
+
+.article-style-3 .style-3-date-separated {
+  grid-area: date;
+}
+
+.article-style-3 .style-3-gordian-relocated {
+  grid-area: gordian;
+}
+
+.article-style-3 .style-3-description {
+  grid-area: description;
+}
+
+.article-style-3 .style-3-image {
+  grid-area: image;
+  /* margin-bottom: -120px !important; */
+}
+
+/* Category and Tag inline styling */
+.article-style-3 .style-3-category-tag {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.article-style-3 .style-3-category-link {
+  font-family: var(--font-family-secondary);
+  font-weight: var(--font-weight-bold);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+}
+
+.article-style-3 .style-3-category-link:hover {
+  text-decoration: underline;
+}
+
+.article-style-3 .style-3-separator {
+  font-family: var(--font-family-primary);
+  color: var(--color-text-light);
+  font-size: var(--font-size-sm);
+  margin: 0 4px;
+}
+
+.article-style-3 .style-3-tag-link {
+  font-family: var(--font-family-primary);
+  font-weight: var(--font-weight-normal);
+  font-size: var(--font-size-sm);
+  text-decoration: none;
+}
+
+.article-style-3 .style-3-tag-link:hover {
+  text-decoration: underline;
+}
+
+/* Headline styling */
+.article-style-3 .style-3-headline-wrapper h1 {
+  font-family: var(--font-family-secondary);
+  font-size: var(--font-size-post-title);
+  font-weight: var(--font-weight-extrabold);
+  line-height: 1.2;
+  margin: 0;
+}
+
+/* Author styling (large, like title) */
+.article-style-3 .style-3-author-large {
+  margin-bottom: 12px;
+  padding-bottom: 50px;
+}
+
+.article-style-3 .style-3-author-large a {
+  font-size: var(--font-size-post-title); /* Same as title */
+  font-weight: bolder;
+  line-height: 1.2;
+  text-decoration: none;
+  display: block;
+}
+
+.article-style-3 .style-3-author-large a:hover {
+  text-decoration: underline;
+}
+
+/* Date with border separator */
+.article-style-3 .style-3-date-separated {
+  margin-bottom: 20px;
+  padding-top: 12px;
+  border-top: var(--border-thin-light);
+}
+
+.article-style-3 .style-3-date-separated time {
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-light);
+  font-weight: var(--font-weight-normal);
+}
+
+/* Description styling (old - now moved to content area) */
+.article-style-3 .style-3-description p {
+  font-size: var(--font-size-lg);
+  line-height: var(--line-height-relaxed);
+  margin: 0 0 20px 0;
+}
+
+/* Image styling */
+.article-style-3 .style-3-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.article-style-3 .style-3-image {
+  margin: 0;
+  padding: 8px;
+  min-height: 60%;
+
+  /* Hand-drawn border effect around the container */
+  border: solid 3px var(--color-primary);
+  border-radius: 230px 10px 225px 10px/10px 225px 10px 230px;
+  box-shadow: 10px 20px 20px -15px hsla(0, 0%, 0%, 0.2);
+  transition: all 0.3s ease;
+}
+
+.article-style-3 .style-3-image:hover {
+  box-shadow: 5px 10px 10px -8px hsla(0, 0%, 0%, 0.3);
+  transform: translateY(-2px);
+}
+
+/* Hide standard category and meta elements for style 3 */
+.article-style-3 .category-container,
+.article-style-3 .author-container,
+.article-style-3 .date-container,
+.article-style-3 .tag-container,
+.article-style-3 .gordian-badge-container {
+  display: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .article-style-3 .style-3-header-container {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "category-tag"
+      "gordian"
+      "headline"
+      "author"
+      "image"
+      "description"
+      "date";
+    gap: 0px 0;
+    padding: 0px;
+    padding-top: 10px;
+  }
+
+  .article-style-3 .style-3-image {
+    margin-bottom: 15px;
+    min-height: 55vh;
+  }
+
+  .style-3-header-container::after {
+    width: 100%;
+  }
+
+  .style-3-category-tag {
+    margin-bottom: 20px !important;
+  }
+
+  .article-style-3 .style-3-headline-wrapper h1 {
+    font-size: var(--font-size-title);
+    border-top: var(--border-thin-light);
+  }
+
+  .article-style-3 .style-3-description p {
+    font-size: var(--font-size-lg);
+  }
+
+  .article-style-3 .style-3-author-large {
+    padding-bottom: 20px;
+  }
+  .article-style-3 .style-3-author-large a {
+    font-size: var(--font-size-title);
+  }
+}
+
+/* Keyframes for fade-in animation */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

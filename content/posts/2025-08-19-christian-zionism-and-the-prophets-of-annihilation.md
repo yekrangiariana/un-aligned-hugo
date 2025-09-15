@@ -1,5 +1,5 @@
 ---
-title: "The prophets of annihilation’: Inside the movement that sees genocide as god's will"
+title: "'The prophets of annihilation': Inside the movement that sees genocide as god's will"
 description: "For millions of Christian Zionists, the annihilation of Palestinians is not a crime to be condemned, but a sacred prophecy to be fulfilled. This is the story of the theological engine driving the war on Gaza."
 date: 2025-08-18T23:07:43+03:00
 authors: ["Ariana Yekrangi"]
@@ -12,7 +12,7 @@ tags:
   - "Gaza"
   - "United States"
 image: "/images/christian-zionism-and-the-prophets-of-annihilation/christian-zionism-and-the-prophets-of-annihilation.jpg"
-style: "1"
+style: "3"
 ---
 
 When we picture the faces of the Gaza genocide, the obvious villains come to mind: Benjamin Netanyahu issuing the orders, Joe Biden supplying the bombs, and Keir Starmer and the European political class offering cover. Their complicity is undeniable, their names already etched into the annals of infamy.
@@ -27,7 +27,7 @@ For its followers, the suffering in Gaza is merely a prelude to an apocalyptic f
 
 “It is a cruel bargain they have going with Israel because they think they are going to be swooped up into heaven, there will be a thousand-year kingdom, and then there’ll be the end of the world... It was condemned as a heresy in 381 because there is no thousand-year millennium to come. We are in that time period now.”
 
-{{< photo-custom src="/images/christian-zionism-and-the-prophets-of-annihilation/JohnNelsonDarby.jpg" width="24" caption="John Nelson Darby around 1870. His teachings on the ‘rapture’ and Christian Zionism shaped modern evangelical views of Israel." >}}
+{{< photo-custom src="/images/christian-zionism-and-the-prophets-of-annihilation/JohnNelsonDarby.jpg" width="23" caption="John Nelson Darby around 1870. His teachings on the ‘rapture’ and Christian Zionism shaped modern evangelical views of Israel." >}}
 
 This heresy is not ancient; it is a modern political invention. Christian Zionism was born in the 19th century from the teachings of an Anglo-Irish preacher named John Nelson Darby. He created a new theological system called Dispensationalism, which claimed that God had separate plans for Jews and Christians. 
 
