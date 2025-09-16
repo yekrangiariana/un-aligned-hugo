@@ -827,7 +827,11 @@ body.dark-mode .article-style-3 .markdown-body > *:not(.similar-article) a {
   color: var(--dark-color-article-style-3);
 }
 
-body.dark-mode .article-style-3 .post-content blockquote p:first-of-type::before {
+body.dark-mode
+  .article-style-3
+  .post-content
+  blockquote
+  p:first-of-type::before {
   color: var(--dark-color-article-style-3);
 }
 
