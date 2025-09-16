@@ -8,7 +8,6 @@
   background-color: var(--color-background);
   height: 100%;
   border-top: var(--border-thin);
-  padding-bottom: 10px;
   padding-top: 0;
   position: relative;
 }
