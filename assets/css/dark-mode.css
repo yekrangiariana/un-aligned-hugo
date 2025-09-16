@@ -464,6 +464,11 @@ body.dark-mode .politics-article .post-content > p:first-of-type::first-letter {
 }
 
 /* Links category styling */
+
+body.dark-mode .markdown-body a {
+  text-decoration-color: var(--light-border);
+}
+
 body.dark-mode .culture-article .markdown-body a {
   color: var(--dark-color-culture);
   text-decoration-color: var(--light-border);
