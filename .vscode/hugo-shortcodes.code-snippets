@@ -43,5 +43,11 @@
     "prefix": "photo-custom",
     "body": ["{{< photo-custom src=\"$1\" width=\"$2(23)\" caption=\"$3\" >}}"],
     "description": "Custom width photo"
+  },
+
+  "Button": {
+    "prefix": "button",
+    "body": ["{{< button \"$1\" \"$2\" \"_blank\" >}}"],
+    "description": "Button shortcode"
   }
 }

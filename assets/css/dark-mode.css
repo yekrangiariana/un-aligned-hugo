@@ -107,6 +107,10 @@ body.dark-mode a {
   color: var(--dark-link);
 }
 
+body.dark-mode .markdown-body a {
+  color: #d42b63;
+}
+
 body.dark-mode a:hover {
   color: var(--dark-link-hover);
 }
@@ -157,8 +161,19 @@ body.dark-mode .reasons-section,
 body.dark-mode .reason-card,
 body.dark-mode .latest-issue,
 body.dark-mode .style-3-date-separated,
-body.dark-mode .style-3-header-container::after {
+body.dark-mode .style-3-header-container::after,
+body.dark-mode .article-style-3 .style-3-headline-wrapper h1 {
   border-color: var(--dark-border);
+}
+
+body.dark-mode .comment-separator::before {
+  background: repeating-linear-gradient(
+    to bottom,
+    var(--dark-border),
+    var(--dark-border) 1px,
+    transparent 1px,
+    transparent 4px
+  );
 }
 
 body.dark-mode .style-3-image {
