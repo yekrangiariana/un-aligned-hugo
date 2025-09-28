@@ -19,19 +19,19 @@ The central office team consists of the following individuals. 
 
 **Ariana Yekrangi**\
 *Founder and Editor of the Gordian Magazine*\
-📍Helsinki, Finland
+📍Finland
 
 **Adrian Liberto**\
 *Co-Founder and Editor of the Gordian Magazine*\
-📍Rome, Italy
+📍Italy
 
 **Partho Pratim Chatterjee**\
-*Chair*\
+*Environmental Officer*\
 📍India
 
 **Jonna Lappalainen**\
 *Treasurer*\
-📍Helsinki, Finland
+📍Finland
 
 ## Virtual and alternative UN
 

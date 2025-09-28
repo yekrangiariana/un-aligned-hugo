@@ -86,15 +86,25 @@
   color: inherit;
 }
 
-/* Card image */
 .article-card-image {
   width: 100%;
   height: auto;
   object-fit: cover;
   margin-top: auto;
+  aspect-ratio: 3/2;
 }
 
-/* Specific styling for comments cards with images */
+.article-card.gordian-issue-card .article-card-image,
+.article-card.related-article-card .article-card-image {
+  aspect-ratio: auto;
+}
+
+.article-grid .article-card:first-child .article-card-image,
+.article-grid .article-card:nth-child(4) .article-card-image {
+  height: auto;
+  aspect-ratio: auto;
+}
+
 .article-card.has-comments .article-card-image {
   width: 100%;
 }
@@ -408,6 +418,11 @@ select:focus-visible,
 /* .article-card:nth-child(4) .article-card-link,
 .article-card:first-child .article-card-link {
   flex-direction: row !important;
+}
+
+.article-card:nth-child(4) .article-card-image,
+.article-card:first-child .article-card-image {
+  width: 280%;
 } */
 
 /* .article-card:nth-child(4) .article-card-image {
