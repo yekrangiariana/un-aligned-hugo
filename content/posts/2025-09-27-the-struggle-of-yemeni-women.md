@@ -1,7 +1,7 @@
 ---
 title: "Yemen’s silent front: Women and the war that never ends"
 date: "2025-09-20T12:02:56+0000"
-author: "Necati Dogukan"
+authors: ["Necati Dogukan"]
 slug: "the-struggle-of-yemeni-women"
 description: "For women in Yemen, war is not only fought with bombs, it is felt in childbirth, hunger and the daily struggle for survival."
 categories:
