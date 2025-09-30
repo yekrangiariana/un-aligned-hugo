@@ -1,6 +1,6 @@
 ---
 title: "Why international law remains an illusion - And the prospect of a nation beyond sovereignty"
-date: "2025-09-25T23:16:09+0000"
+date: "2025-09-25T23:16:09+0300"
 authors: ["Omar Alansari-Kreger"]
 slug: "beyond-westphalia-international-justice"
 description: "So long as states control legal enforcement, international justice remains out of reach. Could a sovereign body of supranational law break the grip of Westphalia?"

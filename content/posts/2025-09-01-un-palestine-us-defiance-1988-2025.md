@@ -1,6 +1,6 @@
 ---
 title: "The day the UN walked out of New York: How the UN lost its will to defy the US"
-date: "2025-09-01T10:15:57+0000"
+date: "2025-09-01T10:15:57+0300"
 authors: "Ariana Yekrangi"
 slug: "un-palestine-us-defiance-1988-2025"
 description: "In 1988, the UN forced Washington to its knees by moving to Geneva so Yasser Arafat could speak. Today, as the US blocks Palestinian leaders and arms Israel’s genocide in Gaza, the Assembly stays silent. Has the UN lost its courage?"

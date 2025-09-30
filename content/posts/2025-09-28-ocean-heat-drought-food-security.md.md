@@ -1,6 +1,6 @@
 ---
 title: "Earth's weather-makers: The climate engines driving global drought"
-date: "2025-09-28T13:00:31+0000"
+date: "2025-09-28T13:00:31+0300"
 authors: ["Partho Pratim Chatterjee"]
 slug: "ocean-heat-drought-food-security"
 url: "environment-report/ocean-heat-drought-food-security"

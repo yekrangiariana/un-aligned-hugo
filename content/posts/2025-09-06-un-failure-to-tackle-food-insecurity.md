@@ -1,6 +1,6 @@
 ---
 title: "'Let them eat vetos': Millions at risk as UN Security Council ignores food security needs"
-date: "2025-09-05T20:36:48+0000"
+date: "2025-09-05T20:36:48+0300"
 author: "Christian Herb"
 slug: "unsc-vetoes-food-insecurity"
 description: "Exploring the UN's shortcomings in addressing global food insecurity amid rising conflict."

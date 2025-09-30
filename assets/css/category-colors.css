@@ -140,7 +140,6 @@
 .comments-article .post-content blockquote p:first-of-type::before,
 .climate-emergency-article .post-content blockquote p:first-of-type::before,
 .technology-article .post-content blockquote p:first-of-type::before,
-.science-article .post-content blockquote p:first-of-type::before,
 .politics-article .post-content blockquote p:first-of-type::before {
   color: inherit; /* Will inherit from parent category */
 }
@@ -174,8 +173,6 @@
 .climate-emergency-article .post-content ol li::before,
 .technology-article .post-content ul li::before,
 .technology-article .post-content ol li::before,
-.science-article .post-content ul li::before,
-.science-article .post-content ol li::before,
 .politics-article .post-content ul li::before,
 .politics-article .post-content ol li::before {
   color: inherit; /* Will inherit from parent category */
@@ -206,7 +203,6 @@
 .culture-article .post-content > p:first-of-type::first-letter,
 .gallery-article .post-content > p:first-of-type::first-letter,
 .technology-article .post-content > p:first-of-type::first-letter,
-.science-article .post-content > p:first-of-type::first-letter,
 .politics-article .post-content > p:first-of-type::first-letter,
 .climate-emergency-article .post-content > p:first-of-type::first-letter,
 .climate-emergency-article.article-style-2
@@ -252,9 +248,6 @@
 .technology-article .bookmark-button.active,
 .technology-article .size-option.active,
 .technology-article .view-bookmarks-link,
-.science-article .bookmark-button.active,
-.science-article .size-option.active,
-.science-article .view-bookmarks-link,
 .comments-article .bookmark-button.active,
 .comments-article .size-option.active,
 .comments-article .view-bookmarks-link,
@@ -291,7 +284,6 @@
 .culture-article .post-title,
 .gallery-article .post-title,
 .technology-article .post-title,
-.science-article .post-title,
 .politics-article .post-title,
 .climate-emergency-article .post-title {
   color: inherit;
@@ -316,7 +308,6 @@
 .interview-article .post-categories a,
 .comments-article .post-categories a,
 .technology-article .post-categories a,
-.science-article .post-categories a,
 .politics-article .post-categories a,
 .climate-emergency-article .post-categories a {
   border-color: inherit;
@@ -348,7 +339,6 @@
 .interview-article .quote-mark,
 .comments-article .quote-mark,
 .technology-article .quote-mark,
-.science-article .quote-mark,
 .politics-article .quote-mark,
 .climate-emergency-article .quote-mark {
   background-color: inherit;

@@ -1,6 +1,6 @@
 ---
 title: "'Faith, land and gold': The making of American culture"
-date: "2025-09-01T09:29:26+0000"
+date: "2025-09-01T09:29:26+0300"
 authors: "Alex Liberto"
 slug: "the-making-of-american-culture-1"
 description: "The relentless drive for faith, land and gold propelled a diverse people across a continent, creating an American culture from the collision of European traditions, African resilience and the raw wilderness itself."

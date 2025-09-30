@@ -1,6 +1,6 @@
 ---
 title: "The hidden war on honeybees: Murder hornets, parasitic wasps and the fight for survival"
-date: "2025-08-31T10:25:16+0000"
+date: "2025-08-31T10:25:16+0300"
 authors: "Partho Pratim Chatterjee"
 slug: "honeybees-under-siege"
 description: "From hornets that can wipe out entire hives in under two hours to wasps that hollow bees from within, invasive predators are undermining apiculture worldwide."

@@ -1,6 +1,6 @@
 ---
 title: "Caravaggio’s two Matthews: Realism rejected, revelation remade"
-date: "2025-08-31T19:35:29+0000"
+date: "2025-08-31T19:35:29+0300"
 authors: "Carla Pietrobattista"
 slug: "caravaggios-two-matthews"
 description: "Between 1600 and 1601, Caravaggio recast the scene: out went the coarse, patron-spurned Matthew and dominating angel; in came classical dress, a lighter touch and a writer in charge."

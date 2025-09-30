@@ -1,6 +1,6 @@
 ---
 title: "Open letter to the UN: Protect press freedom and defend human rights"
-date: "2025-08-30T19:36:11+0000"
+date: "2025-08-30T19:36:11+0300"
 authors: "UN-aligned"
 slug: "open-letter-to-un-protect-press-freedom"
 description: "The deliberate persecution of journalists is spreading unchecked across the world. Without urgent and enforceable action, the UN risks abandoning its founding values of dignity, justice and truth."

@@ -1,6 +1,6 @@
 ---
 title: "'Now is the time of monsters': How religious leaders are failing their moral duty"
-date: "2025-09-01T11:26:17+0000"
+date: "2025-09-01T11:26:17+0300"
 authors: "Adrian Liberto"
 slug: "when-religions-fail"
 description: "From rabbis sanctioning a holy war to a Pope who won't name the aggressor, the world's great religions are facing a crisis of conscience over Gaza. Is their silence and complicity creating a Judaism without a soul and a Christianity without a heart?"

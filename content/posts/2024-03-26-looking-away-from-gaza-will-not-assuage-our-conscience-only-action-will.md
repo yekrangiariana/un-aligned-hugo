@@ -4,6 +4,7 @@ description: "A genocide in Palestine is unfolding right before our eyes, a saga
 date: 2024-03-26T08:27:32+02:00
 authors: ["Ariana Yekrangi"]
 url: "human-rights/looking-away-from-gaza-will-not-assuage-our-conscience-only-action-will"
+slug: "looking-away-from-gaza-will-not-assuage-our-conscience-only-action-will"
 categories: 
   - "Human Rights"
   - "World Peace"
