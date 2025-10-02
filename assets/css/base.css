@@ -238,7 +238,6 @@ h6 {
   margin-bottom: var(--margin-paragraph);
   padding-left: 0.5em;
   font-weight: var(--font-weight-medium);
-  margin-right: var(--margin-text);
 }
 
 .post-content ul {
