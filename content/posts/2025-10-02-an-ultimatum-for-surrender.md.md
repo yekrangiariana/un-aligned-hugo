@@ -17,11 +17,11 @@ style: "1"
 
 - You can read the full 20-point plan [below](#donald-trumps-20-point-plan-in-full).
 
-This is not a plan for peace. The document presented as a path forward for Gaza is an ultimatum, engineered from the outset to be rejected. Despite Donald Trump’s claims of “widespread cooperation,” this is an Israeli-American document, born from [closed-door meetings](https://www.axios.com/2025/09/29/trump-netanyahu-gaza-peace-deal-israel-meeting) between Prime Minister Netanyahu and Trump’s most ardent Zionist advisors. It is an instrument of surrender disguised as a deal.
+This is not a plan for peace. The document presented as a path forward for Gaza is an ultimatum, engineered from the outset to be rejected. Despite Donald Trump’s claims of “widespread cooperation,” this is an Israeli-American document, born from [closed-door meetings](https://www.axios.com/2025/09/29/trump-netanyahu-gaza-peace-deal-israel-meeting) between Prime Minister Netanyahu and Trump’s most ardent Zionist advisors.
 
 The terms are strategically impossible. Hamas is required to release all remaining living hostages and the bodies of the dead (point 4) within 72 hours, forfeiting their most significant leverage. In return, Israel will eventually free a fraction of the thousands of Palestinians, including [many children](https://www.aljazeera.com/news/2025/1/26/why-are-there-so-many-palestinian-children-in-israeli-prisons), it holds (point 5). The plan then demands the complete disarmament of Hamas and the destruction of its entire tunnel network (point 13), which would leave the entire resistance movements in Gaza utterly defenceless.
 
-It also offers a fraudulent “phased withdrawal” (point 3). Israeli forces would pull back from their current “blue line” to a “yellow line,” but the final stages—withdrawal to a “red line” and then to a permanent “security buffer zone” inside Gaza—have no dates attached (point 16). 
+It also offers a fraudulent phased "withdrawal" (point 3). Israeli forces would pull back from their current “blue line” to a “yellow line,” but the final stages—withdrawal to a “red line” and then to a permanent “security buffer zone” inside Gaza—have no dates attached (point 16). 
 
 {{< photo-custom src="/images/trump-gaza-plan-map.avif" width="50" caption="The White House released this image of Gaza as part of the proposed peace plan. September 29, 2025." >}}
 
@@ -39,7 +39,7 @@ What is missing is everything that matters: no accountability for genocide, [no 
 
 This entire proposal leads back to [Netanyahu’s ultimatum](https://www.nbcnews.com/video/netanyahu-says-ending-conflict-in-gaza-can-be-done-the-easy-way-or-the-hard-way-248665669765): "the easy way or the hard way." This plan is the "easy way." Its assured rejection provides the pretext for the "hard way"—the escalation of the genocidal war, the forced displacement of Palestinians southward and the ultimate goal of expulsion into the Sinai.
 
-This places Palestinians in an impossible position. It is understandable that a people enduring genocide would want relief at any cost. They want food. They want a safe piece of ground to sleep on. They are tired of seeing their children's limbs scattered across the ruins of their homes. Yet the "peace" on offer is a trap. The entire crux of the Palestine situation is that their lands, liberty and self-determination have been stolen. A :peace plan” that provides neither land, liberty, nor self-determination back is not a peace plan. It is the same old oppression with a new, transparent veneer.
+This places Palestinians in an impossible position. It is understandable that a people enduring genocide would want relief at any cost. They want food. They want a safe piece of ground to sleep on. They are tired of seeing their children's limbs scattered across the ruins of their homes. Yet the "peace" on offer is a trap. The entire crux of the Palestine situation is that their lands, liberty and self-determination have been stolen. A "peace plan” that provides neither land, liberty nor self-determination back is not a peace plan. It is the same old oppression with a new, transparent veneer.
 
 ---
 ## Donald Trump's 20 point plan in full
