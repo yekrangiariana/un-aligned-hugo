@@ -15,6 +15,8 @@ image: "/images/netanyahu-and-trump-at-the-white-house.jpg"
 style: "1"
 ---
 
+- You can read the full 20-point plan [below](#donald-trumps-20-point-plan-in-full).
+
 This is not a plan for peace. The document presented as a path forward for Gaza is an ultimatum, engineered from the outset to be rejected. Despite Donald Trump’s claims of “widespread cooperation,” this is an Israeli-American document, born from [closed-door meetings](https://www.axios.com/2025/09/29/trump-netanyahu-gaza-peace-deal-israel-meeting) between Prime Minister Netanyahu and Trump’s most ardent Zionist advisors. It is an instrument of surrender disguised as a deal.
 
 The terms are strategically impossible. Hamas is required to release all remaining living hostages and the bodies of the dead (point 4) within 72 hours, forfeiting their most significant leverage. In return, Israel will eventually free a fraction of the thousands of Palestinians, including [many children](https://www.aljazeera.com/news/2025/1/26/why-are-there-so-many-palestinian-children-in-israeli-prisons), it holds (point 5). The plan then demands the complete disarmament of Hamas and the destruction of its entire tunnel network (point 13), which would leave the entire resistance movements in Gaza utterly defenceless.
@@ -42,7 +44,7 @@ This places Palestinians in an impossible position. It is understandable that a 
 ---
 ## Donald Trump's 20 point plan in full
 
-Here is the full text of the proposal, as [published by the White House](https://www.whitehouse.gov/articles/2025/10/global-support-for-president-trumps-bold-vision-for-peace-in-gaza/):
+Here is the full text of the proposal, as [published by the White House](https://x.com/RapidResponse47/status/1972726021196562494):
 
 1. Gaza will be a deradicalised terror-free zone that does not pose a threat to its neighbours.
 
