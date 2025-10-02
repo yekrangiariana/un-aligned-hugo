@@ -554,10 +554,10 @@ body.dark-mode .article-card.has-interview .article-card-title {
   color: var(--dark-color-interview) !important;
 }
 
-body.dark-mode .comments-article .post-title,
+/* body.dark-mode .comments-article .post-title,
 body.dark-mode .single-post.comments .post-title {
   color: var(--dark-color-comments) !important;
-}
+} */
 
 /* Dark mode category badge colors */
 body.dark-mode .culture-article .post-categories a {
