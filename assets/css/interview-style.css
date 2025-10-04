@@ -78,6 +78,7 @@
 /* Make the elements display properly as blocks while maintaining the highlight effect */
 .interview-header-text-container > div {
   margin-top: 0.3rem;
+  margin-right: 20%;
 }
 
 /* Make sure other elements have proper spacing */
@@ -98,6 +99,9 @@
   .interview-article .interview-featured-image {
     margin-top: -3em;
     min-height: auto;
+  }
+  .interview-header-text-container > div {
+    margin-right: 0;
   }
 
   .interview-category-label-style-2 {

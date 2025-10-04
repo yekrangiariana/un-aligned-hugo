@@ -387,6 +387,13 @@
   
           
 
+          <!-- Interview description before content -->
+          {{ if and $hasInterview .Description }}
+          <div class="post-description">
+            <p itemprop="description">{{ .Description }}</p>
+          </div>
+          {{ end }}
+
           <div class="post-content markdown-body" itemprop="articleBody">
             {{ .Site.Params.postHeaderContent | safeHTML }}
             

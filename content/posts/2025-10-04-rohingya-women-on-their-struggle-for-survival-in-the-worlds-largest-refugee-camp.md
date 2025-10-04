@@ -1,5 +1,5 @@
 ---
-title: "A death sentence in a different form’: Rohingya women on their struggle for survival in the world's largest refugee camp"
+title: "'A death sentence in a different form’: Rohingya women on their struggle for survival in the world's largest refugee camp"
 date: "2025-10-04T17:00:00+0300"
 authors: ["Rashedul Hasan"]
 slug: "rohingya-women-on-their-struggle-for-survival"
