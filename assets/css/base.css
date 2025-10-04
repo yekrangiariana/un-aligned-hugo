@@ -214,6 +214,10 @@ h6 {
   margin-right: var(--margin-text);
 }
 
+.interview-description p {
+  font-size: var(--font-size-lg);
+}
+
 .comment-description {
   font-size: var(--font-size-xl);
   line-height: var(--line-height-relaxed);
