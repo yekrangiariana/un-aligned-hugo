@@ -1,7 +1,7 @@
 ---
 title: "Powerful women: The story of Artemisia Gentileschi and her 1639 self-portrait"
 date: 2021-12-21T09:49:15+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/the-story-of-artemisia-gentileschi"
 categories:
   - "Culture"

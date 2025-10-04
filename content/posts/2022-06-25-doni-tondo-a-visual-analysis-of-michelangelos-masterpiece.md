@@ -2,7 +2,7 @@
 title: "Doni Tondo: A Visual Analysis of Michelangelo's Masterpiece"
 description: "Located in the gallery of Uffizi, Michelangelo’s Doni Tondo (Tondo Doni) portrays the holy family and represents a unicum in Michelangelo's artistic production."
 date: 2022-06-25T11:55:20+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/doni-tondo-a-visual-analysis-of-michelangelos-masterpiece"
 categories:
   - "Culture"

@@ -1,7 +1,7 @@
 ---
 title: 'From Michelangelo to Michelangelo: The story behind Caravaggio his "Death of the Virgin"'
 date: 2021-11-22T10:00:00+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/the-story-behind-caravaggio-his-death-of-the-virgin"
 categories:
   - "Culture"

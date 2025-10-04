@@ -5,6 +5,24 @@
   display: none;
 }
 
+/* When shown, ensure Gordian section follows 20/80 grid layout on home page */
+#current-gordian.category-section {
+  display: flex !important;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 40px;
+}
+
+#current-gordian .category-header {
+  flex: 0 0 var(--column-left-width);
+  max-width: var(--column-left-width);
+}
+
+#current-gordian .category-grid {
+  flex: 0 0 var(--column-right-width);
+  max-width: var(--column-right-width);
+}
+
 /* Hero section styling */
 .gordian-hero {
   padding: 2rem 0;
@@ -116,6 +134,12 @@ body.dark-mode .hero-cta {
 .latest-issue {
   border-top: var(--border-thin-light);
   padding-top: 20px;
+}
+
+/* Ensure latest-issue doesn't break the grid layout */
+.category-section.latest-issue {
+  display: flex;
+  width: 100%;
 }
 
 /* Horizontal layout for latest issue */

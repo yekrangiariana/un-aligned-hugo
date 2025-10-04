@@ -2,7 +2,7 @@
 title: "The Story of My Great Uncle Pamfilo of Magliano"
 description: "Pamfilo of Magliano (Giovanni Paolo Pietrobattista) was a Franciscan friar who lived a life characterised by intelligence, determination, and resilience, writes Carla, Giovanni’s great niece."
 date: 2022-12-19T09:30:00+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/pamfilo-of-magliano-the-story-of-great-uncle-giovanni-paolo-pietrobattista"
 categories:
   - "Culture"

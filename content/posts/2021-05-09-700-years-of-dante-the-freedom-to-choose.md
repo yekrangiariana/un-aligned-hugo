@@ -1,7 +1,7 @@
 ---
 title: "The freedom to choose"
 date: 2021-05-09T10:50:00+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/700-years-of-dante-the-freedom-to-choose"
 categories: 
   - "Culture"

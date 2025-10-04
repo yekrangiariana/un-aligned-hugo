@@ -2,7 +2,7 @@
 title: "“Art for all”: Della Robbia and the glazed sculptures of the Renaissance"
 description: "In the 15th century city of Florence, Luca della Robbia goes on to create a recipe for the perfect glazed sculpture, an art form that, at the time, did not fit into the rigid cataloging art."
 date: 2022-02-19T10:46:01+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/della-robbia-glazed-sculptures-of-the-renaissance"
 categories:
   - "Culture"

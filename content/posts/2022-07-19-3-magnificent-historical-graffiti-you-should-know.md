@@ -2,7 +2,7 @@
 title: "Graffiti through history: 3 magnificent examples"
 description: "Who makes graffiti? Street children who vandalise walls or mysterious artists whose works are worth millions? You may be surprised to know these three historical graffiti."
 date: 2022-07-19T10:48:43+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/3-magnificent-historical-graffiti-you-should-know"
 categories:
   - "Culture"

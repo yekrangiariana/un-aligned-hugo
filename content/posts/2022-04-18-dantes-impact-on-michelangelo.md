@@ -2,7 +2,7 @@
 title: "Like Rings in The Water: Dante’s impact on Michelangelo"
 description: "The divine complexity of Dante's Commedia has not only produced sterile admiration but has been able to generate new art in all the shapes and forms. This piece looks at Dante's impact on the Michelangelo."
 date: 2022-04-18T10:50:17+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/dantes-impact-on-michelangelo"
 categories:
   - "Culture"

@@ -2,7 +2,7 @@
 title: '''Transcending Strokes'': Caravaggio''s Unmistakable Emotion in "Judith and Holofernes"'
 description: "Unveiling the emotional tension in Caravaggio's 'Judith and Holofernes,' a dramatic narrative of good versus evil comes to light through distinctive stylistic elements."
 date: 2023-10-16T11:15:06+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/transcending-strokes-caravaggios-unmistakable-emotion-in-judith-and-holofernes-unveiled"
 categories:
   - "Culture"

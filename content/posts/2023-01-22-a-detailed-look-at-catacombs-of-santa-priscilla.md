@@ -2,7 +2,7 @@
 title: "A Detailed Look at the Ancient Nativity Fresco in the Catacombs of Santa Priscilla"
 description: "Dive deeper into the history and symbolism of early Christian art with our analysis of the ancient Nativity Fresco in the Catacombs of Santa Priscilla, Rome"
 date: 2023-01-22T09:30:00+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/a-detailed-look-at-catacombs-of-santa-priscilla"
 categories:
   - "Culture"

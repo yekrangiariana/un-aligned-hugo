@@ -1,7 +1,7 @@
 ---
 title: "The Perfected Thought: Michelangelo Buonarroti"
 date: 2021-07-22T11:18:06+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/the-perfected-thought-michelangelo-buonarroti"
 categories:
   - "Culture"

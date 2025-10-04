@@ -2,7 +2,7 @@
 title: "The Conversion of St. Paul by Caravaggio: A Masterpiece of Dramatic Intensity and Transformative Power"
 description: "An analysis of Caravaggio's The Conversion of St. Paul and its representation of the powerful transformation of the future apostle."
 date: 2023-03-14T13:00:00+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/the-conversion-of-st-paul-by-caravaggio-a-masterpiece-of-dramatic-intensity-and-transformative-power"
 categories:
   - "Culture"

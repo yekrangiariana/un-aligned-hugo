@@ -2,7 +2,7 @@
 title: "How Michelangelo’s \"Fruit Basket\" captures the fleeting essence of life"
 description: "In Caravaggio's 'Fruit Basket', a mere wicker basket and its contents emerge as a profound meditation on life, light and the passage of time, showcasing the artist's early genius."
 date: 2024-01-15T10:00:00+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/michelangelos-fruit-basket"
 slug: "michelangelos-fruit-basket"
 categories: 

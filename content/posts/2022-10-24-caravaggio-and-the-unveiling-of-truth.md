@@ -1,7 +1,7 @@
 ---
 title: "Caravaggio and the unveiling of truth"
 date: 2022-10-24T10:00:00+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/caravaggio-and-the-unveiling-of-truth"
 categories:
   - "Culture"

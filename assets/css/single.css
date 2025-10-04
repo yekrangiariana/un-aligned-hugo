@@ -10,8 +10,13 @@
   width: 40px;
   height: 40px;
   margin-right: 10px;
-  /* Category-specific colors moved to category-colors.css */
 }
+
+/* .comments-article .author-container {
+  left: 22%;
+  padding: none;
+  margin: none;
+} */
 
 /* Improved sidebar organization for single pages */
 .sidebar-section {

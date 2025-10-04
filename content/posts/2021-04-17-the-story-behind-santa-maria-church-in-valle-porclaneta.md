@@ -1,7 +1,7 @@
 ---
 title: "On the road: The story behind Santa Maria church in Valle Porclaneta"
 date: 2021-04-17T09:50:00+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/the-story-behind-santa-maria-church-in-valle-porclaneta"
 categories:
   - "Culture"

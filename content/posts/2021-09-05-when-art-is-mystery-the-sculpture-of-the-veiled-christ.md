@@ -2,7 +2,7 @@
 title: "Unveiling the Mystery of the Veiled Christ: A Look into the Sansevero Chapel and its Creator"
 description: "Discover the story of the Veiled Christ, a sculpture by Giuseppe Sanmartino housed in the Sansevero Chapel in Naples."
 date: 2021-09-05T16:53:53+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/when-art-is-mystery-the-sculpture-of-the-veiled-christ"
 categories:
   - "Culture"

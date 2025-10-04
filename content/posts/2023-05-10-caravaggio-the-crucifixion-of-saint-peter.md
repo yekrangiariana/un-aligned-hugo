@@ -2,7 +2,7 @@
 title: "Caravaggio's Crucifixion of St. Peter: The Unseen Heroism"
 description: "Caravaggio's 1601 Crucifixion of St. Peter showcases mastery of light, human detail and transformative narrative in this iconic Baroque masterpiece."
 date: 2023-05-10T13:38:40+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/caravaggio-the-crucifixion-of-saint-peter"
 categories:
   - "Culture"

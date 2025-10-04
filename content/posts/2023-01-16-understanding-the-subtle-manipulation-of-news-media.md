@@ -4,6 +4,7 @@ description: "Exploring manipulation tactics and dangers of compliance in the ne
 date: 2023-01-16T09:30:00+02:00
 authors: ["Adrian Liberto"]
 url: "global-issues/understanding-the-subtle-manipulation-of-news-media"
+slug: "understanding-the-subtle-manipulation-of-news-media"
 categories:
   - "Global Issues"
   - "Human Rights"

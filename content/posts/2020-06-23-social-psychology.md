@@ -1,8 +1,9 @@
 ---
-title: "Here is What Social Psychology Say About Prejudice & Discrimination"
+title: "Us vs them: Here is what social psychology say about prejudice and discrimination"
 date: 2020-06-23T08:49:00+03:00
 authors: ["Jonna.Lappalainen"]
 url: "human-rights/social-psychology"
+slug: "social-psychology"
 categories: 
   - "Human Rights"
 tags: 

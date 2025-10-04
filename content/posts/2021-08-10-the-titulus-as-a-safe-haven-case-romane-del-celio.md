@@ -1,7 +1,7 @@
 ---
 title: "The Titulus as a safe haven: Case Romane del Celio"
 date: 2021-08-10T11:00:00+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/the-titulus-as-a-safe-haven-case-romane-del-celio"
 categories:
   - "Culture"

@@ -4,6 +4,7 @@ description: "A comprehensive critique of traditional schooling and a vision of 
 date: 2022-04-11T12:05:02+03:00
 authors: ["Adrian Liberto"]
 url: "education/educations-paradigm-shift"
+slug: "educations-paradigm-shift"
 categories:
   - "Education"
   - "Social Issues"

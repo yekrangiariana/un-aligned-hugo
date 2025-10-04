@@ -115,17 +115,6 @@
   max-width: var(--site-max-width);
 }
 
-.photo-xlarge figcaption {
-  position: absolute;
-  width: 65%;
-  bottom: 0;
-  left: 0;
-  padding: 0.5rem 0;
-  box-sizing: border-box;
-  color: white;
-  font-size: var(--font-size-sm);
-}
-
 /* Custom width photo with text wrap */
 .photo-custom-container {
   position: relative;

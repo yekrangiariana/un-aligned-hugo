@@ -2,7 +2,7 @@
 title: "Petronilla Paolini: Her tragic life and daring poems"
 description: "Born in 1663, Petronilla Paolini broke through society's patriarchal cage with the only weapon she had at her disposal, her art... writes Carla Pietrobattista."
 date: 2022-09-15T10:30:00+03:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/petronilla-paolini-her-tragic-life-and-daring-poems"
 categories:
   - "Culture"

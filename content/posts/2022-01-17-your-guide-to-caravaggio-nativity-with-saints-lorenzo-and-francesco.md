@@ -2,7 +2,7 @@
 title: "The Ultimate Guide to Caravaggio's Nativity with Saints Lorenzo and Francesco"
 description: "Painted during the 1600s and stolen in 1969, Caravaggio’s Nativity With Saints Lorenzo and Francesco is a master work that celebrates the sacredness of the moment without idealising its origins."
 date: 2022-01-17T11:02:03+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/your-guide-to-caravaggio-nativity-with-saints-lorenzo-and-francesco"
 categories:
   - "Culture"

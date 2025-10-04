@@ -2,7 +2,7 @@
 title: "How Caravaggio's 'The Burial of Saint Lucy' Transforms the Divine into the Earthly"
 description: "Caravaggio's portrayal, St. Lucy forsakes heavenly glory for a gritty burial scene, which reflects the artist's personal struggles and innovative use of light."
 date: 2023-11-21T10:00:00+02:00
-authors: ["carlapietrobattista"]
+authors: ["Carla Pietrobattista"]
 url: "culture/how-caravaggios-the-burial-of-saint-lucy-transforms-the-divine-into-the-earthly"
 slug: "how-caravaggios-the-burial-of-saint-lucy-transforms-the-divine-into-the-earthly"
 categories:
