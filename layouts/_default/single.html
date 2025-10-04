@@ -388,7 +388,7 @@
           
 
           <!-- Interview description before content -->
-          {{ if and $hasInterview .Description }}
+          {{ if and $hasInterview .Description (eq (.Params.style | default "1") "1") }}
           <div class="post-description">
             <p itemprop="description">{{ .Description }}</p>
           </div>
