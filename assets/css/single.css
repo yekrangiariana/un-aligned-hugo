@@ -106,6 +106,10 @@
     margin: 2rem 0;
   }
 
+  .sidebar-section {
+    margin-top: 5px;
+  }
+
   .comments-article .quote-mark {
     width: 35px;
     height: 35px;
