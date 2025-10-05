@@ -38,7 +38,7 @@ This institutional decay has a body count. For the Rohingya mothers in the world
 
 Faced with this scale of horror, the temptation is to retreat. We examine the psychology of choosing not to know—that quiet, pervasive complicity of looking away to preserve our own inner peace. It is a fragile peace, built on the suffering of others.
 
-In our culture section, we continue our series on American life by exploring the forging of a new literary canon, a defiant search for an original voice against the weight of history. We also examine Piero della Francesca’s Resurrection, a painting whose quiet power once inspired a Second World War officer to defy his orders and save an entire town. It’s a testament to how a single act of conscience, informed by art, can change the course of history.
+In our culture section, we continue our series on American life by exploring the forging of a new literary canon, a defiant search for an original voice against the weight of history. We also examine Piero della Francesca’s Resurrection, a painting whose quiet power once inspired a Second World War officer to defy his orders and save an entire town.
 
 We hope you enjoy this issue of The Gordian. If you value our work please consider [a small, regular donation](https://donorbox.org/support-the-publication-of-the-gordian-magazine). It helps us do more of what we do, and do it better.
 
