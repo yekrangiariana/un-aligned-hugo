@@ -4,7 +4,7 @@ date: "2025-10-13T16:30:00+0300"
 authors: ["Ariana Yekrangi"]
 slug: "how-trumps-plan-turned-genocide-into-a-pr-triumph"
 url: "how-trumps-plan-turned-genocide-into-a-pr-triumph"
-description: "Israel never stopped killing, and Trump’s 'ceasefire' became the empire’s most effective cover-up. The genocide continued, only now our media, ever at Israel’s service, are helping Trump to manufacture the illusion."
+description: "    While Israel continued its killing, Trump’s 'ceasefire' served as an effective cover-up, with our media helping to manufacture the illusion."
 categories:
 - "Human Rights"
 - "World Peace"
@@ -58,7 +58,7 @@ It is a matter of record that Israel’s response was never constrained by the l
 
 ### Two years of genocide by the numbers
 
-- More than <span style="background: #fff200ff; padding: 2px 4px;">67,000</span>Palestinians killed in Gaza 
+- More than <span style="background: #fff200ff; padding: 2px 4px;">67,000 Palestinians killed</span>in Gaza 
 - More than <span style="background: #fff200ff; padding: 2px 4px;">170,000</span> total injured
 - At least <span style="background: #fff200ff; padding: 2px 4px;">20,000 children killed</span>(around 2% of Gaza’s child population)
 - Life expectancy in Gaza <span style="background: #fff200ff; padding: 2px 4px;">decreased by up to 50%</span> in the first year
