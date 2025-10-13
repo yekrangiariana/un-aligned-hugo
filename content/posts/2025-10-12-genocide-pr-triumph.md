@@ -1,6 +1,6 @@
 ---
 title: "The ceasefire illusion: How Trump’s plan turned genocide into a PR triumph"
-date: "2025-10-13T08:16:15+0300"
+date: "2025-10-13T16:30:00+0300"
 authors: ["Ariana Yekrangi"]
 slug: "how-trumps-plan-turned-genocide-into-a-pr-triumph"
 url: "how-trumps-plan-turned-genocide-into-a-pr-triumph"
