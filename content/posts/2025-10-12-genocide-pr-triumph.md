@@ -15,7 +15,7 @@ tags:
 - "Gaza"
 image: "/images/trump-genocide-pr-triumph/how-trumps-plan-turned-genocide-into-a-pr-triumph.jpg"
 imageCaption: "Graphic: UN-aligned/Ariana Yekrangi"
-style: "2"
+style: "3"
 ---
 
 “Is this the moment? It’s incredibly quiet outside, it’s the middle of the night… It’s incredibly quiet from the skies. Come on!” said UNICEF’s spokesperson from Gaza [in a short](https://www.youtube.com/shorts/Qc5mQZ0xcEo) filmed in the early hours of 9 October.
