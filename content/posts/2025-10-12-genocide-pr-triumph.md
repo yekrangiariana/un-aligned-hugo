@@ -89,13 +89,13 @@ Later in the exchange, Guru-Murthy raises the suspicion that after the hostages 
 
 Mencer: “Can we just celebrate that point? Can we be happy with that?”
 
-Guru-Murthy: “**You** will obviously be happy…”
+Guru-Murthy: “***You*** will obviously be happy…”
 
 Mencer: “And you too, Krishnan, I hope…”
 
 Guru-Murthy: “I’m sure the whole world will rejoice…”
 
-This is a classic Israeli propaganda technique: force the world’s sympathy toward a handful of military and security personnel held by Hamas, rather than the 2.1 million people they are actively starving to death.
+This is a classic Israeli propaganda technique: force the world’s sympathy toward [military and security personnel](https://x.com/MouinRabbani/status/1976823831802089873) held by Hamas, rather than the 2.1 million people they are actively starving to death.
 
 And Guru-Murthy, of course, does little to challenge it. He never asks the real questions one should ask of a regime committing genocide. Perhaps, "You've been ordered by the ICJ to end apartheid and are accused of genocide. Which crime will your government answer for first?"
 
