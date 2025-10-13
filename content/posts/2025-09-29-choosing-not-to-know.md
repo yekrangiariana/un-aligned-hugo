@@ -12,6 +12,7 @@ tags:
 - "Psychology"
 - "Gaza"
 image: "/images/choosing-not-to-know.jpg"
+imageCaption: "Graphic: UN-aligned/Ariana Yekrangi"
 style: "1"
 ---
 
@@ -113,5 +114,3 @@ Train your thoughts, your way(s) of thinking, your way of understanding. Augment
 No one can know everything, but everybody can know something; and acting on that something can make a huge difference.
 
 - Sabih Abdul is a graduate in Economics and International Relations and is completing a master’s in Development Economics. He explores the socio-economic rationale behind key global events, aiming to bridge IR theory with real-world dynamics while offering economic insight where relevant.
-
-- Graphic: UN-aligned/Ariana Yekrangi

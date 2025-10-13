@@ -158,6 +158,10 @@
           {{ if or .Params.featuredImage .Params.image }}
           <figure class="style-3-image" itemprop="image">
             <img src="{{ or .Params.featuredImage .Params.image }}" alt="{{ .Title }}">
+            {{ if .Params.imageCaption }}
+            <div class="image-caption-icon"></div>
+            <div class="image-caption-popup">{{ .Params.imageCaption }}</div>
+            {{ end }}
           </figure>
           {{ end }}
           
@@ -280,10 +284,20 @@
                 {{ if .Params.featuredImage }}
                   <figure class="post-featured-image" itemprop="image">
                     <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}">
+                    {{ if .Params.imageCaption }}
+                    <figcaption class="post-featured-image-caption">
+                      <span class="caption">{{ .Params.imageCaption }}</span>
+                    </figcaption>
+                    {{ end }}
                   </figure>
                 {{ else if .Params.image }}
                   <figure class="post-featured-image" itemprop="image">
                     <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                    {{ if .Params.imageCaption }}
+                    <figcaption class="post-featured-image-caption">
+                      <span class="caption">{{ .Params.imageCaption }}</span>
+                    </figcaption>
+                    {{ end }}
                   </figure>
                 {{ end }}
               {{ end }}
@@ -308,16 +322,32 @@
               {{ if .Params.featuredImage }}
               <figure class="post-featured-image {{ if $hasInterview }}interview-featured-image{{ end }}" itemprop="image">
                 <img src="{{ .Params.featuredImage }}" alt="{{ .Title }}">
+                {{ if .Params.imageCaption }}
+                <figcaption class="post-featured-image-caption">
+                  <span class="caption">{{ .Params.imageCaption }}</span>
+                </figcaption>
+                {{ end }}
               </figure>
               {{ else if .Params.image }}
               <figure class="post-featured-image {{ if $hasInterview }}interview-featured-image{{ end }}" itemprop="image">
                 <img src="{{ .Params.image }}" alt="{{ .Title }}">
+                {{ if .Params.imageCaption }}
+                <figcaption class="post-featured-image-caption">
+                  <span class="caption">{{ .Params.imageCaption }}</span>
+                </figcaption>
+                {{ end }}
               </figure>
               {{ end }}
             {{ end }}
             
           {{ end }}
 
+          <!-- Style 2 Caption: Mobile positioning before reading features -->
+          {{ if and .Params.imageCaption (eq (.Params.style | default "1") "2") }}
+          <div class="sidebar-item post-featured-image-caption mobile-only">
+            <span class="caption">{{ .Params.imageCaption }}</span>
+          </div>
+          {{ end }}
           
           <!-- 5. Reading features (positioned to left column on desktop) -->
           <div class="sidebar-item reading-features-container">
@@ -391,6 +421,13 @@
           {{ if and $hasInterview .Description (eq (.Params.style | default "1") "1") }}
           <div class="post-description interview-description">
             <p itemprop="description">{{ .Description }}</p>
+          </div>
+          {{ end }}
+
+          <!-- Style 2 Caption: Place before content -->
+          {{ if and .Params.imageCaption (eq (.Params.style | default "1") "2") }}
+          <div class="post-featured-image-caption">
+            <span class="caption">{{ .Params.imageCaption }}</span>
           </div>
           {{ end }}
 

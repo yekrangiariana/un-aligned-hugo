@@ -11,6 +11,7 @@ tags:
   - ""
 image: ""
 style: "1"
+imageCaption: ""
 images:
   - ""
 ---

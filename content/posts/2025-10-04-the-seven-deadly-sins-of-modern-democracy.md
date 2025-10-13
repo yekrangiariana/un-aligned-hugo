@@ -9,6 +9,7 @@ categories:
 tags:
 - "Democracy"
 image: "/images/the-seven-deadly-sins-of-modern-democracy.jpg"
+imageCaption: "Graphic: UN-aligned/Ariana Yekrangi"
 style: "3"
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "'A death sentence in a different form’: Rohingya women on their struggle for survival in the world's largest refugee camp"
+title: "’A death sentence in a different form’: Rohingya women on their struggle for survival in the world's largest refugee camp"
 date: "2025-10-04T17:00:00+0300"
 authors: ["Rashedul Hasan"]
 slug: "rohingya-women-on-their-struggle-for-survival"
@@ -11,6 +11,7 @@ categories:
 tags:
 - "Rohingya"
 image: "/images/rohingya-women-on-their-struggle-for-survival/rohingya-women-on-their-struggle-for-survival.jpg"
+imageCaption: "Cover photo: UN Women/Allison Joyce © CC BY-NC-ND 2.0"
 style: "1"
 ---
 
@@ -127,5 +128,3 @@ When asked for their final plea, all three women made an appeal for dignity. Sur
 And Rokiya’s plea asks the government to understand the full weight of their displacement—not as a logistical problem to be managed, but as a future being lost in their care. More than anything, she misses "the feeling of safety and belonging… a home that was mine,” she says. 
 
 “I miss the future I thought I had—a future where my children could grow up free and proud of who they are, not stateless refugees defined by their suffering.”
-
-- Cover photo: UN Women/Allison Joyce © CC BY-NC-ND 2.0

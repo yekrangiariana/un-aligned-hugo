@@ -246,7 +246,10 @@ h6 {
 
 .post-content ul {
   list-style: none; /* Remove default bullets */
-  padding-left: 0;
+  padding-right: var(--margin-text);
+}
+.post-content ul p {
+  margin-right: 0 !important;
 }
 
 .post-content ol {
@@ -418,6 +421,7 @@ h6 {
   .post-content ul,
   .post-content ol {
     margin-right: 0px;
+    padding-right: 0px;
   }
 
   .post-content h2 {

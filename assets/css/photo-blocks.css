@@ -162,6 +162,123 @@
   width: 100%;
 }
 
+/* Featured image caption styles - matching photo-blocks */
+.post-featured-image-caption {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-subtitle);
+  line-height: var(--line-height-relaxed);
+}
+
+/* Adding camera icon at the beginning of featured image captions */
+.post-featured-image-caption .caption::before {
+  font-family: "Font Awesome 5 Free";
+  content: "\f030";
+  font-weight: 900;
+  display: inline;
+  margin-right: 4px;
+  color: var(--color-text-subtitle);
+  vertical-align: middle;
+  line-height: inherit;
+}
+
+.post-featured-image-caption .caption {
+  display: inline-block;
+}
+
+.post-featured-image-caption .credit {
+  display: block;
+  font-style: italic;
+  font-size: var(--font-size-xs);
+  color: var(--color-text-light);
+}
+
+/* Style 1: Caption directly underneath image - using photo-block styling */
+.article-style-1 .post-featured-image-caption {
+  margin-top: 0.5rem;
+}
+
+/* Style 2: Caption positioned before content, matching photo-block styling exactly */
+.article-style-2 .post-featured-image-caption {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-subtitle);
+  padding: 0.5rem 0;
+  line-height: var(--line-height-relaxed);
+  /* No margins on desktop */
+}
+
+/* Hide mobile version on desktop */
+.article-style-2 .post-featured-image-caption.mobile-only {
+  display: none;
+}
+
+/* Style 2: Mobile positioning */
+@media (max-width: 768px) {
+  /* Hide desktop version on mobile */
+  .article-style-2 .post-content-container > .post-featured-image-caption {
+    display: none;
+  }
+
+  /* Show mobile version */
+  .article-style-2 .post-featured-image-caption.mobile-only {
+    display: block;
+  }
+}
+
+/* Style 3: Caption icon and popup on image itself - fixed positioning to prevent hover movement */
+.article-style-3 .style-3-image {
+  position: relative;
+}
+
+.article-style-3 .style-3-image .image-caption-icon {
+  position: absolute;
+  bottom: 23px; /* Adjusted to account for padding and border */
+  right: 23px; /* Adjusted to account for padding and border */
+  width: 32px;
+  height: 32px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 5;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  color: #333;
+  font-size: 14px;
+  /* Prevent the icon from moving when parent transforms */
+  transform-origin: center;
+}
+
+.article-style-3 .style-3-image .image-caption-icon::before {
+  content: "\f030";
+}
+
+.article-style-3 .style-3-image .image-caption-icon:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+
+.article-style-3 .style-3-image .image-caption-popup {
+  position: absolute;
+  bottom: 16px; /* Adjusted to account for padding and border */
+  left: 16px; /* Adjusted to account for padding and border */
+  right: 16px; /* Adjusted to account for padding and border */
+  background-color: rgba(128, 128, 128, 0.95);
+  color: white;
+  padding: 10px;
+  font-size: var(--font-size-sm);
+  line-height: var(--line-height-relaxed);
+  border-radius: 5px 5px 0 0;
+  display: none;
+  z-index: 4;
+}
+
+.article-style-3 .style-3-image .image-caption-popup.show {
+  display: block;
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   /* Reset large photo to fit in mobile viewport */
@@ -239,5 +356,22 @@
   /* Camera icon remains the same on mobile */
   .photo-custom-caption .caption::before {
     content: "\f030";
+  }
+
+  /* Mobile adjustments for captions */
+  /* Style 2 caption positioning handled above in specific media query */
+
+  .article-style-3 .style-3-image .image-caption-icon {
+    bottom: 18px; /* Adjusted for mobile padding */
+    right: 18px;
+    width: 28px;
+    height: 28px;
+    font-size: 12px;
+  }
+
+  .article-style-3 .style-3-image .image-caption-popup {
+    bottom: 11px; /* Adjusted for mobile padding */
+    left: 11px;
+    right: 11px;
   }
 }
