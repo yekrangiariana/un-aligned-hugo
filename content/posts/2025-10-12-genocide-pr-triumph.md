@@ -69,7 +69,7 @@ It is a matter of record that Israel’s response was never constrained by the l
 - 518 schools damaged or destroyed <span style="background: #fff200ff; padding: 2px 4px;">(90% of all schools)</span>
 - <span style="background: #fff200ff; padding: 2px 4px;">Famine declared</span>in parts of Gaza after Israel blocked the entry of aid including food, baby formula and medicine
 
-Judged by its own stated objectives, Israel’s campaign has failed catastrophically. Hamas has repeatedly expressed willingness to release all remaining hostages in exchange for a permanent end to the massacre, a condition Israel has consistently rejected.
+Judged by its own stated objectives, Israel’s campaign has failed catastrophically. Hamas has repeatedly expressed willingness to release civilian hostages in exchange for a permanent end to the massacre, a condition Israel has consistently rejected.
 
 Of the more than 240 captives taken on October 7, the vast majority were freed through diplomacy and negotiations, not military operations. During the six-day pause in the killing in November 2023, 105 hostages were released by Hamas in exchange for Palestinian hostages. 
 
@@ -130,6 +130,8 @@ The result is by far one of the most disturbing scenes contemporary journalism h
 ## Manufacturing a PR triumph from complicity
 
 The United States has never been an honest broker in Palestine. It is the architect, armourer and financier of Israel’s campaign. The bombs shred Palestinian children into shreds are American, the planes that drop them are American and the immunity that shields the perpetrators is secured by the American veto at the UN Security Council. 
+
+{{< photo-custom src="/images/trump-genocide-pr-triumph/times-magazine-cover-of-trump-2.jpg" width="23" caption="The Time celebrating Trump with a new magazine cover." >}}
 
 In the past two years alone, the United States has wielded that veto five times to protect Israel’s assault. From cutting UNRWA funding—which served only to extend Israel’s control of aid—to establishing the Gaza Humanitarian Foundation, which lured starving Palestinians with food before [shooting more than 1,400](https://news.un.org/en/story/2025/08/1165552) of them, every act has served to prolong the siege until nothing remains of Gaza.
 
