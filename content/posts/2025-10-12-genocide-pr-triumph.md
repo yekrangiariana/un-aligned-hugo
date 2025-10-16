@@ -50,7 +50,7 @@ What makes this reframing so grotesque is that while only a year ago many still 
 
 ## Reinforcement of the hostage narrative
 
-Once the war framing had taken hold, Western media quickly absorbed Israel’s stated objective of the “hostage rescue mission” and the “elimination of Hamas”, who are one of the more than [12 Palestinian resistance groups](https://www.palestinechronicle.com/prisoner-exchange-highlights-palestinian-unity-what-are-key-resistance-groups-in-gaza/) with the recognised legal right to take up arms against occupation.
+Once the war framing had taken hold, Western media quickly absorbed Israel’s stated objective of the “hostage rescue mission” and the “elimination of Hamas”, who are one of the more than [12 Palestinian resistance groups](https://www.palestinechronicle.com/prisoner-exchange-highlights-palestinian-unity-what-are-key-resistance-groups-in-gaza/) with the recognised legal right to [take up arms against occupation](https://www.aljazeera.com/opinions/2017/7/20/palestinians-have-a-legal-right-to-armed-struggle).
 
 These Israeli talking points became the architecture of coverage again, allowing the destruction of Gaza to appear as a legitimate military campaign.
 
@@ -127,7 +127,7 @@ The result is by far one of the most disturbing scenes contemporary journalism h
 
 {{< photo-normal src="/images/trump-genocide-pr-triumph/guardian-front-page.gif" caption="The front page of the Guardian placing images of survivers of genocide next to Israelis." >}}
 
-## Manufacturing a PR triumph from complicity
+## Manufacturing a triumph from complicity
 
 The United States has never been an honest broker in Palestine. It is the architect, armourer and financier of Israel’s campaign. The bombs shred Palestinian children into shreds are American, the planes that drop them are American and the immunity that shields the perpetrators is secured by the American veto at the UN Security Council. 
 
