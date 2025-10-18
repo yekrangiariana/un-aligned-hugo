@@ -78,6 +78,7 @@ article {
   overflow-wrap: break-word;
   max-width: var(--column-left-width);
   padding-left: var(--padding-left-column-left);
+  border-right: var(--border-thin-light);
 }
 
 .category-grid {
@@ -113,6 +114,10 @@ article {
 @media screen and (max-width: 1150px) and (min-width: 769px) {
   .post-sidebar {
     max-width: 100%;
+  }
+  .category-header {
+    border: none;
+    min-width: 100%;
   }
 }
 

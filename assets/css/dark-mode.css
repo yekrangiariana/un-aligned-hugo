@@ -162,7 +162,8 @@ body.dark-mode .reason-card,
 body.dark-mode .latest-issue,
 body.dark-mode .style-3-date-separated,
 body.dark-mode .style-3-header-container::after,
-body.dark-mode .article-style-3 .style-3-headline-wrapper h1 {
+body.dark-mode .article-style-3 .style-3-headline-wrapper h1,
+body.dark-mode .category-header {
   border-color: var(--dark-border);
 }
 
