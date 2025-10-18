@@ -229,7 +229,7 @@
   background-color: #5a6268;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 769px) {
   .mega-menu-content {
     width: 100%;
   }

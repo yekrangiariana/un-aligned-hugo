@@ -110,6 +110,12 @@ article {
   position: relative; /* For positioning reference */
 }
 
+@media screen and (max-width: 1150px) and (min-width: 769px) {
+  .post-sidebar {
+    max-width: 100%;
+  }
+}
+
 .post-content-container {
   flex: 0 0 var(--column-right-width);
 }
@@ -136,7 +142,7 @@ article {
   grid-row: span 1;
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 769px) {
   .category-section,
   .post-section {
     flex-direction: column !important; /* Force column layout on mobile */
@@ -232,7 +238,7 @@ article {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1150px) {
   /* Keep post-sidebar as a positioning context */
   .post-sidebar {
     position: relative;
@@ -242,9 +248,7 @@ article {
   .sidebar-item {
     position: absolute;
     left: 15px;
-    width: calc(
-      var(--column-left-width) - 30px
-    ); /* Reduced width for better fit */
+    width: calc(100% - 30px); /* Reduced width for better fit */
     padding-top: 5px;
     box-sizing: border-box;
   }
@@ -379,7 +383,7 @@ article {
 /* Grid layout for cards - grid for listings, block for single page */
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
 }
 
@@ -471,7 +475,7 @@ article {
 }
 
 /* Mobile layout for sidebar items */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1150px) {
   /* Reset positioned items to normal flow */
   .sidebar-item {
     position: static;

@@ -118,8 +118,6 @@
 /* Custom width photo with text wrap */
 .photo-custom-container {
   position: relative;
-  margin-top: 2rem;
-  margin-bottom: 2rem;
   clear: both;
 }
 
@@ -279,7 +277,7 @@
   display: block;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1150px) {
   /* Reset large photo to fit in mobile viewport */
   .photo-large-wrapper {
     margin-left: auto;
@@ -305,8 +303,13 @@
     margin: 0;
   }
 
+  .photo-custom-wrapper {
+    float: left;
+    width: 40%;
+  }
   .photo-custom-container {
-    width: 33.3%;
+    width: 100%;
+    padding-right: 20px;
   }
 
   .photo-custom {

@@ -283,10 +283,14 @@
   animation: section-appear 0.3s ease-out forwards; /* Section appearance speed (0.3s = fast) */
 }
 
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 769px) {
   .header-container {
     padding-left: 50px;
     padding-right: 50px;
+  }
+
+  .header-left-column {
+    width: 40%;
   }
 }
 

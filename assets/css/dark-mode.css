@@ -188,7 +188,7 @@ body.dark-mode .article-card-content {
   background-color: var(--dark-surface);
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1150px) {
   body.dark-mode .site-container {
     border-right: 1px solid var(--dark-border);
     border-left: 1px solid var(--dark-border);
@@ -197,7 +197,7 @@ body.dark-mode .article-card-content {
     border-left: 1px solid var(--dark-border);
   }
 }
-@media screen and (max-width: 1024px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 769px) {
   body.dark-mode .col-xs-12 {
     border-right: 1px solid var(--dark-border);
     border-left: 1px solid var(--dark-border);
