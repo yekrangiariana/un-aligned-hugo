@@ -121,19 +121,39 @@ article {
 }
 
 /* Article grid layout */
-.article-grid {
+/* .article-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   gap: 20px;
   border-left: var(--border-thin-light);
   grid-auto-flow: dense;
-}
+} */
 
 /* Make the first article card in each grid take up space of two cards */
 .article-grid .article-card:first-child,
 .article-grid .article-card:nth-child(4) {
   grid-column: span 2;
   grid-row: span 1;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .category-section,
+  .post-section {
+    flex-direction: column !important; /* Force column layout on mobile */
+    display: block;
+  }
+
+  .site-container {
+    padding-left: 50px;
+    padding-right: 50px;
+    border: none;
+  }
+  .category-grid,
+  .post-content-container {
+    flex: 0 0 100%;
+    min-width: 100% !important;
+    display: block;
+  }
 }
 
 /* Media queries for responsive layout */
@@ -212,7 +232,7 @@ article {
   }
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 1024px) {
   /* Keep post-sidebar as a positioning context */
   .post-sidebar {
     position: relative;
@@ -630,17 +650,5 @@ article {
 
   .newsletter-main h3 {
     font-size: 1.3rem;
-  }
-}
-
-/* Tablet responsive */
-@media screen and (max-width: 1024px) and (min-width: 769px) {
-  .newsletter-card {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .cta-buttons {
-    justify-content: center;
   }
 }

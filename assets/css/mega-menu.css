@@ -229,6 +229,15 @@
   background-color: #5a6268;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .mega-menu-content {
+    width: 100%;
+  }
+  .mega-menu-popup {
+    margin-right: 50px;
+  }
+}
+
 /* Responsive Adjustments */
 @media (max-width: 768px) {
   /* Apply overflow:hidden only on mobile devices when menu is open */

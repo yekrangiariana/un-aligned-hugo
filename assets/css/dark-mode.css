@@ -188,13 +188,24 @@ body.dark-mode .article-card-content {
   background-color: var(--dark-surface);
 }
 
-body.dark-mode .site-container {
-  border-right: 1px solid var(--dark-border);
-  border-left: 1px solid var(--dark-border);
+@media screen and (min-width: 1024px) {
+  body.dark-mode .site-container {
+    border-right: 1px solid var(--dark-border);
+    border-left: 1px solid var(--dark-border);
+  }
+  body.dark-mode .article-grid {
+    border-left: 1px solid var(--dark-border);
+  }
 }
-
-body.dark-mode .article-grid {
-  border-left: 1px solid var(--dark-border);
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  body.dark-mode .col-xs-12 {
+    border-right: 1px solid var(--dark-border);
+    border-left: 1px solid var(--dark-border);
+  }
+  .col-xs-12 {
+    border-right: 1px solid var(--light-border);
+    border-left: 1px solid var(--light-border);
+  }
 }
 
 /* Category-Specific Styling */

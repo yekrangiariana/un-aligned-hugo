@@ -101,7 +101,7 @@
   margin-bottom: 0.5rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1024px) {
   .post-taxonomy-section {
     margin: 2rem 0;
   }

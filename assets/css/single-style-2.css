@@ -299,8 +299,15 @@ html {
   object-fit: contain;
 }
 
+@media screen and (max-width: 1024px) and (min-width: 769px) {
+  .image-overlay-title {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
 /* Media queries for comment description container right column */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
   .comment-description-container-right-column {
     flex-direction: row;
   }

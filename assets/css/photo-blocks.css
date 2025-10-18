@@ -279,6 +279,50 @@
   display: block;
 }
 
+@media screen and (max-width: 1024px) {
+  /* Reset large photo to fit in mobile viewport */
+  .photo-large-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+
+  .photo-large {
+    width: 100%;
+    left: 0;
+    max-width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  /* Change the caption positioning for mobile */
+  .photo-large-caption {
+    position: relative; /* Reset to normal flow on mobile */
+    width: 100%;
+    left: auto; /* Reset positioning */
+    top: auto; /* Reset positioning */
+    box-sizing: border-box;
+    margin: 0;
+  }
+
+  .photo-custom-container {
+    width: 33.3%;
+  }
+
+  .photo-custom {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100% !important;
+  }
+
+  .photo-custom-caption {
+    position: relative;
+    width: 100%;
+    left: auto; /* Reset positioning */
+    bottom: auto; /* Reset positioning */
+  }
+}
+
 /* Responsive adjustments */
 @media (max-width: 768px) {
   /* Reset large photo to fit in mobile viewport */

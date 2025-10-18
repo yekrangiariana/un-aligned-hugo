@@ -383,6 +383,27 @@ h6 {
   line-height: 200%;
 }
 
+@media screen and (max-width: 1024px) {
+  .post-content blockquote {
+    width: 100%;
+    margin-left: 0;
+    float: none;
+  }
+
+  .post-content blockquote p {
+    margin-right: 1rem;
+    margin-left: 0;
+    margin-bottom: 0.2rem;
+    width: 33.3%;
+    background-color: transparent;
+  }
+
+  .post-content blockquote p:first-of-type::before {
+    width: 16px;
+    height: 16px;
+  }
+}
+
 /* Media queries for responsive typography */
 @media screen and (max-width: 768px) {
   .post-content hr {
@@ -443,27 +464,6 @@ h6 {
   .markdown-body {
     font-size: 16px;
   }
-
-  /* Responsive blockquote styling */
-  .post-content blockquote {
-    width: 100%;
-    margin-left: 0;
-    float: none;
-  }
-
-  .post-content blockquote p {
-    margin-right: 1rem;
-    margin-left: 1rem;
-    margin-left: -5%;
-    margin-bottom: 0.2rem;
-    width: 50%;
-    background-color: transparent;
-  }
-
-  .post-content blockquote p:first-of-type::before {
-    width: 16px;
-    height: 16px;
-  }
 }
 
 /* Table styling */
@@ -491,7 +491,7 @@ h6 {
   background-color: #f9f9f9;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 768px) and (max-width: 1000px) {
   .header-left-column {
     padding: 0 1rem;
   }
