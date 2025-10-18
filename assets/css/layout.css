@@ -248,7 +248,7 @@ article {
   .sidebar-item {
     position: absolute;
     left: 15px;
-    width: calc(100% - 30px); /* Reduced width for better fit */
+    width: calc(20% - 30px); /* Reduced width for better fit */
     padding-top: 5px;
     box-sizing: border-box;
   }
