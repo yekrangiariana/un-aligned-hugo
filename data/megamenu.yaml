@@ -3,32 +3,29 @@
 # Each section has a title and a list of links
 
 sections:
-  - title: About UN-aligned
+  - title: About
     links:
-      - name: Home 🏡
+      - name: Home
         url: ""
-      - name: What is UN-aligned? FAQ ❓
-        url: frequently-asked-questions
-      - name: Mission statement 🎯
+      - name: Mission statement
         url: our-essence-and-foundation
-      - name: Manifesto 📜
+      - name: Manifesto
         url: manifesto
-      - name: As an alternative UN 🌐
+      - name: As an alternative UN
         url: the-alternative-un
-      - name: Search 🔎
+      - name: What is UN-aligned? FAQ
+        url: frequently-asked-questions
+      - name: Search
         url: search
 
   - title: Get Involved
     links:
-      - name: 🤝 Get involved
-        url: get-involved
-      - name: – Write for UN-aligned ✍️
+      - name: Write for UN-aligned
         url: opportunities/write-for-un-aligned
-      - name: – Become a member 👥
+      - name: Become a member
         url: register
-      - name: – Donate ♥️
+      - name: Donate
         url: https://donorbox.org/support-the-publication-of-the-gordian-magazine
         external: true
-      - name: Contact us 📧
-        url: mailto:contact@un-aligned.org
-        external: true
+      - name: Contact us
+        url: contact

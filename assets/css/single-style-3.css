@@ -107,7 +107,7 @@ body:has(.article-style-3) {
 /* Author styling (large, like title) */
 .article-style-3 .style-3-author-large {
   margin-bottom: 12px;
-  padding-bottom: 50px;
+  padding-bottom: 25px;
 }
 
 .article-style-3 .style-3-author-large a {
@@ -188,6 +188,10 @@ body:has(.article-style-3) {
       "image"
       "description"
       "date";
+  }
+
+  .article-style-3 .style-3-description p {
+    padding-top: 15px;
   }
 }
 

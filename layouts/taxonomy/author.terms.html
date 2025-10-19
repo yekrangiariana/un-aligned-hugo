@@ -1,16 +1,14 @@
 {{ define "main" }}
-<header>
-  <h1 class="taxonomy-term">All Authors</h1>
-
+<div class="category-header">
   {{ with .Content }}
   <div class="section-content markdown-body">{{ . }}</div>
   {{ end }}
-</header>
+</div class="category-header">
 
 <!-- Use 20/80 layout for authors display -->
 <main class="category-section">
   <header class="category-header">
-    <h2>Contributors</h2>
+    <h1 class="site-date-catalog">All authors</h1>
     <p>
       Meet the writers who share their insights and expertise on our platform.
     </p>

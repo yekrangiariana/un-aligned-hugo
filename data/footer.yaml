@@ -14,9 +14,10 @@ sections:
 
   - title: Connect & Support
     links:
+      - name: Get Involved
+        url: get-involved
       - name: Contact Us
-        url: mailto:contact@un-aligned.org
-        external: true
+        url: contact
       - name: RSS Feed
         url: /index.xml
         external: true

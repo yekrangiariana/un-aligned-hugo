@@ -1,8 +1,0 @@
-{{/* Display a list of all categories */}}
-<div class="category-list">
-  <ul>
-    {{ range $name, $taxonomy := .Site.Taxonomies.categories }}
-      <li><a href="{{ "/categories/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a> ({{ $taxonomy.Count }})</li>
-    {{ end }}
-  </ul>
-</div>
