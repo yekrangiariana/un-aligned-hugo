@@ -293,7 +293,6 @@ article {
 /* Footer styling */
 .site-footer {
   padding: 20px 0;
-  border-top: 1px solid var(--light-border);
   width: 100%;
   box-sizing: border-box;
 }
@@ -332,12 +331,12 @@ article {
   font-weight: 700;
   margin-bottom: 1rem;
   color: #333;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-link-item {
   margin-bottom: 0.5rem;
-  text-align: center;
+  text-align: left;
 }
 
 .footer-link-item a {
