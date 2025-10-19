@@ -11,9 +11,11 @@
 <main class="category-section">
   <header class="category-header">
     <h2>Contributors</h2>
-    <p>Meet the writers who share their insights and expertise across our platform.</p>
+    <p>
+      Meet the writers who share their insights and expertise on our platform.
+    </p>
   </header>
-  
+
   <div class="category-grid" itemscope itemtype="https://schema.org/ItemList">
     <div class="authors-navigation">
       <!-- prettier-ignore -->
@@ -21,7 +23,12 @@
       {{ $authorName := .Page.Title | urlize }} 
       {{ $authorInfo := index $.Site.Data.authors $authorName | default dict }}
 
-      <div class="author-card" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <div
+        class="author-card"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+      >
         <meta itemprop="position" content="{{ add $index 1 }}" />
         <a href="{{ .Page.RelPermalink }}" class="author-link" itemprop="url">
           {{ if $authorInfo.image }}
@@ -34,21 +41,26 @@
             />
           </div>
           {{ end }}
-          
+
           <div class="author-name" itemprop="name">
             <!-- Use name from data file if available -->
             {{ if $authorInfo.name }}
-              <span class="author-fullname">{{ $authorInfo.name }}</span>
+            <span class="author-fullname">{{ $authorInfo.name }}</span>
             {{ else }}
-              <span class="author-fullname">{{ .Page.Title | title }}</span>
+            <span class="author-fullname">{{ .Page.Title | title }}</span>
             {{ end }}
+            <span class="count"
+              >({{ .Count }} article{{ if ne .Count 1 }}s{{ end }})</span
+            >
           </div>
-          
+
           <div class="author-info">
-            {{ if $authorInfo.bio }}
-              <p class="author-bio" itemprop="description">{{ $authorInfo.bio | truncate 100 }}</p>
+            {{ $latestPost := index .Pages 0 }} {{ if $latestPost }}
+            <div class="author-latest">
+              <span class="latest-label">Latest:</span>
+              <span class="latest-title">{{ $latestPost.Title }}</span>
+            </div>
             {{ end }}
-            <span class="count">{{ .Count }} Article{{ if ne .Count 1 }}s{{ end }}</span>
           </div>
         </a>
       </div>

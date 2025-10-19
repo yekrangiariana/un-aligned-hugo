@@ -290,21 +290,10 @@ article {
 
 /* Layout styles for the site */
 
-/* Footer layout */
-.site-footer {
-  margin-top: 50px;
-}
-
-.site-footer-item {
-  margin-right: 12px;
-}
-
 /* Footer styling */
 .site-footer {
-  margin-top: 40px;
   padding: 20px 0;
   border-top: 1px solid var(--light-border);
-  text-align: center;
   width: 100%;
   box-sizing: border-box;
 }
@@ -314,23 +303,51 @@ article {
   width: var(--site-content-width);
   margin-left: auto;
   margin-right: auto;
-  padding: 0 15px; /* Add some padding on smaller screens */
-  box-sizing: border-box; /* Ensure padding is included in width calculations */
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+/* Footer columns layout - similar to mega menu */
+.footer-columns {
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  max-width: 250px;
 }
 
 .footer-links {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
-.site-footer-item a {
+.footer-section-title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.footer-link-item {
+  margin-bottom: 0.5rem;
+  text-align: center;
+}
+
+.footer-link-item a {
   color: #666;
   text-decoration: none;
   transition: color 0.2s ease;
+  font-size: 0.9rem;
 }
 
-.site-footer-item a:hover {
+.footer-link-item a:hover {
   color: var(--accent-color);
   text-decoration: underline;
 }
@@ -659,5 +676,19 @@ article {
 
   .newsletter-main h3 {
     font-size: 1.3rem;
+  }
+
+  /* Footer responsive styles */
+  .footer-columns {
+    gap: 1.5rem;
+  }
+
+  .footer-column {
+    min-width: 150px;
+    flex: 1 1 calc(50% - 0.75rem);
+  }
+
+  .footer-container {
+    padding: 0 20px;
   }
 }

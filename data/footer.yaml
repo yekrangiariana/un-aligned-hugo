@@ -1,0 +1,29 @@
+# Footer Configuration
+# This file defines the links that appear in the site footer organized by sections
+# Links will be displayed in columns by section
+
+sections:
+  - title: Browse Content
+    links:
+      - name: All Tags
+        url: tags
+      - name: All Categories
+        url: categories
+      - name: All Authors
+        url: authors
+
+  - title: Connect & Support
+    links:
+      - name: Contact Us
+        url: mailto:contact@un-aligned.org
+        external: true
+      - name: RSS Feed
+        url: /index.xml
+        external: true
+
+  - title: Legal & Policies
+    links:
+      - name: Privacy Policy
+        url: privacy-policy
+      - name: Terms and Conditions
+        url: terms-and-conditions
