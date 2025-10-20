@@ -79,7 +79,6 @@
 
 /* Styles for the categories and tags section */
 .post-taxonomy-section {
-  border-top: var(--border-thin);
   border-bottom: var(--border-thin);
 }
 

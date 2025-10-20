@@ -181,6 +181,7 @@ article {
     padding: 0;
     min-width: 100%;
     /* margin-top: 15px; */
+    border-right: none;
   }
 
   /* Full width for content containers with proper spacing */
@@ -404,7 +405,7 @@ article {
 /* Grid layout for cards - grid for listings, block for single page */
 .article-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
   gap: 20px;
 }
 

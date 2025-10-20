@@ -450,6 +450,7 @@
           {{ if in .Site.Params.mainSections .Type }}
             {{ .Site.Params.postFooterContent | safeHTML }}
             <!-- Categories and Tags section -->
+            {{ partial "comment-separator.html" dict }}
             <div class="post-taxonomy-section">
               {{ if or .Params.categories .Params.tags }}
               <div class="taxonomy-heading">Explore more on these topics</div>
