@@ -121,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Exclude mega menu images
       const isMegaMenuImage = img.closest(
-        ".mega-menu-popup, .mega-menu-content, .gordian-cover, .mega-menu, .menu, .nav, .header, .navigation, .post-featured-image-style-2"
+        ".mega-menu-popup, .mega-menu-content, .gordian-cover, .mega-menu, .menu, .nav, .header, .navigation, .post-featured-image-style-2, .comment-author-image"
       );
 
       return (
