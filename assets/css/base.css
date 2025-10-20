@@ -464,6 +464,10 @@ h6 {
   .markdown-body {
     font-size: 16px;
   }
+
+  .post-content blockquote p {
+    width: 50%;
+  }
 }
 
 /* Table styling */

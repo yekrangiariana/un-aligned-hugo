@@ -5,27 +5,57 @@ document.addEventListener("DOMContentLoaded", function () {
   lightbox.className = "lightbox-overlay";
   lightbox.innerHTML = `
     <div class="lightbox-container">
-      <div class="lightbox-close">&times;</div>
-      <div class="lightbox-counter"></div>
       <img class="lightbox-image" src="" alt="">
-      <div class="lightbox-caption"></div>
-      <div class="lightbox-nav">
-        <button class="lightbox-prev" title="Previous image">‹</button>
-        <button class="lightbox-next" title="Next image">›</button>
+      
+      <!-- Control Panel - Full Width Top Bar -->
+      <div class="lightbox-controls">
+        <div class="lightbox-controls-left">
+          <button class="lightbox-caption-toggle" title="Hide caption" aria-label="Toggle caption">
+            <i class="fas fa-info"></i>
+          </button>
+          
+          <button class="lightbox-prev" title="Previous image" aria-label="Previous image">
+            <i class="fas fa-chevron-left"></i>
+          </button>
+          
+          <button class="lightbox-next" title="Next image" aria-label="Next image">
+            <i class="fas fa-chevron-right"></i>
+          </button>
+          
+          <div class="lightbox-counter">1 / 1</div>
+        </div>
+        
+        <div class="lightbox-controls-right">
+          <button class="lightbox-close" title="Close" aria-label="Close">
+            <i class="fas fa-times"></i>
+          </button>
+        </div>
+      </div>
+      
+      <!-- Caption Panel -->
+      <div class="lightbox-caption-panel">
+        <div class="lightbox-caption-content"></div>
       </div>
     </div>
   `;
   document.body.appendChild(lightbox);
 
   const lightboxImage = lightbox.querySelector(".lightbox-image");
-  const lightboxCaption = lightbox.querySelector(".lightbox-caption");
+  const lightboxCaptionPanel = lightbox.querySelector(
+    ".lightbox-caption-panel"
+  );
+  const lightboxCaptionContent = lightbox.querySelector(
+    ".lightbox-caption-content"
+  );
   const lightboxCounter = lightbox.querySelector(".lightbox-counter");
   const closeBtn = lightbox.querySelector(".lightbox-close");
   const prevBtn = lightbox.querySelector(".lightbox-prev");
   const nextBtn = lightbox.querySelector(".lightbox-next");
+  const captionToggleBtn = lightbox.querySelector(".lightbox-caption-toggle");
 
   let currentImages = [];
   let currentIndex = 0;
+  let captionPanelOpen = false; // Track caption panel state
 
   // Function to get caption from various sources
   function getImageCaption(img) {
@@ -70,6 +100,11 @@ document.addEventListener("DOMContentLoaded", function () {
   function getClickableImages() {
     const images = document.querySelectorAll("img");
     return Array.from(images).filter((img) => {
+      // Exclude lightbox's own image
+      if (img.classList.contains("lightbox-image")) {
+        return false;
+      }
+
       // Exclude very small images (likely icons), profile images, and navigation images
       const rect = img.getBoundingClientRect();
       const isSmall = rect.width < 100 || rect.height < 100;
@@ -86,7 +121,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Exclude mega menu images
       const isMegaMenuImage = img.closest(
-        ".mega-menu-popup, .mega-menu-content, .gordian-cover, .mega-menu, .menu, .nav, .header, .navigation"
+        ".mega-menu-popup, .mega-menu-content, .gordian-cover, .mega-menu, .menu, .nav, .header, .navigation, .post-featured-image-style-2"
       );
 
       return (
@@ -110,6 +145,9 @@ document.addEventListener("DOMContentLoaded", function () {
     if (currentIndex === -1) {
       currentIndex = 0;
     }
+
+    // Set caption panel to open by default for new lightbox session
+    captionPanelOpen = true;
 
     showCurrentImage();
     lightbox.classList.add("active");
@@ -137,21 +175,33 @@ document.addEventListener("DOMContentLoaded", function () {
 
     const caption = getImageCaption(img);
     if (caption) {
-      lightboxCaption.textContent = caption;
-      lightboxCaption.style.display = "block";
+      lightboxCaptionContent.textContent = caption;
+      captionToggleBtn.style.display = "flex";
+
+      // Show caption panel by default, but maintain state if it was previously closed
+      if (captionPanelOpen !== false) {
+        lightboxCaptionPanel.classList.add("active");
+        captionToggleBtn.classList.add("active");
+        captionToggleBtn.title = "Hide caption";
+        captionPanelOpen = true;
+      } else {
+        lightboxCaptionPanel.classList.remove("active");
+        captionToggleBtn.classList.remove("active");
+        captionToggleBtn.title = "Show caption";
+      }
     } else {
-      lightboxCaption.style.display = "none";
+      lightboxCaptionContent.textContent = "";
+      captionToggleBtn.style.display = "none";
+      lightboxCaptionPanel.classList.remove("active");
     }
 
-    // Show/hide navigation buttons
+    // Show/hide navigation buttons based on number of images
     if (currentImages.length > 1) {
-      prevBtn.style.display = "block";
-      nextBtn.style.display = "block";
-      lightboxCounter.style.display = "block";
+      prevBtn.style.display = "flex";
+      nextBtn.style.display = "flex";
     } else {
       prevBtn.style.display = "none";
       nextBtn.style.display = "none";
-      lightboxCounter.style.display = "none";
     }
   }
 
@@ -163,6 +213,9 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.overflow = "";
     document.body.classList.remove("lightbox-open");
     document.documentElement.classList.remove("lightbox-open");
+
+    // Reset caption panel state for next session
+    captionPanelOpen = false;
   }
 
   // Function to go to previous image
@@ -182,10 +235,28 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   }
 
+  // Function to toggle caption panel
+  function toggleCaption() {
+    const isActive = lightboxCaptionPanel.classList.contains("active");
+
+    if (isActive) {
+      lightboxCaptionPanel.classList.remove("active");
+      captionToggleBtn.classList.remove("active");
+      captionToggleBtn.title = "Show caption";
+      captionPanelOpen = false; // Update state
+    } else {
+      lightboxCaptionPanel.classList.add("active");
+      captionToggleBtn.classList.add("active");
+      captionToggleBtn.title = "Hide caption";
+      captionPanelOpen = true; // Update state
+    }
+  }
+
   // Event listeners
   closeBtn.addEventListener("click", closeLightbox);
   prevBtn.addEventListener("click", previousImage);
   nextBtn.addEventListener("click", nextImage);
+  captionToggleBtn.addEventListener("click", toggleCaption);
 
   // Close on backdrop click
   lightbox.addEventListener("click", function (e) {
@@ -208,6 +279,12 @@ document.addEventListener("DOMContentLoaded", function () {
       case "ArrowRight":
         nextImage();
         break;
+      case "i":
+      case "I":
+        if (captionToggleBtn.style.display !== "none") {
+          toggleCaption();
+        }
+        break;
     }
   });
 
@@ -216,22 +293,43 @@ document.addEventListener("DOMContentLoaded", function () {
     const images = getClickableImages();
 
     images.forEach((img) => {
-      // Remove any existing lightbox listeners
-      img.removeEventListener("click", img._lightboxHandler);
+      // Skip if already initialized
+      if (img.hasAttribute("data-lightbox-initialized")) {
+        return;
+      }
+
+      // Mark as initialized
+      img.setAttribute("data-lightbox-initialized", "true");
 
       // Add cursor pointer style
       img.style.cursor = "pointer";
       img.title = img.title || "Click to view fullscreen"; // Add helpful tooltip
 
+      // Add fullscreen icon overlay
+      if (!img.parentElement.querySelector(".lightbox-hover-icon")) {
+        const icon = document.createElement("div");
+        icon.className = "lightbox-hover-icon";
+        icon.innerHTML = "⛶"; // Fullscreen Unicode character
+
+        // Make sure parent has relative positioning
+        const parent = img.parentElement;
+        if (window.getComputedStyle(parent).position === "static") {
+          parent.style.position = "relative";
+        }
+
+        parent.appendChild(icon);
+      }
+
       // Create and store the handler
-      img._lightboxHandler = function (e) {
+      const handler = function (e) {
         e.preventDefault();
         console.log("Image clicked:", img.src); // Debug log
         openLightbox(img);
       };
 
-      // Add the event listener
-      img.addEventListener("click", img._lightboxHandler);
+      // Store reference and add the event listener
+      img._lightboxHandler = handler;
+      img.addEventListener("click", handler);
     });
   }
 
@@ -251,11 +349,26 @@ document.addEventListener("DOMContentLoaded", function () {
   const observer = new MutationObserver(function (mutations) {
     mutations.forEach(function (mutation) {
       if (mutation.addedNodes.length > 0) {
-        // Check if new images were added
+        // Ignore mutations caused by lightbox elements
+        const isLightboxMutation = Array.from(mutation.addedNodes).some(
+          (node) =>
+            node.nodeType === Node.ELEMENT_NODE &&
+            (node.classList?.contains("lightbox-overlay") ||
+              node.classList?.contains("lightbox-hover-icon") ||
+              node.closest?.(".lightbox-overlay"))
+        );
+
+        if (isLightboxMutation) {
+          return; // Skip lightbox-related mutations
+        }
+
+        // Check if new images were added (excluding lightbox images)
         const hasNewImages = Array.from(mutation.addedNodes).some(
           (node) =>
             node.nodeType === Node.ELEMENT_NODE &&
-            (node.tagName === "IMG" || node.querySelector("img"))
+            (node.tagName === "IMG" || node.querySelector("img")) &&
+            !node.classList?.contains("lightbox-image") &&
+            !node.closest?.(".lightbox-overlay")
         );
 
         if (hasNewImages) {
