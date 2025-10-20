@@ -6,6 +6,7 @@ document.addEventListener("DOMContentLoaded", function () {
   lightbox.innerHTML = `
     <div class="lightbox-container">
       <div class="lightbox-close">&times;</div>
+      <div class="lightbox-counter"></div>
       <img class="lightbox-image" src="" alt="">
       <div class="lightbox-caption"></div>
       <div class="lightbox-nav">
@@ -18,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   const lightboxImage = lightbox.querySelector(".lightbox-image");
   const lightboxCaption = lightbox.querySelector(".lightbox-caption");
+  const lightboxCounter = lightbox.querySelector(".lightbox-counter");
   const closeBtn = lightbox.querySelector(".lightbox-close");
   const prevBtn = lightbox.querySelector(".lightbox-prev");
   const nextBtn = lightbox.querySelector(".lightbox-next");
@@ -111,7 +113,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     showCurrentImage();
     lightbox.classList.add("active");
+
+    // Prevent body scrolling on all devices
     document.body.style.overflow = "hidden";
+    document.body.classList.add("lightbox-open");
+    document.documentElement.classList.add("lightbox-open");
 
     console.log("Lightbox should be visible now"); // Debug log
   }
@@ -123,6 +129,11 @@ document.addEventListener("DOMContentLoaded", function () {
     const img = currentImages[currentIndex];
     lightboxImage.src = img.src;
     lightboxImage.alt = img.alt || "";
+
+    // Update counter
+    lightboxCounter.textContent = `${currentIndex + 1} / ${
+      currentImages.length
+    }`;
 
     const caption = getImageCaption(img);
     if (caption) {
@@ -136,16 +147,22 @@ document.addEventListener("DOMContentLoaded", function () {
     if (currentImages.length > 1) {
       prevBtn.style.display = "block";
       nextBtn.style.display = "block";
+      lightboxCounter.style.display = "block";
     } else {
       prevBtn.style.display = "none";
       nextBtn.style.display = "none";
+      lightboxCounter.style.display = "none";
     }
   }
 
   // Function to close lightbox
   function closeLightbox() {
     lightbox.classList.remove("active");
+
+    // Restore body scrolling
     document.body.style.overflow = "";
+    document.body.classList.remove("lightbox-open");
+    document.documentElement.classList.remove("lightbox-open");
   }
 
   // Function to go to previous image
