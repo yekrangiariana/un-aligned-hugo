@@ -29,18 +29,18 @@
 
 /* Prevent body scroll when lightbox is active */
 body.lightbox-open {
-  overflow: hidden !important;
-  position: fixed !important;
-  width: 100% !important;
-  height: 100% !important;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 /* Additional mobile scroll prevention */
 html.lightbox-open {
-  overflow: hidden !important;
-  position: fixed !important;
-  width: 100% !important;
-  height: 100% !important;
+  overflow: hidden;
+  position: fixed;
+  width: 100%;
+  height: 100%;
 }
 
 .lightbox-container {
@@ -130,19 +130,19 @@ html.lightbox-open {
 }
 
 .lightbox-close {
-  color: #ff6b6b !important;
-  border-color: #ff6b6b !important;
+  color: #ff6b6b;
+  border-color: #ff6b6b;
 }
 
 .lightbox-close:hover {
-  background: rgba(255, 107, 107, 0.2) !important;
-  border-color: #ff8a8a !important;
+  background: rgba(255, 107, 107, 0.2);
+  border-color: #ff8a8a;
 }
 
 .lightbox-caption-toggle.active {
-  background: #333 !important;
-  border-color: rgb(255, 224, 46) !important;
-  color: rgb(255, 224, 46) !important;
+  background: #333;
+  border-color: rgb(255, 224, 46);
+  color: rgb(255, 224, 46);
 }
 
 .lightbox-counter {
@@ -333,7 +333,7 @@ html.lightbox-open {
 
 /* Ensure images have pointer cursor when hoverable */
 img[style*="cursor: pointer"] {
-  cursor: pointer !important;
+  cursor: pointer;
 }
 
 /* Fullscreen hover icon - updated to match site style */
