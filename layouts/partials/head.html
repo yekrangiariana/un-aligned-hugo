@@ -124,7 +124,8 @@
   }} {{ with resources.Get "css/related-articles.css" }}{{ $cssResources =
   $cssResources | append . }}{{ end }} {{ with resources.Get
   "css/components/quote-mark.css" }}{{ $cssResources =
-  $cssResources | append . }}{{ end }}
+  $cssResources | append . }}{{ end }} {{ with resources.Get "css/lightbox.css" }}{{
+  $cssResources = $cssResources | append . }}{{ end }}
   <!-- Bookmark indicator CSS removed -->
   {{ if gt (len $cssResources) 0 }} {{ $allCSS := $cssResources |
   resources.Concat "css/styles.css" }}
