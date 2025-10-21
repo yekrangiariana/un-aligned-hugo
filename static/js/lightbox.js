@@ -100,6 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to get all clickable images on the page
   function getClickableImages() {
     const images = document.querySelectorAll("img");
+    
     return Array.from(images).filter((img) => {
       // Exclude lightbox's own image
       if (img.classList.contains("lightbox-image")) {
@@ -138,8 +139,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Function to open lightbox
   function openLightbox(clickedImg) {
-    console.log("Opening lightbox for image:", clickedImg.src); // Debug log
-
     // Store current scroll position before opening lightbox
     scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
 
@@ -160,8 +159,6 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.overflow = "hidden";
     document.body.classList.add("lightbox-open");
     document.documentElement.classList.add("lightbox-open");
-
-    console.log("Lightbox should be visible now"); // Debug log
   }
 
   // Function to show current image
@@ -312,8 +309,9 @@ document.addEventListener("DOMContentLoaded", function () {
       // Mark as initialized
       img.setAttribute("data-lightbox-initialized", "true");
 
-      // Add cursor pointer style
+      // Add cursor pointer style and ensure touch-action for mobile
       img.style.cursor = "pointer";
+      img.style.touchAction = "manipulation"; // Improve mobile touch response
       img.title = img.title || "Click to view fullscreen"; // Add helpful tooltip
 
       // Add fullscreen icon overlay
@@ -334,13 +332,37 @@ document.addEventListener("DOMContentLoaded", function () {
       // Create and store the handler
       const handler = function (e) {
         e.preventDefault();
-        console.log("Image clicked:", img.src); // Debug log
+        e.stopPropagation();
         openLightbox(img);
       };
 
       // Store reference and add the event listener
       img._lightboxHandler = handler;
+      
+      // Add both click and touch events for maximum mobile compatibility
       img.addEventListener("click", handler);
+      img.addEventListener("touchend", handler);
+      
+      // For photo-custom-wrapper images, also add handlers to the wrapper
+      const photoCustomWrapper = img.closest(".photo-custom-wrapper");
+      if (photoCustomWrapper && !photoCustomWrapper.hasAttribute("data-lightbox-wrapper-initialized")) {
+        photoCustomWrapper.setAttribute("data-lightbox-wrapper-initialized", "true");
+        photoCustomWrapper.style.cursor = "pointer";
+        photoCustomWrapper.style.touchAction = "manipulation";
+        
+        // Add click/touch handlers to the wrapper as well
+        photoCustomWrapper.addEventListener("click", function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          openLightbox(img);
+        });
+        
+        photoCustomWrapper.addEventListener("touchend", function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          openLightbox(img);
+        });
+      }
     });
   }
 
@@ -349,12 +371,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Also initialize after a short delay to catch any lazy-loaded images
   setTimeout(initializeImages, 1000);
-
-  console.log(
-    "Lightbox initialized. Found",
-    getClickableImages().length,
-    "clickable images"
-  ); // Debug log
 
   // Reinitialize when new content is loaded (for dynamic content)
   const observer = new MutationObserver(function (mutations) {
@@ -423,14 +439,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // Add a global test function for debugging
   window.testLightbox = function () {
-    console.log("Testing lightbox...");
     const testImages = getClickableImages();
-    console.log("Found clickable images:", testImages.length);
     if (testImages.length > 0) {
-      console.log("Opening lightbox with first image...");
       openLightbox(testImages[0]);
-    } else {
-      console.log("No clickable images found");
     }
   };
 });
