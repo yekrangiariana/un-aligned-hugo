@@ -218,8 +218,12 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.classList.remove("lightbox-open");
     document.documentElement.classList.remove("lightbox-open");
 
-    // Restore scroll position to where user was before opening lightbox
-    window.scrollTo(0, scrollPosition);
+    // Restore scroll position instantly without animation
+    window.scrollTo({
+      top: scrollPosition,
+      left: 0,
+      behavior: 'instant'
+    });
 
     // Reset caption panel state for next session
     captionPanelOpen = false;
