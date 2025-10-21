@@ -56,6 +56,7 @@ document.addEventListener("DOMContentLoaded", function () {
   let currentImages = [];
   let currentIndex = 0;
   let captionPanelOpen = false; // Track caption panel state
+  let scrollPosition = 0; // Store scroll position when lightbox opens
 
   // Function to get caption from various sources
   function getImageCaption(img) {
@@ -139,6 +140,9 @@ document.addEventListener("DOMContentLoaded", function () {
   function openLightbox(clickedImg) {
     console.log("Opening lightbox for image:", clickedImg.src); // Debug log
 
+    // Store current scroll position before opening lightbox
+    scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+
     currentImages = getClickableImages();
     currentIndex = currentImages.indexOf(clickedImg);
 
@@ -213,6 +217,9 @@ document.addEventListener("DOMContentLoaded", function () {
     document.body.style.overflow = "";
     document.body.classList.remove("lightbox-open");
     document.documentElement.classList.remove("lightbox-open");
+
+    // Restore scroll position to where user was before opening lightbox
+    window.scrollTo(0, scrollPosition);
 
     // Reset caption panel state for next session
     captionPanelOpen = false;

@@ -186,6 +186,10 @@ body.dark-mode .post-date {
   color: var(--dark-text-primary);
 }
 
+body.dark-mode .lightbox-hover-icon {
+  color: black;
+}
+
 body.dark-mode .article-card-content {
   background-color: var(--dark-surface);
 }
