@@ -353,47 +353,12 @@ document.addEventListener("DOMContentLoaded", function () {
           "true"
         );
         photoCustomWrapper.style.cursor = "pointer";
-        photoCustomWrapper.style.touchAction = "manipulation";
 
-        // Touch gesture detection for mobile
-        let touchStartPos = null;
-
-        photoCustomWrapper.addEventListener("touchstart", function (e) {
-          touchStartPos = {
-            x: e.touches[0].clientX,
-            y: e.touches[0].clientY,
-          };
-        });
-
-        // Add click/touch handlers to the wrapper as well
+        // Simple click handler - mobile browsers convert taps to clicks
         photoCustomWrapper.addEventListener("click", function (e) {
           e.preventDefault();
           e.stopPropagation();
           openLightbox(img);
-        });
-
-        photoCustomWrapper.addEventListener("touchend", function (e) {
-          if (!touchStartPos) return;
-
-          const touchEndPos = {
-            x: e.changedTouches[0].clientX,
-            y: e.changedTouches[0].clientY,
-          };
-
-          // Calculate movement distance
-          const distance = Math.sqrt(
-            Math.pow(touchEndPos.x - touchStartPos.x, 2) +
-              Math.pow(touchEndPos.y - touchStartPos.y, 2)
-          );
-
-          // Only trigger if movement is less than 10 pixels (intentional tap)
-          if (distance < 10) {
-            e.preventDefault();
-            e.stopPropagation();
-            openLightbox(img);
-          }
-
-          touchStartPos = null;
         });
       }
     });
