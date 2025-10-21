@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
   // Function to get all clickable images on the page
   function getClickableImages() {
     const images = document.querySelectorAll("img");
-    
+
     return Array.from(images).filter((img) => {
       // Exclude lightbox's own image
       if (img.classList.contains("lightbox-image")) {
@@ -338,26 +338,31 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Store reference and add the event listener
       img._lightboxHandler = handler;
-      
-      // Add both click and touch events for maximum mobile compatibility
+
+      // Add click event (touchend only on wrapper for photo-custom)
       img.addEventListener("click", handler);
-      img.addEventListener("touchend", handler);
-      
+
       // For photo-custom-wrapper images, also add handlers to the wrapper
       const photoCustomWrapper = img.closest(".photo-custom-wrapper");
-      if (photoCustomWrapper && !photoCustomWrapper.hasAttribute("data-lightbox-wrapper-initialized")) {
-        photoCustomWrapper.setAttribute("data-lightbox-wrapper-initialized", "true");
+      if (
+        photoCustomWrapper &&
+        !photoCustomWrapper.hasAttribute("data-lightbox-wrapper-initialized")
+      ) {
+        photoCustomWrapper.setAttribute(
+          "data-lightbox-wrapper-initialized",
+          "true"
+        );
         photoCustomWrapper.style.cursor = "pointer";
         photoCustomWrapper.style.touchAction = "manipulation";
-        
+
         // Add click/touch handlers to the wrapper as well
-        photoCustomWrapper.addEventListener("click", function(e) {
+        photoCustomWrapper.addEventListener("click", function (e) {
           e.preventDefault();
           e.stopPropagation();
           openLightbox(img);
         });
-        
-        photoCustomWrapper.addEventListener("touchend", function(e) {
+
+        photoCustomWrapper.addEventListener("touchend", function (e) {
           e.preventDefault();
           e.stopPropagation();
           openLightbox(img);
