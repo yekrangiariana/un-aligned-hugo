@@ -222,7 +222,7 @@ document.addEventListener("DOMContentLoaded", function () {
     window.scrollTo({
       top: scrollPosition,
       left: 0,
-      behavior: 'instant'
+      behavior: "instant",
     });
 
     // Reset caption panel state for next session
