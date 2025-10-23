@@ -1,7 +1,6 @@
 {{ define "main" }}
           <!-- SEO H1 - hidden from view but present for search engines -->
           <h1 style="display: none;">{{ .Site.Title }}</h1>
-          
           <!-- Load Gordian CSS for the current issue section -->
           {{ $gordianCSS := resources.Get "css/gordian.css" }}
           <link rel="stylesheet" href="{{ $gordianCSS.RelPermalink }}" />
@@ -39,10 +38,10 @@
                   {{- range first $remainingSlots $nonFeaturedPages -}}
                     {{ partial "article-card.html" . }}
                   {{- end -}}
-                {{- end -}}
-              </div>
-            </section>
-          </main>
+                  {{- end -}}
+                </div>
+              </section>
+            </main>
         </div>
       </div>
 {{ end }}
