@@ -441,4 +441,5 @@ body.dark-mode .hero-cta {
   font-size: 0.85em;
   color: #666;
   margin: 0;
+  line-height: var(--line-height-normal);
 }

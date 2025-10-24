@@ -1,11 +1,26 @@
 {{ define "main" }}
+<!--
+  AUTHORS DIRECTORY/INDEX TEMPLATE
+  
+  This template displays ALL authors in a grid layout - the "meet our writers" page.
+  
+  Used for the authors index page:
+  - /authors/ (shows grid of all authors with their info and latest posts)
+  
+  Features:
+  - Author cards with photos, names, and article counts
+  - "Latest article" preview for each author
+  - Links to individual author profile pages
+  - Data pulled from data/authors.yaml for author info
+  
+  Note: Individual author pages (/authors/author-name/) use author.html
+-->
+
 <div class="category-header">
   {{ with .Content }}
   <div class="section-content markdown-body">{{ . }}</div>
   {{ end }}
 </div class="category-header">
-
-<!-- Use 20/80 layout for authors display -->
 <main class="category-section">
   <header class="category-header">
     <h1 class="site-date-catalog">All authors</h1>
@@ -16,7 +31,6 @@
 
   <div class="category-grid" itemscope itemtype="https://schema.org/ItemList">
     <div class="authors-navigation">
-      <!-- prettier-ignore -->
       {{ range $index, $term := .Data.Terms.Alphabetical }} 
       {{ $authorName := .Page.Title | urlize }} 
       {{ $authorInfo := index $.Site.Data.authors $authorName | default dict }}

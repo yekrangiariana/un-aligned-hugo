@@ -1,0 +1,107 @@
+<!--
+  REUSABLE PAGINATION PARTIAL
+  
+  This partial creates pagination navigation for any paginated content.
+  
+  Usage: partial "pagination.html" $paginator
+  
+  Where $paginator is created with: .Paginate .Pages .Site.Params.paginationSize
+  
+  Pagination size is defined in config.toml under [params] paginationSize = 10
+  
+  Features:
+  - Shows pagination info (e.g., "Page 2 of 5")
+  - Previous/Next navigation
+  - Smart page numbering with ellipsis
+  - Responsive design
+  - Accessibility support (ARIA labels)
+-->
+
+{{ $paginator := . }} {{ if gt $paginator.TotalPages 1 }}
+<!-- Pagination info -->
+<div class="pagination-info">
+  <p>
+    Showing {{ len $paginator.Pages }} of {{ $paginator.TotalNumberOfElements }}
+    posts (Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }})
+  </p>
+</div>
+
+<!-- Pagination navigation -->
+<nav class="pagination" aria-label="Page navigation">
+  <div class="pagination-container">
+    <!-- Previous page link -->
+    {{ if $paginator.HasPrev }}
+    <a
+      href="{{ $paginator.Prev.URL }}"
+      class="pagination-link pagination-prev"
+      aria-label="Previous page"
+    >
+      <span aria-hidden="true">‹</span>
+      <span class="pagination-text">Previous</span>
+    </a>
+    {{ else }}
+    <span
+      class="pagination-link pagination-prev pagination-disabled"
+      aria-disabled="true"
+    >
+      <span aria-hidden="true">‹</span>
+      <span class="pagination-text">Previous</span>
+    </span>
+    {{ end }}
+
+    <!-- Page numbers -->
+    <div class="pagination-numbers">
+      {{ $currentPage := $paginator.PageNumber }} {{ $totalPages :=
+      $paginator.TotalPages }}
+
+      <!-- First page -->
+      {{ if gt $currentPage 3 }}
+      <a href="{{ $paginator.First.URL }}" class="pagination-number">1</a>
+      {{ if gt $currentPage 4 }}
+      <span class="pagination-ellipsis">…</span>
+      {{ end }} {{ end }}
+
+      <!-- Pages around current page -->
+      {{ range $paginator.Pagers }} {{ $pageNum := .PageNumber }} {{ if and (ge
+      $pageNum (sub $currentPage 2)) (le $pageNum (add $currentPage 2)) }} {{ if
+      eq $pageNum $currentPage }}
+      <span class="pagination-number pagination-current" aria-current="page"
+        >{{ $pageNum }}</span
+      >
+      {{ else }}
+      <a href="{{ .URL }}" class="pagination-number">{{ $pageNum }}</a>
+      {{ end }} {{ end }} {{ end }}
+
+      <!-- Last page -->
+      {{ if lt $currentPage (sub $totalPages 2) }} {{ if lt $currentPage (sub
+      $totalPages 3) }}
+      <span class="pagination-ellipsis">…</span>
+      {{ end }}
+      <a href="{{ $paginator.Last.URL }}" class="pagination-number"
+        >{{ $totalPages }}</a
+      >
+      {{ end }}
+    </div>
+
+    <!-- Next page link -->
+    {{ if $paginator.HasNext }}
+    <a
+      href="{{ $paginator.Next.URL }}"
+      class="pagination-link pagination-next"
+      aria-label="Next page"
+    >
+      <span class="pagination-text">Next</span>
+      <span aria-hidden="true">›</span>
+    </a>
+    {{ else }}
+    <span
+      class="pagination-link pagination-next pagination-disabled"
+      aria-disabled="true"
+    >
+      <span class="pagination-text">Next</span>
+      <span aria-hidden="true">›</span>
+    </span>
+    {{ end }}
+  </div>
+</nav>
+{{ end }}

@@ -1,29 +1,65 @@
 {{ define "main" }}
-<!-- Main section with 20/80 layout -->
-<header class="category-section">
-  <!-- Left column (20%) for the title -->
-  <div class="category-header">
-    <h1 class="taxonomy-term">{{ .Title }}</h1>
-  </div>
+<!--
+  TAXONOMY TERMS INDEX TEMPLATE
+  
+  This template displays ALL terms within a taxonomy as a card grid - the "directory" page.
+  
+  Used for taxonomy index pages like:
+  - /categories/ (shows ALL categories with article counts and latest posts)
+  - /tags/ (shows ALL tags with article counts and latest posts)
+  
+  Features:
+  - Card-based layout using archive-card styling
+  - Article count for each term (e.g., "5 articles")
+  - Latest article preview from each term
+  - Links to individual term pages (e.g., /categories/climate-emergency/)
+  - Responsive grid design
+  - SEO-friendly with schema markup
+  
+  Note: 
+  - /authors/ uses author.terms.html (specific template overrides this)
+  - Individual term pages (e.g., /categories/culture/) use term.html
+-->
 
-  <!-- Right column (80%) for content -->
-  <div class="category-grid">
+<!-- Category archives -->
+<main class="category-section">
+  <header class="category-header">
+    <h1 class="taxonomy-term">{{ .Title }}</h1>
     {{ with .Content }}
     <div class="section-content markdown-body">{{ . }}</div>
     {{ end }}
-    
-    <nav aria-label="{{ .Title }} navigation" class="taxonomy-index">
-      <ul class="taxonomy-list" itemscope itemtype="https://schema.org/ItemList">
-        {{ range $index, $term := .Data.Terms.Alphabetical }}
-        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
-          <meta itemprop="position" content="{{ add $index 1 }}" />
-          <a href="{{ .Page.RelPermalink }}" itemprop="url">
-            <span itemprop="name">{{ .Page.Title }} ({{ .Count }})</span>
-          </a>
-        </li>
-        {{ end }}
-      </ul>
-    </nav>
+  </header>
+
+  <div class="category-grid" itemscope itemtype="https://schema.org/ItemList">
+    <div class="archive-navigation">
+      {{ range $index, $term := .Data.Terms.Alphabetical }}
+      <div
+        class="archive-card"
+        itemprop="itemListElement"
+        itemscope
+        itemtype="https://schema.org/ListItem"
+      >
+        <meta itemprop="position" content="{{ add $index 1 }}" />
+        <a href="{{ .Page.RelPermalink }}" class="archive-link" itemprop="url">
+          <div class="archive-name" itemprop="name">
+            <span class="archive-fullname">{{ .Page.Title | title }}</span>
+            <span class="count"
+              >({{ .Count }} article{{ if ne .Count 1 }}s{{ end }})</span
+            >
+          </div>
+
+          <div class="archive-info">
+            {{ $latestPost := index .Pages 0 }} {{ if $latestPost }}
+            <div class="archive-latest">
+              <span class="latest-label">Latest:</span>
+              <span class="latest-title">{{ $latestPost.Title }}</span>
+            </div>
+            {{ end }}
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
   </div>
-</header>
+</main>
 {{ end }}

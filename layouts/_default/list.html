@@ -1,4 +1,17 @@
 {{ define "main" }}
+<!--
+  DEFAULT SECTION LIST TEMPLATE
+  
+  This template displays a list of all pages within a section (e.g., /posts/, /pages/).
+  It groups content by year and shows them as article cards with pagination (20 posts per page).
+  
+  Used when visiting section URLs like:
+  - /posts/ (shows all posts grouped by year)
+  - /pages/ (shows all pages grouped by year)
+  - Any other section without its own specific list.html template
+  
+  Note: The /gordian/ section uses its own template at layouts/gordian/list.html
+-->
 <header>
   <h1 class="taxonomy-term">{{ .Title }}</h1>
 
@@ -9,7 +22,8 @@
 </header>
 
 <main id="posts-list">
-  {{ range .Pages.GroupByDate "2006" }}
+  {{ $paginator := .Paginate .Pages .Site.Params.paginationSize }} {{ range
+  $paginator.Pages.GroupByDate "2006" }}
   <section class="category-section" aria-labelledby="year-{{ .Key }}">
     <header class="category-header">
       <h1 id="year-{{ .Key }}" class="site-date-catalog">{{ .Key }}</h1>
@@ -20,5 +34,8 @@
     </div>
   </section>
   {{ end }}
+
+  <!-- Pagination at bottom only -->
+  {{ partial "pagination.html" $paginator }}
 </main>
 {{ end }}

@@ -138,7 +138,6 @@ body.dark-mode .header-subtitle {
 body.dark-mode .article-card {
   background-color: var(--dark-surface);
   border-color: var(--dark-border);
-  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
 }
 
 /* Border color for various elements */
@@ -164,7 +163,8 @@ body.dark-mode .style-3-date-separated,
 body.dark-mode .style-3-header-container::after,
 body.dark-mode .article-style-3 .style-3-headline-wrapper h1,
 body.dark-mode .category-header,
-body.dark-mode .author-card {
+body.dark-mode .author-card,
+body.dark-mode .section-separator {
   border-color: var(--dark-border);
 }
 
@@ -191,7 +191,7 @@ body.dark-mode .lightbox-hover-icon {
 }
 
 body.dark-mode .article-card-content {
-  background-color: var(--dark-surface);
+  background-color: var(--dark-bg);
 }
 
 @media screen and (min-width: 1150px) {

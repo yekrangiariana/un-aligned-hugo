@@ -1,16 +1,38 @@
 {{ define "main" }}
+<!--
+  INDIVIDUAL AUTHOR PROFILE TEMPLATE
+  
+  This template displays a single author's complete profile and all their posts.
+  
+  Used for individual author pages like:
+  - /authors/john-doe/ (shows John Doe's profile and all his posts)
+  
+  Data Sources:
+  - Author info (bio, image, social links) from data/authors.yaml
+  - Author posts from site content with matching author taxonomy
+  - Optional author content from content/authors/author-name.md files
+  
+  Layout:
+  - Top section: Author profile info (20/80 layout)
+  - Bottom section: All author's posts grouped by year with pagination (20 posts per page)
+  
+  Note: The authors directory/index (/authors/) uses author.terms.html
+-->
+
 <!-- Look up author info from data file -->
 {{ $authorName := .Title | urlize }} {{ $authorInfo := index .Site.Data.authors
 $authorName | default dict }}
 
-<!-- Applying the 20/80% layout only for author info section -->
-<article class="category-section" itemscope itemtype="https://schema.org/Person">
+<article
+  class="category-section"
+  itemscope
+  itemtype="https://schema.org/Person"
+>
   <!-- Left column (20%) for the title -->
   <header class="category-header">
     <h1 class="taxonomy-term" itemprop="name">{{ .Title }}</h1>
   </header>
-  
-  <!-- Right column (80%) for author info -->
+
   <div class="category-grid">
     <!-- Author bio from data file if exists -->
     {{ if or .Content $authorInfo }}
@@ -27,11 +49,13 @@ $authorName | default dict }}
           />
           {{ end }}
         </div>
-        
+
         <div class="author-info-container">
           <!-- Author bio if available -->
           {{ if $authorInfo.bio }}
-          <div class="author-bio" itemprop="description">{{ $authorInfo.bio }}</div>
+          <div class="author-bio" itemprop="description">
+            {{ $authorInfo.bio }}
+          </div>
           {{ end }}
 
           <!-- Author social links if available -->
@@ -59,10 +83,10 @@ $authorName | default dict }}
           </div>
           {{ end }}
 
-      <!-- Content from author markdown page if it exists -->
-      {{ with .Content }}
-      <div class="author-content">{{ . }}</div>
-      {{ end }}
+          <!-- Content from author markdown page if it exists -->
+          {{ with .Content }}
+          <div class="author-content">{{ . }}</div>
+          {{ end }}
         </div>
       </div>
     </div>
@@ -70,9 +94,9 @@ $authorName | default dict }}
   </div>
 </article>
 
-<!-- Posts list as a separate section with its own 20/80 layouts per year -->
 <main id="posts-list">
-  {{ range .Pages.GroupByDate "2006" }}
+  {{ $paginator := .Paginate .Pages .Site.Params.paginationSize }} {{ range
+  $paginator.Pages.GroupByDate "2006" }}
   <section class="category-section" aria-labelledby="year-{{ .Key }}">
     <header class="category-header">
       <h2 id="year-{{ .Key }}" class="site-date-catalog">{{ .Key }}</h2>
@@ -83,5 +107,8 @@ $authorName | default dict }}
     </div>
   </section>
   {{ end }}
+
+  <!-- Pagination at bottom only -->
+  {{ partial "pagination.html" $paginator }}
 </main>
 {{ end }}

@@ -1,21 +1,34 @@
 {{ define "main" }}
+<!--
+  TAXONOMY TERM TEMPLATE (USED FOR INDIVIDUAL CATEGORIES/TAGS)
+  
+  This template displays all posts belonging to a specific taxonomy term.
+  
+  Used for individual taxonomy pages like:
+  - /categories/culture/ (shows all posts in "culture" category)
+  - /categories/climate-emergency/ (shows all posts in "climate-emergency" category)
+  - /tags/activism/ (shows all posts tagged with "activism")
+  
+  Layout: Groups posts by year and displays them as article cards with pagination
+-->
 
-          <h1 class="taxonomy-term">{{ .Title }}</h1>
+<h1 class="taxonomy-term">{{ .Title }}</h1>
 
-          <div id="posts-list">
-            {{ range .Pages.GroupByDate "2006" }}
-            <section class="category-section">
-              <div class="category-header">
-                <h1 class="site-date-catalog">{{ .Key }}</h1>
-              </div>
+<div id="posts-list">
+  {{ $paginator := .Paginate .Pages .Site.Params.paginationSize }} {{ range
+  $paginator.Pages.GroupByDate "2006" }}
+  <section class="category-section">
+    <div class="category-header">
+      <h1 class="site-date-catalog">{{ .Key }}</h1>
+    </div>
 
-              <div class="article-grid category-grid">
-                {{ range .Pages }} {{ partial "article-card.html" . }} {{ end }}
-              </div>
-            </section>
-            {{ end }}
-          </div>
+    <div class="article-grid category-grid">
+      {{ range .Pages }} {{ partial "article-card.html" . }} {{ end }}
+    </div>
+  </section>
+  {{ end }}
 
-        </div>
-      </div>
+  <!-- Pagination at bottom -->
+  {{ partial "pagination.html" $paginator }}
+</div>
 {{ end }}

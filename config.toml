@@ -17,6 +17,9 @@ defaultSocialImage = "/images/un-aligned-default-social.jpg"
 publisher = "UN-aligned ry"
 copyrightHolder = "UN-aligned ry"
 
+# Pagination settings
+paginationSize = 20
+
 [params.logo]
   name = "logo"
   homepage = ""
