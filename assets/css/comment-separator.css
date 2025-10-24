@@ -59,15 +59,15 @@
 
 /* Related comment layout styles */
 .comment-author-image {
-  max-width: 150px; /* Instead of width: 100% */
+  max-width: 170px; /* Increased from 150px */
   height: auto; /* Instead of height: 100% */
   object-fit: contain;
   z-index: 5;
   position: relative; /* Required for z-index to work */
   display: block;
   margin: 0 0 0 auto; /* Push the image to the right */
-  max-height: 150px; /* Set a consistent height */
-  margin-top: -10px;
+  max-height: 170px; /* Increased from 150px */
+  margin-top: -12px;
   margin-bottom: -25px;
 }
 
@@ -114,6 +114,24 @@
   object-fit: cover;
   z-index: 2;
   max-height: 150px; /* Consistent height */
+}
+
+@media (min-width: 1150px) {
+  .comment-description-container {
+    padding-right: 25%;
+  }
+
+  .comments-article .post-title {
+    padding-right: 25%;
+  }
+
+  .comments-article .comment-description {
+    padding-right: 25%;
+  }
+
+  .comments-article .post-featured-image {
+    padding-right: 25%;
+  }
 }
 
 /* Responsive adjustments for mobile */
