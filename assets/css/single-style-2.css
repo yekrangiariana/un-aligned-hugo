@@ -156,6 +156,7 @@
   width: 80%; /* Full width within the right column */
   left: 20%;
   border-left: var(--border-thin-light);
+  border-right: var(--border-thin-light);
   padding: 15px;
 }
 
