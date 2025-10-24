@@ -58,7 +58,7 @@
 }
 
 /* Responsive adjustments for Style 2 article cards */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   .article-card.style-2 .article-card-title {
     text-decoration-thickness: 0.4px; /* Slightly thinner on smaller screens */
     text-underline-offset: 0.2em;
@@ -258,7 +258,7 @@
   object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   .article-card-description {
     display: none;
   }
@@ -368,7 +368,7 @@ select:focus-visible,
   outline-offset: 2px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .bookmark-actions {
     flex-direction: column;
     align-items: flex-start;
@@ -430,7 +430,7 @@ select:focus-visible,
 } */
 
 /* Responsive carousel heights */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   .article-card-carousel {
     height: 250px !important;
   }

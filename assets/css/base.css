@@ -103,7 +103,7 @@ a:focus {
 }
 
 /* Media queries for responsive base styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   .markdown-body {
     font-size: var(--font-size-md);
   }
@@ -404,7 +404,7 @@ h6 {
 }
 
 /* Media queries for responsive typography */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   .post-content hr {
     width: 40%;
   }
@@ -494,7 +494,7 @@ h6 {
   background-color: #f9f9f9;
 }
 
-@media screen and (max-width: 768px) and (max-width: 1000px) {
+@media screen and (max-width: 748px) and (max-width: 1000px) {
   .header-left-column {
     padding: 0 1rem;
   }

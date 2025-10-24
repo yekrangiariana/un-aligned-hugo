@@ -299,7 +299,7 @@ html {
   object-fit: contain;
 }
 
-@media screen and (max-width: 1150px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 749px) {
   .image-overlay-title {
     padding-left: 50px;
     padding-right: 50px;
@@ -353,7 +353,7 @@ html {
 }
 
 /* Media queries for mobile adjustments */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   .image-overlay-left {
     flex: 0 0 10%; /* Reduce left column size on medium screens */
     height: 20px; /* Just a small spacer */

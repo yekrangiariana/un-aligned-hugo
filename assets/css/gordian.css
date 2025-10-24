@@ -109,7 +109,7 @@ body.dark-mode .hero-cta {
   border-color: var(--dark-border);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .hero-content h1 {
     font-size: 2.5rem;
   }
@@ -159,7 +159,7 @@ body.dark-mode .hero-cta {
   flex-direction: column;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .latest-issue .article-card .article-card-link {
     flex-direction: column;
   }
@@ -354,7 +354,7 @@ body.dark-mode .hero-cta {
   margin-top: 2rem;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .older-issues .article-grid {
     grid-template-columns: 1fr;
   }
@@ -373,7 +373,7 @@ body.dark-mode .hero-cta {
 }
 
 /* Mobile styles for the older issues section */
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .older-issues .article-grid .article-card.gordian-issue-card.first-visible {
     width: 100%;
   }

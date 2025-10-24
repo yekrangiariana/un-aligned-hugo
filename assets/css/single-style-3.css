@@ -177,7 +177,7 @@ body:has(.article-style-3) {
   display: none;
 }
 
-@media screen and (max-width: 1150px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 749px) {
   .article-style-3 .style-3-header-container {
     grid-template-columns: 1fr;
     grid-template-areas:
@@ -196,7 +196,7 @@ body:has(.article-style-3) {
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .article-style-3 .style-3-header-container {
     grid-template-columns: 1fr;
     grid-template-areas:

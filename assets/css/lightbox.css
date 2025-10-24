@@ -239,7 +239,7 @@ html.lightbox-open {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .lightbox-image {
     max-width: 95%;
     max-height: 75vh;

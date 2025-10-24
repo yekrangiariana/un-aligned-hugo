@@ -111,7 +111,7 @@ article {
   position: relative; /* For positioning reference */
 }
 
-@media screen and (max-width: 1150px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 749px) {
   .post-sidebar {
     max-width: 100%;
   }
@@ -147,7 +147,7 @@ article {
   grid-row: span 1;
 }
 
-@media screen and (max-width: 1150px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 749px) {
   .category-section,
   .post-section {
     flex-direction: column !important; /* Force column layout on mobile */
@@ -168,7 +168,7 @@ article {
 }
 
 /* Media queries for responsive layout */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   /* Make all sections stack vertically */
   .category-section,
   .post-section {
@@ -407,6 +407,7 @@ article {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
   gap: 20px;
+  grid-auto-flow: dense;
 }
 
 /* Single page content container - display as block not grid */
@@ -482,7 +483,7 @@ article {
   max-width: var(--column-right-width);
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   .flex-container {
     flex-direction: column;
     gap: 1rem;
@@ -647,7 +648,7 @@ article {
 }
 
 /* Mobile responsive design */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 748px) {
   .newsletter-section {
     flex-direction: column;
     display: block;

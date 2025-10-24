@@ -121,7 +121,7 @@
 }
 
 /* Show close button only on mobile */
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .close-menu-button {
     display: none;
     position: absolute;
@@ -142,7 +142,7 @@
   flex: 1;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 748px) {
   .mega-menu-columns {
     flex-wrap: nowrap;
   }
@@ -229,7 +229,7 @@
   background-color: #5a6268;
 }
 
-@media screen and (max-width: 1150px) and (min-width: 769px) {
+@media screen and (max-width: 1150px) and (min-width: 749px) {
   .mega-menu-content {
     width: 100%;
   }
@@ -239,7 +239,7 @@
 }
 
 /* Responsive Adjustments */
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   /* Apply overflow:hidden only on mobile devices when menu is open */
   body.menu-open {
     overflow: hidden;

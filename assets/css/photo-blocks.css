@@ -209,7 +209,7 @@
 }
 
 /* Style 2: Mobile positioning */
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   /* Hide desktop version on mobile */
   .article-style-2 .post-content-container > .post-featured-image-caption {
     display: none;
@@ -327,7 +327,7 @@
 }
 
 /* Responsive adjustments */
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   /* Reset large photo to fit in mobile viewport */
   .photo-large-wrapper {
     margin-left: auto;
