@@ -116,24 +116,6 @@
   max-height: 150px; /* Consistent height */
 }
 
-@media (min-width: 1150px) {
-  .comment-description-container {
-    padding-right: 25%;
-  }
-
-  .comments-article .post-title {
-    padding-right: 25%;
-  }
-
-  .comments-article .comment-description {
-    padding-right: 25%;
-  }
-
-  .comments-article .post-featured-image {
-    padding-right: 25%;
-  }
-}
-
 /* Responsive adjustments for mobile */
 @media (max-width: 768px) {
   .comment-author-space {

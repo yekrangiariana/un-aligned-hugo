@@ -46,8 +46,7 @@
 
 /* Normal photo - fits inside the 80% column */
 .photo-normal {
-  width: 70%;
-  align-items: start;
+  width: calc(100% - var(--margin-text));
   margin-bottom: 10px;
 }
 

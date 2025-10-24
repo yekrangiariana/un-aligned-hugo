@@ -100,6 +100,29 @@
   margin-bottom: 0.5rem;
 }
 
+@media (min-width: 1150px) {
+  .article-style-1 .post-title-section,
+  .article-style-1 .post-featured-image {
+    margin-right: 25%;
+  }
+
+  .article-style-1 .post-description p {
+    margin-right: 0;
+  }
+
+  .interview-description {
+    margin-right: var(--margin-text);
+  }
+
+  .comment-description-container {
+    margin-right: 25%;
+  }
+
+  .comments-article .comment-description {
+    margin-right: 25%;
+  }
+}
+
 @media (max-width: 1150px) {
   .post-taxonomy-section {
     margin: 2rem 0;

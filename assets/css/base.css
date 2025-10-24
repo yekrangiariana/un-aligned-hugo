@@ -211,7 +211,6 @@ h6 {
   font-weight: var(--font-weight-medium);
   color: var(--color-text-description);
   margin: 0;
-  margin-right: var(--margin-text);
 }
 
 .interview-description p {
