@@ -669,12 +669,6 @@ body.dark-mode .gordian-button.past-issues:hover {
   background-color: #6c7a7d;
 }
 
-/* Menu toggle */
-body.dark-mode #menu-popup-toggle.active {
-  background-color: gold;
-  color: var(--dark-bg);
-}
-
 /* Header elements */
 body.dark-mode .header-button,
 body.dark-mode .simple-dark-toggle,

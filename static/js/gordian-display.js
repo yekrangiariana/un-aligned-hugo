@@ -25,13 +25,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
         // Show only if within 7 days of publication
         if (diffDays <= 7) {
-          currentGordianSection.style.display = "block";
+          currentGordianSection.classList.add("show-gordian");
           console.log(
             "Current Gordian issue displayed - published " +
               diffDays +
               " days ago"
           );
         } else {
+          currentGordianSection.classList.remove("show-gordian");
           console.log(
             "Current Gordian issue hidden - published " + diffDays + " days ago"
           );

@@ -31,7 +31,7 @@
 
   <div class="category-grid" itemscope itemtype="https://schema.org/ItemList">
     <div class="authors-navigation">
-      {{ range $index, $term := .Data.Terms.Alphabetical }} 
+      {{ range $index, $term := .Data.Terms.ByCount }}
       {{ $authorName := .Page.Title | urlize }} 
       {{ $authorInfo := index $.Site.Data.authors $authorName | default dict }}
 

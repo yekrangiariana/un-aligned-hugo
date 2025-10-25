@@ -32,7 +32,7 @@
 
   <div class="category-grid" itemscope itemtype="https://schema.org/ItemList">
     <div class="archive-navigation">
-      {{ range $index, $term := .Data.Terms.Alphabetical }}
+      {{ range $index, $term := .Data.Terms.ByCount }}
       <div
         class="archive-card"
         itemprop="itemListElement"
