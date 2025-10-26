@@ -9,6 +9,7 @@
 
 adrian-liberto:
   name: "Adrian Liberto"
+  title: "Contributing editor"
   bio: "Adrian is a writer and activist focused on human rights and international affairs."
   image: "/images/authors/Adrian-Liberto-300x300.png.webp"
   email: "adrian.liberto@un-aligned.org"
@@ -17,16 +18,31 @@ adrian-liberto:
 
 ariana-yekrangi:
   name: "Ariana Yekrangi"
+  title: "Contributing editor"
   bio: "Ariana Yekrangi is a writer and activist focused on human rights and international affairs."
   image: "/images/authors/Ariana-Yekrangi-Profile-Photo-300x300.png.webp"
   email: "ariana.yekrangi@un-aligned.org"
   twitter: "yekrangiariana"
-  website: ""
 
 omar-alansari-kreger:
   name: "Omar Alansari-Kreger"
+  title: "Columnist"
   bio: "Omar Alansari-Kreger is a US based writer focused on federalism and international affairs."
   image: "/images/authors/Omar-Alansari-Kreger-300x300.png.webp"
+
+alex-liberto:
+  name: "Alex Liberto"
+  title: "Literary columnist"
+  bio: "Alex Liberto is a retired professor of literature with a focus on literature and the arts."
+  image: "/images/authors/alex-liberto.png"
+
+partho-pratim-chatterjee:
+  name: "Partho Pratim Chatterjee"
+  title: "Environmental officer"
+
+carla-pietrobattista:
+  name: "Carla Pietrobattista"
+  title: "Art columnist"
 
 sabih-abdul:
   name: "Sabih Abdul"

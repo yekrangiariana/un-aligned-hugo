@@ -1,19 +1,21 @@
 ---
-title: "Mission Statement and Foundation"
+title: "Mission statement and foundation"
 date: 2019-02-24T22:44:32+02:00
 url: "our-essence-and-foundation"
+description: "In a world undergoing rapid change, idealism is not a weakness but a catalyst for transformation."
 aliases:
 - /un-aligned-and-its-foundation
+- /about/who-are-we/
 
 ---
-
-In a world undergoing rapid change, idealism is not a weakness but a catalyst for transformation. 
 
 At UN-aligned, we harness the power of creative imagination to envision a better world—one united by a federal order rooted in shared humanity and planetary stewardship. 
 
 Founded in 2016 by Adriano Liberto and Ariana Yekrangi, UN-aligned stands as a beacon of change.
 
-UN-aligned was registered as a non-profit association in the Finnish Patent and Registration Office on *03/18/2021*. Our business ID (Y-tunnus) is *3166623-5*. 
+UN-aligned was registered as a non-profit association in the Finnish Patent and Registration Office on *03/18/2021*. 
+
+Our business ID (Y-tunnus) is *3166623-5*. 
 
 The central office team consists of the following individuals. 
 

@@ -296,8 +296,8 @@ a.article-card-link:focus {
   text-decoration: none;
   font-weight: 600;
   transition: all 0.2s ease;
-  text-decoration: none !important;
-  /* margin: 1rem 0; */
+  text-decoration: none;
+  margin-bottom: 1.5rem;
 }
 
 body.dark-mode .simple-button {

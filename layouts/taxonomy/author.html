@@ -30,7 +30,11 @@ $authorName | default dict }}
 >
   <!-- Left column (20%) for the title -->
   <header class="category-header">
-    <h1 class="taxonomy-term" itemprop="name">{{ .Title }}</h1>
+    <h1 class="author-name-h1" itemprop="name">
+      {{ .Title }} {{ if $authorInfo.title }}
+      <div class="author-title">{{ $authorInfo.title }}</div>
+      {{ end }}
+    </h1>
   </header>
 
   <div class="category-grid">

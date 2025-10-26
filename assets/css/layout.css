@@ -70,7 +70,6 @@ article {
 
 .category-header {
   flex: 0 0 var(--column-left-width);
-  padding-right: 10px;
   word-wrap: break-word;
   -webkit-hyphens: auto;
   -ms-hyphens: auto;

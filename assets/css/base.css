@@ -362,13 +362,10 @@ h6 {
   font-size: 0.9rem;
 }
 
-/* Code blocks and inline code */
-.post-content pre {
+/* .post-content pre {
   padding: 1em;
-  border-radius: 4px;
-  overflow-x: auto;
   margin-bottom: 1.5em;
-  font-family: monospace;
+  margin-right: var(--margin-text);
 }
 
 .post-content code {
@@ -376,7 +373,7 @@ h6 {
   border-radius: 3px;
   font-family: monospace;
   font-size: 0.9em;
-}
+} */
 
 /* International typography */
 .Chinese .markdown-body {
@@ -468,6 +465,11 @@ h6 {
   .post-content blockquote p {
     width: 50%;
   }
+}
+
+/* Dark mode override for elements with background styling */
+body.dark-mode .post-content *[style*="background"] {
+  color: #000000 !important;
 }
 
 /* Table styling */
@@ -610,6 +612,10 @@ h6 {
   padding: 0 0.5rem;
   color: #999;
   font-weight: var(--font-weight-medium);
+}
+
+.category-description {
+  padding-right: 10px;
 }
 
 /* Responsive pagination */

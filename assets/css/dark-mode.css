@@ -11,7 +11,7 @@
   --light-border: #e0e0e0;
 
   /* Dark mode core colors */
-  --dark-bg: #1a1a1a;
+  --dark-bg: #292828;
   --dark-surface: #242424;
   --dark-surface-elevated: #2d2d2d;
 
@@ -164,6 +164,7 @@ body.dark-mode .style-3-header-container::after,
 body.dark-mode .article-style-3 .style-3-headline-wrapper h1,
 body.dark-mode .category-header,
 body.dark-mode .author-card,
+body.dark-mode .archive-card,
 body.dark-mode .section-separator {
   border-color: var(--dark-border);
 }
@@ -226,7 +227,7 @@ body.dark-mode {
 /* Category background colors */
 body.dark-mode .bg-culture,
 body.dark-mode .article-card.has-culture .article-card-category {
-  background-color: var(--dark-color-culture) !important;
+  background-color: var(--color-culture) !important;
 }
 
 body.dark-mode .bg-gallery,
@@ -276,7 +277,7 @@ body.dark-mode .author-item,
 body.dark-mode .tag-item,
 body.dark-mode .category-label-style-2,
 body.dark-mode .gordian-badge {
-  background-color: var(--dark-surface);
+  background-color: var(--dark-bg);
   border-color: var(--dark-border);
   color: var(--dark-text-secondary);
 }
@@ -335,13 +336,7 @@ body.dark-mode .bookmark-button.is-bookmarked .bookmark-icon {
 /* Code blocks */
 body.dark-mode pre,
 body.dark-mode code {
-  background-color: var(--dark-surface-elevated);
   color: var(--dark-text-secondary);
-  border-color: var(--dark-border);
-}
-
-body.dark-mode pre {
-  border: 1px solid var(--dark-border);
 }
 
 /* Layout elements */

@@ -85,15 +85,37 @@
   color: var(--color-primary);
 }
 
+.author-name-h1 {
+  font-size: var(--font-size-xl);
+}
+
 .archive-fullname,
 .author-fullname {
-  font-size: 1.1rem;
+  font-size: var(--font-size-md);
+}
+
+.author-title {
+  font-style: italic;
+  color: #dc3545;
+  font-size: var(--font-size-md);
+  font-weight: normal;
 }
 
 .archive-info,
 .author-info {
   display: flex;
   flex-direction: column;
+}
+
+/* Article count styling */
+.author-articles {
+  margin-bottom: 8px;
+  font-size: 0.9em;
+}
+
+.articles-label {
+  color: #666;
+  font-weight: 500;
 }
 
 /* Latest article styling */
@@ -118,7 +140,7 @@
 
 .author-content-wrapper {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: reverse;
   width: 100%;
 }
 

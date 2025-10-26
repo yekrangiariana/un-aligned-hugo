@@ -65,16 +65,17 @@
   word-wrap: break-word; /* Internet Explorer 5.5+ */
   max-width: 100%;
   overflow: auto;
+  margin-bottom: 1.5em;
 }
 
 .post-content pre code {
   display: block;
   font-family: var(--font-family-primary);
-  font-weight: 400;
+  font-weight: 600;
   font-style: italic;
-  background-color: transparent;
   line-height: 1.6;
-  padding-right: var(--margin-text);
+  margin-right: var(--margin-text);
+  font-size: 1.1rem;
 }
 
 /* Styles for the categories and tags section */
@@ -101,8 +102,7 @@
 }
 
 @media (min-width: 1150px) {
-  .article-style-1 .post-title-section,
-  .article-style-1 .post-featured-image {
+  .article-style-1 .post-title-section {
     margin-right: 25%;
   }
 

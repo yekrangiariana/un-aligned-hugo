@@ -24,9 +24,9 @@
 <main class="category-section">
   <header class="category-header">
     <h1 class="site-date-catalog">All authors</h1>
-    <p>
+    <div class="category-description">
       Meet the writers who share their insights and expertise on our platform.
-    </p>
+    </div>
   </header>
 
   <div class="category-grid" itemscope itemtype="https://schema.org/ItemList">
@@ -61,15 +61,17 @@
             {{ else }}
             <span class="author-fullname">{{ .Page.Title | title }}</span>
             {{ end }}
-            <span class="count"
-              >({{ .Count }} article{{ if ne .Count 1 }}s{{ end }})</span
-            >
+            {{ if $authorInfo.title }}
+            <div class="author-title">{{ $authorInfo.title }}</div>
+            {{ end }}
           </div>
 
           <div class="author-info">
             {{ $latestPost := index .Pages 0 }} {{ if $latestPost }}
             <div class="author-latest">
-              <span class="latest-label">Latest:</span>
+              <span class="latest-label">Latest <span class="count"
+              >({{ .Count }} article{{ if ne .Count 1 }}s{{ end }})</span
+            >: </span>
               <span class="latest-title">{{ $latestPost.Title }}</span>
             </div>
             {{ end }}

@@ -302,6 +302,10 @@
   position: relative;
 }
 
+.culture-article .post-content pre code {
+  color: var(--color-culture);
+}
+
 /* Category badges */
 .culture-article .post-categories a,
 .gallery-article .post-categories a,
@@ -561,24 +565,24 @@ body.dark-mode .single-post.comments .post-title {
 
 /* Dark mode category badge colors */
 body.dark-mode .culture-article .post-categories a {
-  background-color: var(--dark-color-culture) !important;
-  border-color: var(--dark-color-culture);
+  background-color: var(--color-culture) !important;
+  border-color: var(--color-culture);
 }
 body.dark-mode .gallery-article .post-categories a {
-  background-color: var(--dark-color-gallery) !important;
-  border-color: var(--dark-color-gallery);
+  background-color: var(--color-gallery) !important;
+  border-color: var(--color-gallery);
 }
 body.dark-mode .interview-article .post-categories a {
-  background-color: var(--dark-color-interview) !important;
-  border-color: var(--dark-color-interview);
+  background-color: var(--color-interview) !important;
+  border-color: var(--color-interview);
 }
 body.dark-mode .interview-category-label {
-  background-color: var(--dark-color-interview) !important;
-  border-color: var(--dark-color-interview);
+  background-color: var(--color-interview) !important;
+  border-color: var(--color-interview);
 }
 body.dark-mode .comments-article .post-categories a {
-  background-color: var(--dark-color-comments) !important;
-  border-color: var(--dark-color-comments);
+  background-color: var(--color-comments) !important;
+  border-color: var(--color-comments);
 }
 
 /* Dark mode article-style-3 overrides */

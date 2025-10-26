@@ -1,116 +1,114 @@
 ---
 title: "Privacy Policy"
 date: 2019-01-25T17:53:06+02:00
-authors: ["Ariana"]
+authors: ["UN-aligned"]
 url: "privacy-policy"
+style: 2
 ---
 
-### Privacy & Cookies
+This Privacy Policy explains how UN-aligned, a Finland-based organisation, collects, uses, and protects the personal information of visitors and members who use our website. We are committed to safeguarding your privacy and ensuring transparency in how we handle your data.
 
-## Un-aligned's Privacy Statement
+*Last updated: 26 October 2025*
 
-This privacy policy will explain how our organisation uses the personal data we collect from you when you use our website.
+---
 
-#### Topics:
+## Information we collect
 
-## What data do we collect?
+We collect very limited information from visitors to our website. Our site does not use tracking or behavioural cookies. However, if you choose to engage more actively with UN-aligned, some personal information will be collected.
 
-We collects the following data:
+### Membership data
 
-- Personal identification information (Name, nationality, date of birth, email address, etc.)
+When you register as a free member, we ask for:
 
-## How do we collect your data?
+* Full name
+* Email address
+* Confirmation that you are aged 18 or above
+* Country of residence
+* Details about how you wish to contribute (for instance, through writing, volunteering, or financial support)
 
-You directly provide us with most of the data we collect. We collect data and process data when you:
+### Website analytics
 
-- Register online or place an order for any of our products or services.
-- Voluntarily complete a customer survey or provide feedback on any of our message boards or via email.
-- Use or view our website via your browser’s cookies.
+We use Cloudflare’s privacy-focused analytics tools to gather anonymous data about website performance and general visitor activity. This information helps us maintain and improve our site but cannot identify individual users.
 
-## How will we use your data?
+---
 
-UN-aligned collects your data so that we can:
+## How we collect and use your data
 
-- Process your order and manage your account.
-- Email you with special offers on other products and services we think you might like.
-- Statistical purposes.
+We collect information directly from you when you complete our membership form or contact us by email. The data is used to:
 
-When UN-aligned processes your order, it may send your data to, and also use the resulting information from, credit reference agencies to prevent fraudulent purchases.
+* Manage membership and communicate with members
+* Share updates about UN-aligned’s publications, activities, and opportunities, if you have chosen to receive them
+* Maintain the security and performance of our website through Cloudflare’s analytical tools
 
-## How do we store your data?
+We do not sell, rent, or trade your information with third parties.
 
-UN-aligned securely stores your data at google's safe and reliable cloud storage.
+---
 
-After you withdraw your membership, we will keep your personal data for 14 days. Once this time period has expired, we will delete your data completely from our servers. 
+## Data storage and retention
 
-## What are your data protection rights?
+Membership information is stored securely on UN-aligned’s organisational Google Drive, accessible only to a small number of authorised team members.
 
-UN-aligned would like to make sure you are fully aware of all of your data protection rights. Every user is entitled to the following:
+If you withdraw your membership, we delete your data within 14 days of confirmation.
 
-**The right to access** – You have the right to request UN-aligned for copies of your personal data. Doing so is completely out of charge.
-
-**The right to rectification** – You have the right to request that UN-aligned correct any information you believe is inaccurate. You also have the right to request UN-aligned to complete the information you believe is incomplete.
-
-**The right to erasure** – You have the right to request that UN-aligned erase your personal data, under certain conditions.
-
-**The right to restrict processing** – You have the right to request that UN-aligned restrict the processing of your personal data, under certain conditions.
-
-**The right to object to processing** – You have the right to object to UN-aligned's processing of your personal data, under certain conditions.
-
-**The right to data portability** – You have the right to request that UN-aligned transfer the data that we have collected to another organisation, or directly to you, under certain conditions.
-
-If you make a request, we have one month to respond to you. If you would like to exercise any of these rights, please contact us at our email:
-
-Write to us: contact\[at\]un-aligned.org
+---
 
 ## Cookies
 
-Cookies are text files placed on your computer to collect standard Internet log information and visitor behavior information. When you visit our websites, we may collect information from you automatically through cookies or similar technology
+Our website is built with Hugo and hosted through Cloudflare Pages. It does not use advertising or third-party tracking cookies. Cloudflare may set minimal, essential cookies for operational and security purposes; these do not store personal information.
 
-For further information, visit allaboutcookies.org
+You may disable cookies through your browser settings, though doing so may affect some website functions.
 
-## How do we use cookies?
+---
 
-UN-aligned uses cookies in a range of ways to improve your experience on our website, including:
+## Future advertising
 
-- Keeping you signed in
-- Understanding how you use our website
+If UN-aligned introduces advertising on its website in the future, we will ensure that any data collection remains fully compliant with EU and Finnish privacy regulations. We will use only privacy-respecting tools, and any advertising partners will be required to meet equivalent standards. This Privacy Policy will be updated before any such changes take effect.
 
-## What types of cookies do we use?
+---
 
-There are a number of different types of cookies, however, our website uses:
+## Your rights
 
-- Functionality – UN-aligned uses these cookies so that we recognise you on our website and remember your previously selected preferences. These could include what language you prefer and location you are in. A mix of first-party and third-party cookies are used.
-- Advertising – UN-aligned uses these cookies to collect information about your visit to our website, the content you viewed, the links you followed and information about your browser, device, and your IP address.
+Under European data protection law, you have the right to:
 
-## How to manage cookies
+* **Access** the personal data we hold about you
+* **Rectify** any inaccurate or incomplete information
+* **Request erasure** of your personal data in certain circumstances
+* **Restrict processing** of your data under specific conditions
+* **Object** to our processing of your information
+* **Request data portability** where applicable
 
-You can set your browser not to accept cookies, and the above website tells you how to remove cookies from your browser. However, in a few cases, some of our website features may not function as a result.
+Requests should be sent to:
+📧 **Email:** contact[at]un-aligned.org
 
-## Privacy policies of other websites
+We will respond within one month.
 
-The UN-aligned website contains links to other websites. Our privacy policy applies only to our website, so if you click on a link to another website, you should read their privacy policy.
+---
 
-## Changes to our privacy policy
+## Links to other websites
 
-UN-aligned keeps its privacy policy under regular review and places any updates on this web page. This privacy policy was last updated on 1st of April 2019.
+Our website may contain links to external sites. This Privacy Policy applies only to UN-aligned’s website. We recommend reading the privacy policies of any linked sites you visit.
 
-## How to contact us
+---
 
-If you have any questions about UN-aligned's privacy policy, the data we hold on you, or you would like to exercise one of your data protection rights, please do not hesitate to contact us.
+## Changes to this policy
 
-[Contact Page](https://un-aligned.org/about/who-are-we/)
+We review this Privacy Policy regularly to ensure it remains accurate and up to date. Any revisions will appear on this page.
 
-## How to contact the appropriate authority
+*Last reviewed: 26 October 2025*
 
-Should you wish to report a complaint or if you feel that UN-aligned has not addressed your concern in a satisfactory manner, you may contact the Information Commissioner’s Office.
+---
 
-Emails:
+## Contact us
 
-\-arianayekrangi\[at\]un-aligned.org
+If you have any questions about how UN-aligned handles your data, please contact us at:
+📧 **Email:** contact[at]un-aligned.org
+🌐 [About UN-aligned](https://un-aligned.org/our-essence-and-foundation)
 
-\-adrian.liberto\[at\]un-aligned.org
+---
 
-## Up next
+## Supervisory authority
 
-[Go back to home](https://un-aligned.org/)
+If you believe your data has not been handled in accordance with the law, you may contact:
+**Office of the Data Protection Ombudsman (Tietosuojavaltuutetun toimisto)**
+Ratapihantie 9, 00520 Helsinki, Finland
+🌐 [tietosuoja.fi/en](https://tietosuoja.fi/en)

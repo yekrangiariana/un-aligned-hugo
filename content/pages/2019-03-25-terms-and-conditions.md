@@ -1,91 +1,124 @@
 ---
-title: "Terms and Conditions"
+title: "Terms and conditions"
 date: 2019-03-25T21:26:17+02:00
 url: "terms-and-conditions"
-description: "UN-aligned's Terms & Conditions"
+authors: ["UN-aligned"]
+description: "Familiarise yourself with UN-aligned's terms and conditions"
+style: 2
 ---
 
-These terms and conditions outline the rules and regulations for the use of UN-aligned's Website.
+These Terms and Conditions govern the use of the website **[un-aligned.org](https://un-aligned.org)** and the submission of content to **UN-aligned** and its publication, *The Gordian Magazine*. 
 
-By accessing this website we assume you accept these terms and conditions in full. Do not continue to use UN-aligned's website if you do not accept all of the terms and conditions stated on this page.
+By accessing our website or submitting material to us, you agree to comply with these terms.
 
-The following terminology applies to these Terms and Conditions, Privacy Statement and Disclaimer Notice and any or all Agreements: “Client”, “You” and “Your” refers to you, the person accessing this website and accepting the Company’s terms and conditions. “The Company”, “Ourselves”, “We”, “Our” and “Us”, refers to our Company. “Party”, “Parties”, or “Us”, refers to both the Client and ourselves, or either the Client or ourselves. All terms refer to the offer, acceptance and consideration of payment necessary to undertake the process of our assistance to the Client in the most appropriate manner, whether by formal meetings of a fixed duration, or any other means, for the express purpose of meeting the Client’s needs in respect of provision of the Company’s stated services/products, in accordance with and subject to, prevailing law  
-of. Any use of the above terminology or other words in the singular, plural,  
-capitalisation and/or he/she or they, are taken as interchangeable and therefore as referring to same.
+UN-aligned is a non-profit association registered in Finland. The organisation was entered in the Finnish Patent and Registration Office (PRH) on 18 March 2021.
 
-**Cookies**
+- Business ID (Y-tunnus): 3166623-5
+- Registered Office: Helsinki, Finland
 
-We employ the use of cookies. By using UN-aligned's website you consent to the use of cookies  
-in accordance with UN-aligned’s privacy policy. Most of the modern day interactive web sites  
-use cookies to enable us to retrieve user details for each visit. Cookies are used in some areas of our site to enable the functionality of this area and ease of use for those people visiting.  
-Unless otherwise stated, UN-aligned and/or it’s licensors own the intellectual property rights for  
-all material on UN-aligned. All intellectual property rights are reserved. You may view and/or print  
-pages from https://un-aligned.org for your own personal use subject to restrictions set in these terms and conditions.
+*Last updated: 26 October 2025*
 
-**You must not:**
+---
 
-Republish material from https://un-aligned.org  
-Sell, rent or sub-license material from https://un-aligned.org  
-Reproduce, duplicate or copy material from https://un-aligned.org
+## 1. Use of the website
 
-Redistribute content from UN-aligned (unless content is specifically made for redistribution).  
-Hyperlinking to our Content
+You may browse our website for personal, non-commercial use. All articles, images, and materials on this site are protected by copyright. Unless otherwise stated, these rights belong to UN-aligned or the credited authors.
 
-The following organisations may link to our Web site without prior written approval:
+You may quote, share, or reference our material provided that:
 
-Government agencies;  
-Search engines;  
-News organizations;
+* the source is clearly credited as ‘UN-aligned’;
+* the use is fair and does not misrepresent our work; and
+* the material is not altered or used for misleading or commercial purposes.
 
-Online directory distributors when they list us in the directory may link to our Web site in the same  
-manner as they hyperlink to the Web sites of other listed businesses; and  
-System-wide. Accredited Businesses except soliciting non-profit organisations, charity shopping malls, and charity fundraising groups which may not hyperlink to our Web site.
+You must not reproduce, republish, or distribute substantial portions of our content without written permission.
 
-These organisations may link to our home page, to publications or to other Web site information so long as the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and its products or services; and (c) fits within the context of the linking party's site.
+---
 
-We may consider and approve in our sole discretion other link requests from the following types of organisations: commonly-known consumer and/or business information sources such as Chambers of Commerce, American Automobile Association, AARP and Consumers Union; dot.com community sites; associations or other groups representing charities, including charity giving sites, online directory distributors; internet portals; accounting, law and consulting firms whose primary clients are businesses; and educational institutions and trade associations.
+## 2. Website content and reliability
 
-We will approve link requests from these organisations if we determine that: (a) the link would not reflect unfavorably on us or our accredited businesses (for example, trade associations or other organisations representing inherently suspect types of business, such as work-at-home opportunities, shall not be allowed to link); (b)the organization does not have an unsatisfactory record with us; (c) the benefit to us from the visibility associated with the hyperlink outweighs the absence of ; and (d) where the link is in the context of general resource information or is otherwise consistent with editorial content in a newsletter or similar product furthering the mission of the organisation.
+We take care to ensure that information published on our website is accurate and up to date. However, we cannot guarantee that all material is free from error. Content is provided for general information and may be updated or removed at any time.
 
-These organisations may link to our home page, to publications or to other Web site information so long as the link: (a) is not in any way misleading; (b) does not falsely imply sponsorship, endorsement or approval of the linking party and it products or services; and (c) fits within the context of the linking party's site.
+We are not liable for any loss or damage arising from reliance on material found on this site. Links to external websites are provided for convenience; we are not responsible for their content or privacy practices.
 
-If you are among the organisations listed in paragraph 2 above and are interested in linking to our website, you must notify us by sending an e-mail to contact\[at\]un-aligned.org  
-Please include your name, your organisation name, contact information (such as a phone number and/or e-mail address) as well as the URL of your site, a list of any URLs from which you intend to link to our Web site, and a list of the URL(s) on our site to which you would like to link. Allow 2-3 weeks for a response.
+---
 
-Approved organisations may hyperlink to our Web site as follows:
+## 3. Contributions to UN-aligned and *The Gordian Magazine*
 
-By use of our corporate name; or  
-By use of the uniform resource locator (Web address) being linked to; or  
-By use of any other description of our Web site or material being linked to that makes sense within the context and format of content on the linking party's site.
+### 3.1 Acceptance of terms
 
-No use of UN-aligned’s logo or other artwork will be allowed for linking absent a trademark license  
-agreement.
+By submitting an article, photograph, or other material (‘Content’) to UN-aligned or *The Gordian Magazine*, you agree to the terms set out in this section.
 
-**Iframes**
+### 3.2 Rights to your original work
 
-Without prior approval and express written permission, you may not create frames around our Web pages or use other techniques that alter in any way the visual presentation or appearance of our Web site.
+You retain full ownership of your original work. You are free to use, share, or publish your original version elsewhere at any time.
 
-**Reservation of Rights**  
-We reserve the right at any time and in its sole discretion to request that you remove all links or any particular link to our Web site. You agree to immediately remove all links to our Web site upon such request. We also reserve the right to amend these terms and conditions and its linking policy at any time. By continuing to link to our Web site, you agree to be bound to and abide by these linking terms and conditions.
+### 3.3 Rights to the published version
 
-**Removal of links from our website**  
-If you find any link on our Web site or any linked web site objectionable for any reason, you may contact us about this. We will consider requests to remove links but will have no obligation to do so or to respond directly to you.  
-Whilst we endeavour to ensure that the information on this website is correct, we do not warrant its completeness or accuracy; nor do we commit to ensuring that the website remains available or that the material on the website is kept up to date.
+Once your Content has been edited and published by UN-aligned, we hold the right to use that published version across our platforms and in any related format, including print and digital. This includes the right to reproduce, distribute, promote, and include it in future compilations or collections.
 
-**Content Liability**  
-We shall have no responsibility or liability for any content appearing on your Web site. You agree to indemnify and defend us against all claims arising out of or based upon your Website. No link(s) may appear on any page on your Web site or within any context containing content or materials that may be interpreted as libelous, obscene or criminal, or which infringes, otherwise violates, or advocates the infringement or other violation of, any third party rights.
+We may adapt or modify published Content—for example, through formatting, translation, or excerpting—provided that we preserve its integrity and credit you appropriately.
 
-**Disclaimer**  
-To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website (including, without limitation, any warranties implied by law in respect of satisfactory quality, fitness for purpose and/or the use of reasonable care and skill). Nothing in this disclaimer will:
+### 3.4 Moral rights
 
-limit or exclude our or your liability for death or personal injury resulting from negligence;  
-limit or exclude our or your liability for fraud or fraudulent misrepresentation;  
-limit any of our or your liabilities in any way that is not permitted under applicable law; or  
-exclude any of our or your liabilities that may not be excluded under applicable law.
+Contributors retain moral rights to their work, including the right to be credited and the right to object to derogatory treatment of their work.
 
-The limitations and exclusions of liability set out in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer or in relation to the subject matter of this disclaimer, including liabilities arising in contract, in tort  
-(including negligence) and for breach of statutory duty. To the extent that the website and the information and services on the website are provided free of charge, we will not be liable for any loss or damage of any nature.
+### 3.5 Removal requests
 
-## Up next
+If you wish to request the removal of your published Content, please contact the editorial team at [contact@un-aligned.org](mailto:contact@un-aligned.org). The final decision will rest with the Editors of *The Gordian Magazine*.
 
-[Go back to home](https://un-aligned.org/)
+### 3.6 Indemnification
+
+By submitting Content, you confirm that it is your own work and does not infringe the rights of others. You agree to indemnify UN-aligned against any claims arising from the breach of third-party rights.
+
+---
+
+## 4. User-generated content
+
+Comments, galleries, or other user submissions must be respectful and lawful. We reserve the right to reject and remove material that we consider defamatory, discriminatory, or otherwise inappropriate.
+
+---
+
+## 5. Cookies and analytics
+
+Our website is a static site built with Hugo and hosted on Cloudflare Pages. We use minimal cookies strictly for security and performance. No personal data is collected for tracking or advertising purposes. For more details, see our [Privacy Policy](https://un-aligned.org/privacy-policy/).
+
+---
+
+## 6. Intellectual property
+
+The UN-aligned name, logo, and all original materials produced by us are protected by copyright and may not be reproduced without written consent.
+
+Where content is provided by contributors, the copyright remains with the author, and UN-aligned holds the right to use the published version in accordance with Section 3.
+
+---
+
+## 7. Linking to our website
+
+You may link to our homepage or individual articles, provided that the link:
+
+* is fair and legal;
+* does not imply endorsement or association without our consent; and
+* does not damage our reputation.
+
+We reserve the right to request removal of any link we deem inappropriate.
+
+---
+
+## 8. Disclaimer and limitation of liability
+
+Our website and its content are provided ‘as is’. To the fullest extent permitted by Finnish law, UN-aligned disclaims all warranties, express or implied, relating to the accuracy, completeness, or suitability of any material.
+
+UN-aligned will not be liable for any direct or indirect loss arising from the use of this website or its content. Nothing in these terms limits liability for death or personal injury caused by negligence or for any matter which cannot be excluded under Finnish law.
+
+---
+
+## 9. Governing law
+
+These Terms and Conditions are governed by the laws of Finland. Any disputes arising from or related to these terms shall be subject to the exclusive jurisdiction of the Finnish courts.
+
+---
+
+## 10. Contact
+
+For questions about these Terms and Conditions or about content submissions, please contact:
+📧 **Email:** [contact[at]un-aligned.org](mailto:contact@un-aligned.org)
