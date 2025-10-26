@@ -1,13 +1,22 @@
 <!-- Bookmark Article Feature -->
 <div class="sidebar-section bookmark-article">
-  <button id="bookmarkToggle" class="bookmark-button" title="Add to bookmarks" aria-label="Toggle bookmark status">
-    <svg class="bookmark-icon" width="16" height="20" viewBox="0 0 16 20" aria-hidden="true" focusable="false">
-      <path d="M0 0v20l8-6 8 6V0H0z" fill="currentColor"/>
-    </svg>
+  <button
+    id="bookmarkToggle"
+    class="bookmark-button"
+    title="Add to bookmarks"
+    aria-label="Toggle bookmark status"
+  >
+    <i class="fas fa-bookmark bookmark-icon" aria-hidden="true"></i>
     <span class="bookmark-text">Add to bookmarks</span>
   </button>
   <div class="bookmark-info" style="display: none">
-    <a href="/pages/bookmarks/" class="view-bookmarks-link" id="view-bookmarks-btn" aria-label="View all your bookmarked articles">All bookmarks</a>
+    <a
+      href="/pages/bookmarks/"
+      class="view-bookmarks-link"
+      id="view-bookmarks-btn"
+      aria-label="View all your bookmarked articles"
+      >All bookmarks</a
+    >
   </div>
 </div>
 
@@ -26,7 +35,7 @@
         // Current article information
         this.articleId = window.location.pathname;
         this.normalizedArticleId = this.normalizePath(this.articleId);
-        
+
         // Cache for article metadata
         this.metadataCache = null;
 
@@ -37,7 +46,7 @@
 
         // Initialize event listeners
         this.initEventListeners();
-        
+
         // Initialize on page load
         this.updateBookmarkStatus();
       }
@@ -48,7 +57,7 @@
       initEventListeners() {
         // Bookmark toggle button
         this.bookmarkButton.addEventListener("click", this.toggleBookmark);
-        
+
         // Navigation
         const viewBookmarksBtn = document.getElementById("view-bookmarks-btn");
         if (viewBookmarksBtn) {
@@ -89,14 +98,17 @@
        */
       updateBookmarkStatus() {
         const bookmarks = this.getBookmarks();
-        const isBookmarked = bookmarks.some(article => 
-          this.normalizePath(article.id) === this.normalizedArticleId
+        const isBookmarked = bookmarks.some(
+          (article) =>
+            this.normalizePath(article.id) === this.normalizedArticleId
         );
 
         // Update button state
         this.bookmarkButton.classList.toggle("is-bookmarked", isBookmarked);
         this.bookmarkButton.setAttribute("aria-pressed", isBookmarked);
-        this.bookmarkText.textContent = isBookmarked ? "Remove bookmark" : "Bookmark article";
+        this.bookmarkText.textContent = isBookmarked
+          ? "Remove bookmark"
+          : "Bookmark article";
         this.bookmarkInfo.style.display = isBookmarked ? "block" : "none";
 
         // Update article displays
@@ -110,10 +122,10 @@
       updateArticleDisplay(isBookmarked) {
         const articleElements = [
           document.querySelector(".article-card"),
-          document.querySelector("article.post")
+          document.querySelector("article.post"),
         ];
 
-        articleElements.forEach(element => {
+        articleElements.forEach((element) => {
           if (element) {
             if (isBookmarked) {
               element.classList.add("is-bookmarked");
@@ -135,16 +147,20 @@
         try {
           // Use cached metadata if available
           if (!this.metadataCache) {
-            const response = await fetch('/articles-index.json');
+            const response = await fetch("/articles-index.json");
             if (!response.ok) return null;
             this.metadataCache = await response.json();
           }
 
           // Find article in cached data
           const normalizedId = this.normalizePath(articleId);
-          return this.metadataCache.find(a => this.normalizePath(a.id) === normalizedId) || null;
+          return (
+            this.metadataCache.find(
+              (a) => this.normalizePath(a.id) === normalizedId
+            ) || null
+          );
         } catch (e) {
-          console.error('Error fetching article metadata:', e);
+          console.error("Error fetching article metadata:", e);
           return null;
         }
       }
@@ -155,26 +171,30 @@
       async toggleBookmark() {
         let bookmarks = this.getBookmarks();
         const isBookmarked = bookmarks.some(
-          article => this.normalizePath(article.id) === this.normalizedArticleId
+          (article) =>
+            this.normalizePath(article.id) === this.normalizedArticleId
         );
 
         // Add loading state
         this.bookmarkButton.classList.add("is-loading");
-        this.bookmarkText.textContent = isBookmarked ? "Removing..." : "Adding...";
+        this.bookmarkText.textContent = isBookmarked
+          ? "Removing..."
+          : "Adding...";
 
         try {
           if (isBookmarked) {
             // Remove from bookmarks
             bookmarks = bookmarks.filter(
-              article => this.normalizePath(article.id) !== this.normalizedArticleId
+              (article) =>
+                this.normalizePath(article.id) !== this.normalizedArticleId
             );
           } else {
             // Fetch metadata and add to bookmarks
             const meta = await this.getArticleMetadata(this.articleId);
             if (!meta) {
-              throw new Error('Could not find article metadata');
+              throw new Error("Could not find article metadata");
             }
-            
+
             const article = {
               id: this.normalizePath(meta.id),
               title: meta.title,
@@ -188,12 +208,12 @@
             };
             bookmarks.push(article);
           }
-          
+
           // Save updated bookmarks
           this.saveBookmarks(bookmarks);
         } catch (error) {
-          console.error('Error toggling bookmark:', error);
-          alert('An error occurred: ' + error.message);
+          console.error("Error toggling bookmark:", error);
+          alert("An error occurred: " + error.message);
         } finally {
           // Remove loading state
           this.bookmarkButton.classList.remove("is-loading");

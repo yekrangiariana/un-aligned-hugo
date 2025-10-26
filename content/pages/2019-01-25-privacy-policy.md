@@ -1,14 +1,14 @@
 ---
 title: "Privacy Policy"
-date: 2019-01-25T17:53:06+02:00
+date: "2025-10-26T11:30:00+0300"
 authors: ["UN-aligned"]
 url: "privacy-policy"
 style: 2
 ---
 
-This Privacy Policy explains how UN-aligned, a Finland-based organisation, collects, uses, and protects the personal information of visitors and members who use our website. We are committed to safeguarding your privacy and ensuring transparency in how we handle your data.
+This Privacy Policy explains how UN-aligned, a Finland-based organisation, collects, uses, and protects the personal information of visitors and members who use our website. 
 
-*Last updated: 26 October 2025*
+We are committed to safeguarding your privacy and ensuring transparency in how we handle your data.
 
 ---
 
@@ -62,7 +62,9 @@ You may disable cookies through your browser settings, though doing so may affec
 
 ## Future advertising
 
-If UN-aligned introduces advertising on its website in the future, we will ensure that any data collection remains fully compliant with EU and Finnish privacy regulations. We will use only privacy-respecting tools, and any advertising partners will be required to meet equivalent standards. This Privacy Policy will be updated before any such changes take effect.
+If UN-aligned introduces advertising on its website in the future, we will ensure that any data collection remains fully compliant with EU and Finnish privacy regulations. 
+
+We will use only privacy-respecting tools, and any advertising partners will be required to meet equivalent standards. This Privacy Policy will be updated before any such changes take effect.
 
 ---
 

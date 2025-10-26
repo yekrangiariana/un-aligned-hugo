@@ -1,0 +1,156 @@
+/* Mobile Touch Optimization - Apply to all clickable elements */
+
+/* Global touch optimizations for all interactive elements */
+a,
+button,
+[role="button"],
+.clickable,
+input[type="submit"],
+input[type="button"],
+input[type="reset"],
+.btn,
+.button,
+.link-button,
+.nav-link,
+.category-link,
+.mega-menu-links a,
+.social-link,
+.pagination a,
+.tag-link,
+.author-link,
+.date-link,
+.read-more {
+  /* Prevent double-tap zoom */
+  touch-action: manipulation;
+  /* Prevent text selection on touch */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* Ensure minimum touch target size (44x44px minimum) */
+  min-height: 44px;
+  /* Add slight padding if needed */
+  padding: max(8px, var(--spacing-xs, 8px)) max(12px, var(--spacing-sm, 12px));
+  /* Smooth transitions */
+  transition: all 0.2s ease;
+  /* Better cursor */
+  cursor: pointer;
+}
+
+/* Smaller interactive elements (like tags) can be slightly smaller but still accessible */
+.tag,
+.badge,
+.chip,
+.small-button {
+  min-height: 38px;
+  padding: 6px 10px;
+}
+
+/* Ensure form elements are touch-friendly */
+input,
+textarea,
+select {
+  min-height: 44px;
+  padding: 8px 12px;
+  touch-action: manipulation;
+}
+
+/* Special handling for icon-only buttons */
+.icon-button,
+button:has(i:only-child),
+a:has(i:only-child) {
+  min-width: 44px;
+  min-height: 44px;
+  padding: 8px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Ensure adequate spacing between touch targets */
+.touch-list > * + * {
+  margin-top: 8px;
+}
+
+.touch-grid {
+  gap: 8px;
+}
+
+/* Mobile-specific optimizations */
+@media (max-width: 768px) {
+  /* Increase touch targets on mobile */
+  a,
+  button,
+  [role="button"],
+  .clickable {
+    min-height: 48px;
+    padding: 10px 14px;
+  }
+
+  /* Larger spacing between elements on mobile */
+  .touch-list > * + * {
+    margin-top: 12px;
+  }
+
+  .touch-grid {
+    gap: 12px;
+  }
+
+  /* Prevent text selection during touch interactions */
+  body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+
+  /* Allow text selection for content areas */
+  .content,
+  .post-content,
+  .article-content,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  blockquote,
+  .selectable {
+    -webkit-user-select: text;
+    -khtml-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+}
+
+/* Hover states that work on both mouse and touch */
+@media (hover: hover) {
+  a:hover,
+  button:hover,
+  [role="button"]:hover,
+  .clickable:hover {
+    opacity: 0.8;
+    transform: translateY(-1px);
+  }
+}
+
+/* Focus states for accessibility */
+a:focus,
+button:focus,
+[role="button"]:focus,
+.clickable:focus {
+  outline: 2px solid var(--color-accent, #007bff);
+  outline-offset: 2px;
+}
+
+/* Active states for touch feedback */
+a:active,
+button:active,
+[role="button"]:active,
+.clickable:active {
+  transform: translateY(0);
+  opacity: 0.9;
+}

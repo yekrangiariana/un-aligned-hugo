@@ -143,10 +143,6 @@
 }
 
 @media (min-width: 748px) {
-  .mega-menu-columns {
-    flex-wrap: nowrap;
-  }
-
   .mega-menu-column {
     width: 100%;
   }
@@ -240,30 +236,38 @@
 
 /* Responsive Adjustments */
 @media (max-width: 748px) {
-  /* Apply overflow:hidden only on mobile devices when menu is open */
-  body.menu-open {
+  /* Remove this rule since we're handling it in header.css with more specificity */
+  /* body.menu-open {
     overflow: hidden;
-  }
+  } */
 
   .mega-menu-popup {
-    position: absolute;
-    top: 100%; /* Position right below the category nav, just like on desktop */
+    position: fixed; /* Changed from absolute to fixed */
+    top: 0; /* Start from top of viewport */
     left: 0;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.8);
-    z-index: 9999;
-    max-height: calc(100vh - 150px);
+    right: 0;
+    bottom: 50px; /* Leave space for the fixed bottom button bar */
+    width: 100vw; /* Ensure full viewport width */
+    height: calc(100vh - 50px); /* Explicit height to prevent overflow */
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1040; /* Below the bottom button bar (which is 1050) */
     overflow-y: auto;
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
   }
 
   .mega-menu-content {
     width: 100%;
-    max-width: 100vh; /* Full width on mobile */
+    max-width: 100%;
     margin: 0;
     padding: 1rem;
+    padding-bottom: 2rem; /* Extra space at bottom */
     overflow-y: visible;
-    float: none; /* Reset float */
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    float: none;
     position: relative;
+    box-sizing: border-box; /* Include padding in width calculations */
+    /* Remove problematic min-height calculation */
   }
 
   .mega-menu-columns {
@@ -277,16 +281,24 @@
 
   /* Ensure menu button stays visible when menu is open */
   #menu-popup-toggle.active {
-    z-index: 10000;
+    z-index: 1060; /* Above the mega menu */
+  }
+
+  /* Keep the entire bottom button bar above the menu */
+  .header-top-buttons {
+    z-index: 1050 !important;
   }
 
   /* Mobile-specific menu styling */
   .mega-menu-header {
     position: sticky;
     top: 0;
-    background: inherit;
     z-index: 2;
-    padding-top: 10px;
+    padding: 15px 0;
+    margin: -1rem -1rem 1rem -1rem; /* Extend to edges */
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-bottom: var(--border-thin-light);
   }
 
   /* Add some extra space at the bottom for better scrolling */
