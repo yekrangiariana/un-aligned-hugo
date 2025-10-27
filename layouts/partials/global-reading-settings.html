@@ -79,15 +79,6 @@
           <i class="fas fa-bookmark bookmark-icon" aria-hidden="true"></i>
           <span class="bookmark-text">Add to bookmarks</span>
         </button>
-        <div class="bookmark-info global-bookmark-info" style="display: none">
-          <a
-            href="/pages/bookmarks/"
-            class="view-bookmarks-link"
-            id="global-view-bookmarks-btn"
-            aria-label="View all your bookmarked articles"
-            >All bookmarks</a
-          >
-        </div>
         <div
           class="bookmark-unavailable"
           id="bookmark-unavailable"
@@ -401,16 +392,12 @@
             const isBookmarked =
               mainBookmarkBtn.classList.contains("is-bookmarked");
             const globalText = bookmarkButton.querySelector(".bookmark-text");
-            const globalInfo = popup.querySelector(".global-bookmark-info");
 
             bookmarkButton.classList.toggle("is-bookmarked", isBookmarked);
             if (globalText) {
               globalText.textContent = isBookmarked
                 ? "Remove bookmark"
                 : "Bookmark article";
-            }
-            if (globalInfo) {
-              globalInfo.style.display = isBookmarked ? "block" : "none";
             }
           }
 
