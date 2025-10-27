@@ -764,7 +764,10 @@ body.dark-mode .global-reading-popup .bookmark-section .bookmark-button:hover {
   color: var(--dark-text-primary);
 }
 
-body.dark-mode .global-reading-popup .bookmark-section .bookmark-button.is-bookmarked {
+body.dark-mode
+  .global-reading-popup
+  .bookmark-section
+  .bookmark-button.is-bookmarked {
   background-color: #d42b63;
   color: white;
   border-color: #d42b63;
