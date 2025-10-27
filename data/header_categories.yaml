@@ -25,7 +25,14 @@ categories:
 
   - name: "Global Issues"
 
-# Special link to show all categories
-all_categories:
-  name: "All Categories"
-  url: "categories/"
+  - name: "All categories"
+    url: "categories/"
+
+  - name: "All tags"
+    url: "tags/"
+
+  - name: "All authors"
+    url: "authors/"
+
+  - name: "Search"
+    url: "search/"

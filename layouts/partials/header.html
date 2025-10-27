@@ -36,6 +36,16 @@
                 <i class="fas fa-bars"></i> Menu
               </button>
             </div>
+            <div class="header-item mobile-only">
+              <button
+                id="topics-popup-toggle"
+                class="header-button"
+                title="Browse Topics"
+                type="button"
+              >
+                <i class="fas fa-tags"></i> Topics
+              </button>
+            </div>
             <div class="header-item">
               <!-- Reading Features button now available site-wide -->
               <button
@@ -80,4 +90,97 @@
 
 <!-- Popup Menu - Now positioned right after the categories -->
 {{ partial "mega-menu.html" . }}
+
+<!-- Topics Popup for Mobile -->
+<div id="topics-popup" class="topics-popup">
+  <div class="popup-overlay" id="topics-overlay"></div>
+  <div class="topics-content">
+    <div class="topics-header">
+      <h3>
+        <i class="fas fa-tags"></i>
+        Browse Topics
+      </h3>
+      <button
+        id="close-topics-popup"
+        class="close-topics-button"
+        aria-label="Close topics"
+      >
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+    <div class="topics-grid">
+      {{ range .Site.Data.header_categories.categories }}
+        <div class="topic-item">
+          {{ if .url }}
+            <a href="{{ $.Site.BaseURL | absURL }}{{ .url }}" class="topic-link">
+              {{ .name }}
+            </a>
+          {{ else }}
+            <a href="{{ $.Site.BaseURL | absURL }}categories/{{ .name | urlize }}/" class="topic-link">
+              {{ .name }}
+            </a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<script>
+  // Topics popup functionality
+  document.addEventListener('DOMContentLoaded', function() {
+    const topicsButton = document.getElementById('topics-popup-toggle');
+    const topicsPopup = document.getElementById('topics-popup');
+    const topicsOverlay = document.getElementById('topics-overlay');
+    const closeButton = document.getElementById('close-topics-popup');
+
+    if (topicsButton && topicsPopup) {
+      // Store scroll position before opening popup
+      let scrollPosition = 0;
+
+      // Open topics popup
+      function openTopicsPopup() {
+        scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+        topicsPopup.classList.add('active');
+        document.body.style.overflow = 'hidden';
+        document.body.style.position = 'fixed';
+        document.body.style.top = `-${scrollPosition}px`;
+        document.body.style.width = '100%';
+      }
+
+      // Close topics popup and restore scroll position
+      function closeTopicsPopup() {
+        topicsPopup.classList.remove('active');
+        document.body.style.overflow = '';
+        document.body.style.position = '';
+        document.body.style.top = '';
+        document.body.style.width = '';
+        window.scrollTo({
+          top: scrollPosition,
+          left: 0,
+          behavior: 'instant'
+        });
+      }
+
+      // Event listeners
+      topicsButton.addEventListener('click', openTopicsPopup);
+      
+      if (closeButton) {
+        closeButton.addEventListener('click', closeTopicsPopup);
+      }
+
+      if (topicsOverlay) {
+        topicsOverlay.addEventListener('click', closeTopicsPopup);
+      }
+
+      // Close on escape key
+      document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape' && topicsPopup.classList.contains('active')) {
+          closeTopicsPopup();
+        }
+      });
+    }
+  });
+</script>
+
 </header>
