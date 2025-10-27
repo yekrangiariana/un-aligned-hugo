@@ -1,0 +1,419 @@
+<!-- Global Reading Features Popup - Available site-wide -->
+<div class="global-reading-popup" id="global-reading-popup">
+  <div class="popup-overlay" id="popup-overlay"></div>
+  <div class="popup-content">
+    <div class="popup-header">
+      <h3><i class="fas fa-book-open"></i> Reading Features</h3>
+      <button class="popup-close" id="popup-close" title="Close">
+        <i class="fas fa-times"></i>
+      </button>
+    </div>
+
+    <div class="popup-body">
+      <!-- Text Size Adjuster - Works globally -->
+      <div class="popup-section text-size-adjuster">
+        <div class="section-title">
+          <i class="fas fa-text-height"></i> Text Size
+        </div>
+        <div class="text-size-controls">
+          <button
+            class="size-option size-small"
+            data-size="small"
+            title="Small text"
+          >
+            A
+          </button>
+          <button
+            class="size-option size-medium active"
+            data-size="medium"
+            title="Medium text"
+          >
+            A
+          </button>
+          <button
+            class="size-option size-large"
+            data-size="large"
+            title="Large text"
+          >
+            A
+          </button>
+        </div>
+      </div>
+
+      <!-- Theme Selection -->
+      <div class="popup-section dark-mode-section">
+        <div class="section-title"><i class="fas fa-palette"></i> Theme</div>
+        <div class="theme-toggle-buttons">
+          <button
+            class="theme-option light-theme-btn active"
+            data-theme="light"
+            title="Light Mode"
+            type="button"
+          >
+            <i class="fas fa-sun"></i>
+            <span>Light</span>
+          </button>
+          <button
+            class="theme-option dark-theme-btn"
+            data-theme="dark"
+            title="Dark Mode"
+            type="button"
+          >
+            <i class="fas fa-moon"></i>
+            <span>Dark</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Article Bookmarking - Only on single pages -->
+      <div class="popup-section bookmark-section" id="bookmark-section">
+        <div class="section-title">
+          <i class="fas fa-bookmark"></i> Bookmark This Article
+        </div>
+        <button
+          id="global-bookmarkToggle"
+          class="bookmark-button"
+          title="Add to bookmarks"
+          aria-label="Toggle bookmark status"
+        >
+          <i class="fas fa-bookmark bookmark-icon" aria-hidden="true"></i>
+          <span class="bookmark-text">Add to bookmarks</span>
+        </button>
+        <div class="bookmark-info global-bookmark-info" style="display: none">
+          <a
+            href="/pages/bookmarks/"
+            class="view-bookmarks-link"
+            id="global-view-bookmarks-btn"
+            aria-label="View all your bookmarked articles"
+            >All bookmarks</a
+          >
+        </div>
+        <div
+          class="bookmark-unavailable"
+          id="bookmark-unavailable"
+          style="display: none"
+        >
+          <span class="unavailable-text"
+            >Bookmarking is only available on articles</span
+          >
+        </div>
+      </div>
+
+      <!-- My Saved Articles - Always visible -->
+      <div class="popup-section saved-articles-section">
+        <div class="section-title">
+          <i class="fas fa-folder-bookmark"></i> My Library
+        </div>
+        <a
+          href="/pages/bookmarks/"
+          class="saved-articles-link"
+          title="View all your saved articles"
+        >
+          <i class="fas fa-bookmark"></i>
+          <span>View all saved articles</span>
+          <i class="fas fa-arrow-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+  // Global Reading Features Handler
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.getElementById("global-reading-toggle");
+    const popup = document.getElementById("global-reading-popup");
+    const overlay = document.getElementById("popup-overlay");
+    const closeButton = document.getElementById("popup-close");
+
+    if (!popup || !toggleButton) return; // Safety check
+
+    // Store scroll position before opening popup
+    let scrollPosition = 0;
+
+    // Open popup
+    function openPopup() {
+      scrollPosition = window.pageYOffset || document.documentElement.scrollTop;
+      popup.classList.add("active");
+      document.body.style.overflow = "hidden";
+      document.body.style.position = "fixed";
+      document.body.style.top = `-${scrollPosition}px`;
+      document.body.style.width = "100%";
+    }
+
+    // Close popup and restore scroll position
+    function closePopup() {
+      popup.classList.remove("active");
+      document.body.style.overflow = "";
+      document.body.style.position = "";
+      document.body.style.top = "";
+      document.body.style.width = "";
+      window.scrollTo(0, scrollPosition);
+    }
+
+    // Event listeners
+    toggleButton.addEventListener("click", openPopup);
+    if (overlay) overlay.addEventListener("click", closePopup);
+    if (closeButton) closeButton.addEventListener("click", closePopup);
+
+    // Close on escape key
+    document.addEventListener("keydown", function (e) {
+      if (e.key === "Escape" && popup.classList.contains("active")) {
+        closePopup();
+      }
+    });
+
+    // Handle text size functionality globally
+    const popupSizeOptions = popup.querySelectorAll(".size-option");
+    const savedSize = localStorage.getItem("preferredTextSize") || "medium";
+
+    // Update active button state
+    function updateActiveButton(size) {
+      popupSizeOptions.forEach((btn) => btn.classList.remove("active"));
+      const activeButton = popup.querySelector(
+        `.size-option[data-size="${size}"]`
+      );
+      if (activeButton) activeButton.classList.add("active");
+    }
+
+    // Apply saved size on load
+    updateActiveButton(savedSize);
+
+    // Apply text size to any content on the page
+    function applyTextSizeGlobally(size) {
+      // On single pages, apply to article content
+      const contentSelectors = [
+        ".post-content.markdown-body",
+        ".markdown-body",
+        ".post-content",
+        "article.post",
+      ];
+
+      let articleContent = null;
+      for (const selector of contentSelectors) {
+        const element = document.querySelector(selector);
+        if (element) {
+          articleContent = element;
+          break;
+        }
+      }
+
+      if (articleContent) {
+        // Store current scroll position
+        const currentScroll =
+          window.pageYOffset || document.documentElement.scrollTop;
+
+        articleContent.classList.remove(
+          "text-size-small",
+          "text-size-medium",
+          "text-size-large"
+        );
+        articleContent.classList.add(`text-size-${size}`);
+
+        // Restore scroll position after applying size
+        requestAnimationFrame(() => {
+          window.scrollTo(0, currentScroll);
+        });
+      } else {
+        // On other pages, apply to body or main content
+        const mainContent =
+          document.querySelector("main") ||
+          document.querySelector(".main-content") ||
+          document.body;
+        if (mainContent) {
+          const currentScroll =
+            window.pageYOffset || document.documentElement.scrollTop;
+
+          mainContent.classList.remove(
+            "text-size-small",
+            "text-size-medium",
+            "text-size-large"
+          );
+          mainContent.classList.add(`text-size-${size}`);
+
+          requestAnimationFrame(() => {
+            window.scrollTo(0, currentScroll);
+          });
+        }
+      }
+
+      localStorage.setItem("preferredTextSize", size);
+    }
+
+    // Apply saved text size on page load
+    applyTextSizeGlobally(savedSize);
+
+    // Add click handlers for size options
+    popupSizeOptions.forEach((button) => {
+      button.addEventListener("click", function () {
+        const size = this.dataset.size;
+        updateActiveButton(size);
+        applyTextSizeGlobally(size);
+      });
+    });
+
+    // Handle theme toggle functionality
+    const themeButtons = popup.querySelectorAll(".theme-option");
+
+    // Check current theme and update active state
+    function updateThemeButtonState() {
+      const currentTheme =
+        document.documentElement.getAttribute("data-theme") || "light";
+      themeButtons.forEach((btn) => {
+        btn.classList.remove("active");
+        if (btn.dataset.theme === currentTheme) {
+          btn.classList.add("active");
+        }
+      });
+    }
+
+    // Initialize theme button state
+    updateThemeButtonState();
+
+    // Add click handlers for theme buttons
+    themeButtons.forEach((button) => {
+      button.addEventListener("click", function () {
+        const selectedTheme = this.dataset.theme;
+        const currentTheme =
+          document.documentElement.getAttribute("data-theme") || "light";
+
+        // Only change if we're selecting a different theme
+        if (selectedTheme !== currentTheme) {
+          // Update active state
+          themeButtons.forEach((btn) => btn.classList.remove("active"));
+          this.classList.add("active");
+
+          // Apply theme directly
+          if (selectedTheme === "dark") {
+            document.documentElement.setAttribute("data-theme", "dark");
+            localStorage.setItem("theme", "dark");
+            document.body.classList.add("dark-mode");
+          } else {
+            document.documentElement.setAttribute("data-theme", "light");
+            localStorage.setItem("theme", "light");
+            document.body.classList.remove("dark-mode");
+          }
+
+          // Trigger any existing theme change events
+          const themeChangeEvent = new CustomEvent("themeChanged", {
+            detail: { theme: selectedTheme },
+          });
+          document.dispatchEvent(themeChangeEvent);
+        }
+      });
+    });
+
+    // Listen for theme changes from other sources and update button state
+    const observer = new MutationObserver(function (mutations) {
+      mutations.forEach(function (mutation) {
+        if (
+          mutation.type === "attributes" &&
+          mutation.attributeName === "data-theme"
+        ) {
+          updateThemeButtonState();
+        }
+      });
+    });
+    observer.observe(document.documentElement, { attributes: true });
+
+    // Handle bookmark functionality
+    const bookmarkSection = document.getElementById("bookmark-section");
+    const bookmarkButton = document.getElementById("global-bookmarkToggle");
+    const bookmarkUnavailable = document.getElementById("bookmark-unavailable");
+
+    // Check if we're on a single page that can be bookmarked
+    // Look for multiple indicators of an article page
+    const hasArticlePost = !!document.querySelector("article.post");
+    const hasPostContent = !!document.querySelector(".post-content");
+    const hasMarkdownBody = !!document.querySelector(".markdown-body");
+    const hasMainBookmark = !!document.querySelector("#bookmarkToggle");
+    const hasSingleClass = document.body.classList.contains("single");
+    const hasPostUrlPattern = /\/posts\/|\/articles\//.test(
+      window.location.pathname
+    );
+    const hasSinglePostPattern =
+      /\/[^\/]+\/$/.test(window.location.pathname) &&
+      !window.location.pathname.match(
+        /\/pages\/|\/categories\/|\/tags\/|\/authors\/|\/archive/
+      );
+
+    const isArticlePage =
+      hasArticlePost ||
+      hasPostContent ||
+      hasMarkdownBody ||
+      hasMainBookmark ||
+      hasSingleClass ||
+      hasPostUrlPattern ||
+      hasSinglePostPattern;
+
+    console.log("Article page detection:", {
+      isArticlePage,
+      hasArticlePost,
+      hasPostContent,
+      hasMarkdownBody,
+      hasMainBookmark,
+      hasSingleClass,
+      hasPostUrlPattern,
+      hasSinglePostPattern,
+      pathname: window.location.pathname,
+    });
+
+    if (isArticlePage) {
+      // Show bookmark button, hide unavailable message
+      if (bookmarkButton) bookmarkButton.style.display = "flex";
+      if (bookmarkUnavailable) bookmarkUnavailable.style.display = "none";
+
+      // Connect to existing bookmark functionality
+      setTimeout(function () {
+        const mainBookmarkBtn = document.getElementById("bookmarkToggle");
+
+        if (mainBookmarkBtn && bookmarkButton) {
+          // Sync functionality with main bookmark button
+          bookmarkButton.addEventListener("click", function (e) {
+            e.preventDefault();
+            mainBookmarkBtn.click();
+          });
+
+          // Sync the global button state with the main button
+          function syncGlobalBookmarkState() {
+            const isBookmarked =
+              mainBookmarkBtn.classList.contains("is-bookmarked");
+            const globalText = bookmarkButton.querySelector(".bookmark-text");
+            const globalInfo = popup.querySelector(".global-bookmark-info");
+
+            bookmarkButton.classList.toggle("is-bookmarked", isBookmarked);
+            if (globalText) {
+              globalText.textContent = isBookmarked
+                ? "Remove bookmark"
+                : "Bookmark article";
+            }
+            if (globalInfo) {
+              globalInfo.style.display = isBookmarked ? "block" : "none";
+            }
+          }
+
+          // Initial sync
+          syncGlobalBookmarkState();
+
+          // Watch for changes to the main bookmark button
+          const observer = new MutationObserver(function (mutations) {
+            mutations.forEach(function (mutation) {
+              if (
+                mutation.type === "attributes" &&
+                mutation.attributeName === "class"
+              ) {
+                syncGlobalBookmarkState();
+              }
+            });
+          });
+
+          observer.observe(mainBookmarkBtn, { attributes: true });
+        }
+      }, 500);
+    } else {
+      // Hide bookmark button, show unavailable message
+      if (bookmarkButton) bookmarkButton.style.display = "none";
+      if (bookmarkUnavailable) bookmarkUnavailable.style.display = "block";
+    }
+  });
+</script>

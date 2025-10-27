@@ -158,3 +158,506 @@
 }
 
 /* Category-specific color variations - moved to category-colors.css for centralized management */
+
+/* ===================================================================
+   GLOBAL READING SETTINGS POPUP
+   Available site-wide via header settings button
+   =================================================================== */
+
+/* Hide global reading popup on desktop by default */
+.global-reading-popup {
+  display: none;
+}
+
+/* Global popup styling - responsive design for mobile and desktop */
+.global-reading-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1060; /* Above everything including header buttons */
+}
+
+.global-reading-popup.active {
+  display: flex;
+}
+
+/* Mobile-first approach - bottom slide-up popup */
+@media (max-width: 748px) {
+  .global-reading-popup.active {
+    align-items: flex-end;
+  }
+
+  .global-reading-popup .popup-content {
+    position: relative;
+    width: 100%;
+    max-height: 70vh;
+    background-color: var(--color-background);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.3);
+    transform: translateY(100%);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+
+  .global-reading-popup.active .popup-content {
+    transform: translateY(0);
+  }
+
+  /* Enhanced touch targets for mobile */
+  .global-reading-popup .popup-close {
+    width: 44px;
+    height: 44px;
+    font-size: 18px;
+  }
+
+  .global-reading-popup .size-option {
+    min-height: 44px;
+    font-size: 18px;
+  }
+
+  .global-reading-popup .popup-dark-toggle,
+  .global-reading-popup .bookmark-section .bookmark-button {
+    min-height: 44px;
+    font-size: 16px;
+  }
+}
+
+/* Desktop approach - side slide-in popup */
+@media (min-width: 749px) {
+  .global-reading-popup.active {
+    align-items: flex-start;
+    justify-content: flex-end;
+  }
+
+  .global-reading-popup .popup-content {
+    position: relative;
+    width: 380px;
+    max-width: 90vw;
+    height: 100vh;
+    max-height: 600px;
+    margin-top: 80px; /* Space from top */
+    margin-right: 20px; /* Space from right edge */
+    background-color: var(--color-background);
+    border-radius: 15px;
+    box-shadow: -4px 0 20px rgba(0, 0, 0, 0.3);
+    transform: translateX(100%);
+    transition: transform 0.3s ease;
+    overflow: hidden;
+  }
+
+  .global-reading-popup.active .popup-content {
+    transform: translateX(0);
+  }
+
+  /* Desktop styling adjustments */
+  .global-reading-popup .popup-header {
+    padding: 16px 20px 12px;
+  }
+
+  .global-reading-popup .popup-body {
+    padding: 16px 20px;
+    max-height: calc(600px - 60px);
+  }
+
+  .global-reading-popup .popup-section {
+    margin-bottom: 20px;
+  }
+}
+
+.global-reading-popup .popup-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+/* Shared popup content styling */
+/* Ensure popup has solid background in both light and dark modes */
+.global-reading-popup .popup-content,
+.global-reading-popup .popup-header,
+.global-reading-popup .popup-body {
+  background-color: var(--color-background);
+}
+
+/* Dark mode support for popup */
+[data-theme="dark"] .global-reading-popup .popup-content,
+[data-theme="dark"] .global-reading-popup .popup-header,
+[data-theme="dark"] .global-reading-popup .popup-body {
+  background-color: var(--color-background-dark);
+}
+
+.global-reading-popup .popup-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 20px 15px;
+  border-bottom: var(--border-thin);
+  background-color: var(--color-background);
+}
+
+.global-reading-popup .popup-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+}
+
+.global-reading-popup .popup-close {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: none;
+  background-color: transparent;
+  color: var(--color-text);
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.2s ease;
+}
+
+.global-reading-popup .popup-close:hover {
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .popup-body {
+  padding: 20px;
+  max-height: calc(70vh - 80px);
+  overflow-y: auto;
+}
+
+.global-reading-popup .popup-section {
+  margin-bottom: 25px;
+}
+
+.global-reading-popup .popup-section:last-child {
+  margin-bottom: 0;
+}
+
+.global-reading-popup .section-title {
+  font-size: 16px;
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: 12px;
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.global-reading-popup .section-title i {
+  font-size: 14px;
+  opacity: 0.8;
+  width: 16px;
+  text-align: center;
+}
+
+.global-reading-popup .popup-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.global-reading-popup .popup-header h3 i {
+  font-size: 16px;
+  opacity: 0.9;
+}
+
+/* Text size controls in popup */
+.global-reading-popup .text-size-controls {
+  display: flex;
+  gap: 8px;
+}
+
+.global-reading-popup .size-option {
+  flex: 1;
+  padding: 12px;
+  border: var(--border-thin);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  cursor: pointer;
+  border-radius: var(--border-radius-md);
+  font-size: 16px;
+  font-weight: var(--font-weight-semibold);
+  transition: all 0.2s ease;
+  text-align: center;
+  /* Touch optimization */
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.global-reading-popup .size-option:hover {
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .size-option:active {
+  transform: scale(0.95);
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .size-option.active {
+  background-color: var(--menu-dark-color);
+  color: white;
+  border-color: var(--menu-dark-color);
+}
+
+/* Dark mode toggle in popup */
+.global-reading-popup .popup-dark-toggle {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border: var(--border-thin);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  cursor: pointer;
+  border-radius: var(--border-radius-md);
+  font-size: 16px;
+  transition: all 0.2s ease;
+  /* Touch optimization */
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.global-reading-popup .popup-dark-toggle:hover {
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .popup-dark-toggle:active {
+  transform: scale(0.98);
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .popup-dark-toggle i {
+  margin-right: 8px;
+}
+
+/* Bookmark button in popup */
+.global-reading-popup .bookmark-section .bookmark-button {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 16px;
+  border: var(--border-thin);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  cursor: pointer;
+  border-radius: var(--border-radius-md);
+  font-size: 16px;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  /* Touch optimization */
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.global-reading-popup .bookmark-section .bookmark-button:hover {
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .bookmark-section .bookmark-button:active {
+  transform: scale(0.98);
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .bookmark-section .bookmark-button.is-bookmarked {
+  background-color: var(--menu-dark-color);
+  color: white;
+  border-color: var(--menu-dark-color);
+}
+
+.global-reading-popup .bookmark-section .bookmark-icon {
+  margin-right: 8px;
+}
+
+.global-reading-popup .global-bookmark-info {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.global-reading-popup .global-bookmark-info .view-bookmarks-link {
+  color: var(--menu-dark-color);
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.global-reading-popup .global-bookmark-info .view-bookmarks-link:hover {
+  text-decoration: underline;
+}
+
+/* Bookmark unavailable message */
+.global-reading-popup .bookmark-unavailable {
+  text-align: center;
+  padding: 12px 16px;
+  background-color: var(--color-bg-light);
+  border-radius: var(--border-radius-md);
+  border: var(--border-thin);
+}
+
+.global-reading-popup .unavailable-text {
+  color: var(--color-text-light);
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* Saved Articles section - always visible */
+.global-reading-popup .saved-articles-section {
+  border-top: var(--border-thin);
+  padding-top: 20px;
+}
+
+.global-reading-popup .saved-articles-link {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: var(--border-thin);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  text-decoration: none;
+  border-radius: var(--border-radius-md);
+  font-size: 16px;
+  font-weight: var(--font-weight-medium);
+  transition: all 0.2s ease;
+  /* Touch optimization */
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.global-reading-popup .saved-articles-link:hover {
+  background-color: var(--color-bg-light);
+  border-color: var(--menu-dark-color);
+  color: var(--menu-dark-color);
+}
+
+.global-reading-popup .saved-articles-link:active {
+  transform: scale(0.98);
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .saved-articles-link i:first-child {
+  margin-right: 10px;
+  color: var(--menu-dark-color);
+}
+
+.global-reading-popup .saved-articles-link i:last-child {
+  font-size: 12px;
+  opacity: 0.7;
+  transition: transform 0.2s ease;
+}
+
+.global-reading-popup .saved-articles-link:hover i:last-child {
+  transform: translateX(3px);
+  opacity: 1;
+}
+
+/* Global text size classes that work site-wide */
+.text-size-small {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.text-size-medium {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.text-size-large {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Apply text size to different content types */
+.text-size-small .post-content,
+.text-size-small .markdown-body,
+.text-size-small .content-main {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.text-size-medium .post-content,
+.text-size-medium .markdown-body,
+.text-size-medium .content-main {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+.text-size-large .post-content,
+.text-size-large .markdown-body,
+.text-size-large .content-main {
+  font-size: 1.1rem;
+  line-height: 1.8;
+}
+
+/* Theme toggle buttons in popup */
+.global-reading-popup .theme-toggle-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.global-reading-popup .theme-option {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  padding: 12px 16px;
+  border: var(--border-thin);
+  background-color: var(--color-background);
+  color: var(--color-text);
+  cursor: pointer;
+  border-radius: var(--border-radius-md);
+  font-size: 16px;
+  transition: all 0.2s ease;
+  /* Touch optimization */
+  touch-action: manipulation;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.global-reading-popup .theme-option:hover {
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .theme-option:active {
+  transform: scale(0.98);
+  background-color: var(--color-bg-light);
+}
+
+.global-reading-popup .theme-option.active {
+  background-color: var(--menu-dark-color);
+  color: white;
+  border-color: var(--menu-dark-color);
+}
+
+.global-reading-popup .theme-option i {
+  font-size: 14px;
+}
+
+/* Enhanced mobile touch targets for theme buttons */
+@media (max-width: 748px) {
+  .global-reading-popup .theme-option {
+    min-height: 44px;
+    font-size: 16px;
+  }
+}

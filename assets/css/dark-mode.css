@@ -678,3 +678,133 @@ body.dark-mode .simple-dark-toggle:hover,
 body.dark-mode .header-item a:hover {
   background-color: var(--dark-surface-elevated);
 }
+
+/* Global Reading Settings Popup - Dark Mode */
+body.dark-mode .global-reading-popup .popup-content,
+body.dark-mode .global-reading-popup .popup-header,
+body.dark-mode .global-reading-popup .popup-body {
+  background-color: var(--dark-surface);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .global-reading-popup .popup-header {
+  border-bottom-color: var(--dark-border);
+}
+
+body.dark-mode .global-reading-popup .popup-header h3 {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .global-reading-popup .popup-header h3 i {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .global-reading-popup .popup-close {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .global-reading-popup .popup-close:hover {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .global-reading-popup .section-title {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .global-reading-popup .section-title i {
+  color: var(--dark-text-primary);
+}
+
+/* Text size controls in dark mode */
+body.dark-mode .global-reading-popup .size-option {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .global-reading-popup .size-option:hover {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .global-reading-popup .size-option.active {
+  background-color: #d42b63;
+  color: white;
+  border-color: #d42b63;
+}
+
+/* Theme toggle buttons in dark mode */
+body.dark-mode .global-reading-popup .theme-option {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .global-reading-popup .theme-option:hover {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .global-reading-popup .theme-option.active {
+  background-color: #d42b63;
+  color: white;
+  border-color: #d42b63;
+}
+
+/* Bookmark button in dark mode */
+body.dark-mode .global-reading-popup .bookmark-section .bookmark-button {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .global-reading-popup .bookmark-section .bookmark-button:hover {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .global-reading-popup .bookmark-section .bookmark-button.is-bookmarked {
+  background-color: #d42b63;
+  color: white;
+  border-color: #d42b63;
+}
+
+/* Bookmark unavailable message in dark mode */
+body.dark-mode .global-reading-popup .bookmark-unavailable {
+  background-color: var(--dark-surface-elevated);
+  border-color: var(--dark-border);
+}
+
+body.dark-mode .global-reading-popup .unavailable-text {
+  color: var(--dark-text-muted);
+}
+
+/* Saved articles section in dark mode */
+body.dark-mode .global-reading-popup .saved-articles-section {
+  border-top-color: var(--dark-border);
+}
+
+body.dark-mode .global-reading-popup .saved-articles-link {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .global-reading-popup .saved-articles-link:hover {
+  background-color: var(--dark-surface-elevated);
+  border-color: #d42b63;
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .global-reading-popup .saved-articles-link i:first-child {
+  color: #d42b63;
+}
+
+body.dark-mode .global-reading-popup .view-bookmarks-link {
+  color: #d42b63;
+}
+
+body.dark-mode .global-reading-popup .view-bookmarks-link:hover {
+  color: var(--dark-text-primary);
+}

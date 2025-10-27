@@ -147,3 +147,10 @@
     padding-right: 0;
   }
 }
+
+/* Hide original sidebar reading features on mobile for single posts since we have global popup */
+@media (max-width: 748px) {
+  .post .reading-features-container {
+    display: none;
+  }
+}
