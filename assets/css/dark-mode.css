@@ -813,6 +813,9 @@ body.dark-mode .global-reading-popup .view-bookmarks-link:hover {
 }
 
 /* Improved bookmark info styling in dark mode */
-body.dark-mode .global-reading-popup .global-bookmark-info .view-bookmarks-link:hover {
+body.dark-mode
+  .global-reading-popup
+  .global-bookmark-info
+  .view-bookmarks-link:hover {
   background-color: rgba(212, 43, 99, 0.15);
 }

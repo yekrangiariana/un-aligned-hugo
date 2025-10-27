@@ -151,7 +151,7 @@
       window.scrollTo({
         top: scrollPosition,
         left: 0,
-        behavior: 'instant'
+        behavior: "instant",
       });
     }
 
@@ -186,9 +186,10 @@
     // Apply text size only on single pages to prevent layout shifts
     function applyTextSizeGlobally(size) {
       // Check if we're on a single page
-      const isSinglePage = document.body.classList.contains("single") || 
-                           document.querySelector("article.post") ||
-                           document.querySelector(".post-content");
+      const isSinglePage =
+        document.body.classList.contains("single") ||
+        document.querySelector("article.post") ||
+        document.querySelector(".post-content");
 
       if (isSinglePage) {
         // Store current scroll position
@@ -226,12 +227,16 @@
           articleContent.classList.add(`text-size-${size}`);
 
           // Sync with sidebar buttons if they exist
-          const sidebarButtons = document.querySelectorAll('.sidebar-section.text-size-adjuster .size-option');
+          const sidebarButtons = document.querySelectorAll(
+            ".sidebar-section.text-size-adjuster .size-option"
+          );
           if (sidebarButtons.length > 0) {
-            sidebarButtons.forEach(btn => btn.classList.remove('active'));
-            const activeSidebarBtn = document.querySelector(`.sidebar-section.text-size-adjuster .size-option[data-size="${size}"]`);
+            sidebarButtons.forEach((btn) => btn.classList.remove("active"));
+            const activeSidebarBtn = document.querySelector(
+              `.sidebar-section.text-size-adjuster .size-option[data-size="${size}"]`
+            );
             if (activeSidebarBtn) {
-              activeSidebarBtn.classList.add('active');
+              activeSidebarBtn.classList.add("active");
             }
           }
         }
@@ -241,7 +246,7 @@
           window.scrollTo({
             top: currentScroll,
             left: 0,
-            behavior: 'instant'
+            behavior: "instant",
           });
         });
       }
@@ -268,10 +273,11 @@
     // Check current theme and update active state
     function updateThemeButtonState() {
       // Use the same logic as the existing dark mode system
-      const isDarkMode = document.documentElement.classList.contains("dark-mode") || 
-                         document.body.classList.contains("dark-mode");
+      const isDarkMode =
+        document.documentElement.classList.contains("dark-mode") ||
+        document.body.classList.contains("dark-mode");
       const currentTheme = isDarkMode ? "dark" : "light";
-      
+
       themeButtons.forEach((btn) => {
         btn.classList.remove("active");
         if (btn.dataset.theme === currentTheme) {
@@ -287,8 +293,9 @@
     themeButtons.forEach((button) => {
       button.addEventListener("click", function () {
         const selectedTheme = this.dataset.theme;
-        const isDarkMode = document.documentElement.classList.contains("dark-mode") || 
-                           document.body.classList.contains("dark-mode");
+        const isDarkMode =
+          document.documentElement.classList.contains("dark-mode") ||
+          document.body.classList.contains("dark-mode");
         const currentTheme = isDarkMode ? "dark" : "light";
 
         // Only change if we're selecting a different theme
@@ -322,7 +329,7 @@
       mutations.forEach(function (mutation) {
         if (
           mutation.type === "attributes" &&
-          (mutation.attributeName === "class")
+          mutation.attributeName === "class"
         ) {
           updateThemeButtonState();
         }

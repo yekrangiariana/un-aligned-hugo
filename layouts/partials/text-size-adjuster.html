@@ -124,12 +124,16 @@
         localStorage.setItem("preferredTextSize", size);
 
         // Sync with global popup buttons if they exist
-        const popupButtons = document.querySelectorAll('.global-reading-popup .popup-section.text-size-adjuster .size-option');
+        const popupButtons = document.querySelectorAll(
+          ".global-reading-popup .popup-section.text-size-adjuster .size-option"
+        );
         if (popupButtons.length > 0) {
-          popupButtons.forEach(btn => btn.classList.remove('active'));
-          const activePopupBtn = document.querySelector(`.global-reading-popup .popup-section.text-size-adjuster .size-option[data-size="${size}"]`);
+          popupButtons.forEach((btn) => btn.classList.remove("active"));
+          const activePopupBtn = document.querySelector(
+            `.global-reading-popup .popup-section.text-size-adjuster .size-option[data-size="${size}"]`
+          );
           if (activePopupBtn) {
-            activePopupBtn.classList.add('active');
+            activePopupBtn.classList.add("active");
           }
         }
       });
@@ -157,7 +161,8 @@
       debug(`Element classList before: ${articleContent.classList}`);
 
       // Store current scroll position before applying size
-      const currentScroll = window.pageYOffset || document.documentElement.scrollTop;
+      const currentScroll =
+        window.pageYOffset || document.documentElement.scrollTop;
 
       // Remove any existing size classes
       articleContent.classList.remove(
@@ -175,7 +180,7 @@
         window.scrollTo({
           top: currentScroll,
           left: 0,
-          behavior: 'instant'
+          behavior: "instant",
         });
         debug("Scroll position restored");
       });
