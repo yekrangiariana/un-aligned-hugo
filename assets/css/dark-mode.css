@@ -819,3 +819,45 @@ body.dark-mode
   .view-bookmarks-link:hover {
   background-color: rgba(212, 43, 99, 0.15);
 }
+
+/* Topics Popup - Dark Mode */
+body.dark-mode .topics-popup .topics-content {
+  background-color: var(--dark-surface);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .topics-popup .topics-header {
+  background-color: var(--dark-surface);
+  border-bottom-color: var(--dark-border);
+}
+
+body.dark-mode .topics-popup .topics-header h3 {
+  color: var(--dark-text-primary);
+}
+
+body.dark-mode .topics-popup .topics-header h3 i {
+  color: #d42b63;
+}
+
+body.dark-mode .topics-popup .close-topics-button {
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .topics-popup .close-topics-button:hover {
+  background-color: var(--dark-surface-elevated);
+  color: var(--dark-text-primary);
+}
+
+/* Topics grid items in dark mode */
+body.dark-mode .topics-popup .topic-link {
+  background-color: var(--dark-surface);
+  border-color: var(--dark-border);
+  color: var(--dark-text-secondary);
+}
+
+body.dark-mode .topics-popup .topic-link:hover {
+  background-color: var(--dark-surface-elevated);
+  border-color: #d42b63;
+  color: var(--dark-text-primary);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}

@@ -312,7 +312,7 @@
   /* Position header buttons at bottom of screen on mobile */
   .header-top-buttons {
     position: fixed;
-    bottom: 0;
+    bottom: 5px;
     left: 0;
     right: 0;
     width: 100vw;
@@ -429,6 +429,11 @@
   }
 
   .desktop-only {
+    display: none;
+  }
+
+  /* Hide the third mega menu section (Browse) on mobile */
+  .mega-menu-column:nth-child(3) {
     display: none;
   }
 }
