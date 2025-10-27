@@ -729,9 +729,9 @@ body.dark-mode .global-reading-popup .size-option:hover {
 }
 
 body.dark-mode .global-reading-popup .size-option.active {
-  background-color: var(--color-primary);
+  background-color: #d42b63;
   color: white;
-  border-color: var(--color-primary);
+  border-color: #d42b63;
 }
 
 /* Theme toggle buttons in dark mode */
