@@ -138,9 +138,9 @@ body:has(.article-style-3) {
 
 /* Description styling (old - now moved to content area) */
 .article-style-3 .style-3-description p {
-  font-size: var(--font-size-lg);
-  line-height: var(--line-height-relaxed);
-  margin: 0 0 20px 0;
+  font-size: var(--font-size-lg) !important;
+  line-height: var(--line-height-relaxed) !important;
+  margin: 0 0 20px 0 !important;
 }
 
 /* Image styling */

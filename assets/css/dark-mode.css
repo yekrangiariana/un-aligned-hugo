@@ -729,9 +729,9 @@ body.dark-mode .global-reading-popup .size-option:hover {
 }
 
 body.dark-mode .global-reading-popup .size-option.active {
-  background-color: #d42b63;
+  background-color: var(--color-primary);
   color: white;
-  border-color: #d42b63;
+  border-color: var(--color-primary);
 }
 
 /* Theme toggle buttons in dark mode */
@@ -810,4 +810,9 @@ body.dark-mode .global-reading-popup .view-bookmarks-link {
 
 body.dark-mode .global-reading-popup .view-bookmarks-link:hover {
   color: var(--dark-text-primary);
+}
+
+/* Improved bookmark info styling in dark mode */
+body.dark-mode .global-reading-popup .global-bookmark-info .view-bookmarks-link:hover {
+  background-color: rgba(212, 43, 99, 0.15);
 }

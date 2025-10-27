@@ -28,36 +28,6 @@
   padding: 0.3rem;
 }
 
-/* Individual size buttons */
-.size-option {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 36px;
-  height: 36px;
-  border: var(--border-medium);
-  background: transparent;
-  color: var(--color-text);
-  border-radius: var(--border-radius-sm);
-  cursor: pointer;
-  transition: all 0.2s ease;
-  font-weight: var(--font-weight-medium);
-}
-
-.size-option:hover {
-  background: rgba(0, 0, 0, 0.1);
-  color: var(--color-primary);
-  border-color: var(--color-primary);
-}
-
-.size-option.active {
-  background: white;
-  color: var(--color-primary);
-  border-color: var(--color-primary);
-  box-shadow: var(--box-shadow-sm);
-  transform: translateY(-1px);
-}
-
 /* Add styling for the bookmark button */
 .bookmark-button {
   display: flex;
@@ -209,11 +179,6 @@
   .global-reading-popup .popup-close {
     width: 44px;
     height: 44px;
-    font-size: 18px;
-  }
-
-  .global-reading-popup .size-option {
-    min-height: 44px;
     font-size: 18px;
   }
 
@@ -372,45 +337,6 @@
 }
 
 /* Text size controls in popup */
-.global-reading-popup .text-size-controls {
-  display: flex;
-  gap: 8px;
-}
-
-.global-reading-popup .size-option {
-  flex: 1;
-  padding: 12px;
-  border: var(--border-thin);
-  background-color: var(--color-background);
-  color: var(--color-text);
-  cursor: pointer;
-  border-radius: var(--border-radius-md);
-  font-size: 16px;
-  font-weight: var(--font-weight-semibold);
-  transition: all 0.2s ease;
-  text-align: center;
-  /* Touch optimization */
-  touch-action: manipulation;
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-.global-reading-popup .size-option:hover {
-  background-color: var(--color-bg-light);
-}
-
-.global-reading-popup .size-option:active {
-  transform: scale(0.95);
-  background-color: var(--color-bg-light);
-}
-
-.global-reading-popup .size-option.active {
-  background-color: var(--menu-dark-color);
-  color: white;
-  border-color: var(--menu-dark-color);
-}
-
 /* Dark mode toggle in popup */
 .global-reading-popup .popup-dark-toggle {
   width: 100%;
@@ -487,18 +413,26 @@
 }
 
 .global-reading-popup .global-bookmark-info {
-  margin-top: 10px;
+  margin-top: 8px;
   text-align: center;
 }
 
 .global-reading-popup .global-bookmark-info .view-bookmarks-link {
-  color: var(--menu-dark-color);
+  color: #d42b63;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 13px;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 6px;
+  border-radius: 4px;
+  transition: all 0.2s ease;
 }
 
 .global-reading-popup .global-bookmark-info .view-bookmarks-link:hover {
-  text-decoration: underline;
+  background-color: rgba(212, 43, 99, 0.1);
+  text-decoration: none;
 }
 
 /* Bookmark unavailable message */
@@ -568,44 +502,6 @@
 .global-reading-popup .saved-articles-link:hover i:last-child {
   transform: translateX(3px);
   opacity: 1;
-}
-
-/* Global text size classes that work site-wide */
-.text-size-small {
-  font-size: 0.9rem;
-  line-height: 1.6;
-}
-
-.text-size-medium {
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-.text-size-large {
-  font-size: 1.1rem;
-  line-height: 1.8;
-}
-
-/* Apply text size to different content types */
-.text-size-small .post-content,
-.text-size-small .markdown-body,
-.text-size-small .content-main {
-  font-size: 0.9rem;
-  line-height: 1.6;
-}
-
-.text-size-medium .post-content,
-.text-size-medium .markdown-body,
-.text-size-medium .content-main {
-  font-size: 1rem;
-  line-height: 1.7;
-}
-
-.text-size-large .post-content,
-.text-size-large .markdown-body,
-.text-size-large .content-main {
-  font-size: 1.1rem;
-  line-height: 1.8;
 }
 
 /* Theme toggle buttons in popup */

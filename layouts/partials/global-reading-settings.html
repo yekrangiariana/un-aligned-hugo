@@ -148,7 +148,11 @@
       document.body.style.position = "";
       document.body.style.top = "";
       document.body.style.width = "";
-      window.scrollTo(0, scrollPosition);
+      window.scrollTo({
+        top: scrollPosition,
+        left: 0,
+        behavior: 'instant'
+      });
     }
 
     // Event listeners
@@ -179,63 +183,69 @@
     // Apply saved size on load
     updateActiveButton(savedSize);
 
-    // Apply text size to any content on the page
+    // Apply text size only on single pages to prevent layout shifts
     function applyTextSizeGlobally(size) {
-      // On single pages, apply to article content
-      const contentSelectors = [
-        ".post-content.markdown-body",
-        ".markdown-body",
-        ".post-content",
-        "article.post",
-      ];
+      // Check if we're on a single page
+      const isSinglePage = document.body.classList.contains("single") || 
+                           document.querySelector("article.post") ||
+                           document.querySelector(".post-content");
 
-      let articleContent = null;
-      for (const selector of contentSelectors) {
-        const element = document.querySelector(selector);
-        if (element) {
-          articleContent = element;
-          break;
-        }
-      }
-
-      if (articleContent) {
+      if (isSinglePage) {
         // Store current scroll position
         const currentScroll =
           window.pageYOffset || document.documentElement.scrollTop;
 
-        articleContent.classList.remove(
-          "text-size-small",
-          "text-size-medium",
-          "text-size-large"
-        );
-        articleContent.classList.add(`text-size-${size}`);
+        // Find the content element (same logic as sidebar)
+        const contentSelectors = [
+          ".post-content.markdown-body",
+          ".markdown-body",
+          ".post-content",
+          ".post-content-container .post-content",
+          ".article-grid .post-content",
+          ".article-content",
+          ".content-main",
+          "article",
+        ];
 
-        // Restore scroll position after applying size
-        requestAnimationFrame(() => {
-          window.scrollTo(0, currentScroll);
-        });
-      } else {
-        // On other pages, apply to body or main content
-        const mainContent =
-          document.querySelector("main") ||
-          document.querySelector(".main-content") ||
-          document.body;
-        if (mainContent) {
-          const currentScroll =
-            window.pageYOffset || document.documentElement.scrollTop;
+        let articleContent = null;
+        for (const selector of contentSelectors) {
+          const element = document.querySelector(selector);
+          if (element) {
+            articleContent = element;
+            break;
+          }
+        }
 
-          mainContent.classList.remove(
+        if (articleContent) {
+          // Apply text size class to content element (same as sidebar)
+          articleContent.classList.remove(
             "text-size-small",
             "text-size-medium",
             "text-size-large"
           );
-          mainContent.classList.add(`text-size-${size}`);
+          articleContent.classList.add(`text-size-${size}`);
 
-          requestAnimationFrame(() => {
-            window.scrollTo(0, currentScroll);
-          });
+          // Sync with sidebar buttons if they exist
+          const sidebarButtons = document.querySelectorAll('.sidebar-section.text-size-adjuster .size-option');
+          if (sidebarButtons.length > 0) {
+            sidebarButtons.forEach(btn => btn.classList.remove('active'));
+            const activeSidebarBtn = document.querySelector(`.sidebar-section.text-size-adjuster .size-option[data-size="${size}"]`);
+            if (activeSidebarBtn) {
+              activeSidebarBtn.classList.add('active');
+            }
+          }
         }
+
+        // Restore scroll position after applying size
+        requestAnimationFrame(() => {
+          window.scrollTo({
+            top: currentScroll,
+            left: 0,
+            behavior: 'instant'
+          });
+        });
       }
+      // On non-single pages, do nothing to prevent layout shifts
 
       localStorage.setItem("preferredTextSize", size);
     }
@@ -257,8 +267,11 @@
 
     // Check current theme and update active state
     function updateThemeButtonState() {
-      const currentTheme =
-        document.documentElement.getAttribute("data-theme") || "light";
+      // Use the same logic as the existing dark mode system
+      const isDarkMode = document.documentElement.classList.contains("dark-mode") || 
+                         document.body.classList.contains("dark-mode");
+      const currentTheme = isDarkMode ? "dark" : "light";
+      
       themeButtons.forEach((btn) => {
         btn.classList.remove("active");
         if (btn.dataset.theme === currentTheme) {
@@ -274,8 +287,9 @@
     themeButtons.forEach((button) => {
       button.addEventListener("click", function () {
         const selectedTheme = this.dataset.theme;
-        const currentTheme =
-          document.documentElement.getAttribute("data-theme") || "light";
+        const isDarkMode = document.documentElement.classList.contains("dark-mode") || 
+                           document.body.classList.contains("dark-mode");
+        const currentTheme = isDarkMode ? "dark" : "light";
 
         // Only change if we're selecting a different theme
         if (selectedTheme !== currentTheme) {
@@ -283,15 +297,15 @@
           themeButtons.forEach((btn) => btn.classList.remove("active"));
           this.classList.add("active");
 
-          // Apply theme directly
+          // Apply theme using the existing system's approach
           if (selectedTheme === "dark") {
-            document.documentElement.setAttribute("data-theme", "dark");
-            localStorage.setItem("theme", "dark");
+            document.documentElement.classList.add("dark-mode");
             document.body.classList.add("dark-mode");
+            localStorage.setItem("darkMode", "enabled");
           } else {
-            document.documentElement.setAttribute("data-theme", "light");
-            localStorage.setItem("theme", "light");
+            document.documentElement.classList.remove("dark-mode");
             document.body.classList.remove("dark-mode");
+            localStorage.setItem("darkMode", "disabled");
           }
 
           // Trigger any existing theme change events
@@ -308,13 +322,14 @@
       mutations.forEach(function (mutation) {
         if (
           mutation.type === "attributes" &&
-          mutation.attributeName === "data-theme"
+          (mutation.attributeName === "class")
         ) {
           updateThemeButtonState();
         }
       });
     });
     observer.observe(document.documentElement, { attributes: true });
+    observer.observe(document.body, { attributes: true });
 
     // Handle bookmark functionality
     const bookmarkSection = document.getElementById("bookmark-section");
