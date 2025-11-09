@@ -1,6 +1,6 @@
 ---
 title: "The time for revolution is now"
-date: 2025-11-06
+date: 2025-11-09
 slug: "issue-3"
 description: "The old order is collapsing, from the halls of power to the skies above. The time for mere protest is over; the task now is to build."
 issueNumber: 3
