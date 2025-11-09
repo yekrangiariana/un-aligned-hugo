@@ -14,7 +14,7 @@ imageCaption: "Composition Ariana Yekrangi/UN-aligned. Photos: Homeland Security
 style: "2"
 ---
 
-The style is instantly familiar. The thick lines, the heroic poses and the stark, pastel colour palettes all evoke a bygone era of national crisis, a country united against a foreign threat. 
+The style is instantly familiar. The thick lines, the heroic poses and the stark pastel colour palettes all evoke a bygone era of national crisis, a country united against a foreign threat. 
 
 Though they might be mistaken for relics of the Second World War or fan-made parodies, these are official, contemporary recruitment materials from US Immigration and Customs Enforcement (ICE).
 
