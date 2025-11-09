@@ -4,6 +4,7 @@ description: "Located in the gallery of Uffizi, Michelangelo’s Doni Tondo (Ton
 date: 2022-06-25T11:55:20+03:00
 authors: ["Carla Pietrobattista"]
 url: "culture/doni-tondo-a-visual-analysis-of-michelangelos-masterpiece"
+slug: "doni-tondo-a-visual-analysis-of-michelangelos-masterpiece"
 categories:
   - "Culture"
 tags:
@@ -11,9 +12,7 @@ tags:
   - "Michelangelo"
 image: "/images/Doni-Tondo-A-Visual-Analysis-of-Michelangelos-Masterpiece-.jpg"
 ---
-Doni Tondo, a renowned artwork by Michelangelo, has long been a source of inspiration for art enthusiasts and critics alike.
-
-But for me, this masterpiece holds a deeper significance, evoking a sense of personal validation and ego boost. Join me in exploring the depths of Michelangelo's Doni Tondo as we analyse its style and history.
+Doni Tondo, a renowned artwork by Michelangelo, has long been a source of inspiration for art enthusiasts and critics alike. But for me, this masterpiece holds a deeper significance, evoking a sense of personal validation and ego boost. Join me in exploring the depths of Michelangelo's Doni Tondo as we analyse its style and history.
 
 ## **When was the Doni Tondo painted**?
 
@@ -30,12 +29,11 @@ The term tondo is linked to the circular shape of both the work and the frame th
 
 ## **Who are the five figures on the Doni Tondo frame?**
 
-![The Frame of the Doni Tondo.](/images/Tondo-doni-frame-3-1024x468.jpg)
+{{< photo-large src="/images/Tondo-doni-frame-3-1024x468.jpg" caption="The Frame of the Doni Tondo." >}}
 
-The Frame of the Doni Tondo.
+The Doni Tondo frame features intricate decorations, including intertwined plants, animals, and satyrs, as well as five small sculptures of heads that emerge from the base. 
 
-
-The Doni Tondo frame features intricate decorations, including intertwined plants, animals, and satyrs, as well as five small sculptures of heads that emerge from the base. These heads symbolise Christ, prophets, and sibyls, and their positioning suggests that they are observing and emotionally engaging with the scene within the tondo. The painting itself portrays the Holy Family as the central focus, with a young Saint John the Baptist and additional captivating figures in the background.
+These heads symbolise Christ, prophets, and sibyls, and their positioning suggests that they are observing and emotionally engaging with the scene within the tondo. The painting itself portrays the Holy Family as the central focus, with a young Saint John the Baptist and additional captivating figures in the background.
 
 ## What was the purpose of Michelangelo's Doni Tondo?
 
@@ -45,10 +43,7 @@ Michelangelo's Doni Tondo, featuring the Holy Family, reflects a common theme in
 
 A key observation of the Doni Tondo reveals Michelangelo's belief about painting – that subjects should be created using the same preparatory criteria and meticulous attention to detail, particularly anatomical, as in sculpture. In essence, painting should be "ennobled" by incorporating the conceptuality of sculpture to achieve the perfection of the art of sculpting.
 
-![Doni Tondo marry body shape](/images/Doni-Tondo-marry-body-shape2-661x1024.jpg)
-
-The perfect twist of Mary's body suggests the idea of ​​tension and movement.
-
+{{< photo-normal src="/images/Doni-Tondo-marry-body-shape2-661x1024.jpg" caption="The perfect twist of Mary's body suggests the idea of ​​tension and movement." >}}
 
 This concept is evident in the central group of the Doni Tondo, where the precise twist of Mary's body in the foreground conveys tension and movement characteristic of Michelangelo's sculptures. Joseph, holding Jesus on his lap, completes the harmonious composition.
 

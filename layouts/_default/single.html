@@ -21,14 +21,13 @@
   {{ end }}
 
   <!-- Add inline CSS for comments category pages -->
-  {{ if $hasComments }}
+ {{ if and $hasComments $hasGallery }}
   <style>
      body {
       background-color: #FEF9F5;
     }
   </style>
   {{ end }}
-  
   
   <!-- Main content section -->
   <main class="post 

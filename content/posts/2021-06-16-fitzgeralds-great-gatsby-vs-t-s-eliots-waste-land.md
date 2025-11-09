@@ -3,6 +3,7 @@ title: "Fitzgerald's Great Gatsby VS T. S. Eliot's Waste Land: Portraying a dust
 date: 2021-06-16T11:00:00+03:00
 authors: ["Alex Liberto"]
 url: "culture/fitzgeralds-great-gatsby-vs-t-s-eliots-waste-land"
+slug: "fitzgeralds-great-gatsby-vs-t-s-eliots-waste-land"
 categories:
   - "Culture"
 tags:
