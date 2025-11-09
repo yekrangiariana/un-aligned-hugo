@@ -1,8 +1,8 @@
 ---
 title: "I was supposed to chase a government job in Bangladesh. Instead, I chose to fight for justice"
 date: "2025-11-06T10:00:12+0300"
-authors: ["Rashedul Hasan"]
-description: "    A national fixation on civil service careers is draining talent from Bangladesh's courtrooms. Now, the NILS student network is equipping a new generation with the advocacy skills and professional networks to revitalise the legal profession from the ground up."
+authors: ["Nasrin Sultana"]
+description: "A national fixation on civil service careers is draining talent from Bangladesh's courtrooms. Now, the NILS student network is equipping a new generation with the advocacy skills and professional networks to revitalise the legal profession from the ground up."
 categories:
 - "Comments"
 tags:
@@ -68,3 +68,5 @@ As I prepare to begin my career, I often think about what success means. For man
 NILS Bangladesh has shown us that the legal profession is not a fallback option, but a noble pursuit in its own right. 
 
 In a country where one million graduates chase 3,000 seats, perhaps the real victory lies not in securing a government desk—but in standing up in court, representing justice and making the law live again.
+
+- Nasrin Sultana is the founding President of [NILS Bangladesh](https://nilsbangladesh.org/)
