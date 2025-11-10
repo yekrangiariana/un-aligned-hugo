@@ -207,6 +207,15 @@
   display: none;
 }
 
+@media (min-width: 1150px) {
+  /* .article-style-2 .post-featured-image-caption {
+    position: absolute;
+    width: 18%;
+    left: 1%;
+    top: -150px;
+  } */
+}
+
 /* Style 2: Mobile positioning */
 @media (max-width: 748px) {
   /* Hide desktop version on mobile */

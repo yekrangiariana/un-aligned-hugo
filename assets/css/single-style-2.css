@@ -151,8 +151,6 @@
   animation-delay: 0.5s; /* Much faster start */
   width: 80%; /* 80% width within the container */
   left: 20%; /* Position at 20% from the left */
-  border-left: var(--border-thin-light);
-  border-right: var(--border-thin-light);
   padding: 15px;
   background: #121212;
 }
@@ -297,7 +295,10 @@ html {
   object-fit: contain;
 }
 
-@media screen and (max-width: 1150px) and (min-width: 749px) {
+@media screen and (max-width: 1150px) {
+  .category-container {
+    display: none;
+  }
 }
 
 /* Media queries for comment description container right column */

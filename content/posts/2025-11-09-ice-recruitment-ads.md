@@ -10,7 +10,7 @@ tags:
 - "United States"
 - "Immigration"
 image: "/images/ice-recruitment-ads/ice-recruitment-ads-cover.jpg"
-imageCaption: "Composition Ariana Yekrangi/UN-aligned. Photos: Homeland Security's Twitter account @DHSgov "
+imageCaption: "Composition Ariana Yekrangi/UN-aligned. Photos: Homeland Security's Twitter account @DHSgov"
 style: "2"
 ---
 

@@ -243,7 +243,9 @@
 
   .mega-menu-popup {
     width: 100vw; /* Ensure full viewport width */
-    height: calc(100vh); /* Explicit height to prevent overflow */
+    height: calc(100vh - 50px); /* Explicit height to prevent overflow */
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1040; /* Below the bottom button bar (which is 1050) */
     overflow-y: auto;
     overflow-x: hidden; /* Prevent horizontal overflow */
     -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */

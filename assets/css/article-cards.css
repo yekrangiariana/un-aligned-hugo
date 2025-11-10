@@ -175,11 +175,6 @@
   color: white !important;
 }
 
-/* Gallery category cards */
-.article-card.has-gallery .article-card-title {
-  color: var(--light-text);
-}
-
 .article-card.has-gallery .article-card-tag {
   background-color: black !important;
   color: white !important;
