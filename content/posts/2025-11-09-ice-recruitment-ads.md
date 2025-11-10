@@ -11,7 +11,7 @@ tags:
 - "Immigration"
 image: "/images/ice-recruitment-ads/ice-recruitment-ads-cover.jpg"
 imageCaption: "Composition Ariana Yekrangi/UN-aligned. Photos: Homeland Security's Twitter account @DHSgov "
-style: "1"
+style: "2"
 ---
 
 The style is instantly familiar. The thick lines, the heroic poses and the stark pastel colour palettes all evoke a bygone era of national crisis, a country united against a foreign threat. 

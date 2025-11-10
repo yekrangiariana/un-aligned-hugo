@@ -87,9 +87,6 @@
   --color-culture: #554937;
   --color-culture-rgb: 85, 73, 55;
 
-  --color-gallery: #d42b63;
-  --color-gallery-rgb: 212, 43, 99;
-
   --color-interview: #631357;
   --color-interview-rgb: 99, 19, 87;
 
@@ -100,7 +97,6 @@
 
   /* Dark Mode Category Colors */
   --dark-color-culture: #c2a888;
-  --dark-color-gallery: #d42b63;
   --dark-color-interview: #b96fa9;
   --dark-color-comments: #f97736;
   --dark-color-article-style-3: #ff6b6b;
@@ -123,9 +119,6 @@
 .culture-article .markdown-body > *:not(.similar-article) a {
   color: var(--color-culture);
 }
-.gallery-article .markdown-body > *:not(.similar-article) a {
-  color: var(--color-gallery);
-}
 .interview-article .markdown-body > *:not(.similar-article) a {
   color: var(--color-interview) !important;
 }
@@ -135,7 +128,6 @@
 
 /* Blockquote pseudo-elements */
 .culture-article .post-content blockquote p:first-of-type::before,
-.gallery-article .post-content blockquote p:first-of-type::before,
 .interview-article .post-content blockquote p:first-of-type::before,
 .comments-article .post-content blockquote p:first-of-type::before,
 .climate-emergency-article .post-content blockquote p:first-of-type::before,
@@ -145,9 +137,6 @@
 }
 .culture-article .post-content blockquote p:first-of-type::before {
   color: var(--color-culture);
-}
-.gallery-article .post-content blockquote p:first-of-type::before {
-  color: var(--color-gallery);
 }
 .interview-article .post-content blockquote p:first-of-type::before {
   color: var(--color-interview);
@@ -163,8 +152,6 @@
 /* List markers - category-specific coloring */
 .culture-article .post-content ul li::before,
 .culture-article .post-content ol li::before,
-.gallery-article .post-content ul li::before,
-.gallery-article .post-content ol li::before,
 .interview-article .post-content ul li::before,
 .interview-article .post-content ol li::before,
 .comments-article .post-content ul li::before,
@@ -180,10 +167,6 @@
 .culture-article .post-content ul li::before,
 .culture-article .post-content ol li::before {
   color: var(--color-culture);
-}
-.gallery-article .post-content ul li::before,
-.gallery-article .post-content ol li::before {
-  color: var(--color-gallery);
 }
 .interview-article .post-content ul li::before,
 .interview-article .post-content ol li::before {
@@ -201,7 +184,6 @@
 
 /* Drop caps - standard pattern */
 .culture-article .post-content > p:first-of-type::first-letter,
-.gallery-article .post-content > p:first-of-type::first-letter,
 .technology-article .post-content > p:first-of-type::first-letter,
 .politics-article .post-content > p:first-of-type::first-letter,
 .climate-emergency-article .post-content > p:first-of-type::first-letter,
@@ -215,9 +197,6 @@
 }
 .culture-article .post-content > p:first-of-type::first-letter {
   color: var(--color-culture);
-}
-.gallery-article .post-content > p:first-of-type::first-letter {
-  color: var(--color-gallery);
 }
 
 /* Drop caps - special cases requiring !important */
@@ -239,9 +218,6 @@
 .culture-article .bookmark-button.active,
 .culture-article .size-option.active,
 .culture-article .view-bookmarks-link,
-.gallery-article .bookmark-button.active,
-.gallery-article .size-option.active,
-.gallery-article .view-bookmarks-link,
 .interview-article .bookmark-button.active,
 .interview-article .size-option.active,
 .interview-article .view-bookmarks-link,
@@ -264,11 +240,6 @@
 .culture-article .view-bookmarks-link {
   color: var(--color-culture);
 }
-.gallery-article .bookmark-button.active,
-.gallery-article .size-option.active,
-.gallery-article .view-bookmarks-link {
-  color: var(--color-gallery);
-}
 .interview-article .bookmark-button.active,
 .interview-article .size-option.active,
 .interview-article .view-bookmarks-link {
@@ -282,7 +253,6 @@
 
 /* Post titles */
 .culture-article .post-title,
-.gallery-article .post-title,
 .technology-article .post-title,
 .politics-article .post-title,
 .climate-emergency-article .post-title {
@@ -290,9 +260,6 @@
 }
 .culture-article .post-title {
   color: var(--color-culture);
-}
-.gallery-article .post-title {
-  color: var(--color-gallery);
 }
 .interview-article .post-title:not(.interview-header-group .post-title) {
   color: var(--color-interview);
@@ -308,7 +275,6 @@
 
 /* Category badges */
 .culture-article .post-categories a,
-.gallery-article .post-categories a,
 .interview-article .post-categories a,
 .comments-article .post-categories a,
 .technology-article .post-categories a,
@@ -324,10 +290,6 @@
 .culture-article .category-label-style-2 {
   background-color: var(--color-culture);
 }
-.gallery-article .post-categories a {
-  background-color: var(--color-gallery);
-  border-color: var(--color-gallery);
-}
 .interview-article .post-categories a {
   background-color: var(--color-interview);
   border-color: var(--color-interview);
@@ -339,7 +301,6 @@
 
 /* Quote marks */
 .culture-article .quote-mark,
-.gallery-article .quote-mark,
 .interview-article .quote-mark,
 .comments-article .quote-mark,
 .technology-article .quote-mark,
@@ -349,9 +310,6 @@
 }
 .culture-article .quote-mark {
   background-color: var(--color-culture);
-}
-.gallery-article .quote-mark {
-  background-color: var(--color-gallery);
 }
 .interview-article .quote-mark {
   background-color: var(--color-interview);
@@ -410,9 +368,6 @@
 /* Background color utility classes */
 .bg-culture {
   background-color: var(--color-culture);
-}
-.bg-gallery {
-  background-color: var(--color-gallery);
 }
 .bg-interview {
   background-color: var(--color-interview);
@@ -487,9 +442,6 @@ body.dark-mode .text-comments {
 body.dark-mode .bg-culture {
   background-color: var(--dark-color-culture) !important;
 }
-body.dark-mode .bg-gallery {
-  background-color: var(--dark-color-gallery) !important;
-}
 body.dark-mode .bg-interview {
   background-color: var(--dark-color-interview) !important;
 }
@@ -547,12 +499,6 @@ body.dark-mode .article-card.has-culture .article-card-title {
   color: var(--dark-color-culture) !important;
 }
 
-body.dark-mode .gallery-article .post-title,
-body.dark-mode .single-post.gallery .post-title,
-body.dark-mode .article-card.has-gallery .article-card-title {
-  color: var(--dark-color-gallery) !important;
-}
-
 body.dark-mode .single-post.interview .post-title,
 body.dark-mode .article-card.has-interview .article-card-title {
   color: var(--dark-color-interview) !important;
@@ -567,10 +513,6 @@ body.dark-mode .single-post.comments .post-title {
 body.dark-mode .culture-article .post-categories a {
   background-color: var(--color-culture) !important;
   border-color: var(--color-culture);
-}
-body.dark-mode .gallery-article .post-categories a {
-  background-color: var(--color-gallery) !important;
-  border-color: var(--color-gallery);
 }
 body.dark-mode .interview-article .post-categories a {
   background-color: var(--color-interview) !important;

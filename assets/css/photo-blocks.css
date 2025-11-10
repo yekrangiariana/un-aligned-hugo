@@ -200,7 +200,6 @@
   color: var(--color-text-subtitle);
   padding: 0.5rem 0;
   line-height: var(--line-height-relaxed);
-  /* No margins on desktop */
 }
 
 /* Hide mobile version on desktop */

@@ -12,7 +12,7 @@ tags:
 - "United Nations"
 image: "/images/failing-women-conflict.jpg"
 imageCaption: "Photo: UN Women/Flickr © CC BY-NC-ND 2.0"
-style: "1"
+style: "2"
 ---
 
 Life in the tumult of conflict is no life at all: surviving the immediate danger of shelling or gunfire only to be forced out of your home and community into unfamiliar, overcrowded places.

@@ -49,47 +49,10 @@
         <div class="style-2-header-container">
           <h1 class="post-title-small" itemprop="headline">{{ .Title }}</h1>
             
-          <!-- Featured Image with title overlay -->
+          <!-- Featured Image without overlay -->
           {{ if or .Params.featuredImage .Params.image }}
           <figure class="post-featured-image-style-2" itemprop="image">
             <img src="{{ or .Params.featuredImage .Params.image }}" alt="{{ .Title }}">
-            <div class="image-overlay-title">
-              {{ if $hasInterview }}
-              <div><span class="interview-category-label interview-category-label-style-2"><a href="/categories/interview/" style="color:inherit; text-decoration:none;">Interview</a></span></div>
-              {{ else }}
-              <!-- Display category for non-interview style-2 posts -->
-              {{ with index .Params.categories 0 }}
-                {{ $categoryLower := lower . }}
-                {{ $bgClass := "bg-default" }}
-                {{ if eq $categoryLower "culture" }}
-                  {{ $bgClass = "bg-culture" }}
-                {{ else if eq $categoryLower "gallery" }}
-                  {{ $bgClass = "bg-gallery" }}
-                {{ else if eq $categoryLower "technology" }}
-                  {{ $bgClass = "bg-technology" }}
-                {{ else if eq $categoryLower "science" }}
-                  {{ $bgClass = "bg-science" }}
-                {{ else if eq $categoryLower "politics" }}
-                  {{ $bgClass = "bg-politics" }}
-                {{ else if eq $categoryLower "environment" }}
-                  {{ $bgClass = "bg-environment" }}
-                {{ else if eq $categoryLower "comments" }}
-                  {{ $bgClass = "bg-comments" }}
-                {{ end }}
-              <div><span class="category-label-style-2 {{ $bgClass }}"><a href="/categories/{{ $categoryLower | urlize }}/" style="color:inherit; text-decoration:none;">{{ . }}</a></span></div>
-              {{ end }}
-              {{ end }}
-              <h1 class="post-title-overlay" itemprop="headline">{{ .Title }}</h1>
-              
-              <!-- author name style 2 -->
-              {{ if $hasComments }}
-                {{ partial "author-info.html" (dict "context" . "class" "author-name-style-2") }}
-              {{ else if .Description }}
-                <figcaption class="post-description-style-2" itemprop="description">
-                  {{ .Description }}
-                </figcaption>
-              {{ end }}
-            </div>
           </figure>
           {{ end }}
         </div>
@@ -183,6 +146,47 @@
       {{ range .Params.categories }}
         {{ $category := lower . }}
         {{ if eq $category "interview" }}{{ $hasInterview = true }}{{ end }}
+      {{ end }}
+      
+      <!-- Image overlay title moved from image for style 2 -->
+      {{ if eq (.Params.style | default "1") "2" }}
+      <div class="image-overlay-title">
+        {{ if $hasInterview }}
+        <div><span class="interview-category-label interview-category-label-style-2"><a href="/categories/interview/" style="color:inherit; text-decoration:none;">Interview</a></span></div>
+        {{ else }}
+        <!-- Display category for non-interview style-2 posts -->
+        {{ with index .Params.categories 0 }}
+          {{ $categoryLower := lower . }}
+          {{ $bgClass := "bg-default" }}
+          {{ if eq $categoryLower "culture" }}
+            {{ $bgClass = "bg-culture" }}
+          {{ else if eq $categoryLower "gallery" }}
+            {{ $bgClass = "bg-gallery" }}
+          {{ else if eq $categoryLower "technology" }}
+            {{ $bgClass = "bg-technology" }}
+          {{ else if eq $categoryLower "science" }}
+            {{ $bgClass = "bg-science" }}
+          {{ else if eq $categoryLower "politics" }}
+            {{ $bgClass = "bg-politics" }}
+          {{ else if eq $categoryLower "environment" }}
+            {{ $bgClass = "bg-environment" }}
+          {{ else if eq $categoryLower "comments" }}
+            {{ $bgClass = "bg-comments" }}
+          {{ end }}
+        <div><span class="category-label-style-2 {{ $bgClass }}"><a href="/categories/{{ $categoryLower | urlize }}/" style="color:inherit; text-decoration:none;">{{ . }}</a></span></div>
+        {{ end }}
+        {{ end }}
+        <h1 class="post-title-overlay" itemprop="headline">{{ .Title }}</h1>
+        
+        <!-- author name style 2 -->
+        {{ if $hasComments }}
+          {{ partial "author-info.html" (dict "context" . "class" "author-name-style-2") }}
+        {{ else if .Description }}
+          <figcaption class="post-description-style-2" itemprop="description">
+            {{ .Description }}
+          </figcaption>
+        {{ end }}
+      </div>
       {{ end }}
       
       <section class="category-section post-section">
