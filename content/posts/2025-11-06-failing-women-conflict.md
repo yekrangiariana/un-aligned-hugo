@@ -10,7 +10,7 @@ categories:
 - "Human Rights"
 tags:
 - "United Nations"
-image: "/images/failing-women-conflict.jpg"
+# image: "/images/failing-women-conflict.jpg"
 imageCaption: "Photo: UN Women/Flickr © CC BY-NC-ND 2.0"
 style: "2"
 ---
