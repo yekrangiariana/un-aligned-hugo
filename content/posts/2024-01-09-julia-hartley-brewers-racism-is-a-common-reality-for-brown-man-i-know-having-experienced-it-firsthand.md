@@ -8,7 +8,6 @@ categories:
   - "Comments"
   - "Social Issues"
 tags: 
-  - "Journalism"
   - "United Kingdom"
 image: "/images/Julia-Hartley-Brewers-racism.jpg"
 ---
