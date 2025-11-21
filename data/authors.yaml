@@ -51,7 +51,7 @@ sabih-abdul:
 craig-murray:
   name: "Craig Murray"
   bio: "Craig Murray is a British former diplomat, human rights activist and political commentator."
-  image: "/images/authors/craig-murray.png"
+  # image: "/images/authors/craig-murray.png"
   website: "https://www.craigmurray.org.uk/"
   twitter: "CraigMurrayOrg"
 # john-doe:
