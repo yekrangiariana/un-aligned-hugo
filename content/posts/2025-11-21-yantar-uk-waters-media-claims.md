@@ -50,7 +50,7 @@ That was also perfectly legal. The idea that the same activity is worthy when we
 
 {{< photo-normal src="/images/RFA-Proteus-gets-up-close-with-Yantar.jpg" caption="RFA Proteus gets up close with the Yantar in November. Photo: UK Ministry of Defence" >}}
 
-As this photo of HMS Somerset illegally threatening the Yantar on the High Seas shows, forcing it into dangerous moves, the aggression is not from the Russians. That British jets illegally buzzing the Yantar have been met with lasers designed to disrupt attacks. That is not the Russian aggression John Healy claims. The nonsense about dazzling pilots’ eyes is sheer invention.
+As [this photo](https://www.craigmurray.org.uk/wp/wp-content/uploads/2025/11/somerset-threatening-Yantar.jpg) of HMS Somerset illegally threatening the Yantar on the High Seas shows, forcing it into dangerous moves, the aggression is not from the Russians. That British jets illegally buzzing the Yantar have been met with lasers designed to disrupt attacks. That is not the Russian aggression John Healy claims. The nonsense about dazzling pilots’ eyes is sheer invention.
 
 Unless the plane is extremely, extremely low or a very long way away it is a physical impossibility to shine a laser into a pilot’s eyes in a modern warplane, from below in a ship. The pilot won’t be looking at the ship out of the window, but will be looking at his screens and the image from the cameras under the plane. These might be disrupted by the lasers – and a perfectly valid and sensible defensive measure that is too.
 
