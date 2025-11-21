@@ -164,17 +164,8 @@
 
 .author-social {
   display: inline;
-  margin-left: 10px;
+  color: #d42b63;
 }
-
+/* 
 .author-social-link {
-  display: inline-block;
-  margin-right: 15px;
-  padding: 5px 15px;
-  background-color: #f5f5f5;
-  border-radius: 4px;
-  text-decoration: none;
-  color: var(--color-primary);
-  font-weight: 500;
-  transition: all 0.2s ease;
-}
+} */
