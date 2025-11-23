@@ -54,13 +54,9 @@ As [this photo](https://www.craigmurray.org.uk/wp/wp-content/uploads/2025/11/som
 
 Unless the plane is extremely, extremely low or a very long way away it is a physical impossibility to shine a laser into a pilot’s eyes in a modern warplane, from below in a ship. The pilot won’t be looking at the ship out of the window, but will be looking at his screens and the image from the cameras under the plane. These might be disrupted by the lasers – and a perfectly valid and sensible defensive measure that is too.
 
-This is the Eurofighter Typhoon. 
-
 {{< photo-custom src="/images/eurofighter-typhoon.jpg" caption="Royal Air Force Eurofighter EF-2000 Typhoon F2. Photo: Chris Lofting © GFDL 1.2" >}}
 
-Imagine it in the skies way above you and look at its body, particularly the front end – how would you get line of sight on the pilot? You couldn’t. Lasers only go in straight lines.
-
-
+This is the Eurofighter Typhoon. Imagine it in the skies way above you and look at its body, particularly the front end – how would you get line of sight on the pilot? You couldn’t. Lasers only go in straight lines.
 
 Most sinister of all is the universal state control of media that gets every single mainstream outlet booming out the propaganda narrative, all entirely without question.
 
