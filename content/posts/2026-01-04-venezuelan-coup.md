@@ -10,6 +10,7 @@ categories:
 tags:
 - "United States"
 - "Venezuela"
+- "European Union"
 image: "/images/Venezuelan-coup.jpg"
 imageCaption: "Graphic: Ariana Yekrangi"
 style: "1"
