@@ -1,5 +1,5 @@
 ---
-title: "Trump's Venezuelan coup no one dares to condemn"
+title: "Trump's Venezuelan coup that no one dares to condemn"
 date: "2026-01-04T01:30:00+0300"
 authors: ["Ariana Yekrangi"]
 slug: "venezuelan-coup"
@@ -61,7 +61,7 @@ The UN Charter prohibits the use of force in international relations, full stop.
 
 However, let us set Ukraine aside for a moment. Marco Rubio has made no secret of his desire for regime change in Cuba. Trump has repeatedly threatened to invade Greenland, which is Danish territory.
 
-During this year’s fresh wave of protests in Iran, the largest since 2022, Trump warned that the United States was “locked and ready to go” and would come to Iran’s “rescue”. This followed Washington’s bombing of Iran in 2025, another act of aggression that the European political class did not dare to condemn.
+During this year’s fresh wave of protests in Iran, the largest since 2022, [Trump warned](https://zeteo.com/p/iran-protests-trump-threatens-military?utm_source=substack&utm_medium=email&utm_content=share) that the United States was “locked and ready to go” and would come to Iran’s “rescue”. This followed Washington’s bombing of Iran in 2025, another act of aggression that the European political class did not dare to condemn.
 
 China is now presumably in a stronger position should it choose to attack Taiwan.
 
