@@ -232,11 +232,11 @@
     {{ end }}
   {{ end }}
 
-  <!-- Dark Mode functionality - moved to head to avoid flash and ensure toggle function is available -->
-  <script src="{{ "js/simple-dark-mode.js" | absURL }}" type="text/javascript"></script>
+  <!-- Dark Mode functionality - deferred to avoid blocking render -->
+  <script defer src="{{ "js/simple-dark-mode.js" | absURL }}" type="text/javascript"></script>
 
-  <!-- Header functionality - menu interactions and touch optimization -->
-  <script src="{{ "js/header.js" | absURL }}" type="text/javascript"></script>
+  <!-- Header functionality - deferred to avoid blocking render -->
+  <script defer src="{{ "js/header.js" | absURL }}" type="text/javascript"></script>
 
   <!-- RSS feed -->
   <link href="{{ .Site.Params.staticPrefix }}{{ "index.xml" | relURL }}"
