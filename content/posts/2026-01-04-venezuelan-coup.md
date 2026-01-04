@@ -4,7 +4,7 @@ date: "2026-01-04T01:30:00+0300"
 authors: ["Ariana Yekrangi"]
 slug: "venezuelan-coup"
 url: ""
-description: "Barely a few days into 2026, Trump orders the abduction of Nicolás Maduro. We live in a less safe world than we did in 2025, courtesy of the Western bastions of ‘international law’ and ‘human rights’."
+description: "Barely a few days into 2026, Trump orders the abduction of Nicolás Maduro. We live in a less safe world than we did in 2025, courtesy of the so called Western bastions of ‘international law’ and ‘human rights’."
 categories:
  - "Human rights"
 tags:
@@ -66,7 +66,7 @@ During this year’s fresh wave of protests in Iran, the largest since 2022, [Tr
 
 China is now presumably in a stronger position should it choose to attack Taiwan.
 
-One is left wondering what Trump would actually have to do for Europe to accuse him of an act of war. EU leaders spent months liberal-washing a US oil blockade on Venezuela, the seizure of Venezuelan tankers in international waters — literal piracy — and extrajudicial killings carried out against vessels Washington claimed were linked to “drug trafficking”, insisting that legality was merely a matter of interpretation until time simply ran out. 
+One is left wondering what Trump would actually have to do for Europe to accuse him of an act of war. EU leaders spent months liberal-washing a US oil blockade on Venezuela, the seizure of Venezuelan tankers in international waters — literal piracy — and [extrajudicial killings](https://www.hrw.org/news/2026/01/03/us-strikes-venezuela-says-it-will-run-country) carried out against vessels Washington claimed were linked to “drug trafficking”, insisting that legality was merely a matter of interpretation until time simply ran out. 
 
 There is literally nothing Trump could do that would compel the EU to stand up to him.
 
