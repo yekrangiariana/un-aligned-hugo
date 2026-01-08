@@ -1,5 +1,5 @@
 ---
-title: "Greenland may be a small price to pay for Europe to realise the Empire has no allies, only assets"
+title: "Greenland is no small price for Europe to realise that the Empire has no allies, only assets"
 date: "2026-01-08T17:00:00+0300"
 authors: ["Ariana Yekrangi"]
 slug: "europe-us-dependence-greenland-threat"
