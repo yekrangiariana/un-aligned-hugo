@@ -14,7 +14,7 @@ tags:
 - "Greenland"
 image: "/images/europe-us-dependence-greenland-threat.jpg"
 imageCaption: "Photo: the White House. Graphic: Ariana Yekrangi"
-style: "2"
+style: "1"
 ---
 
 In the immediate aftermath of Donald Trump’s blatantly illegal coup attempt in Venezuela—during which the United States sought to seize the nation’s oil reserves “indefinitely” while toppling its government and kidnapping its president—a disturbing image circulated on social media. 
