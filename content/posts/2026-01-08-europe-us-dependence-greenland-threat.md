@@ -27,6 +27,8 @@ At the time, Europe’s political class responded with nervous laughter. The ima
 
 That complacency has not aged well.
 
+{{< sim "trumps-shopping-list" >}}
+
 When [asked by reporters](https://www.bbc.com/news/articles/c0q4w1xnv35o) on January 4 aboard Air Force One about his intentions in the Arctic, Trump pivoted effortlessly from his resource wars in South America to the North Atlantic. Greenland, he said, would become a priority in “about two months.” This time, he did not dress the idea up as a property transaction, as he had in 2019\. Instead, he framed it as a matter of “national security.”
 
 The United States, Trump argued, needs Greenland to secure the missile corridor between Europe and North America—and, crucially, “Denmark is not going to be able to do it.”
