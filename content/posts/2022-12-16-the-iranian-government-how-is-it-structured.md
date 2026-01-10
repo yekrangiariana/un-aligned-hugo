@@ -4,6 +4,7 @@ description: "From the Assembly of Experts to the Guardian Council, learn about 
 date: 2022-12-16T09:30:00+02:00
 authors: ["Ariana Yekrangi"]
 url: "country-profile/the-iranian-government-how-is-it-structured"
+slug: "the-iranian-government-how-is-it-structured"
 categories:
   - "Country Profile"
 tags:

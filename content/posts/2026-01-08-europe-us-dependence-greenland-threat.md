@@ -47,6 +47,8 @@ Qatar’s status as host to the region’s largest US air base did not prevent I
 
 What is new is not American behaviour, but Europe’s proximity to its consequences.
 
+{{< sim "venezuelan-coup" >}}
+
 For decades, European leaders responded to US violence abroad with studied indifference. When Trump moved against Venezuela, European capitals did not condemn an [illegal coup](https://un-aligned.org/posts/venezuelan-coup/); they merely “monitored the situation.” They remained silent during the US war of aggression against Iran. Worse, they became active accomplices in Israel’s crimes—refusing to defend UN personnel murdered by the IDF, abandoning their own citizens kidnapped in international waters, [abused](https://www.aa.com.tr/en/europe/they-kicked-me-while-the-flag-touched-my-face-greta-thunberg-details-5-days-of-abuse-in-israeli-custody/3717954) and [raped](https://freedomflotilla.org/embed/) while attempting to deliver aid to Gaza.
 
 They ignored, and many actively supported, [the genocide in Gaza](https://un-aligned.org/tags/gaza/) because they believed themselves members of the club. They chose access over principle, alignment over law, proximity to power over the values they endlessly invoke. 

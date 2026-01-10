@@ -1,0 +1,24 @@
+---
+title: "Caravaggio’s Annunciation trades the dramatic light of his Roman period for a softer, more introspective spirituality"
+date: "2026-01-09T00:00:00+0300"
+authors: ["Carla Pietrobattista"]
+slug: "caravaggio-annunciation-malta-artistic-evolution"
+description: "Painted during his Maltese exile, the canvas achieves a complex balance where traditional symbols fade into shadow. By focusing solely on the Archangel’s gesture, the artist moves beyond technical showmanship to reveal the essence of a private, divine promise."
+categories:
+ - "Culture"
+tags:
+- "Art"
+- "Caravaggio"
+image: "/images/caravaggios-annunciation.jpg"
+imageCaption: "Caravaggio's Annunciation. Oil on canvas, 285 × 250cm located at Nancy, Musée des Beaux-Arts. Click on the image to enlarge it."
+---
+
+The canvas of the *Annunciation* was most likely painted by Caravaggio in 1608 in Malta, commissioned by Duke Charles of Lorraine, son of Henry II, for the main altar of the Church of Nancy. Although historical data are fundamental for the examination of any work of art, in this case they are almost superfluous, because every stylistic element present on the canvas, regardless of the date identified by historians, recounts the profound artistic and personal evolution of Caravaggio during the Maltese and Sicilian period. From an initial observation of the scene, the evident simplicity and humility of the domestic environment in which the depicted moment takes place immediately emerges, and this element seems to prevail over every other aspect, even from a technical and stylistic point of view.
+
+In reality, this type of composition is anything but simple; rather, it represents a point of arrival, the reflection of a balance achieved through careful and complex geometric and conceptual study, as well as an even deeper personal evolution on the part of Caravaggio. The light, so dominant in the canvases of the Roman period, in this work — as in others from the artist’s final phase, such as the *Burial of Saint Lucy* — appears softer, as a reflection of a new way of representing and conceiving spirituality. The humility so often portrayed by the artist is no longer represented through the proud beauty of the outcasts of the Roman populace, but in the form and expression of figures that are very likely not real, the fruit instead of Caravaggio’s most intimate, personal, and introspective vision.
+
+In the *Annunciation*, the figures are arranged diagonally, within a geometry that, through a clear distinction and distribution of space, gives life to and hosts a dialogue that unfolds between the depicted subjects through a silence laden with promises. Mary, positioned to the right of the viewer, is kneeling, enveloped in a mantle whose color in Marian iconography signifies royalty; yet the Virgin’s face and attitude convey, rather than greatness, the profound humility of a woman who anticipates and reflects in her outward appearance her response to the angel’s announcement: “Behold, I am the handmaid of the Lord.”
+
+The Archangel Gabriel is placed on a cloud to the right of the canvas, recalling a similar construction already present in the *Martyrdom of Saint Matthew*, in a geometric and conceptual space deliberately different from that occupied by Mary, because the power of the message he bears is divine and spiritual in nature, and therefore detached from the earthly plane — so much so that the features of God’s messenger are not even distinguishable, though he is enveloped in divine light from above. It is his outstretched arm that conveys the solemnity of the moment, and it is through his finger, just like Michelangelo’s creative finger, that the promise of a new life finds expression — a birth that brings salvation.
+
+This gesture is the essence of the painting, so much so that the lily, symbol of purity and virginity almost always present and in the foreground in other *Annunciations*, is here visible yet at the same time in shadow. All the other elements accessory to the design or construction of the painting, such as the furnishings or the drapery of the garments and the bed in the background, are visible but in shadow like the lily, because they represent what one expects to find in the scene narrated by Luke and Matthew, and because they serve as tools for the technical success of the work. But as usual with Caravaggio, what prevails is not the need to depict the fleeting glow of the simple reflection of adherence to the most immediate reality; what is truly urgent and fundamental for him is the need to give life to the essence of a more intimate and private truth — the one that whispers and moves the soul.
