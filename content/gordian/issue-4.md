@@ -2,7 +2,7 @@
 title: "The time is out of joint, and the Crown itself is the disease"
 date: 2026-01-10
 slug: "issue-4"
-description: "The old covenants of international law now haunt the world as powerless specters. In their absence, a maddened empire turns on its own. From the coup in Venezuela to the protests in Iran and the charade of global climate summits, we are living in the ruins of an order that has lost its mind."
+description: "The old covenants of international law now haunt the world as powerless spectres. In their absence, a maddened empire turns on itself. From the coup in Venezuela and Trump’s threat to annex Greenland to the ambitions of the son of Iran’s deposed Shah and the charade of global climate summits, we are living amid the ruins of an order that has lost its mind."
 issueNumber: 4
 volume: 9
 tagline: ""
@@ -42,7 +42,7 @@ This political foreclosure has a brutal human cost. In the world’s zones of vi
 
 In our culture section, we look at a strange portrayal of love. Mainstream cinema has long enforced a brutal code where women who choose each other must also choose death, a coded violence that calls a dead end a happy ending. 
 
-In our art column we once again look at another work of Caravaggio’s. His late work Annunciation turns from the dramatic spectacle of his youth to a softer, more introspective spirituality—a move away from public judgment toward a private, divine promise.
+In our art column we once again look at another work of Caravaggio’s. His late work Annunciation turns from the dramatic spectacle of his youth to a softer, more introspective spirituality—a move away from public judgement toward a private, divine promise.
 
 We hope you enjoy this issue of The Gordian. If you value our work please consider [a small, regular donation](https://donorbox.org/support-the-publication-of-the-gordian-magazine). It helps us do more of what we do, and do it better.
 
