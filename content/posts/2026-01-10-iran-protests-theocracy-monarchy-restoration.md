@@ -41,7 +41,7 @@ That narrative once mobilised society. Today, it disciplines it. The promise of 
 
 When ideological promises collapse without being replaced, a vacuum opens. The Iranian Revolution is often imagined as a clean rupture between monarchy and theocracy. In reality, it marked a reconfiguration of power rather than its dismantling. The Pahlavi state imposed a top-down nationalism rooted in a narrow, Persian-centric vision, marginalising clerical authority and suppressing ethnic diversity. The Islamic Republic rejected that language only to replace it with an equally absolutist framework, subordinating belonging to ideological conformity and reframing dissent as heresy. Across both eras, civic life was steadily dismantled. When identity is suppressed for decades, it does not disappear. It returns under strain, often in distorted form.
 
-> Restoration, rather than transformation, becomes the imagined solution.
+> And then "restoration" becomes the solution...
 
 Today, both inside Iran and across the diaspora, national identity is resurfacing in reactive forms, shaped by nostalgia, emotion and exclusion. The Pahlavi period is being reimagined as an era of dignity and order, stripped of its repression, inequality and dependence on foreign power. Historical accuracy matters less than psychological repair. Restoration, rather than transformation, becomes the imagined solution.
 
