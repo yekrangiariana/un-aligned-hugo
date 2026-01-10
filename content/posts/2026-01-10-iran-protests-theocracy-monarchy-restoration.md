@@ -59,7 +59,7 @@ Crucially, any imagined future that depends on erasure is doomed from the outset
 
 Foreign powers will undoubtedly seek to exploit Iran’s crisis. Intelligence operations are a constant presence and the threat of renewed regional conflict hangs over the country. But the Islamic Republic’s reflexive habit of blaming all dissent on external enemies now rings hollow. Responsibility for this moment lies first and foremost with a state that has combined repression, corruption and economic mismanagement for decades and now finds its founding promise collapsing under the weight of its own failures.
 
-The people in Iran’s streets today are confronting real deprivation and exclusion, demanding a life with dignity and a voice in shaping their future. They are responding to real deprivation and real exclusion, demanding a life with dignity and a voice in shaping their future. 
+The people in Iran’s streets today are confronting real deprivation and exclusion, demanding a life with dignity and a voice in shaping their future.
 
 A politics that offers them only crowns, clerics or custodians will fail them equally. What is at stake is the creation of democratic structures capable of holding difference without repression, structures that neither empire nor nostalgia can supply.
 
