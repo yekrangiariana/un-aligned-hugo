@@ -3,7 +3,7 @@ title: "When the past is offered as a future: Iran and the politics of exhaustio
 date: "2026-01-10T06:00:00+0300"
 authors: ["Ariana Yekrangi"]
 slug: "iran-protests-theocracy-monarchy-restoration"
-description: "Iran’s crisis is often reduced to empire versus resistance or clerics versus monarchists. But the deeper problem lies in a political order that equated sovereignty with control, and left society without democratic means to shape its future."
+description: "Iran’s latest wave of protests has been shaped by decades of economic suffocation, political foreclosure and ideological exhaustion. Under the combined weight of imperial pressure and authoritarian rule, the promise of sovereignty has collapsed, and nostalgia offers no way out."
 categories:
  - "Human rights"
 tags:
