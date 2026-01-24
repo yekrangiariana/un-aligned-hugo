@@ -1,5 +1,5 @@
 ---
-title: "The Nobel prize and the price of appeasing Trump"
+title: "The Nobel prize and the Price of appeasing Trump"
 date: "2026-01-22T06:00:00+0300"
 authors: ["Adrian Liberto"]
 slug: ""
@@ -8,8 +8,8 @@ categories:
  - "Human rights"
 tags:
 - "United States"
-image: "/images/trump-genocide-pr-triumph/sky-does-trump-deserve-the-noble.jpg"
-imageCaption: "Graphic: Ariana Yekrangi"
+image: "/images/thumb-22281704-6836-2-thumb.jpg"
+imageCaption: "Machado gives her Nobel Peace Prize to Trump"
 style: "1"
 ---
 
