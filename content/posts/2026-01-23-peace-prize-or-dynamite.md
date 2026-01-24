@@ -1,14 +1,14 @@
 ---
-title: "Peace prize or dynamite"
+title: "The Nobel prize and the price of appeasing Trump"
 date: "2026-01-22T06:00:00+0300"
 authors: ["Adrian Liberto"]
 slug: ""
-description: ""
+description: "A tantrum over a peace prize, a threat against Greenland, and a committee willing to bend the knee: how indulging Donald Trump’s narcissism has turned one of the world’s most prestigious awards into a geopolitical liability."
 categories:
  - "Human rights"
 tags:
 - "United States"
-image: ""
+image: "/images/trump-genocide-pr-triumph/sky-does-trump-deserve-the-noble.jpg"
 imageCaption: "Graphic: Ariana Yekrangi"
 style: "1"
 ---
