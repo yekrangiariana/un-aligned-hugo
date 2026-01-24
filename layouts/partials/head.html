@@ -71,19 +71,19 @@
   <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
   <meta property="og:site_name" content="{{ .Site.Title }}" />
   {{- if .Params.featuredImage -}}
-  <meta property="og:image" content="{{ .Params.featuredImage }}" />
+  <meta property="og:image" content="{{ .Params.featuredImage | absURL }}" />
   <meta property="og:image:alt" content="{{ .Title }}" />
   {{- else if .Params.image -}}
-  <meta property="og:image" content="{{ .Params.image }}" />
+  <meta property="og:image" content="{{ .Params.image | absURL }}" />
   <meta property="og:image:alt" content="{{ .Title }}" />
   {{- else if .Params.album -}}
-  <meta property="og:image" content="{{ .Params.album }}" />
+  <meta property="og:image" content="{{ .Params.album | absURL }}" />
   <meta property="og:image:alt" content="{{ .Title }}" />
   {{- else if .Site.Params.defaultSocialImage -}}
-  <meta property="og:image" content="{{ .Site.Params.defaultSocialImage }}" />
+  <meta property="og:image" content="{{ .Site.Params.defaultSocialImage | absURL }}" />
   <meta property="og:image:alt" content="{{ .Site.Title }}" />
   {{- else -}}
-  <meta property="og:image" content="{{ .Site.Params.favicon }}" />
+  <meta property="og:image" content="{{ .Site.Params.favicon | absURL }}" />
   <meta property="og:image:alt" content="{{ .Title }}" />
   {{ end }}
   
@@ -92,15 +92,15 @@
   <meta name="twitter:title" content="{{ .Title }}" />
   <meta name="twitter:description" content="{{ default .Summary .Description | plainify }}" />
   {{- if .Params.featuredImage -}}
-  <meta name="twitter:image" content="{{ .Params.featuredImage }}" />
+  <meta name="twitter:image" content="{{ .Params.featuredImage | absURL }}" />
   {{- else if .Params.image -}}
-  <meta name="twitter:image" content="{{ .Params.image }}" />
+  <meta name="twitter:image" content="{{ .Params.image | absURL }}" />
   {{- else if .Params.album -}}
-  <meta name="twitter:image" content="{{ .Params.album }}" />
+  <meta name="twitter:image" content="{{ .Params.album | absURL }}" />
   {{- else if .Site.Params.defaultSocialImage -}}
-  <meta name="twitter:image" content="{{ .Site.Params.defaultSocialImage }}" />
+  <meta name="twitter:image" content="{{ .Site.Params.defaultSocialImage | absURL }}" />
   {{- else -}}
-  <meta name="twitter:image" content="{{ .Site.Params.favicon }}" />
+  <meta name="twitter:image" content="{{ .Site.Params.favicon | absURL }}" />
   {{ end }}
 
   <!-- Common CSS file for all pages -->
