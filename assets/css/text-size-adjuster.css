@@ -110,6 +110,18 @@
   user-select: none;
 }
 
+.global-reading-popup .size-option.size-small {
+  font-size: 14px;
+}
+
+.global-reading-popup .size-option.size-medium {
+  font-size: 18px;
+}
+
+.global-reading-popup .size-option.size-large {
+  font-size: 22px;
+}
+
 .global-reading-popup .size-option:hover {
   background-color: var(--color-bg-light);
 }
