@@ -9,7 +9,7 @@ categories:
 tags:
 - "United States"
 image: "/images/thumb-22281704-6836-2-thumb.jpg"
-imageCaption: "Machado gives her Nobel Peace Prize to Trump"
+imageCaption: "US President Donald Trump is gifted the Nobel Peace Prize medal awarded to María Corina Machado at the White House Oval Office on 15 January 2026. Photo: White House © Public domain"
 style: "1"
 ---
 

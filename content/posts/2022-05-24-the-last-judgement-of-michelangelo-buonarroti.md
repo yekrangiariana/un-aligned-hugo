@@ -4,6 +4,7 @@ description: "How Michelangelo created the last judgement."
 date: 2022-05-24T11:04:18+03:00
 authors: ["Carla Pietrobattista"]
 url: "culture/the-last-judgement-of-michelangelo-buonarroti"
+slug: "the-last-judgement-of-michelangelo-buonarroti"
 categories:
   - "Culture"
 tags:
