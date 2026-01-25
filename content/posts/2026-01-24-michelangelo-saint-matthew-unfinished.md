@@ -18,7 +18,7 @@ I have always been fascinated by completed, defined, finished art — the kind t
 
 It is as if every work from the past represents a refined intellectual game, whose true purpose is not merely to convey beauty, but rather to share its deeper meaning and inspiration, to be sought and read precisely in the colours and forms that are projections of the artists’ thoughts and souls.
 
-Many of these messages are undoubtedly contained in the works of [Michelangelo Buonarroti](https://un-aligned.org/tags/michelangelo/), whose genius was able to range across every artistic and cultural field of his time. The artist’s philosophical training meant that, more than others, he felt the need to hide symbols rich in meaning within his many works of art. 
+Many of these messages are undoubtedly contained in the works of [Michelangelo Buonarroti](https://un-aligned.org/tags/michelangelo/), whose genius was able to range across every artistic and cultural field of his time. The artist’s philosophical training meant that, more than others, he felt the need to hide symbols rich in meaning within his many works of art.
 
 A perfect example is the [Sistine Chapel](un-aligned.org/culture/the-last-judgement-of-michelangelo-buonarroti): on its frescoed walls, beauty seems to be the dominant element, yet within so much evident beauty lie complex symbols and images, ready to reveal and narrate messages to those who are able to look beyond the fleeting appearance of outward form. 
 
