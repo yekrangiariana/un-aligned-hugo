@@ -9,9 +9,7 @@ now.AddDate 0 0 -7 -}} {{- $essentialStories = where $essentialStories ".Date"
   <div class="essential-stories-header">
     <h2 class="essential-stories-title">
       {{- $firstStory := index . 0 -}}
-      <a href="{{ $firstStory.RelPermalink }}"
-        >Essential Stories <span class="title-arrow">→</span></a
-      >
+      <a href="{{ $firstStory.RelPermalink }}">Essential stories of the week</a>
     </h2>
     <div class="carousel-controls">
       <button

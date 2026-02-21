@@ -513,6 +513,10 @@ article {
     gap: 0px;
     justify-content: center; /* centres items horizontally */
   }
+
+  .recent-site-date-catalog {
+    display: none !important;
+  }
 }
 
 /* Newsletter Call-to-Action Section Styles */

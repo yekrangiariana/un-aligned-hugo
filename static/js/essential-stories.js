@@ -27,6 +27,28 @@
   let currentMenuOutsideHandler = null;
   let isNavigating = false; // Prevent multiple simultaneous navigations
 
+  // Read tracking functionality
+  const STORAGE_KEY = "essentialStoriesRead";
+
+  // Get read articles from localStorage
+  function getReadArticles() {
+    const stored = localStorage.getItem(STORAGE_KEY);
+    return stored ? JSON.parse(stored) : [];
+  }
+
+  // Save article as read
+  function markAsRead(url) {
+    if (!url) return;
+    const readArticles = getReadArticles();
+    if (!readArticles.includes(url)) {
+      readArticles.push(url);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(readArticles));
+    }
+  }
+
+  // Mark current page as read on load
+  markAsRead(window.location.pathname);
+
   function isTerminalPage(url) {
     if (!url) return false;
     return (
@@ -163,6 +185,9 @@
 
           // Reset navigation lock
           isNavigating = false;
+
+          // Mark the new story as read
+          markAsRead(url);
 
           // Reinitialize navigation
           initializeNavigation();
