@@ -24,27 +24,6 @@ body {
   background-color: var(--color-background);
   line-height: var(--line-height-normal);
   overflow-x: hidden;
-  opacity: 1;
-  transition: opacity 0.3s ease;
-}
-
-/* Page transition states */
-body.page-transitioning {
-  opacity: 0;
-  pointer-events: none;
-}
-
-body.page-loading {
-  animation: fadeIn 0.3s ease forwards;
-}
-
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-  }
-  to {
-    opacity: 1;
-  }
 }
 
 ::selection {

@@ -79,11 +79,11 @@
           return;
         }
 
-        // Animate out content only
+        // Quick fade animation for smooth transition
         contentWrapper.style.transition =
-          "transform 0.3s ease, opacity 0.3s ease";
+          "transform 0.2s ease, opacity 0.2s ease";
         contentWrapper.style.transform =
-          direction === "next" ? "translateX(-30px)" : "translateX(30px)";
+          direction === "next" ? "translateX(-20px)" : "translateX(20px)";
         contentWrapper.style.opacity = "0";
 
         setTimeout(() => {
@@ -130,15 +130,15 @@
           // Animate in from opposite direction
           contentWrapper.style.transition = "none";
           contentWrapper.style.transform =
-            direction === "next" ? "translateX(30px)" : "translateX(-30px)";
+            direction === "next" ? "translateX(20px)" : "translateX(-20px)";
           contentWrapper.style.opacity = "0";
 
           // Force reflow
           contentWrapper.offsetHeight;
 
-          // Animate in
+          // Quick animate in for smooth feel
           contentWrapper.style.transition =
-            "transform 0.3s ease, opacity 0.3s ease";
+            "transform 0.2s ease, opacity 0.2s ease";
           contentWrapper.style.transform = "translateX(0)";
           contentWrapper.style.opacity = "1";
           contentWrapper.style.pointerEvents = "auto";
@@ -147,14 +147,14 @@
           setTimeout(() => {
             contentWrapper.style.removeProperty("transform");
             contentWrapper.style.removeProperty("transition");
-          }, 300);
+          }, 200);
 
           // Reset navigation lock
           isNavigating = false;
 
           // Reinitialize navigation
           initializeNavigation();
-        }, 300);
+        }, 200);
       })
       .catch((error) => {
         console.error("Failed to load story:", error);
@@ -446,10 +446,10 @@
     let isHorizontalSwipe = false;
     let rafId = null;
 
-    const SWIPE_THRESHOLD = 80; // Distance to trigger navigation
-    const VELOCITY_THRESHOLD = 0.3; // Speed to trigger navigation on quick swipe
-    const MAX_VERTICAL_RATIO = 0.5; // Max vertical/horizontal ratio to consider horizontal
-    const DAMPING = 0.6; // How much the view follows the finger
+    const SWIPE_THRESHOLD = 70; // Minimum distance to trigger navigation
+    const VELOCITY_THRESHOLD = 0.25; // Speed to trigger navigation on quick swipe
+    const MAX_VERTICAL_RATIO = 0.6; // Max vertical/horizontal ratio to consider horizontal
+    const DAMPING = 0.75; // How much the view follows the finger
 
     const swipeIndicator = currentStoryView.querySelector(
       ".story-swipe-indicator",
@@ -550,20 +550,20 @@
       }
 
       if (isHorizontalSwipe) {
-        // Prevent default to stop scrolling during horizontal swipe
+        // Prevent default to stop scrolling during horizontal swipe  
         if (e.cancelable) {
           e.preventDefault();
         }
 
         currentX = deltaX;
 
-        // Apply resistance at edges
+        // Apply light resistance at edges for smooth feel
         let resistance = 1;
         if (
           (deltaX > 0 && (!currentPrevBtn || currentPrevBtn.disabled)) ||
           (deltaX < 0 && (!currentNextBtn || currentNextBtn.disabled))
         ) {
-          resistance = Math.max(0.1, 1 - Math.abs(deltaX) / 300);
+          resistance = Math.max(0.2, 1 - Math.abs(deltaX) / 400);
         }
 
         updateTransform(deltaX * resistance);
@@ -617,32 +617,32 @@
       }
 
       if (shouldNavigate) {
-        // Animate to completion before navigating
+        // Quick smooth animation to completion
         currentStoryView.style.transition =
-          "transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
+          "transform 0.2s cubic-bezier(0.22, 1, 0.36, 1)";
         const targetX =
           direction === "prev" ? window.innerWidth : -window.innerWidth;
         currentStoryView.style.transform = `translateX(${targetX}px)`;
 
+        // Navigate immediately without delay for instant feel
         setTimeout(() => {
+          hideSwipeIndicator();
           if (direction === "prev") {
-            hideSwipeIndicator();
             currentPrevBtn.click();
           } else {
-            hideSwipeIndicator();
             currentNextBtn.click();
           }
-        }, 150);
+        }, 100);
       } else {
-        // Snap back to original position
+        // Quick snap back to original position
         currentStoryView.style.transition =
-          "transform 0.3s cubic-bezier(0.33, 1, 0.68, 1)";
+          "transform 0.25s cubic-bezier(0.33, 1, 0.68, 1)";
         currentStoryView.style.transform = "translateX(0)";
 
         setTimeout(() => {
           currentStoryView.style.removeProperty("transform");
           currentStoryView.style.removeProperty("transition");
-        }, 300);
+        }, 250);
       }
     };
 
@@ -655,6 +655,9 @@
       passive: false,
     });
     currentStoryView.addEventListener("touchend", currentTouchHandlers.end, {
+      passive: true,
+    });
+    currentStoryView.addEventListener("touchcancel", currentTouchHandlers.end, {
       passive: true,
     });
 

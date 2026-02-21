@@ -52,7 +52,6 @@
   overflow-y: hidden;
   gap: 15px;
   margin-top: 10px;
-  padding-left: 20px;
   padding-right: 20px;
   -webkit-overflow-scrolling: touch;
   -ms-overflow-style: none;
@@ -65,7 +64,6 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
-  touch-action: pan-x;
 }
 
 .essential-stories-grid:active {
