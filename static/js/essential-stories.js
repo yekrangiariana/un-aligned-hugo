@@ -49,6 +49,11 @@
       return;
     }
 
+    // Clear any existing transforms on storyView from swipe gestures
+    storyView.style.removeProperty("transform");
+    storyView.style.removeProperty("transition");
+    storyView.classList.remove("is-dragging");
+
     // Add loading state to content only
     contentWrapper.style.opacity = "0.5";
     contentWrapper.style.pointerEvents = "none";
@@ -127,6 +132,10 @@
           // Scroll to top
           window.scrollTo(0, 0);
 
+          // Ensure storyView is at default position
+          storyView.style.transform = "translateX(0)";
+          storyView.style.transition = "none";
+
           // Animate in from opposite direction
           contentWrapper.style.transition = "none";
           contentWrapper.style.transform =
@@ -147,6 +156,9 @@
           setTimeout(() => {
             contentWrapper.style.removeProperty("transform");
             contentWrapper.style.removeProperty("transition");
+            contentWrapper.style.removeProperty("opacity");
+            storyView.style.removeProperty("transform");
+            storyView.style.removeProperty("transition");
           }, 200);
 
           // Reset navigation lock
@@ -158,6 +170,14 @@
       })
       .catch((error) => {
         console.error("Failed to load story:", error);
+        // Reset everything on error
+        contentWrapper.style.removeProperty("opacity");
+        contentWrapper.style.removeProperty("transform");
+        contentWrapper.style.removeProperty("transition");
+        contentWrapper.style.pointerEvents = "auto";
+        storyView.style.removeProperty("transform");
+        storyView.style.removeProperty("transition");
+        storyView.classList.remove("is-dragging");
         isNavigating = false;
         // Fallback to full page load
         window.location.href = url;
@@ -624,15 +644,17 @@
           direction === "prev" ? window.innerWidth : -window.innerWidth;
         currentStoryView.style.transform = `translateX(${targetX}px)`;
 
-        // Navigate immediately without delay for instant feel
+        // Navigate with slight delay to show slide animation
         setTimeout(() => {
           hideSwipeIndicator();
+          // Trigger navigation
           if (direction === "prev") {
             currentPrevBtn.click();
           } else {
             currentNextBtn.click();
           }
-        }, 100);
+          // Reset will happen in loadStoryContent
+        }, 120);
       } else {
         // Quick snap back to original position
         currentStoryView.style.transition =
