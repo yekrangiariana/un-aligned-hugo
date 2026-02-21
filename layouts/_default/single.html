@@ -161,6 +161,15 @@
     <script src="/js/essential-stories.js" defer></script>
   {{- else -}}
     {{- /* DEFAULT POST VIEW */ -}}
+    {{- /* Load Essential Stories CSS for carousel */ -}}
+    {{- $allPosts := where .Site.RegularPages "Section" "posts" -}}
+    {{- $essentialStories := where $allPosts ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
+    {{- $sevenDaysAgo := now.AddDate 0 0 -7 -}}
+    {{- $essentialStories = where $essentialStories ".Date" "ge" $sevenDaysAgo -}}
+    {{- if $essentialStories -}}
+    {{ $essentialStoriesCSS := resources.Get "css/essential-stories.css" }}
+    <link rel="stylesheet" href="{{ $essentialStoriesCSS.RelPermalink }}" />
+    {{- end -}}
   <!-- Check for specific categories anywhere in the categories list -->
   {{ $hasGallery := false }}
   {{ $hasCulture := false }}
@@ -642,6 +651,7 @@
             </div>
             {{ end }}
             <div>
+              {{ partial "essential-stories.html" . }}
               {{ partial "related.html" . }}
               {{ if .Site.Params.postAds }}
               <div class="post-ads">{{ .Site.Params.postAds | safeHTML }}</div>

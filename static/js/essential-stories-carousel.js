@@ -14,9 +14,46 @@
     const firstCard = carousel.querySelector(".article-card");
     if (!firstCard) return;
 
-    const cardWidth = firstCard.offsetWidth + 20; // Card width + gap
+    const cardWidth = firstCard.offsetWidth + 15; // Card width + gap
 
-    // Scroll by one card width
+    // Read tracking functionality
+    const STORAGE_KEY = "essentialStoriesRead";
+    
+    // Get read articles from localStorage
+    function getReadArticles() {
+      const stored = localStorage.getItem(STORAGE_KEY);
+      return stored ? JSON.parse(stored) : [];
+    }
+    
+    // Save article as read
+    function markAsRead(url) {
+      const readArticles = getReadArticles();
+      if (!readArticles.includes(url)) {
+        readArticles.push(url);
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(readArticles));
+      }
+    }
+    
+    // Mark existing read cards on page load
+    const readArticles = getReadArticles();
+    const cards = carousel.querySelectorAll(".article-card");
+    cards.forEach(function(card) {
+      const link = card.querySelector(".article-card-link");
+      if (link) {
+        const href = link.getAttribute("href");
+        if (readArticles.includes(href)) {
+          card.classList.add("read");
+        }
+        
+        // Track clicks to mark as read
+        link.addEventListener("click", function() {
+          markAsRead(href);
+          card.classList.add("read");
+        });
+      }
+    });
+
+    // Button controls - smooth scroll by card width
     prevButton.addEventListener("click", function () {
       carousel.scrollBy({ left: -cardWidth, behavior: "smooth" });
     });
@@ -25,99 +62,37 @@
       carousel.scrollBy({ left: cardWidth, behavior: "smooth" });
     });
 
-    // Touch and swipe functionality
-    let isDown = false;
+    // Simple drag to scroll
+    let isDragging = false;
     let startX;
-    let scrollLeft;
-    let startTime;
-    let velocity = 0;
-    let hasMoved = false;
+    let scrollStart;
 
-    // Touch start / Mouse down
-    const handleStart = function (e) {
-      isDown = true;
-      hasMoved = false;
+    carousel.addEventListener("mousedown", function (e) {
+      isDragging = true;
       carousel.style.cursor = "grabbing";
-      carousel.style.scrollSnapType = "none"; // Disable snap during drag
+      startX = e.pageX - carousel.offsetLeft;
+      scrollStart = carousel.scrollLeft;
+    });
 
-      startX =
-        (e.type === "touchstart" ? e.touches[0].pageX : e.pageX) -
-        carousel.offsetLeft;
-      scrollLeft = carousel.scrollLeft;
-      startTime = Date.now();
-      velocity = 0;
-    };
+    carousel.addEventListener("mousemove", function (e) {
+      if (!isDragging) return;
+      e.preventDefault();
+      const x = e.pageX - carousel.offsetLeft;
+      const walk = (x - startX) * 2;
+      carousel.scrollLeft = scrollStart - walk;
+    });
 
-    // Touch move / Mouse move
-    const handleMove = function (e) {
-      if (!isDown) return;
-
-      const x =
-        (e.type === "touchmove" ? e.touches[0].pageX : e.pageX) -
-        carousel.offsetLeft;
-      const walk = (x - startX) * 1.5; // Scroll speed multiplier
-
-      // If user has moved more than 5px, consider it a drag
-      if (Math.abs(walk) > 5) {
-        hasMoved = true;
-        e.preventDefault();
-      }
-
-      const currentScrollLeft = scrollLeft - walk;
-      carousel.scrollLeft = currentScrollLeft;
-
-      // Calculate velocity for momentum
-      const currentTime = Date.now();
-      const timeElapsed = currentTime - startTime;
-      if (timeElapsed > 0) {
-        velocity = walk / timeElapsed;
-      }
-    };
-
-    // Touch end / Mouse up
-    const handleEnd = function (e) {
-      if (!isDown) return;
-      isDown = false;
+    carousel.addEventListener("mouseup", function () {
+      isDragging = false;
       carousel.style.cursor = "grab";
+    });
 
-      // Re-enable scroll snap
-      setTimeout(() => {
-        carousel.style.scrollSnapType = "x mandatory";
-      }, 50);
+    carousel.addEventListener("mouseleave", function () {
+      isDragging = false;
+      carousel.style.cursor = "grab";
+    });
 
-      // Apply momentum based on velocity
-      if (Math.abs(velocity) > 0.5) {
-        const momentumDistance = velocity * 200; // Adjust momentum strength
-        carousel.scrollBy({
-          left: -momentumDistance,
-          behavior: "smooth",
-        });
-      }
-    };
-
-    // Prevent click if dragged
-    const handleClick = function (e) {
-      if (hasMoved) {
-        e.preventDefault();
-        e.stopPropagation();
-      }
-    };
-
-    // Mouse events
-    carousel.addEventListener("mousedown", handleStart);
-    carousel.addEventListener("mousemove", handleMove);
-    carousel.addEventListener("mouseup", handleEnd);
-    carousel.addEventListener("mouseleave", handleEnd);
-
-    // Touch events
-    carousel.addEventListener("touchstart", handleStart, { passive: true });
-    carousel.addEventListener("touchmove", handleMove, { passive: false });
-    carousel.addEventListener("touchend", handleEnd);
-
-    // Prevent clicks after dragging
-    carousel.addEventListener("click", handleClick, true);
-
-    // Set initial cursor
+    // Set cursor
     carousel.style.cursor = "grab";
   }
 

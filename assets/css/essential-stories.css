@@ -49,8 +49,7 @@
 .essential-stories-grid {
   display: flex;
   overflow-x: scroll;
-  scroll-behavior: smooth;
-  scroll-snap-type: x mandatory;
+  overflow-y: hidden;
   gap: 15px;
   margin-top: 10px;
   padding-left: 20px;
@@ -66,6 +65,7 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  touch-action: pan-x;
 }
 
 .essential-stories-grid:active {
@@ -82,15 +82,24 @@
   min-width: 240px;
   max-width: 240px;
   height: 360px;
-  scroll-snap-align: start;
   position: relative;
   overflow: hidden;
   border-radius: 4px;
   transition:
     transform 0.2s ease,
-    box-shadow 0.2s ease;
+    box-shadow 0.2s ease,
+    opacity 0.3s ease;
   cursor: pointer;
   background: #111;
+}
+
+/* Mark read cards as semi-transparent */
+.essential-stories-grid .article-card.read {
+  opacity: 0.5;
+}
+
+.essential-stories-grid .article-card.read:hover {
+  opacity: 0.7;
 }
 
 /* All cards share identical dimensions */
@@ -523,6 +532,20 @@ body.dark-mode .story-quote-attribute {
   padding: 0;
   font-family: var(--font-family-primary);
   overflow: hidden;
+  /* Performance optimizations for smooth swipe */
+  will-change: transform;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+  touch-action: pan-y pinch-zoom;
+}
+
+.essential-story-view.is-dragging {
+  cursor: grabbing;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: none;
 }
 
 /* Top Control Bar - inline above content */
@@ -1373,6 +1396,151 @@ body.dark-mode .story-preview-right {
 
 .dark-mode .story-swipe-indicator svg {
   color: var(--dark-color-primary);
+}
+
+/* Comprehensive dark mode support for Essential Story View */
+body.dark-mode .essential-story-view {
+  background-color: #292828;
+  color: #e0e0e0;
+}
+
+body.dark-mode .story-content-wrapper {
+  background-color: #292828;
+}
+
+body.dark-mode .story-title {
+  color: #ffffff;
+}
+
+body.dark-mode .story-date {
+  color: #ffffff;
+  border-color: #404040;
+}
+
+body.dark-mode .story-content,
+body.dark-mode .story-content p,
+body.dark-mode .story-content div,
+body.dark-mode .story-content li,
+body.dark-mode .story-content span {
+  color: #e0e0e0;
+}
+
+body.dark-mode .story-content h1,
+body.dark-mode .story-content h2,
+body.dark-mode .story-content h3 {
+  color: #ffffff;
+}
+
+body.dark-mode .story-content h4,
+body.dark-mode .story-content h5,
+body.dark-mode .story-content h6 {
+  color: #e0e0e0;
+}
+
+body.dark-mode .story-content a {
+  color: #d42b63;
+}
+
+body.dark-mode .story-content a:hover {
+  color: #88c5ff;
+}
+
+body.dark-mode .story-image {
+  border-color: #404040;
+}
+
+body.dark-mode .story-image-credit {
+  color: #b0b0b0;
+}
+
+body.dark-mode .story-category-badge {
+  background-color: rgb(187, 0, 0);
+  color: #ffffff;
+  border-color: #404040;
+}
+
+body.dark-mode .story-controls {
+  background-color: #242424;
+  border-color: #404040;
+}
+
+body.dark-mode .story-control-btn {
+  background-color: #2d2d2d;
+  color: #ffffff;
+  border-color: #404040;
+}
+
+body.dark-mode .story-control-btn:hover:not(:disabled) {
+  background-color: #404040;
+}
+
+body.dark-mode .story-progress-bar {
+  background-color: #242424;
+  border-color: #404040;
+}
+
+body.dark-mode .story-swipe-indicator {
+  color: #cccccc;
+}
+
+/* Dark mode for markdown elements in story content */
+body.dark-mode .story-content blockquote {
+  background-color: #242424;
+  border-color: #404040;
+  color: #e0e0e0;
+}
+
+body.dark-mode .story-content blockquote p {
+  color: #e0e0e0;
+}
+
+body.dark-mode .story-content pre,
+body.dark-mode .story-content code {
+  background-color: #242424;
+  color: #e0e0e0;
+  border-color: #404040;
+}
+
+body.dark-mode .story-content table {
+  border-color: #404040;
+}
+
+body.dark-mode .story-content th,
+body.dark-mode .story-content td {
+  border-color: #333333;
+  color: #e0e0e0;
+}
+
+body.dark-mode .story-content th {
+  background-color: #242424;
+  color: #ffffff;
+}
+
+body.dark-mode .story-content hr {
+  border-color: #333333;
+}
+
+body.dark-mode .story-content strong,
+body.dark-mode .story-content b {
+  color: #ffffff;
+}
+
+body.dark-mode .story-content em,
+body.dark-mode .story-content i {
+  color: #e0e0e0;
+}
+
+/* Ensure markdown-body styling applies */
+body.dark-mode .story-content.markdown-body {
+  color: #e0e0e0;
+}
+
+body.dark-mode .story-content.markdown-body a {
+  color: #d42b63;
+}
+
+body.dark-mode .story-content.markdown-body a:hover {
+  color: #88c5ff;
 }
 
 /* Preload hint for next story */
