@@ -849,15 +849,8 @@ body.dark-mode .story-nav-link.is-current {
     opacity 0.2s ease;
   transform: translateX(0);
   opacity: 1;
-}
-
-.story-content-wrapper--no-nav {
-  padding-top: var(--spacing-lg, 2rem);
-}
-
-.story-content-wrapper.is-dragging {
-  cursor: grabbing;
-  user-select: none;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
 /* Story category badge - positioned above title */
@@ -1030,7 +1023,6 @@ a.story-category-badge:hover {
   width: 100vw;
   z-index: 2000;
   box-sizing: border-box;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
 }
 
 /* Center progress bar on desktop/tablet and remove sticky behavior */
@@ -1386,14 +1378,6 @@ body.dark-mode .story-preview-right {
 
 .dark-mode .story-image-credit {
   color: var(--dark-color-text-credit);
-}
-
-.dark-mode .story-swipe-indicator {
-  color: var(--dark-color-text-light);
-}
-
-.dark-mode .story-swipe-indicator svg {
-  color: var(--dark-color-primary);
 }
 
 /* Comprehensive dark mode support for Essential Story View */
