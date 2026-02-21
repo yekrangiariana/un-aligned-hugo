@@ -439,8 +439,6 @@
     }, 2000);
   }
 
-
-
   function normalizeAnswer(value) {
     return value
       .trim()
