@@ -217,8 +217,9 @@ body.dark-mode .article-card-content {
 /* Category-Specific Styling */
 body.dark-mode {
   /* Category text colors */
-  --categories: culture, gallery, interview, comments, environment, technology,
-    science, politics;
+  --categories:
+    culture, gallery, interview, comments, environment, technology, science,
+    politics;
 }
 
 /* Category text colors - moved to category-colors.css for centralized management */

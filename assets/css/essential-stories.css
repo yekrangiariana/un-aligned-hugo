@@ -402,6 +402,14 @@ body.dark-mode .story-quote-attribute {
   color: var(--dark-color-text-light);
 }
 
+body.dark-mode .story-quote-text {
+  color: var(--dark-color-text);
+}
+
+body.dark-mode .quotes-compilation-content {
+  color: var(--dark-color-text);
+}
+
 @media (max-width: 768px) {
   .quotes-compilation-content {
     gap: 32px;
@@ -772,7 +780,7 @@ body.dark-mode .story-nav-link.is-current {
 @media (min-width: 768px) {
   .story-nav-btn {
     width: auto;
-    min-width: 80px;
+    min-width: 90px;
     padding: 10px 20px;
     gap: 8px;
     height: auto;
@@ -780,6 +788,11 @@ body.dark-mode .story-nav-link.is-current {
     font-family: var(--font-family-primary);
     letter-spacing: 0.3px;
     transition: all 0.2s ease;
+  }
+
+  .story-nav-btn svg {
+    width: 20px;
+    height: 20px;
   }
 
   .story-nav-btn .nav-btn-text {
@@ -1018,13 +1031,28 @@ a.story-category-badge:hover {
   border-top: var(--border-thin-light);
   position: fixed;
   bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  max-width: 700px;
+  left: 0;
+  right: 0;
+  transform: none;
+  max-width: 100%;
   width: 100%;
   z-index: 2000;
   box-sizing: border-box;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
+}
+
+/* Center progress bar on desktop/tablet and remove sticky behavior */
+@media (min-width: 768px) {
+  .story-progress-bar {
+    position: static;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    transform: none;
+    max-width: 700px;
+    width: 100%;
+    margin: 0 auto;
+  }
 }
 
 /* Preview containers for swipe navigation */
@@ -1070,15 +1098,15 @@ body.dark-mode .story-preview-right {
 
 /* Navigation buttons in bottom bar */
 .story-nav-btn {
-  width: 36px;
-  height: 36px;
+  width: 44px;
+  height: 44px;
   padding: var(--spacing-xs);
   flex-shrink: 0;
 }
 
 .story-nav-btn svg {
-  width: 18px;
-  height: 18px;
+  width: 22px;
+  height: 22px;
 }
 
 /* Progress segments container */
@@ -1168,13 +1196,13 @@ body.dark-mode .story-preview-right {
   }
 
   .story-nav-btn {
-    width: 32px;
-    height: 32px;
+    width: 38px;
+    height: 38px;
   }
 
   .story-nav-btn svg {
-    width: 16px;
-    height: 16px;
+    width: 20px;
+    height: 20px;
   }
 
   .next-story-preview,
@@ -1239,13 +1267,13 @@ body.dark-mode .story-preview-right {
   }
 
   .story-nav-btn {
-    width: 30px;
-    height: 30px;
+    width: 36px;
+    height: 36px;
   }
 
   .story-nav-btn svg {
-    width: 14px;
-    height: 14px;
+    width: 18px;
+    height: 18px;
   }
 
   .next-story-preview,
@@ -1297,8 +1325,8 @@ body.dark-mode .story-preview-right {
   }
 
   .story-nav-btn {
-    width: 28px;
-    height: 28px;
+    width: 34px;
+    height: 34px;
   }
 
   .next-story-preview,
@@ -1581,6 +1609,26 @@ body.dark-mode .story-content.markdown-body a {
 
 body.dark-mode .story-content.markdown-body a:hover {
   color: #88c5ff;
+}
+
+/* Dark mode for quotes view */
+body.dark-mode .quotes-view {
+  background-color: #292828;
+}
+
+body.dark-mode .quotes-view .story-category-badge {
+  background-color: rgb(187, 0, 0);
+  color: #ffffff;
+  border-color: #404040;
+}
+
+body.dark-mode .quotes-view .story-title {
+  color: #ffffff;
+}
+
+body.dark-mode .quotes-view .story-date {
+  color: #ffffff;
+  border-color: #404040;
 }
 
 /* Preload hint for next story */

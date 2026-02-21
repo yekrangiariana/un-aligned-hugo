@@ -5,12 +5,21 @@
   --quiz-green: #2f7d32;
   --quiz-green-dark: #256428;
   --quiz-green-soft: rgba(47, 125, 50, 0.12);
+  background-color: var(--color-background);
+}
+
+body.dark-mode .quiz-view {
+  background-color: #292828;
 }
 
 .quiz-container {
   max-width: 700px;
   margin: 0 auto;
   padding: 16px;
+}
+
+body.dark-mode .quiz-container {
+  color: #e0e0e0;
 }
 
 /* Quiz Start Screen Header */
@@ -1517,12 +1526,12 @@
 
 /* Dark Mode */
 .dark-mode .quiz-badge {
-  background: var(--dark-color-text);
-  color: var(--dark-color-background);
+  background: #1a1a1a;
+  color: #ffffff;
 }
 
 .dark-mode .quiz-start-illustration svg {
-  color: var(--dark-color-text);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-start-title {
@@ -1530,19 +1539,19 @@
 }
 
 .dark-mode .quiz-start-description {
-  color: var(--dark-color-text);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-stat-item {
   background: transparent;
   border-color: rgba(255, 255, 255, 0.2);
-  color: var(--dark-color-text);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-info-item {
   background: var(--dark-color-bg-light);
   border: var(--dark-border-thin-light);
-  border-top: 2px solid var(--dark-color-text);
+  border-top: 2px solid #ffffff;
 }
 
 .dark-mode .quiz-info-value,
@@ -1569,12 +1578,12 @@
 }
 
 .dark-mode .quiz-question-progress-fill {
-  background: var(--dark-color-text);
+  background: #ffffff;
   box-shadow: none;
 }
 
 .dark-mode .quiz-question-progress-text {
-  color: var(--dark-color-text);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-question-progress-text span {
@@ -1586,36 +1595,49 @@
 }
 
 .dark-mode .quiz-progress-fill {
-  background: var(--dark-color-text);
+  background: #ffffff;
 }
 
 .dark-mode .quiz-btn {
-  background: var(--dark-color-text);
-  color: var(--dark-color-background);
+  background: #ffffff;
+  color: #1a1a1a;
   box-shadow: none;
 }
 
 .dark-mode .quiz-btn:hover {
-  background: var(--dark-color-primary);
+  background: var(--dark-color-primary, #d42b63);
+  color: #ffffff;
   box-shadow: none;
+}
+
+.dark-mode .quiz-start-btn {
+  background: #ffffff;
+  color: #1a1a1a;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
+}
+
+.dark-mode .quiz-start-btn:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+  background: var(--dark-color-primary, #d42b63);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-home-btn {
   background: rgba(255, 255, 255, 0.1);
-  color: var(--dark-color-text);
-  border-color: var(--dark-color-text);
+  color: #ffffff;
+  border-color: #ffffff;
   backdrop-filter: blur(10px);
 }
 
 .dark-mode .quiz-home-btn:hover {
-  background: var(--dark-color-text);
-  color: var(--dark-color-background);
+  background: #ffffff;
+  color: #1a1a1a;
 }
 
 .dark-mode .quiz-answer-input {
   background: var(--dark-color-background);
   border-color: rgba(255, 255, 255, 0.3);
-  color: var(--dark-color-text);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-answer-input:focus {
@@ -1630,7 +1652,7 @@
 .dark-mode .quiz-option-btn {
   background: var(--dark-color-background);
   border-color: rgba(255, 255, 255, 0.2);
-  color: var(--dark-color-text);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-option-btn:hover:not(:disabled) {
@@ -1645,12 +1667,13 @@
 }
 
 .dark-mode .quiz-submit-btn {
-  background: var(--dark-color-text);
-  color: var(--dark-color-background);
+  background: #ffffff;
+  color: #1a1a1a;
 }
 
 .dark-mode .quiz-submit-btn:hover:not(:disabled) {
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--dark-color-primary, #d42b63);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-action-buttons {
@@ -1659,7 +1682,7 @@
 
 .dark-mode .quiz-best-score {
   background: rgba(255, 255, 255, 0.15);
-  color: var(--dark-color-text);
+  color: #ffffff;
   box-shadow: none;
 }
 
@@ -1669,7 +1692,7 @@
     rgba(72, 182, 73, 0.15) 0%,
     rgba(72, 182, 73, 0.05) 100%
   );
-  color: var(--dark-color-text);
+  color: #ffffff;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
   border-color: rgba(72, 182, 73, 0.25);
 }
@@ -1679,14 +1702,14 @@
 }
 
 .dark-mode .quiz-score-message {
-  color: var(--dark-color-text);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-start-icon-wrapper {
   background: linear-gradient(
     135deg,
     var(--dark-color-primary) 0%,
-    var(--dark-color-text) 100%
+    #e6537a 100%
   );
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
 }
@@ -1697,13 +1720,13 @@
 }
 
 .dark-mode .quiz-start-hero .quiz-badge {
-  background: var(--dark-color-background);
-  color: var(--dark-color-text);
-  border-color: var(--dark-color-text);
+  background: #1a1a1a;
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .dark-mode .quiz-stat {
-  color: var(--dark-color-text);
+  color: #ffffff;
 }
 
 .dark-mode .quiz-stat svg {
@@ -1712,35 +1735,36 @@
 
 .dark-mode .quiz-continue-btn {
   background: transparent;
-  color: var(--dark-color-text);
-  border-color: var(--dark-color-text);
+  color: #ffffff;
+  border-color: #ffffff;
 }
 
 .dark-mode .quiz-continue-btn:hover {
-  background: var(--dark-color-text);
-  color: var(--dark-color-background);
+  background: #ffffff;
+  color: #1a1a1a;
 }
 
 .dark-mode .quiz-restart-btn {
-  background: var(--dark-color-text);
-  color: var(--dark-color-background);
+  background: #ffffff;
+  color: #1a1a1a;
   box-shadow: 0 4px 14px rgba(0, 0, 0, 0.3);
 }
 
 .dark-mode .quiz-restart-btn:hover {
-  background: var(--dark-color-primary);
+  background: var(--dark-color-primary, #d42b63);
+  color: #ffffff;
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
 
 .dark-mode .quiz-quotes-btn {
   background: transparent;
-  color: var(--dark-color-text);
-  border-color: rgba(255, 255, 255, 0.3);
+  color: #ffffff;
+  border-color: rgba(255, 255, 255, 0.4);
 }
 
 .dark-mode .quiz-quotes-btn:hover {
-  background: rgba(255, 255, 255, 0.08);
-  border-color: var(--dark-color-text);
+  background: rgba(255, 255, 255, 0.15);
+  border-color: #ffffff;
 }
 
 .dark-mode .quiz-results-header {
@@ -1769,14 +1793,14 @@
 /* Dark mode option styling */
 .dark-mode .quiz-option {
   background: rgba(255, 255, 255, 0.08);
-  color: var(--dark-color-text);
+  color: #ffffff;
   border: 2px solid rgba(255, 255, 255, 0.15);
   box-shadow: 0 3px 10px rgba(0, 0, 0, 0.3);
 }
 
 .dark-mode .quiz-option:hover {
   background: rgba(255, 255, 255, 0.12);
-  color: var(--dark-color-text);
+  color: #ffffff;
   border-color: rgba(255, 255, 255, 0.3);
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
 }
