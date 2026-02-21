@@ -34,23 +34,44 @@
       }
     }
 
-    // Mark existing read cards on page load
+    // Mark existing read cards on page load and reorder
     const readArticles = getReadArticles();
     const cards = carousel.querySelectorAll(".article-card");
+    const unreadCards = [];
+    const readCards = [];
+
     cards.forEach(function (card) {
       const link = card.querySelector(".article-card-link");
       if (link) {
         const href = link.getAttribute("href");
-        if (readArticles.includes(href)) {
+        const isRead = readArticles.includes(href);
+        
+        if (isRead) {
           card.classList.add("read");
+          readCards.push(card);
+        } else {
+          unreadCards.push(card);
         }
 
         // Track clicks to mark as read
         link.addEventListener("click", function () {
           markAsRead(href);
           card.classList.add("read");
+          
+          // Move card to end of carousel after marking as read
+          setTimeout(function() {
+            carousel.appendChild(card);
+          }, 300); // Small delay for visual feedback
         });
       }
+    });
+
+    // Reorder: unread cards first, then read cards
+    unreadCards.forEach(function(card) {
+      carousel.appendChild(card);
+    });
+    readCards.forEach(function(card) {
+      carousel.appendChild(card);
     });
 
     // Button controls - smooth scroll by card width

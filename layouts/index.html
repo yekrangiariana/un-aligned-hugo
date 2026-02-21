@@ -47,13 +47,18 @@
                 {{- /* Combine featured and non-featured pages in order */ -}}
                 {{- $allPages := union $featuredPages $nonFeaturedPages -}}
                 
-                {{- /* Essential Stories carousel as first item */ -}}
-                <div style="grid-column: 1 / -1; width: 100%;">
+                {{- /* Render first article */ -}}
+                {{- range first 1 $allPages -}}
+                  {{ partial "article-card.html" . }}
+                {{- end -}}
+                
+                {{- /* Essential Stories carousel - will appear first visually via CSS */ -}}
+                <div class="essential-stories-carousel-wrapper" style="grid-column: 1 / -1; width: 100%; order: -1;">
                   {{ partial "essential-stories.html" . }}
                 </div>
                 
-                {{- /* Render all articles (1-20) */ -}}
-                {{- range first 20 $allPages -}}
+                {{- /* Render remaining articles (2-20) */ -}}
+                {{- range after 1 (first 20 $allPages) -}}
                   {{ partial "article-card.html" . }}
                 {{- end -}}
 

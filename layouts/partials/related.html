@@ -99,9 +99,20 @@
 <script>
 document.addEventListener('DOMContentLoaded', function() {
   const carousel = document.querySelector('.related-content-grid');
-  const prevButton = document.querySelector('.carousel-control-prev');
-  const nextButton = document.querySelector('.carousel-control-next');
-  const cardWidth = carousel.querySelector('.article-card').offsetWidth + 20; // Card width + gap
+  if (!carousel) return;
+  
+  const relatedContent = carousel.closest('.related-content');
+  if (!relatedContent) return;
+  
+  const prevButton = relatedContent.querySelector('.carousel-control-prev');
+  const nextButton = relatedContent.querySelector('.carousel-control-next');
+  
+  if (!prevButton || !nextButton) return;
+  
+  const firstCard = carousel.querySelector('.article-card');
+  if (!firstCard) return;
+  
+  const cardWidth = firstCard.offsetWidth + 20; // Card width + gap
   
   // Scroll by one card width
   prevButton.addEventListener('click', function() {

@@ -100,7 +100,7 @@
 }
 
 .article-grid .article-card:first-of-type .article-card-image,
-.article-grid .article-card:nth-child(4) .article-card-image {
+.article-grid .article-card:nth-of-type(4) .article-card-image {
   height: auto;
   aspect-ratio: auto;
 }
