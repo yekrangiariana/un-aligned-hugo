@@ -5,6 +5,17 @@
           {{ $gordianCSS := resources.Get "css/gordian.css" }}
           <link rel="stylesheet" href="{{ $gordianCSS.RelPermalink }}" />
           
+          {{- /* Only load Essential Stories CSS if there are essential stories */ -}}
+          {{- $allPosts := where .Site.RegularPages "Section" "posts" -}}
+          {{- $essentialStories := where $allPosts ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
+          {{- $sevenDaysAgo := now.AddDate 0 0 -7 -}}
+          {{- $essentialStories = where $essentialStories ".Date" "ge" $sevenDaysAgo -}}
+          {{- if $essentialStories -}}
+          <!-- Load Essential Stories CSS -->
+          {{ $essentialStoriesCSS := resources.Get "css/essential-stories.css" }}
+          <link rel="stylesheet" href="{{ $essentialStoriesCSS.RelPermalink }}" />
+          {{- end -}}
+          
           <main id="posts-list">
             <!-- Current Gordian Issue Section -->
             <section id="current-gordian" class="category-section latest-issue" aria-labelledby="current-gordian-heading">
@@ -26,19 +37,25 @@
                 
                 {{- /* Get only posts section, excluding gordian */ -}}
                 {{- $regularPages := where .Site.RegularPages "Section" "posts" -}}
+                {{- /* Exclude Essential Stories of the Week from Recent section */ -}}
+                {{- $essentialPages := where $regularPages ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
+                {{- $regularPages = $regularPages | complement $essentialPages -}}
                 {{- /* Display all featured posts first */ -}}
                 {{- $featuredPages := where $regularPages ".Params.feature" true -}}
-                {{- range $featuredPages -}}
+                {{- $nonFeaturedPages := where $regularPages ".Params.feature" "ne" true -}}
+                
+                {{- /* Combine featured and non-featured pages in order */ -}}
+                {{- $allPages := union $featuredPages $nonFeaturedPages -}}
+                
+                {{- /* Essential Stories carousel as first item */ -}}
+                <div style="grid-column: 1 / -1; width: 100%;">
+                  {{ partial "essential-stories.html" . }}
+                </div>
+                
+                {{- /* Render all articles (1-20) */ -}}
+                {{- range first 20 $allPages -}}
                   {{ partial "article-card.html" . }}
                 {{- end -}}
-                {{- /* Then fill remaining slots with non-featured posts */ -}}
-                {{- $nonFeaturedPages := where $regularPages ".Params.feature" "ne" true -}}
-                {{- $remainingSlots := sub 20 (len $featuredPages) -}}
-                {{- if gt $remainingSlots 0 -}}
-                  {{- range first $remainingSlots $nonFeaturedPages -}}
-                    {{ partial "article-card.html" . }}
-                  {{- end -}}
-                  {{- end -}}
 
                   <a href="/posts/page/2/" class="load-more simple-button" style="width: fit-content;">See all posts
                     <i class="fas fa-arrow-right"></i>

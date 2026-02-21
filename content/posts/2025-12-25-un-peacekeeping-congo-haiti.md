@@ -15,7 +15,7 @@ image: "/images/un-blue-helmets.jpg"
 imageCaption: "Norwegian Peacekeeper during the Siege of Sarajevo, 1992–1993 Photo: Mikhail Evstafiev © CC BY-SA 3.0"
 ---
 
-Blue Helmets, Broken Promises
+## Blue Helmets, Broken Promises
 
 For decades, the United Nations has presented its peacekeepers as impartial guardians of stability, blue helmets standing between chaos and calm. But in two of the world’s most fragile states, the Democratic Republic of Congo and Haiti, that image has collapsed. Behind the language of humanitarianism lies a far darker reality, one in which peacekeeping missions have enabled foreign resource extraction, suppressed dissent and left behind legacies of disease, violence and abuse.
 

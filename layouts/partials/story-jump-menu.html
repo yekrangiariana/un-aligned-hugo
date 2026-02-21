@@ -1,0 +1,28 @@
+{{- /*
+  story-jump-menu.html
+  Centralised "Jump to" dropdown for the Essential Stories carousel.
+
+  Call with a dict:
+    Stories     - slice of story pages (already filtered to the relevant window)
+    HasQuiz     - bool — true when ≥ 3 quiz questions exist across the stories
+    HasQuotes   - bool — true when ≥ 1 quote  exists across the stories
+    CurrentPath - RelPermalink of the current page (empty string on quiz/quotes pages)
+    CurrentPage - "quiz" | "quotes" | "" — marks one of the terminal links as current
+*/ -}}
+<details class="story-nav-menu">
+  <summary class="story-nav-summary" aria-label="Navigate to another story">
+    Jump to <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+  </summary>
+  <div class="story-nav-panel">
+    <div class="story-nav-heading">Essential Stories</div>
+    {{- range .Stories -}}
+      <a href="{{ .RelPermalink }}" class="story-nav-link{{ if eq .RelPermalink $.CurrentPath }} is-current{{ end }}">{{ .Title }}</a>
+    {{- end -}}
+    {{- if .HasQuiz -}}
+      <a href="/essential-stories-quiz/" class="story-nav-link story-nav-link-terminal{{ if eq .CurrentPage "quiz" }} is-current{{ end }}">Weekly Quiz</a>
+    {{- end -}}
+    {{- if .HasQuotes -}}
+      <a href="/essential-stories-quotes/" class="story-nav-link story-nav-link-terminal{{ if eq .CurrentPage "quotes" }} is-current{{ end }}">Weekly Quotes</a>
+    {{- end -}}
+  </div>
+</details>

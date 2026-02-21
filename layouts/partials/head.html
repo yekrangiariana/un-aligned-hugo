@@ -232,6 +232,9 @@
     {{ end }}
   {{ end }}
 
+  <!-- Page transitions - loaded early for immediate fade effect -->
+  <script src="{{ "js/page-transitions.js" | absURL }}" type="text/javascript"></script>
+
   <!-- Dark Mode functionality - deferred to avoid blocking render -->
   <script defer src="{{ "js/simple-dark-mode.js" | absURL }}" type="text/javascript"></script>
 

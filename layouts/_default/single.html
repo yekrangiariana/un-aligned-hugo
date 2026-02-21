@@ -1,4 +1,166 @@
 {{ define "main" }}
+  {{- /* Check if this is an Essential Story first */ -}}
+  {{- $isEssentialStory := false -}}
+  {{- range .Params.categories -}}
+    {{- if eq (lower .) "essential stories of the week" -}}
+      {{- $isEssentialStory = true -}}
+    {{- end -}}
+  {{- end -}}
+
+  {{- if $isEssentialStory -}}
+    {{- /* ESSENTIAL STORY VIEW */ -}}
+    {{ $essentialStoriesCSS := resources.Get "css/essential-stories.css" }}
+    <link rel="stylesheet" href="{{ $essentialStoriesCSS.RelPermalink }}" />
+    {{ $readingFeaturesCSS := resources.Get "css/reading-features.css" }}
+    <link rel="stylesheet" href="{{ $readingFeaturesCSS.RelPermalink }}" />
+    
+    {{- $allPosts := where .Site.RegularPages "Section" "posts" -}}
+    {{- $allEssentialStories := where $allPosts ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
+    {{- $allEssentialStories = $allEssentialStories.ByDate.Reverse -}}
+    {{- $sevenDaysAgo := now.AddDate 0 0 -7 -}}
+    {{- $isRecentStory := .Date.After $sevenDaysAgo -}}
+    {{- /* For nav/prev/next, only use recent stories if this post is recent; otherwise use all */ -}}
+    {{- $essentialStories := $allEssentialStories -}}
+    {{- if $isRecentStory -}}
+      {{- $essentialStories = where $allEssentialStories ".Date" "ge" $sevenDaysAgo -}}
+    {{- end -}}
+    
+    {{- $currentIndex := 0 -}}
+    {{- range $index, $story := $essentialStories -}}
+      {{- if eq $story.RelPermalink $.RelPermalink -}}
+        {{- $currentIndex = $index -}}
+      {{- end -}}
+    {{- end -}}
+    
+    {{- $totalStories := len $essentialStories -}}
+    {{- /* Count quiz questions and quotes to conditionally show those pages */ -}}
+    {{- $totalQuizQuestions := 0 -}}
+    {{- $totalQuotes := 0 -}}
+    {{- range $essentialStories -}}
+      {{- with .Params.quiz -}}{{- $totalQuizQuestions = add $totalQuizQuestions (len .) -}}{{- end -}}
+      {{- with .Params.quotes -}}{{- $totalQuotes = add $totalQuotes (len .) -}}{{- end -}}
+    {{- end -}}
+    {{- $hasQuiz := ge $totalQuizQuestions 3 -}}
+    {{- $hasQuotes := ge $totalQuotes 1 -}}
+    {{- $prevStory := "" -}}
+    {{- $nextStory := "" -}}
+    {{- $isLastStory := false -}}
+    
+    {{- if gt $currentIndex 0 -}}
+      {{- $prevStory = (index $essentialStories (sub $currentIndex 1)) -}}
+    {{- end -}}
+    
+    {{- if lt $currentIndex (sub $totalStories 1) -}}
+      {{- $nextStory = (index $essentialStories (add $currentIndex 1)) -}}
+    {{- else -}}
+      {{- $isLastStory = true -}}
+    {{- end -}}
+    
+    <div class="essential-story-view">
+      <div class="story-content-wrapper{{ if not $isRecentStory }} story-content-wrapper--no-nav{{ end }}">
+        <!-- Top Control Bar -->
+        {{- if $isRecentStory -}}
+        <div class="story-controls">
+          {{- if or $nextStory $isLastStory -}}
+          {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories "HasQuiz" $hasQuiz "HasQuotes" $hasQuotes "CurrentPath" .RelPermalink "CurrentPage" "") }}
+          {{- end -}}
+          <span class="story-controls-count">{{ add $currentIndex 1 }} / {{ $totalStories }}</span>
+        </div>
+        {{- end -}}
+        
+        {{- with index .Params.categories 0 -}}
+          <a href="/categories/essential-stories-of-the-week/" class="story-category-badge">{{ . }}</a>
+        {{- end -}}
+        <h1 class="story-title" itemprop="headline">{{ .Title }}</h1>
+        {{- if .Date -}}
+          <time class="story-date" datetime="{{ .Date.Format "2006-01-02" }}" itemprop="datePublished">
+            {{ .Date.Format "January 2, 2006" }}
+          </time>
+        {{- end -}}
+        {{- if or .Params.image .Params.featuredImage -}}
+          <div class="story-image-container">
+            <img src="{{ or .Params.image .Params.featuredImage }}" alt="{{ .Title }}" class="story-image" itemprop="image">
+            {{- if .Params.imageCredit -}}
+              <span class="story-image-credit">{{ .Params.imageCredit }}</span>
+            {{- else if .Params.imageCaption -}}
+              <span class="story-image-credit">{{ .Params.imageCaption }}</span>
+            {{- end -}}
+          </div>
+        {{- end -}}
+        <div class="sidebar-item reading-features-container story-reading-features">
+          {{ partial "text-size-adjuster.html" . }}
+          {{ partial "favorite-article.html" . }}
+        </div>
+        <div class="story-content post-content markdown-body" itemprop="articleBody">
+          {{ .Content }}
+        </div>
+        
+        <!-- Swipe indicator for all devices -->
+        {{- if and $isRecentStory $nextStory -}}
+          <div class="story-swipe-indicator">
+            <div class="swipe-animation">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </div>
+            <span>Swipe for next story</span>
+          </div>
+        {{- end -}}
+      </div>
+      
+      <!-- Bottom Navigation Bar with Progress and Controls -->
+      {{- if $isRecentStory -}}
+      <div class="story-progress-bar">
+        {{- if $prevStory -}}
+          <a href="{{ $prevStory.RelPermalink }}" class="story-control-btn story-nav-btn" id="story-prev" aria-label="Previous story">
+            <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            <span class="nav-btn-text">Previous</span>
+          </a>
+        {{- else -}}
+          <button class="story-control-btn story-nav-btn" id="story-prev" disabled aria-label="No previous story">
+            <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+            <span class="nav-btn-text">Previous</span>
+          </button>
+        {{- end -}}
+        
+        <div class="story-progress-segments">
+          {{- range $index, $story := $essentialStories -}}
+            <div class="story-progress-segment {{ if lt $index $currentIndex }}past{{ else if eq $index $currentIndex }}active{{ end }}"></div>
+          {{- end -}}
+          {{- if $hasQuiz -}}<div class="story-progress-segment"></div>{{- end -}}
+          {{- if $hasQuotes -}}<div class="story-progress-segment"></div>{{- end -}}
+        </div>
+        
+        {{- if $nextStory -}}
+          <a href="{{ $nextStory.RelPermalink }}" class="story-control-btn story-nav-btn" id="story-next" aria-label="Next story">
+            <span class="nav-btn-text">Next</span>
+            <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </a>
+        {{- else if and $isLastStory $hasQuiz -}}
+          <a href="/essential-stories-quiz/" class="story-control-btn story-nav-btn" id="story-next" aria-label="Take quiz">
+            <span class="nav-btn-text">Quiz</span>
+            <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </a>
+        {{- else if and $isLastStory $hasQuotes -}}
+          <a href="/essential-stories-quotes/" class="story-control-btn story-nav-btn" id="story-next" aria-label="Read quotes">
+            <span class="nav-btn-text">Quotes</span>
+            <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </a>
+        {{- else -}}
+          <button class="story-control-btn story-nav-btn" id="story-next" disabled aria-label="No next story">
+            <span class="nav-btn-text">Next</span>
+            <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+          </button>
+        {{- end -}}
+      </div>
+      {{- end -}}
+      {{- if $nextStory -}}
+        <link rel="prefetch" href="{{ $nextStory.RelPermalink }}" class="preload-next-story">
+      {{- end -}}
+    </div>
+    <script src="/js/essential-stories.js" defer></script>
+  {{- else -}}
+    {{- /* DEFAULT POST VIEW */ -}}
   <!-- Check for specific categories anywhere in the categories list -->
   {{ $hasGallery := false }}
   {{ $hasCulture := false }}
@@ -493,4 +655,5 @@
   {{ if .Site.Params.extraBody }}
   {{ .Site.Params.extraBody | safeHTML }}
   {{ end }}
+  {{- end -}}{{- /* End of Essential Story conditional */ -}}
 {{ end }}

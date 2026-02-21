@@ -19,7 +19,7 @@ true }}{{ end }} {{ end
 >
   <a href="{{ .RelPermalink }}" class="article-card-link" itemprop="url">
     <div class="article-card-content">
-      <div class="article-card-tags">
+      <div classww="article-card-tags">
         {{ if $hasComments }}
           {{ with .Params.authors }}
           <span class="article-card-author" itemprop="author" itemscope itemtype="https://schema.org/Person">
@@ -41,7 +41,7 @@ true }}{{ end }} {{ end
       {{ else }}
       <h3 class="article-card-title" itemprop="headline">{{ .Title }}</h3>
       {{ end }}
-      <div class="article-card-description" itemprop="description">
+      <div class="article-card-description" §itemprop="description">
         {{ with .Description }} {{ . }} {{ else }} {{ $plainText := .Content |
         plainify | replaceRE "[\n\r]+" " " }} {{ $firstSentences := index (split
         $plainText ". ") 0 }} {{ if gt (len (split $plainText ". ")) 1 }} {{

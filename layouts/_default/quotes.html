@@ -1,0 +1,8 @@
+{{ define "main" }} {{ $essentialStoriesCSS := resources.Get
+"css/essential-stories.css" }}
+<link rel="stylesheet" href="{{ $essentialStoriesCSS.RelPermalink }}" />
+
+{{ partial "essential-stories-quotes.html" . }}
+
+<script src="/js/essential-stories.js" defer></script>
+{{ end }}

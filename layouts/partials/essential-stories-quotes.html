@@ -1,0 +1,139 @@
+{{- /* Essential Stories Quotes - appears after quiz as final item */ -}}
+{{- $allPosts := where .Site.RegularPages "Section" "posts" -}}
+{{- $essentialStories := where $allPosts ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
+{{- $essentialStories = $essentialStories.ByDate.Reverse -}}
+{{- $sevenDaysAgo := now.AddDate 0 0 -7 -}}
+{{- $recentStories := where $essentialStories ".Date" "ge" $sevenDaysAgo -}}
+{{- $lastRecentStory := index $recentStories (sub (len $recentStories) 1) -}}
+{{- $totalQuizQuestions := 0 -}}
+{{- range $recentStories -}}{{- with .Params.quiz -}}{{- $totalQuizQuestions = add $totalQuizQuestions (len .) -}}{{- end -}}{{- end -}}
+{{- $hasQuiz := ge $totalQuizQuestions 3 -}}
+
+{{- $quotesData := slice -}}
+{{- range $essentialStories -}}
+  {{- $story := . -}}
+  {{- with .Params.quotes -}}
+    {{- range . -}}
+      {{- $sentence := .sentence | default "" -}}
+      {{- $attribute := .attribute | default "" -}}
+      {{- if and $sentence $attribute -}}
+        {{- $quoteItem := dict "sentence" $sentence "attribute" $attribute "storyTitle" $story.Title "storyUrl" $story.RelPermalink -}}
+        {{- $quotesData = $quotesData | append $quoteItem -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
+{{- end -}}
+
+{{- if gt (len $quotesData) 0 -}}
+  {{- $lastStory := index $essentialStories (sub (len $essentialStories) 1) -}}
+<div class="essential-story-view quotes-view">
+  <div class="story-content-wrapper">
+    <div class="story-controls">
+      {{ partial "story-jump-menu.html" (dict "Stories" $recentStories "HasQuiz" $hasQuiz "HasQuotes" true "CurrentPath" "" "CurrentPage" "quotes") }}
+      <span class="story-controls-count">Weekly Quotes</span>
+    </div>
+
+    <span class="story-category-badge">Essential Stories of the Week</span>
+    <h1 class="story-title">Weekly Quotes Compilation</h1>
+    <time class="story-date" datetime="{{ now.Format "2006-01-02" }}">
+      {{ now.Format "January 2, 2006" }}
+    </time>
+
+    <div class="story-content quotes-compilation-content" itemprop="articleBody">
+      {{- range $quotesData -}}
+      <blockquote class="story-quote-item">
+        <p class="story-quote-sentence">
+          <span class="story-quote-mark">&ldquo;</span>
+          <span class="story-quote-text">{{ .sentence }}</span>
+        </p>
+        <div class="story-quote-attribution">
+          <span class="story-quote-line"></span>
+          <cite class="story-quote-attribute">{{ .attribute }}</cite>
+        </div>
+      </blockquote>
+      {{- end -}}
+    </div>
+  </div>
+
+  <div class="story-progress-bar">
+    {{- if $hasQuiz -}}
+    <a href="/essential-stories-quiz/" class="story-control-btn story-nav-btn" id="story-prev" aria-label="Back to quiz">
+      <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="nav-btn-text">Quiz</span>
+    </a>
+    {{- else if $lastRecentStory -}}
+    <a href="{{ $lastRecentStory.RelPermalink }}" class="story-control-btn story-nav-btn" id="story-prev" aria-label="Previous story">
+      <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="nav-btn-text">Previous</span>
+    </a>
+    {{- else -}}
+    <button class="story-control-btn story-nav-btn" id="story-prev" disabled aria-label="No previous">
+      <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="nav-btn-text">Previous</span>
+    </button>
+    {{- end -}}
+
+    <div class="story-progress-segments">
+      {{- range $index, $story := $recentStories -}}
+        <div class="story-progress-segment past"></div>
+      {{- end -}}
+      {{- if $hasQuiz -}}<div class="story-progress-segment past"></div>{{- end -}}
+      <div class="story-progress-segment active"></div>
+    </div>
+
+    <button class="story-control-btn story-nav-btn" id="story-next" disabled aria-label="No next story">
+      <span class="nav-btn-text">Next</span>
+      <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+</div>
+{{- else -}}
+<div class="essential-story-view quotes-view">
+  <div class="story-content-wrapper">
+    {{- $hasQuiz := false -}}
+    <div class="story-controls">
+      {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories "HasQuiz" $hasQuiz "HasQuotes" true "CurrentPath" "" "CurrentPage" "quotes") }}
+      <span class="story-controls-count">Weekly Quotes</span>
+    </div>
+
+    <span class="story-category-badge">Essential Stories of the Week</span>
+    <h1 class="story-title">Weekly Quotes Compilation</h1>
+    <time class="story-date" datetime="{{ now.Format "2006-01-02" }}">
+      {{ now.Format "January 2, 2006" }}
+    </time>
+
+    <div class="story-content quotes-compilation-content" itemprop="articleBody">
+      <p>No quotes have been added for this week yet.</p>
+    </div>
+  </div>
+
+  <div class="story-progress-bar">
+    {{- if $hasQuiz -}}
+    <a href="/essential-stories-quiz/" class="story-control-btn story-nav-btn" id="story-prev" aria-label="Back to quiz">
+      <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="nav-btn-text">Quiz</span>
+    </a>
+    {{- else if $lastRecentStory -}}
+    <a href="{{ $lastRecentStory.RelPermalink }}" class="story-control-btn story-nav-btn" id="story-prev" aria-label="Previous story">
+      <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="nav-btn-text">Previous</span>
+    </a>
+    {{- else -}}
+    <button class="story-control-btn story-nav-btn" id="story-prev" disabled aria-label="No previous">
+      <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M15 18l-6-6 6-6"/></svg>
+      <span class="nav-btn-text">Previous</span>
+    </button>
+    {{- end -}}
+
+    <div class="story-progress-segments">
+      {{- if $hasQuiz -}}<div class="story-progress-segment past"></div>{{- end -}}
+      <div class="story-progress-segment active"></div>
+    </div>
+
+    <button class="story-control-btn story-nav-btn" id="story-next" disabled aria-label="No next story">
+      <span class="nav-btn-text">Next</span>
+      <svg class="nav-btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 18l6-6-6-6"/></svg>
+    </button>
+  </div>
+</div>
+{{- end -}}

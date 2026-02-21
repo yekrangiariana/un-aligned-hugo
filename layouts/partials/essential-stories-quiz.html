@@ -1,0 +1,263 @@
+{{- /* Essential Stories Quiz - Appears as the last item in the carousel */ -}}
+{{- $allPosts := where .Site.RegularPages "Section" "posts" -}} {{-
+$essentialStories := where $allPosts ".Params.categories" "intersect" (slice
+"Essential Stories of the Week") -}} {{- $essentialStories =
+$essentialStories.ByDate.Reverse -}} {{- /* Collect all quiz questions from
+essential stories with article metadata */ -}} {{- $quizData := slice -}} {{-
+range $essentialStories -}} {{- if .Params.quiz -}} {{- $article := . -}} {{-
+$quizItems := .Params.quiz -}} {{- $isObjectQuiz := false -}} {{- if gt (len
+$quizItems) 0 -}} {{- $first := index $quizItems 0 -}} {{- if and (reflect.IsMap
+$first) (isset $first "question") -}} {{- $isObjectQuiz = true -}} {{- end -}}
+{{- end -}} {{- if $isObjectQuiz -}} {{- range $quizItems -}} {{- if and (isset
+. "question") (isset . "answer") -}} {{- $quizData = $quizData | append (dict
+"question" .question "answer" .answer "articleTitle" $article.Title "articleUrl"
+$article.RelPermalink) -}} {{- end -}} {{- end -}} {{- else -}} {{- $question :=
+"" -}} {{- range $index, $item := $quizItems -}} {{- if eq (mod $index 2) 0 -}}
+{{- $question = $item -}} {{- else -}} {{- $quizData = $quizData | append (dict
+"question" $question "answer" $item "articleTitle" $article.Title "articleUrl"
+$article.RelPermalink) -}} {{- end -}} {{- end -}} {{- end -}} {{- end -}} {{-
+end -}} {{- if gt (len $quizData) 0 -}}
+<div
+  class="essential-story-view quiz-view"
+  data-quiz="{{ $quizData | jsonify }}"
+>
+  <div class="story-content-wrapper">
+    <!-- Top Control Bar -->
+    {{- $lastStory := index $essentialStories (sub (len $essentialStories) 1) -}}
+    {{- $hasQuotes := false -}}
+    {{- range $essentialStories -}}
+      {{- if .Params.quotes -}}
+        {{- $hasQuotes = true -}}
+      {{- end -}}
+    {{- end -}}
+    <div class="story-controls">
+      {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories "HasQuiz" true "HasQuotes" $hasQuotes "CurrentPath" "" "CurrentPage" "quiz") }}
+      <span class="story-controls-count">Quiz</span>
+    </div>
+
+    <!-- Quiz Container -->
+    <div class="quiz-container">
+      <!-- Quiz Start Screen -->
+      <div class="quiz-start-screen active">
+        <div class="quiz-start-hero">
+          <div class="quiz-start-icon-wrapper">
+            <svg class="quiz-start-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M9.5 2c-1.82 0-3.53.5-5 1.35C2.99 4.27 2 5.95 2 8c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-.89c.39.08.79.14 1.2.19.11.01.22.03.33.04L11 20h2l1.5-3.66c.11-.01.22-.03.33-.04.41-.05.81-.11 1.2-.19V17c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-3.26c1.81-1.27 3-3.36 3-5.74 0-2.05-.99-3.73-2.5-4.65C17.03 2.5 15.32 2 13.5 2h-4z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="9" cy="9" r="1" fill="currentColor"/>
+              <circle cx="15" cy="9" r="1" fill="currentColor"/>
+              <path d="M9 13h6" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <span class="quiz-badge">Weekly Challenge</span>
+        </div>
+
+        <div class="quiz-start-content">
+          <h1 class="quiz-start-title">Test your knowledge</h1>
+          <p class="quiz-start-description">
+            How closely were you following this week's essential stories? Find out with {{ len $quizData }} quick questions.
+          </p>
+
+          <div class="quiz-start-stats">
+            <div class="quiz-stat">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 11l3 3L22 4"/>
+                <path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/>
+              </svg>
+              <span>{{ len $quizData }} Questions</span>
+            </div>
+            <div class="quiz-stat">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10"/>
+                <path d="M12 6v6l4 2"/>
+              </svg>
+              <span>~2 min</span>
+            </div>
+          </div>
+
+          <div class="quiz-start-actions">
+            <button class="quiz-btn quiz-continue-btn" id="continue-quiz" style="display: none;">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6"/>
+              </svg>
+              <span>Continue Where You Left Off</span>
+            </button>
+            <button class="quiz-btn quiz-start-btn" id="start-quiz">
+              <span>Start Quiz</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quiz Question Screen -->
+      <div class="quiz-question-screen">
+        <div class="quiz-question-wrapper">
+          <!-- Progress Bar -->
+          <div class="quiz-question-progress">
+            <div class="quiz-question-progress-bar">
+              <div
+                class="quiz-question-progress-fill"
+                id="question-progress-fill"
+              ></div>
+            </div>
+            <div class="quiz-question-progress-text">
+              <span id="question-current">1</span> of
+              <span id="question-total">5</span>
+            </div>
+          </div>
+
+          <span class="quiz-badge">Weekly Quiz</span>
+          <h2 class="quiz-question quiz-title" id="quiz-question">
+            Question text will appear here
+          </h2>
+
+          <!-- Answer Input Section (Free Text) -->
+          <div class="quiz-answer" id="quiz-answer">
+            <div class="quiz-answer-row">
+              <input
+                type="text"
+                id="quiz-answer-input"
+                class="quiz-answer-input"
+                placeholder="Type one word"
+                autocomplete="off"
+              />
+            </div>
+          </div>
+
+          <!-- Multiple Choice Options Section -->
+          <div class="quiz-multiple-choice" id="quiz-multiple-choice">
+            <div class="quiz-options-list" id="quiz-options-list"></div>
+          </div>
+
+          <!-- Feedback Section -->
+          <div class="quiz-feedback" id="quiz-feedback">
+            <div class="quiz-feedback-content">
+              <span class="quiz-feedback-icon"></span>
+              <p class="quiz-feedback-text"></p>
+            </div>
+          </div>
+
+          <!-- Action Buttons Section -->
+          <div class="quiz-action-buttons">
+            <button
+              class="quiz-btn quiz-submit-btn"
+              id="quiz-submit-btn"
+              disabled
+            >
+              Check
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quiz Results Screen -->
+      <div class="quiz-results-screen">
+        <div class="quiz-results-container">
+          <div class="quiz-results-icon-wrapper">
+            <svg class="quiz-results-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              <path d="M12 6v6M9 14l3-2 3 2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <div class="quiz-results-header">
+            <h2 class="quiz-results-title" id="results-title">Quiz Complete!</h2>
+            <p class="quiz-results-subtitle" id="results-subtitle">Here's how you did</p>
+          </div>
+
+          <div class="quiz-score-display">
+            <div class="quiz-score-main">
+              <span class="quiz-score-number" id="score-number">0</span>
+              <span class="quiz-score-separator">/</span>
+              <span class="quiz-score-total" id="score-total">{{ len $quizData }}</span>
+            </div>
+            <div class="quiz-score-bar" aria-hidden="true">
+              <div class="quiz-score-fill" id="quiz-score-fill">
+                <span class="quiz-score-percentage" id="score-percentage">0%</span>
+              </div>
+            </div>
+            <p class="quiz-score-message" id="score-message">Great effort!</p>
+          </div>
+
+          <div class="quiz-results-actions">
+            <button class="quiz-btn quiz-restart-btn" id="restart-quiz">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M3 12a9 9 0 019-9 9.75 9.75 0 016.74 2.74L21 8"/>
+                <path d="M21 3v5h-5"/>
+              </svg>
+              <span>Try Again</span>
+            </button>
+            <a href="/essential-stories-quotes/" class="quiz-btn quiz-quotes-btn">
+              <span>View Quotes</span>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 18l6-6-6-6"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Navigation Bar -->
+  <div class="story-progress-bar">
+    <a
+      href="{{ $lastStory.RelPermalink }}"
+      class="story-control-btn story-nav-btn"
+      id="story-prev"
+      aria-label="Previous story"
+    >
+      <svg
+        class="nav-btn-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M15 18l-6-6 6-6" />
+      </svg>
+      <span class="nav-btn-text">Previous</span>
+    </a>
+
+    <div class="story-progress-segments">
+      {{- range $index, $story := $essentialStories -}}
+      <div class="story-progress-segment past"></div>
+      {{- end -}}
+      <div class="story-progress-segment active"></div>
+      <div class="story-progress-segment"></div>
+    </div>
+
+    <a
+      href="/essential-stories-quotes/"
+      class="story-control-btn story-nav-btn"
+      id="story-next"
+      aria-label="View quotes"
+    >
+      <span class="nav-btn-text">Quotes</span>
+      <svg
+        class="nav-btn-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M9 18l6-6-6-6" />
+      </svg>
+    </a>
+  </div>
+
+  <!-- Quiz Progress (below story progress bar) -->
+  <div class="quiz-progress">
+    <div class="quiz-progress-text" id="quiz-progress-text">
+      Question 1 of {{ len $quizData }}
+    </div>
+    <div class="quiz-progress-bar">
+      <div class="quiz-progress-fill" id="quiz-progress-fill"></div>
+    </div>
+  </div>
+</div>
+{{- end -}}

@@ -1,0 +1,202 @@
+{{- /* Get all posts with "Essential Stories of the Week" category - only from
+the last 7 days */ -}} {{- $allPosts := where .Site.RegularPages "Section"
+"posts" -}} {{- $essentialStories := where $allPosts ".Params.categories"
+"intersect" (slice "Essential Stories of the Week") -}} {{- $sevenDaysAgo :=
+now.AddDate 0 0 -7 -}} {{- $essentialStories = where $essentialStories ".Date"
+"ge" $sevenDaysAgo -}} {{- $essentialStories = $essentialStories.ByDate.Reverse
+-}} {{ with $essentialStories }}
+<div class="essential-stories-content">
+  <div class="essential-stories-header">
+    <h2 class="essential-stories-title">
+      <a href="/essential-stories-quiz/"
+        >Essential Stories <span class="title-arrow">→</span></a
+      >
+    </h2>
+    <div class="carousel-controls">
+      <button
+        class="carousel-control carousel-control-prev essential-prev"
+        aria-label="Previous articles"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M15 18l-6-6 6-6" />
+        </svg>
+      </button>
+      <button
+        class="carousel-control carousel-control-next essential-next"
+        aria-label="Next articles"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+        >
+          <path d="M9 18l6-6-6-6" />
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="essential-stories-grid">
+    {{- range . -}} {{- /* Check if article has special categories */ -}} {{-
+    $hasGallery := false -}} {{- $hasCulture := false -}} {{- $hasInterview :=
+    false -}} {{- $hasComments := false -}} {{- range .Params.categories -}} {{-
+    $cat := lower . -}} {{- if eq $cat "gallery" -}}{{- $hasGallery = true
+    -}}{{- end -}} {{- if eq $cat "culture" -}}{{- $hasCulture = true -}}{{- end
+    -}} {{- if eq $cat "interview" -}}{{- $hasInterview = true -}}{{- end -}}
+    {{- if eq $cat "comments" -}}{{- $hasComments = true -}}{{- end -}} {{- end
+    -}}
+
+    <article
+      class="article-card essential-article-card
+        {{ if $hasGallery }}has-gallery{{ end }}
+        {{ if $hasCulture }}has-culture{{ end }}
+        {{ if $hasInterview }}has-interview{{ end }}
+        {{ if $hasComments }}has-comments{{ end }}"
+      itemscope
+      itemtype="https://schema.org/Article"
+    >
+      <a href="{{ .RelPermalink }}" class="article-card-link" itemprop="url">
+        <div class="article-card-content">
+          {{ if $hasComments }} {{ with .Params.authors }} {{ $authorKey :=
+          index . 0 | urlize }} {{ $author := index site.Data.authors $authorKey
+          }} {{ if and $author $author.image }}
+          <div class="author-profile-container">
+            <img
+              src="{{ $author.image }}"
+              alt="{{ $author.name }}"
+              class="author-profile-image"
+              loading="lazy"
+              itemprop="image"
+            />
+          </div>
+          {{ end }} {{ end }} {{ if and (not (and .Params.authors (index
+          site.Data.authors (index .Params.authors 0 | urlize)) (index
+          site.Data.authors (index .Params.authors 0 | urlize)).image))
+          (.Params.image) }}
+          <img
+            src="{{ .Params.image }}"
+            alt="{{ .Title }}"
+            class="article-card-image"
+            loading="lazy"
+            itemprop="image"
+          />
+          {{ end }} {{ else }} {{ if .Params.image }}
+          <img
+            src="{{ .Params.image }}"
+            alt="{{ .Title }}"
+            class="article-card-image"
+            loading="lazy"
+            itemprop="image"
+          />
+          {{ end }} {{ end }}
+        </div>
+        <div class="article-card-meta">
+          {{ if $hasComments }}
+          <h3 class="article-card-title" itemprop="headline">
+            <span class="quote-mark"></span>{{ .Title }}
+          </h3>
+          {{ else }}
+          <h3 class="article-card-title" itemprop="headline">{{ .Title }}</h3>
+          {{ end }} {{ with .Description }}
+          <div class="article-card-description" itemprop="description">
+            {{ . }}
+          </div>
+          {{ end }}
+        </div>
+      </a>
+    </article>
+    {{ end }} {{/* Count total quiz questions and quotes across this week's
+    stories */}} {{- $totalQuizQuestions := 0 -}} {{- $totalQuotes := 0 -}} {{-
+    range $essentialStories -}} {{- with .Params.quiz -}} {{-
+    $totalQuizQuestions = add $totalQuizQuestions (len .) -}} {{- end -}} {{-
+    with .Params.quotes -}} {{- $totalQuotes = add $totalQuotes (len .) -}} {{-
+    end -}} {{- end -}} {{/* Quiz Card — only if at least 3 questions */}} {{-
+    if ge $totalQuizQuestions 3 -}}
+    <article
+      class="article-card essential-article-card quiz-card"
+      itemscope
+      itemtype="https://schema.org/Quiz"
+    >
+      <a
+        href="/essential-stories-quiz/"
+        class="article-card-link"
+        itemprop="url"
+      >
+        <div class="article-card-content quiz-card-content">
+          <div class="quiz-card-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <circle cx="12" cy="12" r="10" />
+              <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />
+              <line x1="12" y1="17" x2="12.01" y2="17" />
+            </svg>
+          </div>
+        </div>
+        <div class="article-card-meta">
+          <h3 class="article-card-title quiz-card-title" itemprop="headline">
+            Weekly Quiz
+          </h3>
+        </div>
+      </a>
+    </article>
+    {{- end -}} {{/* Quotes Card — only if at least 1 quote */}} {{- if ge
+    $totalQuotes 1 -}}
+    <article
+      class="article-card essential-article-card quotes-card"
+      itemscope
+      itemtype="https://schema.org/CreativeWork"
+    >
+      <a
+        href="/essential-stories-quotes/"
+        class="article-card-link"
+        itemprop="url"
+      >
+        <div class="article-card-content quotes-card-content">
+          <div class="quotes-card-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M3 21c3 0 7-1 7-8V5H4v8h4" />
+              <path d="M14 21c3 0 7-1 7-8V5h-6v8h4" />
+            </svg>
+          </div>
+        </div>
+        <div class="article-card-meta">
+          <h3 class="article-card-title" itemprop="headline">Weekly Quotes</h3>
+        </div>
+      </a>
+    </article>
+    {{- end -}}
+  </div>
+</div>
+
+<script src="/js/essential-stories-carousel.js" defer></script>
+{{ end }}
