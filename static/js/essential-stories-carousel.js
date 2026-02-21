@@ -45,7 +45,7 @@
       if (link) {
         const href = link.getAttribute("href");
         const isRead = readArticles.includes(href);
-        
+
         if (isRead) {
           card.classList.add("read");
           readCards.push(card);
@@ -57,9 +57,9 @@
         link.addEventListener("click", function () {
           markAsRead(href);
           card.classList.add("read");
-          
+
           // Move card to end of carousel after marking as read
-          setTimeout(function() {
+          setTimeout(function () {
             carousel.appendChild(card);
           }, 300); // Small delay for visual feedback
         });
@@ -67,10 +67,10 @@
     });
 
     // Reorder: unread cards first, then read cards
-    unreadCards.forEach(function(card) {
+    unreadCards.forEach(function (card) {
       carousel.appendChild(card);
     });
-    readCards.forEach(function(card) {
+    readCards.forEach(function (card) {
       carousel.appendChild(card);
     });
 
