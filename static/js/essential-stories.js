@@ -550,7 +550,7 @@
       }
 
       if (isHorizontalSwipe) {
-        // Prevent default to stop scrolling during horizontal swipe  
+        // Prevent default to stop scrolling during horizontal swipe
         if (e.cancelable) {
           e.preventDefault();
         }
