@@ -465,19 +465,33 @@
       if (rafId) {
         cancelAnimationFrame(rafId);
       }
-      
+
       rafId = requestAnimationFrame(() => {
         const dampedDistance = distance * DAMPING;
         currentStoryView.style.transform = `translateX(${dampedDistance}px)`;
-        
-        // Show preview based on swipe direction
-        const previewLeft = currentStoryView.querySelector(".story-preview-left");
-        const previewRight = currentStoryView.querySelector(".story-preview-right");
 
-        if (dampedDistance > 50 && currentPrevBtn && !currentPrevBtn.disabled && previewLeft) {
+        // Show preview based on swipe direction
+        const previewLeft = currentStoryView.querySelector(
+          ".story-preview-left",
+        );
+        const previewRight = currentStoryView.querySelector(
+          ".story-preview-right",
+        );
+
+        if (
+          dampedDistance > 50 &&
+          currentPrevBtn &&
+          !currentPrevBtn.disabled &&
+          previewLeft
+        ) {
           previewLeft.classList.add("active");
           if (previewRight) previewRight.classList.remove("active");
-        } else if (dampedDistance < -50 && currentNextBtn && !currentNextBtn.disabled && previewRight) {
+        } else if (
+          dampedDistance < -50 &&
+          currentNextBtn &&
+          !currentNextBtn.disabled &&
+          previewRight
+        ) {
           previewRight.classList.add("active");
           if (previewLeft) previewLeft.classList.remove("active");
         } else {
@@ -499,16 +513,16 @@
       ) {
         return;
       }
-      
+
       if (isNavigating) return;
-      
+
       touchStartX = e.touches[0].clientX;
       touchStartY = e.touches[0].clientY;
       touchStartTime = Date.now();
       currentX = 0;
       isSwiping = true;
       isHorizontalSwipe = false;
-      
+
       currentStoryView.style.transition = "none";
     };
 
@@ -519,12 +533,15 @@
       const touchY = e.touches[0].clientY;
       const deltaX = touchX - touchStartX;
       const deltaY = touchY - touchStartY;
-      
+
       // Determine if this is a horizontal swipe
-      if (!isHorizontalSwipe && (Math.abs(deltaX) > 10 || Math.abs(deltaY) > 10)) {
+      if (
+        !isHorizontalSwipe &&
+        (Math.abs(deltaX) > 10 || Math.abs(deltaY) > 10)
+      ) {
         const ratio = Math.abs(deltaY) / Math.abs(deltaX);
         isHorizontalSwipe = ratio < MAX_VERTICAL_RATIO;
-        
+
         if (!isHorizontalSwipe) {
           // This is a vertical scroll, cancel the swipe
           isSwiping = false;
@@ -537,16 +554,18 @@
         if (e.cancelable) {
           e.preventDefault();
         }
-        
+
         currentX = deltaX;
-        
+
         // Apply resistance at edges
         let resistance = 1;
-        if ((deltaX > 0 && (!currentPrevBtn || currentPrevBtn.disabled)) ||
-            (deltaX < 0 && (!currentNextBtn || currentNextBtn.disabled))) {
+        if (
+          (deltaX > 0 && (!currentPrevBtn || currentPrevBtn.disabled)) ||
+          (deltaX < 0 && (!currentNextBtn || currentNextBtn.disabled))
+        ) {
           resistance = Math.max(0.1, 1 - Math.abs(deltaX) / 300);
         }
-        
+
         updateTransform(deltaX * resistance);
         currentStoryView.classList.add("is-dragging");
       }
@@ -560,13 +579,15 @@
       const deltaX = touchEndX - touchStartX;
       const deltaTime = touchEndTime - touchStartTime;
       const velocity = Math.abs(deltaX) / deltaTime; // pixels per millisecond
-      
+
       isSwiping = false;
       currentStoryView.classList.remove("is-dragging");
 
       // Hide previews
       const previewLeft = currentStoryView.querySelector(".story-preview-left");
-      const previewRight = currentStoryView.querySelector(".story-preview-right");
+      const previewRight = currentStoryView.querySelector(
+        ".story-preview-right",
+      );
       if (previewLeft) previewLeft.classList.remove("active");
       if (previewRight) previewRight.classList.remove("active");
 
@@ -576,12 +597,18 @@
 
       if (isHorizontalSwipe) {
         // Navigate if either distance threshold or velocity threshold is met
-        if (deltaX > SWIPE_THRESHOLD || (deltaX > 30 && velocity > VELOCITY_THRESHOLD)) {
+        if (
+          deltaX > SWIPE_THRESHOLD ||
+          (deltaX > 30 && velocity > VELOCITY_THRESHOLD)
+        ) {
           if (currentPrevBtn && !currentPrevBtn.disabled) {
             shouldNavigate = true;
             direction = "prev";
           }
-        } else if (deltaX < -SWIPE_THRESHOLD || (deltaX < -30 && velocity > VELOCITY_THRESHOLD)) {
+        } else if (
+          deltaX < -SWIPE_THRESHOLD ||
+          (deltaX < -30 && velocity > VELOCITY_THRESHOLD)
+        ) {
           if (currentNextBtn && !currentNextBtn.disabled) {
             shouldNavigate = true;
             direction = "next";
@@ -591,10 +618,12 @@
 
       if (shouldNavigate) {
         // Animate to completion before navigating
-        currentStoryView.style.transition = "transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
-        const targetX = direction === "prev" ? window.innerWidth : -window.innerWidth;
+        currentStoryView.style.transition =
+          "transform 0.25s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
+        const targetX =
+          direction === "prev" ? window.innerWidth : -window.innerWidth;
         currentStoryView.style.transform = `translateX(${targetX}px)`;
-        
+
         setTimeout(() => {
           if (direction === "prev") {
             hideSwipeIndicator();
@@ -606,9 +635,10 @@
         }, 150);
       } else {
         // Snap back to original position
-        currentStoryView.style.transition = "transform 0.3s cubic-bezier(0.33, 1, 0.68, 1)";
+        currentStoryView.style.transition =
+          "transform 0.3s cubic-bezier(0.33, 1, 0.68, 1)";
         currentStoryView.style.transform = "translateX(0)";
-        
+
         setTimeout(() => {
           currentStoryView.style.removeProperty("transform");
           currentStoryView.style.removeProperty("transition");
@@ -616,9 +646,17 @@
       }
     };
 
-    currentStoryView.addEventListener("touchstart", currentTouchHandlers.start, { passive: true });
-    currentStoryView.addEventListener("touchmove", currentTouchHandlers.move, { passive: false });
-    currentStoryView.addEventListener("touchend", currentTouchHandlers.end, { passive: true });
+    currentStoryView.addEventListener(
+      "touchstart",
+      currentTouchHandlers.start,
+      { passive: true },
+    );
+    currentStoryView.addEventListener("touchmove", currentTouchHandlers.move, {
+      passive: false,
+    });
+    currentStoryView.addEventListener("touchend", currentTouchHandlers.end, {
+      passive: true,
+    });
 
     // Mouse handlers removed - touch optimized for mobile only
 

@@ -18,13 +18,13 @@
 
     // Read tracking functionality
     const STORAGE_KEY = "essentialStoriesRead";
-    
+
     // Get read articles from localStorage
     function getReadArticles() {
       const stored = localStorage.getItem(STORAGE_KEY);
       return stored ? JSON.parse(stored) : [];
     }
-    
+
     // Save article as read
     function markAsRead(url) {
       const readArticles = getReadArticles();
@@ -33,20 +33,20 @@
         localStorage.setItem(STORAGE_KEY, JSON.stringify(readArticles));
       }
     }
-    
+
     // Mark existing read cards on page load
     const readArticles = getReadArticles();
     const cards = carousel.querySelectorAll(".article-card");
-    cards.forEach(function(card) {
+    cards.forEach(function (card) {
       const link = card.querySelector(".article-card-link");
       if (link) {
         const href = link.getAttribute("href");
         if (readArticles.includes(href)) {
           card.classList.add("read");
         }
-        
+
         // Track clicks to mark as read
-        link.addEventListener("click", function() {
+        link.addEventListener("click", function () {
           markAsRead(href);
           card.classList.add("read");
         });
