@@ -94,6 +94,11 @@
         <div class="story-content post-content markdown-body" itemprop="articleBody">
           {{ .Content }}
         </div>
+
+        <!-- Related posts carousel - only show when article is old (not in current weekly carousel) -->
+        {{- if not $isRecentStory -}}
+        {{ partial "related.html" . }}
+        {{- end -}}
         
         <!-- Swipe indicator for all devices -->
         {{- if and $isRecentStory $nextStory -}}

@@ -410,7 +410,7 @@ body.dark-mode .quotes-compilation-content {
   color: var(--dark-color-text);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .quotes-compilation-content {
     gap: 32px;
   }
@@ -434,43 +434,25 @@ body.dark-mode .quotes-compilation-content {
 }
 
 /* Responsive adjustments */
-@media (max-width: 1400px) {
+@media (max-width: 1150px) {
   .essential-stories-grid .article-card {
-    flex: 0 0 220px;
-    min-width: 220px;
-    max-width: 220px;
-    height: 370px;
+    flex: 0 0 210px;
+    min-width: 210px;
+    max-width: 210px;
+    height: 350px;
   }
 
   /* Ensure first and fourth cards maintain consistency */
   .essential-stories-grid .article-card:first-child,
   .essential-stories-grid .article-card:nth-child(4) {
-    flex: 0 0 220px;
-    min-width: 220px;
-    max-width: 220px;
-    height: 370px;
+    flex: 0 0 210px;
+    min-width: 210px;
+    max-width: 210px;
+    height: 350px;
   }
 }
 
-@media (max-width: 1024px) {
-  .essential-stories-grid .article-card {
-    flex: 0 0 200px;
-    min-width: 200px;
-    max-width: 200px;
-    height: 340px;
-  }
-
-  /* Ensure first and fourth cards maintain consistency */
-  .essential-stories-grid .article-card:first-child,
-  .essential-stories-grid .article-card:nth-child(4) {
-    flex: 0 0 200px;
-    min-width: 200px;
-    max-width: 200px;
-    height: 340px;
-  }
-}
-
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .essential-stories-grid .article-card {
     flex: 0 0 180px;
     min-width: 180px;
@@ -496,7 +478,7 @@ body.dark-mode .quotes-compilation-content {
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   .essential-stories-grid .article-card {
     flex: 0 0 170px;
     min-width: 170px;
@@ -549,6 +531,17 @@ body.dark-mode .quotes-compilation-content {
   transform-origin: center center;
 }
 
+/* On mobile, reset the transform so that position:fixed descendants
+   (e.g. .story-progress-bar) are anchored to the viewport, not this element.
+   The GPU-compositing hint (translateZ) is only needed for desktop swipe. */
+@media (max-width: 748px) {
+  .essential-story-view {
+    transform: none;
+    -webkit-transform: none;
+    will-change: auto;
+  }
+}
+
 .essential-story-view.is-dragging {
   cursor: grabbing;
   user-select: none;
@@ -591,7 +584,7 @@ body.dark-mode .quotes-compilation-content {
 }
 
 body.dark-mode .story-controls .story-nav-summary {
-  background: rgba(255, 255, 255, 0.08);
+  background: var(--dark-bg);
   border-color: rgba(255, 255, 255, 0.15);
   color: var(--dark-color-text);
 }
@@ -777,7 +770,7 @@ body.dark-mode .story-nav-link.is-current {
 }
 
 /* Show text on larger screens */
-@media (min-width: 768px) {
+@media (min-width: 749px) {
   .story-nav-btn {
     width: auto;
     min-width: 90px;
@@ -954,7 +947,7 @@ a.story-category-badge:hover {
   display: block;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .story-reading-features {
     display: none;
   }
@@ -967,6 +960,11 @@ a.story-category-badge:hover {
   color: var(--color-text);
   margin-top: 20px;
   font-weight: var(--font-weight-medium);
+}
+
+/* Remove drop cap inherited from drop-cap.css */
+.story-content.post-content > p:first-of-type::first-letter {
+  all: unset;
 }
 
 .story-content p {
@@ -1023,8 +1021,8 @@ a.story-category-badge:hover {
 /* Story progress indicators at bottom - large circles */
 .story-progress-bar {
   display: flex;
-  gap: 12px;
-  padding: 16px 20px;
+  gap: 8px;
+  padding: 8px 16px;
   justify-content: center;
   align-items: center;
   background: var(--color-background);
@@ -1034,15 +1032,15 @@ a.story-category-badge:hover {
   left: 0;
   right: 0;
   transform: none;
-  max-width: 100%;
-  width: 100%;
+  max-width: none;
+  width: 100vw;
   z-index: 2000;
   box-sizing: border-box;
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.08);
 }
 
 /* Center progress bar on desktop/tablet and remove sticky behavior */
-@media (min-width: 768px) {
+@media (min-width: 749px) {
   .story-progress-bar {
     position: static;
     left: auto;
@@ -1100,7 +1098,7 @@ body.dark-mode .story-preview-right {
 .story-nav-btn {
   width: 44px;
   height: 44px;
-  padding: var(--spacing-xs);
+  padding: 4px;
   flex-shrink: 0;
 }
 
@@ -1148,8 +1146,8 @@ body.dark-mode .story-preview-right {
   border-color: var(--dark-color-text);
 }
 
-/* Responsive adjustments for story view - matching lightbox breakpoints */
-@media (max-width: 1024px) {
+/* Responsive adjustments for story view */
+@media (max-width: 1150px) {
   .story-controls {
     padding: 6px 0;
   }
@@ -1179,7 +1177,7 @@ body.dark-mode .story-preview-right {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 748px) {
   .story-controls {
     padding: 6px 0;
   }
@@ -1196,13 +1194,13 @@ body.dark-mode .story-preview-right {
   }
 
   .story-nav-btn {
-    width: 38px;
-    height: 38px;
+    width: 44px;
+    height: 44px;
   }
 
   .story-nav-btn svg {
-    width: 20px;
-    height: 20px;
+    width: 22px;
+    height: 22px;
   }
 
   .next-story-preview,
@@ -1242,79 +1240,16 @@ body.dark-mode .story-preview-right {
   }
 
   .story-content-wrapper {
-    padding: 0 0 85px 0;
+    padding: 0 0 65px 0;
   }
 
   .story-progress-bar {
-    padding: 14px 18px;
-    gap: 10px;
+    padding: 8px 16px;
+    gap: 8px;
   }
 }
 
-@media (max-width: 480px) {
-  .story-controls {
-    padding: 6px 0;
-  }
-
-  .story-control-btn {
-    width: 32px;
-    height: 32px;
-  }
-
-  .story-control-btn svg {
-    width: 14px;
-    height: 14px;
-  }
-
-  .story-nav-btn {
-    width: 36px;
-    height: 36px;
-  }
-
-  .story-nav-btn svg {
-    width: 18px;
-    height: 18px;
-  }
-
-  .next-story-preview,
-  .current-story-preview {
-    max-width: 100%;
-    min-width: 120px;
-  }
-
-  .next-story-label {
-    font-size: 8px;
-  }
-
-  .next-story-title {
-    font-size: 10px;
-  }
-
-  .next-story-title-wrapper {
-    height: 15px;
-  }
-
-  .story-controls-left,
-  .story-controls-right {
-    gap: 4px;
-  }
-
-  .story-content-wrapper {
-    padding: 0 0 90px 0;
-  }
-
-  .story-progress-segment {
-    width: 8px;
-    height: 8px;
-  }
-
-  .story-progress-bar {
-    padding: 14px 16px;
-    gap: 10px;
-  }
-}
-
-@media (max-width: 360px) {
+@media (max-width: 600px) {
   .story-controls {
     padding: 4px 0;
   }
@@ -1324,9 +1259,19 @@ body.dark-mode .story-preview-right {
     height: 30px;
   }
 
+  .story-control-btn svg {
+    width: 13px;
+    height: 13px;
+  }
+
   .story-nav-btn {
-    width: 34px;
-    height: 34px;
+    width: 40px;
+    height: 40px;
+  }
+
+  .story-nav-btn svg {
+    width: 20px;
+    height: 20px;
   }
 
   .next-story-preview,
@@ -1352,24 +1297,24 @@ body.dark-mode .story-preview-right {
     gap: 3px;
   }
 
-  .story-progress-bar {
-    padding: 12px 12px;
-    gap: 6px;
+  .story-content-wrapper {
+    padding: 0 0 62px 0;
   }
 
-  .story-content-wrapper {
-    padding: 0 0 85px 0;
+  .story-progress-segment {
+    width: 8px;
+    height: 8px;
+  }
+
+  .story-progress-bar {
+    padding: 6px 12px;
+    gap: 6px;
   }
 }
 
 /* Dark mode support for story view */
 .dark-mode .essential-story-view {
   background-color: var(--dark-color-background);
-}
-
-.dark-mode .story-controls {
-  background: var(--dark-color-background);
-  border-bottom: var(--dark-border-thin-light);
 }
 
 .dark-mode .story-control-btn {
@@ -1426,12 +1371,6 @@ body.dark-mode .story-preview-right {
 
 .dark-mode .next-story-title {
   color: var(--dark-color-text);
-}
-
-.dark-mode .story-progress-bar {
-  background: var(--dark-color-background);
-  border-top: var(--dark-border-thin-light);
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
 }
 
 .dark-mode .story-title {
@@ -1525,7 +1464,7 @@ body.dark-mode .story-category-badge {
 }
 
 body.dark-mode .story-controls {
-  background-color: #242424;
+  background-color: var(--dark-bg);
   border-color: #404040;
 }
 
@@ -1542,9 +1481,8 @@ body.dark-mode .story-control-btn:hover:not(:disabled) {
 }
 
 body.dark-mode .story-progress-bar {
-  background-color: #242424;
+  background-color: var(--dark-bg);
   border-color: #404040;
-  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
 }
 
 body.dark-mode .story-swipe-indicator {
@@ -1553,7 +1491,7 @@ body.dark-mode .story-swipe-indicator {
 
 /* Dark mode for markdown elements in story content */
 body.dark-mode .story-content blockquote {
-  background-color: #242424;
+  background-color: var(--dark-bg);
   border-color: #404040;
   color: #e0e0e0;
 }
