@@ -36,10 +36,12 @@ $quizItems -}} {{- if eq (mod $index 2) 0 -}} {{- $question = $item -}} {{- else
       {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories
       "HasQuiz" true "HasQuotes" $hasQuotes "CurrentPath" "" "CurrentPage"
       "quiz") }}
-      <span class="story-controls-count"
-        >{{ $quizIndex }} / {{ $navTotal }}</span
-      >
     </div>
+
+    <span class="story-category-badge">
+      Essential Stories of the Week
+      <span class="story-controls-count">{{ $quizIndex }} / {{ $navTotal }}</span>
+    </span>
 
     <!-- Quiz Container -->
     <div class="quiz-container">

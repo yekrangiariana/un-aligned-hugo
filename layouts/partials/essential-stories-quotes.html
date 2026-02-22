@@ -39,10 +39,12 @@
     {{- $quotesIndex := $navTotal -}}
     <div class="story-controls">
       {{ partial "story-jump-menu.html" (dict "Stories" $recentStories "HasQuiz" $hasQuiz "HasQuotes" true "CurrentPath" "" "CurrentPage" "quotes") }}
-      <span class="story-controls-count">{{ $quotesIndex }} / {{ $navTotal }}</span>
     </div>
 
-    <span class="story-category-badge">Essential Stories of the Week</span>
+    <span class="story-category-badge">
+      Essential Stories of the Week
+      <span class="story-controls-count">{{ $quotesIndex }} / {{ $navTotal }}</span>
+    </span>
     <h1 class="story-title">Weekly Quotes Compilation</h1>
     <time class="story-date" datetime="{{ now.Format "2006-01-02" }}">
       {{ now.Format "January 2, 2006" }}
@@ -106,10 +108,12 @@
     {{- $quotesIndex := $navTotal -}}
     <div class="story-controls">
       {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories "HasQuiz" $hasQuiz "HasQuotes" true "CurrentPath" "" "CurrentPage" "quotes") }}
-      <span class="story-controls-count">{{ $quotesIndex }} / {{ $navTotal }}</span>
     </div>
 
-    <span class="story-category-badge">Essential Stories of the Week</span>
+    <span class="story-category-badge">
+      Essential Stories of the Week
+      <span class="story-controls-count">{{ $quotesIndex }} / {{ $navTotal }}</span>
+    </span>
     <h1 class="story-title">Weekly Quotes Compilation</h1>
     <time class="story-date" datetime="{{ now.Format "2006-01-02" }}">
       {{ now.Format "January 2, 2006" }}

@@ -549,7 +549,7 @@ body.dark-mode .quotes-compilation-content {
   padding: 8px 0;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-start;
   margin-bottom: var(--spacing-md);
   box-sizing: border-box;
   gap: 12px;
@@ -864,6 +864,15 @@ body.dark-mode .story-nav-link.is-current {
   border: var(--border-thin);
   display: inline-block;
   margin-bottom: var(--spacing-md);
+}
+
+/* Counter inside the badge */
+.story-category-badge .story-controls-count {
+  margin-left: 8px;
+  padding-left: 8px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  font-weight: normal;
+  opacity: 0.9;
 }
 
 a.story-category-badge:hover {
@@ -1446,6 +1455,10 @@ body.dark-mode .story-category-badge {
   background-color: rgb(187, 0, 0);
   color: #ffffff;
   border-color: #404040;
+}
+
+body.dark-mode .story-category-badge .story-controls-count {
+  border-left-color: rgba(255, 255, 255, 0.2);
 }
 
 body.dark-mode .story-controls {

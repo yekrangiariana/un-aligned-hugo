@@ -69,12 +69,16 @@
           {{- if or $nextStory $isLastStory -}}
           {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories "HasQuiz" $hasQuiz "HasQuotes" $hasQuotes "CurrentPath" .RelPermalink "CurrentPage" "") }}
           {{- end -}}
-          <span class="story-controls-count">{{ add $currentIndex 1 }} / {{ add $totalStories $terminalCount }}</span>
         </div>
         {{- end -}}
         
         {{- with index .Params.categories 0 -}}
-          <a href="/categories/essential-stories-of-the-week/" class="story-category-badge">{{ . }}</a>
+          <a href="/categories/essential-stories-of-the-week/" class="story-category-badge">
+            {{ . }}
+            {{- if $isRecentStory -}}
+            <span class="story-controls-count">{{ add $currentIndex 1 }} / {{ add $totalStories $terminalCount }}</span>
+            {{- end -}}
+          </a>
         {{- end -}}
         <h1 class="story-title" itemprop="headline">{{ .Title }}</h1>
         {{- if .Date -}}
