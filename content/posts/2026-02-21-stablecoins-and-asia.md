@@ -12,9 +12,6 @@ tags:
 quiz:
   - question: "Which country ranked first on Chainalysis’s global cryptocurrency adoption index for three consecutive years by 2025?"
     answer: ["India", "Vietnam", "Pakistan"]
-quotes:
-  - sentence: "Stablecoins are becoming the backbone of crypto activity."
-    attribute: "Chainalysis"
 image: "/images/crypto.jpg"
 imageCaption: "An over-the-counter stablecoin exchange in Asia © CC BY-SA 4.0"
 style: "1"

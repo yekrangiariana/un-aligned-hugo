@@ -36,11 +36,22 @@
                 
                 {{- /* Get only posts section, excluding gordian */ -}}
                 {{- $regularPages := where .Site.RegularPages "Section" "posts" -}}
-                {{- /* Exclude Essential Stories of the Week from Recent section using shared context */ -}}
-                {{ partial "essential-stories-context.html" . }}
-                {{- $es := .Scratch.Get "EssentialStoriesContext" -}}
-                {{- $essentialPages := $es.All -}}
-                {{- $regularPages = $regularPages | complement $essentialPages -}}
+                
+                {{- /* Exclude Essential Stories of the Week from Recent section */ -}}
+                {{- $filteredPages := slice -}}
+                {{- range $regularPages -}}
+                  {{- $isEssential := false -}}
+                  {{- range .Params.categories -}}
+                    {{- if eq (lower .) "essential stories of the week" -}}
+                      {{- $isEssential = true -}}
+                    {{- end -}}
+                  {{- end -}}
+                  {{- if not $isEssential -}}
+                    {{- $filteredPages = $filteredPages | append . -}}
+                  {{- end -}}
+                {{- end -}}
+                {{- $regularPages = $filteredPages -}}
+                
                 {{- /* Display all featured posts first */ -}}
                 {{- $featuredPages := where $regularPages ".Params.feature" true -}}
                 {{- $nonFeaturedPages := where $regularPages ".Params.feature" "ne" true -}}
