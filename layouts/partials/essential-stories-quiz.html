@@ -40,7 +40,9 @@ $quizItems -}} {{- if eq (mod $index 2) 0 -}} {{- $question = $item -}} {{- else
 
     <span class="story-category-badge">
       Essential Stories of the Week
-      <span class="story-controls-count">{{ $quizIndex }} / {{ $navTotal }}</span>
+      <span class="story-controls-count"
+        >{{ $quizIndex }} / {{ $navTotal }}</span
+      >
     </span>
 
     <!-- Quiz Container -->
