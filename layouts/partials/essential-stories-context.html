@@ -1,0 +1,15 @@
+{{- /* essential-stories-context.html Centralised context for "Essential Stories
+of the Week". Call once per page with the current page context (.) and then read
+values via: {{ partial "essential-stories-context.html" . }} {{- $es :=
+.Scratch.Get "EssentialStoriesContext" -}} {{- $all := $es.All -}} {{- $recent
+:= $es.Recent -}} {{- $sevenDaysAgo := $es.SevenDaysAgo -}} This avoids
+repeating the selection and 7‑day window logic across templates. */ -}} {{- if
+not (.Scratch.Get "EssentialStoriesContext") -}} {{- /* All Essential Stories
+(no date filter) */ -}} {{- $allPosts := where .Site.RegularPages "Section"
+"posts" -}} {{- $allEssential := where $allPosts ".Params.categories"
+"intersect" (slice "Essential Stories of the Week") -}} {{- $allEssential =
+$allEssential.ByDate.Reverse -}} {{- /* Strict 7‑day rolling window = "this
+week" */ -}} {{- $sevenDaysAgo := now.AddDate 0 0 -7 -}} {{- $recent := where
+$allEssential ".Date" "ge" $sevenDaysAgo -}} {{- $ctx := dict "All"
+$allEssential "Recent" $recent "SevenDaysAgo" $sevenDaysAgo -}} {{- .Scratch.Set
+"EssentialStoriesContext" $ctx -}} {{- end -}}

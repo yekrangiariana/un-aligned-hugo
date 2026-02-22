@@ -14,15 +14,16 @@
     {{ $readingFeaturesCSS := resources.Get "css/reading-features.css" }}
     <link rel="stylesheet" href="{{ $readingFeaturesCSS.RelPermalink }}" />
     
-    {{- $allPosts := where .Site.RegularPages "Section" "posts" -}}
-    {{- $allEssentialStories := where $allPosts ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
-    {{- $allEssentialStories = $allEssentialStories.ByDate.Reverse -}}
-    {{- $sevenDaysAgo := now.AddDate 0 0 -7 -}}
+    {{- /* Shared Essential Stories context: all vs recent */ -}}
+    {{ partial "essential-stories-context.html" . }}
+    {{- $es := .Scratch.Get "EssentialStoriesContext" -}}
+    {{- $allEssentialStories := $es.All -}}
+    {{- $sevenDaysAgo := $es.SevenDaysAgo -}}
     {{- $isRecentStory := .Date.After $sevenDaysAgo -}}
     {{- /* For nav/prev/next, only use recent stories if this post is recent; otherwise use all */ -}}
     {{- $essentialStories := $allEssentialStories -}}
     {{- if $isRecentStory -}}
-      {{- $essentialStories = where $allEssentialStories ".Date" "ge" $sevenDaysAgo -}}
+      {{- $essentialStories = $es.Recent -}}
     {{- end -}}
     
     {{- $currentIndex := 0 -}}
@@ -42,6 +43,10 @@
     {{- end -}}
     {{- $hasQuiz := ge $totalQuizQuestions 3 -}}
     {{- $hasQuotes := ge $totalQuotes 1 -}}
+    {{- /* Total items in the weekly flow: all stories + optional quiz + optional quotes */ -}}
+    {{- $terminalCount := 0 -}}
+    {{- if $hasQuiz -}}{{- $terminalCount = add $terminalCount 1 -}}{{- end -}}
+    {{- if $hasQuotes -}}{{- $terminalCount = add $terminalCount 1 -}}{{- end -}}
     {{- $prevStory := "" -}}
     {{- $nextStory := "" -}}
     {{- $isLastStory := false -}}
@@ -64,7 +69,7 @@
           {{- if or $nextStory $isLastStory -}}
           {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories "HasQuiz" $hasQuiz "HasQuotes" $hasQuotes "CurrentPath" .RelPermalink "CurrentPage" "") }}
           {{- end -}}
-          <span class="story-controls-count">{{ add $currentIndex 1 }} / {{ $totalStories }}</span>
+          <span class="story-controls-count">{{ add $currentIndex 1 }} / {{ add $totalStories $terminalCount }}</span>
         </div>
         {{- end -}}
         
@@ -167,13 +172,12 @@
   {{- else -}}
     {{- /* DEFAULT POST VIEW */ -}}
     {{- /* Load Essential Stories CSS for carousel */ -}}
-    {{- $allPosts := where .Site.RegularPages "Section" "posts" -}}
-    {{- $essentialStories := where $allPosts ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
-    {{- $sevenDaysAgo := now.AddDate 0 0 -7 -}}
-    {{- $essentialStories = where $essentialStories ".Date" "ge" $sevenDaysAgo -}}
-    {{- if $essentialStories -}}
-    {{ $essentialStoriesCSS := resources.Get "css/essential-stories.css" }}
-    <link rel="stylesheet" href="{{ $essentialStoriesCSS.RelPermalink }}" />
+    {{ partial "essential-stories-context.html" . }}
+    {{- $es := .Scratch.Get "EssentialStoriesContext" -}}
+    {{- $recentEssential := $es.Recent -}}
+    {{- if gt (len $recentEssential) 0 -}}
+      {{ $essentialStoriesCSS := resources.Get "css/essential-stories.css" }}
+      <link rel="stylesheet" href="{{ $essentialStoriesCSS.RelPermalink }}" />
     {{- end -}}
   <!-- Check for specific categories anywhere in the categories list -->
   {{ $hasGallery := false }}

@@ -1,16 +1,19 @@
 {{- /* Essential Stories Quotes - appears after quiz as final item */ -}}
-{{- $allPosts := where .Site.RegularPages "Section" "posts" -}}
-{{- $essentialStories := where $allPosts ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
+{{ partial "essential-stories-context.html" . }}
+{{- $es := .Scratch.Get "EssentialStoriesContext" -}}
+{{- $essentialStories := $es.All -}}
 {{- $essentialStories = $essentialStories.ByDate.Reverse -}}
-{{- $sevenDaysAgo := now.AddDate 0 0 -7 -}}
-{{- $recentStories := where $essentialStories ".Date" "ge" $sevenDaysAgo -}}
-{{- $lastRecentStory := index $recentStories (sub (len $recentStories) 1) -}}
+{{- $recentStories := $es.Recent -}}
+{{- $lastRecentStory := "" -}}
+{{- if gt (len $recentStories) 0 -}}
+  {{- $lastRecentStory = index $recentStories (sub (len $recentStories) 1) -}}
+{{- end -}}
 {{- $totalQuizQuestions := 0 -}}
 {{- range $recentStories -}}{{- with .Params.quiz -}}{{- $totalQuizQuestions = add $totalQuizQuestions (len .) -}}{{- end -}}{{- end -}}
 {{- $hasQuiz := ge $totalQuizQuestions 3 -}}
 
 {{- $quotesData := slice -}}
-{{- range $essentialStories -}}
+{{- range $recentStories -}}
   {{- $story := . -}}
   {{- with .Params.quotes -}}
     {{- range . -}}
@@ -28,9 +31,15 @@
   {{- $lastStory := index $essentialStories (sub (len $essentialStories) 1) -}}
 <div class="essential-story-view quotes-view">
   <div class="story-content-wrapper">
+    {{- /* Navigation length: recent stories + optional quiz + quotes terminal */ -}}
+    {{- $totalStories := len $recentStories -}}
+    {{- $terminalCount := 1 -}} {{/* quotes itself */}}
+    {{- if $hasQuiz -}}{{- $terminalCount = add $terminalCount 1 -}}{{- end -}}
+    {{- $navTotal := add $totalStories $terminalCount -}}
+    {{- $quotesIndex := $navTotal -}}
     <div class="story-controls">
       {{ partial "story-jump-menu.html" (dict "Stories" $recentStories "HasQuiz" $hasQuiz "HasQuotes" true "CurrentPath" "" "CurrentPage" "quotes") }}
-      <span class="story-controls-count">Weekly Quotes</span>
+      <span class="story-controls-count">{{ $quotesIndex }} / {{ $navTotal }}</span>
     </div>
 
     <span class="story-category-badge">Essential Stories of the Week</span>
@@ -91,9 +100,13 @@
 <div class="essential-story-view quotes-view">
   <div class="story-content-wrapper">
     {{- $hasQuiz := false -}}
+    {{- $totalStories := len $essentialStories -}}
+    {{- $terminalCount := 1 -}} {{/* quotes itself */}}
+    {{- $navTotal := add $totalStories $terminalCount -}}
+    {{- $quotesIndex := $navTotal -}}
     <div class="story-controls">
       {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories "HasQuiz" $hasQuiz "HasQuotes" true "CurrentPath" "" "CurrentPage" "quotes") }}
-      <span class="story-controls-count">Weekly Quotes</span>
+      <span class="story-controls-count">{{ $quotesIndex }} / {{ $navTotal }}</span>
     </div>
 
     <span class="story-category-badge">Essential Stories of the Week</span>

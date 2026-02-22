@@ -1,22 +1,23 @@
 {{- /* Essential Stories Quiz - Appears as the last item in the carousel */ -}}
-{{- $allPosts := where .Site.RegularPages "Section" "posts" -}} {{-
-$essentialStories := where $allPosts ".Params.categories" "intersect" (slice
-"Essential Stories of the Week") -}} {{- $essentialStories =
-$essentialStories.ByDate.Reverse -}} {{- /* Collect all quiz questions from
-essential stories with article metadata */ -}} {{- $quizData := slice -}} {{-
-range $essentialStories -}} {{- if .Params.quiz -}} {{- $article := . -}} {{-
-$quizItems := .Params.quiz -}} {{- $isObjectQuiz := false -}} {{- if gt (len
-$quizItems) 0 -}} {{- $first := index $quizItems 0 -}} {{- if and (reflect.IsMap
-$first) (isset $first "question") -}} {{- $isObjectQuiz = true -}} {{- end -}}
-{{- end -}} {{- if $isObjectQuiz -}} {{- range $quizItems -}} {{- if and (isset
-. "question") (isset . "answer") -}} {{- $quizData = $quizData | append (dict
-"question" .question "answer" .answer "articleTitle" $article.Title "articleUrl"
-$article.RelPermalink) -}} {{- end -}} {{- end -}} {{- else -}} {{- $question :=
-"" -}} {{- range $index, $item := $quizItems -}} {{- if eq (mod $index 2) 0 -}}
-{{- $question = $item -}} {{- else -}} {{- $quizData = $quizData | append (dict
-"question" $question "answer" $item "articleTitle" $article.Title "articleUrl"
-$article.RelPermalink) -}} {{- end -}} {{- end -}} {{- end -}} {{- end -}} {{-
-end -}} {{- if gt (len $quizData) 0 -}}
+{{ partial "essential-stories-context.html" . }} {{- $es := .Scratch.Get
+"EssentialStoriesContext" -}} {{- /* For quiz content we now use only this
+week's Essential Stories (7-day window) */ -}} {{- $essentialStories :=
+$es.Recent -}} {{- $essentialStories = $essentialStories.ByDate.Reverse -}} {{-
+/* Collect all quiz questions from essential stories with article metadata */
+-}} {{- $quizData := slice -}} {{- range $essentialStories -}} {{- if
+.Params.quiz -}} {{- $article := . -}} {{- $quizItems := .Params.quiz -}} {{-
+$isObjectQuiz := false -}} {{- if gt (len $quizItems) 0 -}} {{- $first := index
+$quizItems 0 -}} {{- if and (reflect.IsMap $first) (isset $first "question") -}}
+{{- $isObjectQuiz = true -}} {{- end -}} {{- end -}} {{- if $isObjectQuiz -}}
+{{- range $quizItems -}} {{- if and (isset . "question") (isset . "answer") -}}
+{{- $quizData = $quizData | append (dict "question" .question "answer" .answer
+"articleTitle" $article.Title "articleUrl" $article.RelPermalink) -}} {{- end
+-}} {{- end -}} {{- else -}} {{- $question := "" -}} {{- range $index, $item :=
+$quizItems -}} {{- if eq (mod $index 2) 0 -}} {{- $question = $item -}} {{- else
+-}} {{- $quizData = $quizData | append (dict "question" $question "answer" $item
+"articleTitle" $article.Title "articleUrl" $article.RelPermalink) -}} {{- end
+-}} {{- end -}} {{- end -}} {{- end -}} {{- end -}} {{- if gt (len $quizData) 0
+-}}
 <div
   class="essential-story-view quiz-view"
   data-quiz="{{ $quizData | jsonify }}"
@@ -25,12 +26,19 @@ end -}} {{- if gt (len $quizData) 0 -}}
     <!-- Top Control Bar -->
     {{- $lastStory := index $essentialStories (sub (len $essentialStories) 1)
     -}} {{- $hasQuotes := false -}} {{- range $essentialStories -}} {{- if
-    .Params.quotes -}} {{- $hasQuotes = true -}} {{- end -}} {{- end -}}
+    .Params.quotes -}} {{- $hasQuotes = true -}} {{- end -}} {{- end -}} {{/*
+    Derive total navigation length: stories + optional quiz + optional quotes
+    */}} {{- $totalStories := len $essentialStories -}} {{- $terminalCount := 1
+    -}} {{/* quiz itself */}} {{- if $hasQuotes -}}{{- $terminalCount = add
+    $terminalCount 1 -}}{{- end -}} {{- $navTotal := add $totalStories
+    $terminalCount -}} {{- $quizIndex := add $totalStories 1 -}}
     <div class="story-controls">
       {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories
       "HasQuiz" true "HasQuotes" $hasQuotes "CurrentPath" "" "CurrentPage"
       "quiz") }}
-      <span class="story-controls-count">Quiz</span>
+      <span class="story-controls-count"
+        >{{ $quizIndex }} / {{ $navTotal }}</span
+      >
     </div>
 
     <!-- Quiz Container -->

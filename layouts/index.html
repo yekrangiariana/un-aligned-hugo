@@ -5,12 +5,11 @@
           {{ $gordianCSS := resources.Get "css/gordian.css" }}
           <link rel="stylesheet" href="{{ $gordianCSS.RelPermalink }}" />
           
-          {{- /* Only load Essential Stories CSS if there are essential stories */ -}}
-          {{- $allPosts := where .Site.RegularPages "Section" "posts" -}}
-          {{- $essentialStories := where $allPosts ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
-          {{- $sevenDaysAgo := now.AddDate 0 0 -7 -}}
-          {{- $essentialStories = where $essentialStories ".Date" "ge" $sevenDaysAgo -}}
-          {{- if $essentialStories -}}
+          {{- /* Only load Essential Stories CSS if there are recent essential stories */ -}}
+          {{ partial "essential-stories-context.html" . }}
+          {{- $es := .Scratch.Get "EssentialStoriesContext" -}}
+          {{- $recentEssential := $es.Recent -}}
+          {{- if gt (len $recentEssential) 0 -}}
           <!-- Load Essential Stories CSS -->
           {{ $essentialStoriesCSS := resources.Get "css/essential-stories.css" }}
           <link rel="stylesheet" href="{{ $essentialStoriesCSS.RelPermalink }}" />
@@ -37,8 +36,10 @@
                 
                 {{- /* Get only posts section, excluding gordian */ -}}
                 {{- $regularPages := where .Site.RegularPages "Section" "posts" -}}
-                {{- /* Exclude Essential Stories of the Week from Recent section */ -}}
-                {{- $essentialPages := where $regularPages ".Params.categories" "intersect" (slice "Essential Stories of the Week") -}}
+                {{- /* Exclude Essential Stories of the Week from Recent section using shared context */ -}}
+                {{ partial "essential-stories-context.html" . }}
+                {{- $es := .Scratch.Get "EssentialStoriesContext" -}}
+                {{- $essentialPages := $es.All -}}
                 {{- $regularPages = $regularPages | complement $essentialPages -}}
                 {{- /* Display all featured posts first */ -}}
                 {{- $featuredPages := where $regularPages ".Params.feature" true -}}

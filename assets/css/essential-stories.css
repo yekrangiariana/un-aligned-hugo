@@ -967,7 +967,7 @@ a.story-category-badge:hover {
   font-weight: var(--font-weight-bold);
 } */
 
-/* Swipe Indicator - shown on all devices */
+/* Swipe Indicator */
 .story-swipe-indicator {
   display: flex;
   flex-direction: column;
@@ -981,6 +981,13 @@ a.story-category-badge:hover {
   text-align: center;
   user-select: none;
   transition: opacity 0.3s ease;
+}
+
+/* Hide swipe hint on non-touch / mouse-pointer devices */
+@media (hover: hover) and (pointer: fine) {
+  .story-swipe-indicator {
+    display: none;
+  }
 }
 
 .swipe-animation {
