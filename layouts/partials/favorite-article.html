@@ -21,7 +21,12 @@
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+  // Bookmark feature initialization function - can be called after partial page loads
+  function initBookmarkFeature() {
+    // Check if elements exist (needed for reinit after partial page load)
+    const bookmarkButton = document.getElementById("bookmarkToggle");
+    if (!bookmarkButton) return;
+
     /**
      * BookmarkManager - Class to handle bookmark functionality
      */
@@ -100,7 +105,7 @@
         const bookmarks = this.getBookmarks();
         const isBookmarked = bookmarks.some(
           (article) =>
-            this.normalizePath(article.id) === this.normalizedArticleId
+            this.normalizePath(article.id) === this.normalizedArticleId,
         );
 
         // Update button state
@@ -156,7 +161,7 @@
           const normalizedId = this.normalizePath(articleId);
           return (
             this.metadataCache.find(
-              (a) => this.normalizePath(a.id) === normalizedId
+              (a) => this.normalizePath(a.id) === normalizedId,
             ) || null
           );
         } catch (e) {
@@ -172,7 +177,7 @@
         let bookmarks = this.getBookmarks();
         const isBookmarked = bookmarks.some(
           (article) =>
-            this.normalizePath(article.id) === this.normalizedArticleId
+            this.normalizePath(article.id) === this.normalizedArticleId,
         );
 
         // Add loading state
@@ -186,7 +191,7 @@
             // Remove from bookmarks
             bookmarks = bookmarks.filter(
               (article) =>
-                this.normalizePath(article.id) !== this.normalizedArticleId
+                this.normalizePath(article.id) !== this.normalizedArticleId,
             );
           } else {
             // Fetch metadata and add to bookmarks
@@ -225,6 +230,16 @@
     }
 
     // Initialize bookmark manager
-    const bookmarkManager = new BookmarkManager();
-  });
+    new BookmarkManager();
+  }
+
+  // Expose globally for reinitialization after partial page loads
+  window.initBookmarkFeature = initBookmarkFeature;
+
+  // Initialize on DOMContentLoaded or immediately if already loaded
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initBookmarkFeature);
+  } else {
+    initBookmarkFeature();
+  }
 </script>

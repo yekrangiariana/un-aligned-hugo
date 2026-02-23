@@ -19,7 +19,8 @@
 </div>
 
 <script>
-  document.addEventListener("DOMContentLoaded", function () {
+  // Text size adjuster initialization function - can be called after partial page loads
+  function initTextSizeAdjuster() {
     // Debug mode - set to true to enable console logging
     window.debugTextSize = true;
 
@@ -43,7 +44,7 @@
       hasArticleContent: !!document.querySelector(".article-content"),
     });
 
-    // Get all size option buttons
+    // Get all size option buttons - use fresh query for reinit
     const sizeOptions = document.querySelectorAll(".size-option");
     debug(`Found ${sizeOptions.length} size options`);
 
@@ -76,7 +77,7 @@
     // Check if article content exists (important to prevent errors)
     if (!articleContent) {
       debug(
-        "Article content not found with any selector, trying broader selectors"
+        "Article content not found with any selector, trying broader selectors",
       );
 
       // Try broader approaches
@@ -91,7 +92,7 @@
         articleContent = mainContent;
       } else {
         debug(
-          "No content found with broader selectors, using body as fallback"
+          "No content found with broader selectors, using body as fallback",
         );
         // Fallback to body
         articleContent = document.body;
@@ -125,12 +126,12 @@
 
         // Sync with global popup buttons if they exist
         const popupButtons = document.querySelectorAll(
-          ".global-reading-popup .popup-section.text-size-adjuster .size-option"
+          ".global-reading-popup .popup-section.text-size-adjuster .size-option",
         );
         if (popupButtons.length > 0) {
           popupButtons.forEach((btn) => btn.classList.remove("active"));
           const activePopupBtn = document.querySelector(
-            `.global-reading-popup .popup-section.text-size-adjuster .size-option[data-size="${size}"]`
+            `.global-reading-popup .popup-section.text-size-adjuster .size-option[data-size="${size}"]`,
           );
           if (activePopupBtn) {
             activePopupBtn.classList.add("active");
@@ -146,7 +147,7 @@
 
       // Add active class to the button matching the size
       const activeButton = document.querySelector(
-        `.size-option[data-size="${size}"]`
+        `.size-option[data-size="${size}"]`,
       );
       if (activeButton) {
         activeButton.classList.add("active");
@@ -168,7 +169,7 @@
       articleContent.classList.remove(
         "text-size-small",
         "text-size-medium",
-        "text-size-large"
+        "text-size-large",
       );
 
       // Add the new size class
@@ -185,5 +186,15 @@
         debug("Scroll position restored");
       });
     }
-  });
+  }
+
+  // Expose globally for reinitialization after partial page loads
+  window.initTextSizeAdjuster = initTextSizeAdjuster;
+
+  // Initialize on DOMContentLoaded or immediately if already loaded
+  if (document.readyState === "loading") {
+    document.addEventListener("DOMContentLoaded", initTextSizeAdjuster);
+  } else {
+    initTextSizeAdjuster();
+  }
 </script>

@@ -115,6 +115,9 @@
           // Replace only the content wrapper
           contentWrapper.innerHTML = newContentWrapper.innerHTML;
 
+          // Suppress transitions during progress bar update
+          progressBar.classList.add("updating");
+
           // Update progress bar segments and buttons without replacing the element
           const currentSegments = progressBar.querySelector(
             ".story-progress-segments",
@@ -140,6 +143,11 @@
             currentNextBtn.outerHTML = newNextBtn.outerHTML;
           }
 
+          // Re-enable transitions after paint
+          requestAnimationFrame(() => {
+            progressBar.classList.remove("updating");
+          });
+
           // Update URL without reload
           window.history.pushState({}, "", url);
 
@@ -148,10 +156,6 @@
 
           // Scroll to top
           window.scrollTo(0, 0);
-
-          // Ensure storyView is at default position
-          storyView.style.transform = "translateX(0)";
-          storyView.style.transition = "none";
 
           // Animate in from opposite direction
           contentWrapper.style.transition = "none";
@@ -174,8 +178,6 @@
             contentWrapper.style.removeProperty("transform");
             contentWrapper.style.removeProperty("transition");
             contentWrapper.style.removeProperty("opacity");
-            storyView.style.removeProperty("transform");
-            storyView.style.removeProperty("transition");
           }, 200);
 
           // Reset navigation lock
@@ -186,6 +188,14 @@
 
           // Reinitialize navigation
           initializeNavigation();
+
+          // Reinitialize reading features (text size adjuster and bookmark)
+          if (typeof window.initTextSizeAdjuster === "function") {
+            window.initTextSizeAdjuster();
+          }
+          if (typeof window.initBookmarkFeature === "function") {
+            window.initBookmarkFeature();
+          }
         }, 200);
       })
       .catch((error) => {

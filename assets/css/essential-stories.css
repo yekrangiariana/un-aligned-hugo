@@ -1158,6 +1158,12 @@ body.dark-mode .story-preview-right {
   border-color: var(--dark-color-text);
 }
 
+/* Suppress transitions during partial page load updates */
+.story-progress-bar.updating,
+.story-progress-bar.updating * {
+  transition: none !important;
+}
+
 /* Responsive adjustments for story view */
 @media (max-width: 1150px) {
   .story-controls {

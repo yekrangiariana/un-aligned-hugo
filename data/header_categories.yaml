@@ -9,10 +9,10 @@ categories:
   - name: "Magazine"
     url: "gordian/"
 
-  - name: "UN in Focus"
-
   - name: "Weekly stories"
     url: "categories/essential-stories-of-the-week/"
+
+  - name: "UN in Focus"
 
   - name: "Comments"
 

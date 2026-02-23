@@ -2,7 +2,6 @@
 {{ partial "essential-stories-context.html" . }}
 {{- $es := .Scratch.Get "EssentialStoriesContext" -}}
 {{- $essentialStories := $es.All -}}
-{{- $essentialStories = $essentialStories.ByDate.Reverse -}}
 {{- $recentStories := $es.Recent -}}
 {{- $lastRecentStory := "" -}}
 {{- if gt (len $recentStories) 0 -}}

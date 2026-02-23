@@ -2,22 +2,21 @@
 {{ partial "essential-stories-context.html" . }} {{- $es := .Scratch.Get
 "EssentialStoriesContext" -}} {{- /* For quiz content we now use only this
 week's Essential Stories (7-day window) */ -}} {{- $essentialStories :=
-$es.Recent -}} {{- $essentialStories = $essentialStories.ByDate.Reverse -}} {{-
-/* Collect all quiz questions from essential stories with article metadata */
--}} {{- $quizData := slice -}} {{- range $essentialStories -}} {{- if
-.Params.quiz -}} {{- $article := . -}} {{- $quizItems := .Params.quiz -}} {{-
-$isObjectQuiz := false -}} {{- if gt (len $quizItems) 0 -}} {{- $first := index
-$quizItems 0 -}} {{- if and (reflect.IsMap $first) (isset $first "question") -}}
-{{- $isObjectQuiz = true -}} {{- end -}} {{- end -}} {{- if $isObjectQuiz -}}
-{{- range $quizItems -}} {{- if and (isset . "question") (isset . "answer") -}}
-{{- $quizData = $quizData | append (dict "question" .question "answer" .answer
-"articleTitle" $article.Title "articleUrl" $article.RelPermalink) -}} {{- end
--}} {{- end -}} {{- else -}} {{- $question := "" -}} {{- range $index, $item :=
-$quizItems -}} {{- if eq (mod $index 2) 0 -}} {{- $question = $item -}} {{- else
--}} {{- $quizData = $quizData | append (dict "question" $question "answer" $item
-"articleTitle" $article.Title "articleUrl" $article.RelPermalink) -}} {{- end
--}} {{- end -}} {{- end -}} {{- end -}} {{- end -}} {{- if gt (len $quizData) 0
--}}
+$es.Recent -}} {{- /* Collect all quiz questions from essential stories with
+article metadata */ -}} {{- $quizData := slice -}} {{- range $essentialStories
+-}} {{- if .Params.quiz -}} {{- $article := . -}} {{- $quizItems := .Params.quiz
+-}} {{- $isObjectQuiz := false -}} {{- if gt (len $quizItems) 0 -}} {{- $first
+:= index $quizItems 0 -}} {{- if and (reflect.IsMap $first) (isset $first
+"question") -}} {{- $isObjectQuiz = true -}} {{- end -}} {{- end -}} {{- if
+$isObjectQuiz -}} {{- range $quizItems -}} {{- if and (isset . "question")
+(isset . "answer") -}} {{- $quizData = $quizData | append (dict "question"
+.question "answer" .answer "articleTitle" $article.Title "articleUrl"
+$article.RelPermalink) -}} {{- end -}} {{- end -}} {{- else -}} {{- $question :=
+"" -}} {{- range $index, $item := $quizItems -}} {{- if eq (mod $index 2) 0 -}}
+{{- $question = $item -}} {{- else -}} {{- $quizData = $quizData | append (dict
+"question" $question "answer" $item "articleTitle" $article.Title "articleUrl"
+$article.RelPermalink) -}} {{- end -}} {{- end -}} {{- end -}} {{- end -}} {{-
+end -}} {{- if gt (len $quizData) 0 -}}
 <div
   class="essential-story-view quiz-view"
   data-quiz="{{ $quizData | jsonify }}"
