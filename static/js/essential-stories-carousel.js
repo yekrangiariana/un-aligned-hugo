@@ -34,7 +34,7 @@
       }
     }
 
-    // Mark existing read cards on page load and reorder
+    // Mark existing read cards on page load and reorder in carousel only
     const readArticles = getReadArticles();
     const cards = carousel.querySelectorAll(".article-card");
     const unreadCards = [];
@@ -57,16 +57,12 @@
         link.addEventListener("click", function () {
           markAsRead(href);
           card.classList.add("read");
-
-          // Move card to end of carousel after marking as read
-          setTimeout(function () {
-            carousel.appendChild(card);
-          }, 300); // Small delay for visual feedback
         });
       }
     });
 
-    // Reorder: unread cards first, then read cards
+    // Reorder carousel: unread cards first, then read cards
+    // This only affects the visual order on homepage, not the story numbering
     unreadCards.forEach(function (card) {
       carousel.appendChild(card);
     });

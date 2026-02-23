@@ -1,8 +1,8 @@
 {{- /* Use shared Essential Stories context - recent stories only */ -}} {{
 partial "essential-stories-context.html" . }} {{- $es := .Scratch.Get
-"EssentialStoriesContext" -}} {{- $essentialStories := $es.Recent -}} {{-
-$essentialStories = $essentialStories.ByDate.Reverse -}} {{ with
-$essentialStories }}
+"EssentialStoriesContext" -}} {{- $essentialStories := $es.Recent -}} {{- /*
+Already sorted by date (newest first) in context, no need to re-sort */ -}} {{
+with $essentialStories }}
 <div class="essential-stories-content">
   <div class="essential-stories-header">
     <h2 class="essential-stories-title">

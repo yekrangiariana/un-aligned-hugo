@@ -49,71 +49,12 @@ $quizItems -}} {{- if eq (mod $index 2) 0 -}} {{- $question = $item -}} {{- else
     <div class="quiz-container">
       <!-- Quiz Start Screen -->
       <div class="quiz-start-screen active">
-        <div class="quiz-start-hero">
-          <div class="quiz-start-icon-wrapper">
-            <svg
-              class="quiz-start-icon"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M9.5 2c-1.82 0-3.53.5-5 1.35C2.99 4.27 2 5.95 2 8c0 2.38 1.19 4.47 3 5.74V17c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-.89c.39.08.79.14 1.2.19.11.01.22.03.33.04L11 20h2l1.5-3.66c.11-.01.22-.03.33-.04.41-.05.81-.11 1.2-.19V17c0 .55.45 1 1 1h1c.55 0 1-.45 1-1v-3.26c1.81-1.27 3-3.36 3-5.74 0-2.05-.99-3.73-2.5-4.65C17.03 2.5 15.32 2 13.5 2h-4z"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <circle cx="9" cy="9" r="1" fill="currentColor" />
-              <circle cx="15" cy="9" r="1" fill="currentColor" />
-              <path
-                d="M9 13h6"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-linecap="round"
-              />
-            </svg>
-          </div>
-          <span class="quiz-badge">Weekly Challenge</span>
-        </div>
-
         <div class="quiz-start-content">
           <h1 class="quiz-start-title">Test your knowledge</h1>
           <p class="quiz-start-description">
-            How closely were you following this week's essential stories? Find
-            out with {{ len $quizData }} quick questions.
+            Challenge yourself with {{ len $quizData }} questions about this
+            week's essential stories. ~2 min
           </p>
-
-          <div class="quiz-start-stats">
-            <div class="quiz-stat">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path d="M9 11l3 3L22 4" />
-                <path
-                  d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"
-                />
-              </svg>
-              <span>{{ len $quizData }} Questions</span>
-            </div>
-            <div class="quiz-stat">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <circle cx="12" cy="12" r="10" />
-                <path d="M12 6v6l4 2" />
-              </svg>
-              <span>~2 min</span>
-            </div>
-          </div>
 
           <div class="quiz-start-actions">
             <button
@@ -151,7 +92,20 @@ $quizItems -}} {{- if eq (mod $index 2) 0 -}} {{- $question = $item -}} {{- else
       <!-- Quiz Question Screen -->
       <div class="quiz-question-screen">
         <div class="quiz-question-wrapper">
-          <!-- Progress Bar -->
+          <!-- Quiz Badge with Progress Numbers -->
+          <span class="story-category-badge quiz-badge">
+            Weekly Quiz
+            <span
+              class="story-controls-count"
+              id="quiz-progress-count"
+              style="display: none"
+            >
+              <span id="question-current">1</span> /
+              <span id="question-total">5</span>
+            </span>
+          </span>
+
+          <!-- Progress Bar Above Question -->
           <div class="quiz-question-progress">
             <div class="quiz-question-progress-bar">
               <div
@@ -159,13 +113,8 @@ $quizItems -}} {{- if eq (mod $index 2) 0 -}} {{- $question = $item -}} {{- else
                 id="question-progress-fill"
               ></div>
             </div>
-            <div class="quiz-question-progress-text">
-              <span id="question-current">1</span> of
-              <span id="question-total">5</span>
-            </div>
           </div>
 
-          <span class="quiz-badge">Weekly Quiz</span>
           <h2 class="quiz-question quiz-title" id="quiz-question">
             Question text will appear here
           </h2>
@@ -186,14 +135,6 @@ $quizItems -}} {{- if eq (mod $index 2) 0 -}} {{- $question = $item -}} {{- else
           <!-- Multiple Choice Options Section -->
           <div class="quiz-multiple-choice" id="quiz-multiple-choice">
             <div class="quiz-options-list" id="quiz-options-list"></div>
-          </div>
-
-          <!-- Feedback Section -->
-          <div class="quiz-feedback" id="quiz-feedback">
-            <div class="quiz-feedback-content">
-              <span class="quiz-feedback-icon"></span>
-              <p class="quiz-feedback-text"></p>
-            </div>
           </div>
 
           <!-- Action Buttons Section -->

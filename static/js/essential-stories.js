@@ -10,6 +10,23 @@
   const storyView = document.querySelector(".essential-story-view");
   if (!storyView) return;
 
+  // Read tracking functionality (shared with carousel)
+  const STORAGE_KEY = "essentialStoriesRead";
+
+  function markCurrentStoryAsRead() {
+    const currentUrl = window.location.pathname;
+    const stored = localStorage.getItem(STORAGE_KEY);
+    const readArticles = stored ? JSON.parse(stored) : [];
+
+    if (!readArticles.includes(currentUrl)) {
+      readArticles.push(currentUrl);
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(readArticles));
+    }
+  }
+
+  // Mark the current story as read on page load
+  markCurrentStoryAsRead();
+
   // Store references to event handlers for cleanup
   let currentKeyboardHandler = null;
   let currentTouchHandlers = {
@@ -163,6 +180,9 @@
 
           // Reset navigation lock
           isNavigating = false;
+
+          // Mark the newly loaded story as read
+          markCurrentStoryAsRead();
 
           // Reinitialize navigation
           initializeNavigation();

@@ -145,7 +145,6 @@
     "quiz-multiple-choice",
   );
   const quizOptionsListContainer = document.getElementById("quiz-options-list");
-  const feedbackEl = document.getElementById("quiz-feedback");
 
   // Auto-advance timer
   let autoAdvanceTimer = null;
@@ -254,6 +253,12 @@
     // Show quiz progress bar
     if (quizProgress) {
       quizProgress.classList.add("show");
+    }
+
+    // Show quiz badge progress numbers
+    const quizProgressCount = document.getElementById("quiz-progress-count");
+    if (quizProgressCount) {
+      quizProgressCount.style.display = "";
     }
 
     // Initialize question total
@@ -410,8 +415,30 @@
       answerInput.disabled = true;
     }
 
-    // Disable all option buttons if multiple choice
+    // Visual feedback for multiple choice
     if (question.isMultipleChoice) {
+      const selectedButton = document.querySelector(".quiz-option-btn.active");
+
+      if (isCorrect) {
+        // If correct, keep green border on selected answer
+        if (selectedButton) {
+          selectedButton.classList.add("correct");
+        }
+      } else {
+        // If wrong, show red border on selected and green on correct
+        if (selectedButton) {
+          selectedButton.classList.remove("active");
+          selectedButton.classList.add("incorrect");
+        }
+        // Find and highlight the correct answer
+        document.querySelectorAll(".quiz-option-btn").forEach((btn) => {
+          if (normalizeAnswer(btn.dataset.optionValue) === correctAnswer) {
+            btn.classList.add("correct");
+          }
+        });
+      }
+
+      // Disable all option buttons
       document.querySelectorAll(".quiz-option-btn").forEach((btn) => {
         btn.disabled = true;
       });
@@ -420,9 +447,6 @@
     if (submitBtn) {
       submitBtn.disabled = true;
     }
-
-    // Show feedback
-    showFeedback(isCorrect);
 
     // Update button to advance to next question
     if (submitBtn) {
@@ -444,38 +468,6 @@
       .trim()
       .toLowerCase()
       .replace(/[\s\-_.]+/g, "");
-  }
-
-  function showFeedback(isCorrect) {
-    const feedbackText = feedbackEl.querySelector(".quiz-feedback-text");
-    const currentQuestion = questions[currentQuestionIndex];
-
-    if (isCorrect) {
-      feedbackEl.classList.add("show", "correct");
-      feedbackText.innerHTML = "Correct! Well done.";
-    } else {
-      feedbackEl.classList.add("show", "incorrect");
-      feedbackText.innerHTML = `Incorrect. The correct answer is: "${currentQuestion.correctAnswer}"`;
-    }
-
-    // Add article link if available
-    if (currentQuestion.articleUrl && currentQuestion.articleTitle) {
-      const existingLink = feedbackEl.querySelector(".quiz-article-link");
-      if (existingLink) {
-        existingLink.remove();
-      }
-
-      const articleLink = document.createElement("a");
-      articleLink.href = currentQuestion.articleUrl;
-      articleLink.className = "quiz-article-link";
-      articleLink.innerHTML = `
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <path d="M9 18l6-6-6-6"/>
-        </svg>
-        Read: ${truncateText(currentQuestion.articleTitle, 40)}
-      `;
-      feedbackEl.appendChild(articleLink);
-    }
   }
 
   // Helper function to truncate text
@@ -603,6 +595,12 @@
   function restartQuiz() {
     resultsScreen.classList.remove("active");
     startScreen.classList.add("active");
+
+    // Hide quiz badge progress numbers
+    const quizProgressCount = document.getElementById("quiz-progress-count");
+    if (quizProgressCount) {
+      quizProgressCount.style.display = "none";
+    }
   }
 
   // Helper function to generate wrong answers
