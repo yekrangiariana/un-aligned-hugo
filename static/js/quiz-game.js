@@ -161,7 +161,6 @@
   const scoreNumber = document.getElementById("score-number");
   const scoreTotal = document.getElementById("score-total");
   const scorePercentage = document.getElementById("score-percentage");
-  const scoreMessage = document.getElementById("score-message");
   const scoreFill = document.getElementById("quiz-score-fill");
   const scoreText = document.getElementById("quiz-score-text");
   const restartBtn = document.getElementById("restart-quiz");
@@ -513,28 +512,22 @@
 
     // Update results message based on score
     let titleText = "Quiz Complete!";
-    let subtitleText = "Here's how you did";
     let messageText = "Great effort!";
 
     if (percentage === 100) {
       titleText = "Perfect Score!";
-      subtitleText = "You aced every question!";
       messageText = "You're a true expert on this week's essential stories!";
     } else if (percentage >= 80) {
       titleText = "Excellent Work!";
-      subtitleText = "You really know your stuff";
       messageText = "You've shown great knowledge of the essential stories.";
     } else if (percentage >= 60) {
       titleText = "Good Job!";
-      subtitleText = "Solid performance";
       messageText = "You have a good understanding of the essential stories.";
     } else if (percentage >= 40) {
       titleText = "Not Bad!";
-      subtitleText = "Room for improvement";
       messageText = "Keep reading to improve your knowledge.";
     } else {
       titleText = "Keep Learning!";
-      subtitleText = "Practice makes perfect";
       messageText = "Try reading the stories again to improve your score.";
     }
 
@@ -542,10 +535,7 @@
       resultsTitle.textContent = titleText;
     }
     if (resultsSubtitle) {
-      resultsSubtitle.textContent = subtitleText;
-    }
-    if (scoreMessage) {
-      scoreMessage.textContent = messageText;
+      resultsSubtitle.textContent = messageText;
     }
 
     // Save score to localStorage

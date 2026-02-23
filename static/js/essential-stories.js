@@ -27,6 +27,57 @@
   // Mark the current story as read on page load
   markCurrentStoryAsRead();
 
+  // Swipe Tutorial Overlay - show once on mobile
+  const SWIPE_TUTORIAL_KEY = "essentialStoriesSwipeTutorialSeen";
+
+  function showSwipeTutorial() {
+    // Only show on touch devices
+    if (window.matchMedia("(hover: hover) and (pointer: fine)").matches) {
+      return;
+    }
+
+    // Check if user has already seen the tutorial
+    if (localStorage.getItem(SWIPE_TUTORIAL_KEY)) {
+      return;
+    }
+
+    const overlay = document.getElementById("swipe-tutorial-overlay");
+    if (!overlay) return;
+
+    // Show the overlay after a brief delay
+    setTimeout(() => {
+      overlay.classList.add("active");
+    }, 500);
+
+    // Dismiss handler
+    function dismissTutorial() {
+      overlay.classList.add("hiding");
+      localStorage.setItem(SWIPE_TUTORIAL_KEY, "true");
+
+      setTimeout(() => {
+        overlay.classList.remove("active", "hiding");
+      }, 300);
+
+      // Clean up listeners
+      overlay.removeEventListener("click", dismissTutorial);
+      overlay.removeEventListener("touchstart", dismissTutorial);
+    }
+
+    // Auto-dismiss after 5 seconds
+    setTimeout(() => {
+      if (overlay.classList.contains("active")) {
+        dismissTutorial();
+      }
+    }, 5000);
+
+    // Dismiss on tap
+    overlay.addEventListener("click", dismissTutorial);
+    overlay.addEventListener("touchstart", dismissTutorial, { passive: true });
+  }
+
+  // Show swipe tutorial on first load
+  showSwipeTutorial();
+
   // Store references to event handlers for cleanup
   let currentKeyboardHandler = null;
   let currentTouchHandlers = {
@@ -51,6 +102,21 @@
       url.includes("/essential-stories-quotes/")
     );
   }
+
+  // Handle browser back/forward navigation
+  window.addEventListener("popstate", function () {
+    const url = window.location.pathname;
+
+    // For terminal pages (quiz/quotes), do a full page reload
+    if (isTerminalPage(url)) {
+      window.location.reload();
+      return;
+    }
+
+    // For story pages, load the content via partial loading
+    // Use a simple reload for consistency since we don't know direction
+    window.location.reload();
+  });
 
   // Partial page loading function
   function loadStoryContent(url, direction) {

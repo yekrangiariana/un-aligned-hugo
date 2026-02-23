@@ -49,10 +49,10 @@ end -}} {{- if gt (len $quizData) 0 -}}
       <!-- Quiz Start Screen -->
       <div class="quiz-start-screen active">
         <div class="quiz-start-content">
-          <h1 class="quiz-start-title">Test your knowledge</h1>
+          <h1 class="quiz-start-title">Fancy a challenge?</h1>
           <p class="quiz-start-description">
-            Challenge yourself with {{ len $quizData }} questions about this
-            week's essential stories. ~2 min
+            Challenge yourself with these {{ len $quizData }} questions about
+            this week's essential stories. ~2 min
           </p>
 
           <div class="quiz-start-actions">
@@ -152,40 +152,35 @@ end -}} {{- if gt (len $quizData) 0 -}}
       <!-- Quiz Results Screen -->
       <div class="quiz-results-screen">
         <div class="quiz-results-container">
-          <div class="quiz-results-icon-wrapper">
-            <svg
-              class="quiz-results-icon"
-              viewBox="0 0 24 24"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
-                stroke="currentColor"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path
-                d="M12 6v6M9 14l3-2 3 2"
-                stroke="currentColor"
-                stroke-width="1.5"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </div>
+          <div class="quiz-score-display">
+            <div class="quiz-results-icon-wrapper">
+              <svg
+                class="quiz-results-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z"
+                  stroke="currentColor"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M12 6v6M9 14l3-2 3 2"
+                  stroke="currentColor"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </div>
 
-          <div class="quiz-results-header">
             <h2 class="quiz-results-title" id="results-title">
               Quiz Complete!
             </h2>
-            <p class="quiz-results-subtitle" id="results-subtitle">
-              Here's how you did
-            </p>
-          </div>
 
-          <div class="quiz-score-display">
             <div class="quiz-score-main">
               <span class="quiz-score-number" id="score-number">0</span>
               <span class="quiz-score-separator">/</span>
@@ -200,21 +195,13 @@ end -}} {{- if gt (len $quizData) 0 -}}
                 >
               </div>
             </div>
-            <p class="quiz-score-message" id="score-message">Great effort!</p>
+            <p class="quiz-results-subtitle" id="results-subtitle">
+              Great effort!
+            </p>
           </div>
 
           <div class="quiz-results-actions">
             <button class="quiz-btn quiz-restart-btn" id="restart-quiz">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 24 24"
-                fill="none"
-                stroke="currentColor"
-                stroke-width="2"
-              >
-                <path d="M3 12a9 9 0 019-9 9.75 9.75 0 016.74 2.74L21 8" />
-                <path d="M21 3v5h-5" />
-              </svg>
               <span>Try Again</span>
             </button>
             <a
