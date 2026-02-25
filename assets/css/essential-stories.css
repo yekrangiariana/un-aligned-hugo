@@ -535,8 +535,7 @@ body.dark-mode .quotes-compilation-content {
   transform-origin: center center;
 }
 
-/* On mobile, reset the transform so that position:fixed descendants
-   (e.g. .story-progress-bar) are anchored to the viewport, not this element.
+/* On mobile, reset the transform for better performance.
    The GPU-compositing hint (translateZ) is only needed for desktop swipe. */
 @media (max-width: 748px) {
   .essential-story-view {
@@ -861,6 +860,7 @@ body.dark-mode .story-nav-link.is-current {
   opacity: 1;
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 70px; /* Space for fixed progress bar */
 }
 
 /* Story category badge - positioned above title */
@@ -1122,68 +1122,20 @@ body.dark-mode a.story-category-badge:hover {
   border-top: var(--border-thin-light);
   position: fixed;
   bottom: 0;
-  left: 0;
-  right: 0;
-  transform: none;
-  max-width: none;
-  width: 100vw;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 700px;
+  width: 100%;
   z-index: 2000;
   box-sizing: border-box;
 }
 
-/* Center progress bar on desktop/tablet and remove sticky behavior */
-@media (min-width: 749px) {
-  .story-progress-bar {
-    position: static;
-    left: auto;
-    right: auto;
-    bottom: auto;
-    transform: none;
-    max-width: 700px;
-    width: 100%;
-    margin: 0 auto;
-  }
-}
-
-/* Preview containers for swipe navigation */
-.story-preview-left,
-.story-preview-right {
+/* When docked, progress bar scrolls with content instead of staying fixed */
+.story-progress-bar.is-docked {
   position: absolute;
-  top: 0;
   bottom: 0;
-  width: 100%;
-  max-width: 700px;
-  background: var(--color-background);
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.2s ease;
-  z-index: 1;
-  overflow: hidden;
-}
-
-.story-preview-left {
-  right: 100%;
-}
-
-.story-preview-right {
-  left: 100%;
-}
-
-.story-preview-left.active,
-.story-preview-right.active {
-  opacity: 0.3;
-}
-
-.story-preview-content {
-  width: 100%;
-  height: 100%;
-  padding: 20px;
-  overflow: hidden;
-}
-
-body.dark-mode .story-preview-left,
-body.dark-mode .story-preview-right {
-  background: var(--dark-color-background);
+  left: 0;
+  transform: none;
 }
 
 /* Navigation buttons in bottom bar */

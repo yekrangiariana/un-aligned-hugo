@@ -103,6 +103,28 @@
     );
   }
 
+  // Animate content out then navigate to a new page
+  function animateAndNavigate(url, direction) {
+    if (isNavigating) return;
+    isNavigating = true;
+
+    const contentWrapper = storyView.querySelector(".story-content-wrapper");
+    if (!contentWrapper) {
+      window.location.href = url;
+      return;
+    }
+
+    // Animate out
+    contentWrapper.style.transition = "transform 0.2s ease, opacity 0.2s ease";
+    contentWrapper.style.transform = direction === "next" ? "translateX(-30px)" : "translateX(30px)";
+    contentWrapper.style.opacity = "0";
+
+    // Navigate after animation
+    setTimeout(() => {
+      window.location.href = url;
+    }, 150);
+  }
+
   // Handle browser back/forward navigation
   window.addEventListener("popstate", function () {
     const url = window.location.pathname;
@@ -132,9 +154,9 @@
       return;
     }
 
-    // Clear any existing transforms on storyView from swipe gestures
-    storyView.style.removeProperty("transform");
-    storyView.style.removeProperty("transition");
+    // Clear any existing transforms on contentWrapper from swipe gestures
+    contentWrapper.style.removeProperty("transform");
+    contentWrapper.style.removeProperty("transition");
     storyView.classList.remove("is-dragging");
 
     // Add loading state to content only
@@ -271,8 +293,6 @@
         contentWrapper.style.removeProperty("transform");
         contentWrapper.style.removeProperty("transition");
         contentWrapper.style.pointerEvents = "auto";
-        storyView.style.removeProperty("transform");
-        storyView.style.removeProperty("transition");
         storyView.classList.remove("is-dragging");
         isNavigating = false;
         // Fallback to full page load
@@ -362,6 +382,8 @@
         newPrevBtn.addEventListener("click", function (e) {
           const url = newPrevBtn.getAttribute("href");
           if (isTerminalPage(url)) {
+            e.preventDefault();
+            animateAndNavigate(url, "prev");
             return;
           }
           e.preventDefault();
@@ -378,8 +400,10 @@
         newNextBtn.addEventListener("click", function (e) {
           const url = newNextBtn.getAttribute("href");
 
-          // Allow normal navigation for terminal pages
+          // Use animated navigation for terminal pages
           if (isTerminalPage(url)) {
+            e.preventDefault();
+            animateAndNavigate(url, "next");
             return;
           }
 
@@ -455,69 +479,11 @@
 
   function initializeControls() {
     const currentStoryView = document.querySelector(".essential-story-view");
+    const currentContentWrapper = currentStoryView?.querySelector(".story-content-wrapper");
     const currentPrevBtn = document.getElementById("story-prev");
     const currentNextBtn = document.getElementById("story-next");
 
-    if (!currentStoryView) return;
-
-    // Create preview containers if they don't exist
-    let previewLeft = currentStoryView.querySelector(".story-preview-left");
-    let previewRight = currentStoryView.querySelector(".story-preview-right");
-
-    if (!previewLeft) {
-      previewLeft = document.createElement("div");
-      previewLeft.className = "story-preview-left";
-      previewLeft.innerHTML = '<div class="story-preview-content"></div>';
-      currentStoryView.appendChild(previewLeft);
-    }
-
-    if (!previewRight) {
-      previewRight = document.createElement("div");
-      previewRight.className = "story-preview-right";
-      previewRight.innerHTML = '<div class="story-preview-content"></div>';
-      currentStoryView.appendChild(previewRight);
-    }
-
-    // Preload preview content
-    function loadPreviewContent(url, container) {
-      if (!url || !container) return;
-
-      const contentDiv = container.querySelector(".story-preview-content");
-      if (!contentDiv) return;
-
-      fetch(url)
-        .then((response) => response.text())
-        .then((html) => {
-          const parser = new DOMParser();
-          const newDoc = parser.parseFromString(html, "text/html");
-          const newStoryView = newDoc.querySelector(".essential-story-view");
-
-          if (newStoryView) {
-            const previewContent = newStoryView.querySelector(
-              ".story-content-wrapper",
-            );
-            if (previewContent) {
-              contentDiv.innerHTML = previewContent.innerHTML;
-            }
-          }
-        })
-        .catch(() => {});
-    }
-
-    // Load preview content for prev/next stories
-    if (currentPrevBtn && !currentPrevBtn.disabled) {
-      const prevUrl = currentPrevBtn.getAttribute("href");
-      if (prevUrl) {
-        loadPreviewContent(prevUrl, previewLeft);
-      }
-    }
-
-    if (currentNextBtn && !currentNextBtn.disabled) {
-      const nextUrl = currentNextBtn.getAttribute("href");
-      if (nextUrl) {
-        loadPreviewContent(nextUrl, previewRight);
-      }
-    }
+    if (!currentStoryView || !currentContentWrapper) return;
 
     // Keyboard navigation handler
     currentKeyboardHandler = function (e) {
@@ -584,36 +550,7 @@
 
       rafId = requestAnimationFrame(() => {
         const dampedDistance = distance * DAMPING;
-        currentStoryView.style.transform = `translateX(${dampedDistance}px)`;
-
-        // Show preview based on swipe direction
-        const previewLeft = currentStoryView.querySelector(
-          ".story-preview-left",
-        );
-        const previewRight = currentStoryView.querySelector(
-          ".story-preview-right",
-        );
-
-        if (
-          dampedDistance > 50 &&
-          currentPrevBtn &&
-          !currentPrevBtn.disabled &&
-          previewLeft
-        ) {
-          previewLeft.classList.add("active");
-          if (previewRight) previewRight.classList.remove("active");
-        } else if (
-          dampedDistance < -50 &&
-          currentNextBtn &&
-          !currentNextBtn.disabled &&
-          previewRight
-        ) {
-          previewRight.classList.add("active");
-          if (previewLeft) previewLeft.classList.remove("active");
-        } else {
-          if (previewLeft) previewLeft.classList.remove("active");
-          if (previewRight) previewRight.classList.remove("active");
-        }
+        currentContentWrapper.style.transform = `translateX(${dampedDistance}px)`;
       });
     }
 
@@ -639,7 +576,7 @@
       isSwiping = true;
       isHorizontalSwipe = false;
 
-      currentStoryView.style.transition = "none";
+      currentContentWrapper.style.transition = "none";
     };
 
     currentTouchHandlers.move = function (e) {
@@ -699,14 +636,6 @@
       isSwiping = false;
       currentStoryView.classList.remove("is-dragging");
 
-      // Hide previews
-      const previewLeft = currentStoryView.querySelector(".story-preview-left");
-      const previewRight = currentStoryView.querySelector(
-        ".story-preview-right",
-      );
-      if (previewLeft) previewLeft.classList.remove("active");
-      if (previewRight) previewRight.classList.remove("active");
-
       // Determine if we should navigate
       let shouldNavigate = false;
       let direction = null;
@@ -734,11 +663,11 @@
 
       if (shouldNavigate) {
         // Quick smooth animation to completion
-        currentStoryView.style.transition =
+        currentContentWrapper.style.transition =
           "transform 0.2s cubic-bezier(0.22, 1, 0.36, 1)";
         const targetX =
           direction === "prev" ? window.innerWidth : -window.innerWidth;
-        currentStoryView.style.transform = `translateX(${targetX}px)`;
+        currentContentWrapper.style.transform = `translateX(${targetX}px)`;
 
         // Navigate with slight delay to show slide animation
         setTimeout(() => {
@@ -753,13 +682,13 @@
         }, 120);
       } else {
         // Quick snap back to original position
-        currentStoryView.style.transition =
+        currentContentWrapper.style.transition =
           "transform 0.25s cubic-bezier(0.33, 1, 0.68, 1)";
-        currentStoryView.style.transform = "translateX(0)";
+        currentContentWrapper.style.transform = "translateX(0)";
 
         setTimeout(() => {
-          currentStoryView.style.removeProperty("transform");
-          currentStoryView.style.removeProperty("transition");
+          currentContentWrapper.style.removeProperty("transform");
+          currentContentWrapper.style.removeProperty("transition");
         }, 250);
       }
     };
@@ -811,6 +740,44 @@
       }
     }
   }
+
+  // Progress bar docking - keeps it fixed until story view bottom reaches viewport
+  function initProgressBarDocking() {
+    const storyView = document.querySelector(".essential-story-view");
+    const progressBar = storyView?.querySelector(".story-progress-bar");
+
+    if (!storyView || !progressBar) return;
+
+    // Create a sentinel element at the bottom of the story view
+    const sentinel = document.createElement("div");
+    sentinel.className = "progress-bar-sentinel";
+    sentinel.style.cssText =
+      "position: absolute; bottom: 0; left: 0; right: 0; height: 1px; pointer-events: none;";
+    storyView.appendChild(sentinel);
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          // When sentinel is visible (story bottom in view), dock the bar
+          // When sentinel is not visible (scrolled up), keep bar fixed
+          if (entry.isIntersecting) {
+            progressBar.classList.add("is-docked");
+          } else {
+            progressBar.classList.remove("is-docked");
+          }
+        });
+      },
+      {
+        root: null, // viewport
+        threshold: 0,
+        rootMargin: "0px 0px 0px 0px",
+      },
+    );
+
+    observer.observe(sentinel);
+  }
+
+  initProgressBarDocking();
 
   // Initialize navigation on page load
   initializeNavigation();
