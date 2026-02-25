@@ -1,11 +1,11 @@
 {{ define "main" }} {{ $essentialStoriesCSS := resources.Get
-"css/essential-stories.css" }} {{ $quizCSS := resources.Get "css/quiz-game.css"
-}}
+"css/essential-stories.css" }} {{ $quizSimpleCSS := resources.Get
+"css/quiz-simple.css" }}
 <link rel="stylesheet" href="{{ $essentialStoriesCSS.RelPermalink }}" />
-<link rel="stylesheet" href="{{ $quizCSS.RelPermalink }}" />
+<link rel="stylesheet" href="{{ $quizSimpleCSS.RelPermalink }}" />
 
-{{ partial "essential-stories-quiz.html" . }}
+{{ partial "essential-stories-quiz-simple.html" . }}
 
 <script src="/js/essential-stories.js" defer></script>
-<script src="/js/quiz-game.js" defer></script>
+<script src="/js/quiz-simple.js" defer></script>
 {{ end }}

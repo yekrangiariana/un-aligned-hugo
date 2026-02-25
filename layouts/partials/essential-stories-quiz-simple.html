@@ -1,0 +1,187 @@
+{{- /* Simplified Essential Stories Quiz - All questions displayed inline */ -}}
+{{ partial "essential-stories-context.html" . }} {{- $es := .Scratch.Get
+"EssentialStoriesContext" -}} {{- $essentialStories := $es.Recent -}} {{- /*
+Collect all quiz questions from essential stories */ -}} {{- $quizData := slice
+-}} {{- $questionNum := 0 -}} {{- range $essentialStories -}} {{- if
+.Params.quiz -}} {{- $article := . -}} {{- $quizItems := .Params.quiz -}} {{-
+range $quizItems -}} {{- if and (isset . "question") (isset . "answer") -}} {{-
+$questionNum = add $questionNum 1 -}} {{- $answerData := .answer -}} {{-
+$correctAnswer := "" -}} {{- $options := slice -}} {{- $isMultipleChoice :=
+false -}} {{- if reflect.IsSlice $answerData -}} {{- $correctAnswer = index
+$answerData 0 -}} {{- if gt (len $answerData) 1 -}} {{- $isMultipleChoice = true
+-}} {{- $options = $answerData -}} {{- end -}} {{- else -}} {{- $correctAnswer =
+$answerData -}} {{- end -}} {{- $quizData = $quizData | append (dict "num"
+$questionNum "question" .question "correctAnswer" $correctAnswer "options"
+$options "isMultipleChoice" $isMultipleChoice "articleTitle" $article.Title
+"articleUrl" $article.RelPermalink ) -}} {{- end -}} {{- end -}} {{- end -}} {{-
+end -}} {{- if gt (len $quizData) 0 -}} {{- /* Calculate navigation info */ -}}
+{{- $hasQuotes := false -}} {{- range $essentialStories -}} {{- if
+.Params.quotes -}}{{- $hasQuotes = true -}}{{- end -}} {{- end -}} {{-
+$totalStories := len $essentialStories -}} {{- $terminalCount := 1 -}} {{- if
+$hasQuotes -}}{{- $terminalCount = add $terminalCount 1 -}}{{- end -}} {{-
+$navTotal := add $totalStories $terminalCount -}} {{- $quizIndex := add
+$totalStories 1 -}}
+
+<div class="essential-story-view quiz-simple-view">
+  <div class="story-content-wrapper">
+    <!-- Top Control Bar -->
+    <div class="story-controls">
+      {{ partial "story-jump-menu.html" (dict "Stories" $essentialStories
+      "HasQuiz" true "HasQuotes" $hasQuotes "CurrentPath" "" "CurrentPage"
+      "quiz") }}
+    </div>
+
+    <a
+      href="/categories/essential-stories-of-the-week/"
+      class="story-category-badge"
+    >
+      Essential Stories of the Week
+      <span class="story-controls-count"
+        >{{ $quizIndex }} / {{ $navTotal }}</span
+      >
+    </a>
+
+    <h1 class="story-title">
+      {{ len $quizData }} questions and the week that was
+    </h1>
+
+    <!-- Quiz Questions -->
+    <div class="quiz-simple-container">
+      <ol class="quiz-simple-questions">
+        {{- range $quizData -}} {{- $q := . -}}
+        <li class="quiz-simple-question" data-correct="{{ .correctAnswer }}">
+          <p class="quiz-question-text">{{ .question }}</p>
+
+          {{- if .isMultipleChoice -}}
+          <div class="quiz-options">
+            {{- range $idx, $option := (shuffle .options) -}}
+            <label class="quiz-option">
+              <span class="quiz-result-icon"></span>
+              <input
+                type="radio"
+                name="question-{{ $q.num }}"
+                value="{{ $option }}"
+              />
+              <span class="quiz-option-text">{{ $option }}</span>
+            </label>
+            {{- end -}}
+          </div>
+          {{- else -}}
+          <div class="quiz-single-answer">
+            <p class="quiz-answer-text" hidden>{{ .correctAnswer }}</p>
+          </div>
+          {{- end -}}
+
+          <button class="quiz-reveal-btn" type="button">Reveal</button>
+        </li>
+        {{- end -}}
+      </ol>
+    </div>
+  </div>
+
+  {{- /* Get last story for prev navigation */ -}} {{- $lastStory := index
+  $essentialStories (sub (len $essentialStories) 1) -}}
+
+  <div class="story-progress-bar">
+    {{- with $lastStory -}}
+    <a
+      href="{{ .RelPermalink }}"
+      class="story-control-btn story-nav-btn"
+      id="story-prev"
+      aria-label="Previous story"
+    >
+      <svg
+        class="nav-btn-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M15 18l-6-6 6-6" />
+      </svg>
+      <span class="nav-btn-text">Previous</span>
+    </a>
+    {{- else -}}
+    <button
+      class="story-control-btn story-nav-btn"
+      id="story-prev"
+      disabled
+      aria-label="No previous"
+    >
+      <svg
+        class="nav-btn-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M15 18l-6-6 6-6" />
+      </svg>
+      <span class="nav-btn-text">Previous</span>
+    </button>
+    {{- end -}}
+
+    <div class="story-progress-segments">
+      {{- range $index, $story := $essentialStories -}}
+      <div class="story-progress-segment past"></div>
+      {{- end -}}
+      <div class="story-progress-segment active"></div>
+      {{- if $hasQuotes -}}
+      <div class="story-progress-segment"></div>
+      {{- end -}}
+    </div>
+
+    {{- if $hasQuotes -}}
+    <a
+      href="/essential-stories-quotes/"
+      class="story-control-btn story-nav-btn"
+      id="story-next"
+      aria-label="Go to quotes"
+    >
+      <span class="nav-btn-text">Quotes</span>
+      <svg
+        class="nav-btn-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M9 18l6-6-6-6" />
+      </svg>
+    </a>
+    {{- else -}}
+    <button
+      class="story-control-btn story-nav-btn"
+      id="story-next"
+      disabled
+      aria-label="No next story"
+    >
+      <span class="nav-btn-text">Next</span>
+      <svg
+        class="nav-btn-icon"
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+      >
+        <path d="M9 18l6-6-6-6" />
+      </svg>
+    </button>
+    {{- end -}}
+  </div>
+</div>
+{{- else -}}
+<div class="essential-story-view quiz-simple-view">
+  <div class="story-content-wrapper">
+    <div class="quiz-simple-container">
+      <p class="quiz-no-questions">
+        No quiz questions available this week. Check back soon!
+      </p>
+    </div>
+  </div>
+</div>
+{{- end -}}

@@ -1,0 +1,292 @@
+/* Simplified Essential Stories Quiz Styles */
+
+.quiz-simple-view {
+  min-height: 100vh;
+  background-color: var(--color-background);
+  padding-bottom: 60px;
+}
+
+body.dark-mode .quiz-simple-view {
+  background-color: #292828;
+}
+
+.quiz-simple-container {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 16px 0;
+}
+
+/* Questions Container - ordered list */
+.quiz-simple-questions {
+  list-style: decimal;
+  list-style-position: inside;
+  padding-left: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* Individual Question - list item */
+.quiz-simple-question {
+  padding-bottom: 32px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+body.dark-mode .quiz-simple-question {
+  border-bottom-color: rgba(255, 255, 255, 0.08);
+}
+
+.quiz-simple-question:last-child {
+  border-bottom: none;
+}
+
+/* Question Text - styled like body text */
+.quiz-question-text {
+  display: inline;
+  font-size: 18px;
+  line-height: 1.6;
+  color: var(--color-text);
+  font-weight: normal;
+}
+
+/* Multiple Choice Options */
+.quiz-options {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.quiz-option {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 14px 16px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text);
+}
+
+body.dark-mode .quiz-option {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.quiz-option:hover {
+  background: #ebebeb;
+}
+
+body.dark-mode .quiz-option:hover {
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.quiz-option input[type="radio"] {
+  margin: 3px 0 0 0;
+  width: 18px;
+  height: 18px;
+  flex-shrink: 0;
+  cursor: pointer;
+  accent-color: #3b82f6;
+}
+
+/* Hide radio when revealed */
+.quiz-option.disabled input[type="radio"] {
+  display: none;
+}
+
+.quiz-option-text {
+  flex: 1;
+}
+
+/* Result icon (tick/X) - hidden by default */
+.quiz-result-icon {
+  display: none;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Show icon when option is revealed */
+.quiz-option.correct .quiz-result-icon,
+.quiz-option.incorrect .quiz-result-icon,
+.quiz-option.correct-highlight .quiz-result-icon {
+  display: flex;
+}
+
+/* Selected option (before reveal) - blue to differentiate from correct/incorrect */
+.quiz-option.selected {
+  background: rgba(59, 130, 246, 0.1);
+  border: 2px solid #3b82f6;
+  padding: 12px 14px;
+}
+
+/* Correct answer - user got it right: filled green, white text */
+.quiz-option.correct {
+  background: #2f7d32;
+  border: 2px solid #2f7d32;
+  padding: 12px 14px;
+  color: #ffffff;
+}
+
+.quiz-option.correct .quiz-option-text {
+  color: #ffffff;
+}
+
+.quiz-option.correct .quiz-result-icon {
+  color: #ffffff;
+}
+
+/* Incorrect answer - user got it wrong: red background with white text */
+.quiz-option.incorrect {
+  background: #dc2626;
+  border: 2px solid #dc2626;
+  padding: 12px 14px;
+  color: #ffffff;
+}
+
+.quiz-option.incorrect .quiz-option-text {
+  color: #ffffff;
+}
+
+.quiz-option.incorrect .quiz-result-icon {
+  color: #ffffff;
+}
+
+/* Correct answer highlight - shown when user got it wrong */
+.quiz-option.correct-highlight {
+  background: #f5f5f5;
+  border: 2px solid #2f7d32;
+  padding: 12px 14px;
+}
+
+.quiz-option.correct-highlight .quiz-result-icon {
+  color: #2f7d32;
+}
+
+body.dark-mode .quiz-option.incorrect {
+  background: #dc2626;
+}
+
+body.dark-mode .quiz-option.correct-highlight {
+  background: rgba(255, 255, 255, 0.08);
+}
+
+.quiz-option.disabled {
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Single Answer (non-multiple choice) */
+.quiz-single-answer {
+  margin-bottom: 20px;
+}
+
+.quiz-answer-text {
+  font-size: 16px;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text);
+  margin: 0;
+  padding: 14px 16px;
+  background: rgba(47, 125, 50, 0.1);
+  border-radius: 8px;
+  border-left: 4px solid #2f7d32;
+}
+
+/* Reveal Button */
+.quiz-reveal-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 28px;
+  background: #1a1a2e;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: var(--font-weight-semibold);
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-family: var(--font-family-primary);
+}
+
+.quiz-reveal-btn:hover {
+  background: #2a2a3e;
+  transform: translateY(-1px);
+}
+
+.quiz-reveal-btn:active {
+  transform: translateY(0);
+}
+
+.quiz-reveal-btn:disabled,
+.quiz-reveal-btn.revealed {
+  background: #666;
+  cursor: default;
+  transform: none;
+}
+
+body.dark-mode .quiz-reveal-btn {
+  background: #ffffff;
+  color: #1a1a2e;
+}
+
+body.dark-mode .quiz-reveal-btn:hover {
+  background: #f0f0f0;
+}
+
+body.dark-mode .quiz-reveal-btn:disabled,
+body.dark-mode .quiz-reveal-btn.revealed {
+  background: #888;
+  color: #333;
+}
+
+/* No questions message */
+.quiz-no-questions {
+  text-align: center;
+  padding: 60px 20px;
+  font-size: 16px;
+  color: var(--color-text-light);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .quiz-simple-title {
+    font-size: 26px;
+  }
+
+  .quiz-question-text {
+    font-size: 16px;
+  }
+
+  .quiz-option {
+    padding: 12px 14px;
+    font-size: 15px;
+  }
+
+  .quiz-simple-questions {
+    gap: 32px;
+  }
+
+  .quiz-simple-question {
+    padding-bottom: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .quiz-simple-title {
+    font-size: 22px;
+  }
+
+  .quiz-reveal-btn {
+    padding: 14px 24px;
+  }
+}

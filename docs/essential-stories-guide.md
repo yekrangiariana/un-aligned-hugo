@@ -214,15 +214,15 @@ The **Weekly Quiz** is a dedicated page that aggregates questions from all Essen
 
 - Content file: [content/pages/essential-stories-quiz.md](content/pages/essential-stories-quiz.md) (defines URL `/essential-stories-quiz/`)
 - Layout: [layouts/_default/quiz.html](layouts/_default/quiz.html)
-- Partial: [layouts/partials/essential-stories-quiz.html](layouts/partials/essential-stories-quiz.html)
-- Styles: [assets/css/essential-stories.css](assets/css/essential-stories.css) and [assets/css/quiz-game.css](assets/css/quiz-game.css)
-- JS: [static/js/essential-stories.js](static/js/essential-stories.js) and [static/js/quiz-game.js](static/js/quiz-game.js)
+- Partial: [layouts/partials/essential-stories-quiz-simple.html](layouts/partials/essential-stories-quiz-simple.html)
+- Styles: [assets/css/essential-stories.css](assets/css/essential-stories.css) and [assets/css/quiz-simple.css](assets/css/quiz-simple.css)
+- JS: [static/js/essential-stories.js](static/js/essential-stories.js) and [static/js/quiz-simple.js](static/js/quiz-simple.js)
 
 `quiz.html` is very small: it just loads the two CSS files, renders the partial, and attaches the JS.
 
 ### Collecting quiz data from posts
 
-In [layouts/partials/essential-stories-quiz.html](layouts/partials/essential-stories-quiz.html):
+In [layouts/partials/essential-stories-quiz-simple.html](layouts/partials/essential-stories-quiz-simple.html):
 
 1. It collects only the **recent** Essential Stories posts (7‑day window) from the shared context.
 2. For each story, it reads `.Params.quiz` and supports two formats:
@@ -262,7 +262,7 @@ The quiz view consists of:
 
 ### Quiz logic (JavaScript)
 
-[static/js/quiz-game.js](static/js/quiz-game.js) powers the quiz behavior:
+[static/js/quiz-simple.js](static/js/quiz-simple.js) powers the quiz behavior:
 
 - Reads the `data-quiz` JSON from `.quiz-view`
 - Normalizes questions and answers
@@ -364,9 +364,9 @@ Here’s a quick map of the key files involved:
 - **Weekly Quiz**
   - [content/pages/essential-stories-quiz.md](content/pages/essential-stories-quiz.md)
   - [layouts/_default/quiz.html](layouts/_default/quiz.html)
-  - [layouts/partials/essential-stories-quiz.html](layouts/partials/essential-stories-quiz.html)
-  - [static/js/quiz-game.js](static/js/quiz-game.js)
-  - [assets/css/quiz-game.css](assets/css/quiz-game.css)
+  - [layouts/partials/essential-stories-quiz-simple.html](layouts/partials/essential-stories-quiz-simple.html)
+  - [static/js/quiz-simple.js](static/js/quiz-simple.js)
+  - [assets/css/quiz-simple.css](assets/css/quiz-simple.css)
 
 - **Weekly Quotes**
   - [content/pages/essential-stories-quotes.md](content/pages/essential-stories-quotes.md)
