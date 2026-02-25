@@ -10,6 +10,7 @@ categories:
 tags:
   - "Global Justice"
   - "Unravelling The Un"
+  - "ICC"
 image: "/images/The-ICJ-the-ICC-A-closer-look-at-the-justice-doppelganger.jpg"
 ---
 

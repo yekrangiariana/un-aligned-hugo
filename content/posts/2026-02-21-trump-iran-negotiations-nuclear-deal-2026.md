@@ -2,7 +2,7 @@
 title: "Will the arsenal force the handshake?"
 slug: "trump-iran-negotiations-nuclear-deal-2026"
 url: "essential-stories-of-the-week/trump-iran-negotiations-nuclear-deal-2026"
-date: "2026-02-21T06:00:00+0300"
+date: "2026-02-23T06:00:00+0300"
 authors: ["UN-aligned"]
 description: "Donald Trump’s military buildup in the Middle East serves as a coercive backdrop to fragile nuclear negotiations with Tehran."
 categories:
@@ -14,10 +14,8 @@ quiz:
   - question: "What primary concession has Iran proposed regarding its domestic uranium enrichment?"
     answer: ["A suspension for a fixed period of five years", "The complete dismantling of all centrifuges", "The transfer of all stockpiles to Russia"]
 quotes:
-  - sentence: "There has been some progress, but there is still a lot of work to be done, and the problem is that we do not have much time."
-    attribute: "Official"
   - sentence: "I am convinced that if the normal work of IAEA inspectors, as mandated by its founding documents, is restored, the Iranian side will certainly cooperate with them."
-    attribute: "Diplomat"
+    attribute: "Russian foreign minister, Sergei Lavrov"
 image: "/images/abbas-araghchi.jpg"
 imageCaption: "Abbas Araghchi is an Iranian diplomat and politician, who is leading the negotiations. Photo: Tasnim News Agency © CC BY 4.0"
 style: "1"
