@@ -116,7 +116,8 @@
 
     // Animate out
     contentWrapper.style.transition = "transform 0.2s ease, opacity 0.2s ease";
-    contentWrapper.style.transform = direction === "next" ? "translateX(-30px)" : "translateX(30px)";
+    contentWrapper.style.transform =
+      direction === "next" ? "translateX(-30px)" : "translateX(30px)";
     contentWrapper.style.opacity = "0";
 
     // Navigate after animation
@@ -479,7 +480,9 @@
 
   function initializeControls() {
     const currentStoryView = document.querySelector(".essential-story-view");
-    const currentContentWrapper = currentStoryView?.querySelector(".story-content-wrapper");
+    const currentContentWrapper = currentStoryView?.querySelector(
+      ".story-content-wrapper",
+    );
     const currentPrevBtn = document.getElementById("story-prev");
     const currentNextBtn = document.getElementById("story-next");
 
