@@ -282,17 +282,18 @@
   /* Adjust comments cards for mobile - stack author image below content */
   .article-card.has-comments .article-card-content {
     padding-right: var(--spacing-sm);
-    padding-bottom: 60px;
     min-height: auto;
     position: relative;
+    padding-bottom: 60px;
+  }
+
+  .article-card.article-card.has-comments .article-card-description {
+    padding-right: 85px;
   }
 
   .article-card.has-comments .author-profile-container {
-    width: 45px;
-    height: 45px;
-    right: auto;
-    left: var(--spacing-sm);
-    bottom: var(--spacing-sm);
+    width: 80px;
+    height: 80px;
   }
 }
 
