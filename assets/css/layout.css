@@ -130,14 +130,13 @@ article {
   font-size: 1.1rem;
 }
 
-/* Article grid layout */
-/* .article-grid {
+/* Article grid layout - explicit 2 columns for predictable span behavior */
+.article-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 20px;
-  border-left: var(--border-thin-light);
   grid-auto-flow: dense;
-} */
+}
 
 /* Make the first article card in each grid take up space of two cards */
 .article-grid .article-card:first-child,
@@ -162,7 +161,6 @@ article {
   .post-content-container {
     flex: 0 0 100%;
     min-width: 100% !important;
-    display: block;
   }
 }
 
@@ -190,7 +188,6 @@ article {
     min-width: 100% !important;
     padding-left: 0;
     padding-right: 0;
-    display: block;
   }
 
   /* Page-level container to constrain width consistently */
@@ -211,21 +208,7 @@ article {
   }
 
   .article-grid {
-    grid-template-columns: 1fr;
     border: none !important;
-  }
-
-  /* Reset grid styles for mobile */
-  .article-grid .article-card:first-child,
-  .article-grid .article-card:nth-child(4) {
-    grid-column: 1;
-    grid-row: span 1;
-  }
-
-  /* Reset card display styles for mobile */
-  .article-grid .article-card:first-child .article-card-link,
-  .article-grid .article-card:nth-child(4) .article-card-link {
-    display: block;
   }
 
   .article-grid .article-card-link {
@@ -240,6 +223,32 @@ article {
   .article-grid .article-card:nth-child(4) .article-card-placeholder {
     width: 100%;
     height: auto;
+  }
+}
+
+/* Extra small screens - single column for iPhone SE and similar */
+@media screen and (max-width: 375px) {
+  .article-grid {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 15px;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .article-grid .article-card:first-child,
+  .article-grid .article-card:nth-child(4) {
+    grid-column: 1;
+  }
+
+  .site-container {
+    padding: 5px;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .category-grid {
+    max-width: 100%;
+    overflow: hidden;
   }
 }
 
@@ -399,14 +408,6 @@ article {
   margin-right: auto;
   margin-top: auto;
   width: calc(50% - 3px);
-}
-
-/* Grid layout for cards - grid for listings, block for single page */
-.article-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-  gap: 20px;
-  grid-auto-flow: dense;
 }
 
 /* Single page content container - display as block not grid */

@@ -10,6 +10,8 @@
   border-top: var(--border-thin);
   padding-top: 0;
   position: relative;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* Style 2 specific article card title styling */
@@ -117,6 +119,8 @@
   flex-direction: column;
   background-color: var(--color-background);
   position: relative;
+  max-width: 100%;
+  box-sizing: border-box;
 }
 
 /* Title styling - reduced spacing */
@@ -127,6 +131,8 @@
   font-weight: var(--font-weight-bold);
   color: var(--color-primary);
   font-family: var(--font-family-secondary);
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 /* Description styling */
@@ -209,6 +215,7 @@
   min-height: 150px;
   width: 100%;
   padding-bottom: var(--spacing-md); /* Add space at bottom */
+  box-sizing: border-box;
 }
 
 /* Comments quotation mark - using shared component */
@@ -259,6 +266,63 @@
   }
   .article-card.has-comments .article-card-description {
     display: block;
+  }
+
+  /* Prevent card collapse to just border line on small screens */
+  .article-card {
+    min-height: 120px;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+
+  .article-card-content {
+    min-height: 80px;
+  }
+
+  /* Adjust comments cards for mobile - stack author image below content */
+  .article-card.has-comments .article-card-content {
+    padding-right: var(--spacing-sm);
+    padding-bottom: 60px;
+    min-height: auto;
+    position: relative;
+  }
+
+  .article-card.has-comments .author-profile-container {
+    width: 45px;
+    height: 45px;
+    right: auto;
+    left: var(--spacing-sm);
+    bottom: var(--spacing-sm);
+  }
+}
+
+/* iPhone SE and similar small screens - fix card layout */
+@media screen and (max-width: 375px) {
+  /* Let cards grow naturally based on content + image */
+  .article-card {
+    height: auto;
+    min-height: auto;
+  }
+
+  /* Don't let content squeeze the image */
+  .article-card-content {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+
+  /* Force consistent aspect ratio for ALL cards including featured ones */
+  .article-card-image,
+  .article-grid .article-card:first-of-type .article-card-image,
+  .article-grid .article-card:nth-of-type(4) .article-card-image {
+    aspect-ratio: 3/2;
+    height: auto;
+    width: 100%;
+    margin-top: var(--spacing-sm);
+    flex-shrink: 0;
+  }
+
+  .article-card-link {
+    height: auto;
   }
 }
 
