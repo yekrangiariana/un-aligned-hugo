@@ -17,7 +17,7 @@ quotes:
     attribute: "Trita Parsi"
   - sentence: "One of the most evil people in History is dead."
     attribute: "Donald Trump, US President"
-image: "images/Ali_Khamenei.jpg"
+image: "/images/Ali_Khamenei.jpg"
 imageCaption: "Photo: khamenei.ir © CC BY 4.0"
 style: "1"
 ---
