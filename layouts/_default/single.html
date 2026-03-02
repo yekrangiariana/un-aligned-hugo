@@ -89,7 +89,7 @@
         
         {{- with index .Params.categories 0 -}}
           <a href="/categories/essential-stories-of-the-week/" class="story-category-badge">
-            {{ . }}
+            Essential stories of the week
             {{- if $isRecentStory -}}
             <span class="story-controls-count">{{ add $currentIndex 1 }} / {{ add $totalStories $terminalCount }}</span>
             {{- end -}}

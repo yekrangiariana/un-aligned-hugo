@@ -2,11 +2,11 @@
 title: "What happens to Iran after the assassination of its supreme leader?"
 slug: "iran-supreme-leader-assassination-aftermath"
 url: "essential-stories-of-the-week/iran-supreme-leader-assassination-aftermath"
-date: "2026-03-01T09:00:00+0300"
+date: "2026-03-02T08:05:00+0300"
 authors: ["UN-aligned"]
 description: "The targeted killing of Ali Khamenei by American and Israeli forces plunges the Islamic Republic into a precarious succession crisis while escalating regional military hostilities."
 categories:
-  - "Essential Stories of the Week"
+  - "Essential stories of the week"
 tags:
   - "Iran"
 quiz:

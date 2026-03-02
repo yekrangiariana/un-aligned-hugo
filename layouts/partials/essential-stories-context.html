@@ -5,10 +5,16 @@ values via: {{ partial "essential-stories-context.html" . }} {{- $es :=
 := $es.Recent -}} {{- $sevenDaysAgo := $es.SevenDaysAgo -}} This avoids
 repeating the selection and 7‑day window logic across templates. */ -}} {{- if
 not (.Scratch.Get "EssentialStoriesContext") -}} {{- /* All Essential Stories
-(no date filter) */ -}} {{- $allPosts := where .Site.RegularPages "Section"
-"posts" -}} {{- $allEssential := where $allPosts ".Params.categories"
-"intersect" (slice "Essential Stories of the Week") -}} {{- $allEssential =
-$allEssential.ByDate.Reverse -}} {{- /* Calendar week (Mon-Sun) = "this week" */
+(no date filter) - case-insensitive matching */ -}} {{- $allPosts := where .Site.RegularPages "Section"
+"posts" -}} {{- $allEssential := slice -}}
+{{- range $allPosts -}}
+  {{- $match := false -}}
+  {{- range .Params.categories -}}
+    {{- if eq (lower .) "essential stories of the week" }}{{ $match = true }}{{ end -}}
+  {{- end -}}
+  {{- if $match }}{{ $allEssential = $allEssential | append . }}{{ end -}}
+{{- end -}}
+{{- $allEssential = sort $allEssential ".Date" "desc" -}} {{- /* Calendar week (Mon-Sun) = "this week" */
 -}} {{- $today := now.Local -}} {{- $weekday := $today.Weekday -}} {{-
 $daysFromMonday := 0 -}} {{- if eq $weekday 0 -}} {{- /* Sunday is 6 days from
 Monday */ -}} {{- $daysFromMonday = 6 -}} {{- else -}} {{- /* Monday-Saturday:
