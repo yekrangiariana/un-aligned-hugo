@@ -22,7 +22,7 @@ Backpacks lay buried in concrete dust. A red plastic slide was twisted under deb
 
 Between 10am and 10:45am on February 28, 2026, a missile struck the school directly, collapsing the building during morning lessons. In Iran, the school week runs from Saturday to Thursday, and classes were under way when the first US and Israeli strikes began shortly before 10am. 
 
-{{< photo-large src="/images/iran-minab-school-footage.gif" caption="Footage released by Iran foreign press office shows destruction inside girls' school" >}}
+{{< photo-normal src="/images/iran-minab-school-footage.gif" caption="Footage released by Iran foreign press office shows destruction inside girls' school" >}}
 
 According to Iranian authorities, at least 165 people were killed and 95 injured. Most of the dead were girls between seven and 12 years old. Independent verification has been limited by severe reporting restrictions and internet blackouts, but investigations confirm that the US and Israel deliberately targeted an active primary school, adding yet another war crime to a long, bloody record.
 
