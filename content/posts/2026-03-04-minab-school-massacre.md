@@ -3,8 +3,9 @@ title: "How US and Israeli missiles obliterated a school full of 7-year-olds"
 date: 2026-03-04T11:00:00+0300
 authors: ["Ariana Yekrangi"]
 slug: "minab-school-massacre"
-description: "As powerful leaders defy global norms and institutions falter, the question is no longer whether the world order is weakening, but what will replace it."
+description: "US and Israeli officials claim the bombing of an Iranian primary school was an intelligence failure. But satellite forensics reveal the attackers knew exactly what they were hitting."
 categories:
+ - "Human rights"
  - "Children"
 tags:
  - "Iran"
