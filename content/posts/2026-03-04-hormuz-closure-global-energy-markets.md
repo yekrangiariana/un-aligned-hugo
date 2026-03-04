@@ -8,7 +8,6 @@ categories:
   - "Essential Stories of the Week"
 tags:
   - "Iran"
-  - "Economics"
 quiz:
   - question: "What proportion of global oil supplies typically passes through the Strait of Hormuz?"
     answer: ["About a fifth", "About a third", "About half"]
