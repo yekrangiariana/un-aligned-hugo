@@ -66,7 +66,7 @@ Israeli authorities issued similar denials of knowledge. At the same time, socia
 
 One widely shared image used to support that claim was quickly debunked through reverse image searches and geolocation analysis. The photo had been taken roughly 1,300 kilometres away in Zanjan, a mountainous northwestern city that bears no resemblance to tropical Minab on the Gulf of Oman. The attempt to deflect responsibility unfolded within hours of the bombing, before any formal investigation had begun.
 
-{{< photo-custom width="50" src="/images/minab-school-massacre-2.jpg" caption="Geolocation of the snow-covered mountains proved the photo was taken 1,300km (808 miles) away in Zanjan, northwestern Iran." >}}
+{{< photo-normal src="/images/minab-school-massacre-2.jpg" caption="Geolocation of the snow-covered mountains proved the photo was taken 1,300km (808 miles) away in Zanjan, northwestern Iran." >}}
 
 The massacre in Minab fits into a longer history of Israel targeting civilian facilities, especially children, in its warfare. In 1970, Israeli jets bombed the Bahr al Baqar elementary school in Egypt, killing 46 children. In 1991, US forces bombed the Amiriyah civilian shelter in Baghdad, killing hundreds of civilians. In 1996, Israeli shelling of a United Nations compound in Qana, Lebanon, killed more than 100 people who had sought refuge there. In 2015, a US AC 130 aircraft destroyed a Doctors Without Borders hospital in Kunduz, Afghanistan, killing 42 people after its coordinates had been shared with military authorities.
 
