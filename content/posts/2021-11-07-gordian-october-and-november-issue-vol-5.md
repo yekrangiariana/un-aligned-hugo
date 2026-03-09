@@ -109,7 +109,7 @@ In this episode of Gordian Monthly Recap, Ruby Goldenberg and Ariana Yekrangi he
 
 By Adrian Liberto
 
-![](/images/Yugoslavias-Failed-Social-Contract-Lessons-Worth-Learning--1024x614.jpg)
+![](/images/Yugoslavias-Failed-Social-Contract-Lessons-Worth-Learning-.jpg)
 
 ### **When federalism is not enough**
 
