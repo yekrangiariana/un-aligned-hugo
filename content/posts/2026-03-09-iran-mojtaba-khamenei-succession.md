@@ -1,7 +1,7 @@
 ---
 title: "Has Iran become the monarchy it once overthrew?"
 slug: "iran-mojtaba-khamenei-succession"
-date: "2026-03-09T09:00:00+0300"
+date: "2026-03-09T08:00:00+0300"
 authors: ["UN-aligned"]
 description: "A revolution that overthrew a shah in the name of republican virtue now appears to have produced its own dynasty, as Mojtaba Khamenei assumes power after the killing of Ali Khamenei in a joint American and Israeli strike."
 categories:
