@@ -9,7 +9,6 @@ categories:
 tags:
   - "New Solutions With Omar"
   - "UNSC"
-image: "/images/balen-shah.webp"
 image: "/images/warren-austin-holds-up-soviet-smg-at-un-hd-sn-99-03037.webp"
 imageCaption: "At UN Security Council, Warren Austin, U.S. delegate, holds Russian-made submachine gun dated 1950, captured by American troops in July 1950. He charges that Russia is delivering arms to North Koreans. © Public domain"
 style: "3"
